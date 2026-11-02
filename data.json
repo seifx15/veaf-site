@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T19:52:00+00:00",
+ "generated": "2026-11-02T21:10:04+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -3924,5 +3924,17 @@
    "narrative": ""
   }
  ],
- "scrims": []
+ "scrims": [
+  {
+   "date": "2026-10-15",
+   "name": "TACT Friendly",
+   "opponent": "TFS 81st",
+   "type": "BVR",
+   "result": "DRAW",
+   "rounds": 4,
+   "kills_us": 13,
+   "kills_them": 15,
+   "pilots": []
+  }
+ ]
 }

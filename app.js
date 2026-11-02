@@ -17,7 +17,7 @@
       nav_pilots: "Pilots", nav_board: "Leaderboard", nav_join: "Join us", lang_other: "العربية",
       disclaimer: "VEAF is a virtual squadron of DCS World players. It is a gaming community and is not affiliated with, endorsed by or part of the Egyptian Air Force or the Egyptian Armed Forces. Ranks are squadron ranks.",
       hero_eyebrow: "DCS World · Mil-Sim squadron",
-      hero_h1: "The first Egyptian <em>mil-sim</em> squadron in DCS",
+      hero_h1: "The first Egyptian <em>mil&#8209;sim</em> squadron in DCS",
       hero_lede: "We train, fly and fight as a squadron: briefed sorties, real procedures, honest debriefs. Arabic on the radio, beginners welcome.",
       join_discord: "Join us on Discord", see_training: "See the training",
       r_pilots: "Active pilots", r_quals: "Qualifications", r_sorties: "Pilot sorties", r_air: "Air kills", r_ground: "Ground kills",
@@ -188,8 +188,8 @@
   /* --------------------------------------------------------------- pages */
   function readout() {
     var x = (DATA && DATA.totals) || {};
-    return '<div class="readout">' + [["pilots", "r_pilots"], ["sorties", "r_sorties"], ["qualifications", "r_quals"], ["air_kills", "r_air"], ["ground_kills", "r_ground"]]
-      .map(function (p) { return "<div><b>" + fmt(x[p[0]]) + "</b><span>" + esc(t(p[1])) + "</span></div>"; }).join("") + "</div>";
+    return '<div class="readout-band"><div class="wrap"><div class="readout">' + [["pilots", "r_pilots"], ["sorties", "r_sorties"], ["qualifications", "r_quals"], ["air_kills", "r_air"], ["ground_kills", "r_ground"]]
+      .map(function (p) { return "<div><b>" + fmt(x[p[0]]) + "</b><span>" + esc(t(p[1])) + "</span></div>"; }).join("") + "</div></div></div>";
   }
   function prog(p, wide) {
     var c = p[LANG];
@@ -296,7 +296,7 @@
   var boardSort = "score";
   var BOARD_COLS = [["missions", "c_missions", 0], ["score", "c_score", 1], ["average", "c_avg", 1], ["air_kills", "c_air", 0], ["ground_kills", "c_ground", 0], ["qualifications", "c_quals", 0], ["hours", "c_hours", 1]];
   function pageBoard() {
-    return head("", t("board_h"), t("board_intro")) + '<section class="band"><div class="wrap"><div class="table-wrap" id="board"></div></div></section>';
+    return head("", t("board_h"), t("board_intro")).replace('class="wrap"', 'class="wrap wide"') + '<section class="band"><div class="wrap wide"><div class="table-wrap board" id="board"></div></div></section>';
   }
   function drawBoard() {
     var box = document.getElementById("board");
@@ -306,7 +306,7 @@
       return '<th scope="col" class="n"' + (boardSort === c[0] ? ' aria-sort="descending"' : "") + '><button type="button" data-sort="' + c[0] + '">' + esc(t(c[1])) + "</button></th>";
     }).join("");
     var rows = ps.map(function (p, i) {
-      return '<tr class="' + (i < 3 ? "top3" : "") + '"><td class="pos">' + (i + 1) + '</td><td><a href="#pilot-' + slug(p.callsign) + '">' + esc(p.callsign) + "</a></td><td>" + esc(rankName(p.rank)) + "</td><td>" + esc(p.squadron || "–") + "</td>" +
+      return '<tr class="' + (i < 3 ? "top3" : "") + '"><td class="pos">' + (i + 1) + '</td><td class="txt"><a href="#pilot-' + slug(p.callsign) + '">' + esc(p.callsign) + '</a></td><td class="txt">' + esc(rankName(p.rank)) + '</td><td class="txt">' + esc(p.squadron || "–") + "</td>" +
         BOARD_COLS.map(function (c) { return '<td class="n">' + fmt(p[c[0]], c[2]) + "</td>"; }).join("") + "</tr>";
     }).join("");
     box.innerHTML = "<table><thead><tr>" + th + "</tr></thead><tbody>" + rows + "</tbody></table>";
