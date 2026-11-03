@@ -12,6 +12,18 @@
   /* ------------------------------------------------------------- strings */
   var T = {
     en: {
+      ops_eyebrow: "Operations", ops_h: "Operations", ops_intro: "Upcoming briefs and every debriefed operation, with results for each pilot and the full debrief report.",
+      upcoming_h: "Upcoming briefs", debriefed_h: "Debriefed operations", no_upcoming: "No operation is planned yet. Briefs appear here as soon as they are scheduled.",
+      no_ops: "No operations match.", all_types: "All types", search_ops: "Search operation or pilot", signed_up: "signed up", reserves: "Reserves", nobody_yet: "Nobody yet.",
+      c_report: "Report", open_report: "Open", open_full_report: "Open the full debrief report", back_ops: "← All operations", op_not_found: "That operation is not on the site.",
+      debriefed_by: "debriefed by", brief_h: "Brief", card_h: "Mission card", teams_h: "Flights", debrief_h: "Debrief", lessons_h: "Lessons learned", results_h: "Results",
+      c_ff: "Friendly", c_deaths: "Deaths", c_minutes: "Minutes", c_notes: "Notes",
+      k_time: "Mission time", k_step: "Step", k_takeoff: "Takeoff", k_tot: "Time on target", k_rtb: "RTB", k_dep: "Departure runway", k_arr: "Arrival runway", k_altn: "Alternate",
+      k_bulls: "Bullseye", k_tacan: "TACAN", k_laser: "Laser code", k_iff: "IFF", k_joker: "Joker", k_bingo: "Bingo", k_datalink: "Datalink", k_loadout: "Loadout",
+      sq_standings: "Squadron standings", pilots_word: "pilots", sorties_word: "sorties", no_squadron_short: "No squadron",
+      s_best: "Best score", s_ff: "Friendly kills", s_deaths: "Deaths", s_quals: "Qualifications", last_flown: "Last flown", board_place: "Leaderboard",
+      grades_h: "Grades", flown_h: "Flown", quals_h: "Qualifications", courses_h: "Courses", no_quals: "No qualifications yet.",
+      cs_not_started: "Not started", cs_in_progress: "In progress", cs_ready: "Ready for sign-off", cs_complete: "Complete", nav_ops: "Operations", all_ops: "All operations",
       brandsub: "Virtual Egyptian Air Force", menu: "Menu",
       nav_home: "Home", nav_about: "About", nav_training: "Training", nav_pvp: "PvP", nav_airshow: "Airshow",
       nav_pilots: "Pilots", nav_board: "Leaderboard", nav_join: "Join us", lang_other: "العربية",
@@ -42,7 +54,7 @@
       pilots_h: "Pilots", pilots_intro: "Current squadron members, their rank and the aircraft they fly. Select a pilot for their skills, qualifications and mission log.",
       all_aircraft: "All aircraft", search: "Search callsign", no_pilots: "No pilots match.",
       board_h: "Leaderboard", board_intro: "Totals from debriefed missions. Select a column to sort.",
-      c_pilot: "Pilot", c_rank: "Rank", c_squadron: "Squadron", all_squadrons: "All squadrons", c_missions: "Missions", c_score: "Score", c_avg: "Avg", c_air: "A/A kills", c_ground: "A/G kills",
+      c_pilot: "Pilot", c_rank: "Rank", c_squadron: "Squadron", all_squadrons: "All squadrons", no_squadron: "Not yet in a squadron", c_missions: "Missions", c_score: "Score", c_avg: "Avg", c_air: "A/A kills", c_ground: "A/G kills",
       c_quals: "Quals", c_hours: "Hours", c_date: "Date", c_mission: "Mission", c_type: "Type", c_grade: "Grade",
       back_pilots: "← All pilots", joined: "Joined", flies: "Flies", squadron: "Squadron",
       skills: "Skills", qualified: "QUAL", no_skills: "No skills assessed yet.",
@@ -63,6 +75,18 @@
       updated: "Squadron data updated", unranked: "Unranked"
     },
     ar: {
+      ops_eyebrow: "العمليات", ops_h: "العمليات", ops_intro: "الإيجازات القادمة وكل عملية تم تقييمها، مع نتائج كل طيار وتقرير التقييم الكامل.",
+      upcoming_h: "الإيجازات القادمة", debriefed_h: "العمليات المُقيّمة", no_upcoming: "لا توجد عملية مخططة بعد. تظهر الإيجازات هنا فور جدولتها.",
+      no_ops: "لا توجد عمليات مطابقة.", all_types: "كل الأنواع", search_ops: "ابحث عن عملية أو طيار", signed_up: "مسجل", reserves: "الاحتياط", nobody_yet: "لا أحد بعد.",
+      c_report: "التقرير", open_report: "فتح", open_full_report: "افتح تقرير التقييم الكامل", back_ops: "→ كل العمليات", op_not_found: "هذه العملية غير موجودة على الموقع.",
+      debriefed_by: "قيّمها", brief_h: "الإيجاز", card_h: "بطاقة المهمة", teams_h: "التشكيلات", debrief_h: "التقييم", lessons_h: "الدروس المستفادة", results_h: "النتائج",
+      c_ff: "نيران صديقة", c_deaths: "خسائر", c_minutes: "دقائق", c_notes: "ملاحظات",
+      k_time: "وقت المهمة", k_step: "الخروج", k_takeoff: "الإقلاع", k_tot: "الوصول للهدف", k_rtb: "العودة", k_dep: "مدرج الإقلاع", k_arr: "مدرج الهبوط", k_altn: "المطار البديل",
+      k_bulls: "Bullseye", k_tacan: "TACAN", k_laser: "كود الليزر", k_iff: "IFF", k_joker: "Joker", k_bingo: "Bingo", k_datalink: "Datalink", k_loadout: "التسليح",
+      sq_standings: "ترتيب الأسراب", pilots_word: "طيار", sorties_word: "طلعة", no_squadron_short: "بدون سرب",
+      s_best: "أفضل نتيجة", s_ff: "نيران صديقة", s_deaths: "خسائر", s_quals: "المؤهلات", last_flown: "آخر طلعة", board_place: "الترتيب",
+      grades_h: "التقديرات", flown_h: "أنواع الطلعات", quals_h: "المؤهلات", courses_h: "الدورات", no_quals: "لا توجد مؤهلات بعد.",
+      cs_not_started: "لم تبدأ", cs_in_progress: "قيد التقدم", cs_ready: "جاهز للاعتماد", cs_complete: "مكتملة", nav_ops: "العمليات", all_ops: "كل العمليات",
       brandsub: "القوات الجوية المصرية الافتراضية", menu: "القائمة",
       nav_home: "الرئيسية", nav_about: "من نحن", nav_training: "التدريب", nav_pvp: "المنافسات", nav_airshow: "العروض الجوية",
       nav_pilots: "الطيارون", nav_board: "الترتيب", nav_join: "انضم إلينا", lang_other: "English",
@@ -93,7 +117,7 @@
       pilots_h: "الطيارون", pilots_intro: "أعضاء السرب الحاليون ورتبهم والطائرات التي يطيرونها. اختر طيارًا لعرض مهاراته ومؤهلاته وسجل مهماته.",
       all_aircraft: "كل الطائرات", search: "ابحث بالنداء", no_pilots: "لا يوجد طيار مطابق.",
       board_h: "الترتيب", board_intro: "مجاميع من المهمات المُقيّمة. اختر عمودًا للترتيب.",
-      c_pilot: "الطيار", c_rank: "الرتبة", c_squadron: "السرب", all_squadrons: "كل الأسراب", c_missions: "المهمات", c_score: "النقاط", c_avg: "المتوسط", c_air: "جو-جو", c_ground: "جو-أرض",
+      c_pilot: "الطيار", c_rank: "الرتبة", c_squadron: "السرب", all_squadrons: "كل الأسراب", no_squadron: "لم ينضم إلى سرب بعد", c_missions: "المهمات", c_score: "النقاط", c_avg: "المتوسط", c_air: "جو-جو", c_ground: "جو-أرض",
       c_quals: "مؤهلات", c_hours: "ساعات", c_date: "التاريخ", c_mission: "المهمة", c_type: "النوع", c_grade: "التقدير",
       back_pilots: "→ كل الطيارين", joined: "انضم", flies: "يطير", squadron: "السرب",
       skills: "المهارات", qualified: "مؤهل", no_skills: "لم تُقيَّم مهارات بعد.",
@@ -209,7 +233,7 @@
       esc(t("train_intro")) + '</p><div class="programs">' + PROGRAMMES.map(function (p) { return prog(p); }).join("") + "</div></div></section>" +
       '<section class="band"><div class="wrap split">' + img("alexandria-break", "A pair breaking over Alexandria") + "<div><span class=\"eyebrow\">" + esc(t("pvp_eyebrow")) +
       "</span><h2>" + esc(t("pvp_h")) + "</h2><p>" + esc(t("pvp_intro")) + '</p><div class="cta-row"><a class="btn" href="#pvp">' + esc(t("nav_pvp")) + '</a><a class="btn" href="#leaderboard">' +
-      esc(t("nav_board")) + "</a></div></div></div></section>" + joinBand();
+      esc(t("nav_board")) + "</a></div></div></div></section>" + homeOps() + joinBand();
   }
   function facts() {
     return '<ul class="facts">' + [["f_lang", "f_lang_v"], ["f_focus", "f_focus_v"], ["f_who", "f_who_v"], ["f_comp", "f_comp_v"]].map(function (f) {
@@ -293,52 +317,234 @@
     box.innerHTML = html + "</div>";
   }
 
-  var boardSort = "score";
-  var BOARD_COLS = [["missions", "c_missions", 0], ["score", "c_score", 1], ["average", "c_avg", 1], ["air_kills", "c_air", 0], ["ground_kills", "c_ground", 0], ["qualifications", "c_quals", 0], ["hours", "c_hours", 1]];
+  /* ------------------------------------------------------- leaderboard */
+  var boardSort = "score", boardSq = "*";
+  var BOARD_COLS = [["missions", "c_missions", 0, ""], ["score", "c_score", 1, "sc"], ["average", "c_avg", 1, "opt"], ["air_kills", "c_air", 0, ""],
+    ["ground_kills", "c_ground", 0, "opt2"], ["qualifications", "c_quals", 0, "opt"], ["hours", "c_hours", 1, "opt"]];
+  function boardList() {
+    return ((DATA && DATA.pilots) || []).slice().sort(function (a, b) {
+      return (b.squadron ? 1 : 0) - (a.squadron ? 1 : 0) || (Number(b[boardSort]) || 0) - (Number(a[boardSort]) || 0) || String(a.callsign).localeCompare(b.callsign);
+    });
+  }
+  function squadronStandings() {
+    var by = {};
+    ((DATA && DATA.pilots) || []).forEach(function (p) {
+      var k = p.squadron || "";
+      var s = by[k] || (by[k] = { name: k, pilots: 0, missions: 0, score: 0, hours: 0, air: 0, ground: 0, quals: 0 });
+      s.pilots++; s.missions += p.missions || 0; s.score += p.score || 0; s.hours += p.hours || 0;
+      s.air += p.air_kills || 0; s.ground += p.ground_kills || 0; s.quals += p.qualifications || 0;
+    });
+    return Object.keys(by).map(function (k) { return by[k]; }).sort(function (a, b) { return (b.name ? 1 : 0) - (a.name ? 1 : 0) || b.score - a.score; });
+  }
   function pageBoard() {
-    return head("", t("board_h"), t("board_intro")).replace('class="wrap"', 'class="wrap wide"') + '<section class="band"><div class="wrap wide"><div class="table-wrap board" id="board"></div></div></section>';
+    var st = squadronStandings();
+    var cards = st.filter(function (s) { return s.name; }).map(function (s, i) {
+      return '<button type="button" class="sqcard' + (boardSq === s.name ? " on" : "") + '" data-bsq="' + esc(s.name) + '"><span class="sqpos">' + (i + 1) + '</span><span class="sqname">' + esc(s.name) +
+        '</span><span class="sqline"><b>' + fmt(s.score, 0) + "</b> " + esc(t("c_score")) + " · " + fmt(s.pilots) + " " + esc(t("pilots_word")) + " · " + fmt(s.missions) + " " + esc(t("sorties_word")) +
+        " · " + fmt(s.hours, 0) + " h</span></button>";
+    }).join("");
+    var chips = '<div class="filters" role="group" aria-label="' + esc(t("c_squadron")) + '"><button class="chip" type="button" data-bsq="*" aria-pressed="' + (boardSq === "*") + '">' + esc(t("all_squadrons")) + "</button>" +
+      st.map(function (s) {
+        var v = s.name || "-";
+        return '<button class="chip" type="button" data-bsq="' + esc(v) + '" aria-pressed="' + (boardSq === v) + '">' + esc(s.name || t("no_squadron")) + "</button>";
+      }).join("") + "</div>";
+    return head("", t("board_h"), t("board_intro")).replace('class="page-head"', 'class="page-head compact"') +
+      '<section class="band tight"><div class="wrap"><div id="podium" class="podium"></div>' +
+      (cards ? '<h2 class="h-sm">' + esc(t("sq_standings")) + '</h2><div class="sqcards">' + cards + "</div>" : "") +
+      chips + '<div class="table-wrap board" id="board"></div></div></section>';
   }
   function drawBoard() {
     var box = document.getElementById("board");
     if (!box) return;
-    var ps = ((DATA && DATA.pilots) || []).slice().sort(function (a, b) { return (Number(b[boardSort]) || 0) - (Number(a[boardSort]) || 0) || String(a.callsign).localeCompare(b.callsign); });
-    var th = '<th scope="col">#</th><th scope="col">' + esc(t("c_pilot")) + '</th><th scope="col">' + esc(t("c_rank")) + '</th><th scope="col">' + esc(t("c_squadron")) + "</th>" + BOARD_COLS.map(function (c) {
-      return '<th scope="col" class="n"' + (boardSort === c[0] ? ' aria-sort="descending"' : "") + '><button type="button" data-sort="' + c[0] + '">' + esc(t(c[1])) + "</button></th>";
+    var all = boardList();
+    var ps = all.filter(function (p) { return boardSq === "*" || (boardSq === "-" ? !p.squadron : p.squadron === boardSq); });
+    var max = Math.max.apply(null, ps.map(function (p) { return Number(p[boardSort]) || 0; }).concat([1]));
+    var pod = document.getElementById("podium");
+    if (pod) {
+      pod.innerHTML = ps.slice(0, 3).map(function (p, i) {
+        return '<a class="pod p' + (i + 1) + '" href="#pilot-' + slug(p.callsign) + '"><span class="medal">' + (i + 1) + '</span><span class="cs">' + esc(p.callsign) + '</span><span class="rk">' + esc(rankName(p.rank)) +
+          (p.squadron ? " · " + esc(p.squadron) : "") + '</span><span class="val">' + fmt(p[boardSort], 1) + " <small>" + esc(t(colLabel(boardSort))) + "</small></span></a>";
+      }).join("");
+    }
+    var cols = 3 + BOARD_COLS.length;
+    var th = '<th scope="col" class="pos">#</th><th scope="col">' + esc(t("c_pilot")) + '</th><th scope="col" class="sq">' + esc(t("c_squadron")) + "</th>" + BOARD_COLS.map(function (c) {
+      return '<th scope="col" class="n ' + c[3] + '"' + (boardSort === c[0] ? ' aria-sort="descending"' : "") + '><button type="button" data-sort="' + c[0] + '">' + esc(t(c[1])) + "</button></th>";
     }).join("");
+    var split = false;
     var rows = ps.map(function (p, i) {
-      return '<tr class="' + (i < 3 ? "top3" : "") + '"><td class="pos">' + (i + 1) + '</td><td class="txt"><a href="#pilot-' + slug(p.callsign) + '">' + esc(p.callsign) + '</a></td><td class="txt">' + esc(rankName(p.rank)) + '</td><td class="txt">' + esc(p.squadron || "–") + "</td>" +
-        BOARD_COLS.map(function (c) { return '<td class="n">' + fmt(p[c[0]], c[2]) + "</td>"; }).join("") + "</tr>";
+      var head = "";
+      if (!p.squadron && !split) {
+        split = true;
+        if (i > 0) head = '<tr class="split"><td colspan="' + cols + '">' + esc(t("no_squadron")) + "</td></tr>";
+      }
+      return head + '<tr class="' + (i < 3 ? "top3" : "") + '"><td class="pos">' + (i + 1) + '</td><td class="who"><a href="#pilot-' + slug(p.callsign) + '">' + esc(p.callsign) +
+        '</a><span class="rk">' + esc(rankName(p.rank)) + '</span></td><td class="sq">' + esc(p.squadron || "–") + "</td>" +
+        BOARD_COLS.map(function (c) {
+          var v = fmt(p[c[0]], c[2]);
+          if (c[0] === boardSort) v = '<span class="bar"><i style="width:' + Math.round(100 * (Number(p[c[0]]) || 0) / max) + '%"></i></span>' + v;
+          return '<td class="n ' + c[3] + (c[0] === boardSort ? " on" : "") + '">' + v + "</td>";
+        }).join("") + "</tr>";
     }).join("");
-    box.innerHTML = "<table><thead><tr>" + th + "</tr></thead><tbody>" + rows + "</tbody></table>";
+    box.innerHTML = ps.length ? "<table><thead><tr>" + th + "</tr></thead><tbody>" + rows + "</tbody></table>" : '<p class="empty">' + esc(t("no_pilots")) + "</p>";
+  }
+  function colLabel(k) { for (var i = 0; i < BOARD_COLS.length; i++) if (BOARD_COLS[i][0] === k) return BOARD_COLS[i][1]; return k; }
+
+  /* -------------------------------------------------------- operations */
+  var opFilter = { type: "", q: "" };
+  function opBySlug(s) {
+    var all = ((DATA && DATA.operations) || []).concat((DATA && DATA.upcoming) || []);
+    for (var i = 0; i < all.length; i++) if (all[i].id === s) return all[i];
+    return null;
+  }
+  function typeTags(o) {
+    return (o.types || []).map(function (x) { return '<span class="tag">' + esc(x) + "</span>"; }).join("") + (o.training ? '<span class="tag">' + esc(t("training_tag")) + "</span>" : "");
+  }
+  function briefCard(o) {
+    var c = o.card || {};
+    return '<a class="brief" href="#op-' + esc(o.id) + '"><span class="when">' + esc(o.date) + (c.mission_time ? " · " + esc(c.mission_time) + "Z" : "") + '</span><span class="nm">' + esc(o.name) + "</span>" +
+      '<span class="tags">' + typeTags(o) + "</span>" + (o.brief ? '<span class="ex">' + esc(String(o.brief).slice(0, 180)) + (String(o.brief).length > 180 ? "…" : "") + "</span>" : "") +
+      '<span class="cnt">' + fmt((o.signed || []).length) + " " + esc(t("signed_up")) + "</span></a>";
+  }
+  function homeOps() {
+    var up = ((DATA && DATA.upcoming) || []).slice(0, 3);
+    var recent = ((DATA && DATA.operations) || []).slice(0, 3);
+    if (!up.length && !recent.length) return "";
+    var rec = recent.map(function (o) {
+      return '<a class="brief done" href="#op-' + esc(o.id) + '"><span class="when">' + esc(o.date) + '</span><span class="nm">' + esc(o.name) + '</span><span class="tags">' + typeTags(o) + "</span>" +
+        '<span class="cnt">' + fmt(o.pilots) + " " + esc(t("pilots_word")) + (o.average != null ? " · " + esc(t("c_avg")) + " " + fmt(o.average, 1) : "") + "</span></a>";
+    }).join("");
+    return '<section class="band"><div class="wrap"><span class="eyebrow">' + esc(t("ops_eyebrow")) + "</span><h2>" + esc(t("ops_h")) + "</h2>" +
+      (up.length ? '<h3 class="h-sm">' + esc(t("upcoming_h")) + '</h3><div class="upcoming">' + up.map(briefCard).join("") + "</div>" : "") +
+      (rec ? '<h3 class="h-sm">' + esc(t("debriefed_h")) + '</h3><div class="upcoming">' + rec + "</div>" : "") +
+      '<p style="margin-top:18px"><a class="btn" href="#operations">' + esc(t("all_ops")) + "</a></p></div></section>";
+  }
+  function pageOps() {
+    var up = (DATA && DATA.upcoming) || [];
+    var types = {};
+    ((DATA && DATA.operations) || []).forEach(function (o) { (o.types || []).forEach(function (x) { types[x] = (types[x] || 0) + 1; }); });
+    var upHtml = up.length ? '<div class="upcoming">' + up.map(briefCard).join("") + "</div>" : '<p class="empty">' + esc(t("no_upcoming")) + "</p>";
+    var chips = '<div class="filters" role="group"><button class="chip" type="button" data-otype="" aria-pressed="' + (!opFilter.type) + '">' + esc(t("all_types")) + "</button>" +
+      Object.keys(types).sort(function (a, b) { return types[b] - types[a]; }).map(function (x) {
+        return '<button class="chip" type="button" data-otype="' + esc(x) + '" aria-pressed="' + (opFilter.type === x) + '">' + esc(x) + " (" + types[x] + ")</button>";
+      }).join("") + '<input class="search" id="op-search" type="search" placeholder="' + esc(t("search_ops")) + '" aria-label="' + esc(t("search_ops")) + '" value="' + esc(opFilter.q) + '"></div>';
+    return head(t("ops_eyebrow"), t("ops_h"), t("ops_intro")).replace('class="page-head"', 'class="page-head compact"') +
+      '<section class="band tight"><div class="wrap"><h2 class="h-sm">' + esc(t("upcoming_h")) + "</h2>" + upHtml + "</div></section>" +
+      '<section class="band tight"><div class="wrap"><h2 class="h-sm">' + esc(t("debriefed_h")) + "</h2>" + chips + '<div id="oplist"></div></div></section>';
+  }
+  function drawOps() {
+    var box = document.getElementById("oplist");
+    if (!box) return;
+    var q = opFilter.q.trim().toLowerCase();
+    var os = ((DATA && DATA.operations) || []).filter(function (o) {
+      return (!opFilter.type || (o.types || []).indexOf(opFilter.type) >= 0) &&
+        (!q || (o.name + " " + (o.results || []).map(function (r) { return r.callsign; }).join(" ")).toLowerCase().indexOf(q) >= 0);
+    });
+    if (!os.length) { box.innerHTML = '<p class="empty">' + esc(t("no_ops")) + "</p>"; return; }
+    box.innerHTML = '<div class="table-wrap"><table class="ops"><thead><tr><th scope="col">' + esc(t("c_date")) + '</th><th scope="col">' + esc(t("c_mission")) + '</th><th scope="col" class="opt">' +
+      esc(t("c_type")) + '</th><th scope="col" class="n">' + esc(t("nav_pilots")) + '</th><th scope="col" class="n">' + esc(t("c_avg")) + '</th><th scope="col" class="n opt">' + esc(t("c_air")) +
+      '</th><th scope="col" class="n opt">' + esc(t("c_ground")) + '</th><th scope="col" class="opt2">' + esc(t("c_report")) + "</th></tr></thead><tbody>" + os.map(function (o) {
+        return '<tr><td class="mono">' + esc(o.date) + '</td><td class="who"><a href="#op-' + esc(o.id) + '">' + esc(o.name) + '</a></td><td class="opt">' + typeTags(o) + '</td><td class="n">' + fmt(o.pilots) +
+          '</td><td class="n">' + fmt(o.average, 1) + '</td><td class="n opt">' + fmt(o.air_kills) + '</td><td class="n opt">' + fmt(o.ground_kills) + '</td><td class="opt2">' +
+          (o.report ? '<a href="' + esc(o.report) + '" target="_blank" rel="noopener">' + esc(t("open_report")) + "</a>" : "–") + "</td></tr>";
+      }).join("") + "</tbody></table></div>";
+  }
+  function cardGrid(c) {
+    var keys = [["mission_time", "k_time", "Z"], ["step", "k_step", "Z"], ["takeoff", "k_takeoff", "Z"], ["tot", "k_tot", "Z"], ["rtb", "k_rtb", "Z"], ["dep_rwy", "k_dep"], ["arr_rwy", "k_arr"],
+      ["altn", "k_altn"], ["bulls", "k_bulls"], ["tacan", "k_tacan"], ["laser", "k_laser"], ["iff", "k_iff"], ["joker", "k_joker"], ["bingo", "k_bingo"], ["datalink", "k_datalink"], ["loadout", "k_loadout"]];
+    var cells = keys.filter(function (k) { return c[k[0]]; }).map(function (k) {
+      return '<div><span>' + esc(t(k[1])) + '</span><b>' + esc(c[k[0]]) + (k[2] || "") + "</b></div>";
+    });
+    (c.freqs || []).forEach(function (f) { cells.push("<div><span>" + esc(f.label || "") + "</span><b>" + esc(f.mhz || "") + " MHz</b></div>"); });
+    (c.headings || []).forEach(function (h) { cells.push("<div><span>" + esc(h.label || "") + "</span><b>" + esc(h.deg || "") + "°</b></div>"); });
+    return cells.length ? '<div class="card-grid">' + cells.join("") + "</div>" : "";
+  }
+  function pageOp(s) {
+    var o = opBySlug(s);
+    var back = '<a class="back" href="#operations">' + esc(t("back_ops")) + "</a>";
+    if (!o) return '<section class="band"><div class="wrap">' + back + '<p class="empty">' + esc(t("op_not_found")) + "</p></div></section>";
+    var planned = !o.results;
+    var c = o.card || {};
+    var html = '<section class="band tight"><div class="wrap">' + back + '<span class="eyebrow">' + esc(planned ? t("upcoming_h") : t("debriefed_h")) + "</span><h1 class=\"op-h\">" + esc(o.name) + "</h1>" +
+      '<p class="op-meta"><span class="mono">' + esc(o.date) + (c.mission_time ? " · " + esc(c.mission_time) + "Z" : "") + "</span> " + typeTags(o) +
+      (o.instructor ? ' <span class="muted">· ' + esc(t("debriefed_by")) + " " + esc(o.instructor) + "</span>" : "") + "</p>" +
+      (o.report ? '<p><a class="btn primary" href="' + esc(o.report) + '" target="_blank" rel="noopener">' + esc(t("open_full_report")) + "</a></p>" : "");
+    if (o.brief) html += '<h2 class="h-sm">' + esc(t("brief_h")) + '</h2><div class="prose">' + esc(o.brief).replace(/\n/g, "<br>") + "</div>";
+    var grid = cardGrid(c);
+    if (grid) html += '<h2 class="h-sm">' + esc(t("card_h")) + "</h2>" + grid;
+    if ((o.teams || []).length) {
+      html += '<h2 class="h-sm">' + esc(t("teams_h")) + '</h2><div class="teams">' + o.teams.map(function (tm) {
+        return '<div class="team"><b>' + esc(tm.name) + "</b>" + (tm.task ? ' <span class="tag">' + esc(tm.task) + "</span>" : "") +
+          '<ul>' + (tm.pilots || []).map(function (n) { return "<li>" + pilotLink(n) + "</li>"; }).join("") + "</ul></div>";
+      }).join("") + "</div>";
+    }
+    if (planned) {
+      html += '<h2 class="h-sm">' + esc(t("signed_up")) + "</h2><p>" + ((o.signed || []).map(pilotLink).join(", ") || esc(t("nobody_yet"))) +
+        ((o.reserves || []).length ? '<br><span class="muted">' + esc(t("reserves")) + ": " + o.reserves.map(pilotLink).join(", ") + "</span>" : "") + "</p>";
+    } else {
+      if (o.narrative) html += '<h2 class="h-sm">' + esc(t("debrief_h")) + '</h2><div class="prose">' + esc(o.narrative).replace(/\n/g, "<br>") + "</div>";
+      if ((o.lessons || []).length) html += '<h2 class="h-sm">' + esc(t("lessons_h")) + '</h2><ul class="lessons">' + o.lessons.map(function (l) { return "<li>" + esc(l) + "</li>"; }).join("") + "</ul>";
+      html += '<h2 class="h-sm">' + esc(t("results_h")) + '</h2><div class="table-wrap"><table class="res"><thead><tr><th scope="col">' + esc(t("c_pilot")) + '</th><th scope="col" class="opt">' + esc(t("c_squadron")) +
+        '</th><th scope="col">' + esc(t("c_grade")) + '</th><th scope="col" class="n">' + esc(t("c_score")) + '</th><th scope="col" class="n">' + esc(t("c_air")) + '</th><th scope="col" class="n">' + esc(t("c_ground")) +
+        '</th><th scope="col" class="n opt">' + esc(t("c_ff")) + '</th><th scope="col" class="n opt">' + esc(t("c_deaths")) + '</th><th scope="col" class="n opt">' + esc(t("c_minutes")) + '</th><th scope="col" class="opt2">' +
+        esc(t("c_notes")) + "</th></tr></thead><tbody>" + (o.results || []).map(function (r) {
+          var g = String(r.grade || "-").charAt(0).toUpperCase();
+          var notes = [r.note].concat(r.highlights || []).filter(Boolean).slice(0, 2).map(esc).join("<br>");
+          return '<tr><td class="who">' + (r.member ? pilotLink(r.callsign) : esc(r.callsign)) + '</td><td class="opt">' + esc(r.squadron || "–") + '</td><td><span class="grade ' + esc(g) + '">' + esc(r.grade || "–") +
+            '</span></td><td class="n">' + fmt(r.score, 1) + '</td><td class="n">' + fmt(r.air_kills) + '</td><td class="n">' + fmt(r.ground_kills) + '</td><td class="n opt">' + fmt(r.friendly_kills) +
+            '</td><td class="n opt">' + fmt(r.deaths) + '</td><td class="n opt">' + fmt(r.minutes) + '</td><td class="opt2 note">' + (notes || "–") + "</td></tr>";
+        }).join("") + "</tbody></table></div>";
+    }
+    return html + "</div></section>";
+  }
+  function pilotLink(name) {
+    return pilotBySlug(slug(name)) ? '<a href="#pilot-' + slug(name) + '">' + esc(name) + "</a>" : esc(name);
   }
 
+  /* ------------------------------------------------------ pilot profile */
   function pagePilot(s) {
     var p = pilotBySlug(s);
     var back = '<a class="back" href="#pilots">' + esc(t("back_pilots")) + "</a>";
     if (!p) return '<section class="band"><div class="wrap">' + back + '<p class="empty">' + esc(t("not_found")) + "</p></div></section>";
     var r = p.rank || {};
+    var place = boardList().indexOf(p) + 1;
     var plate = '<div class="nameplate"><span class="cs">' + esc(p.callsign) + '</span><span class="rankline">' + (r.ar ? '<span class="ar" lang="ar">' + esc(r.ar) + "</span>" : "") +
       (r.en && r.en !== r.ar ? "<span>" + esc(r.en) + "</span>" : "") + (r.insignia ? '<span class="ins">' + esc(r.insignia) + "</span>" : "") + "</span></div>";
-    var meta = '<ul class="facts">' + (p.aircraft && p.aircraft.length ? "<li><span>" + esc(t("flies")) + "</span><span>" + esc(p.aircraft.join(" · ")) + "</span></li>" : "") +
-      (p.squadron ? "<li><span>" + esc(t("squadron")) + "</span><span>" + esc(p.squadron) + "</span></li>" : "") +
-      (p.joined ? "<li><span>" + esc(t("joined")) + '</span><span class="mono">' + esc(p.joined) + "</span></li>" : "") + "</ul>";
-    var stats = '<div class="stats">' + [["missions", "s_missions", 0], ["score", "s_score", 1], ["average", "s_avg", 1], ["air_kills", "s_air", 0], ["ground_kills", "s_ground", 0], ["hours", "s_hours", 1]]
+    var meta = '<ul class="facts">' + [["c_squadron", p.squadron], ["flies", (p.aircraft || []).join(" · ")], ["joined", p.joined], ["last_flown", p.last_flown],
+      ["board_place", place ? "#" + place + " / " + ((DATA && DATA.pilots) || []).length : ""]].filter(function (x) { return x[1]; }).map(function (x) {
+        return "<li><span>" + esc(t(x[0])) + "</span><span>" + esc(x[1]) + "</span></li>";
+      }).join("") + "</ul>";
+    var stats = '<div class="stats">' + [["missions", "s_missions", 0], ["score", "s_score", 1], ["average", "s_avg", 1], ["best", "s_best", 1], ["hours", "s_hours", 1], ["air_kills", "s_air", 0],
+      ["ground_kills", "s_ground", 0], ["friendly_kills", "s_ff", 0], ["deaths", "s_deaths", 0], ["qualifications", "s_quals", 0]]
       .map(function (x) { return "<div><b>" + fmt(p[x[0]], x[2]) + "</b><span>" + esc(t(x[1])) + "</span></div>"; }).join("") + "</div>";
+    var gr = p.grades || {}, gt = 0;
+    "ABCDF".split("").forEach(function (g) { gt += gr[g] || 0; });
+    var grades = gt ? '<div class="gradebar">' + "ABCDF".split("").filter(function (g) { return gr[g]; }).map(function (g) {
+      return '<i class="g' + g + '" style="flex:' + gr[g] + '" title="' + g + ": " + gr[g] + '">' + g + " " + gr[g] + "</i>";
+    }).join("") + "</div>" : '<p class="muted">' + esc(t("no_history")) + "</p>";
+    var kinds = Object.keys(p.mission_types || {});
+    var kindHtml = kinds.length ? '<div class="kinds">' + kinds.map(function (k) { return '<span class="tag">' + esc(k) + " × " + p.mission_types[k] + "</span>"; }).join("") + "</div>" : "";
+    var quals = (p.skills || []).filter(function (k) { return k.qualified; });
+    var qualHtml = quals.length ? '<div class="kinds">' + quals.map(function (k) { return '<span class="q big">' + esc(k.name) + "</span>"; }).join("") + "</div>" : '<p class="muted">' + esc(t("no_quals")) + "</p>";
+    var courses = (p.courses || []).length ? '<ul class="courses">' + p.courses.map(function (c) {
+      return '<li><span>' + esc(c.title) + '</span><span class="cst ' + esc(c.status) + '">' + esc(t("cs_" + c.status) || c.status) + "</span></li>";
+    }).join("") + "</ul>" : "";
     var skills = (p.skills || []).length ? '<div class="skills">' + p.skills.map(function (k) {
       var pct = k.score == null ? 0 : Math.max(0, Math.min(100, (Number(k.score) / (k.max || 5)) * 100));
       return '<div class="skill"><span class="nm">' + esc(k.name) + (k.qualified ? '<span class="q">' + esc(t("qualified")) + "</span>" : "") + '</span><span class="sc">' +
         (k.score == null ? "–" : fmt(k.score, 1) + " / " + fmt(k.max)) + '</span><span class="meter"><i style="width:' + pct.toFixed(0) + '%"></i></span></div>';
     }).join("") + "</div>" : '<p class="empty">' + esc(t("no_skills")) + "</p>";
-    var hist = (p.history || []).length ? '<div class="table-wrap"><table><thead><tr><th scope="col">' + esc(t("c_date")) + '</th><th scope="col">' + esc(t("c_mission")) + '</th><th scope="col">' +
+    var hist = (p.history || []).length ? '<div class="table-wrap"><table class="res"><thead><tr><th scope="col">' + esc(t("c_date")) + '</th><th scope="col">' + esc(t("c_mission")) + '</th><th scope="col" class="opt">' +
       esc(t("c_type")) + '</th><th scope="col">' + esc(t("c_grade")) + '</th><th scope="col" class="n">' + esc(t("c_score")) + '</th><th scope="col" class="n">' + esc(t("c_air")) +
-      '</th><th scope="col" class="n">' + esc(t("c_ground")) + "</th></tr></thead><tbody>" + p.history.map(function (h) {
+      '</th><th scope="col" class="n">' + esc(t("c_ground")) + '</th><th scope="col" class="n opt">' + esc(t("c_minutes")) + "</th></tr></thead><tbody>" + p.history.map(function (h) {
         var g = String(h.grade || "-").charAt(0).toUpperCase();
-        return '<tr><td class="mono">' + esc(h.date) + "</td><td>" + esc(h.name) + "</td><td>" + (h.types || []).map(function (x) { return '<span class="tag">' + esc(x) + "</span>"; }).join("") +
-          (h.training ? '<span class="tag">' + esc(t("training_tag")) + "</span>" : "") + '</td><td><span class="grade ' + esc(g) + '">' + esc(h.grade || "–") + '</span></td><td class="n">' +
-          fmt(h.score, 1) + '</td><td class="n">' + fmt(h.air_kills) + '</td><td class="n">' + fmt(h.ground_kills) + "</td></tr>";
+        return '<tr><td class="mono">' + esc(h.date) + '</td><td class="who"><a href="#op-' + esc(h.op) + '">' + esc(h.name) + "</a>" + (h.highlight ? '<span class="rk">' + esc(h.highlight) + "</span>" : "") +
+          '</td><td class="opt">' + typeTags(h) + '</td><td><span class="grade ' + esc(g) + '">' + esc(h.grade || "–") + '</span></td><td class="n">' + fmt(h.score, 1) + '</td><td class="n">' + fmt(h.air_kills) +
+          '</td><td class="n">' + fmt(h.ground_kills) + '</td><td class="n opt">' + fmt(h.minutes) + "</td></tr>";
       }).join("") + "</tbody></table></div>" : '<p class="empty">' + esc(t("no_history")) + "</p>";
-    return '<section class="band"><div class="wrap">' + back + '<div class="profile-head"><div>' + plate + "</div>" + meta + "</div>" + stats +
-      '<div class="two"><div><h2>' + esc(t("skills")) + "</h2>" + skills + "</div><div><h2>" + esc(t("history")) + "</h2>" + hist + "</div></div></div></section>";
+    return '<section class="band tight"><div class="wrap">' + back + '<div class="profile-head"><div>' + plate + "</div>" + meta + "</div>" + stats +
+      '<div class="two"><div><h2 class="h-sm">' + esc(t("grades_h")) + "</h2>" + grades + '<h2 class="h-sm">' + esc(t("flown_h")) + "</h2>" + (kindHtml || '<p class="muted">–</p>') +
+      '<h2 class="h-sm">' + esc(t("quals_h")) + "</h2>" + qualHtml + (courses ? '<h2 class="h-sm">' + esc(t("courses_h")) + "</h2>" + courses : "") +
+      '<h2 class="h-sm">' + esc(t("skills")) + "</h2>" + skills + '</div><div><h2 class="h-sm">' + esc(t("history")) + "</h2>" + hist + "</div></div></div></section>";
   }
 
   function pageJoin() {
@@ -352,21 +558,22 @@
   }
 
   /* -------------------------------------------------------------- router */
-  var ROUTES = { home: pageHome, about: pageAbout, training: pageTraining, pvp: pagePvp, airshow: pageAirshow, pilots: pagePilots, leaderboard: pageBoard, join: pageJoin };
+  var ROUTES = { home: pageHome, about: pageAbout, training: pageTraining, pvp: pagePvp, airshow: pageAirshow, pilots: pagePilots, leaderboard: pageBoard, operations: pageOps, join: pageJoin };
   function route() {
     var h = (location.hash || "").replace(/^#/, "") || "home";
     var main = document.getElementById("main");
     var html;
     if (h.indexOf("pilot-") === 0) html = pagePilot(h.slice(6));
+    else if (h.indexOf("op-") === 0) html = pageOp(h.slice(3));
     else html = (ROUTES[h] || pageHome)();
     main.innerHTML = html;
-    var cur = h.indexOf("pilot-") === 0 ? "pilots" : (ROUTES[h] ? h : "home");
+    var cur = h.indexOf("pilot-") === 0 ? "pilots" : h.indexOf("op-") === 0 ? "operations" : (ROUTES[h] ? h : "home");
     Array.prototype.forEach.call(document.querySelectorAll(".nav a"), function (a) {
       if (a.getAttribute("href") === "#" + cur) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
     });
     document.getElementById("nav").classList.remove("open");
     document.getElementById("menu-btn").setAttribute("aria-expanded", "false");
-    drawRoster(); drawBoard();
+    drawRoster(); drawBoard(); drawOps();
     window.scrollTo(0, 0);
   }
 
@@ -384,7 +591,7 @@
 
   /* -------------------------------------------------------------- events */
   document.addEventListener("click", function (e) {
-    var el = e.target.closest ? e.target.closest("[data-ac],[data-sq],[data-sort],#lang,#menu-btn,img[data-full],.lightbox") : null;
+    var el = e.target.closest ? e.target.closest("[data-ac],[data-sq],[data-bsq],[data-otype],[data-sort],#lang,#menu-btn,img[data-full],.lightbox") : null;
     if (!el) return;
     if (el.classList.contains("lightbox")) { el.remove(); return; }
     if (el.id === "lang") {
@@ -407,6 +614,20 @@
       drawRoster(); return;
     }
     if (el.hasAttribute("data-sort")) { boardSort = el.getAttribute("data-sort"); drawBoard(); return; }
+    if (el.hasAttribute("data-bsq")) {
+      var v = el.getAttribute("data-bsq");
+      boardSq = boardSq === v && v !== "*" ? "*" : v;
+      Array.prototype.forEach.call(document.querySelectorAll("[data-bsq]"), function (c) {
+        var cv = c.getAttribute("data-bsq");
+        if (c.classList.contains("chip")) c.setAttribute("aria-pressed", String(cv === boardSq)); else c.classList.toggle("on", cv === boardSq);
+      });
+      drawBoard(); return;
+    }
+    if (el.hasAttribute("data-otype")) {
+      opFilter.type = el.getAttribute("data-otype");
+      Array.prototype.forEach.call(document.querySelectorAll("[data-otype]"), function (c) { c.setAttribute("aria-pressed", String(c === el)); });
+      drawOps(); return;
+    }
     if (el.tagName === "IMG" && el.closest(".gallery, .feature")) {
       var lb = document.createElement("div"); lb.className = "lightbox"; lb.setAttribute("role", "dialog"); lb.setAttribute("aria-label", el.alt);
       lb.innerHTML = '<img src="' + el.getAttribute("data-full") + '" alt="' + esc(el.alt) + '">';
@@ -414,7 +635,8 @@
     }
   });
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") { var lb = document.querySelector(".lightbox"); if (lb) lb.remove(); } });
-  document.addEventListener("input", function (e) { if (e.target.id === "pilot-search") { rosterFilter.q = e.target.value; drawRoster(); } });
+  document.addEventListener("input", function (e) { if (e.target.id === "pilot-search") { rosterFilter.q = e.target.value; drawRoster(); }
+    if (e.target.id === "op-search") { opFilter.q = e.target.value; drawOps(); } });
   window.addEventListener("hashchange", route);
 
   applyLang();
