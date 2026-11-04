@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T20:46:09+00:00",
+ "generated": "2026-11-04T21:57:15+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -12119,7 +12119,7 @@
    "brief": "",
    "card": {
     "mission_date": "2026-11-04",
-    "mission_time": "21:00",
+    "mission_time": "22:00",
     "laser": "1688",
     "freqs": [
      {
