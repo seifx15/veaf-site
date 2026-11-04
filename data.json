@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T18:05:53+00:00",
+ "generated": "2026-11-04T18:06:53+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -12119,7 +12119,28 @@
    "brief": "",
    "card": {
     "mission_date": "2026-11-04",
-    "mission_time": "21:00"
+    "mission_time": "21:00",
+    "laser": "1688",
+    "freqs": [
+     {
+      "label": "CHECK-IN",
+      "mhz": ""
+     },
+     {
+      "label": "TACTICAL",
+      "mhz": ""
+     }
+    ],
+    "headings": [
+     {
+      "label": "PUSH",
+      "deg": ""
+     },
+     {
+      "label": "EGRESS",
+      "deg": ""
+     }
+    ]
    },
    "teams": [
     {
@@ -12129,7 +12150,8 @@
      "pilots": [
       "Blacksky",
       "Sword",
-      "Megatron"
+      "Megatron",
+      "[EAF] Taha"
      ]
     },
     {
@@ -12142,11 +12164,10 @@
    "signed": [
     "Blacksky",
     "Sword",
+    "[EAF] Taha",
     "Megatron"
    ],
-   "reserves": [
-    "[EAF] Taha"
-   ]
+   "reserves": []
   }
  ],
  "scrims": [
