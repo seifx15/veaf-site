@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-03T00:54:09+00:00",
+ "generated": "2026-11-04T18:03:52+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
   "server": ""
  },
  "totals": {
-  "pilots": 72,
+  "pilots": 75,
   "missions": 56,
   "sorties": 186,
   "qualifications": 48,
@@ -4168,36 +4168,6 @@
    "history": []
   },
   {
-   "callsign": "Ahmed",
-   "rank": {
-    "full": "ملازم | Lieutenant | 𓅪☆",
-    "ar": "ملازم",
-    "en": "Lieutenant",
-    "insignia": "𓅪☆"
-   },
-   "rank_order": 10,
-   "squadron": "",
-   "joined": "2026-07-16",
-   "aircraft": [],
-   "bio": "",
-   "missions": 0,
-   "score": 0.0,
-   "average": null,
-   "best": null,
-   "air_kills": 0,
-   "ground_kills": 0,
-   "friendly_kills": 0,
-   "deaths": 0,
-   "hours": 0.0,
-   "last_flown": "",
-   "grades": {},
-   "mission_types": {},
-   "skills": [],
-   "qualifications": 0,
-   "courses": [],
-   "history": []
-  },
-  {
    "callsign": "Alaa",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -5441,36 +5411,6 @@
    ]
   },
   {
-   "callsign": "Walid ( Montu)",
-   "rank": {
-    "full": "ملازم | Lieutenant | 𓅪☆",
-    "ar": "ملازم",
-    "en": "Lieutenant",
-    "insignia": "𓅪☆"
-   },
-   "rank_order": 10,
-   "squadron": "",
-   "joined": "2026-07-08",
-   "aircraft": [],
-   "bio": "",
-   "missions": 0,
-   "score": 0.0,
-   "average": null,
-   "best": null,
-   "air_kills": 0,
-   "ground_kills": 0,
-   "friendly_kills": 0,
-   "deaths": 0,
-   "hours": 0.0,
-   "last_flown": "",
-   "grades": {},
-   "mission_types": {},
-   "skills": [],
-   "qualifications": 0,
-   "courses": [],
-   "history": []
-  },
-  {
    "callsign": "WANZER",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -5501,6 +5441,36 @@
    "history": []
   },
   {
+   "callsign": "'Aresdin 👁️",
+   "rank": {
+    "full": "طالب | Student",
+    "ar": "طالب",
+    "en": "Student",
+    "insignia": ""
+   },
+   "rank_order": 11,
+   "squadron": "",
+   "joined": "2026-11-04",
+   "aircraft": [],
+   "bio": "",
+   "missions": 0,
+   "score": 0.0,
+   "average": null,
+   "best": null,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "friendly_kills": 0,
+   "deaths": 0,
+   "hours": 0.0,
+   "last_flown": "",
+   "grades": {},
+   "mission_types": {},
+   "skills": [],
+   "qualifications": 0,
+   "courses": [],
+   "history": []
+  },
+  {
    "callsign": "[EAF] Fate",
    "rank": {
     "full": "طالب | Student",
@@ -5511,6 +5481,36 @@
    "rank_order": 11,
    "squadron": "",
    "joined": "2026-09-25",
+   "aircraft": [],
+   "bio": "",
+   "missions": 0,
+   "score": 0.0,
+   "average": null,
+   "best": null,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "friendly_kills": 0,
+   "deaths": 0,
+   "hours": 0.0,
+   "last_flown": "",
+   "grades": {},
+   "mission_types": {},
+   "skills": [],
+   "qualifications": 0,
+   "courses": [],
+   "history": []
+  },
+  {
+   "callsign": "[EAF] Taha",
+   "rank": {
+    "full": "طالب | Student",
+    "ar": "طالب",
+    "en": "Student",
+    "insignia": ""
+   },
+   "rank_order": 11,
+   "squadron": "",
+   "joined": "2026-11-04",
    "aircraft": [],
    "bio": "",
    "missions": 0,
@@ -5571,6 +5571,36 @@
    "rank_order": 11,
    "squadron": "",
    "joined": "2026-10-17",
+   "aircraft": [],
+   "bio": "",
+   "missions": 0,
+   "score": 0.0,
+   "average": null,
+   "best": null,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "friendly_kills": 0,
+   "deaths": 0,
+   "hours": 0.0,
+   "last_flown": "",
+   "grades": {},
+   "mission_types": {},
+   "skills": [],
+   "qualifications": 0,
+   "courses": [],
+   "history": []
+  },
+  {
+   "callsign": "Ahmed",
+   "rank": {
+    "full": "طالب | Student",
+    "ar": "طالب",
+    "en": "Student",
+    "insignia": ""
+   },
+   "rank_order": 11,
+   "squadron": "",
+   "joined": "2026-07-16",
    "aircraft": [],
    "bio": "",
    "missions": 0,
@@ -5886,6 +5916,36 @@
    "history": []
   },
   {
+   "callsign": "mach",
+   "rank": {
+    "full": "طالب | Student",
+    "ar": "طالب",
+    "en": "Student",
+    "insignia": ""
+   },
+   "rank_order": 11,
+   "squadron": "",
+   "joined": "2026-11-04",
+   "aircraft": [],
+   "bio": "",
+   "missions": 0,
+   "score": 0.0,
+   "average": null,
+   "best": null,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "friendly_kills": 0,
+   "deaths": 0,
+   "hours": 0.0,
+   "last_flown": "",
+   "grades": {},
+   "mission_types": {},
+   "skills": [],
+   "qualifications": 0,
+   "courses": [],
+   "history": []
+  },
+  {
    "callsign": "mannan2349",
    "rank": {
     "full": "طالب | Student",
@@ -6166,6 +6226,36 @@
    "rank_order": 11,
    "squadron": "",
    "joined": "2026-10-14",
+   "aircraft": [],
+   "bio": "",
+   "missions": 0,
+   "score": 0.0,
+   "average": null,
+   "best": null,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "friendly_kills": 0,
+   "deaths": 0,
+   "hours": 0.0,
+   "last_flown": "",
+   "grades": {},
+   "mission_types": {},
+   "skills": [],
+   "qualifications": 0,
+   "courses": [],
+   "history": []
+  },
+  {
+   "callsign": "Walid ( Montu)",
+   "rank": {
+    "full": "طالب | Student",
+    "ar": "طالب",
+    "en": "Student",
+    "insignia": ""
+   },
+   "rank_order": 11,
+   "squadron": "",
+   "joined": "2026-07-08",
    "aircraft": [],
    "bio": "",
    "missions": 0,
@@ -12018,7 +12108,37 @@
    "report": ""
   }
  ],
- "upcoming": [],
+ "upcoming": [
+  {
+   "id": "op-846de55f6fae",
+   "date": "2026-11-04",
+   "name": "Basic Surface Attack | Tactical Pattern",
+   "types": [
+    "CCIP"
+   ],
+   "brief": "",
+   "card": {
+    "mission_date": "2026-11-04",
+    "mission_time": "21:00"
+   },
+   "teams": [
+    {
+     "name": "Viper",
+     "task": "TRAINING",
+     "size": 4,
+     "pilots": []
+    },
+    {
+     "name": "Cobra",
+     "task": "TRAINING",
+     "size": 4,
+     "pilots": []
+    }
+   ],
+   "signed": [],
+   "reserves": []
+  }
+ ],
  "scrims": [
   {
    "date": "2026-10-15",
