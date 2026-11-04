@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T21:57:15+00:00",
+ "generated": "2026-11-04T22:03:16+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -12121,6 +12121,7 @@
     "mission_date": "2026-11-04",
     "mission_time": "22:00",
     "laser": "1688",
+    "datalink": "010-024",
     "freqs": [
      {
       "label": "CHECK-IN",
@@ -12149,7 +12150,7 @@
      "size": 4,
      "pilots": [
       "Blacksky",
-      "Sword",
+      "Titan",
       "Megatron",
       "[EAF] Taha"
      ]
@@ -12159,7 +12160,7 @@
      "task": "TRAINING",
      "size": 4,
      "pilots": [
-      "Titan",
+      "Sword",
       "black Mamba"
      ]
     }
