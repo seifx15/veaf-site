@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T03:18:59+00:00",
+ "generated": "2026-11-05T03:22:04+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,10 +7,10 @@
  },
  "totals": {
   "pilots": 76,
-  "missions": 57,
-  "sorties": 191,
+  "missions": 58,
+  "sorties": 194,
   "qualifications": 48,
-  "hours": 158.8,
+  "hours": 161.0,
   "air_kills": 84,
   "ground_kills": 25
  },
@@ -870,27 +870,27 @@
     "F/A-18C Hornet"
    ],
    "bio": "",
-   "missions": 22,
-   "score": 1486.6,
-   "average": 67.3,
+   "missions": 23,
+   "score": 1586.6,
+   "average": 68.7,
    "best": 108.0,
    "air_kills": 2,
    "ground_kills": 1,
    "friendly_kills": 0,
    "deaths": 0,
-   "hours": 20.7,
+   "hours": 21.4,
    "last_flown": "2026-11-05",
    "grades": {
+    "A": 4,
     "D": 7,
     "C": 6,
     "F": 1,
-    "B": 5,
-    "A": 3
+    "B": 5
    },
    "mission_types": {
     "TRAINING": 7,
-    "A-A": 5,
-    "CCIP": 4,
+    "A-A": 6,
+    "CCIP": 5,
     "BFM": 3,
     "SEAD": 3,
     "BVR": 2,
@@ -898,6 +898,20 @@
     "STRIKE": 1
    },
    "skills": [
+    {
+     "name": "1 V 2 ACM",
+     "type": "A-A",
+     "score": 10.0,
+     "max": 10,
+     "qualified": true
+    },
+    {
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 10.0,
+     "max": 10,
+     "qualified": true
+    },
     {
      "name": "Communications",
      "type": "GENERAL",
@@ -913,23 +927,16 @@
      "qualified": true
     },
     {
+     "name": "Missile Kinematics",
+     "type": "A-A",
+     "score": 10.0,
+     "max": 10,
+     "qualified": true
+    },
+    {
      "name": "SEAD",
      "type": "SEAD",
      "score": 7.0,
-     "max": 10,
-     "qualified": true
-    },
-    {
-     "name": "1 V 2 ACM",
-     "type": "A-A",
-     "score": 6.5,
-     "max": 10,
-     "qualified": true
-    },
-    {
-     "name": "Missile Kinematics",
-     "type": "A-A",
-     "score": 6.5,
      "max": 10,
      "qualified": true
     },
@@ -941,11 +948,11 @@
      "qualified": true
     },
     {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
-     "score": 6.0,
+     "name": "Notching",
+     "type": "A-A",
+     "score": 10.0,
      "max": 10,
-     "qualified": true
+     "qualified": false
     },
     {
      "name": "Basic Fighter Maneuver (BFM)",
@@ -953,18 +960,40 @@
      "score": 6.5,
      "max": 10,
      "qualified": false
-    },
-    {
-     "name": "Notching",
-     "type": "A-A",
-     "score": 6.5,
-     "max": 10,
-     "qualified": false
     }
    ],
    "qualifications": 7,
-   "courses": [],
+   "courses": [
+    {
+     "title": "Beyond Visual Range",
+     "code": "BVR-1",
+     "status": "ready"
+    },
+    {
+     "title": "Surface Attack Tactics",
+     "code": "SAT-1",
+     "status": "in_progress"
+    }
+   ],
    "history": [
+    {
+     "op": "op-891c2c93dd5d",
+     "date": "2026-11-05",
+     "name": "Basic Surface Attack | Tactical Pattern",
+     "types": [
+      "A-A",
+      "CCIP"
+     ],
+     "training": true,
+     "score": 100.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 42,
+     "highlight": "Run 4 showed clear improvement — CEP dropped from ~141–148 m to 34.8 m, demonstrating the pilot recognised and self-corrected the persistent short-fall error on that pass."
+    },
     {
      "op": "op-e5b6fbd54e25",
      "date": "2026-11-05",
@@ -5612,28 +5641,51 @@
     "F/A-18C Hornet"
    ],
    "bio": "",
-   "missions": 1,
-   "score": 50.0,
-   "average": 50.0,
-   "best": 50.0,
+   "missions": 2,
+   "score": 112.0,
+   "average": 56.0,
+   "best": 62.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
    "deaths": 0,
-   "hours": 0.9,
+   "hours": 1.6,
    "last_flown": "2026-11-05",
    "grades": {
+    "C": 1,
     "F": 1
    },
    "mission_types": {
-    "CCIP": 1,
+    "CCIP": 2,
+    "A-A": 1,
     "FORMATION": 1
    },
    "skills": [
     {
+     "name": "1 V 2 ACM",
+     "type": "A-A",
+     "score": 6.2,
+     "max": 10,
+     "qualified": false
+    },
+    {
      "name": "CCIP Tactical Pattern",
      "type": "CCIP",
-     "score": 5.0,
+     "score": 6.2,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Missile Kinematics",
+     "type": "A-A",
+     "score": 6.2,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Notching",
+     "type": "A-A",
+     "score": 6.2,
      "max": 10,
      "qualified": false
     }
@@ -5641,6 +5693,24 @@
    "qualifications": 0,
    "courses": [],
    "history": [
+    {
+     "op": "op-891c2c93dd5d",
+     "date": "2026-11-05",
+     "name": "Basic Surface Attack | Tactical Pattern",
+     "types": [
+      "A-A",
+      "CCIP"
+     ],
+     "training": true,
+     "score": 62.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 44,
+     "highlight": "Longest continuous presence on the server (43.5 min), providing a stable element for the other pilots joining throughout the session — consistent energy management with zero timeEnergyPoor events across 2,612 telemetry samples."
+    },
     {
      "op": "op-e5b6fbd54e25",
      "date": "2026-11-05",
@@ -5911,22 +5981,86 @@
     "F/A-18C Hornet"
    ],
    "bio": "",
-   "missions": 0,
-   "score": 0.0,
-   "average": null,
-   "best": null,
+   "missions": 1,
+   "score": 71.0,
+   "average": 71.0,
+   "best": 71.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
    "deaths": 0,
-   "hours": 0.0,
-   "last_flown": "",
-   "grades": {},
-   "mission_types": {},
-   "skills": [],
+   "hours": 0.8,
+   "last_flown": "2026-11-05",
+   "grades": {
+    "C": 1
+   },
+   "mission_types": {
+    "A-A": 1,
+    "CCIP": 1
+   },
+   "skills": [
+    {
+     "name": "1 V 2 ACM",
+     "type": "A-A",
+     "score": 7.1,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 7.1,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Missile Kinematics",
+     "type": "A-A",
+     "score": 7.1,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Notching",
+     "type": "A-A",
+     "score": 7.1,
+     "max": 10,
+     "qualified": false
+    }
+   ],
    "qualifications": 0,
-   "courses": [],
-   "history": []
+   "courses": [
+    {
+     "title": "Beyond Visual Range",
+     "code": "BVR-1",
+     "status": "ready"
+    },
+    {
+     "title": "Surface Attack Tactics",
+     "code": "SAT-1",
+     "status": "in_progress"
+    }
+   ],
+   "history": [
+    {
+     "op": "op-891c2c93dd5d",
+     "date": "2026-11-05",
+     "name": "Basic Surface Attack | Tactical Pattern",
+     "types": [
+      "A-A",
+      "CCIP"
+     ],
+     "training": true,
+     "score": 71.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 47,
+     "highlight": "2/3 shacks on the BDU-45B with an avg CEP of 33.7 m and a best CEP of 11.0 m — runs 2 and 3 (CEP 11 m and 14.8 m) demonstrate excellent release discipline when the dive profile was consistent (3–4° shallow level delivery at 1,700–1,800 ft, ~440 kt)."
+    }
+   ]
   },
   {
    "callsign": "drk_mrng",
@@ -6500,6 +6634,107 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-891c2c93dd5d",
+   "date": "2026-11-05",
+   "name": "Basic Surface Attack | Tactical Pattern",
+   "kind": "manual",
+   "types": [
+    "A-A",
+    "CCIP"
+   ],
+   "training": true,
+   "brief": "",
+   "narrative": "This Sinai training sortie centred on CCIP bombing practice, with two pilots (Cyclone and PushMaster) dropping live practice ordnance during a range period running from approximately 04:30 to 04:36 local. XTC was airborne for the full 43-minute session but generated no bombing passes, suggesting an observation, IP, or adversary-control role. PushMaster's first hop in the Hornet (Aerial-10-2) lasted only 2.3 minutes before an ejection at 03:38:47 — a premature end that cost nearly 40 minutes of range time and forced a re-slot into the F-16C. The ejection circumstances are unexplained by the data and must be addressed. Cyclone's first slot produced an alarming 18.72 G spike within seconds of occupying the aircraft at 32,738 ft while already energy-poor at 280 kt — this is a departure/LOC event and is the single most significant safety item of the sortie. After re-slotting, Cyclone flew a composed 40-minute profile and delivered the best bombing of the day: 2/3 shacks on the BDU-45B with a 33.7 m avg CEP and a 11.0 m best, self-correcting the initial long-pass error by flattening dive angle across subsequent runs. PushMaster's F-16C bombing was consistently short across runs 1–3 (113–148 m), driven by an identifiable longitudinal bias — likely early release or insufficient dive for the BDU-50LD's ballistic profile — before a dramatic tightening on run 4 to 34.8 m CEP. The improvement shows the pilot can self-correct but the lag across three passes is too long. A sustained over-G event (8.33 G) was also flagged during PushMaster's pull-out from run 3, adding an airmanship debit. XTC's data shows a wide speed envelope, significant corner-time, and a 8.74 G peak with no exceedance flags — consistent with manoeuvring practice or adversary support, but the lack of any bombing participation and a suspicious 8 ft AGL excursion require clarification. Formation data was absent for all pilots throughout the sortie, indicating either solo operation or a gap in the tracker's formation-detection logic. PushMaster continues a volatile trend across the last four sorties; the bombing fundamentals shown today are below the standard set in August and must be arrested before the next weapons sortie.",
+   "lessons": [
+    "CCIP longitudinal bias must be diagnosed immediately: PushMaster's runs 1–3 impacted 113–148 m SHORT with consistent left-lateral scatter — this is a release-point or dive-profile problem (too shallow, too early, or incorrect TAS/altitude input), not random error. Prescribe a standardised dive card: for BDU-50LD, minimum 20° dive, release between 3,000–4,000 ft AGL at 450–480 kt, and rehearse the profile dry before each live-drop sortie.",
+    "High-altitude low-speed departure prevention: Cyclone's 18.72 G event at 32,738 ft / 280 kt within seconds of slot occupation is a textbook high-altitude low-speed departure or violent control input. All pilots must brief and adhere to corner-speed awareness at altitude; never accept an aircraft in an energy-poor state at altitude without immediately unloading and recovering energy before attempting any manoeuvring.",
+    "Ejection/aircraft loss accountability: PushMaster's unexplained ejection at 03:38:47 after 2.3 minutes of flight disrupted the sortie and cost range time. Any loss of aircraft in a training environment must be formally debriefed with cause identified — whether systems, airmanship, or scenario — so the lesson is captured and not repeated."
+   ],
+   "card": {
+    "mission_date": "2026-11-05",
+    "mission_time": "19:30"
+   },
+   "teams": [
+    {
+     "name": "Viper",
+     "task": "TRAINING",
+     "size": 4,
+     "pilots": []
+    }
+   ],
+   "results": [
+    {
+     "callsign": "Blacksky",
+     "member": true,
+     "squadron": "201 AW AIRFORCE ACADEMY",
+     "score": 100.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 42,
+     "highlights": [
+      "Run 4 showed clear improvement — CEP dropped from ~141–148 m to 34.8 m, demonstrating the pilot recognised and self-corrected the persistent short-fall error on that pass.",
+      "No G-exceedance flags on the Hornet slot (Aerial-10-2); energy management was clean with zero timeEnergyPoor across both sorties."
+     ],
+     "improvements": [
+      "Bombing accuracy is unacceptable: 0/4 shacks on the F-16 slot, avg CEP 109 m, all four passes impacting SHORT (113–144 m short on runs 1–3). The consistent longitudinal under-shoot indicates the pilot is releasing too early or carrying insufficient dive/airspeed — Run 2 at 32° dive from 4,485 ft is an outlier; runs 1, 3, 4 at 16–17° are too shallow for the BDU-50LD at those altitudes. Must standardise a repeatable dive profile.",
+      "Sustained over-G flag recorded on the F-16C slot (Blacksky, gExceedanceCount=1, maxG=8.33 G) during the CCIP pattern — the F-16C's 9 G limit is not far above that, and pulling sustained 8+ G during a bomb run pull-out indicates an aggressive, inconsistent recovery technique that risks structural limits and degrades the next run set-up."
+     ],
+     "note": "0/4 shacks and a sustained over-G on the F-16 slot — the short-fall bias is repeatable and must be fixed before the next live-fire event."
+    },
+    {
+     "callsign": "black Mamba",
+     "member": true,
+     "squadron": "",
+     "score": 71.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 47,
+     "highlights": [
+      "2/3 shacks on the BDU-45B with an avg CEP of 33.7 m and a best CEP of 11.0 m — runs 2 and 3 (CEP 11 m and 14.8 m) demonstrate excellent release discipline when the dive profile was consistent (3–4° shallow level delivery at 1,700–1,800 ft, ~440 kt).",
+      "Demonstrated self-correction between run 1 (CEP 75.3 m, long) and runs 2–3: flattened the dive to 3–4° and tightened the release altitude band, producing shacks on two consecutive passes."
+     ],
+     "improvements": [
+      "CRITICAL airmanship failure on the first slot (PVP_F18C_BVR_B-1-1, 6.8 min): maxG recorded at 18.72 G with 2 gInstantFlags and 1 timeEnergyPoor event at 32,738 ft / 280 kt. A G-load of 18+ G is physically impossible in a real Hornet and almost certainly represents an uncontrolled manoeuvre, control input spike, or severe mishandling at high altitude/low speed — this is a mandatory debrief item regardless of simulator context.",
+      "Run 1 on the second slot was long by 68 m (CEP 75.3 m) due to a 12° dive from only 1,106 ft — too low and too shallow for the BDU-45B; the pilot correctly recognised this and adjusted, but starting with an out-of-parameters pass wastes a weapon and must not become a habit."
+     ],
+     "note": "Best bombing of the day (2/3 shacks, 11 m best CEP) on the second slot, badly overshadowed by an 18.72 G departure event on the first — two completely different pilots in one sortie."
+    },
+    {
+     "callsign": "[EAF] Taha",
+     "member": true,
+     "squadron": "",
+     "score": 62.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 44,
+     "highlights": [
+      "Longest continuous presence on the server (43.5 min), providing a stable element for the other pilots joining throughout the session — consistent energy management with zero timeEnergyPoor events across 2,612 telemetry samples.",
+      "MaxG of 8.74 G recorded with zero gExceedanceCount and zero gInstantFlags — pulled hard but managed to keep exceedances clean; corner-time of 593 ticks shows active, engaged flying."
+     ],
+     "improvements": [
+      "No CCIP bombing passes recorded despite being airborne for the entire weapons phase — if this pilot was not tasked to drop, that is acceptable, but if the intent was to participate in the range work, the lack of any pass is a missed training opportunity that must be addressed.",
+      "MinAGL of 8 ft is dangerously low for a sortie that did not include a declared low-level tasking; the pilot must maintain a hard floor consistent with the brief or explain the excursion."
+     ],
+     "note": "Solid airborne presence and clean energy management, but no bombing data and a 8 ft AGL excursion leave too many questions unanswered for a full grade."
+    }
+   ],
+   "pilots": 3,
+   "average": 77.7,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "instructor": "Sword",
+   "report": "reports/op-891c2c93dd5d.html"
+  },
   {
    "id": "op-e5b6fbd54e25",
    "date": "2026-11-05",
