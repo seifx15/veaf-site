@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T00:16:26+00:00",
+ "generated": "2026-11-05T00:20:26+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,10 +7,10 @@
  },
  "totals": {
   "pilots": 75,
-  "missions": 56,
-  "sorties": 186,
+  "missions": 57,
+  "sorties": 191,
   "qualifications": 48,
-  "hours": 155.8,
+  "hours": 158.8,
   "air_kills": 84,
   "ground_kills": 25
  },
@@ -60,33 +60,33 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 35,
-   "score": 2425.0,
-   "average": 69.4,
+   "missions": 36,
+   "score": 2497.0,
+   "average": 69.5,
    "best": 100.0,
    "air_kills": 25,
    "ground_kills": 12,
    "friendly_kills": 0,
    "deaths": 2,
-   "hours": 30.3,
-   "last_flown": "2026-10-30",
+   "hours": 31.5,
+   "last_flown": "2026-11-05",
    "grades": {
+    "C": 12,
     "B": 9,
-    "C": 11,
     "F": 3,
     "A": 11,
     "D": 1
    },
    "mission_types": {
     "SEAD": 10,
-    "CCIP": 8,
+    "CCIP": 9,
     "A-A": 8,
     "TRAINING": 5,
     "BVR": 3,
+    "FORMATION": 2,
     "STRAFE": 2,
     "BSA": 2,
     "CAS": 1,
-    "FORMATION": 1,
     "AAR": 1,
     "BFM": 1,
     "STRIKE": 1
@@ -110,13 +110,6 @@
      "name": "SEAD",
      "type": "SEAD",
      "score": 8.5,
-     "max": 10,
-     "qualified": true
-    },
-    {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
-     "score": 8.2,
      "max": 10,
      "qualified": true
     },
@@ -149,6 +142,13 @@
      "qualified": true
     },
     {
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 7.2,
+     "max": 10,
+     "qualified": true
+    },
+    {
      "name": "Tactical Turns / Formation",
      "type": "BFM",
      "score": 4.0,
@@ -170,6 +170,24 @@
     }
    ],
    "history": [
+    {
+     "op": "op-e5b6fbd54e25",
+     "date": "2026-11-05",
+     "name": "Basic Surface Attack | Tactical Pattern",
+     "types": [
+      "CCIP",
+      "FORMATION"
+     ],
+     "training": true,
+     "score": 72.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 72,
+     "highlight": "Excellent G discipline — maxG 5.3 across 71.5 minutes of flight, zero G-exceedances; cleanest G-trace in the formation."
+    },
     {
      "op": "op-5bb514953f4d",
      "date": "2026-10-30",
@@ -851,18 +869,18 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 21,
-   "score": 1426.6,
-   "average": 67.6,
+   "missions": 22,
+   "score": 1486.6,
+   "average": 67.3,
    "best": 108.0,
    "air_kills": 2,
    "ground_kills": 1,
    "friendly_kills": 0,
    "deaths": 0,
-   "hours": 20.4,
-   "last_flown": "2026-10-30",
+   "hours": 20.7,
+   "last_flown": "2026-11-05",
    "grades": {
-    "D": 6,
+    "D": 7,
     "C": 6,
     "F": 1,
     "B": 5,
@@ -871,20 +889,14 @@
    "mission_types": {
     "TRAINING": 7,
     "A-A": 5,
+    "CCIP": 4,
     "BFM": 3,
     "SEAD": 3,
-    "CCIP": 3,
     "BVR": 2,
+    "FORMATION": 1,
     "STRIKE": 1
    },
    "skills": [
-    {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
-     "score": 10.0,
-     "max": 10,
-     "qualified": true
-    },
     {
      "name": "Communications",
      "type": "GENERAL",
@@ -928,6 +940,13 @@
      "qualified": true
     },
     {
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 6.0,
+     "max": 10,
+     "qualified": true
+    },
+    {
      "name": "Basic Fighter Maneuver (BFM)",
      "type": "BFM",
      "score": 6.5,
@@ -945,6 +964,24 @@
    "qualifications": 7,
    "courses": [],
    "history": [
+    {
+     "op": "op-e5b6fbd54e25",
+     "date": "2026-11-05",
+     "name": "Basic Surface Attack | Tactical Pattern",
+     "types": [
+      "CCIP",
+      "FORMATION"
+     ],
+     "training": true,
+     "score": 60.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 18,
+     "highlight": "Completed 6 CCIP passes — most of any pilot today — and runs 1 and 2 were respectable at 21.7 m and 18.8 m CEP, showing the sight picture can be found."
+    },
     {
      "op": "op-2099cdd89279",
      "date": "2026-10-30",
@@ -2410,20 +2447,20 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 32,
-   "score": 1965.0,
-   "average": 61.3,
+   "missions": 33,
+   "score": 2040.0,
+   "average": 61.7,
    "best": 104.0,
    "air_kills": 20,
    "ground_kills": 1,
    "friendly_kills": 0,
    "deaths": 28,
-   "hours": 22.8,
-   "last_flown": "2026-10-30",
+   "hours": 23.1,
+   "last_flown": "2026-11-05",
    "grades": {
+    "C": 14,
     "D": 8,
     "B": 5,
-    "C": 13,
     "A": 3,
     "F": 3
    },
@@ -2431,13 +2468,13 @@
     "BFM": 9,
     "A-A": 8,
     "TRAINING": 7,
+    "CCIP": 6,
     "SEAD": 6,
-    "CCIP": 5,
+    "FORMATION": 2,
     "STRAFE": 2,
     "BVR": 2,
     "BSA": 2,
     "CAS": 1,
-    "FORMATION": 1,
     "STRIKE": 1
    },
    "skills": [
@@ -2456,16 +2493,16 @@
      "qualified": true
     },
     {
-     "name": "Missile Kinematics",
-     "type": "A-A",
-     "score": 5.8,
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 7.5,
      "max": 10,
      "qualified": true
     },
     {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
-     "score": 4.8,
+     "name": "Missile Kinematics",
+     "type": "A-A",
+     "score": 5.8,
      "max": 10,
      "qualified": true
     },
@@ -2506,8 +2543,32 @@
     }
    ],
    "qualifications": 4,
-   "courses": [],
+   "courses": [
+    {
+     "title": "Surface Attack Tactics",
+     "code": "SAT-1",
+     "status": "in_progress"
+    }
+   ],
    "history": [
+    {
+     "op": "op-e5b6fbd54e25",
+     "date": "2026-11-05",
+     "name": "Basic Surface Attack | Tactical Pattern",
+     "types": [
+      "CCIP",
+      "FORMATION"
+     ],
+     "training": true,
+     "score": 75.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 18,
+     "highlight": "Scored 1 shack in 5 passes (20% shack rate) with avgCEP 17.4 m — the most accurate average CEP of the three CCIP pilots and consistent release parameters (12–18° dive, 383–470 kt, 1,761–2,414 ft AGL)."
+    },
     {
      "op": "op-5bb514953f4d",
      "date": "2026-10-30",
@@ -5224,26 +5285,35 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 3,
-   "score": 87.0,
-   "average": 29.0,
-   "best": 51.0,
+   "missions": 4,
+   "score": 165.0,
+   "average": 41.2,
+   "best": 78.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
    "deaths": 4,
-   "hours": 1.3,
-   "last_flown": "2026-10-18",
+   "hours": 1.6,
+   "last_flown": "2026-11-05",
    "grades": {
-    "F": 2,
-    "C": 1
+    "C": 2,
+    "F": 2
    },
    "mission_types": {
     "A-A": 2,
     "BVR": 2,
+    "CCIP": 1,
+    "FORMATION": 1,
     "TRAINING": 1
    },
    "skills": [
+    {
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 7.8,
+     "max": 10,
+     "qualified": false
+    },
     {
      "name": "1 V 2 ACM",
      "type": "A-A",
@@ -5267,8 +5337,32 @@
     }
    ],
    "qualifications": 0,
-   "courses": [],
+   "courses": [
+    {
+     "title": "Surface Attack Tactics",
+     "code": "SAT-1",
+     "status": "in_progress"
+    }
+   ],
    "history": [
+    {
+     "op": "op-e5b6fbd54e25",
+     "date": "2026-11-05",
+     "name": "Basic Surface Attack | Tactical Pattern",
+     "types": [
+      "CCIP",
+      "FORMATION"
+     ],
+     "training": true,
+     "score": 78.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 18,
+     "highlight": "3 shacks in 5 passes (60% shack rate) — the standout weapons performance of the sortie. Run 3 at 0.8 m CEP is essentially a perfect hit; runs 4 and 5 also shacked at 8.4 m and 12.0 m respectively, showing a strong improvement arc within the range session."
+    },
     {
      "op": "op-087910dbf26d",
      "date": "2026-10-18",
@@ -5517,22 +5611,54 @@
     "F/A-18C Hornet"
    ],
    "bio": "",
-   "missions": 0,
-   "score": 0.0,
-   "average": null,
-   "best": null,
+   "missions": 1,
+   "score": 50.0,
+   "average": 50.0,
+   "best": 50.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
    "deaths": 0,
-   "hours": 0.0,
-   "last_flown": "",
-   "grades": {},
-   "mission_types": {},
-   "skills": [],
+   "hours": 0.9,
+   "last_flown": "2026-11-05",
+   "grades": {
+    "F": 1
+   },
+   "mission_types": {
+    "CCIP": 1,
+    "FORMATION": 1
+   },
+   "skills": [
+    {
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 5.0,
+     "max": 10,
+     "qualified": false
+    }
+   ],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [
+    {
+     "op": "op-e5b6fbd54e25",
+     "date": "2026-11-05",
+     "name": "Basic Surface Attack | Tactical Pattern",
+     "types": [
+      "CCIP",
+      "FORMATION"
+     ],
+     "training": true,
+     "score": 50.0,
+     "grade": "F",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 54,
+     "highlight": "Flew the FA-18C for 53.5 minutes with no deaths — sortie completion without attrition is a baseline positive."
+    }
+   ]
   },
   {
    "callsign": "[RMAF] Mehdi",
@@ -6341,6 +6467,155 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-e5b6fbd54e25",
+   "date": "2026-11-05",
+   "name": "Basic Surface Attack | Tactical Pattern",
+   "kind": "manual",
+   "types": [
+    "CCIP",
+    "FORMATION"
+   ],
+   "training": true,
+   "brief": "",
+   "narrative": "This Sinai training sortie combined general airmanship, formation work, and CCIP range employment for five pilots across two airframes. The formation element was anchored by Sword (71.5 min) and XTC (53.5 min) as the apparent leads, with MeGaTron, PushMaster, and TITAN completing abbreviated 17–18 minute range sorties. The standout positive of the day is TITAN's weapons performance: 3 shacks from 5 passes, including a 0.8 m CEP near-perfect hit on run 3, representing the best single-pass result recorded in recent squadron history and a dramatic reversal from two consecutive F-grade BVR missions. MeGaTron showed the most consistent release parameters and lowest avgCEP (17.4 m) of the three CCIP pilots, with one shack, though a stubborn SHORT bias across four passes must be corrected. PushMaster submitted six passes but posted zero shacks, an avgCEP of 49.7 m, and a catastrophic 152.3 m outlier on run 5 — a bomb that would have been a friendly-fire incident in a real CAS environment. The formation data for PushMaster is equally concerning: 11 breakaways, avgJoinSec 143 s, and 52% of tracked time outside any recognised formation — a sharp regression from his August A-grade. The most serious safety finding of the entire sortie is XTC's 20.8 g spike at 01:15:39, flagged as a HIGH_G_INSTANT during a routine transit phase on the FA-18C whose structural limit is +7.5 g. This is an unacceptable exceedance that would ground the aircraft and trigger a mandatory safety investigation in any professional squadron. Sword flew the longest and smoothest sortie with maxG 5.3 and zero exceedances, but the absence of any weapons employment across 71.5 minutes is a missed training opportunity. Release altitudes across the CCIP group trended low — TITAN's minimum of 1,622 ft AGL and MeGaTron's 1,761 ft final pass both approach the frag-safety floor for BDU-50LD class weapons. The squadron must enforce a hard floor of 2,000 ft AGL for training CCIP passes. Overall, one brilliant weapons performance, one developing, one failed, one missing, and one safety emergency define this sortie.",
+   "lessons": [
+    "CCIP SHORT bias correction: if four of five passes are short, do not adjust the aiming point — extend the dive, verify the CCIP solution is fully computed before release, and resist the instinct to pull off early. The pipper tells you when to press the pickle button, not your gut.",
+    "Formation rejoin discipline is non-negotiable: an avgJoinSec of 143 s means the wingman was a liability for over 2 minutes per gap — in a threat environment this gets the element killed. Every breakaway must be followed by an aggressive, deliberate rejoin with the lead monitoring and calling the closure.",
+    "G-awareness is a survival skill: a 20.8 g transient on the Hornet during routine transit is a structural failure event. All pilots must brief their personal G-limits, recognise when inputs are becoming abrupt, and consciously manage stick forces — especially during low-altitude manoeuvring and recovery from CCIP runs."
+   ],
+   "card": {
+    "mission_date": "2026-11-05",
+    "mission_time": "19:30"
+   },
+   "teams": [
+    {
+     "name": "Viper",
+     "task": "TRAINING",
+     "size": 4,
+     "pilots": []
+    },
+    {
+     "name": "Cobra",
+     "task": "TRAINING",
+     "size": 4,
+     "pilots": []
+    }
+   ],
+   "results": [
+    {
+     "callsign": "Titan",
+     "member": true,
+     "squadron": "272 TFW",
+     "score": 78.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 18,
+     "highlights": [
+      "3 shacks in 5 passes (60% shack rate) — the standout weapons performance of the sortie. Run 3 at 0.8 m CEP is essentially a perfect hit; runs 4 and 5 also shacked at 8.4 m and 12.0 m respectively, showing a strong improvement arc within the range session.",
+      "Clear progression across the five passes: opened with two 50+ m misses (runs 1 and 2 both LONG), then corrected and hit three consecutive near-perfect shots — demonstrates excellent in-session learning and self-correction."
+     ],
+     "improvements": [
+      "Runs 1 and 2 were submitted at dangerously low release altitudes (1,709 ft and 1,699 ft AGL) with flat dive angles of 7° and 8° — well below the recommended minimum for CCIP with BDU-50LD class weapons. All subsequent passes stayed between 1,622–1,865 ft; this bracket is marginal and must be raised.",
+      "maxG 8.6 on the Viper (limit 9.0 g) — the highest of any F-16 pilot today. While technically legal, this leaves only a 4% margin below the structural limit. TITAN must manage G more conservatively, especially on pull-off from dive attacks."
+     ],
+     "note": "60% shack rate including a 0.8 m near-perfect hit is the best weapons performance of the sortie; keep those release altitudes out of the frag envelope."
+    },
+    {
+     "callsign": "Megatron",
+     "member": true,
+     "squadron": "272 TFW",
+     "score": 75.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 18,
+     "highlights": [
+      "Scored 1 shack in 5 passes (20% shack rate) with avgCEP 17.4 m — the most accurate average CEP of the three CCIP pilots and consistent release parameters (12–18° dive, 383–470 kt, 1,761–2,414 ft AGL).",
+      "Zero G-exceedances and minAGL 8 ft; G-discipline improving from previous poor CCIP sortie."
+     ],
+     "improvements": [
+      "Persistent SHORT bias across 4 of 5 passes (runs 1, 3, 4, 5 all short by 14–21 m) — MeGaTron is likely pulling off the pipper early or releasing slightly high; hold the dive longer and trust the CCIP solution.",
+      "Only 17.6 minutes of flight time suggests early departure or late join; more time in the range pattern is needed to consolidate the improving trend."
+     ],
+     "note": "One shack and the best avgCEP (17.4 m) of the CCIP pilots — fix the persistent SHORT bias and you have a solid weapons pass."
+    },
+    {
+     "callsign": "Sword",
+     "member": true,
+     "squadron": "201 AW AIRFORCE ACADEMY",
+     "score": 72.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 72,
+     "highlights": [
+      "Excellent G discipline — maxG 5.3 across 71.5 minutes of flight, zero G-exceedances; cleanest G-trace in the formation.",
+      "Sustained 71.5-minute sortie with average speed 385 kt and average altitude 4,043 ft, demonstrating solid general airmanship throughout."
+     ],
+     "improvements": [
+      "No CCIP passes recorded — Sword flew the longest sortie of the day but dropped nothing; must actively participate in the weapons phase rather than observing.",
+      "minAGL 7 ft is the deck-grazing low point of the formation; even on a training transit this warrants explanation — maintain positive altitude awareness at all times."
+     ],
+     "note": "Cleanest G-discipline of the day across 71.5 minutes, but no weapons employment and a 7 ft deck graze demand immediate answers."
+    },
+    {
+     "callsign": "Blacksky",
+     "member": true,
+     "squadron": "201 AW AIRFORCE ACADEMY",
+     "score": 60.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 18,
+     "highlights": [
+      "Completed 6 CCIP passes — most of any pilot today — and runs 1 and 2 were respectable at 21.7 m and 18.8 m CEP, showing the sight picture can be found.",
+      "Best single rejoin was 31 seconds — demonstrates the capability to close formation quickly when focused."
+     ],
+     "improvements": [
+      "CCIP catastrophically inconsistent: avgCEP 49.7 m with run 5 at 152.3 m (93 m LEFT, 121 m LONG) — a bomb that in a real CAS environment could kill friendlies. Zero shacks in 6 passes. The LEFT bias (4 of 6 passes left of target) combined with run 5's gross LONG error suggests a wind correction error compound by a rushed trigger pull. Must standardise release parameters before each pass.",
+      "Formation discipline score 39.7/100 — 11 breakaways recorded, avgJoinSec 143 s, worstJoinSec 286 s. PushMaster spent 52% of tracked time in 'none' (out of formation) and only 36% in wedge. This is structurally unacceptable wingman performance."
+     ],
+     "note": "Zero shacks in six passes, a 152 m outlier, and 52% of your time outside formation — a sharp regression from an August A that cannot be tolerated."
+    },
+    {
+     "callsign": "[EAF] Taha",
+     "member": true,
+     "squadron": "",
+     "score": 50.0,
+     "grade": "F",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 54,
+     "highlights": [
+      "Flew the FA-18C for 53.5 minutes with no deaths — sortie completion without attrition is a baseline positive.",
+      "Average altitude 3,581 ft and average speed 393 kt indicate generally controlled flight during transit phases."
+     ],
+     "improvements": [
+      "CRITICAL: maxG 20.8 — a confirmed HIGH_G_INSTANT flag at 01:15:39 during transit. This is a gross structural-limit exceedance on the Hornet (limit +7.5 g) and would have destroyed the aircraft in real life. This is the single most serious safety deficiency recorded today and demands an immediate explanation.",
+      "Zero CCIP passes recorded across 53.5 minutes of flight — XTC flew the second-longest sortie but never entered the weapons pattern; weapons employment must be completed on every sortie that includes a range phase."
+     ],
+     "note": "20.8 g on a 7.5 g-limit airframe during transit is a groundable offence — this sortie is a safety emergency, not a training grade."
+    }
+   ],
+   "pilots": 5,
+   "average": 67.0,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "instructor": "Sword",
+   "report": "reports/op-e5b6fbd54e25.html"
+  },
   {
    "id": "op-5bb514953f4d",
    "date": "2026-10-30",
