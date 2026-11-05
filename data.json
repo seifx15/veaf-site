@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T03:24:04+00:00",
+ "generated": "2026-11-05T03:25:04+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,8 +7,8 @@
  },
  "totals": {
   "pilots": 76,
-  "missions": 58,
-  "sorties": 194,
+  "missions": 60,
+  "sorties": 196,
   "qualifications": 48,
   "hours": 161.0,
   "air_kills": 84,
@@ -870,9 +870,9 @@
     "F/A-18C Hornet"
    ],
    "bio": "",
-   "missions": 23,
-   "score": 1586.6,
-   "average": 68.7,
+   "missions": 25,
+   "score": 1786.6,
+   "average": 71.2,
    "best": 108.0,
    "air_kills": 2,
    "ground_kills": 1,
@@ -881,14 +881,14 @@
    "hours": 21.4,
    "last_flown": "2026-11-05",
    "grades": {
-    "A": 4,
+    "A": 6,
     "D": 7,
     "C": 6,
     "F": 1,
     "B": 5
    },
    "mission_types": {
-    "TRAINING": 7,
+    "TRAINING": 9,
     "A-A": 6,
     "CCIP": 5,
     "BFM": 3,
@@ -976,6 +976,36 @@
     }
    ],
    "history": [
+    {
+     "op": "op-72776a8d96cc",
+     "date": "2026-11-05",
+     "name": "Effort Points",
+     "types": [],
+     "training": true,
+     "score": 100.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
+    {
+     "op": "op-f7620a6671c2",
+     "date": "2026-11-05",
+     "name": "Effort Points",
+     "types": [],
+     "training": true,
+     "score": 100.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
     {
      "op": "op-891c2c93dd5d",
      "date": "2026-11-05",
@@ -6634,6 +6664,98 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-72776a8d96cc",
+   "date": "2026-11-05",
+   "name": "Effort Points",
+   "kind": "manual",
+   "types": [],
+   "training": true,
+   "brief": "",
+   "narrative": "",
+   "lessons": [],
+   "card": {
+    "mission_date": "2026-11-05",
+    "mission_time": "19:30"
+   },
+   "teams": [
+    {
+     "name": "Viper",
+     "task": "TRAINING",
+     "size": 4,
+     "pilots": []
+    }
+   ],
+   "results": [
+    {
+     "callsign": "Blacksky",
+     "member": true,
+     "squadron": "201 AW AIRFORCE ACADEMY",
+     "score": 100.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    }
+   ],
+   "pilots": 1,
+   "average": 100.0,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "instructor": "Sword",
+   "report": "reports/op-72776a8d96cc.html"
+  },
+  {
+   "id": "op-f7620a6671c2",
+   "date": "2026-11-05",
+   "name": "Effort Points",
+   "kind": "manual",
+   "types": [],
+   "training": true,
+   "brief": "",
+   "narrative": "",
+   "lessons": [],
+   "card": {
+    "mission_date": "2026-11-05",
+    "mission_time": "19:30"
+   },
+   "teams": [
+    {
+     "name": "Viper",
+     "task": "TRAINING",
+     "size": 4,
+     "pilots": []
+    }
+   ],
+   "results": [
+    {
+     "callsign": "Blacksky",
+     "member": true,
+     "squadron": "201 AW AIRFORCE ACADEMY",
+     "score": 100.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    }
+   ],
+   "pilots": 1,
+   "average": 100.0,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "instructor": "Sword",
+   "report": "reports/op-f7620a6671c2.html"
+  },
   {
    "id": "op-891c2c93dd5d",
    "date": "2026-11-05",
@@ -12655,29 +12777,7 @@
    "report": ""
   }
  ],
- "upcoming": [
-  {
-   "id": "op-f7620a6671c2",
-   "date": "2026-11-05",
-   "name": "Effort Points",
-   "types": [],
-   "brief": "",
-   "card": {
-    "mission_date": "2026-11-05",
-    "mission_time": "19:30"
-   },
-   "teams": [
-    {
-     "name": "Viper",
-     "task": "TRAINING",
-     "size": 4,
-     "pilots": []
-    }
-   ],
-   "signed": [],
-   "reserves": []
-  }
- ],
+ "upcoming": [],
  "scrims": [
   {
    "date": "2026-10-15",
