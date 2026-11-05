@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T21:38:55+00:00",
+ "generated": "2026-11-05T22:07:58+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -13028,7 +13028,7 @@
      "task": "TRAINING",
      "size": 4,
      "pilots": [
-      "Blacksky",
+      "Megatron",
       "Titan",
       "[U777] Golden_Pilot",
       "Omar"
@@ -13040,7 +13040,8 @@
      "size": 4,
      "pilots": [
       "N0N0",
-      "Sword"
+      "Sword",
+      "Blacksky"
      ]
     }
    ],
@@ -13050,7 +13051,8 @@
     "Titan",
     "N0N0",
     "Omar",
-    "[U777] Golden_Pilot"
+    "[U777] Golden_Pilot",
+    "Megatron"
    ],
    "reserves": []
   },
