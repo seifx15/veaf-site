@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T22:11:58+00:00",
+ "generated": "2026-11-05T23:55:13+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -12988,79 +12988,6 @@
   }
  ],
  "upcoming": [
-  {
-   "id": "op-4d6c29bac531",
-   "date": "2026-11-05",
-   "name": "Basic Surface Attack | Tactical Pattern",
-   "types": [
-    "CCIP"
-   ],
-   "brief": "",
-   "card": {
-    "mission_date": "2026-11-05",
-    "mission_time": "21:30",
-    "laser": "1688",
-    "datalink": "010-024",
-    "loadout": "2x Fuel Tank | 6x BDU MK82 | Rest Empty and Leave 1 and 9",
-    "freqs": [
-     {
-      "label": "GUARD",
-      "mhz": "251.00"
-     },
-     {
-      "label": "VIPER",
-      "mhz": "126.00"
-     },
-     {
-      "label": "COWBOY",
-      "mhz": "127.00"
-     }
-    ],
-    "headings": [
-     {
-      "label": "PUSH",
-      "deg": ""
-     },
-     {
-      "label": "EGRESS",
-      "deg": ""
-     }
-    ]
-   },
-   "teams": [
-    {
-     "name": "Viper",
-     "task": "TRAINING",
-     "size": 4,
-     "pilots": [
-      "Megatron",
-      "Titan",
-      "[U777] Golden_Pilot",
-      "Omar"
-     ]
-    },
-    {
-     "name": "Cowboy",
-     "task": "TRAINING",
-     "size": 4,
-     "pilots": [
-      "Sword",
-      "N0N0",
-      "Blacksky"
-     ]
-    }
-   ],
-   "signed": [
-    "Sword",
-    "Blacksky",
-    "Titan",
-    "N0N0",
-    "Omar",
-    "[U777] Golden_Pilot",
-    "Megatron"
-   ],
-   "reserves": []
-  },
   {
    "id": "op-37766af98ef2",
    "date": "2026-11-12",
