@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T18:42:32+00:00",
+ "generated": "2026-11-05T19:25:36+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -13029,7 +13029,8 @@
      "pilots": [
       "Sword",
       "Blacksky",
-      "Titan"
+      "Titan",
+      "Omar"
      ]
     },
     {
@@ -13045,7 +13046,8 @@
     "Sword",
     "Blacksky",
     "Titan",
-    "N0N0"
+    "N0N0",
+    "Omar"
    ],
    "reserves": []
   },
