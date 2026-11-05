@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T15:29:00+00:00",
+ "generated": "2026-11-05T15:44:01+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -13007,7 +13007,9 @@
      "name": "Horus",
      "task": "TRAINING",
      "size": 4,
-     "pilots": []
+     "pilots": [
+      "Megatron"
+     ]
     },
     {
      "name": "Anubis",
@@ -13016,7 +13018,9 @@
      "pilots": []
     }
    ],
-   "signed": [],
+   "signed": [
+    "Megatron"
+   ],
    "reserves": []
   }
  ],
