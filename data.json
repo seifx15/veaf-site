@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T23:55:13+00:00",
+ "generated": "2026-11-05T23:56:13+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -6463,7 +6463,9 @@
    "rank_order": 11,
    "squadron": "",
    "joined": "2026-11-05",
-   "aircraft": [],
+   "aircraft": [
+    "F-16C Viper"
+   ],
    "bio": "",
    "missions": 0,
    "score": 0.0,
