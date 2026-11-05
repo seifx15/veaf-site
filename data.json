@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T15:26:00+00:00",
+ "generated": "2026-11-05T15:29:00+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -12987,7 +12987,39 @@
    "report": ""
   }
  ],
- "upcoming": [],
+ "upcoming": [
+  {
+   "id": "op-37766af98ef2",
+   "date": "2026-11-12",
+   "name": "vFS F-16 Staffeltraining",
+   "types": [
+    "CCIP",
+    "CAS",
+    "FORMATION"
+   ],
+   "brief": "The vFS F-16 Viper Club Squadron would like to invite us to a Joint-Training Mission on Thursday, November, 12th  18:30 Zulu Time ( Egypt Time 20:30, German Time 19:30)\n\nWe fly a Air to Ground Training Mission on the Syria Map, from the Akrotiri Airbase in Cyprus.\n\nTraining Objective is a Killbox Task, Finding GMT Ground Moving Targets by A-G Radar, and engage them with LAser Guided Bombs and /or CBUs ! \n\nAdditionally there can be SEAD and ESCORT/TARCAP Flights.",
+   "card": {
+    "mission_date": "2026-11-12",
+    "mission_time": "18:00"
+   },
+   "teams": [
+    {
+     "name": "Horus",
+     "task": "TRAINING",
+     "size": 4,
+     "pilots": []
+    },
+    {
+     "name": "Anubis",
+     "task": "TRAINING",
+     "size": 4,
+     "pilots": []
+    }
+   ],
+   "signed": [],
+   "reserves": []
+  }
+ ],
  "scrims": [
   {
    "date": "2026-10-15",
