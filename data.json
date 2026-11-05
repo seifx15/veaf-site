@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T02:01:41+00:00",
+ "generated": "2026-11-05T03:18:59+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -5907,7 +5907,9 @@
    "rank_order": 11,
    "squadron": "",
    "joined": "2026-11-03",
-   "aircraft": [],
+   "aircraft": [
+    "F/A-18C Hornet"
+   ],
    "bio": "",
    "missions": 0,
    "score": 0.0,
