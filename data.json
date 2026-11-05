@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T22:03:16+00:00",
+ "generated": "2026-11-05T00:00:41+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -12108,74 +12108,7 @@
    "report": ""
   }
  ],
- "upcoming": [
-  {
-   "id": "op-846de55f6fae",
-   "date": "2026-11-04",
-   "name": "Basic Surface Attack | Tactical Pattern",
-   "types": [
-    "CCIP"
-   ],
-   "brief": "",
-   "card": {
-    "mission_date": "2026-11-04",
-    "mission_time": "22:00",
-    "laser": "1688",
-    "datalink": "010-024",
-    "freqs": [
-     {
-      "label": "CHECK-IN",
-      "mhz": ""
-     },
-     {
-      "label": "TACTICAL",
-      "mhz": ""
-     }
-    ],
-    "headings": [
-     {
-      "label": "PUSH",
-      "deg": ""
-     },
-     {
-      "label": "EGRESS",
-      "deg": ""
-     }
-    ]
-   },
-   "teams": [
-    {
-     "name": "Viper",
-     "task": "TRAINING",
-     "size": 4,
-     "pilots": [
-      "Blacksky",
-      "Titan",
-      "Megatron",
-      "[EAF] Taha"
-     ]
-    },
-    {
-     "name": "Cobra",
-     "task": "TRAINING",
-     "size": 4,
-     "pilots": [
-      "Sword",
-      "black Mamba"
-     ]
-    }
-   ],
-   "signed": [
-    "Blacksky",
-    "Sword",
-    "[EAF] Taha",
-    "Megatron",
-    "Titan",
-    "black Mamba"
-   ],
-   "reserves": []
-  }
- ],
+ "upcoming": [],
  "scrims": [
   {
    "date": "2026-10-15",
