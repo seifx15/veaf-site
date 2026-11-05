@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T22:08:58+00:00",
+ "generated": "2026-11-05T22:11:58+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -13001,14 +13001,19 @@
     "mission_time": "21:30",
     "laser": "1688",
     "datalink": "010-024",
+    "loadout": "2x Fuel Tank | 6x BDU MK82 | Rest Empty and Leave 1 and 9",
     "freqs": [
      {
-      "label": "CHECK-IN",
-      "mhz": ""
+      "label": "GUARD",
+      "mhz": "251.00"
      },
      {
-      "label": "TACTICAL",
-      "mhz": ""
+      "label": "VIPER",
+      "mhz": "126.00"
+     },
+     {
+      "label": "COWBOY",
+      "mhz": "127.00"
      }
     ],
     "headings": [
