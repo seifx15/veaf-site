@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T01:58:24+00:00",
+ "generated": "2026-11-06T02:01:06+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,10 +7,10 @@
  },
  "totals": {
   "pilots": 83,
-  "missions": 61,
-  "sorties": 203,
+  "missions": 62,
+  "sorties": 204,
   "qualifications": 48,
-  "hours": 168.2,
+  "hours": 168.7,
   "air_kills": 84,
   "ground_kills": 25
  },
@@ -6141,34 +6141,35 @@
     "F/A-18C Hornet"
    ],
    "bio": "",
-   "missions": 1,
-   "score": 71.0,
-   "average": 71.0,
-   "best": 71.0,
+   "missions": 2,
+   "score": 151.0,
+   "average": 75.5,
+   "best": 80.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
    "deaths": 0,
-   "hours": 0.8,
-   "last_flown": "2026-11-05",
+   "hours": 1.3,
+   "last_flown": "2026-11-06",
    "grades": {
+    "B": 1,
     "C": 1
    },
    "mission_types": {
-    "A-A": 1,
-    "CCIP": 1
+    "CCIP": 2,
+    "A-A": 1
    },
    "skills": [
     {
-     "name": "1 V 2 ACM",
-     "type": "A-A",
-     "score": 7.1,
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 8.0,
      "max": 10,
      "qualified": false
     },
     {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
+     "name": "1 V 2 ACM",
+     "type": "A-A",
      "score": 7.1,
      "max": 10,
      "qualified": false
@@ -6204,6 +6205,23 @@
     }
    ],
    "history": [
+    {
+     "op": "op-4f3087dddc70",
+     "date": "2026-11-06",
+     "name": "SinaiMap 2026-11-06 01:11Z CCIP",
+     "types": [
+      "CCIP"
+     ],
+     "training": true,
+     "score": 80.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 32,
+     "highlight": "Run 2 was a textbook shack — CEP 11.6 m at 1,414 ft / 532 kt / 13° dive, with only 0.8 m lateral error showing solid sight-picture stabilisation on that pass."
+    },
     {
      "op": "op-891c2c93dd5d",
      "date": "2026-11-05",
@@ -7040,6 +7058,55 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-4f3087dddc70",
+   "date": "2026-11-06",
+   "name": "SinaiMap 2026-11-06 01:11Z CCIP",
+   "kind": "automatic",
+   "types": [
+    "CCIP"
+   ],
+   "training": true,
+   "brief": "",
+   "narrative": "Cyclone (Kafafy, FA-18C Hornet) flew a 32.5-minute solo CCIP training sortie on the Sinai map, expending four BDU-45B practice bombs against a bulls-eye reference. The opening run was the weakest of the four: a 7° shallow delivery at 1,373 ft / 553 kt produced a 64.5 m CEP, landing 35 m right and 54 m long — a classic low-and-fast error signature indicating a rushed sight-picture or insufficient dive angle. Run 2 was a sharp correction: Cyclone added 6° of dive (13°), trimmed speed to 532 kt, and planted a shack at 11.6 m CEP — essentially a bulls-eye. That demonstrated the pilot knows what a correct picture feels like. The problem is what happened next. Runs 3 and 4 regressed to 3° and 4° dive angles respectively — shallower even than run 1 — producing CEPs of 17.5 m and 27.9 m with a persistent LONG bias (14 m and 28 m long) and a consistent right-of-track error. The pattern is clear: when Cyclone flies an adequate dive angle the bomb lands close; when the dive degrades the bomb goes long and right. The release altitude concern is real — three of four passes were at or below 1,500 ft AGL, with run 1 at 1,373 ft being the most egregious; in a live-fire scenario that is a frag-envelope bust. G discipline was excellent — peak 6.57 G with zero exceedances across the entire flight. The 9 ft minAGL datum is flagged for record but is most likely a taxi artefact. Average sortie speed of 461 kt and zero energy-poor time show competent energy management between attacks. The shack on run 2 is proof of concept — Cyclone can hit; the task now is to standardise the delivery parameters so that run 2 becomes the baseline, not the exception.",
+   "lessons": [
+    "Standardise dive angle: brief 10–15° and treat anything below 8° as a mandatory abort. Runs 3 and 4 at 3–4° are not viable CCIP deliveries — they produce long errors and reduce frag separation to dangerous levels with live ordnance.",
+    "Enforce a hard release floor of 1,500 ft AGL regardless of weapon type. Three of four passes were at or below that gate; build the habit on BDUs so it is instinctive before transitioning to Mk-82s.",
+    "Identify and isolate the right-of-track bias: runs 1, 3, and 4 all show a RIGHT lateral error (3.5–34.8 m). Suspect a crosswind correction technique error or a consistent right-wing-low dive entry. Brief a pre-attack wind assessment and confirm wings-level before pickle."
+   ],
+   "card": {},
+   "teams": [],
+   "results": [
+    {
+     "callsign": "black Mamba",
+     "member": true,
+     "squadron": "",
+     "score": 80.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 32,
+     "highlights": [
+      "Run 2 was a textbook shack — CEP 11.6 m at 1,414 ft / 532 kt / 13° dive, with only 0.8 m lateral error showing solid sight-picture stabilisation on that pass.",
+      "Zero G-exceedances across 32.5 flight minutes with a peak of 6.57 G — G discipline was clean throughout the sortie.",
+      "15 points extra for initiative to train"
+     ],
+     "improvements": [
+      "Release dive angles were wildly inconsistent across four passes (7°, 13°, 3°, 4°): runs 3 and 4 were essentially level deliveries at 3–4° — well below the minimum ~10–15° needed for a stable CCIP sight-picture and adequate ballistic separation. Standardise on 10–15° and brief a hard abort gate if the dive is shallower than 8°.",
+      "Release altitudes of 1,373–1,497 ft AGL on runs 1–3 are marginally below the BDU-45B training floor of ~1,500 ft; run 1 at 1,373 ft is the worst offender. In a live Mk-82 scenario that altitude would constitute a frag-envelope violation — build the habit now of releasing no lower than 1,500 ft AGL regardless of weapon type."
+     ],
+     "note": "One textbook shack buried in four inconsistent deliveries — fix the dive angle and the right bias, and the accuracy is already there."
+    }
+   ],
+   "pilots": 1,
+   "average": 80.0,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "instructor": "Sword",
+   "report": "reports/op-4f3087dddc70.html"
+  },
   {
    "id": "op-4d6c29bac531",
    "date": "2026-11-05",
