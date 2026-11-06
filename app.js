@@ -23,7 +23,7 @@
       sq_standings: "Squadron standings", pilots_word: "pilots", sorties_word: "sorties", no_squadron_short: "No squadron",
       s_best: "Best score", s_ff: "Friendly kills", s_deaths: "Deaths", s_quals: "Qualifications", last_flown: "Last flown", board_place: "Leaderboard",
       grades_h: "Grades", flown_h: "Flown", quals_h: "Qualifications", courses_h: "Courses", no_quals: "No qualifications yet.",
-      cs_not_started: "Not started", cs_in_progress: "In progress", cs_ready: "Ready for sign-off", cs_complete: "Complete", nav_ops: "Operations", all_ops: "All operations",
+      cs_not_started: "Not started", cs_in_progress: "In progress", cs_ready: "Ready for sign-off", cs_complete: "Complete", instructor_word: "instructor", nav_ops: "Operations", all_ops: "All operations",
       brandsub: "Virtual Egyptian Air Force", menu: "Menu",
       nav_home: "Home", nav_about: "About", nav_training: "Training", nav_pvp: "PvP", nav_airshow: "Airshow",
       nav_pilots: "Pilots", nav_board: "Leaderboard", nav_join: "Join us", lang_other: "العربية",
@@ -86,7 +86,7 @@
       sq_standings: "ترتيب الأسراب", pilots_word: "طيار", sorties_word: "طلعة", no_squadron_short: "بدون سرب",
       s_best: "أفضل نتيجة", s_ff: "نيران صديقة", s_deaths: "خسائر", s_quals: "المؤهلات", last_flown: "آخر طلعة", board_place: "الترتيب",
       grades_h: "التقديرات", flown_h: "أنواع الطلعات", quals_h: "المؤهلات", courses_h: "الدورات", no_quals: "لا توجد مؤهلات بعد.",
-      cs_not_started: "لم تبدأ", cs_in_progress: "قيد التقدم", cs_ready: "جاهز للاعتماد", cs_complete: "مكتملة", nav_ops: "العمليات", all_ops: "كل العمليات",
+      cs_not_started: "لم تبدأ", cs_in_progress: "قيد التقدم", cs_ready: "جاهز للاعتماد", cs_complete: "مكتملة", instructor_word: "المدرب", nav_ops: "العمليات", all_ops: "كل العمليات",
       brandsub: "القوات الجوية المصرية الافتراضية", menu: "القائمة",
       nav_home: "الرئيسية", nav_about: "من نحن", nav_training: "التدريب", nav_pvp: "المنافسات", nav_airshow: "العروض الجوية",
       nav_pilots: "الطيارون", nav_board: "الترتيب", nav_join: "انضم إلينا", lang_other: "English",
@@ -526,7 +526,7 @@
     var quals = (p.skills || []).filter(function (k) { return k.qualified; });
     var qualHtml = quals.length ? '<div class="kinds">' + quals.map(function (k) { return '<span class="q big">' + esc(k.name) + "</span>"; }).join("") + "</div>" : '<p class="muted">' + esc(t("no_quals")) + "</p>";
     var courses = (p.courses || []).length ? '<ul class="courses">' + p.courses.map(function (c) {
-      return '<li><span>' + esc(c.title) + '</span><span class="cst ' + esc(c.status) + '">' + esc(t("cs_" + c.status) || c.status) + "</span></li>";
+      return '<li><span>' + esc(c.title) + ((c.instructors || []).length ? '<small class="muted"> · ' + esc(t("instructor_word")) + " " + c.instructors.map(pilotLink).join(", ") + "</small>" : "") + '</span><span class="cst ' + esc(c.status) + '">' + esc(t("cs_" + c.status) || c.status) + "</span></li>";
     }).join("") + "</ul>" : "";
     var skills = (p.skills || []).length ? '<div class="skills">' + p.skills.map(function (k) {
       var pct = k.score == null ? 0 : Math.max(0, Math.min(100, (Number(k.score) / (k.max || 5)) * 100));
