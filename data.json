@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T02:01:06+00:00",
+ "generated": "2026-11-07T23:52:31+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,8 +7,8 @@
  },
  "totals": {
   "pilots": 83,
-  "missions": 62,
-  "sorties": 204,
+  "missions": 63,
+  "sorties": 208,
   "qualifications": 48,
   "hours": 168.7,
   "air_kills": 84,
@@ -2549,25 +2549,25 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 34,
-   "score": 2116.0,
-   "average": 62.1,
+   "missions": 35,
+   "score": 2206.0,
+   "average": 62.9,
    "best": 104.0,
    "air_kills": 20,
    "ground_kills": 1,
    "friendly_kills": 0,
    "deaths": 28,
    "hours": 24.1,
-   "last_flown": "2026-11-05",
+   "last_flown": "2026-11-07",
    "grades": {
+    "A": 4,
     "C": 15,
     "D": 8,
     "B": 5,
-    "A": 3,
     "F": 3
    },
    "mission_types": {
-    "BFM": 9,
+    "BFM": 10,
     "A-A": 8,
     "CCIP": 7,
     "TRAINING": 7,
@@ -2609,6 +2609,20 @@
      "qualified": true
     },
     {
+     "name": "Basic Fighter Maneuver (BFM)",
+     "type": "BFM",
+     "score": 9.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Tactical Turns / Formation",
+     "type": "BFM",
+     "score": 9.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
      "name": "SEAD",
      "type": "SEAD",
      "score": 7.5,
@@ -2623,22 +2637,8 @@
      "qualified": false
     },
     {
-     "name": "Basic Fighter Maneuver (BFM)",
-     "type": "BFM",
-     "score": 5.8,
-     "max": 10,
-     "qualified": false
-    },
-    {
      "name": "Notching",
      "type": "A-A",
-     "score": 5.8,
-     "max": 10,
-     "qualified": false
-    },
-    {
-     "name": "Tactical Turns / Formation",
-     "type": "BFM",
      "score": 5.8,
      "max": 10,
      "qualified": false
@@ -2651,9 +2651,32 @@
      "code": "SAT-1",
      "status": "in_progress",
      "instructors": []
+    },
+    {
+     "title": "Basic Fighter Maneuver",
+     "code": "BFM-1",
+     "status": "ready",
+     "instructors": []
     }
    ],
    "history": [
+    {
+     "op": "op-241f54c637de",
+     "date": "2026-11-07",
+     "name": "Basic Fighter Maneuver",
+     "types": [
+      "BFM"
+     ],
+     "training": true,
+     "score": 90.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
     {
      "op": "op-4d6c29bac531",
      "date": "2026-11-05",
@@ -5454,17 +5477,18 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 5,
-   "score": 230.0,
-   "average": 46.0,
-   "best": 78.0,
+   "missions": 6,
+   "score": 320.0,
+   "average": 53.3,
+   "best": 90.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
    "deaths": 4,
    "hours": 2.7,
-   "last_flown": "2026-11-05",
+   "last_flown": "2026-11-07",
    "grades": {
+    "A": 1,
     "D": 1,
     "C": 2,
     "F": 2
@@ -5473,11 +5497,26 @@
     "CCIP": 2,
     "A-A": 2,
     "BVR": 2,
+    "BFM": 1,
     "STRAFE": 1,
     "FORMATION": 1,
     "TRAINING": 1
    },
    "skills": [
+    {
+     "name": "Basic Fighter Maneuver (BFM)",
+     "type": "BFM",
+     "score": 9.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Tactical Turns / Formation",
+     "type": "BFM",
+     "score": 9.0,
+     "max": 10,
+     "qualified": false
+    },
     {
      "name": "CCIP Tactical Pattern",
      "type": "CCIP",
@@ -5514,9 +5553,32 @@
      "code": "SAT-1",
      "status": "in_progress",
      "instructors": []
+    },
+    {
+     "title": "Basic Fighter Maneuver",
+     "code": "BFM-1",
+     "status": "ready",
+     "instructors": []
     }
    ],
    "history": [
+    {
+     "op": "op-241f54c637de",
+     "date": "2026-11-07",
+     "name": "Basic Fighter Maneuver",
+     "types": [
+      "BFM"
+     ],
+     "training": true,
+     "score": 90.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
     {
      "op": "op-4d6c29bac531",
      "date": "2026-11-05",
@@ -5801,26 +5863,42 @@
     "F/A-18C Hornet"
    ],
    "bio": "",
-   "missions": 2,
-   "score": 112.0,
-   "average": 56.0,
-   "best": 62.0,
+   "missions": 3,
+   "score": 202.0,
+   "average": 67.3,
+   "best": 90.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
    "deaths": 0,
    "hours": 1.6,
-   "last_flown": "2026-11-05",
+   "last_flown": "2026-11-07",
    "grades": {
+    "A": 1,
     "C": 1,
     "F": 1
    },
    "mission_types": {
     "CCIP": 2,
+    "BFM": 1,
     "A-A": 1,
     "FORMATION": 1
    },
    "skills": [
+    {
+     "name": "Basic Fighter Maneuver (BFM)",
+     "type": "BFM",
+     "score": 9.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Tactical Turns / Formation",
+     "type": "BFM",
+     "score": 9.0,
+     "max": 10,
+     "qualified": false
+    },
     {
      "name": "1 V 2 ACM",
      "type": "A-A",
@@ -5851,8 +5929,32 @@
     }
    ],
    "qualifications": 0,
-   "courses": [],
+   "courses": [
+    {
+     "title": "Basic Fighter Maneuver",
+     "code": "BFM-1",
+     "status": "ready",
+     "instructors": []
+    }
+   ],
    "history": [
+    {
+     "op": "op-241f54c637de",
+     "date": "2026-11-07",
+     "name": "Basic Fighter Maneuver",
+     "types": [
+      "BFM"
+     ],
+     "training": true,
+     "score": 90.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
     {
      "op": "op-891c2c93dd5d",
      "date": "2026-11-05",
@@ -6617,24 +6719,40 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 1,
-   "score": 65.0,
-   "average": 65.0,
-   "best": 65.0,
+   "missions": 2,
+   "score": 155.0,
+   "average": 77.5,
+   "best": 90.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
    "deaths": 0,
    "hours": 1.0,
-   "last_flown": "2026-11-05",
+   "last_flown": "2026-11-07",
    "grades": {
+    "A": 1,
     "D": 1
    },
    "mission_types": {
+    "BFM": 1,
     "CCIP": 1,
     "STRAFE": 1
    },
    "skills": [
+    {
+     "name": "Basic Fighter Maneuver (BFM)",
+     "type": "BFM",
+     "score": 9.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Tactical Turns / Formation",
+     "type": "BFM",
+     "score": 9.0,
+     "max": 10,
+     "qualified": false
+    },
     {
      "name": "CCIP Tactical Pattern",
      "type": "CCIP",
@@ -6644,8 +6762,32 @@
     }
    ],
    "qualifications": 0,
-   "courses": [],
+   "courses": [
+    {
+     "title": "Basic Fighter Maneuver",
+     "code": "BFM-1",
+     "status": "ready",
+     "instructors": []
+    }
+   ],
    "history": [
+    {
+     "op": "op-241f54c637de",
+     "date": "2026-11-07",
+     "name": "Basic Fighter Maneuver",
+     "types": [
+      "BFM"
+     ],
+     "training": true,
+     "score": 90.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
     {
      "op": "op-4d6c29bac531",
      "date": "2026-11-05",
@@ -7058,6 +7200,99 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-241f54c637de",
+   "date": "2026-11-07",
+   "name": "Basic Fighter Maneuver",
+   "kind": "manual",
+   "types": [
+    "BFM"
+   ],
+   "training": true,
+   "brief": "",
+   "narrative": "",
+   "lessons": [],
+   "card": {
+    "mission_date": "2026-11-07",
+    "mission_time": "19:30"
+   },
+   "teams": [
+    {
+     "name": "Viper",
+     "task": "TRAINING",
+     "size": 4,
+     "pilots": []
+    }
+   ],
+   "results": [
+    {
+     "callsign": "Megatron",
+     "member": true,
+     "squadron": "272 TFW",
+     "score": 90.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    },
+    {
+     "callsign": "Titan",
+     "member": true,
+     "squadron": "272 TFW",
+     "score": 90.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    },
+    {
+     "callsign": "N0N0",
+     "member": true,
+     "squadron": "",
+     "score": 90.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    },
+    {
+     "callsign": "[EAF] Taha",
+     "member": true,
+     "squadron": "",
+     "score": 90.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    }
+   ],
+   "pilots": 4,
+   "average": 90.0,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "instructor": "Sword",
+   "report": "reports/op-241f54c637de.html"
+  },
   {
    "id": "op-4f3087dddc70",
    "date": "2026-11-06",
