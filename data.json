@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T21:24:01+00:00",
+ "generated": "2026-11-08T21:26:02+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -13774,50 +13774,26 @@
  ],
  "upcoming": [
   {
-   "id": "op-1230b3140005",
+   "id": "op-4091a652ca5c",
    "date": "2026-11-08",
-   "name": "Destruction Enemy of Air Defences",
+   "name": "Destruction of Enemy Air Defences",
    "types": [
-    "SEAD"
+    "SEAD",
+    "FORMATION"
    ],
    "brief": "",
    "card": {
     "mission_date": "2026-11-08",
-    "mission_time": "19:30",
-    "laser": "1688",
-    "bingo": "2000 lbs",
-    "datalink": "010-024",
-    "freqs": [
-     {
-      "label": "GUARD",
-      "mhz": "251.00"
-     },
-     {
-      "label": "HORUS",
-      "mhz": "126.00"
-     },
-     {
-      "label": "ANUBIS",
-      "mhz": "127.00"
-     }
-    ],
-    "headings": [
-     {
-      "label": "PUSH",
-      "deg": ""
-     },
-     {
-      "label": "EGRESS",
-      "deg": ""
-     }
-    ]
+    "mission_time": "22:30"
    },
    "teams": [
     {
      "name": "Horus",
      "task": "TRAINING",
      "size": 4,
-     "pilots": []
+     "pilots": [
+      "Sword"
+     ]
     },
     {
      "name": "Anubis",
@@ -13826,7 +13802,9 @@
      "pilots": []
     }
    ],
-   "signed": [],
+   "signed": [
+    "Sword"
+   ],
    "reserves": []
   },
   {
