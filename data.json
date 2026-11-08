@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T21:50:04+00:00",
+ "generated": "2026-11-08T21:54:05+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -13802,14 +13802,17 @@
      "name": "Anubis",
      "task": "TRAINING",
      "size": 4,
-     "pilots": []
+     "pilots": [
+      "[EAF] Hardy"
+     ]
     }
    ],
    "signed": [
     "Sword",
     "[EAF] Taha",
     "black Mamba",
-    "Omar"
+    "Omar",
+    "[EAF] Hardy"
    ],
    "reserves": []
   },
