@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T21:55:05+00:00",
+ "generated": "2026-11-08T22:22:09+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -5819,6 +5819,110 @@
    "history": []
   },
   {
+   "callsign": "[EAF] Maverick",
+   "rank": {
+    "full": "طالب | Student",
+    "ar": "طالب",
+    "en": "Student",
+    "insignia": ""
+   },
+   "rank_order": 11,
+   "squadron": "",
+   "joined": "2026-11-05",
+   "aircraft": [
+    "F-16C Viper"
+   ],
+   "bio": "",
+   "missions": 2,
+   "score": 155.0,
+   "average": 77.5,
+   "best": 90.0,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "friendly_kills": 0,
+   "deaths": 0,
+   "hours": 1.0,
+   "last_flown": "2026-11-07",
+   "grades": {
+    "A": 1,
+    "D": 1
+   },
+   "mission_types": {
+    "BFM": 1,
+    "CCIP": 1,
+    "STRAFE": 1
+   },
+   "skills": [
+    {
+     "name": "Basic Fighter Maneuver (BFM)",
+     "type": "BFM",
+     "score": 9.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Tactical Turns / Formation",
+     "type": "BFM",
+     "score": 9.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 6.5,
+     "max": 10,
+     "qualified": false
+    }
+   ],
+   "qualifications": 0,
+   "courses": [
+    {
+     "title": "Basic Fighter Maneuver",
+     "code": "BFM-1",
+     "status": "ready",
+     "instructors": []
+    }
+   ],
+   "history": [
+    {
+     "op": "op-241f54c637de",
+     "date": "2026-11-07",
+     "name": "Basic Fighter Maneuver",
+     "types": [
+      "BFM"
+     ],
+     "training": true,
+     "score": 90.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
+    {
+     "op": "op-4d6c29bac531",
+     "date": "2026-11-05",
+     "name": "Basic Surface Attack | Tactical Pattern",
+     "types": [
+      "CCIP",
+      "STRAFE"
+     ],
+     "training": true,
+     "score": 65.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 62,
+     "highlight": "Formation discipline score 71.7 is the highest of the formation-tracked pilots, and avg rejoin 23 s with best 6 s shows Maverick can hold position when attention is on the lead."
+    }
+   ]
+  },
+  {
    "callsign": "[EAF] Taha",
    "rank": {
     "full": "طالب | Student",
@@ -6765,110 +6869,6 @@
    "history": []
   },
   {
-   "callsign": "N0N0",
-   "rank": {
-    "full": "طالب | Student",
-    "ar": "طالب",
-    "en": "Student",
-    "insignia": ""
-   },
-   "rank_order": 11,
-   "squadron": "",
-   "joined": "2026-11-05",
-   "aircraft": [
-    "F-16C Viper"
-   ],
-   "bio": "",
-   "missions": 2,
-   "score": 155.0,
-   "average": 77.5,
-   "best": 90.0,
-   "air_kills": 0,
-   "ground_kills": 0,
-   "friendly_kills": 0,
-   "deaths": 0,
-   "hours": 1.0,
-   "last_flown": "2026-11-07",
-   "grades": {
-    "A": 1,
-    "D": 1
-   },
-   "mission_types": {
-    "BFM": 1,
-    "CCIP": 1,
-    "STRAFE": 1
-   },
-   "skills": [
-    {
-     "name": "Basic Fighter Maneuver (BFM)",
-     "type": "BFM",
-     "score": 9.0,
-     "max": 10,
-     "qualified": false
-    },
-    {
-     "name": "Tactical Turns / Formation",
-     "type": "BFM",
-     "score": 9.0,
-     "max": 10,
-     "qualified": false
-    },
-    {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
-     "score": 6.5,
-     "max": 10,
-     "qualified": false
-    }
-   ],
-   "qualifications": 0,
-   "courses": [
-    {
-     "title": "Basic Fighter Maneuver",
-     "code": "BFM-1",
-     "status": "ready",
-     "instructors": []
-    }
-   ],
-   "history": [
-    {
-     "op": "op-241f54c637de",
-     "date": "2026-11-07",
-     "name": "Basic Fighter Maneuver",
-     "types": [
-      "BFM"
-     ],
-     "training": true,
-     "score": 90.0,
-     "grade": "A",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 0,
-     "highlight": ""
-    },
-    {
-     "op": "op-4d6c29bac531",
-     "date": "2026-11-05",
-     "name": "Basic Surface Attack | Tactical Pattern",
-     "types": [
-      "CCIP",
-      "STRAFE"
-     ],
-     "training": true,
-     "score": 65.0,
-     "grade": "D",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 62,
-     "highlight": "Formation discipline score 71.7 is the highest of the formation-tracked pilots, and avg rejoin 23 s with best 6 s shows Maverick can hold position when attention is on the lead."
-    }
-   ]
-  },
-  {
    "callsign": "NoDi",
    "rank": {
     "full": "طالب | Student",
@@ -7346,7 +7346,7 @@
      "note": ""
     },
     {
-     "callsign": "N0N0",
+     "callsign": "[EAF] Maverick",
      "member": true,
      "squadron": "",
      "score": 90.0,
@@ -7610,7 +7610,7 @@
      "note": "Best shack rate of the day (2/6) and the lowest total CEP among peers — a clear upward trajectory, marred only by dangerously shallow dives on runs 3 and 4."
     },
     {
-     "callsign": "N0N0",
+     "callsign": "[EAF] Maverick",
      "member": true,
      "squadron": "",
      "score": 65.0,
