@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T21:18:56+00:00",
+ "generated": "2026-11-08T21:20:56+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -13693,7 +13693,34 @@
    "brief": "",
    "card": {
     "mission_date": "2026-11-08",
-    "mission_time": "19:30"
+    "mission_time": "19:30",
+    "laser": "1688",
+    "bingo": "2000 lbs",
+    "datalink": "010-024",
+    "freqs": [
+     {
+      "label": "GUARD",
+      "mhz": "251.00"
+     },
+     {
+      "label": "HORUS",
+      "mhz": "126.00"
+     },
+     {
+      "label": "ANUBIS",
+      "mhz": "127.00"
+     }
+    ],
+    "headings": [
+     {
+      "label": "PUSH",
+      "deg": ""
+     },
+     {
+      "label": "EGRESS",
+      "deg": ""
+     }
+    ]
    },
    "teams": [
     {
