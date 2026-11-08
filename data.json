@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T21:54:05+00:00",
+ "generated": "2026-11-08T21:55:05+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -13803,7 +13803,8 @@
      "task": "TRAINING",
      "size": 4,
      "pilots": [
-      "[EAF] Hardy"
+      "[EAF] Hardy",
+      "N0N0"
      ]
     }
    ],
@@ -13812,7 +13813,8 @@
     "[EAF] Taha",
     "black Mamba",
     "Omar",
-    "[EAF] Hardy"
+    "[EAF] Hardy",
+    "N0N0"
    ],
    "reserves": []
   },
