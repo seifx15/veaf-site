@@ -391,3 +391,40 @@ td.note { white-space: normal; font-size: 0.85rem; color: #cfc9bf; min-width: 22
 .courses li { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
 .cst { font: 600 0.75rem/1.4 var(--f-mono); color: var(--muted); }
 .cst.complete { color: var(--good); } .cst.ready { color: var(--sand); } .cst.in_progress { color: var(--dayglo); }
+
+/* ---- sign-in, sign-ups, photos, patches ------------------------------------ */
+.user-slot { display: inline-flex; align-items: center; }
+.signin { border: 1px solid var(--dayglo); background: none; color: var(--dayglo); border-radius: 4px; padding: 7px 12px; font: 600 0.88rem/1 var(--f-body); cursor: pointer; }
+.signin:hover { background: var(--dayglo); color: var(--dayglo-ink); }
+.user { display: inline-flex; align-items: center; gap: 8px; }
+.user a { display: inline-flex; align-items: center; gap: 8px; color: var(--text); text-decoration: none; }
+.user b { font: 600 0.9rem/1 var(--f-body); max-width: 12ch; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.user .out { background: none; border: 0; color: var(--muted); font: 500 0.8rem/1 var(--f-body); cursor: pointer; padding: 6px 4px; }
+.user .out:hover { color: var(--text); }
+.uav { width: 30px; height: 30px; border-radius: 50%; display: inline-grid; place-items: center; background: var(--panel-2); border: 1px solid var(--line);
+  font: 800 0.8rem/1 var(--f-display); color: var(--sand); object-fit: cover; flex: none; }
+img.badge.ph, img.uav.ph, img.portrait.ph { object-fit: cover; padding: 0; }
+img.badge.ph { flex: none; }
+.ph-row { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; }
+.photo-slot { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.portrait { width: 112px; height: 112px; border-radius: 50%; display: grid; place-items: center; background: var(--panel-2); border: 2px solid var(--sand);
+  font: 800 2.4rem/1 var(--f-display); color: var(--sand); }
+.btn.small { padding: 7px 12px; font-size: 0.82rem; cursor: pointer; }
+.btn.busy, .btn[disabled] { opacity: 0.6; pointer-events: none; }
+section.nmband { background: var(--panel); }
+.nm-box { display: flex; gap: 24px; align-items: center; justify-content: space-between; flex-wrap: wrap; border-inline-start: 3px solid var(--dayglo); padding-inline-start: 18px; }
+.nm-box h2 { margin: 0 0 6px; }
+.nm-box p { margin: 0; max-width: 70ch; color: var(--muted); }
+.su-box { margin-top: 24px; background: var(--panel); border: 1px solid var(--line); border-inline-start: 3px solid var(--dayglo); border-radius: 4px; padding: 16px 18px; }
+.su-box .h-sm { margin-top: 0; }
+.su-box p { margin: 6px 0 10px; }
+.patches { display: grid; grid-template-columns: repeat(auto-fill, minmax(124px, 1fr)); gap: 12px; margin-top: 8px; }
+.patch { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; padding: 12px 8px; background: var(--panel); border: 1px solid var(--line);
+  border-radius: 4px; color: var(--text); text-decoration: none; }
+a.patch:hover { border-color: var(--sand); }
+.patch img { width: 96px; height: 96px; object-fit: contain; }
+.patch .nm { font: 600 0.86rem/1.25 var(--f-body); }
+.patch .sub { font-size: 0.75rem; color: var(--muted); }
+.toast { position: fixed; inset-inline: 16px; bottom: 16px; margin-inline: auto; max-width: 520px; background: var(--panel-2); border: 1px solid var(--sand); color: var(--text);
+  padding: 12px 16px; border-radius: 4px; z-index: 50; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4); }
+@media (max-width: 1080px) { .user-slot { align-self: flex-start; margin-top: 6px; } }

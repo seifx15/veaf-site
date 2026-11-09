@@ -27,6 +27,15 @@
       brandsub: "Virtual Egyptian Air Force", menu: "Menu",
       nav_home: "Home", nav_about: "About", nav_training: "Training", nav_pvp: "PvP", nav_airshow: "Airshow",
       nav_pilots: "Pilots", nav_board: "Leaderboard", nav_join: "Join us", lang_other: "العربية",
+      sign_in: "Sign in", sign_in_discord: "Sign in with Discord", sign_out: "Sign out", my_profile: "My profile",
+      nm_h: "You're not in the squadron yet", nm_p: "You signed in with Discord as {u}, but that account isn't on the EAF roster. Join our Discord and ask for a pilot slot. Once an instructor adds you, sign-ups, your profile and your photo unlock here.",
+      su_h: "Your sign-up", su_signin: "Sign in with Discord to sign up for this operation.", su_closed: "Sign-ups for this operation are closed or not open yet.",
+      su_in: "You're on the flight list.", su_res: "You're in the reserves.", su_out: "You're not signed up.",
+      do_signup: "Sign up", do_reserve: "Reserve", do_withdraw: "Withdraw", su_pending: "Request sent. The manager confirms it within a minute or two.",
+      su_failed: "Couldn't send that: ", su_last: "Last answer: ", photo_change: "Change photo", photo_add: "Add a profile photo", photo_busy: "Uploading…",
+      photo_done: "Photo uploaded. It appears on the roster after the next website update.", photo_bad: "That file isn't an image this browser can read.",
+      patches_h: "Mission patches", patches_intro: "Earned by flying the operation, or awarded by the instructors.", no_patches: "No patches yet.", holders: "holders", op_patch: "Mission patch",
+      session_lost: "Your sign-in expired. Sign in again.",
       disclaimer: "VEAF is a virtual squadron of DCS World players. It is a gaming community and is not affiliated with, endorsed by or part of the Egyptian Air Force or the Egyptian Armed Forces. Ranks are squadron ranks.",
       hero_eyebrow: "DCS World · Mil-Sim squadron",
       hero_h1: "The first Egyptian <em>mil&#8209;sim</em> squadron in DCS",
@@ -90,6 +99,15 @@
       brandsub: "القوات الجوية المصرية الافتراضية", menu: "القائمة",
       nav_home: "الرئيسية", nav_about: "من نحن", nav_training: "التدريب", nav_pvp: "المنافسات", nav_airshow: "العروض الجوية",
       nav_pilots: "الطيارون", nav_board: "الترتيب", nav_join: "انضم إلينا", lang_other: "English",
+      sign_in: "تسجيل الدخول", sign_in_discord: "الدخول عبر ديسكورد", sign_out: "تسجيل الخروج", my_profile: "ملفي",
+      nm_h: "أنت لست في السرب بعد", nm_p: "دخلت عبر ديسكورد باسم {u}، لكن هذا الحساب غير موجود في قائمة طياري EAF. انضم إلى الديسكورد واطلب مكانًا كطيار. بعد أن يضيفك أحد المدربين ستتمكن هنا من التسجيل في العمليات وتعديل ملفك وصورتك.",
+      su_h: "تسجيلك", su_signin: "سجّل الدخول عبر ديسكورد للتسجيل في هذه العملية.", su_closed: "التسجيل في هذه العملية مغلق أو لم يُفتح بعد.",
+      su_in: "أنت في قائمة الطيران.", su_res: "أنت في الاحتياط.", su_out: "لست مسجلًا.",
+      do_signup: "سجّلني", do_reserve: "احتياط", do_withdraw: "انسحاب", su_pending: "تم إرسال الطلب. يؤكده البرنامج خلال دقيقة أو دقيقتين.",
+      su_failed: "تعذر الإرسال: ", su_last: "آخر رد: ", photo_change: "تغيير الصورة", photo_add: "أضف صورة شخصية", photo_busy: "جارٍ الرفع…",
+      photo_done: "تم رفع الصورة. ستظهر في قائمة الطيارين بعد التحديث القادم للموقع.", photo_bad: "هذا الملف ليس صورة يمكن للمتصفح قراءتها.",
+      patches_h: "شارات المهمات", patches_intro: "تُكتسب بالطيران في العملية أو يمنحها المدربون.", no_patches: "لا توجد شارات بعد.", holders: "حاملين", op_patch: "شارة المهمة",
+      session_lost: "انتهت جلسة الدخول. سجّل الدخول مرة أخرى.",
       disclaimer: "VEAF سرب افتراضي من لاعبي DCS World. هو مجتمع ألعاب، وليس تابعًا للقوات الجوية المصرية أو القوات المسلحة المصرية ولا معتمدًا منها. الرتب رتب داخل السرب فقط.",
       hero_eyebrow: "DCS World · سرب محاكاة عسكرية",
       hero_h1: "أول سرب <em>محاكاة عسكرية</em> مصري في DCS",
@@ -204,7 +222,7 @@
   }
   function initials(cs) { return esc(String(cs || "?").replace(/[^A-Za-z0-9\u0600-\u06FF]/g, "").slice(0, 2).toUpperCase() || "?"); }
   function discordBtn(cls) {
-    return '<a class="btn ' + (cls || "primary") + '" href="' + DISCORD + '" target="_blank" rel="noopener">' +
+    return '<a class="btn ' + (cls || "primary") + '" href="' + esc((DATA && DATA.join_url) || DISCORD) + '" target="_blank" rel="noopener">' +
       '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.3 4.4A19.6 19.6 0 0 0 15.4 3l-.6 1.3a18 18 0 0 0-5.6 0L8.6 3a19.6 19.6 0 0 0-4.9 1.5C.6 9.1-.3 13.6.1 18.1a19.8 19.8 0 0 0 6 3l1.3-2a12.7 12.7 0 0 1-2-1l.5-.4a14.1 14.1 0 0 0 12.2 0l.5.4c-.6.4-1.3.7-2 1l1.3 2a19.7 19.7 0 0 0 6-3c.5-5.2-.9-9.7-3.6-13.7ZM8 15.4c-1.2 0-2.2-1.1-2.2-2.4S6.8 10.6 8 10.6s2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Zm8 0c-1.2 0-2.2-1.1-2.2-2.4s1-2.4 2.2-2.4 2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Z"/></svg>' +
       esc(t("join_discord")) + "</a>";
   }
@@ -297,7 +315,8 @@
         return '<button class="chip" type="button" data-sq="' + esc(q) + '" aria-pressed="' + (rosterFilter.sq === q) + '">' + esc(q) + "</button>";
       }).join("") + "</div>" : "";
     return head("", t("pilots_h"), t("pilots_intro")) + '<section class="band"><div class="wrap">' + sqChips + '<div class="filters" role="group">' + chips +
-      '<input class="search" id="pilot-search" type="search" placeholder="' + esc(t("search")) + '" aria-label="' + esc(t("search")) + '" value="' + esc(rosterFilter.q) + '"></div><div id="roster"></div></div></section>';
+      '<input class="search" id="pilot-search" type="search" placeholder="' + esc(t("search")) + '" aria-label="' + esc(t("search")) + '" value="' + esc(rosterFilter.q) + '"></div><div id="roster"></div></div></section>' +
+      (((DATA && DATA.patches) || []).length ? '<section class="band"><div class="wrap"><h2>' + esc(t("patches_h")) + '</h2><p class="intro">' + esc(t("patches_intro")) + "</p>" + patchGrid(DATA.patches) + "</div></section>" : "");
   }
   function drawRoster() {
     var box = document.getElementById("roster");
@@ -311,7 +330,7 @@
     ps.forEach(function (p) {
       var g = rankName(p.rank);
       if (g !== last) { if (last !== null) html += "</div>"; html += '<div class="group-label">' + esc(g) + (p.rank && p.rank.insignia ? ' · <span class="ins">' + esc(p.rank.insignia) + "</span>" : "") + '</div><div class="roster">'; last = g; }
-      html += '<a class="plate" href="#pilot-' + slug(p.callsign) + '"><span class="badge" aria-hidden="true">' + initials(p.callsign) + '</span><span class="who"><div class="cs">' + esc(p.callsign) +
+      html += '<a class="plate" href="#pilot-' + slug(p.callsign) + '">' + avatar(p) + '<span class="who"><div class="cs">' + esc(p.callsign) +
         '</div><div class="rk">' + esc(rankName(p.rank)) + '</div>' + (p.squadron ? '<div class="sqn">' + esc(p.squadron) + "</div>" : "") + '<div class="ac">' + esc((p.aircraft || []).join(" · ") || "–") + "</div></span></a>";
     });
     box.innerHTML = html + "</div>";
@@ -477,7 +496,9 @@
           '<ul>' + (tm.pilots || []).map(function (n) { return "<li>" + pilotLink(n) + "</li>"; }).join("") + "</ul></div>";
       }).join("") + "</div>";
     }
+    if ((o.patches || []).length) html += '<h2 class="h-sm">' + esc(t("op_patch")) + "</h2>" + patchGrid(o.patches);
     if (planned) {
+      html += signupBox(o);
       html += '<h2 class="h-sm">' + esc(t("signed_up")) + "</h2><p>" + ((o.signed || []).map(pilotLink).join(", ") || esc(t("nobody_yet"))) +
         ((o.reserves || []).length ? '<br><span class="muted">' + esc(t("reserves")) + ": " + o.reserves.map(pilotLink).join(", ") + "</span>" : "") + "</p>";
     } else {
@@ -541,7 +562,8 @@
           '</td><td class="opt">' + typeTags(h) + '</td><td><span class="grade ' + esc(g) + '">' + esc(h.grade || "–") + '</span></td><td class="n">' + fmt(h.score, 1) + '</td><td class="n">' + fmt(h.air_kills) +
           '</td><td class="n">' + fmt(h.ground_kills) + '</td><td class="n opt">' + fmt(h.minutes) + "</td></tr>";
       }).join("") + "</tbody></table></div>" : '<p class="empty">' + esc(t("no_history")) + "</p>";
-    return '<section class="band tight"><div class="wrap">' + back + '<div class="profile-head"><div>' + plate + "</div>" + meta + "</div>" + stats +
+    var pp = (p.patches || []).length ? '<h2 class="h-sm">' + esc(t("patches_h")) + "</h2>" + patchGrid(p.patches, true) : "";
+    return '<section class="band tight"><div class="wrap">' + back + '<div class="profile-head"><div class="ph-row">' + photoBlock(p) + plate + "</div>" + meta + "</div>" + stats + pp +
       '<div class="two"><div><h2 class="h-sm">' + esc(t("grades_h")) + "</h2>" + grades + '<h2 class="h-sm">' + esc(t("flown_h")) + "</h2>" + (kindHtml || '<p class="muted">–</p>') +
       '<h2 class="h-sm">' + esc(t("quals_h")) + "</h2>" + qualHtml + (courses ? '<h2 class="h-sm">' + esc(t("courses_h")) + "</h2>" + courses : "") +
       '<h2 class="h-sm">' + esc(t("skills")) + "</h2>" + skills + '</div><div><h2 class="h-sm">' + esc(t("history")) + "</h2>" + hist + "</div></div></div></section>";
@@ -557,6 +579,173 @@
       esc(t("discord_p")) + "</p>" + discordBtn() + '<span class="url">dsc.gg/veaf</span></div></div><div class="wrap"><p class="privacy">' + esc(t("privacy")) + "</p></div></section>";
   }
 
+  /* ------------------------------------------------- sign-in (the app) */
+  var ME = null, POLL = null, BUSY = "";
+  function api() { return DATA && DATA.app && DATA.app.api ? String(DATA.app.api).replace(/\/+$/, "") : ""; }
+  function joinUrl() { return (DATA && DATA.join_url) || DISCORD; }
+  function token() { try { return localStorage.getItem("veaf-token") || ""; } catch (e) { return ""; } }
+  function setToken(v) { try { if (v) localStorage.setItem("veaf-token", v); else localStorage.removeItem("veaf-token"); } catch (e) { /* private window */ } }
+  function call(path, opts) {
+    opts = opts || {};
+    var h = opts.headers || {};
+    h.Authorization = "Bearer " + token();
+    opts.headers = h;
+    return fetch(api() + path, opts).then(function (r) {
+      return r.json().catch(function () { return {}; }).then(function (j) {
+        if (r.status === 401 && path !== "/logout") { setToken(""); ME = null; drawUser(); }
+        if (!r.ok) throw new Error(j.error || ("HTTP " + r.status));
+        return j;
+      });
+    });
+  }
+  function isMember() { return !!(ME && ME.member); }
+  function myPilot() {
+    if (!isMember()) return null;
+    var ps = (DATA && DATA.pilots) || [];
+    for (var i = 0; i < ps.length; i++) if (ps[i].id === ME.member.member_id) return ps[i];
+    return null;
+  }
+  function photoUrl(p) {
+    if (ME && ME.member && p && p.id === ME.member.member_id && ME.photo) return api() + ME.photo;
+    return p && p.photo ? p.photo : "";
+  }
+  function avatar(p, cls) {
+    var u = photoUrl(p);
+    return u ? '<img class="' + (cls || "badge") + ' ph" src="' + esc(u) + '" alt="" loading="lazy">' : '<span class="' + (cls || "badge") + '" aria-hidden="true">' + initials(p && p.callsign) + "</span>";
+  }
+  function signIn() {
+    try { sessionStorage.setItem("veaf-return", location.hash || "#home"); } catch (e) { /* ignore */ }
+    location.href = api() + "/auth/login?return=" + encodeURIComponent(location.origin + location.pathname);
+  }
+  function loadMe() {
+    if (!api() || !token()) { ME = null; drawUser(); return Promise.resolve(null); }
+    return call("/me").then(function (j) { ME = j; drawUser(); refreshAppBits(); schedulePoll(); return j; })
+      .catch(function () { drawUser(); return null; });
+  }
+  function pending() { return ((ME && ME.actions) || []).filter(function (a) { return a.status === "pending"; }); }
+  function schedulePoll() {
+    if (POLL) { clearTimeout(POLL); POLL = null; }
+    if (pending().length) POLL = setTimeout(loadMe, 15000);
+  }
+  function drawUser() {
+    var slot = document.getElementById("user-slot");
+    if (!slot) return;
+    if (!api()) { slot.innerHTML = ""; return; }
+    if (!ME) { slot.innerHTML = '<button class="signin" type="button" data-app="signin">' + esc(t("sign_in")) + "</button>"; return; }
+    var p = myPilot();
+    var face = p ? avatar(p, "uav") : (ME.avatar ? '<img class="uav ph" src="' + esc(ME.avatar) + '" alt="">' : '<span class="uav">' + initials(ME.username) + "</span>");
+    slot.innerHTML = '<span class="user">' + (p ? '<a href="#pilot-' + slug(p.callsign) + '" title="' + esc(t("my_profile")) + '">' + face + "<b>" + esc(p.callsign) + "</b></a>" :
+      face + "<b>" + esc(ME.username) + "</b>") + '<button type="button" class="out" data-app="signout">' + esc(t("sign_out")) + "</button></span>";
+  }
+  function nonMemberBand() {
+    if (!ME || isMember()) return "";
+    return '<section class="band nmband"><div class="wrap"><div class="nm-box"><div><h2>' + esc(t("nm_h")) + "</h2><p>" + esc(t("nm_p").replace("{u}", ME.username || "")) +
+      '</p></div><div class="cta-row">' + discordBtn() + "</div></div></div></section>";
+  }
+  function opStatus(o) {
+    var p = myPilot(), cs = p ? p.callsign : (ME && ME.member ? ME.member.callsign : "");
+    if ((o.signed || []).indexOf(cs) >= 0) return "in";
+    if ((o.reserves || []).indexOf(cs) >= 0) return "res";
+    return "out";
+  }
+  function signupBox(o) {
+    if (!api() || !o.op_id) return "";
+    var body;
+    if (!ME) body = "<p>" + esc(t("su_signin")) + '</p><button class="btn primary" type="button" data-app="signin">' + esc(t("sign_in_discord")) + "</button>";
+    else if (!isMember()) body = "<p>" + esc(t("nm_p").replace("{u}", ME.username || "")) + "</p>" + discordBtn();
+    else if (!o.open) body = '<p class="muted">' + esc(t("su_closed")) + "</p>";
+    else {
+      var acts = (ME.actions || []).filter(function (a) { return a.payload && a.payload.op_id === o.op_id && a.kind !== "photo"; });
+      var wait = acts.filter(function (a) { return a.status === "pending"; }).length > 0;
+      var st = opStatus(o);
+      var btns = st === "out" ? [["signup", "primary"], ["reserve", ""]] : st === "res" ? [["signup", "primary"], ["withdraw", ""]] : [["reserve", ""], ["withdraw", ""]];
+      body = "<p><b>" + esc(t("su_" + st)) + "</b></p>" + (wait ? '<p class="muted">' + esc(t("su_pending")) + "</p>" :
+        '<div class="cta-row">' + btns.map(function (b) {
+          return '<button class="btn ' + b[1] + '" type="button" data-app="' + b[0] + '" data-op="' + esc(o.op_id) + '"' + (BUSY ? " disabled" : "") + ">" + esc(t("do_" + b[0])) + "</button>";
+        }).join("") + "</div>") + (acts.length && acts[0].result && !wait ? '<p class="muted">' + esc(t("su_last")) + esc(acts[0].result) + "</p>" : "");
+    }
+    return '<div class="su-box" id="su-box"><h2 class="h-sm">' + esc(t("su_h")) + "</h2>" + body + "</div>";
+  }
+  function refreshAppBits() {
+    var h = (location.hash || "").replace(/^#/, "");
+    var box = document.getElementById("su-box");
+    if (box && h.indexOf("op-") === 0) { var o = opBySlug(h.slice(3)); if (o) box.outerHTML = signupBox(o); }
+    var nm = document.getElementById("nm-slot");
+    if (nm) nm.innerHTML = nonMemberBand();
+    var ph = document.getElementById("photo-slot");
+    if (ph && h.indexOf("pilot-") === 0) { var p = pilotBySlug(h.slice(6)); if (p) ph.outerHTML = photoBlock(p); }
+  }
+  function photoBlock(p) {
+    var mine = isMember() && p.id === ME.member.member_id;
+    return '<div class="photo-slot" id="photo-slot">' + avatar(p, "portrait") + (mine ? '<label class="btn small' + (BUSY ? " busy" : "") + '">' +
+      esc(BUSY === "photo" ? t("photo_busy") : (photoUrl(p) ? t("photo_change") : t("photo_add"))) +
+      '<input type="file" accept="image/*" id="photo-input" hidden></label>' : "") + "</div>";
+  }
+  function shrink(file) {
+    return new Promise(function (ok, bad) {
+      var url = URL.createObjectURL(file), im = new Image();
+      im.onload = function () {
+        var s = Math.min(im.width, im.height), c = document.createElement("canvas");
+        c.width = c.height = 400;
+        c.getContext("2d").drawImage(im, (im.width - s) / 2, (im.height - s) / 2, s, s, 0, 0, 400, 400);
+        URL.revokeObjectURL(url);
+        c.toBlob(function (b) { b ? ok(b) : bad(new Error("encode")); }, "image/jpeg", 0.85);
+      };
+      im.onerror = function () { URL.revokeObjectURL(url); bad(new Error(t("photo_bad"))); };
+      im.src = url;
+    });
+  }
+  function uploadPhoto(file) {
+    BUSY = "photo"; refreshAppBits();
+    shrink(file).then(function (blob) {
+      return call("/photo", { method: "POST", headers: { "Content-Type": "image/jpeg" }, body: blob });
+    }).then(function (j) {
+      ME.photo = j.photo; BUSY = ""; drawUser(); refreshAppBits(); toast(t("photo_done"));
+      return loadMe();
+    }).catch(function (e) { BUSY = ""; refreshAppBits(); toast(t("su_failed") + e.message); });
+  }
+  function act(kind, opId) {
+    BUSY = kind; refreshAppBits();
+    call("/action", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ kind: kind, op_id: opId }) })
+      .then(function () { BUSY = ""; return loadMe(); })
+      .catch(function (e) { BUSY = ""; refreshAppBits(); toast(t("su_failed") + e.message); });
+  }
+  function toast(msg) {
+    var el = document.createElement("div"); el.className = "toast"; el.setAttribute("role", "status"); el.textContent = msg;
+    document.body.appendChild(el);
+    setTimeout(function () { el.remove(); }, 5000);
+  }
+  function patchGrid(list, withOp) {
+    if (!(list || []).length) return '<p class="muted">' + esc(t("no_patches")) + "</p>";
+    return '<div class="patches">' + list.map(function (x) {
+      var inner = '<img src="' + esc(x.image) + '" alt="" loading="lazy" width="96" height="96"><span class="nm">' + esc(x.name) + "</span>" +
+        (x.holders ? '<span class="sub">' + fmt(x.holders.length) + " " + esc(t("holders")) + "</span>" : x.date ? '<span class="sub mono">' + esc(x.date) + "</span>" : "");
+      return withOp && x.op ? '<a class="patch" href="#op-' + esc(x.op) + '" title="' + esc(x.description || x.name) + '">' + inner + "</a>" :
+        '<div class="patch" title="' + esc(x.description || x.name) + '">' + inner + "</div>";
+    }).join("") + "</div>";
+  }
+  document.addEventListener("click", function (e) {
+    var el = e.target.closest ? e.target.closest("[data-app]") : null;
+    if (!el || el.disabled) return;
+    var k = el.getAttribute("data-app");
+    if (k === "signin") signIn();
+    else if (k === "signout") {
+      call("/logout", { method: "POST" }).catch(function () { /* already gone */ });
+      setToken(""); ME = null; drawUser(); route();
+    } else act(k, el.getAttribute("data-op"));
+  });
+  document.addEventListener("change", function (e) {
+    if (e.target.id === "photo-input" && e.target.files && e.target.files[0]) uploadPhoto(e.target.files[0]);
+  });
+  (function takeToken() {
+    var m = /^#auth-([A-Za-z0-9_-]+)/.exec(location.hash || "");
+    if (!m) return;
+    setToken(m[1]);
+    var back = "#home";
+    try { back = sessionStorage.getItem("veaf-return") || "#home"; sessionStorage.removeItem("veaf-return"); } catch (err) { /* ignore */ }
+    history.replaceState(null, "", location.pathname + location.search + back);
+  })();
+
   /* -------------------------------------------------------------- router */
   var ROUTES = { home: pageHome, about: pageAbout, training: pageTraining, pvp: pagePvp, airshow: pageAirshow, pilots: pagePilots, leaderboard: pageBoard, operations: pageOps, join: pageJoin };
   function route() {
@@ -566,7 +755,7 @@
     if (h.indexOf("pilot-") === 0) html = pagePilot(h.slice(6));
     else if (h.indexOf("op-") === 0) html = pageOp(h.slice(3));
     else html = (ROUTES[h] || pageHome)();
-    main.innerHTML = html;
+    main.innerHTML = '<div id="nm-slot">' + nonMemberBand() + "</div>" + html;
     var cur = h.indexOf("pilot-") === 0 ? "pilots" : h.indexOf("op-") === 0 ? "operations" : (ROUTES[h] ? h : "home");
     Array.prototype.forEach.call(document.querySelectorAll(".nav a"), function (a) {
       if (a.getAttribute("href") === "#" + cur) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
@@ -583,6 +772,7 @@
     Array.prototype.forEach.call(document.querySelectorAll("[data-i]"), function (el) { el.textContent = t(el.getAttribute("data-i")); });
     document.getElementById("lang").textContent = t("lang_other");
     stamp();
+    if (typeof drawUser === "function") drawUser();
   }
   function stamp() {
     var s = document.getElementById("stamp");
@@ -639,12 +829,15 @@
     if (e.target.id === "op-search") { opFilter.q = e.target.value; drawOps(); } });
   window.addEventListener("hashchange", route);
 
+  if ("serviceWorker" in navigator && location.protocol === "https:") {
+    navigator.serviceWorker.register("sw.js").catch(function () { /* the site works without it */ });
+  }
   applyLang();
   document.getElementById("main").innerHTML = '<section class="band"><div class="wrap"><p class="empty">' + esc(t("loading")) + "</p></div></section>";
   fetch("data.json", { cache: "no-cache" }).then(function (r) {
     if (!r.ok) throw new Error(r.status);
     return r.json();
-  }).then(function (d) { DATA = d; stamp(); route(); }).catch(function () {
+  }).then(function (d) { DATA = d; stamp(); route(); drawUser(); loadMe(); }).catch(function () {
     DATA = { pilots: [], scrims: [], totals: {} };
     route();
     var m = document.getElementById("main");
