@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T20:17:28+00:00",
+ "generated": "2026-11-09T20:28:32+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -14576,6 +14576,8 @@
   }
  ],
  "patches": [],
- "app": null,
+ "app": {
+  "api": "https://veaf-app.veaf-2ff4d6.workers.dev"
+ },
  "join_url": "http://dsc.gg/veaf"
 }
