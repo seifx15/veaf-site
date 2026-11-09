@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T20:42:27+00:00",
+ "generated": "2026-11-09T20:58:40+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -58,7 +58,7 @@
     "insignia": "⚔︎☆☆𖤍"
    },
    "rank_order": 1,
-   "photo": "",
+   "photo": "https://veaf-app.veaf-2ff4d6.workers.dev/photo/P_20260708193733_285?v=1794257716",
    "patches": [],
    "squadron": "201 AW AIRFORCE ACADEMY",
    "joined": "2026-07-08",
