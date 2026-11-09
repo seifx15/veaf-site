@@ -28,7 +28,7 @@
       nav_home: "Home", nav_about: "About", nav_training: "Training", nav_pvp: "PvP", nav_airshow: "Airshow",
       nav_pilots: "Pilots", nav_board: "Leaderboard", nav_join: "Join us", lang_other: "العربية",
       sign_in: "Sign in", sign_in_discord: "Sign in with Discord", sign_out: "Sign out", my_profile: "My profile",
-      nm_h: "You're not in the squadron yet", nm_p: "You signed in with Discord as {u}, but that account isn't on the EAF roster. Join our Discord and ask for a pilot slot. Once an instructor adds you, sign-ups, your profile and your photo unlock here.",
+      nm_h: "You're not in the squadron yet", nm_p: "You signed in with Discord as {u}, but that account isn't on the EAF roster. Join our Discord and ask for a pilot slot. Once an instructor adds you, sign-ups, your profile and your photo unlock here. Already a pilot? Ask an instructor to check your Discord account on the roster.",
       su_h: "Your sign-up", su_signin: "Sign in with Discord to sign up for this operation.", su_closed: "Sign-ups for this operation are closed or not open yet.",
       su_in: "You're on the flight list.", su_res: "You're in the reserves.", su_out: "You're not signed up.",
       do_signup: "Sign up", do_reserve: "Reserve", do_withdraw: "Withdraw", su_pending: "Request sent. The manager confirms it within a minute or two.",
@@ -100,7 +100,7 @@
       nav_home: "الرئيسية", nav_about: "من نحن", nav_training: "التدريب", nav_pvp: "المنافسات", nav_airshow: "العروض الجوية",
       nav_pilots: "الطيارون", nav_board: "الترتيب", nav_join: "انضم إلينا", lang_other: "English",
       sign_in: "تسجيل الدخول", sign_in_discord: "الدخول عبر ديسكورد", sign_out: "تسجيل الخروج", my_profile: "ملفي",
-      nm_h: "أنت لست في السرب بعد", nm_p: "دخلت عبر ديسكورد باسم {u}، لكن هذا الحساب غير موجود في قائمة طياري EAF. انضم إلى الديسكورد واطلب مكانًا كطيار. بعد أن يضيفك أحد المدربين ستتمكن هنا من التسجيل في العمليات وتعديل ملفك وصورتك.",
+      nm_h: "أنت لست في السرب بعد", nm_p: "دخلت عبر ديسكورد باسم {u}، لكن هذا الحساب غير موجود في قائمة طياري EAF. انضم إلى الديسكورد واطلب مكانًا كطيار. بعد أن يضيفك أحد المدربين ستتمكن هنا من التسجيل في العمليات وتعديل ملفك وصورتك. إذا كنت طيارًا بالفعل، اطلب من أحد المدربين مراجعة حساب ديسكورد الخاص بك في القائمة.",
       su_h: "تسجيلك", su_signin: "سجّل الدخول عبر ديسكورد للتسجيل في هذه العملية.", su_closed: "التسجيل في هذه العملية مغلق أو لم يُفتح بعد.",
       su_in: "أنت في قائمة الطيران.", su_res: "أنت في الاحتياط.", su_out: "لست مسجلًا.",
       do_signup: "سجّلني", do_reserve: "احتياط", do_withdraw: "انسحاب", su_pending: "تم إرسال الطلب. يؤكده البرنامج خلال دقيقة أو دقيقتين.",
@@ -634,8 +634,12 @@
     if (!ME) { slot.innerHTML = '<button class="signin" type="button" data-app="signin">' + esc(t("sign_in")) + "</button>"; return; }
     var p = myPilot();
     var face = p ? avatar(p, "uav") : (ME.avatar ? '<img class="uav ph" src="' + esc(ME.avatar) + '" alt="">' : '<span class="uav">' + initials(ME.username) + "</span>");
-    slot.innerHTML = '<span class="user">' + (p ? '<a href="#pilot-' + slug(p.callsign) + '" title="' + esc(t("my_profile")) + '">' + face + "<b>" + esc(p.callsign) + "</b></a>" :
-      face + "<b>" + esc(ME.username) + "</b>") + '<button type="button" class="out" data-app="signout">' + esc(t("sign_out")) + "</button></span>";
+    var name = p ? p.callsign : ME.username;
+    slot.innerHTML = '<span class="user"><button type="button" class="me-btn" data-app="usermenu" aria-expanded="false" aria-haspopup="true" title="' + esc(name) + '">' + face +
+      '<span class="nm-short">' + esc(name) + '</span></button><span class="user-pop" id="user-pop"><span class="who">' + esc(name) +
+      (p ? "" : '<small>' + esc(ME.username) + "</small>") + "</span>" +
+      (p ? '<a href="#pilot-' + slug(p.callsign) + '">' + esc(t("my_profile")) + "</a>" : "") +
+      '<button type="button" class="out" data-app="signout">' + esc(t("sign_out")) + "</button></span></span>";
   }
   function nonMemberBand() {
     if (!ME || isMember()) return "";
@@ -728,11 +732,22 @@
     var el = e.target.closest ? e.target.closest("[data-app]") : null;
     if (!el || el.disabled) return;
     var k = el.getAttribute("data-app");
+    if (k === "usermenu") {
+      var pop = document.getElementById("user-pop"), open = pop.classList.toggle("open");
+      el.setAttribute("aria-expanded", String(open)); return;
+    }
     if (k === "signin") signIn();
     else if (k === "signout") {
       call("/logout", { method: "POST" }).catch(function () { /* already gone */ });
       setToken(""); ME = null; drawUser(); route();
     } else act(k, el.getAttribute("data-op"));
+  });
+  document.addEventListener("click", function (e) {
+    var pop = document.getElementById("user-pop");
+    if (pop && pop.classList.contains("open") && !(e.target.closest && e.target.closest(".user"))) {
+      pop.classList.remove("open");
+      var b = document.querySelector(".me-btn"); if (b) b.setAttribute("aria-expanded", "false");
+    }
   });
   document.addEventListener("change", function (e) {
     if (e.target.id === "photo-input" && e.target.files && e.target.files[0]) uploadPhoto(e.target.files[0]);
