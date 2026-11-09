@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T20:12:15+00:00",
+ "generated": "2026-11-09T20:17:28+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -16,6 +16,7 @@
  },
  "pilots": [
   {
+   "id": "P_20260708193733_691",
    "callsign": "Kiko",
    "rank": {
     "full": "EAF | هيئة التنظيم والإدارة",
@@ -24,6 +25,8 @@
     "insignia": ""
    },
    "rank_order": 0,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-08",
    "aircraft": [],
@@ -46,6 +49,7 @@
    "history": []
   },
   {
+   "id": "P_20260708193733_285",
    "callsign": "Sword",
    "rank": {
     "full": "فريق أول | First Lieutenant General | ⚔︎☆☆𖤍",
@@ -54,6 +58,8 @@
     "insignia": "⚔︎☆☆𖤍"
    },
    "rank_order": 1,
+   "photo": "",
+   "patches": [],
    "squadron": "201 AW AIRFORCE ACADEMY",
    "joined": "2026-07-08",
    "aircraft": [
@@ -823,6 +829,7 @@
    ]
   },
   {
+   "id": "P_20260728211859_758",
    "callsign": "Bonkizzle",
    "rank": {
     "full": "لواء | Colonel | ⚔︎𖤍",
@@ -831,6 +838,8 @@
     "insignia": "⚔︎𖤍"
    },
    "rank_order": 3,
+   "photo": "",
+   "patches": [],
    "squadron": "201 AW AIRFORCE ACADEMY",
    "joined": "2026-07-28",
    "aircraft": [
@@ -894,6 +903,7 @@
    ]
   },
   {
+   "id": "P_20260708193733_503",
    "callsign": "Blacksky",
    "rank": {
     "full": "مقدم | Commander | 𓅪☆𖤍",
@@ -902,6 +912,8 @@
     "insignia": "𓅪☆𖤍"
    },
    "rank_order": 6,
+   "photo": "",
+   "patches": [],
    "squadron": "201 AW AIRFORCE ACADEMY",
    "joined": "2026-07-08",
    "aircraft": [
@@ -1451,6 +1463,7 @@
    ]
   },
   {
+   "id": "P_20260708193733_663",
    "callsign": "Ibraheem",
    "rank": {
     "full": "مقدم | Commander | 𓅪☆𖤍",
@@ -1459,6 +1472,8 @@
     "insignia": "𓅪☆𖤍"
    },
    "rank_order": 6,
+   "photo": "",
+   "patches": [],
    "squadron": "201 AW AIRFORCE ACADEMY",
    "joined": "2026-07-08",
    "aircraft": [
@@ -1940,6 +1955,7 @@
    ]
   },
   {
+   "id": "P_20260708193733_546",
    "callsign": "Moataz",
    "rank": {
     "full": "رائد | Ra'id | 𓅪𖤍",
@@ -1948,6 +1964,8 @@
     "insignia": "𓅪𖤍"
    },
    "rank_order": 7,
+   "photo": "",
+   "patches": [],
    "squadron": "201 AW AIRFORCE ACADEMY",
    "joined": "2026-07-08",
    "aircraft": [
@@ -2194,6 +2212,7 @@
    ]
   },
   {
+   "id": "P_20260708193733_298",
    "callsign": "Mazen Sameh",
    "rank": {
     "full": "نقيب | Naqib | 𓅪☆☆☆",
@@ -2202,6 +2221,8 @@
     "insignia": "𓅪☆☆☆"
    },
    "rank_order": 8,
+   "photo": "",
+   "patches": [],
    "squadron": "272 TFW",
    "joined": "2026-07-08",
    "aircraft": [
@@ -2554,6 +2575,7 @@
    ]
   },
   {
+   "id": "P_20260708193733_806",
    "callsign": "Megatron",
    "rank": {
     "full": "نقيب | Naqib | 𓅪☆☆☆",
@@ -2562,6 +2584,8 @@
     "insignia": "𓅪☆☆☆"
    },
    "rank_order": 8,
+   "photo": "",
+   "patches": [],
    "squadron": "272 TFW",
    "joined": "2026-07-08",
    "aircraft": [
@@ -3277,6 +3301,7 @@
    ]
   },
   {
+   "id": "P_59c01538a4044add97aabc32e6ce63f6",
    "callsign": "1iFzz",
    "rank": {
     "full": "ملازم أول | First Lieutenant | 𓅪☆☆",
@@ -3285,6 +3310,8 @@
     "insignia": "𓅪☆☆"
    },
    "rank_order": 9,
+   "photo": "",
+   "patches": [],
    "squadron": "272 TFW",
    "joined": "2026-09-25",
    "aircraft": [
@@ -3440,6 +3467,7 @@
    ]
   },
   {
+   "id": "P_41ee0ec58813",
    "callsign": "2iFzz",
    "rank": {
     "full": "ملازم أول | First Lieutenant | 𓅪☆☆",
@@ -3448,6 +3476,8 @@
     "insignia": "𓅪☆☆"
    },
    "rank_order": 9,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-10-28",
    "aircraft": [],
@@ -3470,6 +3500,7 @@
    "history": []
   },
   {
+   "id": "P_20260708193733_819",
    "callsign": "CACTUS",
    "rank": {
     "full": "ملازم أول | First Lieutenant | 𓅪☆☆",
@@ -3478,6 +3509,8 @@
     "insignia": "𓅪☆☆"
    },
    "rank_order": 9,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-08",
    "aircraft": [],
@@ -3500,6 +3533,7 @@
    "history": []
   },
   {
+   "id": "P_20260708193733_715",
    "callsign": "Kafafy",
    "rank": {
     "full": "ملازم أول | First Lieutenant | 𓅪☆☆",
@@ -3508,6 +3542,8 @@
     "insignia": "𓅪☆☆"
    },
    "rank_order": 9,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-08",
    "aircraft": [
@@ -3705,6 +3741,7 @@
    ]
   },
   {
+   "id": "P_20260708193733_613",
    "callsign": "Omar",
    "rank": {
     "full": "ملازم أول | First Lieutenant | 𓅪☆☆",
@@ -3713,6 +3750,8 @@
     "insignia": "𓅪☆☆"
    },
    "rank_order": 9,
+   "photo": "",
+   "patches": [],
    "squadron": "272 TFW",
    "joined": "2026-07-08",
    "aircraft": [
@@ -3952,6 +3991,7 @@
    ]
   },
   {
+   "id": "P_20260708193733_754",
    "callsign": "88TF-Flash",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -3960,6 +4000,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-08",
    "aircraft": [],
@@ -3982,6 +4024,7 @@
    "history": []
   },
   {
+   "id": "P_20260727005123_516",
    "callsign": "9g | Surt",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -3990,6 +4033,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-27",
    "aircraft": [],
@@ -4012,6 +4057,7 @@
    "history": []
   },
   {
+   "id": "P_71e36930379f448dad2502c47a9dcf22",
    "callsign": "[EAF] bigib",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -4020,6 +4066,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-09-25",
    "aircraft": [],
@@ -4042,6 +4090,7 @@
    "history": []
   },
   {
+   "id": "P_cf63066b25084b469e6201141dd5b775",
    "callsign": "[EAF] Hardy",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -4050,6 +4099,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-09-25",
    "aircraft": [
@@ -4108,6 +4159,7 @@
    ]
   },
   {
+   "id": "P_20260708193733_296",
    "callsign": "[U777] Golden_Pilot",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -4116,6 +4168,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "272 TFW",
    "joined": "2026-07-08",
    "aircraft": [
@@ -4477,6 +4531,7 @@
    ]
   },
   {
+   "id": "P_5c5f7ffd93984a2baca7f34b4994a769",
    "callsign": "AdhamS",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -4485,6 +4540,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-09-22",
    "aircraft": [],
@@ -4507,6 +4564,7 @@
    "history": []
   },
   {
+   "id": "P_20260708193733_775",
    "callsign": "Alaa",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -4515,6 +4573,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-08",
    "aircraft": [],
@@ -4537,6 +4597,7 @@
    "history": []
   },
   {
+   "id": "P_20260905004550_349",
    "callsign": "Ali Pero",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -4545,6 +4606,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-09-05",
    "aircraft": [],
@@ -4567,6 +4630,7 @@
    "history": []
   },
   {
+   "id": "P_20260708193733_368",
    "callsign": "amr (black horus)",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -4575,6 +4639,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-08",
    "aircraft": [],
@@ -4627,6 +4693,7 @@
    ]
   },
   {
+   "id": "P_20260708193733_769",
    "callsign": "Amro",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -4635,6 +4702,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-08",
    "aircraft": [],
@@ -4677,6 +4746,7 @@
    ]
   },
   {
+   "id": "P_20260904215221_445",
    "callsign": "Ayman",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -4685,6 +4755,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-09-04",
    "aircraft": [],
@@ -4727,6 +4799,7 @@
    ]
   },
   {
+   "id": "P_20260708193733_970",
    "callsign": "BARQ - برق",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -4735,6 +4808,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-08",
    "aircraft": [],
@@ -4757,6 +4832,7 @@
    "history": []
   },
   {
+   "id": "P_20260708193733_449",
    "callsign": "DREAM",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -4765,6 +4841,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-08",
    "aircraft": [],
@@ -4787,6 +4865,7 @@
    "history": []
   },
   {
+   "id": "P_20260712010732_566",
    "callsign": "H",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -4795,6 +4874,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-12",
    "aircraft": [
@@ -4900,6 +4981,7 @@
    ]
   },
   {
+   "id": "P_20260708193733_229",
    "callsign": "Mag",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -4908,6 +4990,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-08",
    "aircraft": [],
@@ -4930,6 +5014,7 @@
    "history": []
   },
   {
+   "id": "P_4d32934059334b9eb1c01a5528ed2fcf",
    "callsign": "mazenmuhmaedd",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -4938,6 +5023,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-09-25",
    "aircraft": [],
@@ -4960,6 +5047,7 @@
    "history": []
   },
   {
+   "id": "P_20260708193733_941",
    "callsign": "Moe \"Roulette\"",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -4968,6 +5056,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-08",
    "aircraft": [],
@@ -4990,6 +5080,7 @@
    "history": []
   },
   {
+   "id": "P_20260708193733_136",
    "callsign": "Mohammed El-Dakamawy",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -4998,6 +5089,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "272 TFW",
    "joined": "2026-07-08",
    "aircraft": [],
@@ -5020,6 +5113,7 @@
    "history": []
   },
   {
+   "id": "P_20260802223310_191",
    "callsign": "Mothman",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -5028,6 +5122,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-08-02",
    "aircraft": [],
@@ -5050,6 +5146,7 @@
    "history": []
   },
   {
+   "id": "P_20260830020449_164",
    "callsign": "MTM",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -5058,6 +5155,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-08-30",
    "aircraft": [],
@@ -5104,6 +5203,7 @@
    ]
   },
   {
+   "id": "P_20260708193733_420",
    "callsign": "Nayal",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -5112,6 +5212,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-08",
    "aircraft": [],
@@ -5134,6 +5236,7 @@
    "history": []
   },
   {
+   "id": "P_20260806040629_720",
    "callsign": "Neo",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -5142,6 +5245,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "272 TFW",
    "joined": "2026-08-06",
    "aircraft": [
@@ -5283,6 +5388,7 @@
    ]
   },
   {
+   "id": "P_20260727234037_851",
    "callsign": "Rage Infest",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -5291,6 +5397,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-27",
    "aircraft": [],
@@ -5313,6 +5421,7 @@
    "history": []
   },
   {
+   "id": "P_20260708193733_224",
    "callsign": "Ressay",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -5321,6 +5430,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-08",
    "aircraft": [],
@@ -5343,6 +5454,7 @@
    "history": []
   },
   {
+   "id": "P_20260802224825_242",
    "callsign": "Rhino",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -5351,6 +5463,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-08-02",
    "aircraft": [],
@@ -5373,6 +5487,7 @@
    "history": []
   },
   {
+   "id": "P_20260708193733_218",
    "callsign": "Rohrkrepierer",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -5381,6 +5496,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-08",
    "aircraft": [],
@@ -5403,6 +5520,7 @@
    "history": []
   },
   {
+   "id": "P_20260708193733_412",
    "callsign": "Sayed",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -5411,6 +5529,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-08",
    "aircraft": [],
@@ -5433,6 +5553,7 @@
    "history": []
   },
   {
+   "id": "P_20260829222429_779",
    "callsign": "ssz7_",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -5441,6 +5562,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-08-29",
    "aircraft": [],
@@ -5487,6 +5610,7 @@
    ]
   },
   {
+   "id": "P_20260708193733_134",
    "callsign": "Stormzy",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -5495,6 +5619,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-08",
    "aircraft": [],
@@ -5517,6 +5643,7 @@
    "history": []
   },
   {
+   "id": "P_20260817050438_618",
    "callsign": "Titan",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -5525,6 +5652,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "272 TFW",
    "joined": "2026-08-17",
    "aircraft": [
@@ -5723,6 +5852,7 @@
    ]
   },
   {
+   "id": "P_20260726234827_154",
    "callsign": "Venom",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -5731,6 +5861,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-26",
    "aircraft": [],
@@ -5753,6 +5885,7 @@
    "history": []
   },
   {
+   "id": "P_20260708193733_241",
    "callsign": "Wade",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -5761,6 +5894,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-08",
    "aircraft": [],
@@ -5813,6 +5948,7 @@
    ]
   },
   {
+   "id": "P_20260708193733_101",
    "callsign": "WANZER",
    "rank": {
     "full": "ملازم | Lieutenant | 𓅪☆",
@@ -5821,6 +5957,8 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-08",
    "aircraft": [],
@@ -5843,6 +5981,7 @@
    "history": []
   },
   {
+   "id": "P_ea29ef53c2ba",
    "callsign": "'Aresdin 👁️",
    "rank": {
     "full": "طالب | Student",
@@ -5851,6 +5990,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-11-04",
    "aircraft": [],
@@ -5873,6 +6014,7 @@
    "history": []
   },
   {
+   "id": "P_19e993ce8b284b308443b72e6ffac966",
    "callsign": "[EAF] Fate",
    "rank": {
     "full": "طالب | Student",
@@ -5881,6 +6023,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-09-25",
    "aircraft": [],
@@ -5903,6 +6047,7 @@
    "history": []
   },
   {
+   "id": "P_031fcc77ecae",
    "callsign": "[EAF] Maverick",
    "rank": {
     "full": "طالب | Student",
@@ -5911,6 +6056,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-11-05",
    "aircraft": [
@@ -6037,6 +6184,7 @@
    ]
   },
   {
+   "id": "P_8783963eb255",
    "callsign": "[EAF] Taha",
    "rank": {
     "full": "طالب | Student",
@@ -6045,6 +6193,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-11-04",
    "aircraft": [
@@ -6229,6 +6379,7 @@
    ]
   },
   {
+   "id": "P_1e53bf844a9241458945434fdb03b295",
    "callsign": "[RMAF] Mehdi",
    "rank": {
     "full": "طالب | Student",
@@ -6237,6 +6388,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "272 TFW",
    "joined": "2026-10-05",
    "aircraft": [],
@@ -6259,6 +6412,7 @@
    "history": []
   },
   {
+   "id": "P_4bca608e6f9a4745b4ed9bf04a689c38",
    "callsign": "adam126792",
    "rank": {
     "full": "طالب | Student",
@@ -6267,6 +6421,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-10-17",
    "aircraft": [],
@@ -6289,6 +6445,7 @@
    "history": []
   },
   {
+   "id": "P_20260716141230_908",
    "callsign": "Ahmed",
    "rank": {
     "full": "طالب | Student",
@@ -6297,6 +6454,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-16",
    "aircraft": [],
@@ -6319,6 +6478,7 @@
    "history": []
   },
   {
+   "id": "P_79eb07f9d96d41efbfcbdc840cf72eee",
    "callsign": "Ameer",
    "rank": {
     "full": "طالب | Student",
@@ -6327,6 +6487,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "272 TFW",
    "joined": "2026-10-09",
    "aircraft": [
@@ -6402,6 +6564,7 @@
    ]
   },
   {
+   "id": "P_55ab780a714b446a82dee2733868117c",
    "callsign": "AMS",
    "rank": {
     "full": "طالب | Student",
@@ -6410,6 +6573,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "272 TFW",
    "joined": "2026-10-13",
    "aircraft": [
@@ -6434,6 +6599,7 @@
    "history": []
   },
   {
+   "id": "P_374b535db310405ab3655f5c72300053",
    "callsign": "AvMSR",
    "rank": {
     "full": "طالب | Student",
@@ -6442,6 +6608,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-10-16",
    "aircraft": [],
@@ -6464,6 +6632,7 @@
    "history": []
   },
   {
+   "id": "P_f27b7f1a867a",
    "callsign": "black Mamba",
    "rank": {
     "full": "طالب | Student",
@@ -6472,6 +6641,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-11-03",
    "aircraft": [
@@ -6580,6 +6751,7 @@
    ]
   },
   {
+   "id": "P_f93d34df0eb54b0a8445df25452656e4",
    "callsign": "drk_mrng",
    "rank": {
     "full": "طالب | Student",
@@ -6588,6 +6760,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-09-25",
    "aircraft": [],
@@ -6610,6 +6784,7 @@
    "history": []
   },
   {
+   "id": "P_a9deaed829ea",
    "callsign": "ElGri",
    "rank": {
     "full": "طالب | Student",
@@ -6618,6 +6793,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-11-08",
    "aircraft": [],
@@ -6640,6 +6817,7 @@
    "history": []
   },
   {
+   "id": "P_0cc142cf178c",
    "callsign": "Hussein wageh",
    "rank": {
     "full": "طالب | Student",
@@ -6648,6 +6826,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-11-05",
    "aircraft": [],
@@ -6670,6 +6850,7 @@
    "history": []
   },
   {
+   "id": "P_4a81aa8b262a49c5a092ab37ad6a60d8",
    "callsign": "Jemy",
    "rank": {
     "full": "طالب | Student",
@@ -6678,6 +6859,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-09-27",
    "aircraft": [],
@@ -6700,6 +6883,7 @@
    "history": []
   },
   {
+   "id": "P_20260806040558_517",
    "callsign": "Khalid Z",
    "rank": {
     "full": "طالب | Student",
@@ -6708,6 +6892,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-08-06",
    "aircraft": [],
@@ -6730,6 +6916,7 @@
    "history": []
   },
   {
+   "id": "P_20260903210323_674",
    "callsign": "M",
    "rank": {
     "full": "طالب | Student",
@@ -6738,6 +6925,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-09-03",
    "aircraft": [],
@@ -6760,6 +6949,7 @@
    "history": []
   },
   {
+   "id": "P_0256d1c58102",
    "callsign": "m.tarek",
    "rank": {
     "full": "طالب | Student",
@@ -6768,6 +6958,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-11-08",
    "aircraft": [],
@@ -6790,6 +6982,7 @@
    "history": []
   },
   {
+   "id": "P_468f75402442",
    "callsign": "mach",
    "rank": {
     "full": "طالب | Student",
@@ -6798,6 +6991,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-11-04",
    "aircraft": [],
@@ -6820,6 +7015,7 @@
    "history": []
   },
   {
+   "id": "P_d8c95e3b61e6",
    "callsign": "mahgoub09",
    "rank": {
     "full": "طالب | Student",
@@ -6828,6 +7024,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-11-05",
    "aircraft": [],
@@ -6850,6 +7048,7 @@
    "history": []
   },
   {
+   "id": "P_b96686b620504d86b377e6440257344c",
    "callsign": "mannan2349",
    "rank": {
     "full": "طالب | Student",
@@ -6858,6 +7057,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-10-09",
    "aircraft": [],
@@ -6880,6 +7081,7 @@
    "history": []
   },
   {
+   "id": "P_20260813233154_986",
    "callsign": "Mesque",
    "rank": {
     "full": "طالب | Student",
@@ -6888,6 +7090,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "272 TFW",
    "joined": "2026-08-13",
    "aircraft": [],
@@ -6910,6 +7114,7 @@
    "history": []
   },
   {
+   "id": "P_20260708193733_647",
    "callsign": "MillennialFalcon",
    "rank": {
     "full": "طالب | Student",
@@ -6918,6 +7123,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-08",
    "aircraft": [],
@@ -6940,6 +7147,7 @@
    "history": []
   },
   {
+   "id": "P_1adb0cfbe38f452f80a0e0a5c1dbc675",
    "callsign": "Mo swadyy",
    "rank": {
     "full": "طالب | Student",
@@ -6948,6 +7156,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-10-17",
    "aircraft": [],
@@ -6970,6 +7180,7 @@
    "history": []
   },
   {
+   "id": "P_63f7cb65999f",
    "callsign": "Moakram",
    "rank": {
     "full": "طالب | Student",
@@ -6978,6 +7189,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-11-08",
    "aircraft": [],
@@ -7000,6 +7213,7 @@
    "history": []
   },
   {
+   "id": "P_4ff80f0337ae",
    "callsign": "MSA_89",
    "rank": {
     "full": "طالب | Student",
@@ -7008,6 +7222,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-11-05",
    "aircraft": [],
@@ -7030,6 +7246,7 @@
    "history": []
   },
   {
+   "id": "P_d247cc657d884555bb29eff8f45f01c1",
    "callsign": "NoDi",
    "rank": {
     "full": "طالب | Student",
@@ -7038,6 +7255,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-10-05",
    "aircraft": [],
@@ -7060,6 +7279,7 @@
    "history": []
   },
   {
+   "id": "P_03c98c8a8fc34d2181119a79c57bc451",
    "callsign": "nuclear",
    "rank": {
     "full": "طالب | Student",
@@ -7068,6 +7288,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-09-25",
    "aircraft": [],
@@ -7090,6 +7312,7 @@
    "history": []
   },
   {
+   "id": "P_d1f9349e5b5a",
    "callsign": "Osama Nabil",
    "rank": {
     "full": "طالب | Student",
@@ -7098,6 +7321,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-10-26",
    "aircraft": [],
@@ -7120,6 +7345,7 @@
    "history": []
   },
   {
+   "id": "P_0bd6ec76bdd3",
    "callsign": "osamashoaip20",
    "rank": {
     "full": "طالب | Student",
@@ -7128,6 +7354,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-11-05",
    "aircraft": [],
@@ -7150,6 +7378,7 @@
    "history": []
   },
   {
+   "id": "P_d3866f8f551947b5a0265866ccf97e9a",
    "callsign": "para",
    "rank": {
     "full": "طالب | Student",
@@ -7158,6 +7387,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-09-25",
    "aircraft": [],
@@ -7180,6 +7411,7 @@
    "history": []
   },
   {
+   "id": "P_e9ea0a3b9473",
    "callsign": "pil_eslam_hafez",
    "rank": {
     "full": "طالب | Student",
@@ -7188,6 +7420,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-11-05",
    "aircraft": [],
@@ -7210,6 +7444,7 @@
    "history": []
   },
   {
+   "id": "P_321d9110ac2c",
    "callsign": "Saqr",
    "rank": {
     "full": "طالب | Student",
@@ -7218,6 +7453,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-11-05",
    "aircraft": [],
@@ -7240,6 +7477,7 @@
    "history": []
   },
   {
+   "id": "P_20260807175424_752",
    "callsign": "Senw",
    "rank": {
     "full": "طالب | Student",
@@ -7248,6 +7486,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-08-07",
    "aircraft": [],
@@ -7270,6 +7510,7 @@
    "history": []
   },
   {
+   "id": "P_20260808234558_883",
    "callsign": "sniper@1998",
    "rank": {
     "full": "طالب | Student",
@@ -7278,6 +7519,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-08-08",
    "aircraft": [],
@@ -7300,6 +7543,7 @@
    "history": []
   },
   {
+   "id": "P_d13395b6cc17",
    "callsign": "Sss",
    "rank": {
     "full": "طالب | Student",
@@ -7308,6 +7552,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-11-05",
    "aircraft": [],
@@ -7330,6 +7576,7 @@
    "history": []
   },
   {
+   "id": "P_ede2b86c563346758de8cbf1ff5b278b",
    "callsign": "V3teran",
    "rank": {
     "full": "طالب | Student",
@@ -7338,6 +7585,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-10-14",
    "aircraft": [],
@@ -7360,6 +7609,7 @@
    "history": []
   },
   {
+   "id": "P_20260708193733_887",
    "callsign": "Walid ( Montu)",
    "rank": {
     "full": "طالب | Student",
@@ -7368,6 +7618,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-07-08",
    "aircraft": [],
@@ -7390,6 +7642,7 @@
    "history": []
   },
   {
+   "id": "P_f6793119590448a7be24d192d90d272d",
    "callsign": "Za-ControllerX",
    "rank": {
     "full": "طالب | Student",
@@ -7398,6 +7651,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-10-06",
    "aircraft": [],
@@ -7420,6 +7675,7 @@
    "history": []
   },
   {
+   "id": "P_e314afec5c5e41f9ae7f72f2d1b5f9aa",
    "callsign": "𝔸𝔻𝔸𝕄",
    "rank": {
     "full": "طالب | Student",
@@ -7428,6 +7684,8 @@
     "insignia": ""
    },
    "rank_order": 11,
+   "photo": "",
+   "patches": [],
    "squadron": "",
    "joined": "2026-10-06",
    "aircraft": [],
@@ -7502,6 +7760,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-6db480fa2dff.html"
   },
   {
@@ -7679,6 +7938,7 @@
    "air_kills": 0,
    "ground_kills": 2,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-4091a652ca5c.html"
   },
   {
@@ -7772,6 +8032,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-241f54c637de.html"
   },
   {
@@ -7821,6 +8082,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-4f3087dddc70.html"
   },
   {
@@ -8048,6 +8310,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-4d6c29bac531.html"
   },
   {
@@ -8094,6 +8357,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-72776a8d96cc.html"
   },
   {
@@ -8140,6 +8404,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-f7620a6671c2.html"
   },
   {
@@ -8241,6 +8506,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-891c2c93dd5d.html"
   },
   {
@@ -8390,6 +8656,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-e5b6fbd54e25.html"
   },
   {
@@ -8547,6 +8814,7 @@
    "air_kills": 0,
    "ground_kills": 6,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-5bb514953f4d.html"
   },
   {
@@ -8638,6 +8906,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-0cab205f8c87.html"
   },
   {
@@ -8744,6 +9013,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-2099cdd89279.html"
   },
   {
@@ -8835,6 +9105,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-9ebb4985389e.html"
   },
   {
@@ -8926,6 +9197,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-c1d496266b86.html"
   },
   {
@@ -8989,6 +9261,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-19612348ae8f.html"
   },
   {
@@ -9052,6 +9325,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-fb1b6102ac47.html"
   },
   {
@@ -9182,6 +9456,7 @@
    "air_kills": 8,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-bea6b45cf883.html"
   },
   {
@@ -9304,6 +9579,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-2910c27004b0.html"
   },
   {
@@ -9367,6 +9643,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-2a7aab20934e.html"
   },
   {
@@ -9417,6 +9694,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-f8e353d687b7.html"
   },
   {
@@ -9465,6 +9743,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-d4823c0cccf3.html"
   },
   {
@@ -9535,6 +9814,7 @@
    "air_kills": 1,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-087910dbf26d.html"
   },
   {
@@ -9605,6 +9885,7 @@
    "air_kills": 4,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-905dc07d5501.html"
   },
   {
@@ -9654,6 +9935,7 @@
    "air_kills": 12,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-70fa536abf5b.html"
   },
   {
@@ -9703,6 +9985,7 @@
    "air_kills": 2,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-ad99bd60df15.html"
   },
   {
@@ -9773,6 +10056,7 @@
    "air_kills": 10,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-5d7ea67f6466.html"
   },
   {
@@ -9920,6 +10204,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-8b4461816abe.html"
   },
   {
@@ -10111,6 +10396,7 @@
    "air_kills": 27,
    "ground_kills": 2,
    "instructor": "Sword",
+   "patches": [],
    "report": ""
   },
   {
@@ -10190,6 +10476,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-ff518ba33ce34918b8ba38bc036e467f.html"
   },
   {
@@ -10234,6 +10521,7 @@
    "air_kills": 2,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": ""
   },
   {
@@ -10281,6 +10569,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": ""
   },
   {
@@ -10326,6 +10615,7 @@
    "air_kills": 3,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": ""
   },
   {
@@ -10395,6 +10685,7 @@
    "air_kills": 15,
    "ground_kills": 6,
    "instructor": "Sword",
+   "patches": [],
    "report": ""
   },
   {
@@ -10441,6 +10732,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": ""
   },
   {
@@ -10546,6 +10838,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-2c0c7f700204491a86b3924cf5637107.html"
   },
   {
@@ -10590,6 +10883,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": ""
   },
   {
@@ -10794,6 +11088,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-798ef509be80458fa3e3aa1de500ae50.html"
   },
   {
@@ -10914,6 +11209,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-3c4b685462884bdea94d555abacbd827.html"
   },
   {
@@ -10960,6 +11256,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": ""
   },
   {
@@ -11050,6 +11347,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-b1364eef060340b09717b759d0797389.html"
   },
   {
@@ -11125,6 +11423,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-597bfabcac0342ee950b27c29b726938.html"
   },
   {
@@ -11170,6 +11469,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-6419cb368a3d49dcaa872957a9cf6832.html"
   },
   {
@@ -11243,6 +11543,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-0a91dc90c6b34c5a8b9c7ce086b8c7b0.html"
   },
   {
@@ -11301,6 +11602,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-d733241c67e34c948db8183724582aad.html"
   },
   {
@@ -11396,6 +11698,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-e85b9e29c99a4a46b2195a684a1fc863.html"
   },
   {
@@ -11486,6 +11789,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-b9136234e29d486fbf41b1adebaba961.html"
   },
   {
@@ -11577,6 +11881,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-11d0988cea6542d2b1cc5404fbb01254.html"
   },
   {
@@ -11751,6 +12056,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-f1bdf7c031f8489d8dec83bad06cd9e1.html"
   },
   {
@@ -11878,6 +12184,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
+   "patches": [],
    "report": "reports/op-1dc14cfad40848d98adb2d32e6412332.html"
   },
   {
@@ -11963,6 +12270,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "",
+   "patches": [],
    "report": ""
   },
   {
@@ -12147,6 +12455,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "",
+   "patches": [],
    "report": ""
   },
   {
@@ -12314,6 +12623,7 @@
    "air_kills": 0,
    "ground_kills": 1,
    "instructor": "",
+   "patches": [],
    "report": ""
   },
   {
@@ -12460,6 +12770,7 @@
    "air_kills": 0,
    "ground_kills": 1,
    "instructor": "",
+   "patches": [],
    "report": ""
   },
   {
@@ -12687,6 +12998,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "",
+   "patches": [],
    "report": ""
   },
   {
@@ -12816,6 +13128,7 @@
    "air_kills": 0,
    "ground_kills": 6,
    "instructor": "",
+   "patches": [],
    "report": ""
   },
   {
@@ -12996,6 +13309,7 @@
    "air_kills": 0,
    "ground_kills": 1,
    "instructor": "",
+   "patches": [],
    "report": ""
   },
   {
@@ -13075,6 +13389,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "",
+   "patches": [],
    "report": ""
   },
   {
@@ -13154,6 +13469,7 @@
    "air_kills": 0,
    "ground_kills": 2,
    "instructor": "",
+   "patches": [],
    "report": ""
   },
   {
@@ -13234,6 +13550,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "",
+   "patches": [],
    "report": ""
   },
   {
@@ -13428,6 +13745,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "",
+   "patches": [],
    "report": ""
   },
   {
@@ -13596,6 +13914,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "",
+   "patches": [],
    "report": ""
   },
   {
@@ -13722,6 +14041,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "",
+   "patches": [],
    "report": ""
   },
   {
@@ -13925,6 +14245,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "",
+   "patches": [],
    "report": ""
   },
   {
@@ -14051,6 +14372,7 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "",
+   "patches": [],
    "report": ""
   },
   {
@@ -14160,12 +14482,15 @@
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "",
+   "patches": [],
    "report": ""
   }
  ],
  "upcoming": [
   {
    "id": "op-37766af98ef2",
+   "op_id": "OP_37766af98ef2",
+   "open": true,
    "date": "2026-11-12",
    "name": "vFS F-16 Staffeltraining",
    "types": [
@@ -14173,6 +14498,7 @@
     "CAS",
     "FORMATION"
    ],
+   "patches": [],
    "brief": "The vFS F-16 Viper Club Squadron would like to invite us to a Joint-Training Mission on Thursday, November, 12th  18:30 Zulu Time ( Egypt Time 20:30, German Time 19:30)\n\nWe fly a Air to Ground Training Mission on the Syria Map, from the Akrotiri Airbase in Cyprus.\n\nTraining Objective is a Killbox Task, Finding GMT Ground Moving Targets by A-G Radar, and engage them with LAser Guided Bombs and /or CBUs ! \n\nAdditionally there can be SEAD and ESCORT/TARCAP Flights.",
    "card": {
     "mission_date": "2026-11-12",
@@ -14248,5 +14574,8 @@
    "kills_them": 15,
    "pilots": []
   }
- ]
+ ],
+ "patches": [],
+ "app": null,
+ "join_url": "http://dsc.gg/veaf"
 }
