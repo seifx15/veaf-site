@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T01:01:36+00:00",
+ "generated": "2026-11-09T09:33:38+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -14105,7 +14105,28 @@
    "brief": "The vFS F-16 Viper Club Squadron would like to invite us to a Joint-Training Mission on Thursday, November, 12th  18:30 Zulu Time ( Egypt Time 20:30, German Time 19:30)\n\nWe fly a Air to Ground Training Mission on the Syria Map, from the Akrotiri Airbase in Cyprus.\n\nTraining Objective is a Killbox Task, Finding GMT Ground Moving Targets by A-G Radar, and engage them with LAser Guided Bombs and /or CBUs ! \n\nAdditionally there can be SEAD and ESCORT/TARCAP Flights.",
    "card": {
     "mission_date": "2026-11-12",
-    "mission_time": "18:00"
+    "mission_time": "18:00",
+    "laser": "1688",
+    "freqs": [
+     {
+      "label": "CHECK-IN",
+      "mhz": ""
+     },
+     {
+      "label": "TACTICAL",
+      "mhz": ""
+     }
+    ],
+    "headings": [
+     {
+      "label": "PUSH",
+      "deg": ""
+     },
+     {
+      "label": "EGRESS",
+      "deg": ""
+     }
+    ]
    },
    "teams": [
     {
@@ -14124,8 +14145,7 @@
      "task": "TRAINING",
      "size": 4,
      "pilots": [
-      "Ibraheem",
-      "N0N0"
+      "Ibraheem"
      ]
     }
    ],
@@ -14134,8 +14154,7 @@
     "Sword",
     "Blacksky",
     "Neo",
-    "Ibraheem",
-    "N0N0"
+    "Ibraheem"
    ],
    "reserves": []
   }
