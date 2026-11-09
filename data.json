@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T00:22:21+00:00",
+ "generated": "2026-11-09T01:01:36+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,12 +7,12 @@
  },
  "totals": {
   "pilots": 86,
-  "missions": 63,
-  "sorties": 208,
+  "missions": 64,
+  "sorties": 213,
   "qualifications": 48,
-  "hours": 168.7,
+  "hours": 172.1,
   "air_kills": 84,
-  "ground_kills": 25
+  "ground_kills": 27
  },
  "pilots": [
   {
@@ -60,33 +60,33 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 37,
-   "score": 2565.0,
-   "average": 69.4,
+   "missions": 38,
+   "score": 2653.0,
+   "average": 69.9,
    "best": 100.0,
    "air_kills": 25,
-   "ground_kills": 12,
+   "ground_kills": 14,
    "friendly_kills": 0,
    "deaths": 2,
-   "hours": 32.6,
-   "last_flown": "2026-11-05",
+   "hours": 33.3,
+   "last_flown": "2026-11-08",
    "grades": {
+    "A": 12,
     "C": 13,
     "B": 9,
     "F": 3,
-    "A": 11,
     "D": 1
    },
    "mission_types": {
+    "SEAD": 11,
     "CCIP": 10,
-    "SEAD": 10,
     "A-A": 8,
     "TRAINING": 5,
+    "FORMATION": 3,
     "STRAFE": 3,
     "BVR": 3,
-    "FORMATION": 2,
+    "CAS": 2,
     "BSA": 2,
-    "CAS": 1,
     "AAR": 1,
     "BFM": 1,
     "STRIKE": 1
@@ -109,7 +109,7 @@
     {
      "name": "SEAD",
      "type": "SEAD",
-     "score": 8.5,
+     "score": 8.8,
      "max": 10,
      "qualified": true
     },
@@ -172,6 +172,25 @@
     }
    ],
    "history": [
+    {
+     "op": "op-4091a652ca5c",
+     "date": "2026-11-08",
+     "name": "Destruction of Enemy Air Defences",
+     "types": [
+      "SEAD",
+      "FORMATION",
+      "CAS"
+     ],
+     "training": true,
+     "score": 88.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 2,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 44,
+     "highlight": "Sole radar kill of the sortie — AGM-88 impacted the SA-15 escort (Tor-M2) at 9.6 nm CPA 1,250 m, silencing the SA-10 site and scoring 2 ground kills; mission objective achieved."
+    },
     {
      "op": "op-4d6c29bac531",
      "date": "2026-11-05",
@@ -3700,18 +3719,18 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 8,
-   "score": 426.2,
-   "average": 53.3,
+   "missions": 9,
+   "score": 468.2,
+   "average": 52.0,
    "best": 80.0,
    "air_kills": 9,
    "ground_kills": 0,
    "friendly_kills": 0,
    "deaths": 1,
-   "hours": 8.9,
-   "last_flown": "2026-11-05",
+   "hours": 9.7,
+   "last_flown": "2026-11-08",
    "grades": {
-    "D": 4,
+    "D": 5,
     "C": 1,
     "F": 2,
     "B": 1
@@ -3719,6 +3738,9 @@
    "mission_types": {
     "BVR": 5,
     "A-A": 4,
+    "SEAD": 1,
+    "FORMATION": 1,
+    "CAS": 1,
     "CCIP": 1,
     "STRAFE": 1
    },
@@ -3752,6 +3774,13 @@
      "qualified": false
     },
     {
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 4.2,
+     "max": 10,
+     "qualified": false
+    },
+    {
      "name": "Basic Fighter Maneuver (BFM)",
      "type": "BFM",
      "score": 2.5,
@@ -3762,6 +3791,25 @@
    "qualifications": 0,
    "courses": [],
    "history": [
+    {
+     "op": "op-4091a652ca5c",
+     "date": "2026-11-08",
+     "name": "Destruction of Enemy Air Defences",
+     "types": [
+      "SEAD",
+      "FORMATION",
+      "CAS"
+     ],
+     "training": true,
+     "score": 42.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 48,
+     "highlight": "Survived the SEAD engagement (minRangeToSite 15.3 nm) with no losses — the longest flight time in the formation at 47.5 minutes shows commitment to the sortie."
+    },
     {
      "op": "op-4d6c29bac531",
      "date": "2026-11-05",
@@ -4008,22 +4056,56 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 0,
-   "score": 0.0,
-   "average": null,
-   "best": null,
+   "missions": 1,
+   "score": 48.0,
+   "average": 48.0,
+   "best": 48.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
-   "deaths": 0,
-   "hours": 0.0,
-   "last_flown": "",
-   "grades": {},
-   "mission_types": {},
-   "skills": [],
+   "deaths": 1,
+   "hours": 0.5,
+   "last_flown": "2026-11-08",
+   "grades": {
+    "C": 1
+   },
+   "mission_types": {
+    "SEAD": 1,
+    "FORMATION": 1,
+    "CAS": 1
+   },
+   "skills": [
+    {
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 4.8,
+     "max": 10,
+     "qualified": false
+    }
+   ],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [
+    {
+     "op": "op-4091a652ca5c",
+     "date": "2026-11-08",
+     "name": "Destruction of Enemy Air Defences",
+     "types": [
+      "SEAD",
+      "FORMATION",
+      "CAS"
+     ],
+     "training": true,
+     "score": 48.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 1,
+     "minutes": 29,
+     "highlight": "Defeated 2 of 3 inbound SAMs (66.7% defeat rate); one S-300 round defeated at CPA 39,788 m and one SA-5 at CPA 4,011 m — active defensive maneuvering kept the aircraft alive long enough to contribute to the attack timeline."
+    }
+   ]
   },
   {
    "callsign": "[U777] Golden_Pilot",
@@ -5835,21 +5917,25 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 2,
-   "score": 155.0,
-   "average": 77.5,
+   "missions": 3,
+   "score": 220.0,
+   "average": 73.3,
    "best": 90.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
    "deaths": 0,
-   "hours": 1.0,
-   "last_flown": "2026-11-07",
+   "hours": 2.0,
+   "last_flown": "2026-11-08",
    "grades": {
+    "B": 1,
     "A": 1,
     "D": 1
    },
    "mission_types": {
+    "SEAD": 1,
+    "FORMATION": 1,
+    "CAS": 1,
     "BFM": 1,
     "CCIP": 1,
     "STRAFE": 1
@@ -5875,6 +5961,13 @@
      "score": 6.5,
      "max": 10,
      "qualified": false
+    },
+    {
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 6.5,
+     "max": 10,
+     "qualified": false
     }
    ],
    "qualifications": 0,
@@ -5887,6 +5980,25 @@
     }
    ],
    "history": [
+    {
+     "op": "op-4091a652ca5c",
+     "date": "2026-11-08",
+     "name": "Destruction of Enemy Air Defences",
+     "types": [
+      "SEAD",
+      "FORMATION",
+      "CAS"
+     ],
+     "training": true,
+     "score": 65.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 57,
+     "highlight": "100% SAM defeat rate — both S-300PS rounds defeated (CPAs 8,958 m and 6,094 m) through effective defensive maneuvering; survived the most missile-saturated phase of the attack without being hit."
+    },
     {
      "op": "op-241f54c637de",
      "date": "2026-11-07",
@@ -5940,26 +6052,28 @@
     "Su-33"
    ],
    "bio": "",
-   "missions": 3,
-   "score": 202.0,
-   "average": 67.3,
+   "missions": 4,
+   "score": 252.0,
+   "average": 63.0,
    "best": 90.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
-   "deaths": 0,
-   "hours": 1.6,
-   "last_flown": "2026-11-07",
+   "deaths": 1,
+   "hours": 2.0,
+   "last_flown": "2026-11-08",
    "grades": {
+    "C": 2,
     "A": 1,
-    "C": 1,
     "F": 1
    },
    "mission_types": {
+    "FORMATION": 2,
     "CCIP": 2,
+    "SEAD": 1,
+    "CAS": 1,
     "BFM": 1,
-    "A-A": 1,
-    "FORMATION": 1
+    "A-A": 1
    },
    "skills": [
     {
@@ -6003,6 +6117,13 @@
      "score": 6.2,
      "max": 10,
      "qualified": false
+    },
+    {
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 5.0,
+     "max": 10,
+     "qualified": false
     }
    ],
    "qualifications": 0,
@@ -6015,6 +6136,25 @@
     }
    ],
    "history": [
+    {
+     "op": "op-4091a652ca5c",
+     "date": "2026-11-08",
+     "name": "Destruction of Enemy Air Defences",
+     "types": [
+      "SEAD",
+      "FORMATION",
+      "CAS"
+     ],
+     "training": true,
+     "score": 50.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 1,
+     "minutes": 21,
+     "highlight": "Slot appeared late in the mission — no telemetry data sufficient for grading."
+    },
     {
      "op": "op-241f54c637de",
      "date": "2026-11-07",
@@ -7293,6 +7433,183 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-4091a652ca5c",
+   "date": "2026-11-08",
+   "name": "Destruction of Enemy Air Defences",
+   "kind": "manual",
+   "types": [
+    "SEAD",
+    "FORMATION",
+    "CAS"
+   ],
+   "training": true,
+   "brief": "",
+   "narrative": "EAF Caucasus Training sortie 48905 launched eight pilots against a single SA-10 'Grumble' site (preset: excellent, 100% range) escorted by one SA-15 'Tor-M2', with the directed tactic being a close-in suppression profile rather than conventional standoff employment — the standard WEZ-penetration penalties are therefore not applied per the instructor brief. The main attack package rolled in at approximately 01:25–01:28 local mission time after a lengthy transit. Sword executed the decisive shot: two AGM-88s rippled at 9.4–9.6 nm produced one IMPACT (CPA 1,250 m) which killed the SA-15 escort Tor-M2, credited as the radar kill and triggering 2 ground kills — the only weapons effects of the mission that scored on target. Hardy pressed hard but was killed by an S-300PS 5P85D round at 01:27:00 after defeating 2 of 3 inbound missiles; his second HARM (19.3 nm) missed. XTC entered the WEZ at 14.5 nm with zero weapons aboard and was engaged twice by the S-300 at point-blank range (launch 3.2 nm and 2.9 nm), struck by both rounds, and killed at 01:28:19 — the most avoidable loss of the sortie. Maverick survived a two-missile engagement through effective defensive maneuvering (100% defeat rate, CPAs 8,958 and 6,094 m) but both his HARMs missed, launched at dangerously low altitudes of 890 and 784 ft AGL. Cyclone (Mamba slot) arrived late to the SEAD window and fired both Hornets' HARMs well after the main attack, missing with large CPAs (11 km and 4 km), failing to coordinate within the suppression window. Omar flew 47.5 minutes, sustained 1 over-G at 8.31 g during the SEAD run, never employed a weapon, and contributed zero suppression value. The net result: radar killed (mission success at the objective level), one pilot lost, one pilot lost with no weapons employed, and four of eight AGM-88s completely missed the target. The lesson this mission hammers home is HARM employment altitude: rounds fired below 1,500 ft AGL have degraded seeker geometry and reduced kinematic energy against distant targets — Sword's successful shot came from 3,600–3,900 ft and still required the close-in range to function. Formation discipline was largely unmeasured (most pilots showed zero formation scoring ticks), with Maverick the only pilot generating any formation data — and his rejoin times of 21+ minutes average are unacceptable for a wingman. Going forward the squadron must enforce weapons pre-mission checks (XTC had no ARM aboard), coordinate attack timing across the package, and practise HARM launch parameters above 3,000 ft AGL.",
+   "lessons": [
+    "HARM employment altitude is non-negotiable: all missed shots were fired below 1,600 ft AGL (Hardy 1,587 ft / 1,340 ft; Maverick 890 ft / 784 ft; Cyclone 8,500–8,900 ft but massive CPAs suggest targeting errors). Sword's successful HARM was fired at 3,626 ft. The seeker needs altitude and time-of-flight to refine; below 2,000 ft AGL you are lobbing an expensive paperweight.",
+    "Pre-attack weapons check is a hard gate: XTC entered the SAM WEZ in a Hornet with zero ARMs aboard and was killed at 2.9 nm — this is a procedures failure, not a tactics failure. Weapons, fuel, and equipment state must be confirmed on the radio before the IP turn, every time.",
+    "Package timing and coordination define suppression: Cyclone's HARMs arrived 10+ minutes after the main package. The SA-10 had already re-evaluated its threat picture by then. All ARMs must be sequenced to arrive within the same 60–90 s suppression window to deny the radar operator time to shut down and restart; a singleton ARM arriving alone is easily defeated by shutdown."
+   ],
+   "card": {
+    "mission_date": "2026-11-08",
+    "mission_time": "22:30"
+   },
+   "teams": [
+    {
+     "name": "Horus",
+     "task": "TRAINING",
+     "size": 4,
+     "pilots": [
+      "Sword",
+      "[EAF] Taha",
+      "black Mamba",
+      "Omar"
+     ]
+    },
+    {
+     "name": "Anubis",
+     "task": "TRAINING",
+     "size": 4,
+     "pilots": [
+      "[EAF] Hardy",
+      "N0N0"
+     ]
+    }
+   ],
+   "results": [
+    {
+     "callsign": "Sword",
+     "member": true,
+     "squadron": "201 AW AIRFORCE ACADEMY",
+     "score": 88.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 2,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 44,
+     "highlights": [
+      "Sole radar kill of the sortie — AGM-88 impacted the SA-15 escort (Tor-M2) at 9.6 nm CPA 1,250 m, silencing the SA-10 site and scoring 2 ground kills; mission objective achieved.",
+      "50% hit rate on 2 AGM-88 shots from ~9.5 nm avg launch range; clean max-G of 5.2 with zero G-exceedances and minAGL 8 ft (low-altitude attack profile consistent with the close-in tactic directed)."
+     ],
+     "improvements": [
+      "Second HARM missed CPA 1,213 m — a near thing; refine targeting solution sequencing so both rounds can be rippled at the same aim-point for a higher double-hit probability.",
+      "236 s WEZ exposure (nearly 4 full minutes) — even with the close-in tactic approved, tightening the ingress/egress profile to cut exposure below 120 s is the goal for the next iteration."
+     ],
+     "note": "Sole mission success — radar kill confirmed with a 9.6 nm HARM impact; reversed a four-sortie decline with the best outcome of the formation."
+    },
+    {
+     "callsign": "[EAF] Maverick",
+     "member": true,
+     "squadron": "",
+     "score": 65.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 57,
+     "highlights": [
+      "100% SAM defeat rate — both S-300PS rounds defeated (CPAs 8,958 m and 6,094 m) through effective defensive maneuvering; survived the most missile-saturated phase of the attack without being hit.",
+      "Longest flight time of the entire formation at 57.3 minutes; rejoined formation twice (best join 1,073 s, avg 1,274 s) and was the only pilot with meaningful formation data recorded."
+     ],
+     "improvements": [
+      "Both AGM-88s missed (CPAs 24.0 and 24.2 nm launch range; both MISS outcomes) — launched at 890 ft and 784 ft AGL respectively. Extremely low launch altitude compromises HARM seeker geometry and reduces stand-in energy; increase launch altitude to at least 3,000–5,000 ft AGL for consistent hits.",
+      "Formation join times are very slow — avg 1,274 s (~21 minutes), worst 1,476 s (~24.5 minutes) to rejoin. A tight wingman should close within 30–60 s of a break. This is a chronic spacing issue requiring dedicated rejoin practice."
+     ],
+     "note": "Survived 2 inbound SAMs with a 100% defeat rate and flew the longest sortie, but both HARMs missed and formation rejoin times of 21+ minutes average need urgent attention."
+    },
+    {
+     "callsign": "Cyclone",
+     "member": false,
+     "squadron": "",
+     "score": 52.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 45,
+     "highlights": [
+      "Pressed to minRangeToSite 6.3 nm — the most aggressive ingress of any surviving pilot — consistent with the directed close-in tactic; survived and flew a full 44.9-minute sortie.",
+      "Launched 2 AGM-88s from a standoff-ish avg of 24.2 nm (first package timing), showing awareness of range envelopes even from the Hornet platform."
+     ],
+     "improvements": [
+      "Both HARMs missed with large CPAs (11,053 m and 4,028 m) — zero hits from 2 shots; review seeker head mode selection and launch parameters. The CPA on shot 1 (11 km) suggests a steering error or wrong target designation.",
+      "Shot timing was 10+ minutes after the main package's attack; coordinate to deliver weapons inside the same suppression window so the site cannot re-radiate between attacks."
+     ],
+     "note": "Pressed to 6.3 nm and survived, but both HARMs missed with large CPAs and shot timing was 10 minutes late — coordination and seeker employment need urgent work."
+    },
+    {
+     "callsign": "[EAF] Taha",
+     "member": true,
+     "squadron": "",
+     "score": 50.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 1,
+     "minutes": 21,
+     "highlights": [
+      "Slot appeared late in the mission — no telemetry data sufficient for grading."
+     ],
+     "improvements": [
+      "Zero flight time recorded in this tracker entry — ensure correct slot selection and connection before the mission SEAD window opens."
+     ],
+     "note": ""
+    },
+    {
+     "callsign": "[EAF] Hardy",
+     "member": true,
+     "squadron": "",
+     "score": 48.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 1,
+     "minutes": 29,
+     "highlights": [
+      "Defeated 2 of 3 inbound SAMs (66.7% defeat rate); one S-300 round defeated at CPA 39,788 m and one SA-5 at CPA 4,011 m — active defensive maneuvering kept the aircraft alive long enough to contribute to the attack timeline.",
+      "Shot 2 AGM-88s (38.0 nm and 19.3 nm launch range) under heavy SAM fire; pressed the attack while being engaged — tactically aggressive even if the outcome was fatal."
+     ],
+     "improvements": [
+      "Killed by S-300PS (5P85D ln) at 01:27:00 — struck by a missile that the defensive maneuver failed to defeat (CPA 4,011 m from the SA-5C round was close but the 5P85D round hit). First shot at 38.0 nm missed badly; refine HARM employment altitude (shot at only 1,587 ft — very low for HARM seeker geometry against a distant target).",
+      "Max-G reached 8.86 g — highest of the entire mission. Even under the close-in tactic, pulling 8.9 g in a defensive break degrades situational awareness and can lead to GLOC; practice high-G defensive turns with awareness of g-onset rate."
+     ],
+     "note": "Fought hard and defeated 2 missiles before being killed; low-altitude HARM shots degraded effectiveness — good aggression, refine the employment parameters."
+    },
+    {
+     "callsign": "Omar",
+     "member": true,
+     "squadron": "272 TFW",
+     "score": 42.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 48,
+     "highlights": [
+      "Survived the SEAD engagement (minRangeToSite 15.3 nm) with no losses — the longest flight time in the formation at 47.5 minutes shows commitment to the sortie.",
+      "Zero G-instant flags despite the sustained over-G event, suggesting the exceedance was brief and not a runaway departure."
+     ],
+     "improvements": [
+      "1 sustained over-G recorded at 8.31 g (flagged at 01:26:37 during the SEAD run, alt 7,783 ft) — this is the fourth consecutive sortie with airmanship flags. G-awareness in high-threat environments must improve before the next live-fire event.",
+      "Zero ARM shots fired; Omar flew into the WEZ (170 s exposure, minRange 15.3 nm) without employing a single weapon. A SEAD pilot who does not shoot offers suppression value of exactly zero."
+     ],
+     "note": "47 minutes airborne, zero weapons fired, one over-G: flew the longest sortie to accomplish the least — fix the weapons employment mindset before the next live-fire event."
+    }
+   ],
+   "pilots": 6,
+   "average": 57.5,
+   "air_kills": 0,
+   "ground_kills": 2,
+   "instructor": "Sword",
+   "report": "reports/op-4091a652ca5c.html"
+  },
   {
    "id": "op-241f54c637de",
    "date": "2026-11-07",
