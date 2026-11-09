@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T22:22:09+00:00",
+ "generated": "2026-11-09T00:00:19+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -13773,51 +13773,6 @@
   }
  ],
  "upcoming": [
-  {
-   "id": "op-4091a652ca5c",
-   "date": "2026-11-08",
-   "name": "Destruction of Enemy Air Defences",
-   "types": [
-    "SEAD",
-    "FORMATION"
-   ],
-   "brief": "",
-   "card": {
-    "mission_date": "2026-11-08",
-    "mission_time": "22:30"
-   },
-   "teams": [
-    {
-     "name": "Horus",
-     "task": "TRAINING",
-     "size": 4,
-     "pilots": [
-      "Sword",
-      "[EAF] Taha",
-      "black Mamba",
-      "Omar"
-     ]
-    },
-    {
-     "name": "Anubis",
-     "task": "TRAINING",
-     "size": 4,
-     "pilots": [
-      "[EAF] Hardy",
-      "N0N0"
-     ]
-    }
-   ],
-   "signed": [
-    "Sword",
-    "[EAF] Taha",
-    "black Mamba",
-    "Omar",
-    "[EAF] Hardy",
-    "N0N0"
-   ],
-   "reserves": []
-  },
   {
    "id": "op-37766af98ef2",
    "date": "2026-11-12",
