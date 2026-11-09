@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T09:35:38+00:00",
+ "generated": "2026-11-09T18:33:01+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,10 +7,10 @@
  },
  "totals": {
   "pilots": 86,
-  "missions": 64,
-  "sorties": 213,
+  "missions": 65,
+  "sorties": 214,
   "qualifications": 48,
-  "hours": 172.1,
+  "hours": 173.9,
   "air_kills": 84,
   "ground_kills": 27
  },
@@ -6052,28 +6052,28 @@
     "Su-33"
    ],
    "bio": "",
-   "missions": 4,
-   "score": 252.0,
-   "average": 63.0,
+   "missions": 5,
+   "score": 302.0,
+   "average": 60.4,
    "best": 90.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
    "deaths": 1,
-   "hours": 2.0,
-   "last_flown": "2026-11-08",
+   "hours": 3.8,
+   "last_flown": "2026-11-09",
    "grades": {
-    "C": 2,
+    "C": 3,
     "A": 1,
     "F": 1
    },
    "mission_types": {
+    "A-A": 2,
+    "SEAD": 2,
     "FORMATION": 2,
     "CCIP": 2,
-    "SEAD": 1,
     "CAS": 1,
-    "BFM": 1,
-    "A-A": 1
+    "BFM": 1
    },
    "skills": [
     {
@@ -6091,13 +6091,6 @@
      "qualified": false
     },
     {
-     "name": "1 V 2 ACM",
-     "type": "A-A",
-     "score": 6.2,
-     "max": 10,
-     "qualified": false
-    },
-    {
      "name": "CCIP Tactical Pattern",
      "type": "CCIP",
      "score": 6.2,
@@ -6105,16 +6098,23 @@
      "qualified": false
     },
     {
+     "name": "1 V 2 ACM",
+     "type": "A-A",
+     "score": 5.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
      "name": "Missile Kinematics",
      "type": "A-A",
-     "score": 6.2,
+     "score": 5.0,
      "max": 10,
      "qualified": false
     },
     {
      "name": "Notching",
      "type": "A-A",
-     "score": 6.2,
+     "score": 5.0,
      "max": 10,
      "qualified": false
     },
@@ -6136,6 +6136,24 @@
     }
    ],
    "history": [
+    {
+     "op": "op-6db480fa2dff",
+     "date": "2026-11-09",
+     "name": "EAF Caucasus Training | Taha",
+     "types": [
+      "A-A",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 50.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 111,
+     "highlight": ""
+    },
     {
      "op": "op-4091a652ca5c",
      "date": "2026-11-08",
@@ -7433,6 +7451,59 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-6db480fa2dff",
+   "date": "2026-11-09",
+   "name": "EAF Caucasus Training | Taha",
+   "kind": "automatic",
+   "types": [
+    "A-A",
+    "SEAD"
+   ],
+   "training": true,
+   "brief": "",
+   "narrative": "EAF Caucasus Training sortie on 9 June 2026 comprised five sequential FA-18C slots flown by a single pilot, [EAF] XTC, cycling through two free-flight training blocks followed by three BVR arena runs (Blue-1, Blue-3, Blue-2). Total recorded flight time across all slots was approximately 111 minutes. The free-flight phase (slots 1 and 2) showed generally sound handling — no G-exceedances across either block — but produced three separate ENERGY_POOR events in slot 1 (at 296 kt/15,223 ft, 297 kt/24,435 ft, and 298 kt/13,126 ft) indicating a recurring failure to sustain corner-speed energy through turning manoeuvres. Slot 2 corrected the energy problem entirely but introduced two more serious concerns: a 10 ft minAGL — the lowest terrain clearance of the entire session — and a 9.1 G spike in the transit arena with no tactical context, flagged as HIGH_G_INSTANT. Moving into the BVR phase, the picture across all three runs is dominated by a consistent absence of any recorded BVR geometry discipline: stanceTime fields (crank, notch, cold, hot) read zero for every single slot. This means the pilot executed all three BVR intercepts with no recorded cranking after launch, no notching, and no cold turns — flying straight-in-hot throughout, which denies the AIM-120 its full effectiveness and maximises own-ship exposure. Blue-1 fired an AIM-9 with a 100-second time-of-flight that missed — a physically implausible tof for an in-parameters heat-seeker, strongly indicating an out-of-envelope shot against an adverse-aspect or long-range target. Blue-3 compounded this by selecting an AIM-9 at 38,506 ft and 377 kt where the weapon has minimal motor energy and degraded seeker sensitivity; it also missed with a 90-second tof. Blue-2 showed progress: an AIM-120C was employed, a kill was achieved, and energy was maintained throughout — but the first shot (tof 240 s) was almost certainly fired beyond 25 nm with zero kill probability, forcing the pilot to close to point-blank range for the second shot. The session ended with a sustained over-G at 9.03 G / 4,459 ft in the low-altitude post-kill phase, the only formal structural exceedance of the sortie. Across all five slots, minAGL values of 467, 10, 135, 65, and 31 ft were recorded — a pattern of casual altitude awareness that is unacceptable in training. The single confirmed kill is a positive outcome but the tactical path to it revealed more deficiencies than competencies.",
+   "lessons": [
+    "BVR geometry is not optional: zero crank, notch, cold, or hot time recorded across all three BVR intercepts means the pilot is flying straight-in-hot every pass — this presents maximum radar cross-section, wastes missile energy, and defeats the purpose of a Fox-3 weapon. Mandate a post-launch crank of at least 30–40 degrees for a minimum of 20 seconds after every AIM-120 employment before next action.",
+    "Weapon selection and employment parameters must match the geometry: AIM-9 at 38,506 ft / 377 kt / unknown-aspect (Blue-3) and AIM-9 with 100-second tof (Blue-1) are both out-of-envelope shots. Before trigger pull, the pilot must confirm: AIM-9 — visual range, low-aspect, good tone, speed above 400 kt; AIM-120 — within kinematic range, target not notching, adequate supporting geometry.",
+    "Low-altitude awareness requires a hard floor: minAGL values of 10, 31, 65, and 135 ft were recorded across BVR and transit sorties. A training floor of 1,000 ft AGL must be briefed and enforced; inadvertent terrain contact at 988 kt leaves zero recovery margin and would not be survivable."
+   ],
+   "card": {
+    "mission_date": "2026-11-09",
+    "mission_time": "19:30"
+   },
+   "teams": [
+    {
+     "name": "Viper",
+     "task": "TRAINING",
+     "size": 4,
+     "pilots": []
+    }
+   ],
+   "results": [
+    {
+     "callsign": "[EAF] Taha",
+     "member": true,
+     "squadron": "",
+     "score": 50.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 111,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    }
+   ],
+   "pilots": 1,
+   "average": 50.0,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "instructor": "Sword",
+   "report": "reports/op-6db480fa2dff.html"
+  },
   {
    "id": "op-4091a652ca5c",
    "date": "2026-11-08",
