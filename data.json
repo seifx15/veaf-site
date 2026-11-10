@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T20:58:40+00:00",
+ "generated": "2026-11-10T00:57:26+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -14491,6 +14491,7 @@
    "id": "op-37766af98ef2",
    "op_id": "OP_37766af98ef2",
    "open": true,
+   "kneeboard": [],
    "date": "2026-11-12",
    "name": "vFS F-16 Staffeltraining",
    "types": [

@@ -36,6 +36,13 @@
       photo_done: "Photo uploaded. It appears on the roster after the next website update.", photo_bad: "That file isn't an image this browser can read.",
       patches_h: "Mission patches", patches_intro: "Earned by flying the operation, or awarded by the instructors.", no_patches: "No patches yet.", holders: "holders", op_patch: "Mission patch",
       session_lost: "Your sign-in expired. Sign in again.",
+      kb_h: "Kneeboard", kb_p: "These pages are on your cockpit kneeboard for this operation. Tap a page to enlarge it.",
+      push_on: "Turn on notifications", push_off: "Notifications on · turn off", push_install: "Get notifications", push_denied: "Notifications blocked",
+      push_band: "Get notified about new operations and a reminder 60 and 15 minutes before your sorties.", push_now: "Turn on", push_later: "Not now",
+      push_ios: "On iPhone: tap Share, then Add to Home Screen. Open VEAF from your Home Screen and turn notifications on there.",
+      push_blocked: "Notifications are blocked for this site. Allow them in your browser or phone settings, then try again.",
+      push_ok: "Notifications are on.", push_bye: "Notifications are off on this device.", push_unsupported: "This browser can't receive notifications.",
+      push_remind: "Get a reminder before this sortie",
       disclaimer: "VEAF is a virtual squadron of DCS World players. It is a gaming community and is not affiliated with, endorsed by or part of the Egyptian Air Force or the Egyptian Armed Forces. Ranks are squadron ranks.",
       hero_eyebrow: "DCS World · Mil-Sim squadron",
       hero_h1: "The first Egyptian <em>mil&#8209;sim</em> squadron in DCS",
@@ -108,6 +115,13 @@
       photo_done: "تم رفع الصورة. ستظهر في قائمة الطيارين بعد التحديث القادم للموقع.", photo_bad: "هذا الملف ليس صورة يمكن للمتصفح قراءتها.",
       patches_h: "شارات المهمات", patches_intro: "تُكتسب بالطيران في العملية أو يمنحها المدربون.", no_patches: "لا توجد شارات بعد.", holders: "حاملين", op_patch: "شارة المهمة",
       session_lost: "انتهت جلسة الدخول. سجّل الدخول مرة أخرى.",
+      kb_h: "لوحة الركبة", kb_p: "هذه الصفحات موجودة على لوحة الركبة في قمرة القيادة لهذه العملية. اضغط على أي صفحة لتكبيرها.",
+      push_on: "تفعيل الإشعارات", push_off: "الإشعارات مفعّلة · إيقاف", push_install: "استقبال الإشعارات", push_denied: "الإشعارات محظورة",
+      push_band: "استقبل إشعارًا بكل عملية جديدة وتذكيرًا قبل طلعتك بـ 60 و15 دقيقة.", push_now: "تفعيل", push_later: "ليس الآن",
+      push_ios: "على الآيفون: اضغط مشاركة ثم إضافة إلى الشاشة الرئيسية. افتح VEAF من الشاشة الرئيسية وفعّل الإشعارات من هناك.",
+      push_blocked: "الإشعارات محظورة لهذا الموقع. اسمح بها من إعدادات المتصفح أو الهاتف ثم حاول مرة أخرى.",
+      push_ok: "تم تفعيل الإشعارات.", push_bye: "تم إيقاف الإشعارات على هذا الجهاز.", push_unsupported: "هذا المتصفح لا يستقبل الإشعارات.",
+      push_remind: "ذكّرني قبل هذه الطلعة",
       disclaimer: "VEAF سرب افتراضي من لاعبي DCS World. هو مجتمع ألعاب، وليس تابعًا للقوات الجوية المصرية أو القوات المسلحة المصرية ولا معتمدًا منها. الرتب رتب داخل السرب فقط.",
       hero_eyebrow: "DCS World · سرب محاكاة عسكرية",
       hero_h1: "أول سرب <em>محاكاة عسكرية</em> مصري في DCS",
@@ -499,6 +513,11 @@
     if ((o.patches || []).length) html += '<h2 class="h-sm">' + esc(t("op_patch")) + "</h2>" + patchGrid(o.patches);
     if (planned) {
       html += signupBox(o);
+      if ((o.kneeboard || []).length) {
+        html += '<h2 class="h-sm">' + esc(t("kb_h")) + '</h2><p class="muted">' + esc(t("kb_p")) + '</p><div class="kb-pages">' + o.kneeboard.map(function (src, i) {
+          return '<img src="' + esc(src) + '" data-full="' + esc(src) + '" alt="' + esc(t("kb_h")) + " " + (i + 1) + '" loading="lazy" width="300" height="400">';
+        }).join("") + "</div>";
+      }
       html += '<h2 class="h-sm">' + esc(t("signed_up")) + "</h2><p>" + ((o.signed || []).map(pilotLink).join(", ") || esc(t("nobody_yet"))) +
         ((o.reserves || []).length ? '<br><span class="muted">' + esc(t("reserves")) + ": " + o.reserves.map(pilotLink).join(", ") + "</span>" : "") + "</p>";
     } else {
@@ -619,7 +638,7 @@
   }
   function loadMe() {
     if (!api() || !token()) { ME = null; drawUser(); return Promise.resolve(null); }
-    return call("/me").then(function (j) { ME = j; drawUser(); refreshAppBits(); schedulePoll(); return j; })
+    return call("/me").then(function (j) { ME = j; return checkPush().then(function () { drawUser(); refreshAppBits(); schedulePoll(); return j; }); })
       .catch(function () { drawUser(); return null; });
   }
   function pending() { return ((ME && ME.actions) || []).filter(function (a) { return a.status === "pending"; }); }
@@ -639,7 +658,64 @@
       '<span class="nm-short">' + esc(name) + '</span></button><span class="user-pop" id="user-pop"><span class="who">' + esc(name) +
       (p ? "" : '<small>' + esc(ME.username) + "</small>") + "</span>" +
       (p ? '<a href="#pilot-' + slug(p.callsign) + '">' + esc(t("my_profile")) + "</a>" : "") +
+      (p ? '<button type="button" class="out push-item' + (PUSH === "on" ? " on" : "") + '" data-app="push">🔔 ' + esc(pushLabel()) + "</button>" : "") +
       '<button type="button" class="out" data-app="signout">' + esc(t("sign_out")) + "</button></span></span>";
+  }
+
+  /* ------------------------------------------------- push notifications */
+  var PUSH = "off";
+  function iosBrowser() {
+    var ios = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+    var standalone = window.navigator.standalone === true || (window.matchMedia && window.matchMedia("(display-mode: standalone)").matches);
+    return ios && !standalone;
+  }
+  function pushSupported() { return "serviceWorker" in navigator && "PushManager" in window && "Notification" in window && window.isSecureContext; }
+  function checkPush() {
+    if (!isMember()) { PUSH = "off"; return Promise.resolve(); }
+    if (!pushSupported()) { PUSH = iosBrowser() ? "install" : "unsupported"; return Promise.resolve(); }
+    if (Notification.permission === "denied") { PUSH = "denied"; return Promise.resolve(); }
+    return navigator.serviceWorker.ready.then(function (reg) { return reg.pushManager.getSubscription(); })
+      .then(function (sub) { PUSH = sub ? "on" : "off"; }).catch(function () { PUSH = "off"; });
+  }
+  function keyBytes(k) {
+    var s = k.replace(/-/g, "+").replace(/_/g, "/"), bin = atob(s + "===".slice((s.length + 3) % 4)), out = new Uint8Array(bin.length);
+    for (var i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+    return out;
+  }
+  function pushToggle() {
+    if (PUSH === "install") { toast(t("push_ios")); return; }
+    if (PUSH === "unsupported") { toast(t("push_unsupported")); return; }
+    if (PUSH === "denied") { toast(t("push_blocked")); return; }
+    if (PUSH === "on") {
+      navigator.serviceWorker.ready.then(function (reg) { return reg.pushManager.getSubscription(); }).then(function (sub) {
+        if (!sub) return;
+        var ep = sub.endpoint;
+        return sub.unsubscribe().then(function () {
+          return call("/push/unsubscribe", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ endpoint: ep }) });
+        });
+      }).then(function () { PUSH = "off"; drawUser(); refreshAppBits(); toast(t("push_bye")); })
+        .catch(function (e) { toast(t("su_failed") + e.message); });
+      return;
+    }
+    Notification.requestPermission().then(function (perm) {
+      if (perm !== "granted") { PUSH = perm === "denied" ? "denied" : "off"; drawUser(); refreshAppBits(); if (perm === "denied") toast(t("push_blocked")); return; }
+      return Promise.all([call("/push/key"), navigator.serviceWorker.ready]).then(function (x) {
+        return x[1].pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: keyBytes(x[0].key) });
+      }).then(function (sub) {
+        return call("/push/subscribe", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ subscription: sub.toJSON(), test: true }) });
+      }).then(function () {
+        PUSH = "on"; try { localStorage.setItem("veaf-push-band", "done"); } catch (e) { /* ignore */ }
+        drawUser(); refreshAppBits(); toast(t("push_ok"));
+      });
+    }).catch(function (e) { toast(t("su_failed") + e.message); });
+  }
+  function pushLabel() { return t({ on: "push_off", off: "push_on", install: "push_install", denied: "push_denied", unsupported: "push_on" }[PUSH]); }
+  function pushBand() {
+    if (!isMember() || PUSH === "on" || PUSH === "unsupported" || PUSH === "denied") return "";
+    try { if (localStorage.getItem("veaf-push-band")) return ""; } catch (e) { /* show it */ }
+    return '<section class="band pushband"><div class="wrap"><div class="push-box"><span class="bell" aria-hidden="true">🔔</span><p>' + esc(t("push_band")) +
+      '</p><div class="cta-row"><button class="btn primary" type="button" data-app="push">' + esc(t("push_now")) + '</button><button class="btn" type="button" data-app="pushlater">' +
+      esc(t("push_later")) + "</button></div></div></div></section>";
   }
   function nonMemberBand() {
     if (!ME || isMember()) return "";
@@ -666,7 +742,8 @@
       body = "<p><b>" + esc(t("su_" + st)) + "</b></p>" + (wait ? '<p class="muted">' + esc(t("su_pending")) + "</p>" :
         '<div class="cta-row">' + btns.map(function (b) {
           return '<button class="btn ' + b[1] + '" type="button" data-app="' + b[0] + '" data-op="' + esc(o.op_id) + '"' + (BUSY ? " disabled" : "") + ">" + esc(t("do_" + b[0])) + "</button>";
-        }).join("") + "</div>") + (acts.length && acts[0].result && !wait ? '<p class="muted">' + esc(t("su_last")) + esc(acts[0].result) + "</p>" : "");
+        }).join("") + "</div>") + (st !== "out" && PUSH !== "on" && PUSH !== "unsupported" ? '<p><button class="btn small" type="button" data-app="push">🔔 ' +
+          esc(t("push_remind")) + "</button></p>" : "") + (acts.length && acts[0].result && !wait ? '<p class="muted">' + esc(t("su_last")) + esc(acts[0].result) + "</p>" : "");
     }
     return '<div class="su-box" id="su-box"><h2 class="h-sm">' + esc(t("su_h")) + "</h2>" + body + "</div>";
   }
@@ -675,7 +752,7 @@
     var box = document.getElementById("su-box");
     if (box && h.indexOf("op-") === 0) { var o = opBySlug(h.slice(3)); if (o) box.outerHTML = signupBox(o); }
     var nm = document.getElementById("nm-slot");
-    if (nm) nm.innerHTML = nonMemberBand();
+    if (nm) nm.innerHTML = nonMemberBand() + pushBand();
     var ph = document.getElementById("photo-slot");
     if (ph && h.indexOf("pilot-") === 0) { var p = pilotBySlug(h.slice(6)); if (p) ph.outerHTML = photoBlock(p); }
   }
@@ -736,6 +813,11 @@
       var pop = document.getElementById("user-pop"), open = pop.classList.toggle("open");
       el.setAttribute("aria-expanded", String(open)); return;
     }
+    if (k === "push") { pushToggle(); return; }
+    if (k === "pushlater") {
+      try { localStorage.setItem("veaf-push-band", "later"); } catch (err) { /* ignore */ }
+      refreshAppBits(); return;
+    }
     if (k === "signin") signIn();
     else if (k === "signout") {
       call("/logout", { method: "POST" }).catch(function () { /* already gone */ });
@@ -770,7 +852,7 @@
     if (h.indexOf("pilot-") === 0) html = pagePilot(h.slice(6));
     else if (h.indexOf("op-") === 0) html = pageOp(h.slice(3));
     else html = (ROUTES[h] || pageHome)();
-    main.innerHTML = '<div id="nm-slot">' + nonMemberBand() + "</div>" + html;
+    main.innerHTML = '<div id="nm-slot">' + nonMemberBand() + pushBand() + "</div>" + html;
     var cur = h.indexOf("pilot-") === 0 ? "pilots" : h.indexOf("op-") === 0 ? "operations" : (ROUTES[h] ? h : "home");
     Array.prototype.forEach.call(document.querySelectorAll(".nav a"), function (a) {
       if (a.getAttribute("href") === "#" + cur) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
@@ -833,7 +915,7 @@
       Array.prototype.forEach.call(document.querySelectorAll("[data-otype]"), function (c) { c.setAttribute("aria-pressed", String(c === el)); });
       drawOps(); return;
     }
-    if (el.tagName === "IMG" && el.closest(".gallery, .feature")) {
+    if (el.tagName === "IMG" && el.closest(".gallery, .feature, .kb-pages")) {
       var lb = document.createElement("div"); lb.className = "lightbox"; lb.setAttribute("role", "dialog"); lb.setAttribute("aria-label", el.alt);
       lb.innerHTML = '<img src="' + el.getAttribute("data-full") + '" alt="' + esc(el.alt) + '">';
       document.body.appendChild(lb);
@@ -844,7 +926,7 @@
     if (e.target.id === "op-search") { opFilter.q = e.target.value; drawOps(); } });
   window.addEventListener("hashchange", route);
 
-  if ("serviceWorker" in navigator && location.protocol === "https:") {
+  if ("serviceWorker" in navigator && window.isSecureContext) {
     navigator.serviceWorker.register("sw.js").catch(function () { /* the site works without it */ });
   }
   applyLang();

@@ -1,8 +1,9 @@
 /* VEAF site service worker: makes the site installable and quick to open.
    Pages and images come from the cache and refresh in the background;
    data.json is always fetched fresh first (cache only when offline);
-   the sign-in service on another origin is never touched. */
-var CACHE = "veaf-v1";
+   the sign-in service on another origin is never touched. Also shows the
+   squadron's push notifications (new operations, sortie reminders). */
+var CACHE = "veaf-v2";
 var CORE = ["./", "index.html", "style.css", "app.js", "manifest.webmanifest", "img/logo-sm.png", "img/logo-64.png", "img/logo-192.png", "img/logo.webp"];
 
 self.addEventListener("install", function (e) {
@@ -27,4 +28,25 @@ self.addEventListener("fetch", function (e) {
     return;
   }
   e.respondWith(caches.match(req).then(function (hit) { fresh.catch(function () {}); return hit || fresh; }));
+});
+
+self.addEventListener("push", function (e) {
+  var d = {};
+  try { d = e.data ? e.data.json() : {}; } catch (err) { d = { body: e.data ? e.data.text() : "" }; }
+  e.waitUntil(self.registration.showNotification(d.title || "VEAF", {
+    body: d.body || "", icon: "img/logo-192.png", tag: d.tag || undefined, renotify: !!d.tag,
+    data: { url: d.url || "#home" }
+  }));
+});
+self.addEventListener("notificationclick", function (e) {
+  e.notification.close();
+  var url = new URL((e.notification.data && e.notification.data.url) || "#home", self.registration.scope).href;
+  e.waitUntil(self.clients.matchAll({ type: "window", includeUncontrolled: true }).then(function (list) {
+    for (var i = 0; i < list.length; i++) {
+      if (list[i].url.indexOf(self.registration.scope) === 0 && "focus" in list[i]) {
+        return list[i].focus().then(function (c) { return c && "navigate" in c ? c.navigate(url) : c; });
+      }
+    }
+    return self.clients.openWindow(url);
+  }));
 });

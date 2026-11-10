@@ -443,3 +443,17 @@ a.patch:hover { border-color: var(--sand); }
   .user-pop { display: flex; position: static; box-shadow: none; background: none; border: 0; padding: 4px 0 0; min-width: 0; }
   .user-pop .who { display: none; }
 }
+
+/* ---- notifications ---------------------------------------------------------- */
+section.pushband { background: var(--panel); padding-block: 18px; }
+.push-box { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+.push-box .bell { font-size: 1.6rem; }
+.push-box p { margin: 0; flex: 1 1 320px; color: var(--text); }
+.push-box .cta-row { margin: 0; }
+.user-pop .push-item { color: var(--text); }
+.user-pop .push-item.on { color: var(--good); }
+
+/* ---- kneeboard pages ---------------------------------------------------------- */
+.kb-pages { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; margin-top: 10px; }
+.kb-pages img { width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: contain; background: #fff; border: 1px solid var(--line); border-radius: 4px; cursor: zoom-in; }
+.lightbox img { background: #fff; }
