@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T01:41:54+00:00",
+ "generated": "2026-11-10T01:42:34+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -2235,8 +2235,8 @@
    "rank_order": 8,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW",
-   "squadron_patch": "",
+   "squadron": "272 TFW Jyanklis",
+   "squadron_patch": "patches/SQ_SQ_20260616173911_72.png?v=1794274924",
    "former_squadron_patches": [],
    "joined": "2026-07-08",
    "aircraft": [
@@ -2600,8 +2600,8 @@
    "rank_order": 8,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW",
-   "squadron_patch": "",
+   "squadron": "272 TFW Jyanklis",
+   "squadron_patch": "patches/SQ_SQ_20260616173911_72.png?v=1794274924",
    "former_squadron_patches": [],
    "joined": "2026-07-08",
    "aircraft": [
@@ -3328,8 +3328,8 @@
    "rank_order": 9,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW",
-   "squadron_patch": "",
+   "squadron": "272 TFW Jyanklis",
+   "squadron_patch": "patches/SQ_SQ_20260616173911_72.png?v=1794274924",
    "former_squadron_patches": [],
    "joined": "2026-09-25",
    "aircraft": [
@@ -3776,8 +3776,8 @@
    "rank_order": 9,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW",
-   "squadron_patch": "",
+   "squadron": "272 TFW Jyanklis",
+   "squadron_patch": "patches/SQ_SQ_20260616173911_72.png?v=1794274924",
    "former_squadron_patches": [],
    "joined": "2026-07-08",
    "aircraft": [
@@ -4204,8 +4204,8 @@
    "rank_order": 10,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW",
-   "squadron_patch": "",
+   "squadron": "272 TFW Jyanklis",
+   "squadron_patch": "patches/SQ_SQ_20260616173911_72.png?v=1794274924",
    "former_squadron_patches": [],
    "joined": "2026-07-08",
    "aircraft": [
@@ -5151,8 +5151,8 @@
    "rank_order": 10,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW",
-   "squadron_patch": "",
+   "squadron": "272 TFW Jyanklis",
+   "squadron_patch": "patches/SQ_SQ_20260616173911_72.png?v=1794274924",
    "former_squadron_patches": [],
    "joined": "2026-07-08",
    "aircraft": [],
@@ -5315,8 +5315,8 @@
    "rank_order": 10,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW",
-   "squadron_patch": "",
+   "squadron": "272 TFW Jyanklis",
+   "squadron_patch": "patches/SQ_SQ_20260616173911_72.png?v=1794274924",
    "former_squadron_patches": [],
    "joined": "2026-08-06",
    "aircraft": [
@@ -5738,8 +5738,8 @@
    "rank_order": 10,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW",
-   "squadron_patch": "",
+   "squadron": "272 TFW Jyanklis",
+   "squadron_patch": "patches/SQ_SQ_20260616173911_72.png?v=1794274924",
    "former_squadron_patches": [],
    "joined": "2026-08-17",
    "aircraft": [
@@ -6490,8 +6490,8 @@
    "rank_order": 11,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW",
-   "squadron_patch": "",
+   "squadron": "272 TFW Jyanklis",
+   "squadron_patch": "patches/SQ_SQ_20260616173911_72.png?v=1794274924",
    "former_squadron_patches": [],
    "joined": "2026-10-05",
    "aircraft": [],
@@ -6595,8 +6595,8 @@
    "rank_order": 11,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW",
-   "squadron_patch": "",
+   "squadron": "272 TFW Jyanklis",
+   "squadron_patch": "patches/SQ_SQ_20260616173911_72.png?v=1794274924",
    "former_squadron_patches": [],
    "joined": "2026-10-09",
    "aircraft": [
@@ -6683,8 +6683,8 @@
    "rank_order": 11,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW",
-   "squadron_patch": "",
+   "squadron": "272 TFW Jyanklis",
+   "squadron_patch": "patches/SQ_SQ_20260616173911_72.png?v=1794274924",
    "former_squadron_patches": [],
    "joined": "2026-10-13",
    "aircraft": [
@@ -7226,8 +7226,8 @@
    "rank_order": 11,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW",
-   "squadron_patch": "",
+   "squadron": "272 TFW Jyanklis",
+   "squadron_patch": "patches/SQ_SQ_20260616173911_72.png?v=1794274924",
    "former_squadron_patches": [],
    "joined": "2026-08-13",
    "aircraft": [],
@@ -8086,7 +8086,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 42.0,
      "grade": "D",
      "air_kills": 0,
@@ -8141,7 +8141,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -8156,7 +8156,7 @@
     {
      "callsign": "Titan",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -8332,7 +8332,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 76.0,
      "grade": "C",
      "air_kills": 0,
@@ -8395,7 +8395,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 65.0,
      "grade": "D",
      "air_kills": 0,
@@ -8416,7 +8416,7 @@
     {
      "callsign": "Titan",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 65.0,
      "grade": "D",
      "air_kills": 0,
@@ -8458,7 +8458,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -8720,7 +8720,7 @@
     {
      "callsign": "Titan",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 78.0,
      "grade": "C",
      "air_kills": 0,
@@ -8741,7 +8741,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 75.0,
      "grade": "C",
      "air_kills": 0,
@@ -8920,7 +8920,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 58.0,
      "grade": "D",
      "air_kills": 0,
@@ -8941,7 +8941,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 48.0,
      "grade": "D",
      "air_kills": 0,
@@ -9015,7 +9015,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 85.0,
      "grade": "B",
      "air_kills": 0,
@@ -9030,7 +9030,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -9045,7 +9045,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -9122,7 +9122,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -9152,7 +9152,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -9167,7 +9167,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 0.0,
      "grade": "F",
      "air_kills": 0,
@@ -9214,7 +9214,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -9229,7 +9229,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -9259,7 +9259,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -9306,7 +9306,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -9321,7 +9321,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -9336,7 +9336,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -9400,7 +9400,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -9415,7 +9415,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -9479,7 +9479,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -9547,7 +9547,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 70.0,
      "grade": "C",
      "air_kills": 3,
@@ -9583,7 +9583,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 58.0,
      "grade": "C",
      "air_kills": 4,
@@ -9604,7 +9604,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 55.0,
      "grade": "D",
      "air_kills": 1,
@@ -9727,7 +9727,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 75.0,
      "grade": "C",
      "air_kills": 0,
@@ -9782,7 +9782,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -9846,7 +9846,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -9895,7 +9895,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 75.0,
      "grade": "C",
      "air_kills": 0,
@@ -9941,7 +9941,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 47.0,
      "grade": "D",
      "air_kills": 1,
@@ -9962,7 +9962,7 @@
     {
      "callsign": "Titan",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 18.0,
      "grade": "F",
      "air_kills": 0,
@@ -10012,7 +10012,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 52.0,
      "grade": "C",
      "air_kills": 4,
@@ -10033,7 +10033,7 @@
     {
      "callsign": "Titan",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 18.0,
      "grade": "F",
      "air_kills": 0,
@@ -10083,7 +10083,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 32.0,
      "grade": "D",
      "air_kills": 12,
@@ -10133,7 +10133,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 38.0,
      "grade": "D",
      "air_kills": 2,
@@ -10204,7 +10204,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 38.0,
      "grade": "D",
      "air_kills": 2,
@@ -10310,7 +10310,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 75.0,
      "grade": "B",
      "air_kills": 0,
@@ -10500,7 +10500,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 50.0,
      "grade": "F",
      "air_kills": 2,
@@ -10544,7 +10544,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 34.2,
      "grade": "F",
      "air_kills": 0,
@@ -10615,7 +10615,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -10762,7 +10762,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 66.0,
      "grade": "D",
      "air_kills": 3,
@@ -10831,7 +10831,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 22.0,
      "grade": "F",
      "air_kills": 1,
@@ -10962,7 +10962,7 @@
     {
      "callsign": "1iFzz",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -10977,7 +10977,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 75.0,
      "grade": "C",
      "air_kills": 0,
@@ -10992,7 +10992,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 65.0,
      "grade": "D",
      "air_kills": 0,
@@ -11131,7 +11131,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 79.0,
      "grade": "C",
      "air_kills": 0,
@@ -11176,7 +11176,7 @@
     {
      "callsign": "Ameer",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 62.0,
      "grade": "D",
      "air_kills": 0,
@@ -11198,7 +11198,7 @@
     {
      "callsign": "1iFzz",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -11303,7 +11303,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 85.0,
      "grade": "B",
      "air_kills": 0,
@@ -11333,7 +11333,7 @@
     {
      "callsign": "1iFzz",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 75.0,
      "grade": "C",
      "air_kills": 0,
@@ -11348,7 +11348,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -11363,7 +11363,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 65.0,
      "grade": "D",
      "air_kills": 0,
@@ -11471,7 +11471,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 100.0,
      "grade": "A",
      "air_kills": 0,
@@ -11486,7 +11486,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 65.0,
      "grade": "D",
      "air_kills": 0,
@@ -11501,7 +11501,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -11623,7 +11623,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -11697,7 +11697,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 50.0,
      "grade": "F",
      "air_kills": 0,
@@ -11741,7 +11741,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -11807,7 +11807,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -11822,7 +11822,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -11837,7 +11837,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -11937,7 +11937,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -12005,7 +12005,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -12136,7 +12136,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 65.0,
      "grade": "D",
      "air_kills": 0,
@@ -12203,7 +12203,7 @@
     {
      "callsign": "1iFzz",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 38.0,
      "grade": "F",
      "air_kills": 0,
@@ -12323,7 +12323,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -12338,7 +12338,7 @@
     {
      "callsign": "1iFzz",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -12424,7 +12424,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 16.0,
      "grade": "C",
      "air_kills": 0,
@@ -12540,7 +12540,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 78.0,
      "grade": "C",
      "air_kills": 0,
@@ -12603,7 +12603,7 @@
     {
      "callsign": "Neo",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 50.0,
      "grade": "D",
      "air_kills": 0,
@@ -12729,7 +12729,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 38.0,
      "grade": "C",
      "air_kills": 0,
@@ -12771,7 +12771,7 @@
     {
      "callsign": "Neo",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 24.0,
      "grade": "D",
      "air_kills": 0,
@@ -12855,7 +12855,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 104.0,
      "grade": "A",
      "air_kills": 0,
@@ -12999,7 +12999,7 @@
     {
      "callsign": "Neo",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 112.0,
      "grade": "A",
      "air_kills": 0,
@@ -13125,7 +13125,7 @@
     {
      "callsign": "Titan",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 51.0,
      "grade": "C",
      "air_kills": 0,
@@ -13146,7 +13146,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 43.0,
      "grade": "C",
      "air_kills": 0,
@@ -13394,7 +13394,7 @@
     {
      "callsign": "Neo",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 26.0,
      "grade": "C",
      "air_kills": 0,
@@ -13436,7 +13436,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": -14.0,
      "grade": "F",
      "air_kills": 0,
@@ -13788,7 +13788,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 55.0,
      "grade": "D",
      "air_kills": 0,
@@ -13830,7 +13830,7 @@
     {
      "callsign": "Neo",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 52.0,
      "grade": "D",
      "air_kills": 0,
@@ -13893,7 +13893,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 29.0,
      "grade": "F",
      "air_kills": 0,
@@ -14041,7 +14041,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 55.0,
      "grade": "D",
      "air_kills": 0,
@@ -14330,7 +14330,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 76.0,
      "grade": "C",
      "air_kills": 0,
@@ -14372,7 +14372,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 68.0,
      "grade": "D",
      "air_kills": 0,
@@ -14526,7 +14526,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 9.0,
      "grade": "D",
      "air_kills": 0,
@@ -14591,7 +14591,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 14.0,
      "grade": "B",
      "air_kills": 0,
@@ -14606,7 +14606,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW",
+     "squadron": "272 TFW Jyanklis",
      "score": 12.0,
      "grade": "B",
      "air_kills": 0,
@@ -14767,8 +14767,8 @@
    "patch": ""
   },
   {
-   "name": "272 TFW",
-   "patch": ""
+   "name": "272 TFW Jyanklis",
+   "patch": "patches/SQ_SQ_20260616173911_72.png?v=1794274924"
   },
   {
    "name": "282 TFW",
