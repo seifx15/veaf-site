@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T01:33:35+00:00",
+ "generated": "2026-11-10T01:37:35+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -14576,15 +14576,7 @@
    "pilots": []
   }
  ],
- "patches": [
-  {
-   "id": "PT_51691fae37d1",
-   "name": "272 TFW Jyanklis",
-   "description": "",
-   "image": "patches/PT_51691fae37d1.png?v=1794274415",
-   "holders": []
-  }
- ],
+ "patches": [],
  "app": {
   "api": "https://veaf-app.veaf-2ff4d6.workers.dev"
  },
