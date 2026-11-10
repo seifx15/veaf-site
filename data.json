@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T17:55:45+00:00",
+ "generated": "2026-11-10T18:18:52+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,10 +7,10 @@
  },
  "totals": {
   "pilots": 86,
-  "missions": 66,
-  "sorties": 215,
+  "missions": 67,
+  "sorties": 216,
   "qualifications": 48,
-  "hours": 174.3,
+  "hours": 175.6,
   "air_kills": 89,
   "ground_kills": 27
  },
@@ -6469,24 +6469,24 @@
     "Su-33"
    ],
    "bio": "",
-   "missions": 5,
-   "score": 302.0,
-   "average": 60.4,
+   "missions": 6,
+   "score": 372.0,
+   "average": 62.0,
    "best": 90.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
-   "deaths": 1,
-   "hours": 3.8,
-   "last_flown": "2026-11-09",
+   "deaths": 2,
+   "hours": 5.1,
+   "last_flown": "2026-11-10",
    "grades": {
-    "C": 3,
+    "C": 4,
     "A": 1,
     "F": 1
    },
    "mission_types": {
-    "A-A": 2,
-    "SEAD": 2,
+    "A-A": 3,
+    "SEAD": 3,
     "FORMATION": 2,
     "CCIP": 2,
     "CAS": 1,
@@ -6508,37 +6508,37 @@
      "qualified": false
     },
     {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
-     "score": 6.2,
-     "max": 10,
-     "qualified": false
-    },
-    {
      "name": "1 V 2 ACM",
      "type": "A-A",
-     "score": 5.0,
+     "score": 7.0,
      "max": 10,
      "qualified": false
     },
     {
      "name": "Missile Kinematics",
      "type": "A-A",
-     "score": 5.0,
+     "score": 7.0,
      "max": 10,
      "qualified": false
     },
     {
      "name": "Notching",
      "type": "A-A",
-     "score": 5.0,
+     "score": 7.0,
      "max": 10,
      "qualified": false
     },
     {
      "name": "SEAD",
      "type": "SEAD",
-     "score": 5.0,
+     "score": 7.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 6.2,
      "max": 10,
      "qualified": false
     }
@@ -6550,9 +6550,33 @@
      "code": "BFM-1",
      "status": "ready",
      "instructors": []
+    },
+    {
+     "title": "Beyond Visual Range",
+     "code": "BVR-1",
+     "status": "ready",
+     "instructors": []
     }
    ],
    "history": [
+    {
+     "op": "op-9d71a7b1ec92",
+     "date": "2026-11-10",
+     "name": "EAF Caucasus Training 2026-11-10 11:44Z A-A",
+     "types": [
+      "A-A",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 70.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 1,
+     "minutes": 76,
+     "highlight": ""
+    },
     {
      "op": "op-6db480fa2dff",
      "date": "2026-11-09",
@@ -8156,6 +8180,50 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-9d71a7b1ec92",
+   "date": "2026-11-10",
+   "name": "EAF Caucasus Training 2026-11-10 11:44Z A-A",
+   "kind": "automatic",
+   "types": [
+    "A-A",
+    "SEAD"
+   ],
+   "training": true,
+   "brief": "",
+   "narrative": "EAF Caucasus Training sortie on 9 June 2026, Caucasus theatre, saw a single pilot ([EAF] XTC) fly four sequential slots across a combined ~76 minutes of logged flight time. The most productive slot was PVP_F18C_NOTCHING_B-1, where the pilot demonstrated textbook close-range AIM-120C employment: two Rookie F-16Cs were engaged and destroyed with two shots in under 90 seconds — first kill at 4 nm with a 15-second TOF and 71 m CPA, second kill at short range with a 13-second TOF. Shot discipline was excellent with zero wasted missiles. However, two HIGH_G_INSTANT transients at 9.6 g and 9.2 g in the transit arena, plus a minAGL of 34 ft, indicate imprecision outside the weapons task. The Aerial-10-3 slot showed clean g-discipline (max 7.9, zero flags) but was marred by a 8 ft minAGL — an unambiguous deck bust that must be explained and corrected. Slot 3 (Taha-prime) lasted only 2.4 minutes with a minimum speed of 51 kt near 9,000 ft, suggesting a possible departure or aborted attempt; the slot provides no evaluable training value. The final and longest slot, Taha-double-prime at 33.1 minutes, is the most tactically significant for the wrong reasons: the pilot entered an active Tor-M2 WEZ, correctly defeated the first inbound missile at a CPA of 3,123 m while fast and low (583 kt / 2,214 ft), but then continued pressing inbound rather than egressing. The second missile, fired from 2.5 nm, struck the aircraft 7 seconds after launch with the pilot at 0.8 nm from the site — a range at which no defensive manoeuvre is geometrically possible. This death is a pure threat-awareness and WEZ-discipline failure. No formation flying was recorded in any slot, as expected for a solo training environment. Overall the session shows competent basic airmanship and creditable close-range missile employment, offset by one fatal SAM-WEZ lapse and recurring low-altitude exceedances that need immediate attention.",
+   "lessons": [
+    "WEZ egress is mandatory after a successful SAM defeat — defeating one missile does not clear the threat; continued ingress at 0.8 nm from an active Tor-M2 site is non-survivable and shows a fundamental gap in IADS threat awareness.",
+    "HIGH_G_INSTANT flags in transit (9.6 g, 9.2 g) and minAGL values of 8–34 ft across multiple slots indicate that altitude and G-load discipline outside the weapons arena is as important as within it — sloppiness in transit kills pilots in a threat environment.",
+    "Short or aborted training slots (2.4 minutes) provide zero training value and waste range time; a pilot must commit to and complete a full syllabus item before disconnecting — if the aircraft departed at 51 kt near 9,000 ft, slow-speed departure recovery must be a remedial priority."
+   ],
+   "card": {},
+   "teams": [],
+   "results": [
+    {
+     "callsign": "[EAF] Taha",
+     "member": true,
+     "squadron": "",
+     "score": 70.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 1,
+     "minutes": 76,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    }
+   ],
+   "pilots": 1,
+   "average": 70.0,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "instructor": "Sword",
+   "patches": [],
+   "report": "reports/op-9d71a7b1ec92.html"
+  },
   {
    "id": "op-7bd80d540cfe",
    "date": "2026-11-10",
