@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T01:42:34+00:00",
+ "generated": "2026-11-10T01:43:34+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -62,8 +62,8 @@
    "rank_order": 1,
    "photo": "https://veaf-app.veaf-2ff4d6.workers.dev/photo/P_20260708193733_285?v=1794257716",
    "patches": [],
-   "squadron": "201 AW AIRFORCE ACADEMY",
-   "squadron_patch": "",
+   "squadron": "272 TFW Jyanklis",
+   "squadron_patch": "patches/SQ_SQ_20260616173911_72.png?v=1794274924",
    "former_squadron_patches": [],
    "joined": "2026-07-08",
    "aircraft": [
@@ -844,8 +844,8 @@
    "rank_order": 3,
    "photo": "",
    "patches": [],
-   "squadron": "201 AW AIRFORCE ACADEMY",
-   "squadron_patch": "",
+   "squadron": "272 TFW Jyanklis",
+   "squadron_patch": "patches/SQ_SQ_20260616173911_72.png?v=1794274924",
    "former_squadron_patches": [],
    "joined": "2026-07-28",
    "aircraft": [
@@ -920,8 +920,8 @@
    "rank_order": 6,
    "photo": "",
    "patches": [],
-   "squadron": "201 AW AIRFORCE ACADEMY",
-   "squadron_patch": "",
+   "squadron": "272 TFW Jyanklis",
+   "squadron_patch": "patches/SQ_SQ_20260616173911_72.png?v=1794274924",
    "former_squadron_patches": [],
    "joined": "2026-07-08",
    "aircraft": [
@@ -1482,8 +1482,8 @@
    "rank_order": 6,
    "photo": "",
    "patches": [],
-   "squadron": "201 AW AIRFORCE ACADEMY",
-   "squadron_patch": "",
+   "squadron": "272 TFW Jyanklis",
+   "squadron_patch": "patches/SQ_SQ_20260616173911_72.png?v=1794274924",
    "former_squadron_patches": [],
    "joined": "2026-07-08",
    "aircraft": [
@@ -1976,8 +1976,8 @@
    "rank_order": 7,
    "photo": "",
    "patches": [],
-   "squadron": "201 AW AIRFORCE ACADEMY",
-   "squadron_patch": "",
+   "squadron": "272 TFW Jyanklis",
+   "squadron_patch": "patches/SQ_SQ_20260616173911_72.png?v=1794274924",
    "former_squadron_patches": [],
    "joined": "2026-07-08",
    "aircraft": [
@@ -7983,7 +7983,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 88.0,
      "grade": "A",
      "air_kills": 0,
@@ -8353,7 +8353,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 72.0,
      "grade": "C",
      "air_kills": 0,
@@ -8374,7 +8374,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 68.0,
      "grade": "C",
      "air_kills": 0,
@@ -8511,7 +8511,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 100.0,
      "grade": "A",
      "air_kills": 0,
@@ -8558,7 +8558,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 100.0,
      "grade": "A",
      "air_kills": 0,
@@ -8612,7 +8612,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 100.0,
      "grade": "A",
      "air_kills": 0,
@@ -8762,7 +8762,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 72.0,
      "grade": "C",
      "air_kills": 0,
@@ -8783,7 +8783,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -8878,7 +8878,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 82.0,
      "grade": "B",
      "air_kills": 0,
@@ -8962,7 +8962,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 42.0,
      "grade": "F",
      "air_kills": 0,
@@ -9107,7 +9107,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -9137,7 +9137,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 65.0,
      "grade": "D",
      "air_kills": 0,
@@ -9244,7 +9244,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -9351,7 +9351,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -9464,7 +9464,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -9568,7 +9568,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 65.0,
      "grade": "D",
      "air_kills": 0,
@@ -9670,7 +9670,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 85.0,
      "grade": "B",
      "air_kills": 0,
@@ -9685,7 +9685,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 82.0,
      "grade": "B",
      "air_kills": 0,
@@ -9797,7 +9797,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -10183,7 +10183,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 78.0,
      "grade": "B",
      "air_kills": 8,
@@ -10289,7 +10289,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -10331,7 +10331,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 75.0,
      "grade": "C",
      "air_kills": 0,
@@ -10397,7 +10397,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 70.0,
      "grade": "C",
      "air_kills": 1,
@@ -10437,7 +10437,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 59.8,
      "grade": "F",
      "air_kills": 3,
@@ -10458,7 +10458,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 58.6,
      "grade": "F",
      "air_kills": 2,
@@ -10479,7 +10479,7 @@
     {
      "callsign": "Bonkizzle",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 56.0,
      "grade": "F",
      "air_kills": 4,
@@ -10600,7 +10600,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -10630,7 +10630,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -10669,7 +10669,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 75.0,
      "grade": "C",
      "air_kills": 2,
@@ -10715,7 +10715,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 79.5,
      "grade": "C",
      "air_kills": 0,
@@ -10808,7 +10808,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 80.5,
      "grade": "B",
      "air_kills": 14,
@@ -10878,7 +10878,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 70.75,
      "grade": "C",
      "air_kills": 0,
@@ -10932,7 +10932,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -10947,7 +10947,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -11029,7 +11029,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 66.25,
      "grade": "D",
      "air_kills": 0,
@@ -11109,7 +11109,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -11153,7 +11153,7 @@
     {
      "callsign": "Moataz",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 63.0,
      "grade": "D",
      "air_kills": 0,
@@ -11219,7 +11219,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 52.0,
      "grade": "F",
      "air_kills": 0,
@@ -11288,7 +11288,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -11318,7 +11318,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 85.0,
      "grade": "B",
      "air_kills": 0,
@@ -11402,7 +11402,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 85.95,
      "grade": "B",
      "air_kills": 0,
@@ -11456,7 +11456,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 100.0,
      "grade": "A",
      "air_kills": 0,
@@ -11547,7 +11547,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -11562,7 +11562,7 @@
     {
      "callsign": "Moataz",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -11577,7 +11577,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 75.0,
      "grade": "C",
      "air_kills": 0,
@@ -11667,7 +11667,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 100.0,
      "grade": "A",
      "air_kills": 0,
@@ -11682,7 +11682,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -11756,7 +11756,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -11852,7 +11852,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -11916,7 +11916,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -12035,7 +12035,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 0.0,
      "grade": "F",
      "air_kills": 0,
@@ -12113,7 +12113,7 @@
     {
      "callsign": "Moataz",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -12159,7 +12159,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 62.0,
      "grade": "D",
      "air_kills": 0,
@@ -12263,7 +12263,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 100.0,
      "grade": "A",
      "air_kills": 0,
@@ -12293,7 +12293,7 @@
     {
      "callsign": "Moataz",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -12308,7 +12308,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -12394,7 +12394,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 69.0,
      "grade": "A",
      "air_kills": 0,
@@ -12409,7 +12409,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 20.0,
      "grade": "A",
      "air_kills": 0,
@@ -12561,7 +12561,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 76.0,
      "grade": "C",
      "air_kills": 0,
@@ -12687,7 +12687,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 88.0,
      "grade": "A",
      "air_kills": 0,
@@ -12876,7 +12876,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 74.0,
      "grade": "B",
      "air_kills": 0,
@@ -12897,7 +12897,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 56.0,
      "grade": "D",
      "air_kills": 0,
@@ -12918,7 +12918,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 33.0,
      "grade": "C",
      "air_kills": 0,
@@ -13020,7 +13020,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 108.0,
      "grade": "A",
      "air_kills": 0,
@@ -13041,7 +13041,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 78.0,
      "grade": "B",
      "air_kills": 0,
@@ -13083,7 +13083,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 73.0,
      "grade": "C",
      "air_kills": 0,
@@ -13213,7 +13213,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 91.0,
      "grade": "A",
      "air_kills": 0,
@@ -13255,7 +13255,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 60.0,
      "grade": "C",
      "air_kills": 0,
@@ -13276,7 +13276,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 34.0,
      "grade": "D",
      "air_kills": 0,
@@ -13352,7 +13352,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 94.0,
      "grade": "A",
      "air_kills": 0,
@@ -13373,7 +13373,7 @@
     {
      "callsign": "Moataz",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 45.0,
      "grade": "C",
      "air_kills": 0,
@@ -13415,7 +13415,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 26.0,
      "grade": "C",
      "air_kills": 0,
@@ -13457,7 +13457,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": -26.0,
      "grade": "F",
      "air_kills": 0,
@@ -13516,7 +13516,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 44.0,
      "grade": "C",
      "air_kills": 0,
@@ -13537,7 +13537,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 10.0,
      "grade": "D",
      "air_kills": 0,
@@ -13596,7 +13596,7 @@
     {
      "callsign": "Moataz",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 88.0,
      "grade": "A",
      "air_kills": 0,
@@ -13617,7 +13617,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 84.0,
      "grade": "C",
      "air_kills": 0,
@@ -13677,7 +13677,7 @@
     {
      "callsign": "Moataz",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 43.0,
      "grade": "C",
      "air_kills": 0,
@@ -13698,7 +13698,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 40.0,
      "grade": "C",
      "air_kills": 0,
@@ -13767,7 +13767,7 @@
     {
      "callsign": "Moataz",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 65.0,
      "grade": "C",
      "air_kills": 0,
@@ -13809,7 +13809,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 54.0,
      "grade": "C",
      "air_kills": 0,
@@ -13851,7 +13851,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 46.0,
      "grade": "D",
      "air_kills": 0,
@@ -13872,7 +13872,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 35.0,
      "grade": "D",
      "air_kills": 0,
@@ -13978,7 +13978,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 96.0,
      "grade": "A",
      "air_kills": 0,
@@ -14020,7 +14020,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 60.0,
      "grade": "C",
      "air_kills": 0,
@@ -14126,7 +14126,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 98.0,
      "grade": "C",
      "air_kills": 0,
@@ -14147,7 +14147,7 @@
     {
      "callsign": "Moataz",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 89.0,
      "grade": "C",
      "air_kills": 0,
@@ -14168,7 +14168,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -14189,7 +14189,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 55.0,
      "grade": "C",
      "air_kills": 0,
@@ -14288,7 +14288,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 95.0,
      "grade": "B",
      "air_kills": 0,
@@ -14309,7 +14309,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 93.0,
      "grade": "A",
      "air_kills": 0,
@@ -14351,7 +14351,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 76.0,
      "grade": "B",
      "air_kills": 0,
@@ -14496,7 +14496,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 21.0,
      "grade": "B",
      "air_kills": 0,
@@ -14511,7 +14511,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 16.0,
      "grade": "B",
      "air_kills": 0,
@@ -14621,7 +14621,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 8.0,
      "grade": "D",
      "air_kills": 0,
@@ -14636,7 +14636,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron": "272 TFW Jyanklis",
      "score": 7.0,
      "grade": "C",
      "air_kills": 0,
