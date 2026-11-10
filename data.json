@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T02:53:25+00:00",
+ "generated": "2026-11-10T17:55:45+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,11 +7,11 @@
  },
  "totals": {
   "pilots": 86,
-  "missions": 65,
-  "sorties": 214,
+  "missions": 66,
+  "sorties": 215,
   "qualifications": 48,
-  "hours": 173.9,
-  "air_kills": 84,
+  "hours": 174.3,
+  "air_kills": 89,
   "ground_kills": 27
  },
  "pilots": [
@@ -3823,25 +3823,25 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 9,
-   "score": 468.2,
-   "average": 52.0,
+   "missions": 10,
+   "score": 515.2,
+   "average": 51.5,
    "best": 80.0,
-   "air_kills": 9,
+   "air_kills": 14,
    "ground_kills": 0,
    "friendly_kills": 0,
-   "deaths": 1,
-   "hours": 9.7,
-   "last_flown": "2026-11-08",
+   "deaths": 6,
+   "hours": 10.1,
+   "last_flown": "2026-11-10",
    "grades": {
-    "D": 5,
+    "D": 6,
     "C": 1,
     "F": 2,
     "B": 1
    },
    "mission_types": {
+    "A-A": 5,
     "BVR": 5,
-    "A-A": 4,
     "SEAD": 1,
     "FORMATION": 1,
     "CAS": 1,
@@ -3895,6 +3895,23 @@
    "qualifications": 0,
    "courses": [],
    "history": [
+    {
+     "op": "op-7bd80d540cfe",
+     "date": "2026-11-10",
+     "name": "EAF Caucasus Training 2026-11-10 13:57Z A-A",
+     "types": [
+      "A-A"
+     ],
+     "training": true,
+     "score": 47.0,
+     "grade": "D",
+     "air_kills": 5,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 5,
+     "minutes": 24,
+     "highlight": "Slot 3 (7-minute best effort): 3 kills from 4 shots at Pk=75%, defeated 3/5 inbomnd missiles including a 166m CPA defeat at close range; demonstrated ability to stay in the fight under sustained missile threat and close to gun-range to finish BANDIT_F16C_7_1 at 3.6nm when the medium-range shot missed."
+    },
     {
      "op": "op-4091a652ca5c",
      "date": "2026-11-08",
@@ -8139,6 +8156,55 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-7bd80d540cfe",
+   "date": "2026-11-10",
+   "name": "EAF Caucasus Training 2026-11-10 13:57Z A-A",
+   "kind": "automatic",
+   "types": [
+    "A-A"
+   ],
+   "training": true,
+   "brief": "",
+   "narrative": "Omar flew eight consecutive BVR training rounds in an F-16C against AI F-16C bandits over the Caucasus on 10 November 2026, accumulating approximately 24 minutes of total flight time across six distinct spawn slots. The session produced a 3-win / 5-loss round record and 5 confirmed air kills from 15 AIM-120C shots — an overall Pk of 33%. The scorecard tells two very different stories: when Omar respects weapon parameters he kills; when he shoots long, he wastes missiles and exposes himself. Round 4 / Slot 3 was the best effort of the day — three kills, 75% Pk, 5 inbounds defeated (3 successfully), and a cool decision to close to 3.6nm and re-engage after a medium-range miss. Rounds 1 and 3 were poor: no shots in round 1, and in round 3 the first shot at 20.8nm missed with a CPA of only 29m — tantalisingly close but no kill — while the aircraft was simultaneously struck by two inbound missiles before the second shot could be evaluated properly. Round 6 (slot 4) represented the session's worst missile discipline: both shots fired at 36.2nm and 16nm respectively, neither hit, and Omar was shot down having scored zero kills against a 2-ship. The final round (slot 6) showed measurable improvement — three successive shots in a bracket-down from 21.4nm to 7.1nm, with the kill coming at 7.1nm and 66 seconds of post-launch cranking — suggesting Omar is beginning to understand that patience and geometry beat volume of fire. The over-G picture is a serious concern: slots 3, 4, and 5 all produced sustained over-G flags, with peaks at 9.43g, 8.53g, and 9.12g respectively — five sustained events across one sortie. Combined with minimum AGL values as low as 34ft at speeds exceeding 800 kts, Omar is operating with razor-thin margins in the vertical plane during the defensive phase. His defence rate was 3/10 across the session (slots 3 and 4 accounting for all successful defeats), meaning he was struck by missiles more often than he defeated them. The historical trend shows improvement from 34.2 to 42 and now approximately 47 this sortie — the trajectory is positive, but the ceiling is being held down by consistent long-range indiscipline and over-G habits that have now appeared on three consecutive A-A sorties.",
+   "lessons": [
+    "LAUNCH DISCIPLINE IS NON-NEGOTIABLE: 6 of 15 shots this session were fired beyond 25nm for zero kills. Every wasted missile is a lost opportunity and a radar emission that tells the bandit exactly where you are. Commit to the 15nm hard floor for first shots against manoeuvring F-16 targets; use the 15-25nm band only with energy advantage, favourable geometry, and a crank plan already set.",
+    "STOP OVER-PULLING IN THE DEFENCE: Five sustained over-G events in one sortie, peaking at 9.43g, indicate that when missiles go active inbound Omar yanks to the structural limit as a reflex. Practice the unloaded defensive turn — bleed less energy, stay above the deck, and preserve corner velocity (~450 KCAS in the F-16) so you can turn back offensive after the defeat. The 34ft AGL values are a by-product of the same panicked pull.",
+    "BRACKET-DOWN TECHNIQUE IS WORKING — TRUST IT: The slot 3 and slot 8 kills both came from a first-shot miss followed by a disciplined close to shorter range and a second shot inside 10nm. This is the right template. The failure mode is the opposite: shooting at 40nm, taking a hit, and dying before getting a chance to close. Build the habit of a medium-range shot (15-20nm) followed by an immediate crank, monitor the TOF, then re-commit or pump depending on the bandit's energy state."
+   ],
+   "card": {},
+   "teams": [],
+   "results": [
+    {
+     "callsign": "Omar",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": 47.0,
+     "grade": "D",
+     "air_kills": 5,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 5,
+     "minutes": 24,
+     "highlights": [
+      "Slot 3 (7-minute best effort): 3 kills from 4 shots at Pk=75%, defeated 3/5 inbomnd missiles including a 166m CPA defeat at close range; demonstrated ability to stay in the fight under sustained missile threat and close to gun-range to finish BANDIT_F16C_7_1 at 3.6nm when the medium-range shot missed.",
+      "Slot 8 (final round, 2.3 min): survived the round with 1 kill from 3 shots against BANDIT_F16C_8_2, used 66 seconds of cranking — best post-launch discipline of the session — and took zero missile hits."
+     ],
+     "improvements": [
+      "Launch range discipline is the session's dominant failure: across all slots Omar fired 6 of 15 total shots beyond 25nm (40.1nm, 36.2nm, 36.2nm, 24.1nm, 21.4nm, 20.8nm) for zero kills from those shots; every beyond-25nm shot was trashed or missed, wasting ordinance and telegraphing position. The AIM-120C's No-Escape Zone against a manoeuvring F-16 target begins around 15-18nm at altitude — do not shoot beyond it.",
+      "Over-G is a recurring, session-wide problem: slots 3, 4, and 5 all recorded sustained over-G flags (2, 2, and 1 events respectively), with slot 3 peaking at 9.4g and 8 instantaneous HIGH_G events. The F-16C's structural limit is 9.0g clean — repeated exceedances risk airframe damage in a real jet and reflect a defensive reaction habit of yanking to the limiter rather than using coordinated unloaded energy turns. Slot 1's 27g spike is almost certainly an initialisation artefact but the sustained events are real."
+     ],
+     "note": "Five kills prove the technique exists, but six wasted shots beyond 25nm and five sustained over-G events in a single sortie show that discipline and airframe respect must catch up with his improving trigger finger."
+    }
+   ],
+   "pilots": 1,
+   "average": 47.0,
+   "air_kills": 5,
+   "ground_kills": 0,
+   "instructor": "Sword",
+   "patches": [],
+   "report": "reports/op-7bd80d540cfe.html"
+  },
   {
    "id": "op-6db480fa2dff",
    "date": "2026-11-09",
