@@ -36,7 +36,7 @@
       photo_done: "Photo uploaded. It appears on the roster after the next website update.", photo_bad: "That file isn't an image this browser can read.",
       patches_h: "Mission patches", patches_intro: "Earned by flying the operation, or awarded by the instructors.", no_patches: "No patches yet.", holders: "holders", op_patch: "Mission patch",
       session_lost: "Your sign-in expired. Sign in again.",
-      kb_h: "Kneeboard", kb_p: "These pages are on your cockpit kneeboard for this operation. Tap a page to enlarge it.",
+      sq_patch: "Squadron patch", sq_former: "Former squadron", worn_h: "Patches", kb_h: "Kneeboard", kb_p: "These pages are on your cockpit kneeboard for this operation. Tap a page to enlarge it.",
       push_on: "Turn on notifications", push_off: "Notifications on · turn off", push_install: "Get notifications", push_denied: "Notifications blocked",
       push_band: "Get notified about new operations and a reminder 60 and 15 minutes before your sorties.", push_now: "Turn on", push_later: "Not now",
       push_ios: "On iPhone: tap Share, then Add to Home Screen. Open VEAF from your Home Screen and turn notifications on there.",
@@ -115,7 +115,7 @@
       photo_done: "تم رفع الصورة. ستظهر في قائمة الطيارين بعد التحديث القادم للموقع.", photo_bad: "هذا الملف ليس صورة يمكن للمتصفح قراءتها.",
       patches_h: "شارات المهمات", patches_intro: "تُكتسب بالطيران في العملية أو يمنحها المدربون.", no_patches: "لا توجد شارات بعد.", holders: "حاملين", op_patch: "شارة المهمة",
       session_lost: "انتهت جلسة الدخول. سجّل الدخول مرة أخرى.",
-      kb_h: "لوحة الركبة", kb_p: "هذه الصفحات موجودة على لوحة الركبة في قمرة القيادة لهذه العملية. اضغط على أي صفحة لتكبيرها.",
+      sq_patch: "شارة السرب", sq_former: "سرب سابق", worn_h: "الشارات", kb_h: "لوحة الركبة", kb_p: "هذه الصفحات موجودة على لوحة الركبة في قمرة القيادة لهذه العملية. اضغط على أي صفحة لتكبيرها.",
       push_on: "تفعيل الإشعارات", push_off: "الإشعارات مفعّلة · إيقاف", push_install: "استقبال الإشعارات", push_denied: "الإشعارات محظورة",
       push_band: "استقبل إشعارًا بكل عملية جديدة وتذكيرًا قبل طلعتك بـ 60 و15 دقيقة.", push_now: "تفعيل", push_later: "ليس الآن",
       push_ios: "على الآيفون: اضغط مشاركة ثم إضافة إلى الشاشة الرئيسية. افتح VEAF من الشاشة الرئيسية وفعّل الإشعارات من هناك.",
@@ -345,7 +345,7 @@
       var g = rankName(p.rank);
       if (g !== last) { if (last !== null) html += "</div>"; html += '<div class="group-label">' + esc(g) + (p.rank && p.rank.insignia ? ' · <span class="ins">' + esc(p.rank.insignia) + "</span>" : "") + '</div><div class="roster">'; last = g; }
       html += '<a class="plate" href="#pilot-' + slug(p.callsign) + '">' + avatar(p) + '<span class="who"><div class="cs">' + esc(p.callsign) +
-        '</div><div class="rk">' + esc(rankName(p.rank)) + '</div>' + (p.squadron ? '<div class="sqn">' + esc(p.squadron) + "</div>" : "") + '<div class="ac">' + esc((p.aircraft || []).join(" · ") || "–") + "</div></span></a>";
+        '</div><div class="rk">' + esc(rankName(p.rank)) + '</div>' + (p.squadron ? '<div class="sqn">' + (p.squadron_patch ? '<img class="sqmini" src="' + esc(p.squadron_patch) + '" alt="" width="18" height="18" loading="lazy">' : "") + esc(p.squadron) + "</div>" : "") + '<div class="ac">' + esc((p.aircraft || []).join(" · ") || "–") + "</div></span></a>";
     });
     box.innerHTML = html + "</div>";
   }
@@ -369,10 +369,17 @@
     });
     return Object.keys(by).map(function (k) { return by[k]; }).sort(function (a, b) { return (b.name ? 1 : 0) - (a.name ? 1 : 0) || b.score - a.score; });
   }
+  function sqPatch(name) {
+    var qs = (DATA && DATA.squadrons) || [];
+    for (var i = 0; i < qs.length; i++) if (qs[i].name === name) return qs[i].patch || "";
+    return "";
+  }
   function pageBoard() {
     var st = squadronStandings();
     var cards = st.filter(function (s) { return s.name; }).map(function (s, i) {
-      return '<button type="button" class="sqcard' + (boardSq === s.name ? " on" : "") + '" data-bsq="' + esc(s.name) + '"><span class="sqpos">' + (i + 1) + '</span><span class="sqname">' + esc(s.name) +
+      var sp = sqPatch(s.name);
+      return '<button type="button" class="sqcard' + (sp ? " has-patch" : "") + (boardSq === s.name ? " on" : "") + '" data-bsq="' + esc(s.name) + '"><span class="sqpos">' + (i + 1) + "</span>" +
+        (sp ? '<img class="sqp" src="' + esc(sp) + '" alt="" width="44" height="44" loading="lazy">' : "") + '<span class="sqname">' + esc(s.name) +
         '</span><span class="sqline"><b>' + fmt(s.score, 0) + "</b> " + esc(t("c_score")) + " · " + fmt(s.pilots) + " " + esc(t("pilots_word")) + " · " + fmt(s.missions) + " " + esc(t("sorties_word")) +
         " · " + fmt(s.hours, 0) + " h</span></button>";
     }).join("");
@@ -581,8 +588,12 @@
           '</td><td class="opt">' + typeTags(h) + '</td><td><span class="grade ' + esc(g) + '">' + esc(h.grade || "–") + '</span></td><td class="n">' + fmt(h.score, 1) + '</td><td class="n">' + fmt(h.air_kills) +
           '</td><td class="n">' + fmt(h.ground_kills) + '</td><td class="n opt">' + fmt(h.minutes) + "</td></tr>";
       }).join("") + "</tbody></table></div>" : '<p class="empty">' + esc(t("no_history")) + "</p>";
-    var pp = (p.patches || []).length ? '<h2 class="h-sm">' + esc(t("patches_h")) + "</h2>" + patchGrid(p.patches, true) : "";
-    return '<section class="band tight"><div class="wrap">' + back + '<div class="profile-head"><div class="ph-row">' + photoBlock(p) + plate + "</div>" + meta + "</div>" + stats + pp +
+    var worn = (p.squadron_patch ? [{ name: p.squadron, image: p.squadron_patch, date: t("sq_patch") }] : [])
+      .concat((p.former_squadron_patches || []).map(function (f) { return { name: f.name, image: f.image, date: t("sq_former") + (f.until ? " · " + f.until : "") }; }))
+      .concat(p.patches || []);
+    var pp = worn.length ? '<h2 class="h-sm">' + esc(t("worn_h")) + "</h2>" + patchGrid(worn, true) : "";
+    var unit = p.squadron_patch ? '<img class="unit-patch" src="' + esc(p.squadron_patch) + '" alt="' + esc(p.squadron + " · " + t("sq_patch")) + '" title="' + esc(p.squadron) + '" width="104" height="104">' : "";
+    return '<section class="band tight"><div class="wrap">' + back + '<div class="profile-head"><div class="ph-row">' + photoBlock(p) + plate + unit + "</div>" + meta + "</div>" + stats + pp +
       '<div class="two"><div><h2 class="h-sm">' + esc(t("grades_h")) + "</h2>" + grades + '<h2 class="h-sm">' + esc(t("flown_h")) + "</h2>" + (kindHtml || '<p class="muted">–</p>') +
       '<h2 class="h-sm">' + esc(t("quals_h")) + "</h2>" + qualHtml + (courses ? '<h2 class="h-sm">' + esc(t("courses_h")) + "</h2>" + courses : "") +
       '<h2 class="h-sm">' + esc(t("skills")) + "</h2>" + skills + '</div><div><h2 class="h-sm">' + esc(t("history")) + "</h2>" + hist + "</div></div></div></section>";
