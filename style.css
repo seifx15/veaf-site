@@ -464,3 +464,6 @@ section.pushband { background: var(--panel); padding-block: 18px; }
 .sqcard.has-patch { grid-template-columns: auto auto minmax(0, 1fr); }
 .sqcard.has-patch .sqname, .sqcard.has-patch .sqline { grid-column: 3; }
 .sqcard .sqp { grid-row: span 2; width: 44px; height: 44px; object-fit: contain; align-self: center; }
+.plate .sqn .el { color: var(--sand); font-weight: 600; white-space: nowrap; }
+.unit-patch.el-patch { width: 84px; height: 84px; }
+.chip .sqmini { vertical-align: -4px; }

@@ -36,7 +36,7 @@
       photo_done: "Photo uploaded. It appears on the roster after the next website update.", photo_bad: "That file isn't an image this browser can read.",
       patches_h: "Mission patches", patches_intro: "Earned by flying the operation, or awarded by the instructors.", no_patches: "No patches yet.", holders: "holders", op_patch: "Mission patch",
       session_lost: "Your sign-in expired. Sign in again.",
-      sq_patch: "Squadron patch", sq_former: "Former squadron", worn_h: "Patches", kb_h: "Kneeboard", kb_p: "These pages are on your cockpit kneeboard for this operation. Tap a page to enlarge it.",
+      element: "Element", el_patch: "Element patch", el_former: "Former element", all_elements: "All elements", sq_patch: "Squadron patch", sq_former: "Former squadron", worn_h: "Patches", kb_h: "Kneeboard", kb_p: "These pages are on your cockpit kneeboard for this operation. Tap a page to enlarge it.",
       push_on: "Turn on notifications", push_off: "Notifications on · turn off", push_install: "Get notifications", push_denied: "Notifications blocked",
       push_band: "Get notified about new operations and a reminder 60 and 15 minutes before your sorties.", push_now: "Turn on", push_later: "Not now",
       push_ios: "On iPhone: tap Share, then Add to Home Screen. Open VEAF from your Home Screen and turn notifications on there.",
@@ -115,7 +115,7 @@
       photo_done: "تم رفع الصورة. ستظهر في قائمة الطيارين بعد التحديث القادم للموقع.", photo_bad: "هذا الملف ليس صورة يمكن للمتصفح قراءتها.",
       patches_h: "شارات المهمات", patches_intro: "تُكتسب بالطيران في العملية أو يمنحها المدربون.", no_patches: "لا توجد شارات بعد.", holders: "حاملين", op_patch: "شارة المهمة",
       session_lost: "انتهت جلسة الدخول. سجّل الدخول مرة أخرى.",
-      sq_patch: "شارة السرب", sq_former: "سرب سابق", worn_h: "الشارات", kb_h: "لوحة الركبة", kb_p: "هذه الصفحات موجودة على لوحة الركبة في قمرة القيادة لهذه العملية. اضغط على أي صفحة لتكبيرها.",
+      element: "العنصر", el_patch: "شارة العنصر", el_former: "عنصر سابق", all_elements: "كل العناصر", sq_patch: "شارة السرب", sq_former: "سرب سابق", worn_h: "الشارات", kb_h: "لوحة الركبة", kb_p: "هذه الصفحات موجودة على لوحة الركبة في قمرة القيادة لهذه العملية. اضغط على أي صفحة لتكبيرها.",
       push_on: "تفعيل الإشعارات", push_off: "الإشعارات مفعّلة · إيقاف", push_install: "استقبال الإشعارات", push_denied: "الإشعارات محظورة",
       push_band: "استقبل إشعارًا بكل عملية جديدة وتذكيرًا قبل طلعتك بـ 60 و15 دقيقة.", push_now: "تفعيل", push_later: "ليس الآن",
       push_ios: "على الآيفون: اضغط مشاركة ثم إضافة إلى الشاشة الرئيسية. افتح VEAF من الشاشة الرئيسية وفعّل الإشعارات من هناك.",
@@ -313,7 +313,26 @@
       }).join("") + "</div></div></section>";
   }
 
-  var rosterFilter = { ac: "", sq: "", q: "" };
+  var rosterFilter = { ac: "", sq: "", el: "", q: "" };
+  function elementChips() {
+    var seen = [], ps = (DATA && DATA.pilots) || [];
+    ps.forEach(function (p) {
+      if (p.element && (!rosterFilter.sq || p.squadron === rosterFilter.sq) && seen.indexOf(p.element) < 0) seen.push(p.element);
+    });
+    // squadron order of elements when known
+    var order = [];
+    ((DATA && DATA.squadrons) || []).forEach(function (q) { (q.elements || []).forEach(function (e) { if (order.indexOf(e) < 0) order.push(e); }); });
+    seen.sort(function (a, b) { var x = order.indexOf(a), y = order.indexOf(b); return (x < 0 ? 999 : x) - (y < 0 ? 999 : y) || (a < b ? -1 : 1); });
+    if (rosterFilter.el && seen.indexOf(rosterFilter.el) < 0) rosterFilter.el = "";
+    if (!seen.length) return "";
+    return '<div class="filters" role="group" aria-label="' + esc(t("element")) + '"><button class="chip" type="button" data-el="" aria-pressed="' + (!rosterFilter.el) + '">' +
+      esc(t("all_elements")) + "</button>" + seen.map(function (e) {
+        var ep = "";
+        ps.forEach(function (p) { if (!ep && p.element === e && p.element_patch) ep = p.element_patch; });
+        return '<button class="chip" type="button" data-el="' + esc(e) + '" aria-pressed="' + (rosterFilter.el === e) + '">' +
+          (ep ? '<img class="sqmini" src="' + esc(ep) + '" alt="" width="18" height="18">' : "") + esc(e) + "</button>";
+      }).join("") + "</div>";
+  }
   function pagePilots() {
     var ps = (DATA && DATA.pilots) || [];
     var types = {};
@@ -328,7 +347,7 @@
       esc(t("all_squadrons")) + "</button>" + Object.keys(sqs).sort().map(function (q) {
         return '<button class="chip" type="button" data-sq="' + esc(q) + '" aria-pressed="' + (rosterFilter.sq === q) + '">' + esc(q) + "</button>";
       }).join("") + "</div>" : "";
-    return head("", t("pilots_h"), t("pilots_intro")) + '<section class="band"><div class="wrap">' + sqChips + '<div class="filters" role="group">' + chips +
+    return head("", t("pilots_h"), t("pilots_intro")) + '<section class="band"><div class="wrap">' + sqChips + '<div id="el-chips">' + elementChips() + "</div>" + '<div class="filters" role="group">' + chips +
       '<input class="search" id="pilot-search" type="search" placeholder="' + esc(t("search")) + '" aria-label="' + esc(t("search")) + '" value="' + esc(rosterFilter.q) + '"></div><div id="roster"></div></div></section>' +
       (((DATA && DATA.patches) || []).length ? '<section class="band"><div class="wrap"><h2>' + esc(t("patches_h")) + '</h2><p class="intro">' + esc(t("patches_intro")) + "</p>" + patchGrid(DATA.patches) + "</div></section>" : "");
   }
@@ -337,7 +356,7 @@
     if (!box) return;
     var q = rosterFilter.q.trim().toLowerCase();
     var ps = ((DATA && DATA.pilots) || []).filter(function (p) {
-      return (!rosterFilter.sq || p.squadron === rosterFilter.sq) && (!rosterFilter.ac || (p.aircraft || []).indexOf(rosterFilter.ac) >= 0) && (!q || String(p.callsign).toLowerCase().indexOf(q) >= 0);
+      return (!rosterFilter.sq || p.squadron === rosterFilter.sq) && (!rosterFilter.el || p.element === rosterFilter.el) && (!rosterFilter.ac || (p.aircraft || []).indexOf(rosterFilter.ac) >= 0) && (!q || String(p.callsign).toLowerCase().indexOf(q) >= 0);
     });
     if (!ps.length) { box.innerHTML = '<p class="empty">' + esc(t("no_pilots")) + "</p>"; return; }
     var html = "", last = null;
@@ -345,7 +364,7 @@
       var g = rankName(p.rank);
       if (g !== last) { if (last !== null) html += "</div>"; html += '<div class="group-label">' + esc(g) + (p.rank && p.rank.insignia ? ' · <span class="ins">' + esc(p.rank.insignia) + "</span>" : "") + '</div><div class="roster">'; last = g; }
       html += '<a class="plate" href="#pilot-' + slug(p.callsign) + '">' + avatar(p) + '<span class="who"><div class="cs">' + esc(p.callsign) +
-        '</div><div class="rk">' + esc(rankName(p.rank)) + '</div>' + (p.squadron ? '<div class="sqn">' + (p.squadron_patch ? '<img class="sqmini" src="' + esc(p.squadron_patch) + '" alt="" width="18" height="18" loading="lazy">' : "") + esc(p.squadron) + "</div>" : "") + '<div class="ac">' + esc((p.aircraft || []).join(" · ") || "–") + "</div></span></a>";
+        '</div><div class="rk">' + esc(rankName(p.rank)) + '</div>' + (p.squadron ? '<div class="sqn">' + (p.squadron_patch ? '<img class="sqmini" src="' + esc(p.squadron_patch) + '" alt="" width="18" height="18" loading="lazy">' : "") + esc(p.squadron) + (p.element ? ' · <span class="el">' + (p.element_patch ? '<img class="sqmini" src="' + esc(p.element_patch) + '" alt="" width="18" height="18" loading="lazy">' : "") + esc(p.element) + "</span>" : "") + "</div>" : "") + '<div class="ac">' + esc((p.aircraft || []).join(" · ") || "–") + "</div></span></a>";
     });
     box.innerHTML = html + "</div>";
   }
@@ -556,7 +575,7 @@
     var place = boardList().indexOf(p) + 1;
     var plate = '<div class="nameplate"><span class="cs">' + esc(p.callsign) + '</span><span class="rankline">' + (r.ar ? '<span class="ar" lang="ar">' + esc(r.ar) + "</span>" : "") +
       (r.en && r.en !== r.ar ? "<span>" + esc(r.en) + "</span>" : "") + (r.insignia ? '<span class="ins">' + esc(r.insignia) + "</span>" : "") + "</span></div>";
-    var meta = '<ul class="facts">' + [["c_squadron", p.squadron], ["flies", (p.aircraft || []).join(" · ")], ["joined", p.joined], ["last_flown", p.last_flown],
+    var meta = '<ul class="facts">' + [["c_squadron", p.squadron], ["element", p.element], ["flies", (p.aircraft || []).join(" · ")], ["joined", p.joined], ["last_flown", p.last_flown],
       ["board_place", place ? "#" + place + " / " + ((DATA && DATA.pilots) || []).length : ""]].filter(function (x) { return x[1]; }).map(function (x) {
         return "<li><span>" + esc(t(x[0])) + "</span><span>" + esc(x[1]) + "</span></li>";
       }).join("") + "</ul>";
@@ -589,10 +608,13 @@
           '</td><td class="n">' + fmt(h.ground_kills) + '</td><td class="n opt">' + fmt(h.minutes) + "</td></tr>";
       }).join("") + "</tbody></table></div>" : '<p class="empty">' + esc(t("no_history")) + "</p>";
     var worn = (p.squadron_patch ? [{ name: p.squadron, image: p.squadron_patch, date: t("sq_patch") }] : [])
+      .concat(p.element_patch ? [{ name: p.element, image: p.element_patch, date: t("el_patch") }] : [])
       .concat((p.former_squadron_patches || []).map(function (f) { return { name: f.name, image: f.image, date: t("sq_former") + (f.until ? " · " + f.until : "") }; }))
+      .concat((p.former_element_patches || []).map(function (f) { return { name: f.name, image: f.image, date: t("el_former") + (f.until ? " · " + f.until : "") }; }))
       .concat(p.patches || []);
     var pp = worn.length ? '<h2 class="h-sm">' + esc(t("worn_h")) + "</h2>" + patchGrid(worn, true) : "";
-    var unit = p.squadron_patch ? '<img class="unit-patch" src="' + esc(p.squadron_patch) + '" alt="' + esc(p.squadron + " · " + t("sq_patch")) + '" title="' + esc(p.squadron) + '" width="104" height="104">' : "";
+    var unit = (p.squadron_patch ? '<img class="unit-patch" src="' + esc(p.squadron_patch) + '" alt="' + esc(p.squadron + " · " + t("sq_patch")) + '" title="' + esc(p.squadron) + '" width="104" height="104">' : "") +
+      (p.element_patch ? '<img class="unit-patch el-patch" src="' + esc(p.element_patch) + '" alt="' + esc(p.element + " · " + t("el_patch")) + '" title="' + esc(p.element) + '" width="84" height="84">' : "");
     return '<section class="band tight"><div class="wrap">' + back + '<div class="profile-head"><div class="ph-row">' + photoBlock(p) + plate + unit + "</div>" + meta + "</div>" + stats + pp +
       '<div class="two"><div><h2 class="h-sm">' + esc(t("grades_h")) + "</h2>" + grades + '<h2 class="h-sm">' + esc(t("flown_h")) + "</h2>" + (kindHtml || '<p class="muted">–</p>') +
       '<h2 class="h-sm">' + esc(t("quals_h")) + "</h2>" + qualHtml + (courses ? '<h2 class="h-sm">' + esc(t("courses_h")) + "</h2>" + courses : "") +
@@ -889,7 +911,7 @@
 
   /* -------------------------------------------------------------- events */
   document.addEventListener("click", function (e) {
-    var el = e.target.closest ? e.target.closest("[data-ac],[data-sq],[data-bsq],[data-otype],[data-sort],#lang,#menu-btn,img[data-full],.lightbox") : null;
+    var el = e.target.closest ? e.target.closest("[data-ac],[data-sq],[data-el],[data-bsq],[data-otype],[data-sort],#lang,#menu-btn,img[data-full],.lightbox") : null;
     if (!el) return;
     if (el.classList.contains("lightbox")) { el.remove(); return; }
     if (el.id === "lang") {
@@ -909,6 +931,12 @@
     if (el.hasAttribute("data-sq")) {
       rosterFilter.sq = el.getAttribute("data-sq");
       Array.prototype.forEach.call(document.querySelectorAll("[data-sq]"), function (c) { c.setAttribute("aria-pressed", String(c === el)); });
+      var ec = document.getElementById("el-chips"); if (ec) ec.innerHTML = elementChips();
+      drawRoster(); return;
+    }
+    if (el.hasAttribute("data-el")) {
+      rosterFilter.el = el.getAttribute("data-el");
+      Array.prototype.forEach.call(document.querySelectorAll("[data-el]"), function (c) { c.setAttribute("aria-pressed", String(c === el)); });
       drawRoster(); return;
     }
     if (el.hasAttribute("data-sort")) { boardSort = el.getAttribute("data-sort"); drawBoard(); return; }
