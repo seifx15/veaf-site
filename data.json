@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T18:18:52+00:00",
+ "generated": "2026-11-10T21:15:18+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -15096,10 +15096,10 @@
      "task": "TRAINING",
      "size": 4,
      "pilots": [
-      "Megatron",
       "Sword",
-      "Blacksky",
-      "Neo"
+      "Mazen Sameh",
+      "Neo",
+      "Blacksky"
      ]
     },
     {
@@ -15107,10 +15107,10 @@
      "task": "TRAINING",
      "size": 4,
      "pilots": [
+      "Megatron",
+      "1iFzz",
       "Ibraheem",
-      "Mazen Sameh",
-      "[EAF] Taha",
-      "1iFzz"
+      "[EAF] Taha"
      ]
     }
    ],
