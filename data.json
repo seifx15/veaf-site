@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T00:10:06+00:00",
+ "generated": "2026-11-11T00:14:06+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,10 +7,10 @@
  },
  "totals": {
   "pilots": 86,
-  "missions": 67,
-  "sorties": 216,
+  "missions": 68,
+  "sorties": 222,
   "qualifications": 48,
-  "hours": 175.6,
+  "hours": 180.4,
   "air_kills": 89,
   "ground_kills": 27
  },
@@ -76,30 +76,30 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 38,
-   "score": 2653.0,
-   "average": 69.9,
+   "missions": 39,
+   "score": 2725.0,
+   "average": 70.0,
    "best": 100.0,
    "air_kills": 25,
    "ground_kills": 14,
    "friendly_kills": 0,
    "deaths": 2,
-   "hours": 33.3,
-   "last_flown": "2026-11-08",
+   "hours": 34.8,
+   "last_flown": "2026-11-10",
    "grades": {
+    "C": 14,
     "A": 12,
-    "C": 13,
     "B": 9,
     "F": 3,
     "D": 1
    },
    "mission_types": {
-    "SEAD": 11,
-    "CCIP": 10,
+    "SEAD": 12,
+    "CCIP": 11,
     "A-A": 8,
     "TRAINING": 5,
+    "STRAFE": 4,
     "FORMATION": 3,
-    "STRAFE": 3,
     "BVR": 3,
     "CAS": 2,
     "BSA": 2,
@@ -119,13 +119,6 @@
      "name": "Datalink",
      "type": "GENERAL",
      "score": 10.0,
-     "max": 10,
-     "qualified": true
-    },
-    {
-     "name": "SEAD",
-     "type": "SEAD",
-     "score": 8.8,
      "max": 10,
      "qualified": true
     },
@@ -160,7 +153,14 @@
     {
      "name": "CCIP Tactical Pattern",
      "type": "CCIP",
-     "score": 6.8,
+     "score": 7.2,
+     "max": 10,
+     "qualified": true
+    },
+    {
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 7.2,
      "max": 10,
      "qualified": true
     },
@@ -188,6 +188,25 @@
     }
    ],
    "history": [
+    {
+     "op": "op-37e02481772a",
+     "date": "2026-11-10",
+     "name": "SinaiMap 2026-11-10 21:04Z STRAFE",
+     "types": [
+      "STRAFE",
+      "CCIP",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 72.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 92,
+     "highlight": "GBU-12 shack on CONVOY_SOFT_6_U1: CEP 5.8 m, direct hit, released at 8,056 ft at 523 kts — excellent terminal accuracy on the final laser pass."
+    },
     {
      "op": "op-4091a652ca5c",
      "date": "2026-11-08",
@@ -1506,29 +1525,29 @@
     "F/A-18C Hornet"
    ],
    "bio": "",
-   "missions": 23,
-   "score": 1398.8,
+   "missions": 24,
+   "score": 1460.8,
    "average": 59.9,
    "best": 98.0,
    "air_kills": 3,
    "ground_kills": 4,
    "friendly_kills": 0,
    "deaths": 0,
-   "hours": 15.9,
-   "last_flown": "2026-10-30",
+   "hours": 16.9,
+   "last_flown": "2026-11-10",
    "grades": {
+    "C": 6,
     "F": 2,
     "B": 7,
     "D": 6,
-    "C": 5,
     "A": 2
    },
    "mission_types": {
-    "CCIP": 6,
-    "SEAD": 6,
+    "CCIP": 7,
+    "SEAD": 7,
+    "STRAFE": 3,
     "BVR": 3,
     "TRAINING": 3,
-    "STRAFE": 2,
     "BFM": 2,
     "A-A": 2,
     "CAS": 1,
@@ -1552,25 +1571,18 @@
      "qualified": true
     },
     {
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 6.2,
+     "max": 10,
+     "qualified": true
+    },
+    {
      "name": "Tactical Turns / Formation",
      "type": "BFM",
      "score": 6.0,
      "max": 10,
      "qualified": true
-    },
-    {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
-     "score": 4.2,
-     "max": 10,
-     "qualified": true
-    },
-    {
-     "name": "SEAD",
-     "type": "SEAD",
-     "score": 8.2,
-     "max": 10,
-     "qualified": false
     },
     {
      "name": "Notching",
@@ -1594,6 +1606,13 @@
      "qualified": false
     },
     {
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 6.2,
+     "max": 10,
+     "qualified": false
+    },
+    {
      "name": "Basic Fighter Maneuver (BFM)",
      "type": "BFM",
      "score": 6.0,
@@ -1604,6 +1623,25 @@
    "qualifications": 4,
    "courses": [],
    "history": [
+    {
+     "op": "op-37e02481772a",
+     "date": "2026-11-10",
+     "name": "SinaiMap 2026-11-10 21:04Z STRAFE",
+     "types": [
+      "STRAFE",
+      "CCIP",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 62.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 58,
+     "highlight": "4 AGM-65F/E impacts across two sessions (CPAs: 65 m, 72 m, 97 m, 116 m) plus 2 AGM-65E impacts — consistent weapon delivery across multiple slots, demonstrating persistence and target-area SA."
+    },
     {
      "op": "op-5bb514953f4d",
      "date": "2026-10-30",
@@ -2633,30 +2671,30 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 35,
-   "score": 2206.0,
-   "average": 62.9,
+   "missions": 36,
+   "score": 2246.0,
+   "average": 62.3,
    "best": 104.0,
    "air_kills": 20,
    "ground_kills": 1,
    "friendly_kills": 0,
    "deaths": 28,
    "hours": 24.1,
-   "last_flown": "2026-11-07",
+   "last_flown": "2026-11-10",
    "grades": {
+    "F": 4,
     "A": 4,
     "C": 15,
     "D": 8,
-    "B": 5,
-    "F": 3
+    "B": 5
    },
    "mission_types": {
     "BFM": 10,
+    "CCIP": 8,
     "A-A": 8,
-    "CCIP": 7,
+    "SEAD": 7,
     "TRAINING": 7,
-    "SEAD": 6,
-    "STRAFE": 3,
+    "STRAFE": 4,
     "FORMATION": 2,
     "BVR": 2,
     "BSA": 2,
@@ -2679,16 +2717,16 @@
      "qualified": true
     },
     {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
-     "score": 7.6,
+     "name": "Missile Kinematics",
+     "type": "A-A",
+     "score": 5.8,
      "max": 10,
      "qualified": true
     },
     {
-     "name": "Missile Kinematics",
-     "type": "A-A",
-     "score": 5.8,
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 4.0,
      "max": 10,
      "qualified": true
     },
@@ -2707,13 +2745,6 @@
      "qualified": false
     },
     {
-     "name": "SEAD",
-     "type": "SEAD",
-     "score": 7.5,
-     "max": 10,
-     "qualified": false
-    },
-    {
      "name": "1 V 2 ACM",
      "type": "A-A",
      "score": 5.8,
@@ -2724,6 +2755,13 @@
      "name": "Notching",
      "type": "A-A",
      "score": 5.8,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 4.0,
      "max": 10,
      "qualified": false
     }
@@ -2744,6 +2782,25 @@
     }
    ],
    "history": [
+    {
+     "op": "op-37e02481772a",
+     "date": "2026-11-10",
+     "name": "SinaiMap 2026-11-10 21:04Z STRAFE",
+     "types": [
+      "STRAFE",
+      "CCIP",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 40.0,
+     "grade": "F",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": "MaxG only 4.9 g during 0.5-min recorded slot — no exceedances, clean handling in the brief time recorded."
+    },
     {
      "op": "op-241f54c637de",
      "date": "2026-11-07",
@@ -3611,25 +3668,26 @@
     "F/A-18C Hornet"
    ],
    "bio": "",
-   "missions": 5,
-   "score": 366.0,
-   "average": 73.2,
+   "missions": 6,
+   "score": 406.0,
+   "average": 67.7,
    "best": 100.0,
    "air_kills": 0,
    "ground_kills": 3,
    "friendly_kills": 0,
    "deaths": 0,
-   "hours": 3.6,
-   "last_flown": "2026-10-30",
+   "hours": 3.8,
+   "last_flown": "2026-11-10",
    "grades": {
+    "D": 1,
     "B": 2,
     "A": 1,
     "C": 2
    },
    "mission_types": {
-    "STRAFE": 2,
-    "SEAD": 2,
-    "CCIP": 1,
+    "STRAFE": 3,
+    "SEAD": 3,
+    "CCIP": 2,
     "CAS": 1,
     "FORMATION": 1,
     "STRIKE": 1,
@@ -3666,13 +3724,6 @@
      "qualified": true
     },
     {
-     "name": "SEAD",
-     "type": "SEAD",
-     "score": 8.2,
-     "max": 10,
-     "qualified": true
-    },
-    {
      "name": "Missile Kinematics",
      "type": "A-A",
      "score": 8.0,
@@ -3680,11 +3731,11 @@
      "qualified": true
     },
     {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
-     "score": 7.8,
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 4.0,
      "max": 10,
-     "qualified": false
+     "qualified": true
     },
     {
      "name": "1 V 2 ACM",
@@ -3696,6 +3747,13 @@
     {
      "name": "Basic Fighter Maneuver (BFM)",
      "type": "BFM",
+     "score": 4.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
      "score": 4.0,
      "max": 10,
      "qualified": false
@@ -3711,6 +3769,25 @@
     }
    ],
    "history": [
+    {
+     "op": "op-37e02481772a",
+     "date": "2026-11-10",
+     "name": "SinaiMap 2026-11-10 21:04Z STRAFE",
+     "types": [
+      "STRAFE",
+      "CCIP",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 40.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 16,
+     "highlight": "MaxG 7.8 g with zero over-G exceedances recorded — good limit awareness given the g-pull achieved."
+    },
     {
      "op": "op-5bb514953f4d",
      "date": "2026-10-30",
@@ -3824,18 +3901,18 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 10,
-   "score": 515.2,
-   "average": 51.5,
+   "missions": 11,
+   "score": 557.2,
+   "average": 50.7,
    "best": 80.0,
    "air_kills": 14,
    "ground_kills": 0,
    "friendly_kills": 0,
    "deaths": 6,
-   "hours": 10.1,
+   "hours": 11.2,
    "last_flown": "2026-11-10",
    "grades": {
-    "D": 6,
+    "D": 7,
     "C": 1,
     "F": 2,
     "B": 1
@@ -3843,20 +3920,13 @@
    "mission_types": {
     "A-A": 5,
     "BVR": 5,
-    "SEAD": 1,
+    "STRAFE": 2,
+    "CCIP": 2,
+    "SEAD": 2,
     "FORMATION": 1,
-    "CAS": 1,
-    "CCIP": 1,
-    "STRAFE": 1
+    "CAS": 1
    },
    "skills": [
-    {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
-     "score": 6.0,
-     "max": 10,
-     "qualified": false
-    },
     {
      "name": "1 V 2 ACM",
      "type": "A-A",
@@ -3879,6 +3949,13 @@
      "qualified": false
     },
     {
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 4.2,
+     "max": 10,
+     "qualified": false
+    },
+    {
      "name": "SEAD",
      "type": "SEAD",
      "score": 4.2,
@@ -3896,6 +3973,25 @@
    "qualifications": 0,
    "courses": [],
    "history": [
+    {
+     "op": "op-37e02481772a",
+     "date": "2026-11-10",
+     "name": "SinaiMap 2026-11-10 21:04Z STRAFE",
+     "types": [
+      "STRAFE",
+      "CCIP",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 42.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 66,
+     "highlight": "AGM-65G hit confirmed at 00:43:08 from 5.0 nm, CPA 126 m — basic weapon employment demonstrated."
+    },
     {
      "op": "op-7bd80d540cfe",
      "date": "2026-11-10",
@@ -6470,26 +6566,27 @@
     "Su-33"
    ],
    "bio": "",
-   "missions": 6,
-   "score": 372.0,
-   "average": 62.0,
+   "missions": 7,
+   "score": 422.0,
+   "average": 60.3,
    "best": 90.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
    "deaths": 2,
-   "hours": 5.1,
+   "hours": 6.1,
    "last_flown": "2026-11-10",
    "grades": {
+    "F": 2,
     "C": 4,
-    "A": 1,
-    "F": 1
+    "A": 1
    },
    "mission_types": {
+    "SEAD": 4,
+    "CCIP": 3,
     "A-A": 3,
-    "SEAD": 3,
     "FORMATION": 2,
-    "CCIP": 2,
+    "STRAFE": 1,
     "CAS": 1,
     "BFM": 1
    },
@@ -6530,16 +6627,16 @@
      "qualified": false
     },
     {
-     "name": "SEAD",
-     "type": "SEAD",
-     "score": 7.0,
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 5.0,
      "max": 10,
      "qualified": false
     },
     {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
-     "score": 6.2,
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 5.0,
      "max": 10,
      "qualified": false
     }
@@ -6560,6 +6657,25 @@
     }
    ],
    "history": [
+    {
+     "op": "op-37e02481772a",
+     "date": "2026-11-10",
+     "name": "SinaiMap 2026-11-10 21:04Z STRAFE",
+     "types": [
+      "STRAFE",
+      "CCIP",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 50.0,
+     "grade": "F",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 58,
+     "highlight": "Rejoined formation once in 59 s (best join) — when motivated, the pilot can close to position acceptably."
+    },
     {
      "op": "op-9d71a7b1ec92",
      "date": "2026-11-10",
@@ -8181,6 +8297,161 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-37e02481772a",
+   "date": "2026-11-10",
+   "name": "SinaiMap 2026-11-10 21:04Z STRAFE",
+   "kind": "automatic",
+   "types": [
+    "STRAFE",
+    "CCIP",
+    "SEAD"
+   ],
+   "training": true,
+   "brief": "",
+   "narrative": "This was a multi-pilot TRAINING/STRAFE/CCIP/SEAD sortie on SinaiMap lasting approximately two hours and twenty minutes, with pilots joining and departing across multiple slots. The standout weapon delivery of the entire mission was Sword's GBU-12 direct hit on CONVOY_SOFT_6_U1 at 02:19:31 — a 5.8 m CEP shack from 8,056 ft at 523 kts that demonstrated Sword has found a laser-guided dive delivery profile that works. However, Sword's earlier CBU-97 pass at 90.3 m CEP (69 m right, 58 m long) from level at 24,000 ft shows he has not yet solved the high-altitude level-release problem; that weapon class demands a dive angle and proper designation, not a straight-and-level drop. Hema flew the most weapon-rich sortie, landing four AGM-65F impacts and two AGM-65E impacts across two sessions, but converted zero of those hits into confirmed radar or site kills — four missiles for no suppression result is a concerning ratio. Hema's second AGM-65E was fired from 1.9 nm at 2,378 ft, which is inside any safe Maverick employment envelope and represents a self-threat. Omar demonstrated basic Maverick employment (one hit, one miss from short range) but his second slot produced a 9.1 g sustained over-G event at low altitude and a recorded speed of 865 kts — both demand a face-to-face debrief on aircraft limits and energy management. The most serious safety event of the sortie was XTC's: a 14.6 g instant-G event at 01:40:13 during transit at 3,861 ft, preceded by 11.1 g and 10.1 g within three seconds, culminating in an ejection at 01:44:34. This sequence is consistent with an aggressive pull-out from a dive with no g-onset control — XTC converted an FA-18C into a lawn dart through pure over-G. Formation discipline across the flight was poor: XTC scored 16.8/100 with 64% of tracked time in 'none' and a worst rejoin of 333 s; Hema scored 58.6 with a single 81 s rejoin attempt. KAF and Omar recorded no formation data at all despite flying alongside the formation. MeGaTron's departure after 0.5 flight minutes with no weapons fired and no formation participation is unexplained and needs clarification. The aggregate lesson from this sortie: weapons employment range discipline (not inside 2 nm on Mavericks), g-onset discipline (never pull through 9 g in transit), and formation rejoins (under 60 s is the standard, 333 s is a failure) are the three areas that must improve before the next combined-arms event.",
+   "lessons": [
+    "G-onset discipline is non-negotiable in transit: XTC's 14.6 g event and Omar's 9.1 g event in the same sortie, both at low altitude and both during non-combat maneuvering, confirm that g-limit awareness collapses when pilots are task-saturated or unstructured. Every pull above 7 g in transit must be intentional and monitored — set a cockpit habit of calling G on the radio above 7 g so the flight knows you are at the limit.",
+    "Maverick employment range must be respected: three of four Hema shots and both Omar shots were fired at ranges between 1.9 and 5.8 nm at altitudes of 2,378–10,636 ft. The AGM-65F/E minimum safe range is not 1.9 nm — establish a hard floor of 4 nm for Maverick release and do not squeeze inside it regardless of target geometry. Proximity to the explosion is not a virtue.",
+    "Formation discipline is a readiness indicator: across the entire formation-tracked portion of this sortie (Hema and XTC in the second half), only 36% of formation time was spent in any defined formation type, and XTC spent 64% in 'none'. A wingman who cannot hold position for more than 59 seconds before drifting to 4,000 m separation is not a wingman — he is a solo pilot sharing airspace. Practice 10-minute fingertip holds at 300 kts before the next formation sortie."
+   ],
+   "card": {},
+   "teams": [],
+   "results": [
+    {
+     "callsign": "Sword",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": 72.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 92,
+     "highlights": [
+      "GBU-12 shack on CONVOY_SOFT_6_U1: CEP 5.8 m, direct hit, released at 8,056 ft at 523 kts — excellent terminal accuracy on the final laser pass.",
+      "AGM-65K on strafe range: single shot from 5.8 nm, CPA 38 m, impact confirmed — clean weapon employment."
+     ],
+     "improvements": [
+      "CBU-97 pass at T+28:34 missed convoy by 90.3 m (69 m RIGHT, 58 m LONG) released level at 24,458 ft 595 kts — high-altitude level release gives no dive angle correction; either use a dive delivery or designate properly before pickle.",
+      "Four separate DCS slots occupied (slots 1-5, plus early session slot) with no formation data recorded; Sword spent significant time solo without contributing to any formation flight — coordinate with flight lead before respawning into a new slot."
+     ],
+     "note": "One textbook GBU-12 shack buried in a sortie of CBU misses, respawns, and no formation flying — the accuracy ceiling is there but the consistency and discipline are not."
+    },
+    {
+     "callsign": "Ibraheem",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": 62.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 58,
+     "highlights": [
+      "4 AGM-65F/E impacts across two sessions (CPAs: 65 m, 72 m, 97 m, 116 m) plus 2 AGM-65E impacts — consistent weapon delivery across multiple slots, demonstrating persistence and target-area SA.",
+      "Formation discipline score 58.6 in final slot with dominant wedge, 81 s best rejoin and only 1 join attempt — better formation awareness than XTC."
+     ],
+     "improvements": [
+      "Second AGM-65E shot at 01:42:25 launched from 1.9 nm, 2,378 ft AGL — dangerously close range for a Maverick delivery; frag/proximity risk to own aircraft and indicates pressing inside a safe standoff envelope.",
+      "Zero radar kills across 4 Maverick hits across two sessions — 4 weapons spent with no confirmed site destruction; must improve target selection and confirm radar kill before moving to next target."
+     ],
+     "note": "Four Maverick impacts and zero radar kills tells the whole story — persistent employment, poor target selection, and a 1.9 nm shot that was closer to the blast than to standoff."
+    },
+    {
+     "callsign": "[EAF] Taha",
+     "member": true,
+     "squadron": "",
+     "score": 50.0,
+     "grade": "F",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 58,
+     "highlights": [
+      "Rejoined formation once in 59 s (best join) — when motivated, the pilot can close to position acceptably.",
+      "Flew 32.6 min of active formation time alongside Hema, contributing to sortie continuity during the second half."
+     ],
+     "improvements": [
+      "MaxG 14.6 g recorded at 01:40:13 with 3 sustained over-G events and 4 g-instant flags — this is a catastrophic structural limit violation; the aircraft ejected at 01:44:34, almost certainly as a consequence of g-induced aircraft damage or loss of control. Structural limits on the FA-18C are 7.5 g clean; 14.6 g is nearly double that.",
+      "Formation discipline score 16.8/100, dominant formation 'spread', 64% of tracked formation time spent in 'none' — worst join was 333 s (5.5 min). XTC was consistently out of position; average rejoin 162 s across 3 attempts is unacceptable for a wingman."
+     ],
+     "note": "Ejected after pulling 14.6 g in transit — a catastrophic over-G that ended the sortie and would have destroyed a real airframe; formation score 16.8 makes this the worst combined result in the flight."
+    },
+    {
+     "callsign": "Omar",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": 42.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 66,
+     "highlights": [
+      "AGM-65G hit confirmed at 00:43:08 from 5.0 nm, CPA 126 m — basic weapon employment demonstrated.",
+      "Survived full sortie across two slots (32.6 + 32.9 min) despite multiple over-G events — maintained aircraft control."
+     ],
+     "improvements": [
+      "Second AGM-65G shot at 00:44:26 from 2.6 nm, 2,876 ft AGL — MISS, CPA 136 m; both Maverick shots showed CPAs over 125 m which suggests poor seeker lock or premature release; Omar must achieve a solid IR lock before squeezing the trigger.",
+      "Slot 2 (Aerial-6-5): maxG 9.1 g, 2 sustained over-G events, 1 instant-G flag — in a 9.0 g-limited F-16C this is a structural violation; max recorded speed 865 kts is well beyond any normal F-16C operating envelope and requires a mandatory debrief."
+     ],
+     "note": "One Maverick hit, one miss, 9.1 g sustained over-G, and 865 kts recorded in slot 2 — the weapons are mediocre but the g-discipline is the emergency that must be fixed first."
+    },
+    {
+     "callsign": "Megatron",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": 40.0,
+     "grade": "F",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlights": [
+      "MaxG only 4.9 g during 0.5-min recorded slot — no exceedances, clean handling in the brief time recorded."
+     ],
+     "improvements": [
+      "Departed the mission at 00:14:30 after only 0.5 min of tracked flight (joined at 00:04:19, left at 00:14:30) — no weapons fired, no formation participation, no contribution to the sortie objectives.",
+      "MinSpeed recorded at 4.6 kts suggests a possible taxi/runway abort rather than a full combat sortie; clarify with pilot whether a technical issue occurred or the slot was abandoned voluntarily."
+     ],
+     "note": "Joined, taxied to 307 kts, and left after 0.5 minutes — no contribution to any sortie objective; explain the early departure before the next flight."
+    },
+    {
+     "callsign": "Kafafy",
+     "member": true,
+     "squadron": "",
+     "score": 40.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 16,
+     "highlights": [
+      "MaxG 7.8 g with zero over-G exceedances recorded — good limit awareness given the g-pull achieved.",
+      "Completed 15.8 min without any safety incidents or weapons mishaps."
+     ],
+     "improvements": [
+      "No weapons fired across 15.8 min — KAF joined at 00:55:23 and departed at 01:28:06 without employing any ordnance; for a TRAINING/STRAFE/CCIP/SEAD sortie this is a zero-effect participation.",
+      "No formation data recorded despite flying alongside Hema and XTC during the formation phase — KAF was not integrated into the flight's formation structure at any point."
+     ],
+     "note": "15.8 minutes airborne, zero weapons fired, zero formation participation — showed up and flew around; declining trend continues with another null-effect sortie."
+    }
+   ],
+   "pilots": 6,
+   "average": 51.0,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "instructor": "Sword",
+   "patches": [],
+   "report": "reports/op-37e02481772a.html"
+  },
   {
    "id": "op-9d71a7b1ec92",
    "date": "2026-11-10",
