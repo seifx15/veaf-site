@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T18:07:17+00:00",
+ "generated": "2026-11-11T18:08:17+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -15345,15 +15345,16 @@
      "pilots": [
       "Sword",
       "Blacksky",
-      "[EAF] Taha",
-      "Megatron"
+      "[EAF] Taha"
      ]
     },
     {
      "name": "Cobra",
      "task": "TRAINING",
      "size": 4,
-     "pilots": []
+     "pilots": [
+      "Megatron"
+     ]
     }
    ],
    "signed": [
