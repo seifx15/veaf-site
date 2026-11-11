@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T20:13:50+00:00",
+ "generated": "2026-11-11T22:00:21+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -15326,7 +15326,7 @@
   {
    "id": "op-379fd8f8fb5f",
    "op_id": "OP_379fd8f8fb5f",
-   "open": true,
+   "open": false,
    "kneeboard": [],
    "date": "2026-11-11",
    "name": "vFS Training Briefing",
