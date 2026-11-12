@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T22:00:21+00:00",
+ "generated": "2026-11-12T00:00:36+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -15323,50 +15323,6 @@
   }
  ],
  "upcoming": [
-  {
-   "id": "op-379fd8f8fb5f",
-   "op_id": "OP_379fd8f8fb5f",
-   "open": false,
-   "kneeboard": [],
-   "date": "2026-11-11",
-   "name": "vFS Training Briefing",
-   "types": [],
-   "patches": [],
-   "brief": "",
-   "card": {
-    "mission_date": "2026-11-11",
-    "mission_time": "22:00"
-   },
-   "teams": [
-    {
-     "name": "Viper",
-     "task": "TRAINING",
-     "size": 4,
-     "pilots": [
-      "Sword",
-      "Blacksky",
-      "[EAF] Taha",
-      "1iFzz"
-     ]
-    },
-    {
-     "name": "Cobra",
-     "task": "TRAINING",
-     "size": 4,
-     "pilots": [
-      "Megatron"
-     ]
-    }
-   ],
-   "signed": [
-    "Sword",
-    "Blacksky",
-    "[EAF] Taha",
-    "Megatron",
-    "1iFzz"
-   ],
-   "reserves": []
-  },
   {
    "id": "op-37766af98ef2",
    "op_id": "OP_37766af98ef2",
