@@ -970,7 +970,8 @@
   }
   applyLang();
   document.getElementById("main").innerHTML = '<section class="band"><div class="wrap"><p class="empty">' + esc(t("loading")) + "</p></div></section>";
-  fetch("data.json", { cache: "no-cache" }).then(function (r) {
+  // a fresh address each load: neither the browser nor GitHub's CDN may hand back an older data.json
+  fetch("data.json?t=" + Date.now(), { cache: "no-store" }).then(function (r) {
     if (!r.ok) throw new Error(r.status);
     return r.json();
   }).then(function (d) { DATA = d; stamp(); route(); drawUser(); loadMe(); }).catch(function () {
