@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T21:30:32+00:00",
+ "generated": "2026-11-13T21:41:33+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -15608,6 +15608,10 @@
      {
       "label": "TACTICAL",
       "mhz": "126.00"
+     },
+     {
+      "label": "JYANKLIS",
+      "mhz": "253.00"
      }
     ],
     "headings": [
