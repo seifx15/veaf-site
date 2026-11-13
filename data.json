@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T20:16:24+00:00",
+ "generated": "2026-11-13T21:07:30+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -15595,7 +15595,30 @@
    "brief": "Tactical pattern training\nComms\nIls landing\nFormation",
    "card": {
     "mission_date": "2026-11-13",
-    "mission_time": "21:30"
+    "mission_time": "21:30",
+    "laser": "1688",
+    "datalink": "010-024",
+    "loadout": "2x Fuel Tank | 6x BDU50LD",
+    "freqs": [
+     {
+      "label": "CHECK-IN",
+      "mhz": "251.00"
+     },
+     {
+      "label": "TACTICAL",
+      "mhz": "126.00"
+     }
+    ],
+    "headings": [
+     {
+      "label": "PUSH",
+      "deg": ""
+     },
+     {
+      "label": "EGRESS",
+      "deg": ""
+     }
+    ]
    },
    "teams": [
     {
