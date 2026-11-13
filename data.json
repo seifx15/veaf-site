@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T23:52:25+00:00",
+ "generated": "2026-11-13T23:53:25+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,10 +7,10 @@
  },
  "totals": {
   "pilots": 86,
-  "missions": 70,
-  "sorties": 236,
+  "missions": 71,
+  "sorties": 241,
   "qualifications": 48,
-  "hours": 191.6,
+  "hours": 193.6,
   "air_kills": 89,
   "ground_kills": 27
  },
@@ -997,7 +997,7 @@
     "F/A-18C Hornet"
    ],
    "bio": "",
-   "missions": 28,
+   "missions": 29,
    "score": 1970.6,
    "average": 70.2,
    "best": 108.0,
@@ -1005,8 +1005,8 @@
    "ground_kills": 1,
    "friendly_kills": 0,
    "deaths": 1,
-   "hours": 23.3,
-   "last_flown": "2026-11-12",
+   "hours": 23.9,
+   "last_flown": "2026-11-13",
    "grades": {
     "A": 7,
     "F": 2,
@@ -1015,7 +1015,7 @@
     "B": 5
    },
    "mission_types": {
-    "TRAINING": 9,
+    "TRAINING": 10,
     "CCIP": 7,
     "A-A": 6,
     "SEAD": 4,
@@ -1107,6 +1107,21 @@
     }
    ],
    "history": [
+    {
+     "op": "op-5f55d4eb893f",
+     "date": "2026-11-13",
+     "name": "Tactical Pattern and Airmanship",
+     "types": [],
+     "training": true,
+     "score": null,
+     "grade": "-",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 34,
+     "highlight": ""
+    },
     {
      "op": "op-37766af98ef2",
      "date": "2026-11-12",
@@ -2805,7 +2820,7 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 38,
+   "missions": 39,
    "score": 2360.0,
    "average": 62.0,
    "best": 104.0,
@@ -2813,8 +2828,8 @@
    "ground_kills": 1,
    "friendly_kills": 0,
    "deaths": 28,
-   "hours": 26.5,
-   "last_flown": "2026-11-12",
+   "hours": 27.0,
+   "last_flown": "2026-11-13",
    "grades": {
     "C": 16,
     "D": 9,
@@ -2825,9 +2840,9 @@
    "mission_types": {
     "BFM": 10,
     "CCIP": 9,
+    "TRAINING": 8,
     "SEAD": 8,
     "A-A": 8,
-    "TRAINING": 7,
     "STRAFE": 5,
     "FORMATION": 3,
     "CAS": 2,
@@ -2916,6 +2931,21 @@
     }
    ],
    "history": [
+    {
+     "op": "op-5f55d4eb893f",
+     "date": "2026-11-13",
+     "name": "Tactical Pattern and Airmanship",
+     "types": [],
+     "training": true,
+     "score": null,
+     "grade": "-",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 29,
+     "highlight": ""
+    },
     {
      "op": "op-37766af98ef2",
      "date": "2026-11-12",
@@ -4094,7 +4124,7 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 12,
+   "missions": 13,
    "score": 595.2,
    "average": 49.6,
    "best": 80.0,
@@ -4103,7 +4133,7 @@
    "friendly_kills": 0,
    "deaths": 6,
    "hours": 13.9,
-   "last_flown": "2026-11-11",
+   "last_flown": "2026-11-13",
    "grades": {
     "D": 8,
     "C": 1,
@@ -4116,6 +4146,7 @@
     "STRAFE": 3,
     "SEAD": 3,
     "CCIP": 2,
+    "TRAINING": 1,
     "FORMATION": 1,
     "CAS": 1
    },
@@ -4166,6 +4197,21 @@
    "qualifications": 0,
    "courses": [],
    "history": [
+    {
+     "op": "op-5f55d4eb893f",
+     "date": "2026-11-13",
+     "name": "Tactical Pattern and Airmanship",
+     "types": [],
+     "training": true,
+     "score": null,
+     "grade": "-",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
     {
      "op": "op-e479fd5da400",
      "date": "2026-11-11",
@@ -5753,7 +5799,7 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 6,
+   "missions": 7,
    "score": 324.0,
    "average": 54.0,
    "best": 112.0,
@@ -5761,8 +5807,8 @@
    "ground_kills": 0,
    "friendly_kills": 0,
    "deaths": 0,
-   "hours": 5.0,
-   "last_flown": "2026-11-12",
+   "hours": 5.5,
+   "last_flown": "2026-11-13",
    "grades": {
     "D": 4,
     "A": 1,
@@ -5770,11 +5816,11 @@
    },
    "mission_types": {
     "SEAD": 4,
+    "TRAINING": 2,
     "CCIP": 2,
     "CAS": 1,
     "FORMATION": 1,
-    "A-A": 1,
-    "TRAINING": 1
+    "A-A": 1
    },
    "skills": [
     {
@@ -5809,6 +5855,21 @@
    "qualifications": 1,
    "courses": [],
    "history": [
+    {
+     "op": "op-5f55d4eb893f",
+     "date": "2026-11-13",
+     "name": "Tactical Pattern and Airmanship",
+     "types": [],
+     "training": true,
+     "score": null,
+     "grade": "-",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 34,
+     "highlight": ""
+    },
     {
      "op": "op-37766af98ef2",
      "date": "2026-11-12",
@@ -6805,16 +6866,16 @@
     "Su-33"
    ],
    "bio": "",
-   "missions": 9,
+   "missions": 10,
    "score": 504.0,
    "average": 56.0,
    "best": 90.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
-   "deaths": 2,
-   "hours": 8.8,
-   "last_flown": "2026-11-12",
+   "deaths": 3,
+   "hours": 9.2,
+   "last_flown": "2026-11-13",
    "grades": {
     "F": 3,
     "D": 1,
@@ -6828,6 +6889,7 @@
     "A-A": 3,
     "CAS": 2,
     "STRAFE": 2,
+    "TRAINING": 1,
     "BFM": 1
    },
    "skills": [
@@ -6897,6 +6959,21 @@
     }
    ],
    "history": [
+    {
+     "op": "op-5f55d4eb893f",
+     "date": "2026-11-13",
+     "name": "Tactical Pattern and Airmanship",
+     "types": [],
+     "training": true,
+     "score": null,
+     "grade": "-",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 1,
+     "minutes": 30,
+     "highlight": ""
+    },
     {
      "op": "op-37766af98ef2",
      "date": "2026-11-12",
@@ -8574,6 +8651,169 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-5f55d4eb893f",
+   "date": "2026-11-13",
+   "name": "Tactical Pattern and Airmanship",
+   "kind": "manual",
+   "types": [],
+   "training": true,
+   "brief": "Tactical pattern training\nComms\nIls landing\nFormation",
+   "narrative": "",
+   "lessons": [],
+   "card": {
+    "mission_date": "2026-11-13",
+    "mission_time": "21:30",
+    "tacan": "11X-74X",
+    "laser": "1688",
+    "datalink": "010-024",
+    "loadout": "2x Fuel Tank | 6x BDU50LD | 2x AIM 120C | 2x AIM-9X",
+    "freqs": [
+     {
+      "label": "CHECK-IN",
+      "mhz": "251.00"
+     },
+     {
+      "label": "TACTICAL",
+      "mhz": "126.00"
+     },
+     {
+      "label": "JYANKLIS",
+      "mhz": "253.00"
+     }
+    ],
+    "headings": [
+     {
+      "label": "PUSH",
+      "deg": ""
+     },
+     {
+      "label": "EGRESS",
+      "deg": ""
+     }
+    ]
+   },
+   "teams": [
+    {
+     "name": "Viper",
+     "task": "TRAINING",
+     "size": 4,
+     "pilots": [
+      "Blacksky",
+      "Omar",
+      "Neo",
+      "[EAF] Taha"
+     ]
+    },
+    {
+     "name": "Cobra",
+     "task": "TRAINING",
+     "size": 4,
+     "pilots": [
+      "Megatron"
+     ]
+    }
+   ],
+   "results": [
+    {
+     "callsign": "[EAF] Taha",
+     "member": true,
+     "squadron": "",
+     "score": null,
+     "grade": "-",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 1,
+     "minutes": 30,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    },
+    {
+     "callsign": "Blacksky",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": null,
+     "grade": "-",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 34,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    },
+    {
+     "callsign": "Neo",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": null,
+     "grade": "-",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 34,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    },
+    {
+     "callsign": "Omar",
+     "member": false,
+     "squadron": "",
+     "score": null,
+     "grade": "-",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 1,
+     "minutes": 31,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    },
+    {
+     "callsign": "Megatron",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": null,
+     "grade": "-",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 29,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    },
+    {
+     "callsign": "Omar",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": null,
+     "grade": "-",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    }
+   ],
+   "pilots": 6,
+   "average": null,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "instructor": "Sword",
+   "patches": [],
+   "report": "reports/op-5f55d4eb893f.html"
+  },
   {
    "id": "op-37766af98ef2",
    "date": "2026-11-12",
