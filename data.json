@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T21:29:32+00:00",
+ "generated": "2026-11-13T21:30:32+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -15586,7 +15586,7 @@
   {
    "id": "op-5f55d4eb893f",
    "op_id": "OP_5f55d4eb893f",
-   "open": true,
+   "open": false,
    "kneeboard": [],
    "date": "2026-11-13",
    "name": "Tactical Pattern and Airmanship",
