@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T22:17:23+00:00",
+ "generated": "2026-11-13T23:52:25+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -15943,82 +15943,7 @@
    "report": ""
   }
  ],
- "upcoming": [
-  {
-   "id": "op-5f55d4eb893f",
-   "op_id": "OP_5f55d4eb893f",
-   "open": false,
-   "kneeboard": [],
-   "date": "2026-11-13",
-   "name": "Tactical Pattern and Airmanship",
-   "types": [],
-   "patches": [],
-   "brief": "Tactical pattern training\nComms\nIls landing\nFormation",
-   "card": {
-    "mission_date": "2026-11-13",
-    "mission_time": "21:30",
-    "tacan": "11X-74X",
-    "laser": "1688",
-    "datalink": "010-024",
-    "loadout": "2x Fuel Tank | 6x BDU50LD | 2x AIM 120C | 2x AIM-9X",
-    "freqs": [
-     {
-      "label": "CHECK-IN",
-      "mhz": "251.00"
-     },
-     {
-      "label": "TACTICAL",
-      "mhz": "126.00"
-     },
-     {
-      "label": "JYANKLIS",
-      "mhz": "253.00"
-     }
-    ],
-    "headings": [
-     {
-      "label": "PUSH",
-      "deg": ""
-     },
-     {
-      "label": "EGRESS",
-      "deg": ""
-     }
-    ]
-   },
-   "teams": [
-    {
-     "name": "Viper",
-     "task": "TRAINING",
-     "size": 4,
-     "pilots": [
-      "Blacksky",
-      "Omar",
-      "Neo",
-      "[EAF] Taha"
-     ]
-    },
-    {
-     "name": "Cobra",
-     "task": "TRAINING",
-     "size": 4,
-     "pilots": [
-      "Megatron"
-     ]
-    }
-   ],
-   "signed": [
-    "Blacksky",
-    "Omar",
-    "Neo",
-    "[EAF] Taha",
-    "Megatron"
-   ],
-   "reserves": [
-    "Sword"
-   ]
-  }
- ],
+ "upcoming": [],
  "scrims": [
   {
    "date": "2026-10-15",
