@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T21:07:30+00:00",
+ "generated": "2026-11-13T21:26:31+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -15596,6 +15596,7 @@
    "card": {
     "mission_date": "2026-11-13",
     "mission_time": "21:30",
+    "tacan": "11X-74X",
     "laser": "1688",
     "datalink": "010-024",
     "loadout": "2x Fuel Tank | 6x BDU50LD",
