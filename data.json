@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T21:59:13+00:00",
+ "generated": "2026-11-13T22:03:17+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,8 +7,8 @@
  },
  "totals": {
   "pilots": 86,
-  "missions": 69,
-  "sorties": 228,
+  "missions": 70,
+  "sorties": 236,
   "qualifications": 48,
   "hours": 191.6,
   "air_kills": 89,
@@ -76,32 +76,32 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 40,
-   "score": 2793.0,
-   "average": 69.9,
+   "missions": 41,
+   "score": 2883.0,
+   "average": 70.4,
    "best": 100.0,
    "air_kills": 25,
    "ground_kills": 14,
    "friendly_kills": 0,
    "deaths": 2,
    "hours": 35.7,
-   "last_flown": "2026-11-11",
+   "last_flown": "2026-11-12",
    "grades": {
+    "A": 13,
     "C": 15,
-    "A": 12,
     "B": 9,
     "F": 3,
     "D": 1
    },
    "mission_types": {
     "SEAD": 13,
-    "CCIP": 11,
+    "CCIP": 12,
     "A-A": 8,
     "STRAFE": 5,
     "TRAINING": 5,
-    "FORMATION": 3,
+    "FORMATION": 4,
+    "CAS": 3,
     "BVR": 3,
-    "CAS": 2,
     "BSA": 2,
     "AAR": 1,
     "BFM": 1,
@@ -119,6 +119,13 @@
      "name": "Datalink",
      "type": "GENERAL",
      "score": 10.0,
+     "max": 10,
+     "qualified": true
+    },
+    {
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 9.0,
      "max": 10,
      "qualified": true
     },
@@ -147,13 +154,6 @@
      "name": "Notching",
      "type": "A-A",
      "score": 7.8,
-     "max": 10,
-     "qualified": true
-    },
-    {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
-     "score": 7.2,
      "max": 10,
      "qualified": true
     },
@@ -188,6 +188,25 @@
     }
    ],
    "history": [
+    {
+     "op": "op-37766af98ef2",
+     "date": "2026-11-12",
+     "name": "vFS F-16 Staffeltraining",
+     "types": [
+      "CCIP",
+      "CAS",
+      "FORMATION"
+     ],
+     "training": false,
+     "score": 90.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
     {
      "op": "op-e479fd5da400",
      "date": "2026-11-11",
@@ -978,32 +997,33 @@
     "F/A-18C Hornet"
    ],
    "bio": "",
-   "missions": 27,
-   "score": 1880.6,
-   "average": 69.4,
+   "missions": 28,
+   "score": 1970.6,
+   "average": 70.2,
    "best": 108.0,
    "air_kills": 2,
    "ground_kills": 1,
    "friendly_kills": 0,
    "deaths": 1,
    "hours": 23.3,
-   "last_flown": "2026-11-11",
+   "last_flown": "2026-11-12",
    "grades": {
+    "A": 7,
     "F": 2,
     "C": 7,
-    "A": 6,
     "D": 7,
     "B": 5
    },
    "mission_types": {
     "TRAINING": 9,
-    "CCIP": 6,
+    "CCIP": 7,
     "A-A": 6,
     "SEAD": 4,
     "BFM": 3,
+    "FORMATION": 2,
     "STRAFE": 2,
     "BVR": 2,
-    "FORMATION": 1,
+    "CAS": 1,
     "STRIKE": 1
    },
    "skills": [
@@ -1038,7 +1058,7 @@
     {
      "name": "CCIP Tactical Pattern",
      "type": "CCIP",
-     "score": 7.2,
+     "score": 9.0,
      "max": 10,
      "qualified": true
     },
@@ -1087,6 +1107,25 @@
     }
    ],
    "history": [
+    {
+     "op": "op-37766af98ef2",
+     "date": "2026-11-12",
+     "name": "vFS F-16 Staffeltraining",
+     "types": [
+      "CCIP",
+      "CAS",
+      "FORMATION"
+     ],
+     "training": false,
+     "score": 90.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
     {
      "op": "op-e479fd5da400",
      "date": "2026-11-11",
@@ -1561,33 +1600,33 @@
     "F/A-18C Hornet"
    ],
    "bio": "",
-   "missions": 25,
-   "score": 1518.8,
-   "average": 59.9,
+   "missions": 26,
+   "score": 1558.8,
+   "average": 59.1,
    "best": 98.0,
    "air_kills": 3,
    "ground_kills": 4,
    "friendly_kills": 0,
    "deaths": 0,
    "hours": 18.5,
-   "last_flown": "2026-11-11",
+   "last_flown": "2026-11-12",
    "grades": {
+    "F": 3,
     "C": 7,
-    "F": 2,
     "B": 7,
     "D": 6,
     "A": 2
    },
    "mission_types": {
+    "CCIP": 8,
     "SEAD": 8,
-    "CCIP": 7,
     "STRAFE": 4,
     "BVR": 3,
     "TRAINING": 3,
+    "CAS": 2,
+    "FORMATION": 2,
     "BFM": 2,
     "A-A": 2,
-    "CAS": 1,
-    "FORMATION": 1,
     "AAR": 1,
     "BSA": 1
    },
@@ -1607,16 +1646,16 @@
      "qualified": true
     },
     {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
-     "score": 6.2,
+     "name": "Tactical Turns / Formation",
+     "type": "BFM",
+     "score": 6.0,
      "max": 10,
      "qualified": true
     },
     {
-     "name": "Tactical Turns / Formation",
-     "type": "BFM",
-     "score": 6.0,
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 4.0,
      "max": 10,
      "qualified": true
     },
@@ -1659,6 +1698,25 @@
    "qualifications": 4,
    "courses": [],
    "history": [
+    {
+     "op": "op-37766af98ef2",
+     "date": "2026-11-12",
+     "name": "vFS F-16 Staffeltraining",
+     "types": [
+      "CCIP",
+      "CAS",
+      "FORMATION"
+     ],
+     "training": false,
+     "score": 40.0,
+     "grade": "F",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
     {
      "op": "op-e479fd5da400",
      "date": "2026-11-11",
@@ -2357,20 +2415,20 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 16,
-   "score": 1016.0,
-   "average": 66.1,
+   "missions": 17,
+   "score": 1076.0,
+   "average": 65.7,
    "best": 85.0,
    "air_kills": 3,
    "ground_kills": 0,
    "friendly_kills": 0,
    "deaths": 4,
    "hours": 16.3,
-   "last_flown": "2026-10-30",
+   "last_flown": "2026-11-12",
    "grades": {
+    "D": 4,
     "C": 7,
     "B": 4,
-    "D": 3,
     "F": 1
    },
    "mission_types": {
@@ -2378,6 +2436,9 @@
     "BFM": 4,
     "BVR": 3,
     "A-A": 3,
+    "CCIP": 1,
+    "CAS": 1,
+    "FORMATION": 1,
     "SEAD": 1
    },
    "skills": [
@@ -2417,6 +2478,13 @@
      "qualified": false
     },
     {
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 6.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
      "name": "1 V 2 ACM",
      "type": "A-A",
      "score": 5.5,
@@ -2436,13 +2504,6 @@
      "score": 5.5,
      "max": 10,
      "qualified": false
-    },
-    {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
-     "score": 4.0,
-     "max": 10,
-     "qualified": false
     }
    ],
    "qualifications": 2,
@@ -2455,6 +2516,25 @@
     }
    ],
    "history": [
+    {
+     "op": "op-37766af98ef2",
+     "date": "2026-11-12",
+     "name": "vFS F-16 Staffeltraining",
+     "types": [
+      "CCIP",
+      "CAS",
+      "FORMATION"
+     ],
+     "training": false,
+     "score": 60.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
     {
      "op": "op-0cab205f8c87",
      "date": "2026-10-30",
@@ -2725,34 +2805,34 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 37,
-   "score": 2290.0,
-   "average": 61.8,
+   "missions": 38,
+   "score": 2360.0,
+   "average": 62.0,
    "best": 104.0,
    "air_kills": 20,
    "ground_kills": 1,
    "friendly_kills": 0,
    "deaths": 28,
    "hours": 26.5,
-   "last_flown": "2026-11-11",
+   "last_flown": "2026-11-12",
    "grades": {
+    "C": 16,
     "D": 9,
     "F": 4,
     "A": 4,
-    "C": 15,
     "B": 5
    },
    "mission_types": {
     "BFM": 10,
+    "CCIP": 9,
     "SEAD": 8,
-    "CCIP": 8,
     "A-A": 8,
     "TRAINING": 7,
     "STRAFE": 5,
-    "FORMATION": 2,
+    "FORMATION": 3,
+    "CAS": 2,
     "BVR": 2,
     "BSA": 2,
-    "CAS": 1,
     "STRIKE": 1
    },
    "skills": [
@@ -2771,16 +2851,16 @@
      "qualified": true
     },
     {
-     "name": "Missile Kinematics",
-     "type": "A-A",
-     "score": 5.8,
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 7.0,
      "max": 10,
      "qualified": true
     },
     {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
-     "score": 4.0,
+     "name": "Missile Kinematics",
+     "type": "A-A",
+     "score": 5.8,
      "max": 10,
      "qualified": true
     },
@@ -2823,19 +2903,38 @@
    "qualifications": 4,
    "courses": [
     {
-     "title": "Surface Attack Tactics",
-     "code": "SAT-1",
-     "status": "in_progress",
-     "instructors": []
-    },
-    {
      "title": "Basic Fighter Maneuver",
      "code": "BFM-1",
      "status": "ready",
      "instructors": []
+    },
+    {
+     "title": "Surface Attack Tactics",
+     "code": "SAT-1",
+     "status": "in_progress",
+     "instructors": []
     }
    ],
    "history": [
+    {
+     "op": "op-37766af98ef2",
+     "date": "2026-11-12",
+     "name": "vFS F-16 Staffeltraining",
+     "types": [
+      "CCIP",
+      "CAS",
+      "FORMATION"
+     ],
+     "training": false,
+     "score": 70.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
     {
      "op": "op-e479fd5da400",
      "date": "2026-11-11",
@@ -3493,25 +3592,28 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 5,
+   "missions": 6,
    "score": 313.0,
-   "average": 62.6,
+   "average": 52.2,
    "best": 80.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
    "deaths": 0,
    "hours": 8.1,
-   "last_flown": "2026-10-14",
+   "last_flown": "2026-11-12",
    "grades": {
+    "F": 2,
     "B": 1,
     "D": 2,
-    "C": 1,
-    "F": 1
+    "C": 1
    },
    "mission_types": {
     "A-A": 2,
     "BSA": 2,
+    "CCIP": 1,
+    "CAS": 1,
+    "FORMATION": 1,
     "STRIKE": 1
    },
    "skills": [
@@ -3530,13 +3632,6 @@
      "qualified": true
     },
     {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
-     "score": 5.0,
-     "max": 10,
-     "qualified": false
-    },
-    {
      "name": "Notching",
      "type": "A-A",
      "score": 3.0,
@@ -3549,11 +3644,37 @@
      "score": 2.0,
      "max": 10,
      "qualified": false
+    },
+    {
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 0.0,
+     "max": 10,
+     "qualified": false
     }
    ],
    "qualifications": 2,
    "courses": [],
    "history": [
+    {
+     "op": "op-37766af98ef2",
+     "date": "2026-11-12",
+     "name": "vFS F-16 Staffeltraining",
+     "types": [
+      "CCIP",
+      "CAS",
+      "FORMATION"
+     ],
+     "training": false,
+     "score": 0.0,
+     "grade": "F",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
     {
      "op": "op-2c0c7f700204491a86b3924cf5637107",
      "date": "2026-10-14",
@@ -5632,24 +5753,26 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 5,
-   "score": 264.0,
-   "average": 52.8,
+   "missions": 6,
+   "score": 324.0,
+   "average": 54.0,
    "best": 112.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
    "deaths": 0,
    "hours": 5.0,
-   "last_flown": "2026-08-30",
+   "last_flown": "2026-11-12",
    "grades": {
-    "D": 3,
+    "D": 4,
     "A": 1,
     "C": 1
    },
    "mission_types": {
     "SEAD": 4,
-    "CCIP": 1,
+    "CCIP": 2,
+    "CAS": 1,
+    "FORMATION": 1,
     "A-A": 1,
     "TRAINING": 1
    },
@@ -5660,6 +5783,13 @@
      "score": 10.0,
      "max": 10,
      "qualified": true
+    },
+    {
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 6.0,
+     "max": 10,
+     "qualified": false
     },
     {
      "name": "Communications",
@@ -5679,6 +5809,25 @@
    "qualifications": 1,
    "courses": [],
    "history": [
+    {
+     "op": "op-37766af98ef2",
+     "date": "2026-11-12",
+     "name": "vFS F-16 Staffeltraining",
+     "types": [
+      "CCIP",
+      "CAS",
+      "FORMATION"
+     ],
+     "training": false,
+     "score": 60.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
     {
      "op": "op-20260829231643",
      "date": "2026-08-30",
@@ -6656,29 +6805,29 @@
     "Su-33"
    ],
    "bio": "",
-   "missions": 8,
-   "score": 464.0,
-   "average": 58.0,
+   "missions": 9,
+   "score": 504.0,
+   "average": 56.0,
    "best": 90.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
    "deaths": 2,
    "hours": 8.8,
-   "last_flown": "2026-11-11",
+   "last_flown": "2026-11-12",
    "grades": {
+    "F": 3,
     "D": 1,
-    "F": 2,
     "C": 4,
     "A": 1
    },
    "mission_types": {
     "SEAD": 5,
-    "CCIP": 3,
+    "CCIP": 4,
+    "FORMATION": 3,
     "A-A": 3,
+    "CAS": 2,
     "STRAFE": 2,
-    "FORMATION": 2,
-    "CAS": 1,
     "BFM": 1
    },
    "skills": [
@@ -6718,16 +6867,16 @@
      "qualified": false
     },
     {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
-     "score": 5.0,
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 4.2,
      "max": 10,
      "qualified": false
     },
     {
-     "name": "SEAD",
-     "type": "SEAD",
-     "score": 4.2,
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 4.0,
      "max": 10,
      "qualified": false
     }
@@ -6748,6 +6897,25 @@
     }
    ],
    "history": [
+    {
+     "op": "op-37766af98ef2",
+     "date": "2026-11-12",
+     "name": "vFS F-16 Staffeltraining",
+     "types": [
+      "CCIP",
+      "CAS",
+      "FORMATION"
+     ],
+     "training": false,
+     "score": 40.0,
+     "grade": "F",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
     {
      "op": "op-e479fd5da400",
      "date": "2026-11-11",
@@ -8406,6 +8574,199 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-37766af98ef2",
+   "date": "2026-11-12",
+   "name": "vFS F-16 Staffeltraining",
+   "kind": "manual",
+   "types": [
+    "CCIP",
+    "CAS",
+    "FORMATION"
+   ],
+   "training": false,
+   "brief": "The vFS F-16 Viper Club Squadron would like to invite us to a Joint-Training Mission on Thursday, November, 12th  18:30 Zulu Time ( Egypt Time 20:30, German Time 19:30)\n\nWe fly a Air to Ground Training Mission on the Syria Map, from the Akrotiri Airbase in Cyprus.\n\nTraining Objective is a Killbox Task, Finding GMT Ground Moving Targets by A-G Radar, and engage them with LAser Guided Bombs and /or CBUs ! \n\nAdditionally there can be SEAD and ESCORT/TARCAP Flights.",
+   "narrative": "",
+   "lessons": [],
+   "card": {
+    "mission_date": "2026-11-12",
+    "mission_time": "18:00",
+    "laser": "1688",
+    "freqs": [
+     {
+      "label": "CHECK-IN",
+      "mhz": ""
+     },
+     {
+      "label": "TACTICAL",
+      "mhz": ""
+     }
+    ],
+    "headings": [
+     {
+      "label": "PUSH",
+      "deg": ""
+     },
+     {
+      "label": "EGRESS",
+      "deg": ""
+     }
+    ]
+   },
+   "teams": [
+    {
+     "name": "Horus",
+     "task": "TRAINING",
+     "size": 4,
+     "pilots": [
+      "Sword",
+      "Mazen Sameh",
+      "Neo",
+      "Blacksky"
+     ]
+    },
+    {
+     "name": "Anubis",
+     "task": "TRAINING",
+     "size": 4,
+     "pilots": [
+      "Megatron",
+      "1iFzz",
+      "Ibraheem",
+      "[EAF] Taha"
+     ]
+    }
+   ],
+   "results": [
+    {
+     "callsign": "Sword",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": 90.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    },
+    {
+     "callsign": "Blacksky",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": 90.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    },
+    {
+     "callsign": "Megatron",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": 70.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    },
+    {
+     "callsign": "Neo",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": 60.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    },
+    {
+     "callsign": "Mazen Sameh",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": 60.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    },
+    {
+     "callsign": "Ibraheem",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": 40.0,
+     "grade": "F",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    },
+    {
+     "callsign": "[EAF] Taha",
+     "member": true,
+     "squadron": "",
+     "score": 40.0,
+     "grade": "F",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    },
+    {
+     "callsign": "1iFzz",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": 0.0,
+     "grade": "F",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    }
+   ],
+   "pilots": 8,
+   "average": 56.2,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "instructor": "Sword",
+   "patches": [],
+   "report": "reports/op-37766af98ef2.html"
+  },
   {
    "id": "op-e479fd5da400",
    "date": "2026-11-11",
