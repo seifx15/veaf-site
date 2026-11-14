@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T00:01:26+00:00",
+ "generated": "2026-11-14T00:04:26+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -998,8 +998,8 @@
    ],
    "bio": "",
    "missions": 29,
-   "score": 2050.6,
-   "average": 70.5,
+   "score": 2045.6,
+   "average": 70.3,
    "best": 108.0,
    "air_kills": 2,
    "ground_kills": 1,
@@ -1008,11 +1008,11 @@
    "hours": 23.9,
    "last_flown": "2026-11-13",
    "grades": {
-    "B": 6,
+    "C": 8,
     "A": 7,
     "F": 2,
-    "C": 7,
-    "D": 7
+    "D": 7,
+    "B": 5
    },
    "mission_types": {
     "TRAINING": 9,
@@ -1044,28 +1044,28 @@
     {
      "name": "1 V 2 ACM",
      "type": "A-A",
-     "score": 8.0,
+     "score": 7.5,
      "max": 10,
      "qualified": true
     },
     {
      "name": "CCIP Tactical Pattern",
      "type": "CCIP",
-     "score": 8.0,
+     "score": 7.5,
      "max": 10,
      "qualified": true
     },
     {
      "name": "Missile Kinematics",
      "type": "A-A",
-     "score": 8.0,
+     "score": 7.5,
      "max": 10,
      "qualified": true
     },
     {
      "name": "SEAD",
      "type": "SEAD",
-     "score": 8.0,
+     "score": 7.5,
      "max": 10,
      "qualified": true
     },
@@ -1079,7 +1079,7 @@
     {
      "name": "Notching",
      "type": "A-A",
-     "score": 8.0,
+     "score": 7.5,
      "max": 10,
      "qualified": false
     },
@@ -1117,8 +1117,8 @@
       "SEAD"
      ],
      "training": true,
-     "score": 80.0,
-     "grade": "B",
+     "score": 75.0,
+     "grade": "C",
      "air_kills": 0,
      "ground_kills": 0,
      "friendly_kills": 0,
@@ -8776,27 +8776,6 @@
    ],
    "results": [
     {
-     "callsign": "Blacksky",
-     "member": true,
-     "squadron": "272 TFW Jyanklis",
-     "score": 80.0,
-     "grade": "B",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 34,
-     "highlights": [
-      "Sole confirmed air-to-air killer of the mission: two J-11A kills (unit1 at 5.2 nm AIM-120C splash, unit2 at 2.6 nm AIM-120C splash), survived the J-11 ambush while defeating an inbound P-73 at 92 m CPA — outstanding threat reaction under pressure.",
-      "CCIP consistency is the flight's second-best: 5 passes, all impacting LEFT-SHORT with a systematic lateral bias, avgCEP 53.8 m, bestCEP 40.9 m — repeatable technique, just needs a right-offset correction in the HUD."
-     ],
-     "improvements": [
-      "Zero shacks across 5 passes — the consistent left/short pattern (all 5 hits left of line) points to a wind-correction or pipper-pull error that must be isolated and corrected before the next CCIP sortie.",
-      "Max G 8.75 G is within Viper limits but touches the structural caution band; track your G-meter on the pop-up threat entry to avoid an exceedance."
-     ],
-     "note": "Two J-11A kills and a P-73 defeated under surprise contact; now fix the left-short CCIP bias that cost you every shack across 5 passes."
-    },
-    {
      "callsign": "Megatron",
      "member": true,
      "squadron": "272 TFW Jyanklis",
@@ -8812,6 +8791,27 @@
      ],
      "improvements": [],
      "note": ""
+    },
+    {
+     "callsign": "Blacksky",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": 75.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 34,
+     "highlights": [
+      "Sole confirmed air-to-air killer of the mission: two J-11A kills (unit1 at 5.2 nm AIM-120C splash, unit2 at 2.6 nm AIM-120C splash), survived the J-11 ambush while defeating an inbound P-73 at 92 m CPA — outstanding threat reaction under pressure.",
+      "CCIP consistency is the flight's second-best: 5 passes, all impacting LEFT-SHORT with a systematic lateral bias, avgCEP 53.8 m, bestCEP 40.9 m — repeatable technique, just needs a right-offset correction in the HUD."
+     ],
+     "improvements": [
+      "Zero shacks across 5 passes — the consistent left/short pattern (all 5 hits left of line) points to a wind-correction or pipper-pull error that must be isolated and corrected before the next CCIP sortie.",
+      "Max G 8.75 G is within Viper limits but touches the structural caution band; track your G-meter on the pop-up threat entry to avoid an exceedance."
+     ],
+     "note": "Two J-11A kills and a P-73 defeated under surprise contact; now fix the left-short CCIP bias that cost you every shack across 5 passes."
     },
     {
      "callsign": "[EAF] Taha",
@@ -8893,7 +8893,7 @@
     }
    ],
    "pilots": 6,
-   "average": 58.8,
+   "average": 57.8,
    "air_kills": 0,
    "ground_kills": 0,
    "instructor": "Sword",
