@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T23:58:26+00:00",
+ "generated": "2026-11-14T00:01:26+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,10 +7,10 @@
  },
  "totals": {
   "pilots": 86,
-  "missions": 70,
-  "sorties": 236,
+  "missions": 71,
+  "sorties": 241,
   "qualifications": 48,
-  "hours": 191.6,
+  "hours": 193.6,
   "air_kills": 89,
   "ground_kills": 27
  },
@@ -997,28 +997,28 @@
     "F/A-18C Hornet"
    ],
    "bio": "",
-   "missions": 28,
-   "score": 1970.6,
-   "average": 70.2,
+   "missions": 29,
+   "score": 2050.6,
+   "average": 70.5,
    "best": 108.0,
    "air_kills": 2,
    "ground_kills": 1,
    "friendly_kills": 0,
    "deaths": 1,
-   "hours": 23.3,
-   "last_flown": "2026-11-12",
+   "hours": 23.9,
+   "last_flown": "2026-11-13",
    "grades": {
+    "B": 6,
     "A": 7,
     "F": 2,
     "C": 7,
-    "D": 7,
-    "B": 5
+    "D": 7
    },
    "mission_types": {
     "TRAINING": 9,
-    "CCIP": 7,
-    "A-A": 6,
-    "SEAD": 4,
+    "CCIP": 8,
+    "A-A": 7,
+    "SEAD": 5,
     "BFM": 3,
     "FORMATION": 2,
     "STRAFE": 2,
@@ -1027,13 +1027,6 @@
     "STRIKE": 1
    },
    "skills": [
-    {
-     "name": "1 V 2 ACM",
-     "type": "A-A",
-     "score": 10.0,
-     "max": 10,
-     "qualified": true
-    },
     {
      "name": "Communications",
      "type": "GENERAL",
@@ -1049,16 +1042,30 @@
      "qualified": true
     },
     {
-     "name": "Missile Kinematics",
+     "name": "1 V 2 ACM",
      "type": "A-A",
-     "score": 10.0,
+     "score": 8.0,
      "max": 10,
      "qualified": true
     },
     {
      "name": "CCIP Tactical Pattern",
      "type": "CCIP",
-     "score": 9.0,
+     "score": 8.0,
+     "max": 10,
+     "qualified": true
+    },
+    {
+     "name": "Missile Kinematics",
+     "type": "A-A",
+     "score": 8.0,
+     "max": 10,
+     "qualified": true
+    },
+    {
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 8.0,
      "max": 10,
      "qualified": true
     },
@@ -1070,16 +1077,9 @@
      "qualified": true
     },
     {
-     "name": "SEAD",
-     "type": "SEAD",
-     "score": 2.2,
-     "max": 10,
-     "qualified": true
-    },
-    {
      "name": "Notching",
      "type": "A-A",
-     "score": 10.0,
+     "score": 8.0,
      "max": 10,
      "qualified": false
     },
@@ -1107,6 +1107,25 @@
     }
    ],
    "history": [
+    {
+     "op": "op-5f55d4eb893f",
+     "date": "2026-11-13",
+     "name": "Tactical Pattern and Airmanship",
+     "types": [
+      "A-A",
+      "CCIP",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 80.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 34,
+     "highlight": "Sole confirmed air-to-air killer of the mission: two J-11A kills (unit1 at 5.2 nm AIM-120C splash, unit2 at 2.6 nm AIM-120C splash), survived the J-11 ambush while defeating an inbound P-73 at 92 m CPA — outstanding threat reaction under pressure."
+    },
     {
      "op": "op-37766af98ef2",
      "date": "2026-11-12",
@@ -2805,28 +2824,28 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 38,
-   "score": 2360.0,
-   "average": 62.0,
+   "missions": 39,
+   "score": 2440.0,
+   "average": 62.5,
    "best": 104.0,
    "air_kills": 20,
    "ground_kills": 1,
    "friendly_kills": 0,
    "deaths": 28,
-   "hours": 26.5,
-   "last_flown": "2026-11-12",
+   "hours": 27.0,
+   "last_flown": "2026-11-13",
    "grades": {
+    "B": 6,
     "C": 16,
     "D": 9,
     "F": 4,
-    "A": 4,
-    "B": 5
+    "A": 4
    },
    "mission_types": {
+    "CCIP": 10,
     "BFM": 10,
-    "CCIP": 9,
-    "SEAD": 8,
-    "A-A": 8,
+    "A-A": 9,
+    "SEAD": 9,
     "TRAINING": 7,
     "STRAFE": 5,
     "FORMATION": 3,
@@ -2853,14 +2872,14 @@
     {
      "name": "CCIP Tactical Pattern",
      "type": "CCIP",
-     "score": 7.0,
+     "score": 8.0,
      "max": 10,
      "qualified": true
     },
     {
      "name": "Missile Kinematics",
      "type": "A-A",
-     "score": 5.8,
+     "score": 8.0,
      "max": 10,
      "qualified": true
     },
@@ -2881,21 +2900,21 @@
     {
      "name": "1 V 2 ACM",
      "type": "A-A",
-     "score": 5.8,
+     "score": 8.0,
      "max": 10,
      "qualified": false
     },
     {
      "name": "Notching",
      "type": "A-A",
-     "score": 5.8,
+     "score": 8.0,
      "max": 10,
      "qualified": false
     },
     {
      "name": "SEAD",
      "type": "SEAD",
-     "score": 4.4,
+     "score": 8.0,
      "max": 10,
      "qualified": false
     }
@@ -2913,9 +2932,34 @@
      "code": "SAT-1",
      "status": "in_progress",
      "instructors": []
+    },
+    {
+     "title": "Beyond Visual Range",
+     "code": "BVR-1",
+     "status": "ready",
+     "instructors": []
     }
    ],
    "history": [
+    {
+     "op": "op-5f55d4eb893f",
+     "date": "2026-11-13",
+     "name": "Tactical Pattern and Airmanship",
+     "types": [
+      "A-A",
+      "CCIP",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 80.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 29,
+     "highlight": "Good 5 Shacks"
+    },
     {
      "op": "op-37766af98ef2",
      "date": "2026-11-12",
@@ -4094,7 +4138,7 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 12,
+   "missions": 13,
    "score": 595.2,
    "average": 49.6,
    "best": 80.0,
@@ -4103,7 +4147,7 @@
    "friendly_kills": 0,
    "deaths": 6,
    "hours": 13.9,
-   "last_flown": "2026-11-11",
+   "last_flown": "2026-11-13",
    "grades": {
     "D": 8,
     "C": 1,
@@ -4111,11 +4155,11 @@
     "B": 1
    },
    "mission_types": {
-    "A-A": 5,
+    "A-A": 6,
     "BVR": 5,
+    "SEAD": 4,
+    "CCIP": 3,
     "STRAFE": 3,
-    "SEAD": 3,
-    "CCIP": 2,
     "FORMATION": 1,
     "CAS": 1
    },
@@ -4166,6 +4210,25 @@
    "qualifications": 0,
    "courses": [],
    "history": [
+    {
+     "op": "op-5f55d4eb893f",
+     "date": "2026-11-13",
+     "name": "Tactical Pattern and Airmanship",
+     "types": [
+      "A-A",
+      "CCIP",
+      "SEAD"
+     ],
+     "training": true,
+     "score": null,
+     "grade": "-",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
     {
      "op": "op-e479fd5da400",
      "date": "2026-11-11",
@@ -5753,27 +5816,27 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 6,
-   "score": 324.0,
-   "average": 54.0,
+   "missions": 7,
+   "score": 362.0,
+   "average": 51.7,
    "best": 112.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
    "deaths": 0,
-   "hours": 5.0,
-   "last_flown": "2026-11-12",
+   "hours": 5.5,
+   "last_flown": "2026-11-13",
    "grades": {
-    "D": 4,
+    "D": 5,
     "A": 1,
     "C": 1
    },
    "mission_types": {
-    "SEAD": 4,
-    "CCIP": 2,
+    "SEAD": 5,
+    "CCIP": 3,
+    "A-A": 2,
     "CAS": 1,
     "FORMATION": 1,
-    "A-A": 1,
     "TRAINING": 1
    },
    "skills": [
@@ -5785,16 +5848,44 @@
      "qualified": true
     },
     {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
-     "score": 6.0,
+     "name": "Communications",
+     "type": "GENERAL",
+     "score": 5.0,
      "max": 10,
      "qualified": false
     },
     {
-     "name": "Communications",
-     "type": "GENERAL",
-     "score": 5.0,
+     "name": "1 V 2 ACM",
+     "type": "A-A",
+     "score": 3.8,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 3.8,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Missile Kinematics",
+     "type": "A-A",
+     "score": 3.8,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Notching",
+     "type": "A-A",
+     "score": 3.8,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 3.8,
      "max": 10,
      "qualified": false
     },
@@ -5809,6 +5900,25 @@
    "qualifications": 1,
    "courses": [],
    "history": [
+    {
+     "op": "op-5f55d4eb893f",
+     "date": "2026-11-13",
+     "name": "Tactical Pattern and Airmanship",
+     "types": [
+      "A-A",
+      "CCIP",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 38.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 34,
+     "highlight": "Survived the J-11 ambush and defeated an inbound AIM-9X (from Omar, CPA 4 554 m) — the missile missed, but Neo was alive and maneuvering, which counts."
+    },
     {
      "op": "op-37766af98ef2",
      "date": "2026-11-12",
@@ -6805,27 +6915,27 @@
     "Su-33"
    ],
    "bio": "",
-   "missions": 9,
-   "score": 504.0,
-   "average": 56.0,
+   "missions": 10,
+   "score": 556.0,
+   "average": 55.6,
    "best": 90.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
-   "deaths": 2,
-   "hours": 8.8,
-   "last_flown": "2026-11-12",
+   "deaths": 3,
+   "hours": 9.2,
+   "last_flown": "2026-11-13",
    "grades": {
+    "C": 5,
     "F": 3,
     "D": 1,
-    "C": 4,
     "A": 1
    },
    "mission_types": {
-    "SEAD": 5,
-    "CCIP": 4,
+    "SEAD": 6,
+    "CCIP": 5,
+    "A-A": 4,
     "FORMATION": 3,
-    "A-A": 3,
     "CAS": 2,
     "STRAFE": 2,
     "BFM": 1
@@ -6848,35 +6958,35 @@
     {
      "name": "1 V 2 ACM",
      "type": "A-A",
-     "score": 7.0,
-     "max": 10,
-     "qualified": false
-    },
-    {
-     "name": "Missile Kinematics",
-     "type": "A-A",
-     "score": 7.0,
-     "max": 10,
-     "qualified": false
-    },
-    {
-     "name": "Notching",
-     "type": "A-A",
-     "score": 7.0,
-     "max": 10,
-     "qualified": false
-    },
-    {
-     "name": "SEAD",
-     "type": "SEAD",
-     "score": 4.2,
+     "score": 5.2,
      "max": 10,
      "qualified": false
     },
     {
      "name": "CCIP Tactical Pattern",
      "type": "CCIP",
-     "score": 4.0,
+     "score": 5.2,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Missile Kinematics",
+     "type": "A-A",
+     "score": 5.2,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Notching",
+     "type": "A-A",
+     "score": 5.2,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 5.2,
      "max": 10,
      "qualified": false
     }
@@ -6897,6 +7007,25 @@
     }
    ],
    "history": [
+    {
+     "op": "op-5f55d4eb893f",
+     "date": "2026-11-13",
+     "name": "Tactical Pattern and Airmanship",
+     "types": [
+      "A-A",
+      "CCIP",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 52.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 1,
+     "minutes": 30,
+     "highlight": "Best single pass of the BDU-45 runs: Run 1 at 15.2 m CEP (10 m left, 11 m short) is very close to shack territory — solid first-pass technique."
+    },
     {
      "op": "op-37766af98ef2",
      "date": "2026-11-12",
@@ -8574,6 +8703,203 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-5f55d4eb893f",
+   "date": "2026-11-13",
+   "name": "Tactical Pattern and Airmanship",
+   "kind": "manual",
+   "types": [
+    "A-A",
+    "CCIP",
+    "SEAD"
+   ],
+   "training": true,
+   "brief": "Tactical pattern training\nComms\nIls landing\nFormation",
+   "narrative": "Viper and Cobra flights launched on a CCIP/tactical pattern training sortie over Sinai, with the added complication of two J-11A Flankers gate-crashing the range at approximately 01:19 local — turning a routine bombing range into a combat merge with no warning. The range phase itself produced a clear performance split: MeGaTron was simply in a different class, posting an avgCEP of 11.1 m across 6 passes with 5 shacks (83%), executing a consistent 15–18° dive at 463–492 kt from 1 100–2 900 ft — this is weapons-school standard work and the benchmark all pilots should be studying. PushMaster was the second-best bomber with a 53.8 m avgCEP and disciplined repeat technique, but a systematic left-short bias across all 5 passes with zero shacks tells us there is an uncorrected wind or pipper-pull error baked into his delivery. Taha/XTC showed a good first pass at 15 m then regressed sharply on Run 2 to 185 m SHORT — shallow 2° dive angles are the root cause, as this weapon needs steeper geometry to track correctly. Omar's 4-pass spread of 17–299 m reflects inconsistent setup geometry; he has the touch (Run 4 at 17 m proves it) but cannot repeat the conditions that produced it. Neo is the urgent concern: avgCEP 285.9 m with three passes impacting beyond 380 m short, shallow dives, and low airspeeds — the CCIP pipper is clearly not being tracked to impact before release, and this must be corrected in a dedicated ground study session before he returns to the range. The J-11 pop-up was handled with varying effectiveness: PushMaster was composed, defeating a P-73 at 92 m CPA and splashing both Flankers with AIM-120C shots — two confirmed air-to-air kills, the only friendly kills of the mission. MeGaTron contributed a supporting AIM-9X shot. Taha/XTC was killed at 01:20:42 by J-11A fire, unable to defeat the inbound threat. Omar engaged defensively but was shot down at 01:22:03; critically, he fired an AIM-9X at friendly callsign Neo during the merge — the missile missed at 4 554 m CPA, averting a blue-on-blue, but this demands an immediate IFF and ROE review. MeGaTron's 9.65 G instant flag during the engagement is a structural concern on what was supposed to be a training sortie. Formation data was captured only for Neo, whose 42.98/100 discipline score, 71-second worst rejoin, and 37% 'none' time show he is not holding position in the range pattern. The lesson from this mission is straightforward: MeGaTron has set the CCIP standard; everyone else needs to close the gap, Neo urgently, and the whole flight must rehearse IFF procedures before mixing it up with AI threats again.",
+   "lessons": [
+    "CCIP technique is geometry: a consistent 15–18° dive angle at 450–480 kt, releasing at 2 000–2 500 ft, produces repeatable CEPs under 20 m as MeGaTron demonstrated — shallow 2–6° dives cause short-fall errors of 100–467 m as seen in Neo and Taha's worst passes. Every pilot must brief and brief-check their own delivery profile before stepping to the jet.",
+    "IFF and ROE discipline is not optional during a mixed-threat environment: Omar fired an AIM-9X at Neo (a confirmed friendly) at 4.5 nm during the J-11 merge. The missile missed, but a 41 m CPA AIM-9X that splashed near Taha seconds earlier shows what happens when IR seekers are uncaged in a crowd. Positive target ID — visual or electronic — before every trigger pull, every time.",
+    "Formation wingmen must own their position: Neo's 19 join attempts, 71-second worst rejoin, and 37% out-of-formation time during a range pattern degrade flight safety and bombing sequence coordination. The standard is: break recognised within 5 seconds, rejoin initiated immediately, position stabilised within 20–25 seconds. Practice the rejoin before the next formation-bombing sortie."
+   ],
+   "card": {
+    "mission_date": "2026-11-13",
+    "mission_time": "21:30",
+    "tacan": "11X-74X",
+    "laser": "1688",
+    "datalink": "010-024",
+    "loadout": "2x Fuel Tank | 6x BDU50LD | 2x AIM 120C | 2x AIM-9X",
+    "freqs": [
+     {
+      "label": "CHECK-IN",
+      "mhz": "251.00"
+     },
+     {
+      "label": "TACTICAL",
+      "mhz": "126.00"
+     },
+     {
+      "label": "JYANKLIS",
+      "mhz": "253.00"
+     }
+    ],
+    "headings": [
+     {
+      "label": "PUSH",
+      "deg": ""
+     },
+     {
+      "label": "EGRESS",
+      "deg": ""
+     }
+    ]
+   },
+   "teams": [
+    {
+     "name": "Viper",
+     "task": "TRAINING",
+     "size": 4,
+     "pilots": [
+      "Blacksky",
+      "Omar",
+      "Neo",
+      "[EAF] Taha"
+     ]
+    },
+    {
+     "name": "Cobra",
+     "task": "TRAINING",
+     "size": 4,
+     "pilots": [
+      "Megatron"
+     ]
+    }
+   ],
+   "results": [
+    {
+     "callsign": "Blacksky",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": 80.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 34,
+     "highlights": [
+      "Sole confirmed air-to-air killer of the mission: two J-11A kills (unit1 at 5.2 nm AIM-120C splash, unit2 at 2.6 nm AIM-120C splash), survived the J-11 ambush while defeating an inbound P-73 at 92 m CPA — outstanding threat reaction under pressure.",
+      "CCIP consistency is the flight's second-best: 5 passes, all impacting LEFT-SHORT with a systematic lateral bias, avgCEP 53.8 m, bestCEP 40.9 m — repeatable technique, just needs a right-offset correction in the HUD."
+     ],
+     "improvements": [
+      "Zero shacks across 5 passes — the consistent left/short pattern (all 5 hits left of line) points to a wind-correction or pipper-pull error that must be isolated and corrected before the next CCIP sortie.",
+      "Max G 8.75 G is within Viper limits but touches the structural caution band; track your G-meter on the pop-up threat entry to avoid an exceedance."
+     ],
+     "note": "Two J-11A kills and a P-73 defeated under surprise contact; now fix the left-short CCIP bias that cost you every shack across 5 passes."
+    },
+    {
+     "callsign": "Megatron",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": 80.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 29,
+     "highlights": [
+      "Good 5 Shacks"
+     ],
+     "improvements": [],
+     "note": ""
+    },
+    {
+     "callsign": "[EAF] Taha",
+     "member": true,
+     "squadron": "",
+     "score": 52.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 1,
+     "minutes": 30,
+     "highlights": [
+      "Best single pass of the BDU-45 runs: Run 1 at 15.2 m CEP (10 m left, 11 m short) is very close to shack territory — solid first-pass technique.",
+      "No G exceedances and clean airmanship envelope in the CCIP phase — disciplined energy management on the range (avg 432 kt, controlled dive angles 2–9°)."
+     ],
+     "improvements": [
+      "Killed by J-11A at 01:20:42 — the event log shows an AIM-9X from Omar splashed nearby at CPA 41 m at 01:20:39, with the kill attributed by tracker to J-11A (killedBy field). Regardless of cause, Taha/XTC did not defeat the threat. Situational awareness and timely defensive break must be practiced.",
+      "Run 2 CEP degraded to 185 m SHORT — a 170 m regression from Run 1. Release parameters were inconsistent: Run 1 at 1 270 ft/411 kt/2° dive vs Run 2 at 1 715 ft/498 kt/2° dive. Standardise release parameters; at only 2° dive angle the weapon needs far more energy and an earlier release cue."
+     ],
+     "note": "Decent first-pass feel at 15 m CEP undone by shallow dive geometry and an inability to defeat the J-11 threat — steepen the dive, sharpen the SA."
+    },
+    {
+     "callsign": "Omar",
+     "member": false,
+     "squadron": "",
+     "score": 44.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 1,
+     "minutes": 31,
+     "highlights": [
+      "Run 4 CEP 17 m (15 m right, 7 m short) is near-shack quality and shows Omar CAN deliver when technique comes together at the correct dive angle (24°) and speed (457 kt) — this pass proves the capability is there.",
+      "Defeated one inbound P-27P at 182 m CPA and contributed AIM-120C fire on unit1 during the J-11 engagement — did not freeze when threats appeared."
+     ],
+     "improvements": [
+      "1 sustained over-G flag at 8.87 G at 01:21:43 (1 337 ft AGL in transit) — this is a recurring issue; Omar has had G-discipline problems across multiple recent sorties. Structural limit on the Viper is 9.0 G, and you are regularly living in that band. Slow down and use the aircraft, not brute force.",
+      "CCIP consistency is poor: CEPs of 125, 109, 299, 17 m — a 282 m spread between best and worst pass. Release parameters varied wildly (7° to 24° dive, 361–477 kt). Establish a standard entry: 15° dive, 450 kt, 2 500 ft release and repeat it every pass."
+     ],
+     "note": "One brilliant pass at 17 m surrounded by 100–299 m misses, a sustained over-G, and an AIM-9X fired at a friendly — consistency and IFF are the two items to fix before the next sortie."
+    },
+    {
+     "callsign": "Neo",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": 38.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 34,
+     "highlights": [
+      "Survived the J-11 ambush and defeated an inbound AIM-9X (from Omar, CPA 4 554 m) — the missile missed, but Neo was alive and maneuvering, which counts.",
+      "G control was the best of the formation: maxG 6.64 G, zero exceedances, zero instant flags — smooth hands in a chaotic sortie."
+     ],
+     "improvements": [
+      "CCIP accuracy is critically low: avgCEP 285.9 m across 5 scored passes, all impacts SHORT (ranging from 70 m to 467 m short). Release parameters are inconsistent and dive angles are too shallow (2–11°) with low airspeeds (354–497 kt). Three passes short by over 380 m indicates the bomb is being released far too early or dive angle is near-zero — Neo must review the CCIP pipper and not release until it is ON the target.",
+      "Formation discipline score 42.98/100 — 19 join attempts, worstJoinSec 71 s, avgJoinSec 33 s. The formation data shows 37% of tracked time in 'none' (out of formation entirely). Neo is drifting widely during the range pattern and taking over a minute to rejoin on the worst break. Tighten the rejoin: acknowledge the break, turn immediately, close the range, and settle within 20 s."
+     ],
+     "note": "avgCEP 285.9 m, 37% out of formation, and bombs impacting up to 467 m short — CCIP fundamentals need a full reset in the classroom before returning to the range."
+    },
+    {
+     "callsign": "Omar",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": null,
+     "grade": "-",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    }
+   ],
+   "pilots": 6,
+   "average": 58.8,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "instructor": "Sword",
+   "patches": [],
+   "report": "reports/op-5f55d4eb893f.html"
+  },
   {
    "id": "op-37766af98ef2",
    "date": "2026-11-12",
