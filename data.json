@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T14:06:15+00:00",
+ "generated": "2026-11-16T14:49:19+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -16292,7 +16292,8 @@
      "pilots": [
       "Megatron",
       "[EAF] Maverick",
-      "Blacksky"
+      "Blacksky",
+      "[EAF] Taha"
      ]
     },
     {
@@ -16305,7 +16306,8 @@
    "signed": [
     "Megatron",
     "[EAF] Maverick",
-    "Blacksky"
+    "Blacksky",
+    "[EAF] Taha"
    ],
    "reserves": []
   }
