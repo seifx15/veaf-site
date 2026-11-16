@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T15:27:23+00:00",
+ "generated": "2026-11-16T19:58:51+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -4632,6 +4632,148 @@
    ]
   },
   {
+   "id": "P_031fcc77ecae",
+   "callsign": "[EAF] Maverick",
+   "rank": {
+    "full": "ملازم | Lieutenant | 𓅪☆",
+    "ar": "ملازم",
+    "en": "Lieutenant",
+    "insignia": "𓅪☆"
+   },
+   "rank_order": 10,
+   "photo": "",
+   "patches": [],
+   "squadron": "",
+   "squadron_patch": "",
+   "element": "",
+   "element_patch": "",
+   "former_element_patches": [],
+   "former_squadron_patches": [],
+   "joined": "2026-11-05",
+   "aircraft": [
+    "F-16C Viper"
+   ],
+   "bio": "",
+   "missions": 3,
+   "score": 220.0,
+   "average": 73.3,
+   "best": 90.0,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "friendly_kills": 0,
+   "deaths": 0,
+   "hours": 2.0,
+   "last_flown": "2026-11-08",
+   "grades": {
+    "B": 1,
+    "A": 1,
+    "D": 1
+   },
+   "mission_types": {
+    "SEAD": 1,
+    "FORMATION": 1,
+    "CAS": 1,
+    "BFM": 1,
+    "CCIP": 1,
+    "STRAFE": 1
+   },
+   "skills": [
+    {
+     "name": "Basic Fighter Maneuver (BFM)",
+     "type": "BFM",
+     "score": 9.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Tactical Turns / Formation",
+     "type": "BFM",
+     "score": 9.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 6.5,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 6.5,
+     "max": 10,
+     "qualified": false
+    }
+   ],
+   "qualifications": 0,
+   "courses": [
+    {
+     "title": "Basic Fighter Maneuver",
+     "code": "BFM-1",
+     "status": "ready",
+     "instructors": []
+    }
+   ],
+   "history": [
+    {
+     "op": "op-4091a652ca5c",
+     "date": "2026-11-08",
+     "name": "Destruction of Enemy Air Defences",
+     "types": [
+      "SEAD",
+      "FORMATION",
+      "CAS"
+     ],
+     "training": true,
+     "score": 65.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 57,
+     "highlight": "100% SAM defeat rate — both S-300PS rounds defeated (CPAs 8,958 m and 6,094 m) through effective defensive maneuvering; survived the most missile-saturated phase of the attack without being hit."
+    },
+    {
+     "op": "op-241f54c637de",
+     "date": "2026-11-07",
+     "name": "Basic Fighter Maneuver",
+     "types": [
+      "BFM"
+     ],
+     "training": true,
+     "score": 90.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
+    {
+     "op": "op-4d6c29bac531",
+     "date": "2026-11-05",
+     "name": "Basic Surface Attack | Tactical Pattern",
+     "types": [
+      "CCIP",
+      "STRAFE"
+     ],
+     "training": true,
+     "score": 65.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 62,
+     "highlight": "Formation discipline score 71.7 is the highest of the formation-tracked pilots, and avg rejoin 23 s with best 6 s shows Maverick can hold position when attention is on the lead."
+    }
+   ]
+  },
+  {
    "id": "P_20260708193733_296",
    "callsign": "[U777] Golden_Pilot",
    "rank": {
@@ -6748,148 +6890,6 @@
    "qualifications": 0,
    "courses": [],
    "history": []
-  },
-  {
-   "id": "P_031fcc77ecae",
-   "callsign": "[EAF] Maverick",
-   "rank": {
-    "full": "طالب | Student",
-    "ar": "طالب",
-    "en": "Student",
-    "insignia": ""
-   },
-   "rank_order": 11,
-   "photo": "",
-   "patches": [],
-   "squadron": "",
-   "squadron_patch": "",
-   "element": "",
-   "element_patch": "",
-   "former_element_patches": [],
-   "former_squadron_patches": [],
-   "joined": "2026-11-05",
-   "aircraft": [
-    "F-16C Viper"
-   ],
-   "bio": "",
-   "missions": 3,
-   "score": 220.0,
-   "average": 73.3,
-   "best": 90.0,
-   "air_kills": 0,
-   "ground_kills": 0,
-   "friendly_kills": 0,
-   "deaths": 0,
-   "hours": 2.0,
-   "last_flown": "2026-11-08",
-   "grades": {
-    "B": 1,
-    "A": 1,
-    "D": 1
-   },
-   "mission_types": {
-    "SEAD": 1,
-    "FORMATION": 1,
-    "CAS": 1,
-    "BFM": 1,
-    "CCIP": 1,
-    "STRAFE": 1
-   },
-   "skills": [
-    {
-     "name": "Basic Fighter Maneuver (BFM)",
-     "type": "BFM",
-     "score": 9.0,
-     "max": 10,
-     "qualified": false
-    },
-    {
-     "name": "Tactical Turns / Formation",
-     "type": "BFM",
-     "score": 9.0,
-     "max": 10,
-     "qualified": false
-    },
-    {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
-     "score": 6.5,
-     "max": 10,
-     "qualified": false
-    },
-    {
-     "name": "SEAD",
-     "type": "SEAD",
-     "score": 6.5,
-     "max": 10,
-     "qualified": false
-    }
-   ],
-   "qualifications": 0,
-   "courses": [
-    {
-     "title": "Basic Fighter Maneuver",
-     "code": "BFM-1",
-     "status": "ready",
-     "instructors": []
-    }
-   ],
-   "history": [
-    {
-     "op": "op-4091a652ca5c",
-     "date": "2026-11-08",
-     "name": "Destruction of Enemy Air Defences",
-     "types": [
-      "SEAD",
-      "FORMATION",
-      "CAS"
-     ],
-     "training": true,
-     "score": 65.0,
-     "grade": "B",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 57,
-     "highlight": "100% SAM defeat rate — both S-300PS rounds defeated (CPAs 8,958 m and 6,094 m) through effective defensive maneuvering; survived the most missile-saturated phase of the attack without being hit."
-    },
-    {
-     "op": "op-241f54c637de",
-     "date": "2026-11-07",
-     "name": "Basic Fighter Maneuver",
-     "types": [
-      "BFM"
-     ],
-     "training": true,
-     "score": 90.0,
-     "grade": "A",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 0,
-     "highlight": ""
-    },
-    {
-     "op": "op-4d6c29bac531",
-     "date": "2026-11-05",
-     "name": "Basic Surface Attack | Tactical Pattern",
-     "types": [
-      "CCIP",
-      "STRAFE"
-     ],
-     "training": true,
-     "score": 65.0,
-     "grade": "D",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 62,
-     "highlight": "Formation discipline score 71.7 is the highest of the formation-tracked pilots, and avg rejoin 23 s with best 6 s shows Maverick can hold position when attention is on the lead."
-    }
-   ]
   },
   {
    "id": "P_8783963eb255",
