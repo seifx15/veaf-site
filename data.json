@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T00:13:43+00:00",
+ "generated": "2026-11-18T00:27:50+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,12 +7,12 @@
  },
  "totals": {
   "pilots": 87,
-  "missions": 72,
-  "sorties": 242,
+  "missions": 73,
+  "sorties": 246,
   "qualifications": 48,
-  "hours": 194.0,
+  "hours": 195.3,
   "air_kills": 89,
-  "ground_kills": 27
+  "ground_kills": 29
  },
  "pilots": [
   {
@@ -76,31 +76,31 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 41,
-   "score": 2883.0,
-   "average": 70.4,
+   "missions": 42,
+   "score": 2921.0,
+   "average": 69.6,
    "best": 100.0,
    "air_kills": 25,
    "ground_kills": 14,
    "friendly_kills": 0,
    "deaths": 2,
-   "hours": 35.7,
-   "last_flown": "2026-11-12",
+   "hours": 36.0,
+   "last_flown": "2026-11-17",
    "grades": {
+    "D": 2,
     "A": 13,
     "C": 15,
     "B": 9,
-    "F": 3,
-    "D": 1
+    "F": 3
    },
    "mission_types": {
-    "SEAD": 13,
+    "SEAD": 14,
     "CCIP": 12,
     "A-A": 8,
     "STRAFE": 5,
     "TRAINING": 5,
+    "CAS": 4,
     "FORMATION": 4,
-    "CAS": 3,
     "BVR": 3,
     "BSA": 2,
     "AAR": 1,
@@ -158,16 +158,16 @@
      "qualified": true
     },
     {
-     "name": "SEAD",
-     "type": "SEAD",
-     "score": 6.8,
+     "name": "Tactical Turns / Formation",
+     "type": "BFM",
+     "score": 4.0,
      "max": 10,
      "qualified": true
     },
     {
-     "name": "Tactical Turns / Formation",
-     "type": "BFM",
-     "score": 4.0,
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 3.8,
      "max": 10,
      "qualified": true
     }
@@ -188,6 +188,24 @@
     }
    ],
    "history": [
+    {
+     "op": "op-695251a7673d",
+     "date": "2026-11-17",
+     "name": "SinaiMap 2026-11-17 23:00Z CAS",
+     "types": [
+      "CAS",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 38.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 21,
+     "highlight": "Clean G-discipline throughout: maxG 4.08 across 21.1 min, zero exceedances, zero gInstantFlags — below the F-16's 9G limit by a healthy margin."
+    },
     {
      "op": "op-37766af98ef2",
      "date": "2026-11-12",
@@ -3906,7 +3924,7 @@
     "A-10C II"
    ],
    "bio": "",
-   "missions": 7,
+   "missions": 8,
    "score": 466.0,
    "average": 66.6,
    "best": 100.0,
@@ -3923,9 +3941,9 @@
     "C": 2
    },
    "mission_types": {
-    "SEAD": 4,
+    "SEAD": 5,
+    "CAS": 3,
     "STRAFE": 3,
-    "CAS": 2,
     "CCIP": 2,
     "FORMATION": 1,
     "STRIKE": 1,
@@ -4007,6 +4025,24 @@
     }
    ],
    "history": [
+    {
+     "op": "op-695251a7673d",
+     "date": "2026-11-17",
+     "name": "SinaiMap 2026-11-17 23:00Z CAS",
+     "types": [
+      "CAS",
+      "SEAD"
+     ],
+     "training": true,
+     "score": null,
+     "grade": "-",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
     {
      "op": "op-33291cd0e4ee",
      "date": "2026-11-17",
@@ -6934,28 +6970,28 @@
     "Su-33"
    ],
    "bio": "",
-   "missions": 10,
-   "score": 556.0,
-   "average": 55.6,
+   "missions": 11,
+   "score": 618.0,
+   "average": 56.2,
    "best": 90.0,
    "air_kills": 0,
-   "ground_kills": 0,
+   "ground_kills": 2,
    "friendly_kills": 0,
-   "deaths": 3,
-   "hours": 9.2,
-   "last_flown": "2026-11-13",
+   "deaths": 4,
+   "hours": 9.7,
+   "last_flown": "2026-11-17",
    "grades": {
-    "C": 5,
+    "C": 6,
     "F": 3,
     "D": 1,
     "A": 1
    },
    "mission_types": {
-    "SEAD": 6,
+    "SEAD": 7,
     "CCIP": 5,
     "A-A": 4,
+    "CAS": 3,
     "FORMATION": 3,
-    "CAS": 2,
     "STRAFE": 2,
     "BFM": 1
    },
@@ -6971,6 +7007,13 @@
      "name": "Tactical Turns / Formation",
      "type": "BFM",
      "score": 9.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 6.2,
      "max": 10,
      "qualified": false
     },
@@ -7001,13 +7044,6 @@
      "score": 5.2,
      "max": 10,
      "qualified": false
-    },
-    {
-     "name": "SEAD",
-     "type": "SEAD",
-     "score": 5.2,
-     "max": 10,
-     "qualified": false
     }
    ],
    "qualifications": 0,
@@ -7026,6 +7062,24 @@
     }
    ],
    "history": [
+    {
+     "op": "op-695251a7673d",
+     "date": "2026-11-17",
+     "name": "SinaiMap 2026-11-17 23:00Z CAS",
+     "types": [
+      "CAS",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 62.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 2,
+     "friendly_kills": 0,
+     "deaths": 1,
+     "minutes": 29,
+     "highlight": "Only pilot to generate kills — 2× SOFT targets (GAZ-3308 and Ural-4320T) across two separate CAS tasks, with the Maverick/gun combination demonstrating initiative to press the attack when the AGM-65F missed."
+    },
     {
      "op": "op-5f55d4eb893f",
      "date": "2026-11-13",
@@ -7717,22 +7771,54 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 0,
-   "score": 0.0,
-   "average": null,
-   "best": null,
+   "missions": 1,
+   "score": 44.0,
+   "average": 44.0,
+   "best": 44.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
    "deaths": 0,
-   "hours": 0.0,
-   "last_flown": "",
-   "grades": {},
-   "mission_types": {},
-   "skills": [],
+   "hours": 0.5,
+   "last_flown": "2026-11-17",
+   "grades": {
+    "D": 1
+   },
+   "mission_types": {
+    "CAS": 1,
+    "SEAD": 1
+   },
+   "skills": [
+    {
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 4.4,
+     "max": 10,
+     "qualified": false
+    }
+   ],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [
+    {
+     "op": "op-695251a7673d",
+     "date": "2026-11-17",
+     "name": "SinaiMap 2026-11-17 23:00Z CAS",
+     "types": [
+      "CAS",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 44.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 31,
+     "highlight": "Demonstrated positive formation participation — 63% of tracked time in a named formation (trail dominant at 22%, wedge 8%, spread 11%, route 9%), with 40 formation changes showing active position management during the first slot."
+    }
+   ]
   },
   {
    "id": "P_0cc142cf178c",
@@ -8762,6 +8848,113 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-695251a7673d",
+   "date": "2026-11-17",
+   "name": "SinaiMap 2026-11-17 23:00Z CAS",
+   "kind": "automatic",
+   "types": [
+    "CAS",
+    "SEAD"
+   ],
+   "training": true,
+   "brief": "",
+   "narrative": "This Sinai CAS/Training sortie put three pilots over an undefended convoy (CAS Task 2) and a lightly AAA-defended mixed target set (CAS Task 3) with a 30-target package available. The package achieved only 2 ground kills total — a 6.7% attrition rate against available targets — which is an unsatisfactory outcome for three F-16/FA-18 sorties. [EAF] 9g | Sword, the most experienced EAF pilot present, flew 21 minutes, registered zero weapons releases, and was lost at the 40-minute mark without having contributed a single ordnance impact to the CAS task; this is the most significant failure of the mission. gmbekhit flew two slots totalling approximately 31 trackable minutes, demonstrated positive formation engagement in slot 1 (trail dominant, 40 formation changes), but his two GBU-31V3B drops in slot 3 missed the nearest building by 94.6 m and 118.8 m respectively — no kills from two precision-guided munitions against fixed structures is unacceptable. [EAF] XTC was the only pilot to score, netting 2 SOFT kills via gun after three AGM-65F Maverick shots all missed their intended CAS targets by margins of 103–365 m; the Gepard AAA claimed him at 00:53, with 53 seconds of total threat exposure. Formation discipline was inconsistent across the package: gmbekhit's final formation score collapsed to 48.7 after an early high, and Sword registered zero formation participation across his entire flight. The single formation rejoin logged (gmbekhit, 64 s) was more than double the 30-second standard. On the positive side, G-discipline was clean across all three pilots — no exceedances, maxG values of 4.08, 4.03, and 7.41 for Sword, gmbekhit, and XTC respectively. The 7.41 G recorded by XTC at 507 ft AGL while in a threat environment is a survivability flag. The AGM-65F employment across XTC's three shots is the clearest technical debrief point: releasing from 14,000+ ft at 4.7–4.8 nm produced consistent misses; IR acquisition quality and lock confirmation before release must improve. The mission's overall output — 2 kills, 1 loss, 5 wasted precision munitions, and one pilot who fired nothing — reflects a package that reached the target area but could not execute coordinated, effective CAS. Next sortie must address weapon employment procedures, pre-attack coordination, and formation integrity.",
+   "lessons": [
+    "Weapons employment is not optional — a pilot who reaches the target area and returns with a full loadout has failed the mission regardless of how clean his airmanship data looks; Sword must have a weapon release plan before pushing.",
+    "AGM-65F Maverick accuracy depends entirely on seeker quality at release — three shots, three misses (103–365 m) from valid geometry means the IR/EO lock was not confirmed on the designated aimpoint; do not release until the seeker cross is on the target and tracking stable.",
+    "Threat exposure management saved no one — XTC accumulated 53 s inside the Gepard's engagement envelope and was killed; the fix is either SEAD the air defence before the attack or structure the run so you are never inside its WEZ; entering a hot environment with Mavericks that have already missed leaves you no standoff option and forces a close-in gun pass in front of an active AAA system."
+   ],
+   "card": {},
+   "teams": [],
+   "results": [
+    {
+     "callsign": "[EAF] Taha",
+     "member": true,
+     "squadron": "",
+     "score": 62.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 2,
+     "friendly_kills": 0,
+     "deaths": 1,
+     "minutes": 29,
+     "highlights": [
+      "Only pilot to generate kills — 2× SOFT targets (GAZ-3308 and Ural-4320T) across two separate CAS tasks, with the Maverick/gun combination demonstrating initiative to press the attack when the AGM-65F missed.",
+      "Pressed CAS Task 3 against an AAA-threat environment (Gepard present) and still scored — demonstrates aggression and willingness to engage a defended target, an improvement on baseline participation-only sorties."
+     ],
+     "improvements": [
+      "All three AGM-65F shots missed their intended CAS targets: 117.2 m, 103.3 m, and 364.6 m — zero direct hits from three Maverick releases. At 4.8–4.7 nm release range and 14,000+ ft the solution geometry was valid; sensor/designation slop is the likely culprit. The kills were scored by gun, not the missiles — the Mavericks were wasted shots. Must improve IR/EO acquisition and lock quality before release.",
+      "maxG peaked at 7.41 G in the FA-18C (limit 7.5 g sustained, structural limit higher) — this is marginal and was recorded during the low-altitude threat-exposure phase near 507 ft AGL. Combined with 53 s of threat exposure and eventual loss to Gepard AAA, survivability discipline needs work: either suppress the threat before entering its WEZ or stay above effective engagement altitude."
+     ],
+     "note": "Only scorer in the package with 2 SOFT kills, but three Mavericks wasted on bad locks and a Gepard kill at 507 ft AGL show that aggression without precision and threat awareness is expensive."
+    },
+    {
+     "callsign": "Gmbekhit",
+     "member": true,
+     "squadron": "",
+     "score": 44.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 31,
+     "highlights": [
+      "Demonstrated positive formation participation — 63% of tracked time in a named formation (trail dominant at 22%, wedge 8%, spread 11%, route 9%), with 40 formation changes showing active position management during the first slot.",
+      "G-discipline was acceptable: maxG 4.03, zero exceedances, clean envelope across 22.6 min of primary flight time."
+     ],
+     "improvements": [
+      "Two GBU-31V3B impacts on CAS Task 3 both missed: 94.6 m and 118.8 m from nearest building — neither was a direct hit, zero kills from two JDAM drops. At that miss distance against fixed structures the weapons were wasted; solution quality (IP, offset, release parameters) must improve dramatically.",
+      "Single formation break rejoined in 64 seconds — well above the 30-second benchmark for a tight wingman; formation discipline score finished at 48.7 (final) after falling from an early high, and 37% of total tracked ticks were in 'none' state, indicating sustained periods out of position."
+     ],
+     "note": "Formation intent was there early but discipline collapsed to 48.7 by sortie end; two GBU-31 drops missed by 95–119 m with zero kills — JDAM employment procedure needs a ground school review."
+    },
+    {
+     "callsign": "Sword",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": 38.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 21,
+     "highlights": [
+      "Clean G-discipline throughout: maxG 4.08 across 21.1 min, zero exceedances, zero gInstantFlags — below the F-16's 9G limit by a healthy margin.",
+      "Zero threat exposure for the entire sortie — no time inside the threat ring, confirming good standoff situational awareness on the ingress leg."
+     ],
+     "improvements": [
+      "Zero weapons released in 21.1 minutes of flight time over an active CAS task — the aircraft brought home a full loadout and was then lost (tracker shows reason 'dead' at 00:40:06); must identify the target, build a game plan and execute before fuel/attrition forces the issue.",
+      "No formation data recorded (formationTicks = 0, formation_score = null) — Sword flew the entire sortie without being tracked in any wingman position relative to a lead; integrate properly into the flight structure before pushing to the target."
+     ],
+     "note": "21 minutes airborne, zero rounds fired, lost at 40 min — showed up but never attacked; complete re-fly of CAS employment required."
+    },
+    {
+     "callsign": "Kafafy",
+     "member": true,
+     "squadron": "",
+     "score": null,
+     "grade": "-",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    }
+   ],
+   "pilots": 4,
+   "average": 48.0,
+   "air_kills": 0,
+   "ground_kills": 2,
+   "instructor": "Sword",
+   "patches": [],
+   "report": "reports/op-695251a7673d.html"
+  },
   {
    "id": "op-33291cd0e4ee",
    "date": "2026-11-17",
