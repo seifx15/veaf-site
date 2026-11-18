@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T00:10:37+00:00",
+ "generated": "2026-11-18T00:13:43+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,10 +7,10 @@
  },
  "totals": {
   "pilots": 87,
-  "missions": 71,
-  "sorties": 241,
+  "missions": 72,
+  "sorties": 242,
   "qualifications": 48,
-  "hours": 193.6,
+  "hours": 194.0,
   "air_kills": 89,
   "ground_kills": 27
  },
@@ -3906,27 +3906,27 @@
     "A-10C II"
    ],
    "bio": "",
-   "missions": 6,
-   "score": 406.0,
-   "average": 67.7,
+   "missions": 7,
+   "score": 466.0,
+   "average": 66.6,
    "best": 100.0,
    "air_kills": 0,
    "ground_kills": 3,
    "friendly_kills": 0,
    "deaths": 0,
-   "hours": 3.8,
-   "last_flown": "2026-11-10",
+   "hours": 4.2,
+   "last_flown": "2026-11-17",
    "grades": {
-    "D": 1,
+    "D": 2,
     "B": 2,
     "A": 1,
     "C": 2
    },
    "mission_types": {
+    "SEAD": 4,
     "STRAFE": 3,
-    "SEAD": 3,
+    "CAS": 2,
     "CCIP": 2,
-    "CAS": 1,
     "FORMATION": 1,
     "STRIKE": 1,
     "A-A": 1,
@@ -3971,7 +3971,7 @@
     {
      "name": "SEAD",
      "type": "SEAD",
-     "score": 4.0,
+     "score": 6.0,
      "max": 10,
      "qualified": true
     },
@@ -4007,6 +4007,24 @@
     }
    ],
    "history": [
+    {
+     "op": "op-33291cd0e4ee",
+     "date": "2026-11-17",
+     "name": "SinaiMap 2026-11-17 23:40Z CAS",
+     "types": [
+      "CAS",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 60.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 21,
+     "highlight": "No fratricide on any of 8 weapon releases — target discrimination remained intact throughout the engagement."
+    },
     {
      "op": "op-37e02481772a",
      "date": "2026-11-10",
@@ -8744,6 +8762,56 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-33291cd0e4ee",
+   "date": "2026-11-17",
+   "name": "SinaiMap 2026-11-17 23:40Z CAS",
+   "kind": "automatic",
+   "types": [
+    "CAS",
+    "SEAD"
+   ],
+   "training": true,
+   "brief": "",
+   "narrative": "KAF launched solo on the Sinai map at 00:40:06 for a combined training and CAS sortie of 21 minutes duration. The first approximately 20 minutes were transit and set-up, with no weapons activity recorded. The weapons phase opened at 01:01:37 with the first AGM-65D release against CAS task 3, which impacted 79 m from the nearest AA vehicle — an IR Maverick miss that suggests either a poor seeker lock, a late uncage, or a firing solution outside the effective envelope at 1.6 nm and 7,971 ft. Two further Mavericks followed at 01:02:43 and 01:02:48 against the same task; the second achieved a 70 m CPA against an armour unit at 2.6 nm and 4,772 ft, the third degraded to 578 m against an AA target. Critically, the third Maverick pass concluded with a hard-deck bust at 01:03:04 — the aircraft descended to 445 ft AGL against a 500 ft CAS floor, a 55 ft violation during a live-weapons pass. This is a fixed safety penalty and the most serious finding of the sortie. At 01:03:42–43 the pilot released GBU-12 and GBU-38 stores, but all five LGB/JDAM impacts were scored against CAS task 2, not the active task 3, with miss distances of 6,422–6,846 m — these weapons impacted over 6 km from the nearest scored building, which is consistent with an incorrect designation point, a laser that was never activated, or a GPS steer loaded to the wrong target coordinates. Zero kills were achieved from eight total releases. Threat exposure was 30 seconds, which is acceptable for the engagement geometry, and no fratricide was recorded. The sortie trend continues a sharp decline from the August score of 74, now dropping to 28 — this is the third consecutive sortie where target effect has been near-zero. The root cause appears to be a fundamental issue with pre-attack planning and weapon system setup rather than platform handling.",
+   "lessons": [
+    "LGB/JDAM target designation must be verified against the correct task area BEFORE release — 6+ km misses indicate a designation or coordinate error at the planning or execution stage, not a weapon malfunction; brief the target coordinates, confirm the laser code, and check the DSMS/MFCD steer point against the IP-to-target run-in before committing.",
+    "The CAS hard-deck is a hard floor, not a suggestion — the bust at 445 ft on the third Maverick pass during a nose-low, slow-speed (265 kts) attack profile shows the pilot is allowing attack geometry to erode unchecked; set a personal recovery gate (600 ft AGL minimum) and brief abort criteria before every pass.",
+    "Maverick employment parameters need a systematic review: shot 1 at 1.6 nm / 7,971 ft missed by 155 m, shot 2 at 2.6 nm / 4,772 ft was the best result at 70 m, shot 3 at 2.2 nm / 4,783 ft missed by 273 m — the spread in CPA across nearly identical range/altitude conditions suggests inconsistent seeker acquisition discipline; ensure the seeker is slaved to the target, the tone is confirmed, and the aircraft is wings-level before firing."
+   ],
+   "card": {},
+   "teams": [],
+   "results": [
+    {
+     "callsign": "Kafafy",
+     "member": true,
+     "squadron": "",
+     "score": 60.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 21,
+     "highlights": [
+      "No fratricide on any of 8 weapon releases — target discrimination remained intact throughout the engagement.",
+      "Best two AGM-65D impacts achieved CPA of 70 m and 79 m respectively, showing the pilot can achieve near-workable Maverick parameters when geometry is controlled."
+     ],
+     "improvements": [
+      "Zero kills from 8 releases is an unacceptable combat outcome — the three AGM-65D shots all missed (CPA 70–578 m), and the five LGB/JDAM shots were catastrophically off-target (6,422–6,846 m miss distances), indicating the pilot either released against the wrong task area or had no laser/GPS designation at all for the GBU series.",
+      "Hard-deck bust at 01:03:04 (445 ft AGL against a 500 ft floor) occurred on the third Maverick pass during a low, slow attack profile at 265 kts — this is a safety-critical failure that follows the same altitude-discipline pattern seen in prior sorties and must be corrected before further live-weapons work."
+     ],
+     "note": "Eight releases, zero kills, one hard-deck bust, and LGB impacts 6+ km off-target — a third consecutive near-zero effect sortie that demands immediate ground school on weapon system setup and attack discipline before the next live-weapons hop."
+    }
+   ],
+   "pilots": 1,
+   "average": 60.0,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "instructor": "Sword",
+   "patches": [],
+   "report": "reports/op-33291cd0e4ee.html"
+  },
   {
    "id": "op-5f55d4eb893f",
    "date": "2026-11-13",
