@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T23:41:20+00:00",
+ "generated": "2026-11-18T00:10:37+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -1616,8 +1616,7 @@
    "joined": "2026-07-08",
    "aircraft": [
     "F-16C Viper",
-    "F/A-18C Hornet",
-    "A-10A"
+    "F/A-18C Hornet"
    ],
    "bio": "",
    "missions": 26,
@@ -3904,8 +3903,7 @@
    "joined": "2026-07-08",
    "aircraft": [
     "F/A-18C Hornet",
-    "A-10C II",
-    "A-10A"
+    "A-10C II"
    ],
    "bio": "",
    "missions": 6,
