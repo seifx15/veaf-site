@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T00:27:50+00:00",
+ "generated": "2026-11-18T23:06:50+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,12 +7,12 @@
  },
  "totals": {
   "pilots": 87,
-  "missions": 73,
-  "sorties": 246,
+  "missions": 75,
+  "sorties": 249,
   "qualifications": 48,
-  "hours": 195.3,
+  "hours": 196.9,
   "air_kills": 89,
-  "ground_kills": 29
+  "ground_kills": 34
  },
  "pilots": [
   {
@@ -2842,32 +2842,32 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 39,
-   "score": 2440.0,
-   "average": 62.5,
+   "missions": 41,
+   "score": 2592.0,
+   "average": 63.1,
    "best": 104.0,
    "air_kills": 20,
-   "ground_kills": 1,
+   "ground_kills": 3,
    "friendly_kills": 0,
    "deaths": 28,
-   "hours": 27.0,
-   "last_flown": "2026-11-13",
+   "hours": 27.9,
+   "last_flown": "2026-11-18",
    "grades": {
-    "B": 6,
-    "C": 16,
+    "B": 7,
+    "C": 17,
     "D": 9,
     "F": 4,
     "A": 4
    },
    "mission_types": {
+    "SEAD": 10,
     "CCIP": 10,
     "BFM": 10,
     "A-A": 9,
-    "SEAD": 9,
-    "TRAINING": 7,
+    "TRAINING": 8,
     "STRAFE": 5,
-    "FORMATION": 3,
-    "CAS": 2,
+    "FORMATION": 4,
+    "CAS": 3,
     "BVR": 2,
     "BSA": 2,
     "STRIKE": 1
@@ -2932,7 +2932,7 @@
     {
      "name": "SEAD",
      "type": "SEAD",
-     "score": 8.0,
+     "score": 7.2,
      "max": 10,
      "qualified": false
     }
@@ -2946,19 +2946,53 @@
      "instructors": []
     },
     {
-     "title": "Surface Attack Tactics",
-     "code": "SAT-1",
-     "status": "in_progress",
-     "instructors": []
-    },
-    {
      "title": "Beyond Visual Range",
      "code": "BVR-1",
      "status": "ready",
      "instructors": []
+    },
+    {
+     "title": "Surface Attack Tactics",
+     "code": "SAT-1",
+     "status": "in_progress",
+     "instructors": []
     }
    ],
    "history": [
+    {
+     "op": "op-240976a622b4",
+     "date": "2026-11-18",
+     "name": "ILS Training",
+     "types": [],
+     "training": true,
+     "score": 80.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
+    {
+     "op": "op-71e5cfa72542",
+     "date": "2026-11-18",
+     "name": "SinaiMap 2026-11-18 21:43Z [EAF] MeGaTron flight",
+     "types": [
+      "CAS",
+      "FORMATION",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 72.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 2,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 54,
+     "highlight": "Survived a 54-minute sortie, destroyed 2 targets (fuel tank and HQ building) with GBU-12s — all four impacts within 70m or less (19m, 21m, 68m, 70m), demonstrating consistently accurate LGB employment from 9,401 ft AGL."
+    },
     {
      "op": "op-5f55d4eb893f",
      "date": "2026-11-13",
@@ -4709,25 +4743,25 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 3,
-   "score": 220.0,
-   "average": 73.3,
+   "missions": 4,
+   "score": 262.0,
+   "average": 65.5,
    "best": 90.0,
    "air_kills": 0,
-   "ground_kills": 0,
+   "ground_kills": 3,
    "friendly_kills": 0,
-   "deaths": 0,
-   "hours": 2.0,
-   "last_flown": "2026-11-08",
+   "deaths": 1,
+   "hours": 2.7,
+   "last_flown": "2026-11-18",
    "grades": {
+    "D": 2,
     "B": 1,
-    "A": 1,
-    "D": 1
+    "A": 1
    },
    "mission_types": {
-    "SEAD": 1,
-    "FORMATION": 1,
-    "CAS": 1,
+    "CAS": 2,
+    "FORMATION": 2,
+    "SEAD": 2,
     "BFM": 1,
     "CCIP": 1,
     "STRAFE": 1
@@ -4757,7 +4791,7 @@
     {
      "name": "SEAD",
      "type": "SEAD",
-     "score": 6.5,
+     "score": 4.2,
      "max": 10,
      "qualified": false
     }
@@ -4772,6 +4806,25 @@
     }
    ],
    "history": [
+    {
+     "op": "op-71e5cfa72542",
+     "date": "2026-11-18",
+     "name": "SinaiMap 2026-11-18 21:43Z [EAF] MeGaTron flight",
+     "types": [
+      "CAS",
+      "FORMATION",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 42.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 3,
+     "friendly_kills": 0,
+     "deaths": 1,
+     "minutes": 44,
+     "highlight": "Second life showed genuine improvement: Maverick hit 3 of 6 AGM-65D shots (50% hit rate) in slot-2, destroying 2 AA threats (Vulcan at 01:10:57 CPA 34m, Gepard at 01:15:59 CPA 95m) — markedly better trigger discipline than slot-1's 1/6 (17%)."
+    },
     {
      "op": "op-4091a652ca5c",
      "date": "2026-11-08",
@@ -8848,6 +8901,125 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-240976a622b4",
+   "date": "2026-11-18",
+   "name": "ILS Training",
+   "kind": "manual",
+   "types": [],
+   "training": true,
+   "brief": "",
+   "narrative": "",
+   "lessons": [],
+   "card": {
+    "mission_date": "2026-11-18",
+    "mission_time": "19:30"
+   },
+   "teams": [
+    {
+     "name": "Viper",
+     "task": "TRAINING",
+     "size": 4,
+     "pilots": []
+    }
+   ],
+   "results": [
+    {
+     "callsign": "Megatron",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": 80.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    }
+   ],
+   "pilots": 1,
+   "average": 80.0,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "instructor": "Sword",
+   "patches": [],
+   "report": "reports/op-240976a622b4.html"
+  },
+  {
+   "id": "op-71e5cfa72542",
+   "date": "2026-11-18",
+   "name": "SinaiMap 2026-11-18 21:43Z [EAF] MeGaTron flight",
+   "kind": "automatic",
+   "types": [
+    "CAS",
+    "FORMATION",
+    "SEAD"
+   ],
+   "training": true,
+   "brief": "",
+   "narrative": "EAF Flight-1 launched from Sinai at 00:02 with MeGaTron as lead and Maverick as number-2 in a CAS training sortie against a defended camp target. The flight formally joined at 00:14:13 — a reasonable join time — but the formation immediately showed signs of stress. Maverick recorded his first break at 00:25:29 and in slot-1 made six rejoin attempts averaging 143 seconds, with a worst single rejoin of 382 seconds; for 60% of his ticks he was in a 'none' formation state, essentially flying unilaterally. Formation score finished at 4/100, grade F. MeGaTron demonstrated the contrast between the two pilots clearly: his GBU-12 employment produced four impacts all within 70 metres of aim points — 70m, 19m, 21m, 68m — resulting in a fuel tank and an HQ building destroyed with professional stand-off geometry at 9,401 ft AGL minimum. Maverick's first-life AGM-65D work was poor: six shots fired between 00:44 and 00:46, only one impacted anywhere near a target (179m from a fuel tank), and he exposed himself to ZU-23 fire for 21 seconds before being killed at 00:49:09 — his minAGL of 11 feet also indicates a dangerous low-altitude excursion somewhere in the profile. After respawning at 00:53:18, Maverick's accuracy improved markedly: 3 of 6 AGM-65D shots hit (50%), destroying a Vulcan AAA at CPA 34m and a Gepard at CPA 95m — targets the first life left standing. However, slot-2 formation performance was catastrophically worse: a single rejoin attempt required 807 seconds (13 minutes 27 seconds), and 99% of ticks were in 'none' — Maverick effectively operated as an independent asset for the entire second life. MeGaTron, as lead, shares responsibility for not enforcing formation geometry or calling his wingman back. The tactical outcome is a partial success — four ground units destroyed between the two pilots — but the formation standards were unacceptable. MeGaTron trends downward from his 90-scored BFM sortie; Maverick continues to show potential in weapons accuracy that is undermined by formation indiscipline and threat-awareness failures.",
+   "lessons": [
+    "FORMATION REJOIN — A wingman separated for 807 seconds is not flying formation; that is solo flight in a two-ship. Standard is under 30 seconds for a routine rejoin, under 60 for an extended tactical spread. Both pilots must brief and enforce a maximum separation time before every sortie.",
+    "THREAT AWARENESS AND SURVIVAL — Maverick's first life ended to ZU-23 fire after 21 seconds of threat exposure; his minAGL of 11 ft implies he may have attempted a low-altitude gun pass against a live AAA site with no suppression in place. AGM-65D employment must be completed from a survivable altitude and aspect before closing the target.",
+    "LEAD ACCOUNTABILITY — MeGaTron flew a technically clean weapons sortie but allowed his wingman to operate uncontrolled for the majority of the flight. Flight lead is responsible for two-ship discipline; if the wingman cannot rejoin, RTB the wingman or abort the attack — do not allow a stray jet near a live target area."
+   ],
+   "card": {},
+   "teams": [],
+   "results": [
+    {
+     "callsign": "Megatron",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": 72.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 2,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 54,
+     "highlights": [
+      "Survived a 54-minute sortie, destroyed 2 targets (fuel tank and HQ building) with GBU-12s — all four impacts within 70m or less (19m, 21m, 68m, 70m), demonstrating consistently accurate LGB employment from 9,401 ft AGL.",
+      "Maintained aircraft throughout with no exceedances reported and a clean minAGL of 9,401 ft — professional stand-off discipline when attacking."
+     ],
+     "improvements": [
+      "MaxG of 5.70G is the highest on the sortie and is a concern — no formal exceedance was flagged by the tracker but 5.7G in a training CAS profile suggests aggressive maneuvering that needs justification; pull within 9G limit is fine but economy of G should be practiced.",
+      "MeGaTron flew as flight lead the entire sortie (reference pilot for Maverick's formation tracking) yet registered zero formation ticks, zero formation discipline data, and took no corrective radio action visible in the data to bring Maverick back into position — lead accountability for wingman position is a syllabus requirement."
+     ],
+     "note": "Accurate GBU-12 work (all four impacts ≤70m) and clean survival earn a pass, but a 5.7G peak and zero enforcement of flight-lead formation authority over a visibly absent wingman keep this well short of the A his BFM score suggested."
+    },
+    {
+     "callsign": "[EAF] Maverick",
+     "member": true,
+     "squadron": "",
+     "score": 42.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 3,
+     "friendly_kills": 0,
+     "deaths": 1,
+     "minutes": 44,
+     "highlights": [
+      "Second life showed genuine improvement: Maverick hit 3 of 6 AGM-65D shots (50% hit rate) in slot-2, destroying 2 AA threats (Vulcan at 01:10:57 CPA 34m, Gepard at 01:15:59 CPA 95m) — markedly better trigger discipline than slot-1's 1/6 (17%).",
+      "Best formation rejoin of 25 seconds recorded early in slot-1 — demonstrates the pilot knows the standard; execution just needs to become consistent."
+     ],
+     "improvements": [
+      "Formation discipline is unacceptable across both lives: slot-1 scored 4/100 (grade F), 60% of ticks in 'none', average rejoin 143s (worst 382s); slot-2 was worse — 0/100 discipline score, 99% 'none', single rejoin attempt took 807-808 seconds (13+ minutes). A wingman must be on the lead's wing, not autonomous.",
+      "Slot-1 AGM-65D employment was poor: 5 of 6 missed, miss distances ranging from 175m to 1,737m, and Maverick flew into ZU-23 lethal range (threat exposure 21s) before being killed at 00:49:09 — minAGL of 11 ft recorded confirms dangerously low flight at some point in the sortie."
+     ],
+     "note": "Better trigger finger in the second life (50% AGM-65D hit rate) but formation indiscipline — 807-second rejoin, 99% 'none' state — and a first-life deck-scrape to ZU-23 death make this a D sortie that only weapon improvement saves from worse."
+    }
+   ],
+   "pilots": 2,
+   "average": 57.0,
+   "air_kills": 0,
+   "ground_kills": 5,
+   "instructor": "Sword",
+   "patches": [],
+   "report": "reports/op-71e5cfa72542.html"
+  },
   {
    "id": "op-695251a7673d",
    "date": "2026-11-17",
