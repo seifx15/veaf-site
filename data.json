@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T23:06:50+00:00",
+ "generated": "2026-11-18T23:07:50+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -9,7 +9,7 @@
   "pilots": 87,
   "missions": 75,
   "sorties": 249,
-  "qualifications": 48,
+  "qualifications": 49,
   "hours": 196.9,
   "air_kills": 89,
   "ground_kills": 34
@@ -2888,6 +2888,13 @@
      "qualified": true
     },
     {
+     "name": "Tactical Turns / Formation",
+     "type": "BFM",
+     "score": 9.0,
+     "max": 10,
+     "qualified": true
+    },
+    {
      "name": "CCIP Tactical Pattern",
      "type": "CCIP",
      "score": 8.0,
@@ -2900,20 +2907,6 @@
      "score": 8.0,
      "max": 10,
      "qualified": true
-    },
-    {
-     "name": "Basic Fighter Maneuver (BFM)",
-     "type": "BFM",
-     "score": 9.0,
-     "max": 10,
-     "qualified": false
-    },
-    {
-     "name": "Tactical Turns / Formation",
-     "type": "BFM",
-     "score": 9.0,
-     "max": 10,
-     "qualified": false
     },
     {
      "name": "1 V 2 ACM",
@@ -2935,9 +2928,16 @@
      "score": 7.2,
      "max": 10,
      "qualified": false
+    },
+    {
+     "name": "Basic Fighter Maneuver (BFM)",
+     "type": "BFM",
+     "score": 6.0,
+     "max": 10,
+     "qualified": false
     }
    ],
-   "qualifications": 4,
+   "qualifications": 5,
    "courses": [
     {
      "title": "Basic Fighter Maneuver",
