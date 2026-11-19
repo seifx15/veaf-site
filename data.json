@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T23:07:50+00:00",
+ "generated": "2026-11-19T01:50:17+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -16775,7 +16775,8 @@
      "task": "TRAINING",
      "size": 4,
      "pilots": [
-      "Neo"
+      "Neo",
+      "Gmbekhit"
      ]
     }
    ],
@@ -16784,7 +16785,8 @@
     "[EAF] Maverick",
     "Blacksky",
     "[EAF] Taha",
-    "Neo"
+    "Neo",
+    "Gmbekhit"
    ],
    "reserves": []
   }
