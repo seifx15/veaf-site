@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T22:25:46+00:00",
+ "generated": "2026-11-20T00:00:16+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -16744,54 +16744,7 @@
    "report": ""
   }
  ],
- "upcoming": [
-  {
-   "id": "op-2983efded59d",
-   "op_id": "OP_2983efded59d",
-   "open": false,
-   "kneeboard": [],
-   "date": "2026-11-19",
-   "name": "vFS F16 x EAF",
-   "types": [],
-   "patches": [],
-   "brief": "We fly a Night Strike Mission on the Syria Map, from the Akrotiri Airbase in Cyprus.\n\nTraining Objective is a Package Strike on a Libanese Airbase\n\nAdditionally there will be a SEAD and TARCAP Flight!",
-   "card": {
-    "mission_date": "2026-11-19",
-    "mission_time": "18:00"
-   },
-   "teams": [
-    {
-     "name": "Viper",
-     "task": "TRAINING",
-     "size": 4,
-     "pilots": [
-      "Megatron",
-      "[EAF] Maverick",
-      "Blacksky",
-      "[EAF] Taha"
-     ]
-    },
-    {
-     "name": "Cobra",
-     "task": "TRAINING",
-     "size": 4,
-     "pilots": [
-      "Neo",
-      "Gmbekhit"
-     ]
-    }
-   ],
-   "signed": [
-    "Megatron",
-    "[EAF] Maverick",
-    "Blacksky",
-    "[EAF] Taha",
-    "Neo",
-    "Gmbekhit"
-   ],
-   "reserves": []
-  }
- ],
+ "upcoming": [],
  "scrims": [
   {
    "date": "2026-10-15",
