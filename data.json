@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T00:00:16+00:00",
+ "generated": "2026-11-20T19:13:32+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -16744,7 +16744,63 @@
    "report": ""
   }
  ],
- "upcoming": [],
+ "upcoming": [
+  {
+   "id": "op-51e3c4a06f62",
+   "op_id": "OP_51e3c4a06f62",
+   "open": false,
+   "kneeboard": [],
+   "date": "2026-12-7",
+   "name": "Red Flag 2026",
+   "types": [
+    "A-A",
+    "STRIKE"
+   ],
+   "patches": [],
+   "brief": "***NEVADA MAP OR TRIAL NEEDED***\n\nRed Flag is one of the world’s most demanding air combat exercises, held \nseveral times a year at Nellis Air Force Base in Nevada.  \n\nIts objective is to prepare pilots and aircrews from the United States and allied \nnations for their first real-world combat missions by placing them in a highly \nrealistic, high-stress environment.  \n\nRealism: The exercises utilize the 2.9-million-acre Nevada Test and Training \nRange (NTTR), which encompasses over 12,000 square miles of airspace.  \n\nScenarios: Training covers complex missions such as achieving air superiority, \nthe suppression of enemy air defenses (SEAD), and close air support (CAS).  \n\nAggressor Squadrons: Dedicated units—known as \"Red Force\"—simulate \nenemy tactics and equipment to challenge the \"Blue Forces\" (the exercise \nparticipants).",
+   "card": {
+    "mission_date": "2026-12-7",
+    "mission_time": "18:30",
+    "laser": "1688",
+    "freqs": [
+     {
+      "label": "CHECK-IN",
+      "mhz": ""
+     },
+     {
+      "label": "TACTICAL",
+      "mhz": ""
+     }
+    ],
+    "headings": [
+     {
+      "label": "PUSH",
+      "deg": ""
+     },
+     {
+      "label": "EGRESS",
+      "deg": ""
+     }
+    ]
+   },
+   "teams": [
+    {
+     "name": "Viper",
+     "task": "TRAINING",
+     "size": 4,
+     "pilots": []
+    },
+    {
+     "name": "Cobra",
+     "task": "TRAINING",
+     "size": 4,
+     "pilots": []
+    }
+   ],
+   "signed": [],
+   "reserves": []
+  }
+ ],
  "scrims": [
   {
    "date": "2026-10-15",
