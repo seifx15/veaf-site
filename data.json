@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T19:17:32+00:00",
+ "generated": "2026-11-20T19:19:32+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -16815,7 +16815,10 @@
      "name": "Viper",
      "task": "TRAINING",
      "size": 4,
-     "pilots": []
+     "pilots": [
+      "Blacksky",
+      "Sword"
+     ]
     },
     {
      "name": "Cobra",
@@ -16824,7 +16827,10 @@
      "pilots": []
     }
    ],
-   "signed": [],
+   "signed": [
+    "Blacksky",
+    "Sword"
+   ],
    "reserves": []
   }
  ],
