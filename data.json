@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T19:29:33+00:00",
+ "generated": "2026-11-20T19:32:34+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -16825,13 +16825,16 @@
      "name": "Cobra",
      "task": "TRAINING",
      "size": 4,
-     "pilots": []
+     "pilots": [
+      "Megatron"
+     ]
     }
    ],
    "signed": [
     "Blacksky",
     "Sword",
-    "mannan2349"
+    "mannan2349",
+    "Megatron"
    ],
    "reserves": []
   }
