@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T19:32:34+00:00",
+ "generated": "2026-11-20T20:19:39+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -16770,7 +16770,8 @@
      "pilots": [
       "Omar",
       "Blacksky",
-      "Sword"
+      "Sword",
+      "Ibraheem"
      ]
     },
     {
@@ -16783,7 +16784,8 @@
    "signed": [
     "Omar",
     "Blacksky",
-    "Sword"
+    "Sword",
+    "Ibraheem"
    ],
    "reserves": []
   },
@@ -16818,7 +16820,8 @@
      "pilots": [
       "Blacksky",
       "Sword",
-      "mannan2349"
+      "mannan2349",
+      "Ibraheem"
      ]
     },
     {
@@ -16834,7 +16837,8 @@
     "Blacksky",
     "Sword",
     "mannan2349",
-    "Megatron"
+    "Megatron",
+    "Ibraheem"
    ],
    "reserves": []
   }
