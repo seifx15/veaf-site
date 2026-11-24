@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T00:47:40+00:00",
+ "generated": "2026-11-24T00:49:41+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,12 +7,12 @@
  },
  "totals": {
   "pilots": 87,
-  "missions": 77,
-  "sorties": 253,
+  "missions": 78,
+  "sorties": 254,
   "qualifications": 49,
-  "hours": 199.6,
+  "hours": 200.3,
   "air_kills": 89,
-  "ground_kills": 42
+  "ground_kills": 44
  },
  "pilots": [
   {
@@ -4804,23 +4804,23 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 4,
-   "score": 262.0,
-   "average": 65.5,
+   "missions": 5,
+   "score": 342.0,
+   "average": 68.4,
    "best": 90.0,
    "air_kills": 0,
-   "ground_kills": 3,
+   "ground_kills": 5,
    "friendly_kills": 0,
-   "deaths": 1,
-   "hours": 2.7,
-   "last_flown": "2026-11-18",
+   "deaths": 2,
+   "hours": 3.4,
+   "last_flown": "2026-11-23",
    "grades": {
+    "B": 2,
     "D": 2,
-    "B": 1,
     "A": 1
    },
    "mission_types": {
-    "CAS": 2,
+    "CAS": 3,
     "FORMATION": 2,
     "SEAD": 2,
     "BFM": 1,
@@ -4864,9 +4864,32 @@
      "code": "BFM-1",
      "status": "ready",
      "instructors": []
+    },
+    {
+     "title": "Surface Attack Tactics",
+     "code": "SAT-1",
+     "status": "in_progress",
+     "instructors": []
     }
    ],
    "history": [
+    {
+     "op": "op-f5b3daf33e7f",
+     "date": "2026-11-23",
+     "name": "SinaiMap 2026-11-23 23:33Z [EAF] Maverick flight",
+     "types": [
+      "CAS"
+     ],
+     "training": true,
+     "score": 80.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 2,
+     "friendly_kills": 0,
+     "deaths": 1,
+     "minutes": 40,
+     "highlight": "Scored 2 ground kills (Gepard AAA via GBU-38 at 20m miss, SA-18 Igla-S MANPAD via gun) — both legitimate AD suppressions on a live threat environment."
+    },
     {
      "op": "op-71e5cfa72542",
      "date": "2026-11-18",
@@ -8981,6 +9004,55 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-f5b3daf33e7f",
+   "date": "2026-11-23",
+   "name": "SinaiMap 2026-11-23 23:33Z [EAF] Maverick flight",
+   "kind": "automatic",
+   "types": [
+    "CAS"
+   ],
+   "training": true,
+   "brief": "",
+   "narrative": "Maverick launched on a 40-minute CAS training sortie over Sinai, operating F16_CAS-2 against a defended ground target complex. He achieved two valid ground kills — a Gepard AAA vehicle with a GBU-38 (20 m miss, still within lethal radius) and an SA-18 Igla-S MANPAD crew with the gun — which represents real tactical value against an air-defence threat array. That is where the good news ends. Four GBU-38 releases produced zero direct hits and an aggregate miss total of 465 m, including one bomb that impacted 348 m from its nearest scored target, which is field-unacceptable precision for a GPS-guided weapon. Formation performance was consistently poor throughout the sortie: nine rejoin attempts with an average of 136 seconds out of position and a worst case of 436 seconds — Maverick was effectively a solo aircraft for large portions of the flight despite operating in a multi-ship environment. The formation discipline score of 28.7 out of 100 is the lowest this evaluator has recorded for a pilot who was not explicitly conducting independent operations. The fatal sequence beginning around 01:05:00 tells the whole story of this sortie's systemic problems: Maverick commenced gun passes against ground targets, busted the 500 ft hard deck twice in rapid succession (reaching 384 ft then 231 ft AGL), pulled 10.8 G and then 11.3 G in a two-second window recovering from the second bust, recorded a telemetry minimum AGL of 3 ft at some point in this window, and was subsequently killed by an M-1 Abrams at 01:08:07 — ground fire, because he was operating at tank-gun altitude. Thirteen gun passes fired 448 rounds with zero hits on any scored target, meaning every round was wasted. The pilot ejected; the aircraft was lost. This continues a declining trend: 65 two missions ago, 42 last mission, 38 today. The pattern is not random variance — it is a pilot who is pressing attacks without the discipline to execute them safely or accurately. Priority remediation items for the next sortie are hard-deck discipline and GBU-38 employment procedures.",
+   "lessons": [
+    "The hard deck is not a suggestion — busting 500 ft AGL twice during gun passes against a tank-defended objective is the direct causal chain to losing the aircraft. If you cannot complete the attack parameters above the floor, you abort the pass. A dry pass costs nothing; a deck bust in a hot environment costs the jet and potentially the pilot.",
+    "GBU-38 is a precision weapon that requires a precision solution: 4 releases, 0 direct hits, 465 m total error means either the DTOS designation was not held, the system was not in CCRP, or release parameters (altitude, dive angle, airspeed) were not met. Practice the weapons employment checklist at altitude before bringing it to the target.",
+    "Formation discipline and survival are linked: spending 51% of tracked time out of position means no mutual support, no visual coverage, and no one to call your low-altitude threat. A wingman in position at 436 seconds of separation is not a wingman — he is a spectator. Rejoin immediately after every attack, do not wait for the lead to call you back."
+   ],
+   "card": {},
+   "teams": [],
+   "results": [
+    {
+     "callsign": "[EAF] Maverick",
+     "member": true,
+     "squadron": "",
+     "score": 80.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 2,
+     "friendly_kills": 0,
+     "deaths": 1,
+     "minutes": 40,
+     "highlights": [
+      "Scored 2 ground kills (Gepard AAA via GBU-38 at 20m miss, SA-18 Igla-S MANPAD via gun) — both legitimate AD suppressions on a live threat environment.",
+      "Best formation rejoin was 12 seconds at 00:54:29 — demonstrates the pilot CAN snap back when he applies himself."
+     ],
+     "improvements": [
+      "TWO CAS hard-deck busts recorded (384 ft AGL at 01:05:12 and 231 ft AGL at 01:07:11, hard deck 500 ft) — both during gun passes. Diving below the deck in a defended environment is how you get killed by M-1 Abrams, which is exactly what happened at 01:08:07. Establish a floor, honour it, pull off early.",
+      "GBU-38 accuracy is unacceptable: 4 releases produced misses of 21 m, 19.6 m, 76.5 m, and 348 m — that last bomb missed the nearest target by over a third of a kilometre. No direct hits recorded. Total miss distance 465 m across 4 weapons. Fix the DTOS/CCRP solution before pickle, or this loadout is wasted ordnance."
+     ],
+     "note": "Two good kills buried under two deck busts, 448 rounds with zero gun hits, an 11.3 G spike during a strafing pass that put him at 3 ft AGL, and death by Abrams — this sortie is a textbook example of pressing without precision or discipline."
+    }
+   ],
+   "pilots": 1,
+   "average": 80.0,
+   "air_kills": 0,
+   "ground_kills": 2,
+   "instructor": "Sword",
+   "patches": [],
+   "report": "reports/op-f5b3daf33e7f.html"
+  },
   {
    "id": "op-6ff61319e5cd",
    "date": "2026-11-23",
