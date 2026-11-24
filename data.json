@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T23:44:47+00:00",
+ "generated": "2026-11-24T23:45:52+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -993,11 +993,7 @@
     }
    ],
    "joined": "2026-07-28",
-   "aircraft": [
-    "F-16C Viper",
-    "F/A-18C Hornet",
-    "F-15C"
-   ],
+   "aircraft": [],
    "bio": "",
    "missions": 1,
    "score": 56.0,
@@ -1738,8 +1734,8 @@
    ],
    "joined": "2026-07-08",
    "aircraft": [
-    "F-16C Viper",
-    "F/A-18C Hornet"
+    "F/A-18C Hornet",
+    "F-16C Viper"
    ],
    "bio": "",
    "missions": 27,
@@ -2347,9 +2343,7 @@
     }
    ],
    "joined": "2026-07-08",
-   "aircraft": [
-    "F-16C Viper"
-   ],
+   "aircraft": [],
    "bio": "",
    "missions": 9,
    "score": 623.0,
@@ -3927,9 +3921,7 @@
     }
    ],
    "joined": "2026-09-25",
-   "aircraft": [
-    "F-16C Viper"
-   ],
+   "aircraft": [],
    "bio": "",
    "missions": 6,
    "score": 313.0,
@@ -8086,9 +8078,7 @@
     }
    ],
    "joined": "2026-10-09",
-   "aircraft": [
-    "F-16C Viper"
-   ],
+   "aircraft": [],
    "bio": "",
    "missions": 1,
    "score": 62.0,
@@ -8184,9 +8174,7 @@
     }
    ],
    "joined": "2026-10-13",
-   "aircraft": [
-    "F-16C Viper"
-   ],
+   "aircraft": [],
    "bio": "",
    "missions": 0,
    "score": 0.0,
