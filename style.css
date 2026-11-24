@@ -282,6 +282,11 @@ tr.top3 .pos { color: var(--dayglo); }
 .result .vs { min-width: 0; }
 .result .score { font: 600 1rem/1 var(--f-mono); color: var(--sand); text-align: end; }
 @media (max-width: 600px) { .result { grid-template-columns: minmax(0, 1fr) auto; } .result .d { grid-column: 1 / -1; } }
+.films { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.film { margin: 0; }
+.film video { width: 100%; height: auto; aspect-ratio: 16 / 9; background: #000; border-radius: 4px; display: block; }
+.film figcaption { font: 500 0.78rem/1.4 var(--f-mono); color: var(--muted); padding-top: 8px; letter-spacing: .04em; text-transform: uppercase; }
+@media (max-width: 800px) { .films { grid-template-columns: 1fr; } }
 .gallery { columns: 3 320px; column-gap: 14px; }
 .gallery figure { margin: 0 0 14px; break-inside: avoid; }
 .gallery img { border-radius: 4px; width: 100%; cursor: zoom-in; }

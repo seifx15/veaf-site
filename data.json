@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T00:49:41+00:00",
+ "generated": "2026-11-24T21:43:36+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -51,7 +51,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260708193733_285",
@@ -191,7 +192,7 @@
     {
      "op": "op-67b5913cfe37",
      "date": "2026-11-23",
-     "name": "SinaiMap 2026-11-23 23:22Z CAS",
+     "name": "CAS · 23:22Z",
      "types": [
       "CAS",
       "SEAD"
@@ -209,7 +210,7 @@
     {
      "op": "op-695251a7673d",
      "date": "2026-11-17",
-     "name": "SinaiMap 2026-11-17 23:00Z CAS",
+     "name": "CAS · 23:00Z",
      "types": [
       "CAS",
       "SEAD"
@@ -246,7 +247,7 @@
     {
      "op": "op-e479fd5da400",
      "date": "2026-11-11",
-     "name": "SinaiMap 2026-11-11 19:22Z STRAFE",
+     "name": "Strafe · 19:22Z",
      "types": [
       "STRAFE",
       "SEAD"
@@ -264,7 +265,7 @@
     {
      "op": "op-37e02481772a",
      "date": "2026-11-10",
-     "name": "SinaiMap 2026-11-10 21:04Z STRAFE",
+     "name": "Strafe · 21:04Z",
      "types": [
       "STRAFE",
       "CCIP",
@@ -391,7 +392,7 @@
     {
      "op": "op-5d7ea67f6466",
      "date": "2026-10-18",
-     "name": "SinaiMap 2026-10-18 00:03Z BVR practice",
+     "name": "BVR practice · 00:03Z",
      "types": [
       "A-A",
       "BVR"
@@ -928,7 +929,38 @@
      "minutes": 0,
      "highlight": ""
     }
-   ]
+   ],
+   "logbook": {
+    "hours": 8.6,
+    "by_aircraft": {
+     "F-16C Viper": 8.6
+    },
+    "by_map": {
+     "SinaiMap": 6.7,
+     "?": 1.2,
+     "Caucasus": 0.7
+    },
+    "flights": 15,
+    "sorties": 15,
+    "landings": 0,
+    "landing_grades": {},
+    "landing_avg": null,
+    "traps": 0,
+    "aar_fills": 0,
+    "air_kills": 8,
+    "ground_kills": 6,
+    "deaths": 2,
+    "ejections": 0,
+    "kd": 7.0,
+    "weapons": {
+     "AIM_120C": {
+      "shots": 26,
+      "hits": 9
+     }
+    },
+    "first": "2026-10-17",
+    "last": "2026-11-23"
+   }
   },
   {
    "id": "P_20260728211859_758",
@@ -1007,7 +1039,8 @@
      "minutes": 28,
      "highlight": "Three BVR survival outcomes in competitive rounds shows solid defensive execution in those engagements."
     }
-   ]
+   ],
+   "logbook": null
   },
   {
    "id": "P_20260708193733_503",
@@ -1184,7 +1217,7 @@
     {
      "op": "op-e479fd5da400",
      "date": "2026-11-11",
-     "name": "SinaiMap 2026-11-11 19:22Z STRAFE",
+     "name": "Strafe · 19:22Z",
      "types": [
       "STRAFE",
       "SEAD"
@@ -1629,7 +1662,37 @@
      "minutes": 0,
      "highlight": ""
     }
-   ]
+   ],
+   "logbook": {
+    "hours": 4.1,
+    "by_aircraft": {
+     "F-16C Viper": 4.0
+    },
+    "by_map": {
+     "SinaiMap": 3.2,
+     "?": 0.8
+    },
+    "flights": 6,
+    "sorties": 6,
+    "landings": 0,
+    "landing_grades": {},
+    "landing_avg": null,
+    "traps": 0,
+    "aar_fills": 0,
+    "air_kills": 0,
+    "ground_kills": 0,
+    "deaths": 2,
+    "ejections": 0,
+    "kd": 0.0,
+    "weapons": {
+     "AIM_120C": {
+      "shots": 0,
+      "hits": 2
+     }
+    },
+    "first": "2026-11-04",
+    "last": "2026-11-13"
+   }
   },
   {
    "id": "P_20260708193733_663",
@@ -1763,7 +1826,7 @@
     {
      "op": "op-67b5913cfe37",
      "date": "2026-11-23",
-     "name": "SinaiMap 2026-11-23 23:22Z CAS",
+     "name": "CAS · 23:22Z",
      "types": [
       "CAS",
       "SEAD"
@@ -1800,7 +1863,7 @@
     {
      "op": "op-e479fd5da400",
      "date": "2026-11-11",
-     "name": "SinaiMap 2026-11-11 19:22Z STRAFE",
+     "name": "Strafe · 19:22Z",
      "types": [
       "STRAFE",
       "SEAD"
@@ -1818,7 +1881,7 @@
     {
      "op": "op-37e02481772a",
      "date": "2026-11-10",
-     "name": "SinaiMap 2026-11-10 21:04Z STRAFE",
+     "name": "Strafe · 21:04Z",
      "types": [
       "STRAFE",
       "CCIP",
@@ -2208,7 +2271,32 @@
      "minutes": 0,
      "highlight": ""
     }
-   ]
+   ],
+   "logbook": {
+    "hours": 6.7,
+    "by_aircraft": {
+     "F-16C Viper": 4.5,
+     "F/A-18C Hornet": 2.2
+    },
+    "by_map": {
+     "SinaiMap": 6.7
+    },
+    "flights": 13,
+    "sorties": 11,
+    "landings": 0,
+    "landing_grades": {},
+    "landing_avg": null,
+    "traps": 0,
+    "aar_fills": 0,
+    "air_kills": 0,
+    "ground_kills": 4,
+    "deaths": 0,
+    "ejections": 0,
+    "kd": null,
+    "weapons": {},
+    "first": "2026-10-17",
+    "last": "2026-11-23"
+   }
   },
   {
    "id": "P_20260708193733_546",
@@ -2470,7 +2558,8 @@
      "minutes": 72,
      "highlight": "Best formation discipline in the flight at 86.8, 39% route / 28% trail, only 1% 'none' time — genuinely tight wingman work"
     }
-   ]
+   ],
+   "logbook": null
   },
   {
    "id": "P_20260708193733_298",
@@ -2860,7 +2949,36 @@
      "minutes": 0,
      "highlight": ""
     }
-   ]
+   ],
+   "logbook": {
+    "hours": 0.5,
+    "by_aircraft": {
+     "F-16C Viper": 0.5
+    },
+    "by_map": {
+     "SinaiMap": 0.5
+    },
+    "flights": 5,
+    "sorties": 5,
+    "landings": 0,
+    "landing_grades": {},
+    "landing_avg": null,
+    "traps": 0,
+    "aar_fills": 0,
+    "air_kills": 2,
+    "ground_kills": 0,
+    "deaths": 4,
+    "ejections": 0,
+    "kd": 0.5,
+    "weapons": {
+     "AIM_120C": {
+      "shots": 13,
+      "hits": 2
+     }
+    },
+    "first": "2026-10-28",
+    "last": "2026-10-28"
+   }
   },
   {
    "id": "P_20260708193733_806",
@@ -3020,7 +3138,7 @@
     {
      "op": "op-71e5cfa72542",
      "date": "2026-11-18",
-     "name": "SinaiMap 2026-11-18 21:43Z [EAF] MeGaTron flight",
+     "name": "MeGaTron flight · 21:43Z",
      "types": [
       "CAS",
       "FORMATION",
@@ -3077,7 +3195,7 @@
     {
      "op": "op-e479fd5da400",
      "date": "2026-11-11",
-     "name": "SinaiMap 2026-11-11 19:22Z STRAFE",
+     "name": "Strafe · 19:22Z",
      "types": [
       "STRAFE",
       "SEAD"
@@ -3095,7 +3213,7 @@
     {
      "op": "op-37e02481772a",
      "date": "2026-11-10",
-     "name": "SinaiMap 2026-11-10 21:04Z STRAFE",
+     "name": "Strafe · 21:04Z",
      "types": [
       "STRAFE",
       "CCIP",
@@ -3333,7 +3451,7 @@
     {
      "op": "op-70fa536abf5b",
      "date": "2026-10-18",
-     "name": "SinaiMap 2026-10-18 21:28Z BFM",
+     "name": "BFM · 21:28Z",
      "types": [
       "BFM",
       "A-A"
@@ -3351,7 +3469,7 @@
     {
      "op": "op-ad99bd60df15",
      "date": "2026-10-18",
-     "name": "SinaiMap 2026-10-18 00:59Z BFM",
+     "name": "BFM · 00:59Z",
      "types": [
       "BFM",
       "A-A"
@@ -3369,7 +3487,7 @@
     {
      "op": "op-5d7ea67f6466",
      "date": "2026-10-18",
-     "name": "SinaiMap 2026-10-18 00:03Z BVR practice",
+     "name": "BVR practice · 00:03Z",
      "types": [
       "A-A",
       "BVR"
@@ -3706,7 +3824,41 @@
      "minutes": 0,
      "highlight": ""
     }
-   ]
+   ],
+   "logbook": {
+    "hours": 11.1,
+    "by_aircraft": {
+     "F-16C Viper": 11.1
+    },
+    "by_map": {
+     "SinaiMap": 10.3,
+     "?": 0.8
+    },
+    "flights": 28,
+    "sorties": 24,
+    "landings": 0,
+    "landing_grades": {},
+    "landing_avg": null,
+    "traps": 0,
+    "aar_fills": 0,
+    "air_kills": 20,
+    "ground_kills": 2,
+    "deaths": 11,
+    "ejections": 0,
+    "kd": 2.0,
+    "weapons": {
+     "AIM_9": {
+      "shots": 68,
+      "hits": 0
+     },
+     "AIM_120C": {
+      "shots": 34,
+      "hits": 3
+     }
+    },
+    "first": "2026-10-17",
+    "last": "2026-11-18"
+   }
   },
   {
    "id": "P_59c01538a4044add97aabc32e6ce63f6",
@@ -3899,7 +4051,8 @@
      "minutes": 120,
      "highlight": ""
     }
-   ]
+   ],
+   "logbook": null
   },
   {
    "id": "P_41ee0ec58813",
@@ -3937,7 +4090,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260708193733_819",
@@ -3975,7 +4129,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260708193733_715",
@@ -4105,7 +4260,7 @@
     {
      "op": "op-695251a7673d",
      "date": "2026-11-17",
-     "name": "SinaiMap 2026-11-17 23:00Z CAS",
+     "name": "CAS · 23:00Z",
      "types": [
       "CAS",
       "SEAD"
@@ -4123,7 +4278,7 @@
     {
      "op": "op-33291cd0e4ee",
      "date": "2026-11-17",
-     "name": "SinaiMap 2026-11-17 23:40Z CAS",
+     "name": "CAS · 23:40Z",
      "types": [
       "CAS",
       "SEAD"
@@ -4141,7 +4296,7 @@
     {
      "op": "op-37e02481772a",
      "date": "2026-11-10",
-     "name": "SinaiMap 2026-11-10 21:04Z STRAFE",
+     "name": "Strafe · 21:04Z",
      "types": [
       "STRAFE",
       "CCIP",
@@ -4245,7 +4400,32 @@
      "minutes": 30,
      "highlight": "Fulfilled his tasked role - dropped the TALDs (ADM-141A x6) at ~44nm to spoof the Patriot, then re-attacked with HARM and killed a Roland ADS."
     }
-   ]
+   ],
+   "logbook": {
+    "hours": 2.9,
+    "by_aircraft": {
+     "F/A-18C Hornet": 2.6,
+     "A-10C II": 0.4
+    },
+    "by_map": {
+     "SinaiMap": 2.9
+    },
+    "flights": 4,
+    "sorties": 4,
+    "landings": 0,
+    "landing_grades": {},
+    "landing_avg": null,
+    "traps": 0,
+    "aar_fills": 0,
+    "air_kills": 0,
+    "ground_kills": 2,
+    "deaths": 0,
+    "ejections": 0,
+    "kd": null,
+    "weapons": {},
+    "first": "2026-10-26",
+    "last": "2026-11-17"
+   }
   },
   {
    "id": "P_20260708193733_613",
@@ -4345,7 +4525,7 @@
     {
      "op": "op-67b5913cfe37",
      "date": "2026-11-23",
-     "name": "SinaiMap 2026-11-23 23:22Z CAS",
+     "name": "CAS · 23:22Z",
      "types": [
       "CAS",
       "SEAD"
@@ -4382,7 +4562,7 @@
     {
      "op": "op-e479fd5da400",
      "date": "2026-11-11",
-     "name": "SinaiMap 2026-11-11 19:22Z STRAFE",
+     "name": "Strafe · 19:22Z",
      "types": [
       "STRAFE",
       "SEAD"
@@ -4400,7 +4580,7 @@
     {
      "op": "op-37e02481772a",
      "date": "2026-11-10",
-     "name": "SinaiMap 2026-11-10 21:04Z STRAFE",
+     "name": "Strafe · 21:04Z",
      "types": [
       "STRAFE",
       "CCIP",
@@ -4419,7 +4599,7 @@
     {
      "op": "op-7bd80d540cfe",
      "date": "2026-11-10",
-     "name": "EAF Caucasus Training 2026-11-10 13:57Z A-A",
+     "name": "Air-to-air · 13:57Z",
      "types": [
       "A-A"
      ],
@@ -4473,7 +4653,7 @@
     {
      "op": "op-087910dbf26d",
      "date": "2026-10-18",
-     "name": "SinaiMap 2026-10-18 21:24Z BVR practice",
+     "name": "BVR practice · 21:24Z",
      "types": [
       "A-A",
       "BVR"
@@ -4491,7 +4671,7 @@
     {
      "op": "op-905dc07d5501",
      "date": "2026-10-18",
-     "name": "SinaiMap 2026-10-18 22:06Z BVR practice",
+     "name": "BVR practice · 22:06Z",
      "types": [
       "A-A",
       "BVR"
@@ -4591,7 +4771,41 @@
      "minutes": 240,
      "highlight": ""
     }
-   ]
+   ],
+   "logbook": {
+    "hours": 8.1,
+    "by_aircraft": {
+     "F-16C Viper": 8.1
+    },
+    "by_map": {
+     "SinaiMap": 6.9,
+     "Caucasus": 1.2
+    },
+    "flights": 19,
+    "sorties": 19,
+    "landings": 0,
+    "landing_grades": {},
+    "landing_avg": null,
+    "traps": 0,
+    "aar_fills": 0,
+    "air_kills": 10,
+    "ground_kills": 1,
+    "deaths": 9,
+    "ejections": 0,
+    "kd": 1.22,
+    "weapons": {
+     "AIM_120C": {
+      "shots": 41,
+      "hits": 10
+     },
+     "AIM_9X": {
+      "shots": 0,
+      "hits": 1
+     }
+    },
+    "first": "2026-10-18",
+    "last": "2026-11-24"
+   }
   },
   {
    "id": "P_20260708193733_754",
@@ -4629,7 +4843,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260727005123_516",
@@ -4667,7 +4882,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_71e36930379f448dad2502c47a9dcf22",
@@ -4705,7 +4921,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_cf63066b25084b469e6201141dd5b775",
@@ -4779,7 +4996,31 @@
      "minutes": 29,
      "highlight": "Defeated 2 of 3 inbound SAMs (66.7% defeat rate); one S-300 round defeated at CPA 39,788 m and one SA-5 at CPA 4,011 m — active defensive maneuvering kept the aircraft alive long enough to contribute to the attack timeline."
     }
-   ]
+   ],
+   "logbook": {
+    "hours": 0.5,
+    "by_aircraft": {
+     "F-16C Viper": 0.5
+    },
+    "by_map": {
+     "Caucasus": 0.5
+    },
+    "flights": 1,
+    "sorties": 1,
+    "landings": 0,
+    "landing_grades": {},
+    "landing_avg": null,
+    "traps": 0,
+    "aar_fills": 0,
+    "air_kills": 0,
+    "ground_kills": 0,
+    "deaths": 1,
+    "ejections": 0,
+    "kd": 0.0,
+    "weapons": {},
+    "first": "2026-11-08",
+    "last": "2026-11-08"
+   }
   },
   {
    "id": "P_031fcc77ecae",
@@ -4876,7 +5117,7 @@
     {
      "op": "op-f5b3daf33e7f",
      "date": "2026-11-23",
-     "name": "SinaiMap 2026-11-23 23:33Z [EAF] Maverick flight",
+     "name": "Maverick flight · 23:33Z",
      "types": [
       "CAS"
      ],
@@ -4893,7 +5134,7 @@
     {
      "op": "op-71e5cfa72542",
      "date": "2026-11-18",
-     "name": "SinaiMap 2026-11-18 21:43Z [EAF] MeGaTron flight",
+     "name": "MeGaTron flight · 21:43Z",
      "types": [
       "CAS",
       "FORMATION",
@@ -4963,7 +5204,32 @@
      "minutes": 62,
      "highlight": "Formation discipline score 71.7 is the highest of the formation-tracked pilots, and avg rejoin 23 s with best 6 s shows Maverick can hold position when attention is on the lead."
     }
-   ]
+   ],
+   "logbook": {
+    "hours": 3.4,
+    "by_aircraft": {
+     "F-16C Viper": 3.4
+    },
+    "by_map": {
+     "SinaiMap": 2.5,
+     "Caucasus": 1.0
+    },
+    "flights": 5,
+    "sorties": 5,
+    "landings": 0,
+    "landing_grades": {},
+    "landing_avg": null,
+    "traps": 0,
+    "aar_fills": 0,
+    "air_kills": 0,
+    "ground_kills": 5,
+    "deaths": 2,
+    "ejections": 0,
+    "kd": 2.5,
+    "weapons": {},
+    "first": "2026-11-05",
+    "last": "2026-11-23"
+   }
   },
   {
    "id": "P_20260708193733_296",
@@ -5340,7 +5606,40 @@
      "minutes": 0,
      "highlight": ""
     }
-   ]
+   ],
+   "logbook": {
+    "hours": 2.9,
+    "by_aircraft": {
+     "F-16C Viper": 2.9
+    },
+    "by_map": {
+     "SinaiMap": 2.9
+    },
+    "flights": 9,
+    "sorties": 9,
+    "landings": 0,
+    "landing_grades": {},
+    "landing_avg": null,
+    "traps": 0,
+    "aar_fills": 0,
+    "air_kills": 3,
+    "ground_kills": 2,
+    "deaths": 6,
+    "ejections": 0,
+    "kd": 0.83,
+    "weapons": {
+     "AIM_120C": {
+      "shots": 19,
+      "hits": 2
+     },
+     "AIM_9": {
+      "shots": 4,
+      "hits": 0
+     }
+    },
+    "first": "2026-10-28",
+    "last": "2026-11-05"
+   }
   },
   {
    "id": "P_5c5f7ffd93984a2baca7f34b4994a769",
@@ -5378,7 +5677,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260708193733_775",
@@ -5416,7 +5716,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260905004550_349",
@@ -5454,7 +5755,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260708193733_368",
@@ -5522,7 +5824,8 @@
      "minutes": 0,
      "highlight": ""
     }
-   ]
+   ],
+   "logbook": null
   },
   {
    "id": "P_20260708193733_769",
@@ -5580,7 +5883,8 @@
      "minutes": 28,
      "highlight": "Controlled maxG 4.8, no exceedances"
     }
-   ]
+   ],
+   "logbook": null
   },
   {
    "id": "P_20260904215221_445",
@@ -5638,7 +5942,8 @@
      "minutes": 0,
      "highlight": ""
     }
-   ]
+   ],
+   "logbook": null
   },
   {
    "id": "P_20260708193733_970",
@@ -5676,7 +5981,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260708193733_449",
@@ -5714,7 +6020,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260712010732_566",
@@ -5835,7 +6142,31 @@
      "minutes": 40,
      "highlight": "Runs 1 and 3 shacks (11.6m and 8.6m CEP) demonstrate genuine accuracy capability — the physical technique is present when conditions are right."
     }
-   ]
+   ],
+   "logbook": {
+    "hours": 0.6,
+    "by_aircraft": {
+     "F-16C Viper": 0.6
+    },
+    "by_map": {
+     "SinaiMap": 0.6
+    },
+    "flights": 1,
+    "sorties": 1,
+    "landings": 0,
+    "landing_grades": {},
+    "landing_avg": null,
+    "traps": 0,
+    "aar_fills": 0,
+    "air_kills": 0,
+    "ground_kills": 0,
+    "deaths": 0,
+    "ejections": 0,
+    "kd": null,
+    "weapons": {},
+    "first": "2026-10-17",
+    "last": "2026-10-17"
+   }
   },
   {
    "id": "P_20260708193733_229",
@@ -5873,7 +6204,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_4d32934059334b9eb1c01a5528ed2fcf",
@@ -5911,7 +6243,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260708193733_941",
@@ -5949,7 +6282,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260708193733_136",
@@ -5987,7 +6321,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260802223310_191",
@@ -6025,7 +6360,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260830020449_164",
@@ -6087,7 +6423,8 @@
      "minutes": 65,
      "highlight": "4 for 4 shacks, avg CEP 11.1 m, best 5.4 m - perfect bombing scorecard"
     }
-   ]
+   ],
+   "logbook": null
   },
   {
    "id": "P_20260708193733_420",
@@ -6125,7 +6462,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260806040629_720",
@@ -6357,7 +6695,31 @@
      "minutes": 77,
      "highlight": "0s in WEZ, min range 41.7nm — full standoff posture"
     }
-   ]
+   ],
+   "logbook": {
+    "hours": 0.6,
+    "by_aircraft": {
+     "F-16C Viper": 0.6
+    },
+    "by_map": {
+     "SinaiMap": 0.6
+    },
+    "flights": 1,
+    "sorties": 1,
+    "landings": 0,
+    "landing_grades": {},
+    "landing_avg": null,
+    "traps": 0,
+    "aar_fills": 0,
+    "air_kills": 0,
+    "ground_kills": 0,
+    "deaths": 0,
+    "ejections": 0,
+    "kd": null,
+    "weapons": {},
+    "first": "2026-11-13",
+    "last": "2026-11-13"
+   }
   },
   {
    "id": "P_20260727234037_851",
@@ -6395,7 +6757,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260708193733_224",
@@ -6433,7 +6796,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260802224825_242",
@@ -6471,7 +6835,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260708193733_218",
@@ -6509,7 +6874,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260708193733_412",
@@ -6547,7 +6913,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260829222429_779",
@@ -6609,7 +6976,8 @@
      "minutes": 55,
      "highlight": "4 passes, avg CEP 27 m with best of 8.1 m shack - two shacks on the board"
     }
-   ]
+   ],
+   "logbook": null
   },
   {
    "id": "P_20260708193733_134",
@@ -6647,7 +7015,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260817050438_618",
@@ -6813,7 +7182,7 @@
     {
      "op": "op-087910dbf26d",
      "date": "2026-10-18",
-     "name": "SinaiMap 2026-10-18 21:24Z BVR practice",
+     "name": "BVR practice · 21:24Z",
      "types": [
       "A-A",
       "BVR"
@@ -6831,7 +7200,7 @@
     {
      "op": "op-905dc07d5501",
      "date": "2026-10-18",
-     "name": "SinaiMap 2026-10-18 22:06Z BVR practice",
+     "name": "BVR practice · 22:06Z",
      "types": [
       "A-A",
       "BVR"
@@ -6861,7 +7230,37 @@
      "minutes": 62,
      "highlight": "232 s at corner velocity - most aggressive, energy-aware turner in the flight"
     }
-   ]
+   ],
+   "logbook": {
+    "hours": 2.2,
+    "by_aircraft": {
+     "F-16C Viper": 2.2
+    },
+    "by_map": {
+     "SinaiMap": 1.4,
+     "?": 0.8
+    },
+    "flights": 5,
+    "sorties": 4,
+    "landings": 0,
+    "landing_grades": {},
+    "landing_avg": null,
+    "traps": 0,
+    "aar_fills": 0,
+    "air_kills": 0,
+    "ground_kills": 0,
+    "deaths": 0,
+    "ejections": 2,
+    "kd": null,
+    "weapons": {
+     "AIM_120C": {
+      "shots": 7,
+      "hits": 0
+     }
+    },
+    "first": "2026-10-18",
+    "last": "2026-11-05"
+   }
   },
   {
    "id": "P_20260726234827_154",
@@ -6899,7 +7298,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260708193733_241",
@@ -6967,7 +7367,8 @@
      "minutes": 45,
      "highlight": "75% survival rate across countable rounds is strong for competitive BVR."
     }
-   ]
+   ],
+   "logbook": null
   },
   {
    "id": "P_20260708193733_101",
@@ -7005,7 +7406,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_ea29ef53c2ba",
@@ -7043,7 +7445,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_19e993ce8b284b308443b72e6ffac966",
@@ -7081,7 +7484,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_8783963eb255",
@@ -7202,7 +7606,7 @@
     {
      "op": "op-6ff61319e5cd",
      "date": "2026-11-23",
-     "name": "SinaiMap 2026-11-23 23:21Z [EAF] Maverick flight",
+     "name": "Maverick flight · 23:21Z",
      "types": [
       "CAS",
       "SEAD",
@@ -7221,7 +7625,7 @@
     {
      "op": "op-695251a7673d",
      "date": "2026-11-17",
-     "name": "SinaiMap 2026-11-17 23:00Z CAS",
+     "name": "CAS · 23:00Z",
      "types": [
       "CAS",
       "SEAD"
@@ -7277,7 +7681,7 @@
     {
      "op": "op-e479fd5da400",
      "date": "2026-11-11",
-     "name": "SinaiMap 2026-11-11 19:22Z STRAFE",
+     "name": "Strafe · 19:22Z",
      "types": [
       "STRAFE",
       "SEAD"
@@ -7295,7 +7699,7 @@
     {
      "op": "op-37e02481772a",
      "date": "2026-11-10",
-     "name": "SinaiMap 2026-11-10 21:04Z STRAFE",
+     "name": "Strafe · 21:04Z",
      "types": [
       "STRAFE",
       "CCIP",
@@ -7314,7 +7718,7 @@
     {
      "op": "op-9d71a7b1ec92",
      "date": "2026-11-10",
-     "name": "EAF Caucasus Training 2026-11-10 11:44Z A-A",
+     "name": "Air-to-air · 11:44Z",
      "types": [
       "A-A",
       "SEAD"
@@ -7419,7 +7823,42 @@
      "minutes": 54,
      "highlight": "Flew the FA-18C for 53.5 minutes with no deaths — sortie completion without attrition is a baseline positive."
     }
-   ]
+   ],
+   "logbook": {
+    "hours": 11.3,
+    "by_aircraft": {
+     "F/A-18C Hornet": 11.3
+    },
+    "by_map": {
+     "SinaiMap": 6.7,
+     "Caucasus": 3.6,
+     "?": 0.9
+    },
+    "flights": 29,
+    "sorties": 22,
+    "landings": 0,
+    "landing_grades": {},
+    "landing_avg": null,
+    "traps": 0,
+    "aar_fills": 0,
+    "air_kills": 2,
+    "ground_kills": 4,
+    "deaths": 12,
+    "ejections": 0,
+    "kd": 0.5,
+    "weapons": {
+     "AIM_120C": {
+      "shots": 3,
+      "hits": 3
+     },
+     "AIM_9": {
+      "shots": 1,
+      "hits": 0
+     }
+    },
+    "first": "2026-11-04",
+    "last": "2026-11-24"
+   }
   },
   {
    "id": "P_1e53bf844a9241458945434fdb03b295",
@@ -7457,7 +7896,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_4bca608e6f9a4745b4ed9bf04a689c38",
@@ -7495,7 +7935,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260716141230_908",
@@ -7533,7 +7974,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_79eb07f9d96d41efbfcbdc840cf72eee",
@@ -7624,7 +8066,8 @@
      "minutes": 30,
      "highlight": "Run 4 shack (13.5 m CEP) demonstrates the pilot corrected the persistent right/short bias by the final pass"
     }
-   ]
+   ],
+   "logbook": null
   },
   {
    "id": "P_55ab780a714b446a82dee2733868117c",
@@ -7664,7 +8107,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_374b535db310405ab3655f5c72300053",
@@ -7702,7 +8146,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_f27b7f1a867a",
@@ -7794,7 +8239,7 @@
     {
      "op": "op-4f3087dddc70",
      "date": "2026-11-06",
-     "name": "SinaiMap 2026-11-06 01:11Z CCIP",
+     "name": "CCIP range · 01:11Z",
      "types": [
       "CCIP"
      ],
@@ -7826,7 +8271,32 @@
      "minutes": 47,
      "highlight": "2/3 shacks on the BDU-45B with an avg CEP of 33.7 m and a best CEP of 11.0 m — runs 2 and 3 (CEP 11 m and 14.8 m) demonstrate excellent release discipline when the dive profile was consistent (3–4° shallow level delivery at 1,700–1,800 ft, ~440 kt)."
     }
-   ]
+   ],
+   "logbook": {
+    "hours": 2.1,
+    "by_aircraft": {
+     "F/A-18C Hornet": 2.1
+    },
+    "by_map": {
+     "SinaiMap": 1.3,
+     "Caucasus": 0.7
+    },
+    "flights": 4,
+    "sorties": 4,
+    "landings": 0,
+    "landing_grades": {},
+    "landing_avg": null,
+    "traps": 0,
+    "aar_fills": 0,
+    "air_kills": 0,
+    "ground_kills": 0,
+    "deaths": 0,
+    "ejections": 0,
+    "kd": null,
+    "weapons": {},
+    "first": "2026-11-05",
+    "last": "2026-11-08"
+   }
   },
   {
    "id": "P_f93d34df0eb54b0a8445df25452656e4",
@@ -7864,7 +8334,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_a9deaed829ea",
@@ -7902,7 +8373,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_7b64e69c8003",
@@ -7959,7 +8431,7 @@
     {
      "op": "op-695251a7673d",
      "date": "2026-11-17",
-     "name": "SinaiMap 2026-11-17 23:00Z CAS",
+     "name": "CAS · 23:00Z",
      "types": [
       "CAS",
       "SEAD"
@@ -7974,7 +8446,31 @@
      "minutes": 31,
      "highlight": "Demonstrated positive formation participation — 63% of tracked time in a named formation (trail dominant at 22%, wedge 8%, spread 11%, route 9%), with 40 formation changes showing active position management during the first slot."
     }
-   ]
+   ],
+   "logbook": {
+    "hours": 0.6,
+    "by_aircraft": {
+     "F-16C Viper": 0.6
+    },
+    "by_map": {
+     "SinaiMap": 0.6
+    },
+    "flights": 3,
+    "sorties": 2,
+    "landings": 0,
+    "landing_grades": {},
+    "landing_avg": null,
+    "traps": 0,
+    "aar_fills": 0,
+    "air_kills": 0,
+    "ground_kills": 0,
+    "deaths": 0,
+    "ejections": 0,
+    "kd": null,
+    "weapons": {},
+    "first": "2026-11-17",
+    "last": "2026-11-17"
+   }
   },
   {
    "id": "P_0cc142cf178c",
@@ -8012,7 +8508,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_4a81aa8b262a49c5a092ab37ad6a60d8",
@@ -8050,7 +8547,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260806040558_517",
@@ -8088,7 +8586,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260903210323_674",
@@ -8126,7 +8625,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_0256d1c58102",
@@ -8164,7 +8664,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_468f75402442",
@@ -8202,7 +8703,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_d8c95e3b61e6",
@@ -8240,7 +8742,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_b96686b620504d86b377e6440257344c",
@@ -8278,7 +8781,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260813233154_986",
@@ -8316,7 +8820,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260708193733_647",
@@ -8354,7 +8859,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_1adb0cfbe38f452f80a0e0a5c1dbc675",
@@ -8392,7 +8898,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_63f7cb65999f",
@@ -8430,7 +8937,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_4ff80f0337ae",
@@ -8468,7 +8976,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_d247cc657d884555bb29eff8f45f01c1",
@@ -8506,7 +9015,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_03c98c8a8fc34d2181119a79c57bc451",
@@ -8544,7 +9054,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_d1f9349e5b5a",
@@ -8582,7 +9093,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_0bd6ec76bdd3",
@@ -8620,7 +9132,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_d3866f8f551947b5a0265866ccf97e9a",
@@ -8658,7 +9171,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_e9ea0a3b9473",
@@ -8696,7 +9210,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_321d9110ac2c",
@@ -8734,7 +9249,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260807175424_752",
@@ -8772,7 +9288,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260808234558_883",
@@ -8810,7 +9327,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_d13395b6cc17",
@@ -8848,7 +9366,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_ede2b86c563346758de8cbf1ff5b278b",
@@ -8886,7 +9405,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_20260708193733_887",
@@ -8924,7 +9444,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_f6793119590448a7be24d192d90d272d",
@@ -8962,7 +9483,8 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   },
   {
    "id": "P_e314afec5c5e41f9ae7f72f2d1b5f9aa",
@@ -9000,18 +9522,20 @@
    "skills": [],
    "qualifications": 0,
    "courses": [],
-   "history": []
+   "history": [],
+   "logbook": null
   }
  ],
  "operations": [
   {
    "id": "op-f5b3daf33e7f",
    "date": "2026-11-23",
-   "name": "SinaiMap 2026-11-23 23:33Z [EAF] Maverick flight",
+   "name": "Maverick flight · 23:33Z",
    "kind": "automatic",
    "types": [
     "CAS"
    ],
+   "personal": true,
    "training": true,
    "brief": "",
    "narrative": "Maverick launched on a 40-minute CAS training sortie over Sinai, operating F16_CAS-2 against a defended ground target complex. He achieved two valid ground kills — a Gepard AAA vehicle with a GBU-38 (20 m miss, still within lethal radius) and an SA-18 Igla-S MANPAD crew with the gun — which represents real tactical value against an air-defence threat array. That is where the good news ends. Four GBU-38 releases produced zero direct hits and an aggregate miss total of 465 m, including one bomb that impacted 348 m from its nearest scored target, which is field-unacceptable precision for a GPS-guided weapon. Formation performance was consistently poor throughout the sortie: nine rejoin attempts with an average of 136 seconds out of position and a worst case of 436 seconds — Maverick was effectively a solo aircraft for large portions of the flight despite operating in a multi-ship environment. The formation discipline score of 28.7 out of 100 is the lowest this evaluator has recorded for a pilot who was not explicitly conducting independent operations. The fatal sequence beginning around 01:05:00 tells the whole story of this sortie's systemic problems: Maverick commenced gun passes against ground targets, busted the 500 ft hard deck twice in rapid succession (reaching 384 ft then 231 ft AGL), pulled 10.8 G and then 11.3 G in a two-second window recovering from the second bust, recorded a telemetry minimum AGL of 3 ft at some point in this window, and was subsequently killed by an M-1 Abrams at 01:08:07 — ground fire, because he was operating at tank-gun altitude. Thirteen gun passes fired 448 rounds with zero hits on any scored target, meaning every round was wasted. The pilot ejected; the aircraft was lost. This continues a declining trend: 65 two missions ago, 42 last mission, 38 today. The pattern is not random variance — it is a pilot who is pressing attacks without the discipline to execute them safely or accurately. Priority remediation items for the next sortie are hard-deck discipline and GBU-38 employment procedures.",
@@ -9056,13 +9580,14 @@
   {
    "id": "op-6ff61319e5cd",
    "date": "2026-11-23",
-   "name": "SinaiMap 2026-11-23 23:21Z [EAF] Maverick flight",
+   "name": "Maverick flight · 23:21Z",
    "kind": "automatic",
    "types": [
     "CAS",
     "SEAD",
     "STRAFE"
    ],
+   "personal": true,
    "training": true,
    "brief": "",
    "narrative": "EAF two-ship launched on the Sinai map on 24 November 2026 for a general training sortie that evolved into a live CAS exercise against a built camp with 40 targets including armour, AAA, MANPADS and IFVs. The session opened with a session-reset at 00:12:01, truncating all pre-reset data to zero telemetry samples; Maverick's F-16C never recovered from this — he departed before the second session commenced and recorded exactly 0.0 flight minutes, earning nothing but a participation point. This is Maverick's third consecutive declining sortie (65→42→10) and the squadron leadership must address the pattern directly with the pilot before his next flight. XTC transitioned to a second slot (F18_CAS-2 Hornet) at 00:12:02 and flew productively for 30.8 minutes, then respawned to F18_CAS-3 for a final 16.3-minute block. XTC's airmanship envelope was broadly acceptable — no G-exceedances, clean energy management, and genuine effort across nearly 47 minutes of logged time. However, two extremely low AGL readings (11 ft and 16 ft) flagged across both slots represent hard deck busts and are the most dangerous finding of the sortie. Weapons employment produced six guided releases — two GBU-31s, two AGM-84H SLAM-ERs, and four AGM-154s — all of which missed, with the SLAM-ER misses measuring 221–222 km, strongly indicating the weapon was not properly targeted before release rather than a seeker failure. Three gun passes fired 578 rounds with zero hits on target, until a final gun pass at around 01:10:17 successfully killed a BMP-1 IFV, the sortie's sole confirmed kill. The late AGM-154 shot at 754 kts from 6,363 ft represents a hasty, potentially out-of-envelope employment decision. Despite the single kill, the guided-weapons zero hit rate and the terrain-clearance failures keep XTC at a C for this mission.",
@@ -9107,12 +9632,13 @@
   {
    "id": "op-67b5913cfe37",
    "date": "2026-11-23",
-   "name": "SinaiMap 2026-11-23 23:22Z CAS",
+   "name": "CAS · 23:22Z",
    "kind": "automatic",
    "types": [
     "CAS",
     "SEAD"
    ],
+   "personal": true,
    "training": true,
    "brief": "",
    "narrative": "The Sinai CAS sortie on 24 November launched a three-ship (Hema, Sword, Omar) against a defended camp with tanks, IFVs, MANPADS, and AAA. A fourth pilot (Ibraheem/Hema slot 1) aborted after 90 seconds and is unassessable. The mission reset at 00:12:01 and the main engagement opened at 00:15:01 with 40 targets, 12 moving. Hema led and was the clear top performer: 4 ARMOR kills from 10 releases, 3 direct hits including a 2.1 m Maverick and a 7.5 m Snakeye, good threat management defeating 2 of 4 SAMs. Her one blemish was busting the 500 ft hard deck to 231 ft during gun passes at 01:05:56, an avoidable safety violation over a MANPAD-rich objective. Sword put ordnance on target — a GBU-24 direct hit at 2.4 m and two early-pass Maverick impacts at 137 m and 170 m — but then wasted four AGM-65H rounds at 00:59, firing them from 11,000–12,000 ft at misses of 165 m to 1625 m with no apparent sensor lock confirmation. His formation performance was alarming: 67% of sortie time 'none,' 9 rejoin attempts, average rejoin 159 s, worst 356 s, and a maxG of 8.83 — 0.17 g from the structural limit with zero combat justification. Omar's first sortie ended in predictable disaster: a Mk-82 2132 m from target followed by a low gun pass at 195 kts and 3703 ft, a hard-deck bust to 290 ft (confirmed minAGL -2 ft), two SA-18 hits sustained, and death by T-90 at 00:46:34 — a cascade of poor decisions over a defended objective. His respawned second sortie showed better bomb placement (29–88 m) but zero kills. The flight's combined hard-deck bust count was 3 (one per active pilot), which is unacceptable on a sortie type where low-altitude exposure is the primary lethality mechanism. Formation was universally poor: no pilot achieved a formation discipline score above 53, and formation 'none' dominated at 51–67% for the wingmen. This flight put 7 kills on target as a package, a reasonable result for the target set, but the how — deaths, deck busts, and extreme G — means the method is not repeatable in a contested environment.",
@@ -9202,6 +9728,7 @@
    "name": "ILS Training",
    "kind": "manual",
    "types": [],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "",
@@ -9246,13 +9773,14 @@
   {
    "id": "op-71e5cfa72542",
    "date": "2026-11-18",
-   "name": "SinaiMap 2026-11-18 21:43Z [EAF] MeGaTron flight",
+   "name": "MeGaTron flight · 21:43Z",
    "kind": "automatic",
    "types": [
     "CAS",
     "FORMATION",
     "SEAD"
    ],
+   "personal": true,
    "training": true,
    "brief": "",
    "narrative": "EAF Flight-1 launched from Sinai at 00:02 with MeGaTron as lead and Maverick as number-2 in a CAS training sortie against a defended camp target. The flight formally joined at 00:14:13 — a reasonable join time — but the formation immediately showed signs of stress. Maverick recorded his first break at 00:25:29 and in slot-1 made six rejoin attempts averaging 143 seconds, with a worst single rejoin of 382 seconds; for 60% of his ticks he was in a 'none' formation state, essentially flying unilaterally. Formation score finished at 4/100, grade F. MeGaTron demonstrated the contrast between the two pilots clearly: his GBU-12 employment produced four impacts all within 70 metres of aim points — 70m, 19m, 21m, 68m — resulting in a fuel tank and an HQ building destroyed with professional stand-off geometry at 9,401 ft AGL minimum. Maverick's first-life AGM-65D work was poor: six shots fired between 00:44 and 00:46, only one impacted anywhere near a target (179m from a fuel tank), and he exposed himself to ZU-23 fire for 21 seconds before being killed at 00:49:09 — his minAGL of 11 feet also indicates a dangerous low-altitude excursion somewhere in the profile. After respawning at 00:53:18, Maverick's accuracy improved markedly: 3 of 6 AGM-65D shots hit (50%), destroying a Vulcan AAA at CPA 34m and a Gepard at CPA 95m — targets the first life left standing. However, slot-2 formation performance was catastrophically worse: a single rejoin attempt required 807 seconds (13 minutes 27 seconds), and 99% of ticks were in 'none' — Maverick effectively operated as an independent asset for the entire second life. MeGaTron, as lead, shares responsibility for not enforcing formation geometry or calling his wingman back. The tactical outcome is a partial success — four ground units destroyed between the two pilots — but the formation standards were unacceptable. MeGaTron trends downward from his 90-scored BFM sortie; Maverick continues to show potential in weapons accuracy that is undermined by formation indiscipline and threat-awareness failures.",
@@ -9318,12 +9846,13 @@
   {
    "id": "op-695251a7673d",
    "date": "2026-11-17",
-   "name": "SinaiMap 2026-11-17 23:00Z CAS",
+   "name": "CAS · 23:00Z",
    "kind": "automatic",
    "types": [
     "CAS",
     "SEAD"
    ],
+   "personal": true,
    "training": true,
    "brief": "",
    "narrative": "This Sinai CAS/Training sortie put three pilots over an undefended convoy (CAS Task 2) and a lightly AAA-defended mixed target set (CAS Task 3) with a 30-target package available. The package achieved only 2 ground kills total — a 6.7% attrition rate against available targets — which is an unsatisfactory outcome for three F-16/FA-18 sorties. [EAF] 9g | Sword, the most experienced EAF pilot present, flew 21 minutes, registered zero weapons releases, and was lost at the 40-minute mark without having contributed a single ordnance impact to the CAS task; this is the most significant failure of the mission. gmbekhit flew two slots totalling approximately 31 trackable minutes, demonstrated positive formation engagement in slot 1 (trail dominant, 40 formation changes), but his two GBU-31V3B drops in slot 3 missed the nearest building by 94.6 m and 118.8 m respectively — no kills from two precision-guided munitions against fixed structures is unacceptable. [EAF] XTC was the only pilot to score, netting 2 SOFT kills via gun after three AGM-65F Maverick shots all missed their intended CAS targets by margins of 103–365 m; the Gepard AAA claimed him at 00:53, with 53 seconds of total threat exposure. Formation discipline was inconsistent across the package: gmbekhit's final formation score collapsed to 48.7 after an early high, and Sword registered zero formation participation across his entire flight. The single formation rejoin logged (gmbekhit, 64 s) was more than double the 30-second standard. On the positive side, G-discipline was clean across all three pilots — no exceedances, maxG values of 4.08, 4.03, and 7.41 for Sword, gmbekhit, and XTC respectively. The 7.41 G recorded by XTC at 507 ft AGL while in a threat environment is a survivability flag. The AGM-65F employment across XTC's three shots is the clearest technical debrief point: releasing from 14,000+ ft at 4.7–4.8 nm produced consistent misses; IR acquisition quality and lock confirmation before release must improve. The mission's overall output — 2 kills, 1 loss, 5 wasted precision munitions, and one pilot who fired nothing — reflects a package that reached the target area but could not execute coordinated, effective CAS. Next sortie must address weapon employment procedures, pre-attack coordination, and formation integrity.",
@@ -9425,12 +9954,13 @@
   {
    "id": "op-33291cd0e4ee",
    "date": "2026-11-17",
-   "name": "SinaiMap 2026-11-17 23:40Z CAS",
+   "name": "CAS · 23:40Z",
    "kind": "automatic",
    "types": [
     "CAS",
     "SEAD"
    ],
+   "personal": true,
    "training": true,
    "brief": "",
    "narrative": "KAF launched solo on the Sinai map at 00:40:06 for a combined training and CAS sortie of 21 minutes duration. The first approximately 20 minutes were transit and set-up, with no weapons activity recorded. The weapons phase opened at 01:01:37 with the first AGM-65D release against CAS task 3, which impacted 79 m from the nearest AA vehicle — an IR Maverick miss that suggests either a poor seeker lock, a late uncage, or a firing solution outside the effective envelope at 1.6 nm and 7,971 ft. Two further Mavericks followed at 01:02:43 and 01:02:48 against the same task; the second achieved a 70 m CPA against an armour unit at 2.6 nm and 4,772 ft, the third degraded to 578 m against an AA target. Critically, the third Maverick pass concluded with a hard-deck bust at 01:03:04 — the aircraft descended to 445 ft AGL against a 500 ft CAS floor, a 55 ft violation during a live-weapons pass. This is a fixed safety penalty and the most serious finding of the sortie. At 01:03:42–43 the pilot released GBU-12 and GBU-38 stores, but all five LGB/JDAM impacts were scored against CAS task 2, not the active task 3, with miss distances of 6,422–6,846 m — these weapons impacted over 6 km from the nearest scored building, which is consistent with an incorrect designation point, a laser that was never activated, or a GPS steer loaded to the wrong target coordinates. Zero kills were achieved from eight total releases. Threat exposure was 30 seconds, which is acceptable for the engagement geometry, and no fratricide was recorded. The sortie trend continues a sharp decline from the August score of 74, now dropping to 28 — this is the third consecutive sortie where target effect has been near-zero. The root cause appears to be a fundamental issue with pre-attack planning and weapon system setup rather than platform handling.",
@@ -9482,6 +10012,7 @@
     "CCIP",
     "SEAD"
    ],
+   "personal": false,
    "training": true,
    "brief": "Tactical pattern training\nComms\nIls landing\nFormation",
    "narrative": "Viper and Cobra flights launched on a CCIP/tactical pattern training sortie over Sinai, with the added complication of two J-11A Flankers gate-crashing the range at approximately 01:19 local — turning a routine bombing range into a combat merge with no warning. The range phase itself produced a clear performance split: MeGaTron was simply in a different class, posting an avgCEP of 11.1 m across 6 passes with 5 shacks (83%), executing a consistent 15–18° dive at 463–492 kt from 1 100–2 900 ft — this is weapons-school standard work and the benchmark all pilots should be studying. PushMaster was the second-best bomber with a 53.8 m avgCEP and disciplined repeat technique, but a systematic left-short bias across all 5 passes with zero shacks tells us there is an uncorrected wind or pipper-pull error baked into his delivery. Taha/XTC showed a good first pass at 15 m then regressed sharply on Run 2 to 185 m SHORT — shallow 2° dive angles are the root cause, as this weapon needs steeper geometry to track correctly. Omar's 4-pass spread of 17–299 m reflects inconsistent setup geometry; he has the touch (Run 4 at 17 m proves it) but cannot repeat the conditions that produced it. Neo is the urgent concern: avgCEP 285.9 m with three passes impacting beyond 380 m short, shallow dives, and low airspeeds — the CCIP pipper is clearly not being tracked to impact before release, and this must be corrected in a dedicated ground study session before he returns to the range. The J-11 pop-up was handled with varying effectiveness: PushMaster was composed, defeating a P-73 at 92 m CPA and splashing both Flankers with AIM-120C shots — two confirmed air-to-air kills, the only friendly kills of the mission. MeGaTron contributed a supporting AIM-9X shot. Taha/XTC was killed at 01:20:42 by J-11A fire, unable to defeat the inbound threat. Omar engaged defensively but was shot down at 01:22:03; critically, he fired an AIM-9X at friendly callsign Neo during the merge — the missile missed at 4 554 m CPA, averting a blue-on-blue, but this demands an immediate IFF and ROE review. MeGaTron's 9.65 G instant flag during the engagement is a structural concern on what was supposed to be a training sortie. Formation data was captured only for Neo, whose 42.98/100 discipline score, 71-second worst rejoin, and 37% 'none' time show he is not holding position in the range pattern. The lesson from this mission is straightforward: MeGaTron has set the CCIP standard; everyone else needs to close the gap, Neo urgently, and the whole flight must rehearse IFF procedures before mixing it up with AI threats again.",
@@ -9679,6 +10210,7 @@
     "CAS",
     "FORMATION"
    ],
+   "personal": false,
    "training": false,
    "brief": "The vFS F-16 Viper Club Squadron would like to invite us to a Joint-Training Mission on Thursday, November, 12th  18:30 Zulu Time ( Egypt Time 20:30, German Time 19:30)\n\nWe fly a Air to Ground Training Mission on the Syria Map, from the Akrotiri Airbase in Cyprus.\n\nTraining Objective is a Killbox Task, Finding GMT Ground Moving Targets by A-G Radar, and engage them with LAser Guided Bombs and /or CBUs ! \n\nAdditionally there can be SEAD and ESCORT/TARCAP Flights.",
    "narrative": "",
@@ -9865,12 +10397,13 @@
   {
    "id": "op-e479fd5da400",
    "date": "2026-11-11",
-   "name": "SinaiMap 2026-11-11 19:22Z STRAFE",
+   "name": "Strafe · 19:22Z",
    "kind": "automatic",
    "types": [
     "STRAFE",
     "SEAD"
    ],
+   "personal": true,
    "training": true,
    "brief": "",
    "narrative": "This was a lengthy, multi-scenario Sinai training sortie mixing convoy attack, SEAD, and general airmanship across two parallel mission instances. The session produced one genuine highlight — Sword's GBU-12 direct hit at 9.8 m CEP — and two critical safety failures that must be addressed before the squadron flies the next live-fire sortie. MeGaTron's strafe pass at 03:02:51 combined a foul-line violation (trigger slant 1034 ft, three times inside the 3000 ft mandatory abort line), a low recovery at 30 ft AGL (the minimum survivable floor is 300 ft), and an unqualified accuracy of 7.3% — every safety failure in a single trigger pull. Had this been a live gunnery range the pass would have been an immediate range abort and a mandatory review board. Omar's friendly-fire kill of Blacksky at 01:29:06, confirmed by tracker attribution, is equally serious: entering a live SEAD arena without IFF coordination and firing into a known friendly-occupied threat ring is a planning and execution failure, not a momentary lapse. The SEAD picture overall was disappointing — none of the pilots achieved a confirmed radar kill despite multiple zone entries and Maverick impacts near the site. Mavericks are not radar killers; the absence of HARMs meant the radar was never credibly threatened. Hema's AGM-65F employment at 9.8-11 nm standoff was the closest to correct SEAD geometry in the session, and the 23 m CPA at 11 nm is worth calling out as the best individual weapon employment of the day. XTC logged the longest flight time (84.7 minutes) but also the most dangerous G-profile: 9.5 g sustained exceedance, a minAGL of 6 ft, and four Maverick launches of which three missed by margins ranging from 174 m to 6447 m. The 6447 m miss indicates the seeker was not locked before launch. Omar's 15.5 g reading demands attention regardless of simulator artifact arguments — the physical habit of snapping the stick must be broken. Sword's performance on the convoy was the cleanest of the session: three sorted runs, two under 20 m CEP, clean G. If the rest of the flight brought that same standard to their attack geometry this would have been a qualifying day.",
@@ -10016,13 +10549,14 @@
   {
    "id": "op-37e02481772a",
    "date": "2026-11-10",
-   "name": "SinaiMap 2026-11-10 21:04Z STRAFE",
+   "name": "Strafe · 21:04Z",
    "kind": "automatic",
    "types": [
     "STRAFE",
     "CCIP",
     "SEAD"
    ],
+   "personal": true,
    "training": true,
    "brief": "",
    "narrative": "This was a multi-pilot TRAINING/STRAFE/CCIP/SEAD sortie on SinaiMap lasting approximately two hours and twenty minutes, with pilots joining and departing across multiple slots. The standout weapon delivery of the entire mission was Sword's GBU-12 direct hit on CONVOY_SOFT_6_U1 at 02:19:31 — a 5.8 m CEP shack from 8,056 ft at 523 kts that demonstrated Sword has found a laser-guided dive delivery profile that works. However, Sword's earlier CBU-97 pass at 90.3 m CEP (69 m right, 58 m long) from level at 24,000 ft shows he has not yet solved the high-altitude level-release problem; that weapon class demands a dive angle and proper designation, not a straight-and-level drop. Hema flew the most weapon-rich sortie, landing four AGM-65F impacts and two AGM-65E impacts across two sessions, but converted zero of those hits into confirmed radar or site kills — four missiles for no suppression result is a concerning ratio. Hema's second AGM-65E was fired from 1.9 nm at 2,378 ft, which is inside any safe Maverick employment envelope and represents a self-threat. Omar demonstrated basic Maverick employment (one hit, one miss from short range) but his second slot produced a 9.1 g sustained over-G event at low altitude and a recorded speed of 865 kts — both demand a face-to-face debrief on aircraft limits and energy management. The most serious safety event of the sortie was XTC's: a 14.6 g instant-G event at 01:40:13 during transit at 3,861 ft, preceded by 11.1 g and 10.1 g within three seconds, culminating in an ejection at 01:44:34. This sequence is consistent with an aggressive pull-out from a dive with no g-onset control — XTC converted an FA-18C into a lawn dart through pure over-G. Formation discipline across the flight was poor: XTC scored 16.8/100 with 64% of tracked time in 'none' and a worst rejoin of 333 s; Hema scored 58.6 with a single 81 s rejoin attempt. KAF and Omar recorded no formation data at all despite flying alongside the formation. MeGaTron's departure after 0.5 flight minutes with no weapons fired and no formation participation is unexplained and needs clarification. The aggregate lesson from this sortie: weapons employment range discipline (not inside 2 nm on Mavericks), g-onset discipline (never pull through 9 g in transit), and formation rejoins (under 60 s is the standard, 333 s is a failure) are the three areas that must improve before the next combined-arms event.",
@@ -10171,12 +10705,13 @@
   {
    "id": "op-9d71a7b1ec92",
    "date": "2026-11-10",
-   "name": "EAF Caucasus Training 2026-11-10 11:44Z A-A",
+   "name": "Air-to-air · 11:44Z",
    "kind": "automatic",
    "types": [
     "A-A",
     "SEAD"
    ],
+   "personal": true,
    "training": true,
    "brief": "",
    "narrative": "EAF Caucasus Training sortie on 9 June 2026, Caucasus theatre, saw a single pilot ([EAF] XTC) fly four sequential slots across a combined ~76 minutes of logged flight time. The most productive slot was PVP_F18C_NOTCHING_B-1, where the pilot demonstrated textbook close-range AIM-120C employment: two Rookie F-16Cs were engaged and destroyed with two shots in under 90 seconds — first kill at 4 nm with a 15-second TOF and 71 m CPA, second kill at short range with a 13-second TOF. Shot discipline was excellent with zero wasted missiles. However, two HIGH_G_INSTANT transients at 9.6 g and 9.2 g in the transit arena, plus a minAGL of 34 ft, indicate imprecision outside the weapons task. The Aerial-10-3 slot showed clean g-discipline (max 7.9, zero flags) but was marred by a 8 ft minAGL — an unambiguous deck bust that must be explained and corrected. Slot 3 (Taha-prime) lasted only 2.4 minutes with a minimum speed of 51 kt near 9,000 ft, suggesting a possible departure or aborted attempt; the slot provides no evaluable training value. The final and longest slot, Taha-double-prime at 33.1 minutes, is the most tactically significant for the wrong reasons: the pilot entered an active Tor-M2 WEZ, correctly defeated the first inbound missile at a CPA of 3,123 m while fast and low (583 kt / 2,214 ft), but then continued pressing inbound rather than egressing. The second missile, fired from 2.5 nm, struck the aircraft 7 seconds after launch with the pilot at 0.8 nm from the site — a range at which no defensive manoeuvre is geometrically possible. This death is a pure threat-awareness and WEZ-discipline failure. No formation flying was recorded in any slot, as expected for a solo training environment. Overall the session shows competent basic airmanship and creditable close-range missile employment, offset by one fatal SAM-WEZ lapse and recurring low-altitude exceedances that need immediate attention.",
@@ -10215,11 +10750,12 @@
   {
    "id": "op-7bd80d540cfe",
    "date": "2026-11-10",
-   "name": "EAF Caucasus Training 2026-11-10 13:57Z A-A",
+   "name": "Air-to-air · 13:57Z",
    "kind": "automatic",
    "types": [
     "A-A"
    ],
+   "personal": true,
    "training": true,
    "brief": "",
    "narrative": "Omar flew eight consecutive BVR training rounds in an F-16C against AI F-16C bandits over the Caucasus on 10 November 2026, accumulating approximately 24 minutes of total flight time across six distinct spawn slots. The session produced a 3-win / 5-loss round record and 5 confirmed air kills from 15 AIM-120C shots — an overall Pk of 33%. The scorecard tells two very different stories: when Omar respects weapon parameters he kills; when he shoots long, he wastes missiles and exposes himself. Round 4 / Slot 3 was the best effort of the day — three kills, 75% Pk, 5 inbounds defeated (3 successfully), and a cool decision to close to 3.6nm and re-engage after a medium-range miss. Rounds 1 and 3 were poor: no shots in round 1, and in round 3 the first shot at 20.8nm missed with a CPA of only 29m — tantalisingly close but no kill — while the aircraft was simultaneously struck by two inbound missiles before the second shot could be evaluated properly. Round 6 (slot 4) represented the session's worst missile discipline: both shots fired at 36.2nm and 16nm respectively, neither hit, and Omar was shot down having scored zero kills against a 2-ship. The final round (slot 6) showed measurable improvement — three successive shots in a bracket-down from 21.4nm to 7.1nm, with the kill coming at 7.1nm and 66 seconds of post-launch cranking — suggesting Omar is beginning to understand that patience and geometry beat volume of fire. The over-G picture is a serious concern: slots 3, 4, and 5 all produced sustained over-G flags, with peaks at 9.43g, 8.53g, and 9.12g respectively — five sustained events across one sortie. Combined with minimum AGL values as low as 34ft at speeds exceeding 800 kts, Omar is operating with razor-thin margins in the vertical plane during the defensive phase. His defence rate was 3/10 across the session (slots 3 and 4 accounting for all successful defeats), meaning he was struck by missiles more often than he defeated them. The historical trend shows improvement from 34.2 to 42 and now approximately 47 this sortie — the trajectory is positive, but the ceiling is being held down by consistent long-range indiscipline and over-G habits that have now appeared on three consecutive A-A sorties.",
@@ -10270,6 +10806,7 @@
     "A-A",
     "SEAD"
    ],
+   "personal": true,
    "training": true,
    "brief": "",
    "narrative": "EAF Caucasus Training sortie on 9 June 2026 comprised five sequential FA-18C slots flown by a single pilot, [EAF] XTC, cycling through two free-flight training blocks followed by three BVR arena runs (Blue-1, Blue-3, Blue-2). Total recorded flight time across all slots was approximately 111 minutes. The free-flight phase (slots 1 and 2) showed generally sound handling — no G-exceedances across either block — but produced three separate ENERGY_POOR events in slot 1 (at 296 kt/15,223 ft, 297 kt/24,435 ft, and 298 kt/13,126 ft) indicating a recurring failure to sustain corner-speed energy through turning manoeuvres. Slot 2 corrected the energy problem entirely but introduced two more serious concerns: a 10 ft minAGL — the lowest terrain clearance of the entire session — and a 9.1 G spike in the transit arena with no tactical context, flagged as HIGH_G_INSTANT. Moving into the BVR phase, the picture across all three runs is dominated by a consistent absence of any recorded BVR geometry discipline: stanceTime fields (crank, notch, cold, hot) read zero for every single slot. This means the pilot executed all three BVR intercepts with no recorded cranking after launch, no notching, and no cold turns — flying straight-in-hot throughout, which denies the AIM-120 its full effectiveness and maximises own-ship exposure. Blue-1 fired an AIM-9 with a 100-second time-of-flight that missed — a physically implausible tof for an in-parameters heat-seeker, strongly indicating an out-of-envelope shot against an adverse-aspect or long-range target. Blue-3 compounded this by selecting an AIM-9 at 38,506 ft and 377 kt where the weapon has minimal motor energy and degraded seeker sensitivity; it also missed with a 90-second tof. Blue-2 showed progress: an AIM-120C was employed, a kill was achieved, and energy was maintained throughout — but the first shot (tof 240 s) was almost certainly fired beyond 25 nm with zero kill probability, forcing the pilot to close to point-blank range for the second shot. The session ended with a sustained over-G at 9.03 G / 4,459 ft in the low-altitude post-kill phase, the only formal structural exceedance of the sortie. Across all five slots, minAGL values of 467, 10, 135, 65, and 31 ft were recorded — a pattern of casual altitude awareness that is unacceptable in training. The single confirmed kill is a positive outcome but the tactical path to it revealed more deficiencies than competencies.",
@@ -10325,6 +10862,7 @@
     "FORMATION",
     "CAS"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "EAF Caucasus Training sortie 48905 launched eight pilots against a single SA-10 'Grumble' site (preset: excellent, 100% range) escorted by one SA-15 'Tor-M2', with the directed tactic being a close-in suppression profile rather than conventional standoff employment — the standard WEZ-penetration penalties are therefore not applied per the instructor brief. The main attack package rolled in at approximately 01:25–01:28 local mission time after a lengthy transit. Sword executed the decisive shot: two AGM-88s rippled at 9.4–9.6 nm produced one IMPACT (CPA 1,250 m) which killed the SA-15 escort Tor-M2, credited as the radar kill and triggering 2 ground kills — the only weapons effects of the mission that scored on target. Hardy pressed hard but was killed by an S-300PS 5P85D round at 01:27:00 after defeating 2 of 3 inbound missiles; his second HARM (19.3 nm) missed. XTC entered the WEZ at 14.5 nm with zero weapons aboard and was engaged twice by the S-300 at point-blank range (launch 3.2 nm and 2.9 nm), struck by both rounds, and killed at 01:28:19 — the most avoidable loss of the sortie. Maverick survived a two-missile engagement through effective defensive maneuvering (100% defeat rate, CPAs 8,958 and 6,094 m) but both his HARMs missed, launched at dangerously low altitudes of 890 and 784 ft AGL. Cyclone (Mamba slot) arrived late to the SEAD window and fired both Hornets' HARMs well after the main attack, missing with large CPAs (11 km and 4 km), failing to coordinate within the suppression window. Omar flew 47.5 minutes, sustained 1 over-G at 8.31 g during the SEAD run, never employed a weapon, and contributed zero suppression value. The net result: radar killed (mission success at the objective level), one pilot lost, one pilot lost with no weapons employed, and four of eight AGM-88s completely missed the target. The lesson this mission hammers home is HARM employment altitude: rounds fired below 1,500 ft AGL have degraded seeker geometry and reduced kinematic energy against distant targets — Sword's successful shot came from 3,600–3,900 ft and still required the close-in range to function. Formation discipline was largely unmeasured (most pilots showed zero formation scoring ticks), with Maverick the only pilot generating any formation data — and his rejoin times of 21+ minutes average are unacceptable for a wingman. Going forward the squadron must enforce weapons pre-mission checks (XTC had no ARM aboard), coordinate attack timing across the package, and practise HARM launch parameters above 3,000 ft AGL.",
@@ -10501,6 +11039,7 @@
    "types": [
     "BFM"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "",
@@ -10590,11 +11129,12 @@
   {
    "id": "op-4f3087dddc70",
    "date": "2026-11-06",
-   "name": "SinaiMap 2026-11-06 01:11Z CCIP",
+   "name": "CCIP range · 01:11Z",
    "kind": "automatic",
    "types": [
     "CCIP"
    ],
+   "personal": true,
    "training": true,
    "brief": "",
    "narrative": "Cyclone (Kafafy, FA-18C Hornet) flew a 32.5-minute solo CCIP training sortie on the Sinai map, expending four BDU-45B practice bombs against a bulls-eye reference. The opening run was the weakest of the four: a 7° shallow delivery at 1,373 ft / 553 kt produced a 64.5 m CEP, landing 35 m right and 54 m long — a classic low-and-fast error signature indicating a rushed sight-picture or insufficient dive angle. Run 2 was a sharp correction: Cyclone added 6° of dive (13°), trimmed speed to 532 kt, and planted a shack at 11.6 m CEP — essentially a bulls-eye. That demonstrated the pilot knows what a correct picture feels like. The problem is what happened next. Runs 3 and 4 regressed to 3° and 4° dive angles respectively — shallower even than run 1 — producing CEPs of 17.5 m and 27.9 m with a persistent LONG bias (14 m and 28 m long) and a consistent right-of-track error. The pattern is clear: when Cyclone flies an adequate dive angle the bomb lands close; when the dive degrades the bomb goes long and right. The release altitude concern is real — three of four passes were at or below 1,500 ft AGL, with run 1 at 1,373 ft being the most egregious; in a live-fire scenario that is a frag-envelope bust. G discipline was excellent — peak 6.57 G with zero exceedances across the entire flight. The 9 ft minAGL datum is flagged for record but is most likely a taxi artefact. Average sortie speed of 461 kt and zero energy-poor time show competent energy management between attacks. The shack on run 2 is proof of concept — Cyclone can hit; the task now is to standardise the delivery parameters so that run 2 becomes the baseline, not the exception.",
@@ -10646,6 +11186,7 @@
     "CCIP",
     "STRAFE"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "Seven F-16Cs launched from the Sinai map on a combined training and CCIP range sortie lasting approximately 62–65 minutes per pilot. Six of the seven pilots completed the full 6-pass BDU-50LD range programme; Omar completed zero passes — the defining failure of the day. At the top of the accuracy board, MeGaTron posted an avg CEP of 15.8 m with 2 shacks, and TITAN followed at 22.0 m with 2 shacks, both pilots showing clear within-sortie improvement culminating in sub-13 m hits on their final runs. PushMaster (24.4 m avg) and Sword (25.6 m avg) occupy the mid-tier with clean release parameters but persistent directional biases — Sword right-and-short on 5 of 6, PushMaster left-dominant but inconsistent in range — that are correctable with deliberate pipper corrections. Golden_Pilot achieved 1 shack but was undermined by a 256-second formation exceedance, dangerously low releases (1,634 ft / 13°), and what appears to be a simultaneous double-release on runs 5 and 6. Maverick's 63.1 m avg CEP with zero shacks is the range-day low score and traces directly to chronically shallow dive angles of 3–6° across all six passes — at that geometry CCIP is unreliable and the alternating LONG/SHORT scatter (61 m short on run 1, 122 m LONG on run 2) is the predictable result. Omar's 8.54 G sustained over-G during the CCIP phase, combined with zero weapon deliveries and zero formation tracking, represents a full mission failure that demands immediate ground remediation before the next flight. On the formation side, three pilots — Sword, TITAN, and MeGaTron — recorded zero formation telemetry ticks, which is a configuration or role-assignment issue that must be corrected. Of the four pilots with formation data, scores clustered tightly between 71.0 and 71.7, suggesting mid-tier collective discipline that is acceptable but not tight. G management is a flight-wide concern: maxG values of 7.2 (PushMaster, Maverick), 7.6 (Golden_Pilot), 8.1 (TITAN), and 8.5 (Omar) in a benign bombing pattern are too high and reflect either aggression in the recovery phase or uncoordinated manoeuvring. TITAN's trend from two consecutive F grades to a B this sortie is the most encouraging result of the day. The overarching lesson is disciplined, repeatable roll-in geometry: standardise dive angle (15–20°), release altitude (1,800–2,500 ft), and airspeed, then correct the sight picture — everything else follows.",
@@ -10871,6 +11412,7 @@
    "name": "Effort Points",
    "kind": "manual",
    "types": [],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "",
@@ -10918,6 +11460,7 @@
    "name": "Effort Points",
    "kind": "manual",
    "types": [],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "",
@@ -10968,6 +11511,7 @@
     "A-A",
     "CCIP"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "This Sinai training sortie centred on CCIP bombing practice, with two pilots (Cyclone and PushMaster) dropping live practice ordnance during a range period running from approximately 04:30 to 04:36 local. XTC was airborne for the full 43-minute session but generated no bombing passes, suggesting an observation, IP, or adversary-control role. PushMaster's first hop in the Hornet (Aerial-10-2) lasted only 2.3 minutes before an ejection at 03:38:47 — a premature end that cost nearly 40 minutes of range time and forced a re-slot into the F-16C. The ejection circumstances are unexplained by the data and must be addressed. Cyclone's first slot produced an alarming 18.72 G spike within seconds of occupying the aircraft at 32,738 ft while already energy-poor at 280 kt — this is a departure/LOC event and is the single most significant safety item of the sortie. After re-slotting, Cyclone flew a composed 40-minute profile and delivered the best bombing of the day: 2/3 shacks on the BDU-45B with a 33.7 m avg CEP and a 11.0 m best, self-correcting the initial long-pass error by flattening dive angle across subsequent runs. PushMaster's F-16C bombing was consistently short across runs 1–3 (113–148 m), driven by an identifiable longitudinal bias — likely early release or insufficient dive for the BDU-50LD's ballistic profile — before a dramatic tightening on run 4 to 34.8 m CEP. The improvement shows the pilot can self-correct but the lag across three passes is too long. A sustained over-G event (8.33 G) was also flagged during PushMaster's pull-out from run 3, adding an airmanship debit. XTC's data shows a wide speed envelope, significant corner-time, and a 8.74 G peak with no exceedance flags — consistent with manoeuvring practice or adversary support, but the lack of any bombing participation and a suspicious 8 ft AGL excursion require clarification. Formation data was absent for all pilots throughout the sortie, indicating either solo operation or a gap in the tracker's formation-detection logic. PushMaster continues a volatile trend across the last four sorties; the bombing fundamentals shown today are below the standard set in August and must be arrested before the next weapons sortie.",
@@ -11070,6 +11614,7 @@
     "CCIP",
     "FORMATION"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "This Sinai training sortie combined general airmanship, formation work, and CCIP range employment for five pilots across two airframes. The formation element was anchored by Sword (71.5 min) and XTC (53.5 min) as the apparent leads, with MeGaTron, PushMaster, and TITAN completing abbreviated 17–18 minute range sorties. The standout positive of the day is TITAN's weapons performance: 3 shacks from 5 passes, including a 0.8 m CEP near-perfect hit on run 3, representing the best single-pass result recorded in recent squadron history and a dramatic reversal from two consecutive F-grade BVR missions. MeGaTron showed the most consistent release parameters and lowest avgCEP (17.4 m) of the three CCIP pilots, with one shack, though a stubborn SHORT bias across four passes must be corrected. PushMaster submitted six passes but posted zero shacks, an avgCEP of 49.7 m, and a catastrophic 152.3 m outlier on run 5 — a bomb that would have been a friendly-fire incident in a real CAS environment. The formation data for PushMaster is equally concerning: 11 breakaways, avgJoinSec 143 s, and 52% of tracked time outside any recognised formation — a sharp regression from his August A-grade. The most serious safety finding of the entire sortie is XTC's 20.8 g spike at 01:15:39, flagged as a HIGH_G_INSTANT during a routine transit phase on the FA-18C whose structural limit is +7.5 g. This is an unacceptable exceedance that would ground the aircraft and trigger a mandatory safety investigation in any professional squadron. Sword flew the longest and smoothest sortie with maxG 5.3 and zero exceedances, but the absence of any weapons employment across 71.5 minutes is a missed training opportunity. Release altitudes across the CCIP group trended low — TITAN's minimum of 1,622 ft AGL and MeGaTron's 1,761 ft final pass both approach the frag-safety floor for BDU-50LD class weapons. The squadron must enforce a hard floor of 2,000 ft AGL for training CCIP passes. Overall, one brilliant weapons performance, one developing, one failed, one missing, and one safety emergency define this sortie.",
@@ -11221,6 +11766,7 @@
     "CAS",
     "STRAFE"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "Viper and Cobra flights launched on the Sinai CAS training mission with a total of 5 pilots and 8 soft/AAA targets assigned. The package collectively achieved 6 ground kills out of a possible 8, which represents a partial success. Sword led Viper and drew first blood at T+49:09 with an Mk-82 on a HEMTT soft target, then followed up with a gun kill on a TPZ armour unit at T+01:10:24 — the only pilot to employ both bomb and gun against different target classes, demonstrating flexible employment. KAF in Cobra flew the cleanest CAS profile of the sortie: two Mk-82 kills against separate target types, no deck bust, cas.minAGL 837 ft — a professional single-ship CAS execution that arrests his recent declining trend. Golden_Pilot achieved two gun kills late in the mission but these were overshadowed by a hard-deck bust at 193 ft AGL at T+50:41 and by chronically poor formation discipline — 38% of his tracked formation time was in 'none' state, with an average rejoin of 94 seconds and a worst rejoin of 308 seconds, nearly 5 minutes out of position over a live threat area. Hema flew 77 minutes and achieved zero kills, bust the CAS hard deck at 436 ft AGL, and generated anomalous telemetry flags — a maxG spike of 31.0 G and a minSpeed of 19.8 kt within the same 11-second window at T+49:33 to T+49:44 — these must be investigated; if real, the aircraft was destroyed; if a tracker artifact, the underlying flight state that caused it must be understood. Hema's formation performance was the weakest in the package: 9 join attempts, worst rejoin 320 seconds, avg 150 seconds. MeGaTron departed at T+01:02:35 with zero kills, leaving Viper flight undermanned for the second half. Two of five pilots busted the CAS hard deck, which is the single most significant safety failure of the sortie and the primary takeaway for the next training cycle. The formation picture across Viper flight was undisciplined throughout — too much time out of position, too slow to rejoin, and no consistent geometry maintained over the target area.",
@@ -11375,6 +11921,7 @@
    "name": "Basic Fighter Maneuver",
    "kind": "manual",
    "types": [],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "",
@@ -11467,6 +12014,7 @@
    "name": "Surface Attack Tactics | CAS Wheel",
    "kind": "manual",
    "types": [],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "",
@@ -11574,6 +12122,7 @@
    "name": "Beyond Visual Range",
    "kind": "manual",
    "types": [],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "",
@@ -11666,6 +12215,7 @@
    "name": "Basic Fighter Maneuver | Practice",
    "kind": "manual",
    "types": [],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "",
@@ -11760,6 +12310,7 @@
    "types": [
     "BFM"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "",
@@ -11824,6 +12375,7 @@
    "types": [
     "BVR"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "",
@@ -11890,6 +12442,7 @@
     "BVR",
     "A-A"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "The Sinai training mission ran from 02:11 to approximately 03:01, encompassing five BFM rounds and five A-A/BVR rounds across all four pilots. In BFM, [EAF] MeGaTron dominated comprehensively: he defeated [EAF] PushMaster in Rounds 1 and 4/5, and Golden_Pilot in Round 3, converting neutral positions to gun saddle via superior energy management in the turning fight. PushMaster was consistently unable to hold an offensive position against MeGaTron — 0% offensive time in Round 1, 19% in Round 4 despite firing 423 rounds for zero hits, a clear indication that he is pulling the trigger from outside a valid firing solution. Both BFM pilots committed multiple deck busts (MeGaTron 2–3 per slot, PushMaster 2 per slot) and racked up sustained over-G events that are the primary safety concern of this debrief. The transition to BVR at Round 6 reshuffled the hierarchy: Golden_Pilot emerged as the session's most lethal pilot with 5 kills, including tight-parameter shots at 2.1–9.8 nm. PushMaster found his form in BVR, scoring 4 kills with patient, close-range employment. MeGaTron struggled in BVR, going 1-for-3 in kills while dying repeatedly — his BFM instinct to close to guns does not translate well when he needs to manage radar picture and employ BVR missiles at optimal range. ToRnAdO joined the BVR fight and showed flashes of competence (the 39 nm kill on PushMaster in Round 7) but died four times and recorded a structural G exceedance of 10.83 G in the final slot that demands immediate attention from the maintenance authority. Formation discipline was universally poor — no pilot maintained meaningful formation during BVR, with Golden_Pilot recording a 323 s rejoin time in one slot and ToRnAdO's early-round discipline scores near zero. The blue team won the BVR series 3-1, but margin of victory was narrow and both teams left significant Pk on the table through long-range launches. The recurring theme across all four pilots is trigger discipline and G discipline — both require immediate corrective focus before the next live weapons sortie.",
@@ -12021,6 +12574,7 @@
     "SEAD",
     "STRAFE"
    ],
+   "personal": false,
    "training": true,
    "brief": "Formation Training",
    "narrative": "Sword flight launched on the Sinai map for a dedicated formation training sortie with three F-16Cs and one dissimilar FA-18C. Megatron and Hema joined within 13 seconds of each other at T+05:58 and T+06:11 respectively; KAF joined 4 minutes 43 seconds late at T+10:41. The sortie immediately revealed a critical asymmetry: only Hema's formation module produced tracking data, while Megatron and KAF registered zero formation ticks for their entire flights — meaning two-thirds of the flight generated no measurable formation discipline output. Hema, flying the Ibraheem slot, delivered an outstanding 84-minute formation performance anchored by a final discipline score of 98.55/100, with fingertip as the dominant position (52% of 5,040 tracked ticks) and productive exposure to echelon right (28%), route (7%), and trail (6%). His 96 formation type changes across the sortie demonstrate active engagement with the instructor's formation transitions. The only blemish was a formation break sequence at T+36:29 and T+37:48 where separation grew from 136 m to 1,097 m with a -496 ft altitude differential — a rejoin that was sluggish and must be corrected. Megatron flew a full 84-minute sortie with disciplined G-management (maxG 5.01, 0 exceedances) but produced no formation tracking data; his 2,291 corner-speed ticks suggest independent manoeuvring rather than wing work. KAF compounded the formation deficit by joining late, recording a 6.72 G peak of unexplained origin outside any formation context, and departing 23 minutes before the flight concluded. Both Megatron and KAF must resolve why their formation modules produced no output — whether a position issue, a tracker configuration problem, or genuine absence from the formation stack. The minAGL readings of 7 ft (Megatron and Hema) and 9 ft (KAF) require instructor clarification; if no low-level profile was briefed, these figures represent safety floor violations. On balance, Hema carries this sortie with a genuine B-grade formation performance; the other two pilots leave the debrief with process questions rather than training credit.",
@@ -12142,6 +12696,7 @@
    "types": [
     "BFM"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "",
@@ -12206,6 +12761,7 @@
    "types": [
     "BFM"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "",
@@ -12255,6 +12811,7 @@
    "name": "Air to Air Refueling",
    "kind": "manual",
    "types": [],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "",
@@ -12301,12 +12858,13 @@
   {
    "id": "op-087910dbf26d",
    "date": "2026-10-18",
-   "name": "SinaiMap 2026-10-18 21:24Z BVR practice",
+   "name": "BVR practice · 21:24Z",
    "kind": "automatic",
    "types": [
     "A-A",
     "BVR"
    ],
+   "personal": true,
    "training": true,
    "brief": "",
    "narrative": "Round 8 was a 1-v-1 BVR training engagement on the Sinai map, blue ({EAF} Omar) versus red ([EAF] TITAN), lasting 415 seconds and ending with a blue win by side destruction. The engagement opened with Omar already committed from a prior exchange against [EAF] 9g | Sword — two misses at 22.8 nm and 36.3 nm — before TITAN spawned at 22:59:06 and the scored round began at 23:04:37. Both pilots prosecuted the merge at medium-to-high altitude (avg ~29,000–30,000 ft) with speeds in the 730–760 kt range. TITAN fired all three of his shots from beyond 25 nm (35.3, 35.6, and 31.8 nm), averaging 35.45 nm — every round a free Pk gift to Omar, who defeated them at CPAs of 17,399 m, 14,342 m, and 7,110 m respectively. TITAN compounded the error by never cranking after a shot (crank time = 0 s), spending 260 of 386 defending seconds flying hot and presenting a predictable aspect. Omar's kill came at 23:03:37 when he pressed inside 11 nm and rippled two AIM-120Cs — the first connected at CPA 76 m (SPLASH, TOF 21 s); the second was already airborne and marked TARGET_DOWN_MIDFLIGHT as TITAN ejected at 23:03:53. In the subsequent reset TITAN landed a retaliatory shot on Omar at 31.8 nm (CPA 139 m, SPLASH), ultimately killing Omar at 23:11:12 — however, Omar had already departed the server at 23:10:47 per the tracker FINISH record, so this kill fell outside the scored round window and is not credited in Omar's facts. The tactical lesson is the same for both pilots: launch range discipline is the primary failure. Omar's sole scoring shot at 11 nm is proof of concept — when he closes to parameters, the weapon works. TITAN's structural G of 8.9 G (1 sustained flag) is borderline; Omar's 15.8 G with five instant spikes is a serious airmanship failure that must be addressed before any further weapons employment training. MinAGL of 117 ft for Omar is a near-CFIT event that cannot be repeated. Both pilots show improving trends in their history, but the weapons employment fundamentals — launch gates, post-launch cranking, notch quality — need deliberate rehearsal before progressing.",
@@ -12372,12 +12930,13 @@
   {
    "id": "op-905dc07d5501",
    "date": "2026-10-18",
-   "name": "SinaiMap 2026-10-18 22:06Z BVR practice",
+   "name": "BVR practice · 22:06Z",
    "kind": "automatic",
    "types": [
     "A-A",
     "BVR"
    ],
+   "personal": true,
    "training": true,
    "brief": "",
    "narrative": "Two EAF F-16C pilots flew a 1v1 BVR training sortie on Sinai map across two formal rounds plus extended free-play. Round 15 lasted only 69 seconds and was aborted KIO with no kills; Round 16 ran 180 seconds and ended with Omar scoring a kill before TITAN withdrew. In Round 1 (23:29 timeline), both pilots opened hot at long range — Omar fired first at 18.5 nm (miss, CPA 237 m), then fired an egregious shot at 41.2 nm which the tracker ultimately credited TARGET_DOWN_MIDFLIGHT only because TITAN died to other ordnance while the missile was still in flight — not a genuine intercept kill. TITAN's sole offensive shot at 16 nm missed by 4,577 m, and his second shot went against an Unknown target for a further waste. Omar survived TITAN's 1 inbound missile easily (defeat CPA 4,577 m) but then bled energy to 295 kt at 8,197 ft and recorded a minAGL of -4 ft — a near-fatal deck bust immediately after the kill. In Round 2, Omar re-engaged from 68 nm, fired at 32.9 nm (another out-of-parameters shot, SPLASH but the target was not killed by that missile alone), then pressed in and fired a valid ripple at 10.6–12.9 nm which achieved the confirmed kill at 23:49:32. However, Omar then continued firing 4 more missiles at the already-dead target — pure panic ripple that wasted half a magazine. TITAN in Round 2 opened cold (ATA 142°) at 39.9 nm — tactically incoherent — then turned hot but was immediately put defensive by Omar's 32.9 nm shot and never recovered offensive posture, dying for the second time. The extended free-play phase saw Omar fire 6 more AIM-120Cs at Unknown targets between 24:07–24:09, all of which missed, suggesting unsupervised envelope exploration without structure. TITAN's overall performance — 0 kills, 2 deaths, 0 crank seconds, Pk 0% — reflects a pilot who has not yet internalised BVR offensive fundamentals. Omar's outcome (2 kills, 0 deaths) looks positive on the scoreboard but masks systemic shot indiscipline, a deck bust, zero notching, and a 7.1% overall Pk across 14 shots that cannot be accepted at EAF standards.",
@@ -12443,12 +13002,13 @@
   {
    "id": "op-70fa536abf5b",
    "date": "2026-10-18",
-   "name": "SinaiMap 2026-10-18 21:28Z BFM",
+   "name": "BFM · 21:28Z",
    "kind": "automatic",
    "types": [
     "BFM",
     "A-A"
    ],
+   "personal": true,
    "training": true,
    "brief": "",
    "narrative": "MeGaTron completed a solo BFM training session on the Sinai map, flying two formal arena rounds (Rounds 10 and 14) and multiple informal engagements across approximately 44 minutes of total tracked flight. The headline result is 4 gun kills from 4 formal win-credited engagements against AI F-16C_50 opponents, but the manner of those kills exposes significant deficiencies that must be corrected before the pilot progresses further on the BFM syllabus. The first engagement of the session was also its best: a clean 91-second fight merging at 455 kts / 10,541 ft, 75 seconds of offensive time, 34 seconds of gun saddle, and a kill with no deck bust — that fight demonstrates MeGaTron understands the concept of BFM even if he cannot yet execute it consistently. Everything after that fight deteriorated. Across 12 substantive engagements, MeGaTron recorded 10 confirmed deck busts below the 5,000-ft hard deck, with the absolute minimum altitude touching 1,829 ft AGL and the tracker recording a minAGL of just 13 ft — a terrain-impact fatality in any real-world or combat-evaluated scenario. This is the most serious safety violation of the sortie and must stop immediately. The G-envelope was equally abused: 15 sustained over-G events and 17 instant flags at peaks of 9.38–9.4 g against a structural limit of 9.0 g, meaning MeGaTron routinely risked both G-LOC and airframe failure while fighting. Offensive percentage of only 18.5% and a neutral percentage of 76.6% reveal that MeGaTron is surviving in the merge but not converting — he spends three-quarters of every fight in unsorted geometry rather than pressing a dominant position. The gun employment picture is alarming: 44 trigger pulls, 1,784 rounds expended, 0% accuracy — kills were achieved only because burst spray eventually landed incidental hits, not because of deliberate pipper control. All 18 AIM-9 shots missed, many with time-of-flight exceeding 78–110 seconds against a close-turning target, confirming out-of-envelope employment. The pilot does show persistence — he re-engaged after every death and continued to fight — and the late-session merges at higher altitude suggest some situational awareness development during the session. However, MeGaTron's overall trend is declining (70 to 38 across five sorties), and this sortie, scored at 32, continues that slide. The prescriptions are clear: mandatory hard-deck compliance, controlled G application, gun-tracking pattern work before the next BFM block, and AIM-9 employment parameters study.",
@@ -12493,12 +13053,13 @@
   {
    "id": "op-ad99bd60df15",
    "date": "2026-10-18",
-   "name": "SinaiMap 2026-10-18 00:59Z BFM",
+   "name": "BFM · 00:59Z",
    "kind": "automatic",
    "types": [
     "BFM",
     "A-A"
    ],
+   "personal": true,
    "training": true,
    "brief": "",
    "narrative": "MeGaTron launched into a solo 1v1 BFM syllabus on the Sinai map, flying five declared rounds and accumulating over 20 minutes of engaged time. The first round (Round 2) lasted just 20 seconds — he was killed by an AI AIM-9 before he could establish any geometry, suggesting he presented a hot aspect at merge range without a defensive plan. He respawned immediately and executed a disciplined Round 3, merging at 455 kts / 10,541 ft and converting 75 of 91 seconds offensively, achieving a 34-second gun saddle and killing BFM_F16_1_1 cleanly with gun — the best engagement of the sortie. Round 4 followed at a higher energy merge (638 kts / 11,684 ft) and lasted 194 seconds; he maintained offensive posture for 148 of those seconds, built a 63-second saddle, and killed BFM_F16_2_1 with gun — two solid confirmed kills by tracker. However, both rounds 3 and 4 saw the engagement descend dangerously, with a minimum altitude of 2,225 ft in Round 4 and two deck busts below the 5,000 ft hard deck. Rounds 5 produced a loss after 171 seconds: zero offensive time, 134 seconds neutral, one deck bust — MeGaTron could not convert and was shot down. The final declared round (Round 5 of the tracker, engagement 5 in BFM data) again ended in a loss at 89 seconds, this time with the highest merge speed of the day at 704 kts, 26 seconds defensive, and another deck bust. Beyond the declared rounds, the tracker captured additional BFM engagements in which he scored two further gun kills (BFM_F16_4_1 and BFM_F16_5_1) — one after a 263-second neutral grind to 1,829 ft minimum altitude, and one after a 182-second all-neutral fight — both extremely low-altitude, brute-persistence wins that expose the underlying energy problem rather than resolving it. The 8 AIM-9 shots fired returned a Pk of exactly zero: pairs fired at 3-4 second TOF (inside minimum arming range) and at 78-101 second TOF (target likely cold or notching) show no understanding of missile employment parameters. The over-G picture is alarming — 9.37 g peak, 8 sustained events, 13 instant flags across a 20-minute sortie in an aircraft limited to 9.0 g. The 22 ft minAGL is the most serious single data point: MeGaTron came within 22 feet of the ground during a BFM engagement and apparently did not disengage. His trend line shows a decline from 100 to 38 over five sorties, and this flight does not reverse it — wins are coming from persistence and gun shooting instinct, not from disciplined energy or G management.",
@@ -12543,12 +13104,13 @@
   {
    "id": "op-5d7ea67f6466",
    "date": "2026-10-18",
-   "name": "SinaiMap 2026-10-18 00:03Z BVR practice",
+   "name": "BVR practice · 00:03Z",
    "kind": "automatic",
    "types": [
     "A-A",
     "BVR"
    ],
+   "personal": true,
    "training": true,
    "brief": "",
    "narrative": "This was a 20-minute 1v1 BVR training engagement between [EAF] 9g | Sword (Blue, notching profile) and [EAF] MeGaTron (Red, BVR profile) over Sinai, resulting in a decisive 8:2 kill ratio in Sword's favour. MeGaTron drew first blood cleanly at 01:44:22 with a 10.5 nm AIM-120C that passed CPA 184 m and splashed Sword, demonstrating the capability is there when geometry is correct. However, from that point the engagement became a systematic lesson in shot discipline: Sword's next 24 shots produced 7 more kills at tight CPAs (14–442 m on his splash shots), while MeGaTron burned through 21 additional rounds producing only one more kill at 01:52:13. MeGaTron's Pk of 8.7% tells the story — the majority of his shots were taken at ranges of 14.5–16.7 nm with flight times of 34–50 seconds, presenting Sword with ample time to notch, crank, and defeat the weapon with CPAs of 2,374–10,246 m. Sword's shooting philosophy was the opposite: his kills came predominantly at 5.1–8.9 nm with TOFs of 10–24 seconds, leaving minimal time for effective defence — his average splash CPA was under 300 m. Defensively, Sword was exceptional: 21 of 23 inbound missiles defeated for a 91.3% defeat rate, generating 97 stance changes to MeGaTron's 47. MeGaTron's defensive defeat rate of 65.4% is not disgraceful, but 9 strikes accepted means he was consistently caught in non-defensive geometry. The airmanship picture is concerning for both pilots: MeGaTron recorded 23 sustained over-G events and 90 instant G-flags at a maxG of 11.1, pulling above limit throughout the fight. Sword's apparent 21.9 G spike is almost certainly a respawn artefact, but his 10 sustained over-G events and a minAGL of 12 ft remain documented findings that cannot be ignored. For MeGaTron, this sortie continues a declining trend from his 90s in BFM through 75 in recent training — the transition from BFM proficiency to BVR lethality is not yet made. The core lesson is simple: a missile fired outside effective parameters is not a threat, it is a gift of warning to your opponent and a subtraction from your magazine.",
@@ -12619,6 +13181,7 @@
    "types": [
     "CCIP"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "Viper flight launched on Sinai map for a combined TRAINING/CCIP sortie on 09 June 2026, with all four F-16C_50 aircraft — Hema (Ibraheem slot), hishamk (Moataz slot), [EAF] MeGaTron (Megatron slot), and [EAF] 9g | Sword (Sword slot) — connecting to the server between 01:10:34 and 01:12:49 local. The tracker captured a single telemetry sample per pilot, all consistent with ground operations: altitudes between 33–35 ft MSL, AGL readings of 7–9 ft, and speeds between 146–160 KIAS, with maxG values of 0.9–1.1 G across the flight. Flight times for all four pilots recorded as 0.0 minutes, meaning the tracker received no airborne data from any crew member this sortie. No CCIP passes, no formation data, no energy management profiles, and no weapons employment data were generated. The cause is almost certainly a server or tracker disconnection shortly after the pilots spawned, or a mission abort before takeoff — however, regardless of the technical cause, no training credit can be awarded for work that was not captured. For Hema, this breaks a positive trajectory that had climbed from a 46 to 80 across five sorties; for MeGaTron, whose improving arc (50 → 79) shows genuine development, the missed repetitions are a setback in consolidating new skills. Most critically, Sword's declining trend (80.5 → 59.8, F on the last BVR) demands corrective action through actual stick time, not zero-duration connections. hishamk makes a first appearance in the tracker and leaves no scored record at all. The scoring rubric awards a baseline presence credit of 35 points to each pilot — acknowledging they showed up and connected — but no additional points can be justified without airborne data. Going forward, flight leads must confirm tracker health before committing to a sortie; if the tracker is not recording airborne telemetry within the first two minutes of flight, the sortie should be aborted, reset, and relaunched so that training repetitions are not wasted.",
@@ -12767,6 +13330,7 @@
    "types": [
     "BVR"
    ],
+   "personal": false,
    "training": false,
    "brief": "",
    "narrative": "BVR competitive practice, four F-16C/FA-18C pilots, ~54 min, 10–11 attempts each. No approved rubric or manual supplied; all standards are provisional simulator coaching benchmarks. Wade showed solid survival with good kill conversion. Surt flew many slot-exits limiting scoring. hishamk and ToRnAdO showed mixed survival and missile employment. No radio, datalink or positional geometry can be assessed from available telemetry. BVR competitive practice, ~54 min, four pilots (PushMaster, Omar, Kunar Province, Sword) plus late-joiner Hema. All flew F-16C_50 AIM-120C vs mixed opposition. No approved rubric or course manual supplied; provisional simulator coaching standards applied throughout. No radio, fuel, or positional stability assessable from available telemetry.",
@@ -12959,6 +13523,7 @@
    "types": [
     "A-A"
    ],
+   "personal": false,
    "training": true,
    "brief": "Manual reference:",
    "narrative": "",
@@ -13039,6 +13604,7 @@
    "types": [
     "BVR"
    ],
+   "personal": false,
    "training": false,
    "brief": "",
    "narrative": "DRAFT. [EAF] Hema completed a BVR sortie in F-16C_50, achieving 2 kills from 4 AIM-120C shots (50% Pk). Both inbound missile salvos were defeated (4/4). Shot geometry and stance management observed; no approved quantitative standard supplied.",
@@ -13085,6 +13651,7 @@
     "CCIP",
     "AAR"
    ],
+   "personal": false,
    "training": false,
    "brief": "",
    "narrative": "[EAF] Hema completed a single-attempt CCIP training sortie in an F-16C_50, conducting 5 estimated bombing passes (6 bombs total, BDU-50LD) against the CCIP range, followed by three estimated AAR contacts before recovering. Passes 1–4 showed good-to-excellent accuracy trending toward a shack (best miss distance 4.6 m). Pass 5 produced two wild impacts (~6,132–6,141 m off-target) flagged BOMB_IGNORED by the mission script, associated with a shallow 7° dive angle and abnormally high airspeed (446 kt); those rounds are discussed but excluded from the training record's resolved-pass statistics per the legacy system's own disposition. The AAR activity is noted; positional stability is not assessable from fuel-rise telemetry alone. No G-limit exceedances recorded; max G 8.03 g within F-16C 9.0 g limit.",
@@ -13132,6 +13699,7 @@
    "types": [
     "BVR"
    ],
+   "personal": false,
    "training": false,
    "brief": "",
    "narrative": "Omar completed a BVR session in the F-16C: 4 AIM-120C shots, 3 kills (Pk 75%), 4 inbound missiles with 3 defeated and 1 strike. A miss on BANDIT_F16C_3_1 at 18.6 nm preceded a close-range kill at 8.2 nm. Defensive maneuvering was generally effective; one inbound struck at close range during a congested engagement.",
@@ -13178,6 +13746,7 @@
    "types": [
     "BVR"
    ],
+   "personal": false,
    "training": false,
    "brief": "",
    "narrative": "43-minute BVR competitive practice between {EAF} Omar (F-16C_50, Side 2) and [EAF] Sword (F-16C_50, Side 1) in ZONE_AA, 2026-10-14. Seventeen shared rounds were scored by the ledger; Omar also flew additional sub-rounds (A21–A35) that closed as slot_exits outside the main round structure. Sword dominated the session, surviving every shared round and accumulating 14 air kills against Omar's 1 kill and 9 deaths. Omar fired 26 AIM-120C shots at a mean CPA of 5247 m and a Pk of ~5%; Sword fired 35 shots at a mean CPA of 1651 m and a Pk of ~52%. No manual excerpts or approved rubric were supplied; all scoring standards are provisional simulator coaching benchmarks. No radio, formation, AAR, SEAD, CCIP or strafe activity was observed; only BVR skills are assessed.",
@@ -13248,6 +13817,7 @@
    "types": [
     "AAR"
    ],
+   "personal": false,
    "training": false,
    "brief": "",
    "narrative": "Single AAR sortie by [EAF] Sword (F-16C_50, 2026-10-14). One attempt, session_finished outcome. The pilot completed a takeoff, transited to a tanker rendezvous, executed one refueling contact (~65 s, estimated net fuel rise 0.434 fuel fraction), then returned to land. No approved rubric or manual excerpts were supplied; all standards are provisional simulator coaching benchmarks. No BFM, CCIP, SEAD, or other combat exercises were observed. Four high-G events (estimated 9.1–9.8 g, one sustained at 8.2 g) were recorded in the transit/recovery phase post-contact. Position samples are thinned; positional stability during AAR and exact manoeuvre sequencing cannot be assessed. Radio discipline, tanker identity, boom/basket connection quality, and fuel transferred volume corrected for engine consumption are not observable from available telemetry.",
@@ -13295,6 +13865,7 @@
    "types": [
     "A-A"
    ],
+   "personal": false,
    "training": true,
    "brief": "Manual reference:",
    "narrative": "",
@@ -13399,6 +13970,7 @@
    "name": "TRAINING practice · Ibraheem",
    "kind": "manual",
    "types": [],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "Single TRAINING-flight session for [EAF] Hema (F-16C_50, ~20 min 38 s airborne per session facts). One attempt, outcome session_finished (non-technical). No course, approved rubric, manual excerpts, or exercise-specific standards were supplied. Fuel fractions exceed 1.0 at multiple late samples (rising from ~0.53 to 1.965), consistent with an in-flight AAR contact or a ground refuel stop; because calibrated AAR telemetry is absent the fuel rise cannot be attributed to a specific AAR event, and fuel transferred cannot be quantified. The pilot transited through ZONE_STRAFE (samples 5403, 5413) but zone passage is location evidence only — no strafe pass data, hits, or scores were supplied, so no strafe assessment is possible. Position samples are explicitly thinned (24 of 248 sent); unobserved manoeuvres must not be inferred. No kills, weapon events, or hit events appear in the ledger. No approved rubric was supplied; all standards below are provisional simulator coaching standards. Pass score cannot be established.",
@@ -13446,6 +14018,7 @@
    "types": [
     "BSA"
    ],
+   "personal": false,
    "training": true,
    "brief": "Manual reference:",
    "narrative": "A BSA (Basic Surface Attack) CCIP training sortie was flown by a Viper (F-16C) flight of six pilots over approximately two hours. The core bombing pattern ran from approximately 01:21 to 01:51, with [EAF] Hema flying a later dedicated block (01:46–01:52). Each pilot (except 1iFzz) completed 4 BDU-50LD passes against a bull's-eye reference. An early Mk_82 pass attributed to 'Egyptian Air Force' at mission start is assessed as a demo/AI slot and is not scored. [EAF] MeGaTron and [EAF] Hema led the sortie with 3 shacks each and average CEPs under 16 m, both demonstrating consistent delivery after initial first-pass issues. mirro937 and [EAF]MOATAZ each achieved 1 shack with persistent directional biases (right/short and short respectively) that were not fully corrected across their 4 passes. [EAF] Sword scored 0 shacks with a consistent short bias linked to notably high release altitudes compared to peers; anomalous G-flag values during pull-outs are assessed as simulation artefacts. 1iFzz occupied two slots but recorded no weapons deliveries, precluding any BSA score. Formation discipline was generally poor during the range pattern across all trackable pilots, with 'none' formation time dominating and join times extending up to 464 s; this is contextually expected during individual bombing passes but warrants attention on ingress/egress and between-pass rejoins. No friendly fire, no deaths, no G exceedances within the physiological envelope were recorded. All scores are provisional as the supplied BSA course rubric contained no scoring breakdown or standard excerpts.",
@@ -13651,6 +14224,7 @@
    "types": [
     "A-A"
    ],
+   "personal": false,
    "training": true,
    "brief": "Manual reference:",
    "narrative": "",
@@ -13772,6 +14346,7 @@
    "types": [
     "CCIP"
    ],
+   "personal": false,
    "training": false,
    "brief": "",
    "narrative": "DRAFT ASSESSMENT — NOT A CERTIFICATION. Pilot [EAF] 9g | Sword completed a CCIP bombing session in the F-16C_50 within ZONE_CCIP on 07 Oct 2026. The session comprised a single attempt (4 min 30 sec of airborne time, 257.7 s recorded) and two BDU-50LD deliveries. Both passes were scored as 'shacks' by the tracker (CEP 9.9 m and 8.4 m respectively), with release parameters broadly consistent with a low-level CCIP pattern: release altitudes ~2,261–2,314 ft AGL, dive angles 15–18°, and release speeds 424–492 kt. No A-A, SEAD, BFM or strafe activity was recorded. No approved rubric was supplied for this course; all weights and provisional standards below are instructor-drafted for the Basic Surface Attack / CCIP flight type and are marked [PROVISIONAL]. Pass score is taken directly from the course definition (70/100). The course rubric is empty; criteria are constructed from available CCIP and airmanship metrics only.",
@@ -13819,6 +14394,7 @@
    "types": [
     "BFM"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "",
@@ -13910,6 +14486,7 @@
    "types": [
     "A-A"
    ],
+   "personal": false,
    "training": true,
    "brief": "Manual reference:",
    "narrative": "",
@@ -13986,6 +14563,7 @@
    "types": [
     "BFM"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "",
@@ -14030,6 +14608,7 @@
    "name": "A-A Refueling",
    "kind": "manual",
    "types": [],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "",
@@ -14104,6 +14683,7 @@
    "name": "Basic Fighter Maneuver 1",
    "kind": "manual",
    "types": [],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "",
@@ -14165,6 +14745,7 @@
    "types": [
     "BFM"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "",
@@ -14259,6 +14840,7 @@
    "name": "Air to Air Refueling",
    "kind": "manual",
    "types": [],
+   "personal": false,
    "training": true,
    "brief": "A-A Refueling",
    "narrative": "Both ToRnAdO (unit: Mazen) and [EAF] 9g | Sword (unit: Sword) launched in F-16C_50s at T+00:09 and flew approximately 71 minutes each at an average altitude of ~19,450 ft and ~415 kts — a profile wholly consistent with an air-to-air refuelling sortie on a tanker track. G loads were light (max 4.1 and 3.3 respectively), appropriate for receiver operations. The mission appears to have been flown to full duration without emergency or death events. However, the telemetry system captured no refuelling-specific events: no boom/drogue contact, no receiver position metrics, and no proximity formation data. The instructor debrief scopes assessment exclusively to A-A refuelling, and no course rubric for that task was supplied. Consequently, neither pilot can receive a defensible numeric score from tracker data alone. This draft requires instructor qualitative input — or ACMI review — to be completed.",
@@ -14352,6 +14934,7 @@
    "types": [
     "A-A"
    ],
+   "personal": false,
    "training": true,
    "brief": "Manual reference:",
    "narrative": "",
@@ -14444,6 +15027,7 @@
    "types": [
     "BSA"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "A five-ship F-16C BSA/CCIP training sortie conducted over approximately 80 minutes. Four pilots (Aerial-1-1 through 1-4) joined the first element with a fifth (Aerial-3-1) operating as a separate element lead. All pilots flew BDU-50LD CCIP passes against a common target (BULLS_EYE reference), with sortie bombing commencing around T+45min. The flight demonstrated a wide spread of accuracy outcomes: [EAF]MOATAZ and MeGaTron produced the best average CEPs (19.0m and 18.6m respectively) with both showing positive intra-sortie improvement arcs; [EAF] 9g | Sword produced an excellent first-pass shack but degraded significantly thereafter; hisham showed the most variance (8.6m shack and an 83m catastrophic miss in the same sortie); 1iFzz struggled with a persistent rightward bias and zero shacks, with two anomalously shallow release geometries. Formation discipline was a secondary concern for Aerial-1-2 through 1-4, with hisham (59.5) and MeGaTron (69.6) both below acceptable thresholds and multiple large-separation break events recorded between T+29 and T+57. Hisham's late arrival at T+10:17 and a 214s worst rejoin are the most significant airmanship flags. No A-A engagements, SEAD events, or casualties were recorded. No course rubric was provided; all scores are provisional and require instructor validation.",
@@ -14619,6 +15203,7 @@
    "types": [
     "STRIKE"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "1 v 1 Missile Kinematics Evasion Tactics",
@@ -14747,6 +15332,7 @@
    "types": [
     "SEAD"
    ],
+   "personal": false,
    "training": true,
    "brief": "3-Ship vs SA10 and 2x SA22",
    "narrative": "",
@@ -14834,6 +15420,7 @@
     "CCIP",
     "SEAD"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "This was a mixed TRAINING/CCIP sortie with an early one-v-one BVR phase and a formation package that flew multiple BDU-50 dive-bombing passes on the bulls-eye range. The declared SEAD arena produced no HARM shots and no radar/site kills from any human pilot - the Roland battery in the debrief log remained alive, so treat this as a training and CCIP mission with a BVR opener. Neo opened the day in the Aerial-2-8 jet, went hot to 66 nm and pressed into a two-AMRAAM inbound; he defeated one at 7148 m but was killed at 00:05:53 - a classic case of not defending early enough. He re-entered as the Ibraheem jet and flew two bombs: a beautiful 4.1 m shack followed by a 112 m LONG miss at a shallow 11deg dive. MeGaTron flew the tightest bombs of the sortie, shacking both passes at 11-13 m CEP, but pulled to 7.9 G - the highest recorded - and, per the instructor directive, was lost to a black-out (G-LOC), not a combat kill. MTM was the star: four passes, four shacks, avg CEP 11.1 m, and the best formation discipline in the flight at 81.7 with a 20 s average rejoin - the instructor's note that MTM's formation distance not be penalised is applied, and it wasn't needed. Sword flew a technically consistent card but three of his four bombs landed SHORT by 23-26 m, a systematic release-timing bias worth one debrief chalk-talk to fix. VIPER 12 bracketed two clean shacks with two LONG misses, both flown at shallow dives and high speed - the shallow/fast sight picture is the culprit, and his formation was loose with a 316 s worst rejoin. Across the flight, G-discipline was clean except Megatron's LOC, and release altitudes stayed within acceptable BDU-practice margins. The BVR lesson is written in blood: Neo died because he stayed hot. The CCIP lesson is about the sight picture - shacks came from steeper, controlled dives (MTM, Megatron) while shallow high-speed passes went LONG or SHORT. Formation cohesion outside of MTM was mediocre, with several long rejoins driving discipline scores near 50. No friendly-fire occurred; the two losses were a BVR death and a G-LOC. Overall a productive range day with clear, individually actionable fixes.",
@@ -15019,6 +15606,7 @@
     "A-A",
     "SEAD"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "This was a mixed TRAINING/A-A/SEAD package that in practice became an all-SEAD strike on an SA-15 (TorM2) point-defence site — there was no air-to-air engagement recorded for anyone. The four-ship of F-16s plus a Hornet (KAF) rolled in against a layered SAM threat, and the standout lesson of the day is that only ONE HARM out of a dozen-plus launches actually killed the radar. Sword owns the sortie: he pressed the WEZ, absorbed the counterfire (defeated one SA9M338K, ate one hit and lived), and put an AGM-88 into the TorM2 radar at 10.0 nm for the flight's only confirmed kill — a clean reversal of his declining 33-44 trend. KAF put two HARMs on target with beautiful terminal CPAs of 85 m and 48 m from 14.5 nm, but his telemetry is corrupted with repeated 16-33 G spikes and 38 instant-G flags that read either as replay artefact or violently jerky stick work — no radar kill was credited to him. MeGaTron flew disciplined standoff shots in an 11-12 nm band but connected on only 1 of 4, a sharp effectiveness drop from his 104-point sortie last week. Neo had the worst day: 0 for 3 on HARMs including a wasted 15.7 nm lob and a 222-second time-of-flight shot fired far out of parameters, and his formation work collapsed — discipline of 61.9, average rejoin 87 seconds, a worst rejoin of 183 seconds, and 26% of the mission spent at 'none' separation (4000 m off). That is a stark regression from the 112-point formation mission he flew a week ago. Nayal flew the cleanest airmanship in the flight — maxG 1.3, no exceedances, formation discipline 82.6 — but only logged five minutes and contributed nothing offensively. Across the flight the layered-threat lesson held: the point-defence SA-15 fought back with SA9M338K shots and everyone survived only because Sword suppressed it. Nobody died, and no friendly kills occurred — the debrief.log shows only AI hit/kill spam with no attribution to our pilots. Overall the package achieved its objective (radar dead) but on razor-thin margins, carried almost entirely by one pilot's single good shot. HARM accuracy across the flight was poor and must be the training focus next go.",
@@ -15187,6 +15775,7 @@
     "A-A",
     "SEAD"
    ],
+   "personal": false,
    "training": true,
    "brief": "Site 2x SA15 \n\nUnknown location\nWe are to find them , coordinate waypoints\nCoordinate ingress / egress\nAnd destroy the 2 sites",
    "narrative": "Tasked as a mixed A-A/SEAD sortie, the real mission was clear: find and destroy two SA-15 (Tor M2) sites at an unknown location, coordinate the waypoints, and run a disciplined ingress/egress. The flight found the target and put weight on it — but the SEAD execution was a mixed bag of one clean kill, a lot of wasted HARMs, and two pilots who took hits from a point-defence system that demands respect. MeGaTron was the standout: two AGM-88s away, both IMPACT, and the only confirmed radar kill of the day (SEAD_SA15_1_2_U1 at 00:41:14), reversing a nasty declining trend. He earned it by pressing — but he pressed HARD, down to 3.8 nm and 31 seconds inside the WEZ at under 1000 ft. Against a live Tor that discipline gap is a coin-flip he happened to win. PushMaster flew the best airframe management: 99.7 formation discipline, 70% fingertip, and he actively defeated an inbound SA-15 shot at 2923 m even while landing two of his own four HARMs. Sword was the sharpest shooter on paper — 372 m and 343 m terminal misses — but he flew straight through a 9.3 nm Tor launch and got struck at 00:40:16 because he never notched. That's the layered-threat lesson in one data point: good HARM geometry means nothing if the missile in the air kills you first. Ibraheem had the cleanest G-handling (zero exceedances) and the earliest join, but 0 of 4 HARMs hit and his formation discipline (42.8, 669 flags, three logged breaks) was the weakest of the flight. The whole package launched a coordinated HARM salvo in a tight window around 00:40 — good timing intent — but too many shots came from 8-9 nm with sloppy platforms, giving away missiles that missed by kilometres. Only one of the two SA-15s shows a confirmed kill in the tracker; the second site is not credited to anyone, so the mission objective was only half met. Minimum AGL of 7-10 ft across the flight tells me people were hugging the deck under fire — smart for masking, but combined with 9-G limiter pulls it's a lot of risk stacked at once. Per the brief, Sword's disconnect and end-of-mission reconnect to export data are explicitly not penalised. Overall: one objective destroyed, two aircraft struck, all four survived. Passing, but the second site is homework.",
@@ -15331,6 +15920,7 @@
    "name": "Tactical Turns | Formation | Overhead Break | Countermeasures Programs",
    "kind": "manual",
    "types": [],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "This was a formation-standards sortie built around simple left echelon while turning, plus overhead break practice - handling and discipline, not weapons. Six F-16s formed the training package with two additional Amro jets (F-14B and FA-18C) joining late and flying essentially separate profiles. No shots, no kills, no friendly fire anywhere in the tracker - correct for the task. Neo (Moataz) was the standout: 99.85 discipline, only 3 flags across 2068 ticks, and 80% of his time in fingertip/echelon-left with a beautifully bounded envelope (max 393 kts, 3.8 G). PushMaster (Blacksky) owned the actual echelon-left share at 48% of ticks with 96.4 discipline and a clean G profile, exactly the reference station we wanted. Sword flew a disciplined envelope but the tracker logged no station data, so he's graded on his clean speed/G profile. Ibraheem is the coaching case of the day: on echelon-left day he logged zero echelon-left time, 299 formation flags, eight breaks including separations of 5177 m and 4239 m, and an avgJoinSec of 66 - well over double the tight-wingman standard - though credit for the fastest single rejoin at 56s. MeGaTron and Titan (Mohamed Hesham) both flew hard: 5.2 G / 604 kts and 5.66 G / 559 kts respectively, which is over-energetic for parade formation and the overhead break, though both completed clean sorties with no logged breaks. MeGaTron's clean run is a welcome recovery from a recent slide. The pattern floor was consistently low across the flight - minAGL of 5 to 11 ft on multiple jets - acceptable as pattern/break work but worth watching. The Amro jets contributed little to the trained task, arriving 35-38 minutes in and staying high and fast in the Tomcat, or separate in the Hornet. Overall the flight demonstrated solid echelon and break fundamentals from the core F-16 element with two clear performers and one wingman needing station-keeping remediation. No airmanship red flags beyond loose energy on the two hard-turners and one loose wingman.",
@@ -15559,6 +16149,7 @@
    "name": "SEAD Training | Patriot + 2x Roland",
    "kind": "manual",
    "types": [],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "This was a coordinated SEAD press against a max-range Patriot site with two Roland escorts, flown per the directive: Kafafy dropped TALDs to spoof the SAM while the rest ingressed to fire at similar distances close to the WEZ. Formation is not scored this sortie per the debrief directive, so we grade purely on execution of the attack and airmanship. The plan opened well - Kafafy pumped six ADM-141A decoys from 27,000ft at ~44nm at 00:22, and the Patriot bit, launching a MIM-104 that was defeated at a 37.5km CPA. That set up the strike window. Hema was the standout: he pressed to ~6-7nm and put all four AGM-88 shots on target, killing the Patriot STR, an M818, the ECS and the EPP - a near-complete dismantling of the site, while simultaneously defeating an inbound Patriot at 5.1nm. Kafafy re-attacked with HARM and killed a Roland; Sword killed the second Roland. PushMaster flew the plan bravest of all, pushing to just 3.3nm, but that aggression cost him: his two HARMs at 2.4/2.8nm were far too close to guide and missed, and he was cut down by an M1097 Avenger at 00:29:59 after absorbing a Roland and two Stinger hits. Per the directive the close ingress was the tactic, so I do not penalise the courage of the push, only the shot geometry and the failure to react to three inbound threat warnings. Sword was the odd man out on timing - he fired from 11-12nm at only 355kts, breaking the 'similar distances' co-launch, and his slow low-energy HARMs only hit 50%. G discipline is the recurring airmanship concern: Kafafy snapped a 10.0G, Hema pulled 8.4G with a 7.4G sustained bout, and everyone was down at 7-11ft AGL at points. The net result is a killed site and one lost aircraft - a successful mission with lessons. Trend-wise this is a strong recovery for Hema (from -26 to a genuine A) and a solid on-role showing from Kafafy. Sword's decline continues in spirit - he got a kill but didn't commit to the briefed profile.",
@@ -15691,6 +16282,7 @@
    "types": [
     "SEAD"
    ],
+   "personal": false,
    "training": true,
    "brief": "Against a Patriot and Roland",
    "narrative": "This was a coordinated SEAD press against an S-300 (with two SA-15/TorM2 point-defence escorts) plus a Roland ADS battery, with the stated tactic of hitting the site from different angles and launching at similar distances — Viper element (Moataz) separating and Cobra staying together. The plan was sound and PushMaster executed it perfectly: a 12.6 nm HARM at 00:46:42 shacked the S-300 search radar (terminal CPA 189 m) for the only kill of the day, and both his shots impacted. That kill is the mission's high-water mark and validates the whole standoff concept. The rest of the flight illustrated exactly why the layered-threat lesson exists. MeGaTron, despite the best standoff range (21.5 nm) and the cleanest G, was the first man down at 00:45:22 to the S-300 tracker having never fired — good range is worthless without a shot in the air. Hema pressed to 10.0 nm with no HARM aboard at all and was killed at 00:46:19 inside a known WEZ, the doubled-loss scenario, capping a worrying decline (21→10). His 15G instant flag at 00:37:56 is a gross-overstress spike I want explained. Moataz flew a beautiful defensive — 100% against two 25 nm S-300 shots — but then dove to 6.5 nm and shot both HARMs from inside 8.5 nm, both misses. Neo dumped a 4-round HARM salvo from ~9 nm inside the TorM2 ring; all four missed with the best CPA at 1227 m, and his 10.1G flags show a jet flown right at the ragged edge. Sword had the second-best geometry (four shots 11-12 nm) and a 62 m near-miss that simply should have killed — a lock/handoff issue, not a discipline one. Formation-wise this was a loose day: everyone spent 94-100% of the time in 'none', the FORMATION_BREAK at 00:30:08 scattered the package to 14-24 km separation, and rejoins where recorded took 141-147 s — far outside the ~30 s standard. Two dead, one radar kill, six surviving airframes minus the two losses. The tactic worked where it was flown as briefed (PushMaster) and failed where pilots either brought no ARM or pressed inside the point-defence envelope to shoot. Net: the concept is proven, the execution discipline is not yet there for five of six.",
@@ -15872,6 +16464,7 @@
    "types": [
     "SEAD"
    ],
+   "personal": false,
    "training": true,
    "brief": "2-Ship Flight Sword and HEMA (Ibraheem) against 2x SA22",
    "narrative": "This debrief covers ONLY the second SEAD sortie — Sword and Hema (Ibraheem) against 2x SA22 (Pantsir/Tor-type IR point defenders) that spawned around 01:45-01:48 and were engaged at roughly 02:11. Per directive I have set aside the first S-300 flight and the Blacksky/Kaf/Hesper/Amro package entirely. The briefed tactic was correct for a training environment: get low, accept deep WEZ penetration, and rifle HARMs in the 8-15nm band. Both pilots executed the ingress profile as briefed — low, fast, weapons away inside the window. Sword pressed to 8.4nm at 689kts and put one HARM into the site (cpa 183m), a clean on-parameter shot, and critically he lived. Hema shot first at 700kts but all four of his HARMs missed, the opener at 9.7nm sailing 4.6km wide — that is a ripple fired before a settled solution. The layered-threat lesson wrote itself: Hema pressed inside 7nm against an active Pantsir, defeated the first SA57E6 (cpa 1682m), then was struck by the second and killed at 02:12:04. Even under a permissive training ruleset, you shoot-then-defend; you do not loiter in the ring with no impacts on the board. Sword's shooting was better but still only 25% impacts, with three trailing missiles landing 388-588m off. Both jets showed ragged 9G+ spikes down at 800-900ft during the pickle passes — energy management on the shot needs work. Bottom line: Sword suppressed and survived; Hema neither killed the site nor came home. The difference between the two scores is the death in a known WEZ, which the rubric weighs heavily even in training.",
@@ -15952,6 +16545,7 @@
    "types": [
     "SEAD"
    ],
+   "personal": false,
    "training": true,
    "brief": "2-Ship Sword and Moataz Training again vs SA10 and SA15 Together.",
    "narrative": "Tasking was a 2-ship VIPER SEAD element (Sword lead, Moataz wing) against a top-tier 'EXCELLENT max-lethality' SA-10 site reinforced with an SA-15 point-defence escort — the layered-threat lesson made real. This is a marked turnaround from your last SEAD outing on 11 Aug where both of you posted radar_kill 0 and scored in the low 40s; tonight the radar died, and that is the top award. The pair pressed together and salvoed HARMs at 00:20:30–00:20:43, then converged fire on the SA-10 search radars: Sword's shot connected at 00:21:05 (S-300PS 64H6E sr) and Moataz followed four seconds later on the 40B6MD sr at 00:21:09. Both S-300 radar units confirmed dead in the tracker killDetails — no ambiguity, no AI-attribution guessing. The real story is shot quality. Moataz was the marksman: 2 of 4 HARMs impacted with terminal CPAs of 108 m and 79 m, a clean 50% hit rate. His misses were the two long shots at 11.2 and 10.4 nm; the kills came only after he pressed to 9.7 and 9.4 nm. Sword's numbers are the caution flag — 0/4 HARMs impacted, closest miss 209 m, and a 3-second-TOF dud on his opening launch at 11.4 nm that reads like a rushed, un-refined shot. His radar kill is still fully credited by the tracker, but do not confuse a lucky degrade with a well-flown HARM. WEZ exposure was near-identical (243 s Sword, 242 s Moataz) and both pushed inside 10 nm of a live SA-10 ring — acceptable given you carried anti-radiation missiles, but the loiter after weapons release is where the SA-15 kills careless pilots. Nobody was lost, which is mandatory points banked. Airmanship: both hit ~8.8 G with a single exceedance each and no instant flags — controlled. The genuine concern is terrain: 7 ft and 8 ft minimum AGL respectively is treetop territory and a deck bust waiting to happen. Formation was patchy — Moataz lived mostly in echelon_left (59%) with a 90.0 discipline score but a slow 58 s rejoin and a 4457 m break at 00:20:55; Sword logged zero formation telemetry so I can't grade his position work. Overall a strong, honest SEAD result built on a real radar kill — clean up Sword's HARM discipline and both of your terrain floors.",
@@ -16032,6 +16626,7 @@
    "types": [
     "SEAD"
    ],
+   "personal": false,
    "training": true,
    "brief": "SEAD TRAINING \n2-SHIP SWORD AND MOATAZ VS SA10 + SA15",
    "narrative": "This was a 2-ship SEAD problem against a layered SA-10 with an SA-15 point-defence escort at maximum lethality preset - the exact 'layered threat' scenario that punishes crews who only respect the long-range ring. Sword opened the attack at 00:23:50 with a four-round HARM ripple from 9.8-10.7 nm, and to his credit walked one down to a 259 m terminal miss - close, but every shot was scored MISS. Moataz followed at 00:27:31 with his own four HARMs, but fired them from 10.4-11.5 nm while sitting at 1173-3102 ft; those low, close shots all missed with a best CPA of 1307 m. The single biggest failure of the day is that ZERO radar kills and ZERO site kills were achieved - the SA-10 was never destroyed and never went silent for the 2-minute suppression credit, so eight HARMs bought nothing but noise. Where both pilots earned their keep was survival and defence: this was a saturated engagement with SA-5B55s and an SA-15 Tor all pointed at them. Moataz defeated 7 of 8 inbounds (87.5%), including the terminal SA-15 shot at 1217 m - respecting the point-defence layer is exactly the lesson this mission teaches, and he did it. Sword's defence was thinner, 2 of 3 with one missile getting through, though he too survived. Both crews pressed dangerously deep - Moataz to 6.6 nm and Sword to 8.6 nm - with 630 s and 628 s in the WEZ respectively, far too long for a site that was still shooting. The HARM technique is the root problem: low, fast, close launches instead of high, standoff lofts that let the seeker and the missile's kinematics do the work. Airmanship was at the limit throughout - both hit ~9.4 G with instant-G flags clustered in the defend windows, and both bottomed out at 7 ft AGL, which is a deck-bust I will not wave. Moataz's formation work was decent (86.8 discipline, best rejoin 10 s) but his 97 s worst-case rejoin and repeated FORMATION_BREAKs out to 4551 m show the flight came apart under pressure. Sword's formation telemetry never populated, so I cannot positively grade his station-keeping this go. Against the pilot history, Moataz continues his decline (89 to 65 to now sub-60) and needs to arrest it; Sword is holding around his recent SEAD level but has not converted. Bottom line: two live jets returned, but the SA-10 also survived - that is a failed suppression mission redeemed only by defensive discipline.",
@@ -16113,6 +16708,7 @@
    "types": [
     "SEAD"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "This was an 'EXCELLENT - max lethality' SA-10 preset with an SA-15 point-defence escort — the classic layered threat — and the honest headline is that the radar never died. Seven F-16s put roughly 21 HARMs and 4 JSOWs into the air across a five-minute window from 00:45 to 00:51, and every single one is logged as MISS. Not one radar kill, not one site suppression event of note, and the S-300 fire-control lived to fight another day. On the positive side, survival was 100%: nobody self-killed and nobody was struck, which in a max-lethality SA-10 arena is not nothing. Standoff discipline was actually good across most of the flight — Sword fired from 53-58nm, Hema from 42-47nm, Moataz from 48-58nm, Neo from 45-50nm, all well outside the WEZ. The failure was terminal accuracy: the tightest CPA all day was Moataz at 582m, and most shots landed 2-3km off, with Neo's two HARMs a catastrophic 18-20km wide. Hema was the tactical bright spot defensively, eating two S-300 (SA5B55) shots and defeating both cleanly at 12-14km CPA for a 100% defeat rate. Blacksky pressed hardest and worst — 161s in the WEZ, in to 27.8nm, with three misses and a worst rejoin of 1210 seconds. MeGaTron is the goat of the sortie: not a single weapon employed, yet 103s of WEZ exposure — that is risk banked for zero return. Formation discipline was poor overall: Blacksky sat 'none' 59% of the time and Hema 69%, with only Moataz posting a respectable disc score of 72. Rejoins were glacial — 1210s, 1659s, 508s — nowhere near the sub-30s a tight wingman owes his lead. And Hema's G-trace is a serious flag: nine HIGH_G_INSTANT events including logged spikes of 24.3G and 32.7G with min speed of 34kts, which either means departures/overcontrol or a corrupt sensor, and I want it investigated before next brief. Bottom line: good posture, catastrophic conversion — the primary SEAD objective failed.",
@@ -16308,6 +16904,7 @@
    "types": [
     "CCIP"
    ],
+   "personal": false,
    "training": false,
    "brief": "",
    "narrative": "A five-ship CCIP range sortie flying the briefed tactical pattern (2000 ft AGL / 375 kts, accelerating to 420 kts and 500 ft AGL before pop-up), tasked with four dive-bombing runs and four BDU-50LD releases each. Sword led by example: 4-for-4 shacks, avg CEP 6.3 m, best 2.7 m, every release above 2600 ft AGL — a genuine A-grade demonstration of a stable pop, roll-in and pickle. Hema showed the potential with two shacks including a 3.5 m gem on run 3, but bracketed the target 18–19 m short-right on runs 2 and 4 and — critically — released at 1224 and 1387 ft AGL, inside the Mk-82-class frag envelope. Blacksky did not shack a single pass yet flew the most instructive scoreboard of the day: a clean tightening trend from 37 m down to the high teens, with an unmistakable 16–19 m LEFT bias on every drop, a classic wind/sight-picture correction he can dial out overnight. Megatron owns the extremes — a beautiful 3.3 m shack on run 2 sitting between 32 m and 33 m throwaways, and all four deliveries flown 30–80 kts slow of the briefed pop speed. The bright news: nobody jettisoned bombs; the tracker shows all four pilots with CCIP passes pickled all four rounds, so the six bombs returned on the blocks are consistent with a 4-ship dropping 16 total minus the wingman shortfalls — no jettison penalty was applied because no jettison event appears in the data. Mazen (slot 4, tracker name ToRnAdO) delivered nothing: zero resolved passes, and a string of eleven HIGH_G_INSTANT flags reaching 21.9 G with a 30 kt minimum speed that scream airframe departure or telemetry glitch — his emergency landing is waived per the directive, but the G-spikes are a hard flag for maintenance/replay review. Formation discipline was the flight's weak flank: only Blacksky (34 s single join, 85.6 discipline) and Sword (as lead) kept it tight, while Hema logged 20 join attempts (worst 269 s) and Megatron sat 'none' 52% of the sortie with a 747 s worst rejoin. No enemy air, no ground kills logged, and — importantly — no friendly-fire kills anywhere in the tracker; nothing here is scored as fratricide. Overall a productive accuracy range with one standout lead, two correctable-error wingmen, one no-drop, and a clear message that station keeping is lagging the bombing.",
@@ -16477,6 +17074,7 @@
    "types": [
     "CCIP"
    ],
+   "personal": false,
    "training": true,
    "brief": "CCRP Maximum Range GBU Drop",
    "narrative": "This was a CCRP maximum-range GBU-12 laser-guided bomb sortie, and by the instructor's account the flight spent a lot of time circling before getting to business. Per the debrief, on the first run neither Sword nor Moataz released, and Hema and Blacksky held at a waypoint while Sword and Moataz ran their pass and rejoined before recovering. The tracker backs the theme: only Blacksky actually pickled, dropping two GBU-12s from 52,157 ft at 601 kts — a genuine high-altitude stand-off profile exactly in the spirit of a max-range LGB drop. Unfortunately both of Blacksky's weapons were logged BOMB_IGNORED at roughly 7.7 km, meaning the laser guidance never brought them onto the target; for LGBs that points squarely at designation — lasing timing, code match, or coordinate entry — rather than a release-parameter error. Sword flew the most polished airplane of the day at a gentle 2.7 G max and checked in first, but recorded no release and no formation telemetry at all, so his contribution to the weapons event is a miss. Moataz posted the best formation discipline in the flight (86.8) and the crispest rejoin (35 s, one attempt), but he too did not put a bomb off on the first run. Hema held as directed and showed flashes of excellent wingman work — a 5 s rejoin and 25% fingertip time — but a 738 s worst rejoin dragged his average to 192 s and tells the story of a flight that kept losing and re-forming station. Airmanship was safe across the board: no G exceedances, no deck busts (the single-digit minAGL figures are sensor artefacts against 20,000-plus-foot average altitudes), and Moataz's 5.9 G was the only mildly aggressive pull. Formation discipline scores ranged from Blacksky's 60 up to Moataz's 87, with a lot of 'none' and trail time reflecting all that circling. The recurring FORMATION_BREAK events near ±500 ft delta altitude show the pattern of stepping up and down between holds rather than tight, level station-keeping. From a training standpoint the flight rehearsed the high-altitude CCRP mechanics and the holding discipline, which is valuable, but the mission's core objective — a successful long-range guided hit — was not achieved by anyone. The good news is the trend: Blacksky and Sword are both markedly stronger than their July BFM lows, and Hema keeps climbing. The single biggest fix for next time is closing the laser-guidance loop so those stand-off releases actually track to the target.",
@@ -16604,6 +17202,7 @@
    "types": [
     "CCIP"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "This was a four-plus-ship CCIP dive-bombing range with Mk-82 slicks and a pair of MK-82AIR retards, followed by general formation work. Six pilot slots logged; the shooting was done by Sword, Blacksky, Golden, Megatron and Ibraheem, with HIsham arriving late and never getting into the game. Every man who dropped scored at least one shack on his opening pass — a good sign of solid initial setups — but consistency fell apart after the first release for most. Sword was the standout: an avgCEP of 19.2 m, a 5.6 m opening shack, and the safest deliveries on the range, every bomb pickled between 2868 and 3346 ft AGL. Blacksky was close behind at 23.6 m with a 9.1 m shack, but showed a repeatable LONG-and-LEFT bias that screams an uncorrected sight picture or wind offset. Golden earned respect for the best learning curve of the day, walking his CEP down 40.7 → 17.6 → 11.4 m to finish on a shack. The formation picture, however, was messy. Golden and Megatron between them logged over 1800 formation flags, spent roughly a fifth to a quarter of the sortie in 'none', and each posted a rejoin near or over 2.5 minutes (177 s and 148 s) — that is a lost wingman, not a rejoin. Ibraheem was the mirror image: the tightest formation flying of the flight (fingertip 65%, discipline 89.9) but the worst and most dangerous bombing — two frag-envelope busts at 1257 and 1013 ft AGL plus wild release gates (9° dive at 483 kts, then 599 kts). His 8.07 G pull also nudged past the training gate. No air-to-air, no ground kills confirmed by tracker, and zero friendly kills — the formation breaks were airmanship failures, not collisions. Overall the flight can shoot but needs to decide whether it wants to be accurate or safe, then do both at once. Priority fixes: hard-floor discipline on release altitude, kill the directional aim biases, and tighten rejoins to under 30 seconds.",
@@ -16808,6 +17407,7 @@
    "types": [
     "CCIP"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "",
@@ -16935,6 +17535,7 @@
    "types": [
     "BFM"
    ],
+   "personal": false,
    "training": true,
    "brief": "",
    "narrative": "",

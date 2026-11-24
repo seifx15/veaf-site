@@ -23,6 +23,9 @@
       sq_standings: "Squadron standings", pilots_word: "pilots", sorties_word: "sorties", no_squadron_short: "No squadron",
       s_best: "Best score", s_ff: "Friendly kills", s_deaths: "Deaths", s_quals: "Qualifications", last_flown: "Last flown", board_place: "Leaderboard",
       grades_h: "Grades", flown_h: "Flown", quals_h: "Qualifications", courses_h: "Courses", no_quals: "No qualifications yet.",
+      lb_h: "Logbook", lb_hours: "Hours in the air", lb_sorties: "Sorties", lb_landings: "Landings", lb_lavg: "Landing average", lb_traps: "Carrier traps",
+      lb_aar: "AAR fills", lb_kd: "K/D", lb_ej: "Ejections", lb_aircraft: "By aircraft", lb_maps: "By map", lb_weapons: "Weapons (hits / shots)",
+      lb_note: "Every flight the tracker recorded, debriefed or not.",
       cs_not_started: "Not started", cs_in_progress: "In progress", cs_ready: "Ready for sign-off", cs_complete: "Complete", instructor_word: "instructor", nav_ops: "Operations", all_ops: "All operations",
       brandsub: "Virtual Egyptian Air Force", menu: "Menu",
       nav_home: "Home", nav_about: "About", nav_training: "Training", nav_pvp: "PvP", nav_airshow: "Airshow",
@@ -66,7 +69,8 @@
       recent_results: "Recent results", no_results: "No scrim results published yet.",
       vs: "vs", rounds: "rounds", kills: "kills",
       airshow_eyebrow: "Airshow", airshow_h: "Airshow", airshow_intro: "Formation aerobatics in the black display livery, with smoke. The airshow team flies tight formation and coordinated passes for squadron events.",
-      gallery: "From the squadron", nav_more: "More",
+      gallery: "From the squadron", nav_more: "More", film_eyebrow: "On film", film_h: "Watch the squadron fly",
+      film_p: "Short films made in DCS by the squadron: a desert strike and a night sortie.", film_strike: "Desert Strike", film_night: "Night Operations",
       pilots_h: "Pilots", pilots_intro: "Current squadron members, their rank and the aircraft they fly. Select a pilot for their skills, qualifications and mission log.",
       all_aircraft: "All aircraft", search: "Search callsign", no_pilots: "No pilots match.",
       board_h: "Leaderboard", board_intro: "Totals from debriefed missions. Select a column to sort.",
@@ -102,6 +106,9 @@
       sq_standings: "ترتيب الأسراب", pilots_word: "طيار", sorties_word: "طلعة", no_squadron_short: "بدون سرب",
       s_best: "أفضل نتيجة", s_ff: "نيران صديقة", s_deaths: "خسائر", s_quals: "المؤهلات", last_flown: "آخر طلعة", board_place: "الترتيب",
       grades_h: "التقديرات", flown_h: "أنواع الطلعات", quals_h: "المؤهلات", courses_h: "الدورات", no_quals: "لا توجد مؤهلات بعد.",
+      lb_h: "سجل الطيران", lb_hours: "ساعات في الجو", lb_sorties: "الطلعات", lb_landings: "الهبوط", lb_lavg: "متوسط الهبوط", lb_traps: "هبوط على حاملة",
+      lb_aar: "التزود بالوقود جواً", lb_kd: "نسبة الإسقاط/الخسارة", lb_ej: "القفز بالمظلة", lb_aircraft: "حسب الطائرة", lb_maps: "حسب الخريطة", lb_weapons: "الأسلحة (إصابة / إطلاق)",
+      lb_note: "كل طلعة سجّلها المتتبع، سواء قُيّمت أم لا.",
       cs_not_started: "لم تبدأ", cs_in_progress: "قيد التقدم", cs_ready: "جاهز للاعتماد", cs_complete: "مكتملة", instructor_word: "المدرب", nav_ops: "العمليات", all_ops: "كل العمليات",
       brandsub: "القوات الجوية المصرية الافتراضية", menu: "القائمة",
       nav_home: "الرئيسية", nav_about: "من نحن", nav_training: "التدريب", nav_pvp: "المنافسات", nav_airshow: "العروض الجوية",
@@ -145,7 +152,8 @@
       recent_results: "أحدث النتائج", no_results: "لا توجد نتائج منشورة بعد.",
       vs: "ضد", rounds: "جولات", kills: "إسقاطات",
       airshow_eyebrow: "العروض الجوية", airshow_h: "العروض الجوية", airshow_intro: "استعراض جوي بتشكيلات متقاربة بطلاء العرض الأسود مع الدخان. يطير فريق العروض تشكيلات ومرورًا منسقًا في مناسبات السرب.",
-      gallery: "من السرب", nav_more: "المزيد",
+      gallery: "من السرب", nav_more: "المزيد", film_eyebrow: "أفلام", film_h: "شاهد السرب في الجو",
+      film_p: "أفلام قصيرة صوّرها السرب في DCS: ضربة في الصحراء وطلعة ليلية.", film_strike: "ضربة الصحراء", film_night: "العمليات الليلية",
       pilots_h: "الطيارون", pilots_intro: "أعضاء السرب الحاليون ورتبهم والطائرات التي يطيرونها. اختر طيارًا لعرض مهاراته ومؤهلاته وسجل مهماته.",
       all_aircraft: "كل الطائرات", search: "ابحث بالنداء", no_pilots: "لا يوجد طيار مطابق.",
       board_h: "الترتيب", board_intro: "مجاميع من المهمات المُقيّمة. اختر عمودًا للترتيب.",
@@ -209,8 +217,10 @@
     ]
   };
 
-  var GALLERY = ["pyramids", "alexandria-break", "alexandria-port", "desert-three", "takeoff-dusk", "tanker", "close-formation",
-    "coast-three", "ramp", "cockpit-formation", "bombs-away", "pair-silver", "viper-9526", "wing-bomb"];
+  var GALLERY = ["strike-viper", "pyramids", "strike-cockpit", "alexandria-break", "night-pair", "alexandria-port", "strike-impact",
+    "desert-three", "takeoff-dusk", "tanker", "strike-pass", "close-formation", "night-viper", "coast-three", "ramp", "cockpit-formation",
+    "bombs-away", "pair-silver", "viper-9526", "wing-bomb"];
+  var FILMS = [["desert-strike", "film_strike"], ["night-ops", "film_night"]];
 
   /* ------------------------------------------------------------- helpers */
   function t(k) { return (T[LANG] && T[LANG][k]) || T.en[k] || k; }
@@ -265,7 +275,14 @@
       esc(t("train_intro")) + '</p><div class="programs">' + PROGRAMMES.map(function (p) { return prog(p); }).join("") + "</div></div></section>" +
       '<section class="band"><div class="wrap split">' + img("alexandria-break", "A pair breaking over Alexandria") + "<div><span class=\"eyebrow\">" + esc(t("pvp_eyebrow")) +
       "</span><h2>" + esc(t("pvp_h")) + "</h2><p>" + esc(t("pvp_intro")) + '</p><div class="cta-row"><a class="btn" href="#pvp">' + esc(t("nav_pvp")) + '</a><a class="btn" href="#leaderboard">' +
-      esc(t("nav_board")) + "</a></div></div></div></section>" + homeOps() + joinBand();
+      esc(t("nav_board")) + "</a></div></div></div></section>" + films() + homeOps() + joinBand();
+  }
+  function films() {
+    return '<section class="band"><div class="wrap"><span class="eyebrow">' + esc(t("film_eyebrow")) + "</span><h2>" + esc(t("film_h")) + '</h2><p class="intro">' +
+      esc(t("film_p")) + '</p><div class="films">' + FILMS.map(function (f) {
+        return '<figure class="film"><video controls playsinline preload="none" poster="img/video-' + f[0] + '.jpg" width="1280" height="720">' +
+          '<source src="video/' + f[0] + '.mp4" type="video/mp4"></video><figcaption>' + esc(t(f[1])) + "</figcaption></figure>";
+      }).join("") + "</div></div></section>";
   }
   function facts() {
     return '<ul class="facts">' + [["f_lang", "f_lang_v"], ["f_focus", "f_focus_v"], ["f_who", "f_who_v"], ["f_comp", "f_comp_v"]].map(function (f) {
@@ -464,9 +481,11 @@
       '<span class="tags">' + typeTags(o) + "</span>" + (o.brief ? '<span class="ex">' + esc(String(o.brief).slice(0, 180)) + (String(o.brief).length > 180 ? "…" : "") + "</span>" : "") +
       '<span class="cnt">' + fmt((o.signed || []).length) + " " + esc(t("signed_up")) + "</span></a>";
   }
+  // automatic sorties (a pilot's practice, an F10 flight, a BFM/BVR fight) show only on the involved pilots' pages
+  function squadronOps() { return ((DATA && DATA.operations) || []).filter(function (o) { return !o.personal; }); }
   function homeOps() {
     var up = ((DATA && DATA.upcoming) || []).slice(0, 3);
-    var recent = ((DATA && DATA.operations) || []).slice(0, 3);
+    var recent = squadronOps().slice(0, 3);
     if (!up.length && !recent.length) return "";
     var rec = recent.map(function (o) {
       return '<a class="brief done" href="#op-' + esc(o.id) + '"><span class="when">' + esc(o.date) + '</span><span class="nm">' + esc(o.name) + '</span><span class="tags">' + typeTags(o) + "</span>" +
@@ -480,7 +499,7 @@
   function pageOps() {
     var up = (DATA && DATA.upcoming) || [];
     var types = {};
-    ((DATA && DATA.operations) || []).forEach(function (o) { (o.types || []).forEach(function (x) { types[x] = (types[x] || 0) + 1; }); });
+    squadronOps().forEach(function (o) { (o.types || []).forEach(function (x) { types[x] = (types[x] || 0) + 1; }); });
     var upHtml = up.length ? '<div class="upcoming">' + up.map(briefCard).join("") + "</div>" : '<p class="empty">' + esc(t("no_upcoming")) + "</p>";
     var chips = '<div class="filters" role="group"><button class="chip" type="button" data-otype="" aria-pressed="' + (!opFilter.type) + '">' + esc(t("all_types")) + "</button>" +
       Object.keys(types).sort(function (a, b) { return types[b] - types[a]; }).map(function (x) {
@@ -494,7 +513,7 @@
     var box = document.getElementById("oplist");
     if (!box) return;
     var q = opFilter.q.trim().toLowerCase();
-    var os = ((DATA && DATA.operations) || []).filter(function (o) {
+    var os = squadronOps().filter(function (o) {
       return (!opFilter.type || (o.types || []).indexOf(opFilter.type) >= 0) &&
         (!q || (o.name + " " + (o.results || []).map(function (r) { return r.callsign; }).join(" ")).toLowerCase().indexOf(q) >= 0);
     });
@@ -520,6 +539,10 @@
   function pageOp(s) {
     var o = opBySlug(s);
     var back = '<a class="back" href="#operations">' + esc(t("back_ops")) + "</a>";
+    if (o && o.personal && (o.results || []).length) {
+      var who = (o.results.filter(function (r) { return r.member; })[0] || o.results[0]).callsign;
+      back = '<a class="back" href="#pilot-' + esc(slug(who)) + '">← ' + esc(who) + "</a>";
+    }
     if (!o) return '<section class="band"><div class="wrap">' + back + '<p class="empty">' + esc(t("op_not_found")) + "</p></div></section>";
     var planned = !o.results;
     var c = o.card || {};
@@ -613,9 +636,25 @@
       .concat((p.former_element_patches || []).map(function (f) { return { name: f.name, image: f.image, date: t("el_former") + (f.until ? " · " + f.until : "") }; }))
       .concat(p.patches || []);
     var pp = worn.length ? '<h2 class="h-sm">' + esc(t("worn_h")) + "</h2>" + patchGrid(worn, true) : "";
+    var lb = p.logbook, lbHtml = "";
+    if (lb) {
+      var lbStats = '<div class="stats">' + [["hours", "lb_hours", 1], ["sorties", "lb_sorties", 0], ["landings", "lb_landings", 0], ["landing_avg", "lb_lavg", 0],
+        ["traps", "lb_traps", 0], ["aar_fills", "lb_aar", 0], ["kd", "lb_kd", 2], ["ejections", "lb_ej", 0]]
+        .filter(function (x) { return lb[x[0]] != null && (lb[x[0]] !== 0 || x[0] === "hours" || x[0] === "sorties"); })
+        .map(function (x) { return "<div><b>" + fmt(lb[x[0]], x[2]) + "</b><span>" + esc(t(x[1])) + "</span></div>"; }).join("") + "</div>";
+      var tags = function (obj, unit) {
+        var ks = Object.keys(obj || {});
+        return ks.length ? '<div class="kinds">' + ks.map(function (k) { return '<span class="tag">' + esc(k) + " · " + fmt(obj[k], 1) + (unit || "") + "</span>"; }).join("") + "</div>" : '<p class="muted">–</p>';
+      };
+      var wk = Object.keys(lb.weapons || {});
+      var wHtml = wk.length ? '<div class="kinds">' + wk.map(function (k) { var w = lb.weapons[k]; return '<span class="tag">' + esc(k) + " " + fmt(w.hits) + " / " + fmt(w.shots) + "</span>"; }).join("") + "</div>" : "";
+      lbHtml = '<h2 class="h-sm">' + esc(t("lb_h")) + '</h2><p class="muted">' + esc(t("lb_note")) + "</p>" + lbStats +
+        '<div class="two"><div><h2 class="h-sm">' + esc(t("lb_aircraft")) + "</h2>" + tags(lb.by_aircraft, " h") + '</div><div><h2 class="h-sm">' + esc(t("lb_maps")) + "</h2>" + tags(lb.by_map, " h") + "</div></div>" +
+        (wHtml ? '<h2 class="h-sm">' + esc(t("lb_weapons")) + "</h2>" + wHtml : "");
+    }
     var unit = (p.squadron_patch ? '<img class="unit-patch" src="' + esc(p.squadron_patch) + '" alt="' + esc(p.squadron + " · " + t("sq_patch")) + '" title="' + esc(p.squadron) + '" width="104" height="104">' : "") +
       (p.element_patch ? '<img class="unit-patch el-patch" src="' + esc(p.element_patch) + '" alt="' + esc(p.element + " · " + t("el_patch")) + '" title="' + esc(p.element) + '" width="84" height="84">' : "");
-    return '<section class="band tight"><div class="wrap">' + back + '<div class="profile-head"><div class="ph-row">' + photoBlock(p) + plate + unit + "</div>" + meta + "</div>" + stats + pp +
+    return '<section class="band tight"><div class="wrap">' + back + '<div class="profile-head"><div class="ph-row">' + photoBlock(p) + plate + unit + "</div>" + meta + "</div>" + stats + lbHtml + pp +
       '<div class="two"><div><h2 class="h-sm">' + esc(t("grades_h")) + "</h2>" + grades + '<h2 class="h-sm">' + esc(t("flown_h")) + "</h2>" + (kindHtml || '<p class="muted">–</p>') +
       '<h2 class="h-sm">' + esc(t("quals_h")) + "</h2>" + qualHtml + (courses ? '<h2 class="h-sm">' + esc(t("courses_h")) + "</h2>" + courses : "") +
       '<h2 class="h-sm">' + esc(t("skills")) + "</h2>" + skills + '</div><div><h2 class="h-sm">' + esc(t("history")) + "</h2>" + hist + "</div></div></div></section>";

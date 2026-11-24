@@ -3,7 +3,7 @@
    data.json is always fetched fresh first (cache only when offline);
    the sign-in service on another origin is never touched. Also shows the
    squadron's push notifications (new operations, sortie reminders). */
-var CACHE = "veaf-v3";
+var CACHE = "veaf-v5";
 var CORE = ["./", "index.html", "style.css", "app.js", "manifest.webmanifest", "img/logo-sm.png", "img/logo-64.png", "img/logo-192.png", "img/logo.webp"];
 
 self.addEventListener("install", function (e) {
@@ -18,6 +18,7 @@ self.addEventListener("fetch", function (e) {
   var req = e.request;
   var url = new URL(req.url);
   if (req.method !== "GET" || url.origin !== self.location.origin) return;
+  if (/\.(mp4|webm)$/.test(url.pathname)) return;   // films stream straight from the site (range requests)
   var fresh = fetch(req).then(function (res) {
     if (res && res.ok) {
       var copy = res.clone(), key = /\/data\.json$/.test(url.pathname) ? new Request(url.origin + url.pathname) : req;
