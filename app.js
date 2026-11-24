@@ -71,6 +71,7 @@
       airshow_eyebrow: "Airshow", airshow_h: "Airshow", airshow_intro: "Formation aerobatics in the black display livery, with smoke. The airshow team flies tight formation and coordinated passes for squadron events.",
       gallery: "From the squadron", nav_more: "More", film_eyebrow: "On film", film_h: "Watch the squadron fly",
       film_p: "Short films made in DCS by the squadron: a desert strike and a night sortie.", film_strike: "Desert Strike", film_night: "Night Operations",
+      orbat_h: "Order of battle", orbat_intro: "Our wings and their F-16 squadrons: where they are based and what they specialise in.", o_base: "Base", o_spec: "Speciality", o_aircraft: "Aircraft", o_comp: "Competitive squadron", o_pilots: "pilots",
       pilots_h: "Pilots", pilots_intro: "Current squadron members, their rank and the aircraft they fly. Select a pilot for their skills, qualifications and mission log.",
       all_aircraft: "All aircraft", search: "Search callsign", no_pilots: "No pilots match.",
       board_h: "Leaderboard", board_intro: "Totals from debriefed missions. Select a column to sort.",
@@ -154,6 +155,7 @@
       airshow_eyebrow: "العروض الجوية", airshow_h: "العروض الجوية", airshow_intro: "استعراض جوي بتشكيلات متقاربة بطلاء العرض الأسود مع الدخان. يطير فريق العروض تشكيلات ومرورًا منسقًا في مناسبات السرب.",
       gallery: "من السرب", nav_more: "المزيد", film_eyebrow: "أفلام", film_h: "شاهد السرب في الجو",
       film_p: "أفلام قصيرة صوّرها السرب في DCS: ضربة في الصحراء وطلعة ليلية.", film_strike: "ضربة الصحراء", film_night: "العمليات الليلية",
+      orbat_h: "ترتيب القتال", orbat_intro: "أجنحتنا وأسراب F-16 التابعة لها: قواعدها وتخصصاتها.", o_base: "القاعدة", o_spec: "التخصص", o_aircraft: "الطائرة", o_comp: "السرب التنافسي", o_pilots: "طيارين",
       pilots_h: "الطيارون", pilots_intro: "أعضاء السرب الحاليون ورتبهم والطائرات التي يطيرونها. اختر طيارًا لعرض مهاراته ومؤهلاته وسجل مهماته.",
       all_aircraft: "كل الطائرات", search: "ابحث بالنداء", no_pilots: "لا يوجد طيار مطابق.",
       board_h: "الترتيب", board_intro: "مجاميع من المهمات المُقيّمة. اختر عمودًا للترتيب.",
@@ -350,6 +352,29 @@
           (ep ? '<img class="sqmini" src="' + esc(ep) + '" alt="" width="18" height="18">' : "") + esc(e) + "</button>";
       }).join("") + "</div>";
   }
+  function orbat() {
+    var qs = ((DATA && DATA.squadrons) || []).filter(function (q) { return q.name && (q.units || q.base || q.speciality); });
+    if (!qs.length) return "";
+    function facts(o) {
+      var f = [];
+      if (o.base) f.push('<span><b>' + esc(t("o_base")) + "</b> " + esc(o.base) + "</span>");
+      if (o.aircraft) f.push('<span><b>' + esc(t("o_aircraft")) + "</b> " + esc(o.aircraft) + "</span>");
+      if (o.speciality) f.push('<span class="spec"><b>' + esc(t("o_spec")) + "</b> " + esc(o.speciality) + "</span>");
+      return f.length ? '<div class="ofacts">' + f.join("") + "</div>" : "";
+    }
+    return '<section class="band"><div class="wrap"><h2>' + esc(t("orbat_h")) + '</h2><p class="intro">' + esc(t("orbat_intro")) + '</p><div class="orbat">' +
+      qs.map(function (q) {
+        return '<article class="wing' + (q.competitive ? " comp" : "") + '"><header>' + (q.patch ? '<img class="wpatch" src="' + esc(q.patch) + '" alt="" width="64" height="64" loading="lazy">' : "") +
+          '<div><h3>' + esc(q.name) + "</h3>" + (q.full_name ? '<div class="wfull">' + esc(q.full_name) + "</div>" : "") +
+          (q.competitive ? '<div class="wcomp">★ ' + esc(t("o_comp")) + "</div>" : "") + (q.division ? '<div class="wdiv">' + esc(q.division) + "</div>" : "") + "</div></header>" +
+          facts(q) + (q.motto ? '<p class="motto">“' + esc(q.motto) + "”</p>" : "") +
+          ((q.units || []).length ? '<ul class="units">' + q.units.map(function (u) {
+            return "<li>" + (u.patch ? '<img class="upatch" src="' + esc(u.patch) + '" alt="" width="40" height="40" loading="lazy">' : '<span class="upatch none"></span>') +
+              '<div><div class="uname">' + esc(u.name) + (u.pilots ? ' <span class="ucount">' + fmt(u.pilots) + " " + esc(t("o_pilots")) + "</span>" : "") + "</div>" +
+              facts(u) + (u.motto ? '<p class="motto">“' + esc(u.motto) + "”</p>" : "") + "</div></li>";
+          }).join("") + "</ul>" : "") + "</article>";
+      }).join("") + "</div></div></section>";
+  }
   function pagePilots() {
     var ps = (DATA && DATA.pilots) || [];
     var types = {};
@@ -366,7 +391,7 @@
       }).join("") + "</div>" : "";
     return head("", t("pilots_h"), t("pilots_intro")) + '<section class="band"><div class="wrap">' + sqChips + '<div id="el-chips">' + elementChips() + "</div>" + '<div class="filters" role="group">' + chips +
       '<input class="search" id="pilot-search" type="search" placeholder="' + esc(t("search")) + '" aria-label="' + esc(t("search")) + '" value="' + esc(rosterFilter.q) + '"></div><div id="roster"></div></div></section>' +
-      (((DATA && DATA.patches) || []).length ? '<section class="band"><div class="wrap"><h2>' + esc(t("patches_h")) + '</h2><p class="intro">' + esc(t("patches_intro")) + "</p>" + patchGrid(DATA.patches) + "</div></section>" : "");
+      orbat() + (((DATA && DATA.patches) || []).length ? '<section class="band"><div class="wrap"><h2>' + esc(t("patches_h")) + '</h2><p class="intro">' + esc(t("patches_intro")) + "</p>" + patchGrid(DATA.patches) + "</div></section>" : "");
   }
   function drawRoster() {
     var box = document.getElementById("roster");

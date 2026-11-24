@@ -472,3 +472,24 @@ section.pushband { background: var(--panel); padding-block: 18px; }
 .plate .sqn .el { color: var(--sand); font-weight: 600; white-space: nowrap; }
 .unit-patch.el-patch { width: 84px; height: 84px; }
 .chip .sqmini { vertical-align: -4px; }
+
+/* 8.7.2 order of battle: a wing per card, its squadrons listed with patch, base and speciality */
+.orbat { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+.wing { background: var(--panel); border: 1px solid var(--line); border-radius: 4px; padding: 14px 16px; }
+.wing.comp { border-color: var(--sand); }
+.wing header { display: flex; gap: 12px; align-items: center; margin-bottom: 8px; }
+.wing h3 { margin: 0; font: 800 1.35rem/1.1 var(--f-display); letter-spacing: 0.02em; }
+.wpatch { width: 64px; height: 64px; object-fit: contain; flex: none; filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.4)); }
+.wfull, .wdiv { font-size: 0.8rem; color: var(--muted); }
+.wcomp { font-size: 0.8rem; color: var(--sand); font-weight: 700; }
+.ofacts { display: flex; flex-wrap: wrap; gap: 2px 14px; font-size: 0.82rem; color: var(--muted); }
+.ofacts b { color: var(--text); font-weight: 600; margin-inline-end: 4px; }
+.ofacts .spec b { color: var(--sand); }
+.wing .motto { margin: 6px 0 0; font-size: 0.82rem; font-style: italic; color: var(--muted); }
+.units { list-style: none; margin: 10px 0 0; padding: 0; border-top: 1px solid var(--line); }
+.units li { display: flex; gap: 10px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.units li:last-child { border-bottom: 0; }
+.upatch { width: 40px; height: 40px; object-fit: contain; flex: none; }
+.upatch.none { display: inline-block; border: 1px dashed var(--line); border-radius: 50%; }
+.uname { font-weight: 700; }
+.ucount { font: 500 0.75rem/1 var(--f-mono); color: var(--muted); margin-inline-start: 6px; }

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T22:38:16+00:00",
+ "generated": "2026-11-24T22:59:30+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -67,7 +67,7 @@
    "photo": "https://veaf-app.veaf-2ff4d6.workers.dev/photo/P_20260708193733_285?v=1794279024",
    "patches": [],
    "squadron": "201 AW Air Force Academy Belbeis",
-   "squadron_patch": "",
+   "squadron_patch": "img/logo-192.png",
    "element": "28 SQUADRON",
    "element_patch": "",
    "former_element_patches": [],
@@ -1061,7 +1061,7 @@
    "photo": "",
    "patches": [],
    "squadron": "201 AW Air Force Academy Belbeis",
-   "squadron_patch": "",
+   "squadron_patch": "img/logo-192.png",
    "element": "28 SQUADRON",
    "element_patch": "",
    "former_element_patches": [],
@@ -1719,7 +1719,7 @@
    "photo": "",
    "patches": [],
    "squadron": "201 AW Air Force Academy Belbeis",
-   "squadron_patch": "",
+   "squadron_patch": "img/logo-192.png",
    "element": "28 SQUADRON",
    "element_patch": "",
    "former_element_patches": [],
@@ -2329,7 +2329,7 @@
    "photo": "",
    "patches": [],
    "squadron": "201 AW Air Force Academy Belbeis",
-   "squadron_patch": "",
+   "squadron_patch": "img/logo-192.png",
    "element": "28 SQUADRON",
    "element_patch": "",
    "former_element_patches": [],
@@ -17741,51 +17741,237 @@
  "squadrons": [
   {
    "name": "201 AW Air Force Academy Belbeis",
-   "patch": "",
+   "patch": "img/logo-192.png",
+   "patch_own": false,
    "elements": [
     "28 SQUADRON",
     "SILVER STARS AEROBATICS"
-   ]
+   ],
+   "units": [
+    {
+     "name": "28 SQUADRON",
+     "patch": "img/logo-192.png",
+     "patch_own": false,
+     "pilots": 4,
+     "base": "",
+     "aircraft": "",
+     "speciality": "",
+     "motto": ""
+    },
+    {
+     "name": "SILVER STARS AEROBATICS",
+     "patch": "img/logo-192.png",
+     "patch_own": false,
+     "pilots": 0,
+     "base": "",
+     "aircraft": "",
+     "speciality": "",
+     "motto": ""
+    }
+   ],
+   "competitive": false,
+   "pilots": 4,
+   "full_name": "",
+   "base": "",
+   "division": "",
+   "aircraft": "",
+   "speciality": "",
+   "motto": ""
   },
   {
    "name": "232 TFW",
-   "patch": "",
+   "patch": "img/logo-192.png",
+   "patch_own": false,
    "elements": [
     "72 TFS",
     "74 TFS"
-   ]
+   ],
+   "units": [
+    {
+     "name": "72 TFS",
+     "patch": "img/logo-192.png",
+     "patch_own": false,
+     "pilots": 0,
+     "base": "",
+     "aircraft": "",
+     "speciality": "",
+     "motto": ""
+    },
+    {
+     "name": "74 TFS",
+     "patch": "img/logo-192.png",
+     "patch_own": false,
+     "pilots": 0,
+     "base": "",
+     "aircraft": "",
+     "speciality": "",
+     "motto": ""
+    }
+   ],
+   "competitive": false,
+   "pilots": 0,
+   "full_name": "",
+   "base": "",
+   "division": "",
+   "aircraft": "",
+   "speciality": "",
+   "motto": ""
   },
   {
    "name": "242 TFW",
-   "patch": "",
+   "patch": "img/logo-192.png",
+   "patch_own": false,
    "elements": [
     "68 TFS \"DRAGONS\"",
     "70 TFS \"PANTHERS\""
-   ]
+   ],
+   "units": [
+    {
+     "name": "68 TFS \"DRAGONS\"",
+     "patch": "img/logo-192.png",
+     "patch_own": false,
+     "pilots": 0,
+     "base": "",
+     "aircraft": "",
+     "speciality": "",
+     "motto": ""
+    },
+    {
+     "name": "70 TFS \"PANTHERS\"",
+     "patch": "img/logo-192.png",
+     "patch_own": false,
+     "pilots": 0,
+     "base": "",
+     "aircraft": "",
+     "speciality": "",
+     "motto": ""
+    }
+   ],
+   "competitive": false,
+   "pilots": 0,
+   "full_name": "",
+   "base": "",
+   "division": "",
+   "aircraft": "",
+   "speciality": "",
+   "motto": ""
   },
   {
    "name": "262 TFW",
-   "patch": "",
+   "patch": "img/logo-192.png",
+   "patch_own": false,
    "elements": [
     "60 TFS"
-   ]
+   ],
+   "units": [
+    {
+     "name": "60 TFS",
+     "patch": "img/logo-192.png",
+     "patch_own": false,
+     "pilots": 0,
+     "base": "",
+     "aircraft": "",
+     "speciality": "",
+     "motto": ""
+    }
+   ],
+   "competitive": false,
+   "pilots": 0,
+   "full_name": "",
+   "base": "",
+   "division": "",
+   "aircraft": "",
+   "speciality": "",
+   "motto": ""
   },
   {
    "name": "272 TFW Jyanklis",
    "patch": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+   "patch_own": true,
    "elements": [
     "75 TFS",
     "77 TFS \"FIGHTING BATS\"",
     "79 TFS"
-   ]
+   ],
+   "units": [
+    {
+     "name": "75 TFS",
+     "patch": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "patch_own": false,
+     "pilots": 0,
+     "base": "",
+     "aircraft": "",
+     "speciality": "",
+     "motto": ""
+    },
+    {
+     "name": "77 TFS \"FIGHTING BATS\"",
+     "patch": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "patch_own": false,
+     "pilots": 0,
+     "base": "",
+     "aircraft": "",
+     "speciality": "",
+     "motto": ""
+    },
+    {
+     "name": "79 TFS",
+     "patch": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "patch_own": false,
+     "pilots": 0,
+     "base": "",
+     "aircraft": "",
+     "speciality": "",
+     "motto": ""
+    }
+   ],
+   "competitive": false,
+   "pilots": 12,
+   "full_name": "",
+   "base": "",
+   "division": "",
+   "aircraft": "",
+   "speciality": "",
+   "motto": ""
   },
   {
    "name": "282 TFW",
-   "patch": "",
+   "patch": "img/logo-192.png",
+   "patch_own": false,
    "elements": [
     "86 TFS \"ASSASSINS\"",
     "88 TFS \"KNIGHTS\""
-   ]
+   ],
+   "units": [
+    {
+     "name": "86 TFS \"ASSASSINS\"",
+     "patch": "img/logo-192.png",
+     "patch_own": false,
+     "pilots": 0,
+     "base": "",
+     "aircraft": "",
+     "speciality": "",
+     "motto": ""
+    },
+    {
+     "name": "88 TFS \"KNIGHTS\"",
+     "patch": "img/logo-192.png",
+     "patch_own": false,
+     "pilots": 0,
+     "base": "",
+     "aircraft": "",
+     "speciality": "",
+     "motto": ""
+    }
+   ],
+   "competitive": false,
+   "pilots": 0,
+   "full_name": "",
+   "base": "",
+   "division": "",
+   "aircraft": "",
+   "speciality": "",
+   "motto": ""
   }
  ],
  "app": {
