@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T23:27:47+00:00",
+ "generated": "2026-11-24T00:41:35+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,12 +7,12 @@
  },
  "totals": {
   "pilots": 87,
-  "missions": 75,
-  "sorties": 249,
+  "missions": 76,
+  "sorties": 252,
   "qualifications": 49,
-  "hours": 196.9,
+  "hours": 198.8,
   "air_kills": 89,
-  "ground_kills": 34
+  "ground_kills": 41
  },
  "pilots": [
   {
@@ -76,30 +76,30 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 42,
-   "score": 2921.0,
-   "average": 69.6,
+   "missions": 43,
+   "score": 2993.0,
+   "average": 69.7,
    "best": 100.0,
    "air_kills": 25,
-   "ground_kills": 14,
+   "ground_kills": 16,
    "friendly_kills": 0,
    "deaths": 2,
-   "hours": 36.0,
-   "last_flown": "2026-11-17",
+   "hours": 36.6,
+   "last_flown": "2026-11-23",
    "grades": {
+    "C": 16,
     "D": 2,
     "A": 13,
-    "C": 15,
     "B": 9,
     "F": 3
    },
    "mission_types": {
-    "SEAD": 14,
+    "SEAD": 15,
     "CCIP": 12,
     "A-A": 8,
+    "CAS": 5,
     "STRAFE": 5,
     "TRAINING": 5,
-    "CAS": 4,
     "FORMATION": 4,
     "BVR": 3,
     "BSA": 2,
@@ -158,16 +158,16 @@
      "qualified": true
     },
     {
-     "name": "Tactical Turns / Formation",
-     "type": "BFM",
-     "score": 4.0,
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 7.2,
      "max": 10,
      "qualified": true
     },
     {
-     "name": "SEAD",
-     "type": "SEAD",
-     "score": 3.8,
+     "name": "Tactical Turns / Formation",
+     "type": "BFM",
+     "score": 4.0,
      "max": 10,
      "qualified": true
     }
@@ -188,6 +188,24 @@
     }
    ],
    "history": [
+    {
+     "op": "op-67b5913cfe37",
+     "date": "2026-11-23",
+     "name": "SinaiMap 2026-11-23 23:22Z CAS",
+     "types": [
+      "CAS",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 72.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 2,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 36,
+     "highlight": "Second GBU-24 at 01:02:31 impacted at 2.4 m (direct hit) on a hardened bunker — an excellent precision result showing the pilot can employ the weapon correctly when given time and altitude."
+    },
     {
      "op": "op-695251a7673d",
      "date": "2026-11-17",
@@ -1637,30 +1655,30 @@
     "F/A-18C Hornet"
    ],
    "bio": "",
-   "missions": 26,
-   "score": 1558.8,
-   "average": 59.1,
+   "missions": 27,
+   "score": 1630.8,
+   "average": 59.6,
    "best": 98.0,
    "air_kills": 3,
-   "ground_kills": 4,
+   "ground_kills": 8,
    "friendly_kills": 0,
    "deaths": 0,
-   "hours": 18.5,
-   "last_flown": "2026-11-12",
+   "hours": 19.2,
+   "last_flown": "2026-11-23",
    "grades": {
+    "B": 8,
     "F": 3,
     "C": 7,
-    "B": 7,
     "D": 6,
     "A": 2
    },
    "mission_types": {
+    "SEAD": 9,
     "CCIP": 8,
-    "SEAD": 8,
     "STRAFE": 4,
+    "CAS": 3,
     "BVR": 3,
     "TRAINING": 3,
-    "CAS": 2,
     "FORMATION": 2,
     "BFM": 2,
     "A-A": 2,
@@ -1704,6 +1722,13 @@
      "qualified": false
     },
     {
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 7.2,
+     "max": 10,
+     "qualified": false
+    },
+    {
      "name": "1 V 2 ACM",
      "type": "A-A",
      "score": 7.0,
@@ -1723,18 +1748,36 @@
      "score": 6.0,
      "max": 10,
      "qualified": false
-    },
-    {
-     "name": "SEAD",
-     "type": "SEAD",
-     "score": 5.8,
-     "max": 10,
-     "qualified": false
     }
    ],
    "qualifications": 4,
-   "courses": [],
+   "courses": [
+    {
+     "title": "Surface Attack Tactics",
+     "code": "SAT-1",
+     "status": "in_progress",
+     "instructors": []
+    }
+   ],
    "history": [
+    {
+     "op": "op-67b5913cfe37",
+     "date": "2026-11-23",
+     "name": "SinaiMap 2026-11-23 23:22Z CAS",
+     "types": [
+      "CAS",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 72.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 4,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 44,
+     "highlight": "Top killer this sortie: 4 CAS kills (2× T-90, 1× BTR-80, 1× T-80UD), all ARMOR, using AGM-65D and Mk-82 Snakeye — 3 of 10 impacts were direct hits (miss_m: 2.1 m, 7.5 m, 8.1 m), demonstrating solid weapon employment when the solution was dialled in."
+    },
     {
      "op": "op-37766af98ef2",
      "date": "2026-11-12",
@@ -4227,32 +4270,39 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 13,
-   "score": 595.2,
+   "missions": 14,
+   "score": 645.2,
    "average": 49.6,
    "best": 80.0,
    "air_kills": 14,
-   "ground_kills": 0,
+   "ground_kills": 1,
    "friendly_kills": 0,
-   "deaths": 6,
-   "hours": 13.9,
-   "last_flown": "2026-11-13",
+   "deaths": 7,
+   "hours": 14.5,
+   "last_flown": "2026-11-23",
    "grades": {
+    "F": 3,
     "D": 8,
     "C": 1,
-    "F": 2,
     "B": 1
    },
    "mission_types": {
     "A-A": 6,
+    "SEAD": 5,
     "BVR": 5,
-    "SEAD": 4,
     "CCIP": 3,
     "STRAFE": 3,
-    "FORMATION": 1,
-    "CAS": 1
+    "CAS": 2,
+    "FORMATION": 1
    },
    "skills": [
+    {
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 5.0,
+     "max": 10,
+     "qualified": false
+    },
     {
      "name": "1 V 2 ACM",
      "type": "A-A",
@@ -4282,13 +4332,6 @@
      "qualified": false
     },
     {
-     "name": "SEAD",
-     "type": "SEAD",
-     "score": 3.8,
-     "max": 10,
-     "qualified": false
-    },
-    {
      "name": "Basic Fighter Maneuver (BFM)",
      "type": "BFM",
      "score": 2.5,
@@ -4299,6 +4342,24 @@
    "qualifications": 0,
    "courses": [],
    "history": [
+    {
+     "op": "op-67b5913cfe37",
+     "date": "2026-11-23",
+     "name": "SinaiMap 2026-11-23 23:22Z CAS",
+     "types": [
+      "CAS",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 50.0,
+     "grade": "F",
+     "air_kills": 0,
+     "ground_kills": 1,
+     "friendly_kills": 0,
+     "deaths": 1,
+     "minutes": 34,
+     "highlight": "Solo gun kill on an SA-18 Igla MANPAD (CAS_1_AD_17_U1) at 00:46:12 during a low, fast, missile-threatened pass — taking out a live MANPAD threat that had just shot at him shows aggressive initiative even if the method was tactically reckless."
+    },
     {
      "op": "op-5f55d4eb893f",
      "date": "2026-11-13",
@@ -8901,6 +8962,98 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-67b5913cfe37",
+   "date": "2026-11-23",
+   "name": "SinaiMap 2026-11-23 23:22Z CAS",
+   "kind": "automatic",
+   "types": [
+    "CAS",
+    "SEAD"
+   ],
+   "training": true,
+   "brief": "",
+   "narrative": "The Sinai CAS sortie on 24 November launched a three-ship (Hema, Sword, Omar) against a defended camp with tanks, IFVs, MANPADS, and AAA. A fourth pilot (Ibraheem/Hema slot 1) aborted after 90 seconds and is unassessable. The mission reset at 00:12:01 and the main engagement opened at 00:15:01 with 40 targets, 12 moving. Hema led and was the clear top performer: 4 ARMOR kills from 10 releases, 3 direct hits including a 2.1 m Maverick and a 7.5 m Snakeye, good threat management defeating 2 of 4 SAMs. Her one blemish was busting the 500 ft hard deck to 231 ft during gun passes at 01:05:56, an avoidable safety violation over a MANPAD-rich objective. Sword put ordnance on target — a GBU-24 direct hit at 2.4 m and two early-pass Maverick impacts at 137 m and 170 m — but then wasted four AGM-65H rounds at 00:59, firing them from 11,000–12,000 ft at misses of 165 m to 1625 m with no apparent sensor lock confirmation. His formation performance was alarming: 67% of sortie time 'none,' 9 rejoin attempts, average rejoin 159 s, worst 356 s, and a maxG of 8.83 — 0.17 g from the structural limit with zero combat justification. Omar's first sortie ended in predictable disaster: a Mk-82 2132 m from target followed by a low gun pass at 195 kts and 3703 ft, a hard-deck bust to 290 ft (confirmed minAGL -2 ft), two SA-18 hits sustained, and death by T-90 at 00:46:34 — a cascade of poor decisions over a defended objective. His respawned second sortie showed better bomb placement (29–88 m) but zero kills. The flight's combined hard-deck bust count was 3 (one per active pilot), which is unacceptable on a sortie type where low-altitude exposure is the primary lethality mechanism. Formation was universally poor: no pilot achieved a formation discipline score above 53, and formation 'none' dominated at 51–67% for the wingmen. This flight put 7 kills on target as a package, a reasonable result for the target set, but the how — deaths, deck busts, and extreme G — means the method is not repeatable in a contested environment.",
+   "lessons": [
+    "HARD DECK IS NOT ADVISORY: Three pilots busted the 500 ft CAS hard deck on the same sortie over a MANPAD-saturated objective. Omar's -2 ft minAGL and subsequent T-90 death is the proof of concept for why the deck exists. Brief, acknowledge, comply.",
+    "MAVERICK EMPLOYMENT: Fire only on a stable lock. Sword's second AGM-65H pass (four rounds, misses of 165–1625 m from 11,000 ft) and Hema's first pass (three of four initial shots missing at 148–191 m) indicate pilots are rippling off-bore or firing through break-lock. Confirm seeker slew and acquisition before pickle.",
+    "FORMATION REJOIN IS A TACTICAL REQUIREMENT: Sword's worst rejoin time of 356 seconds (nearly 6 minutes) and 67% of sortie time outside any formation means the flight had no mutual support during the attack. A solo Viper over a defended camp is a vulnerable Viper. Rejoin within 30 seconds of a lead call — no exceptions."
+   ],
+   "card": {},
+   "teams": [],
+   "results": [
+    {
+     "callsign": "Ibraheem",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": 72.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 4,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 44,
+     "highlights": [
+      "Top killer this sortie: 4 CAS kills (2× T-90, 1× BTR-80, 1× T-80UD), all ARMOR, using AGM-65D and Mk-82 Snakeye — 3 of 10 impacts were direct hits (miss_m: 2.1 m, 7.5 m, 8.1 m), demonstrating solid weapon employment when the solution was dialled in.",
+      "Gun passes on the Snakeye run were effective: 4 impacts on a moving armour patrol at miss distances of 7–23 m with 180 rounds fired, two of which were direct hits — shows growing confidence bringing ordnance to close proximity."
+     ],
+     "improvements": [
+      "1 CAS hard-deck bust at 410 ft AGL during the gun-pass run at 01:05:56 — a 500 ft hard deck was in place and the pilot busted it by 90 ft; this is a fixed -10 penalty and is a survivability failure against MANPAD-dense targets. minAGL recorded 231 ft on that pass.",
+      "AGM-65D ripple discipline needs work: the first four Maverick releases (00:51:01–00:51:15) all missed at 191 m, 170 m, 148 m, and 86 m — the pilot fired too early and walked the rounds in rather than waiting for a stable lock. 4 of 6 Maverick impacts did not achieve a direct hit; only the two second-pass shots at 2.1 m and CPA 79–91 m were on target."
+     ],
+     "note": "1.5 minutes airborne, zero assessable data — a no-show for the evaluator; complete the full sortie before a grade is possible."
+    },
+    {
+     "callsign": "Sword",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": 72.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 2,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 36,
+     "highlights": [
+      "Second GBU-24 at 01:02:31 impacted at 2.4 m (direct hit) on a hardened bunker — an excellent precision result showing the pilot can employ the weapon correctly when given time and altitude.",
+      "SAM defeat rate of 67% (4/6 inbound defeated: both Stingers, 1× Igla manpad, 1× Igla-S) — best defeat rate in the flight, showing adequate defensive manoeuvring when threatened."
+     ],
+     "improvements": [
+      "Formation discipline was the worst in the flight: score 20.5/100, 67% of tracked time flagged 'none' (out of formation), 9 rejoin attempts with avgJoinSec 159 s and worst rejoin 356 s — over 5 minutes to regain position. A wingman must rejoin within 30 s of a lead call; 356 s is unacceptable and repeatedly left the flight tactically unsupported.",
+      "Weapon accuracy on AGM-65H second pass (00:59:02–00:59:30) was catastrophically poor: 4 consecutive misses at 165 m, 979 m, 1578 m, and 1625 m from a firing altitude of 11,000–12,000 ft — the missile seeker was almost certainly not locked before release. First GBU-24 missed by 2448 m. 6 of 8 total impacts were non-direct; total miss sum 6937 m."
+     ],
+     "note": "One GBU shack and two kills cannot hide a formation discipline score of 20/100, a 356-second worst rejoin, and an 8.83 g pull that has no place in a CAS pattern — declining trend continues."
+    },
+    {
+     "callsign": "Omar",
+     "member": true,
+     "squadron": "272 TFW Jyanklis",
+     "score": 50.0,
+     "grade": "F",
+     "air_kills": 0,
+     "ground_kills": 1,
+     "friendly_kills": 0,
+     "deaths": 1,
+     "minutes": 34,
+     "highlights": [
+      "Solo gun kill on an SA-18 Igla MANPAD (CAS_1_AD_17_U1) at 00:46:12 during a low, fast, missile-threatened pass — taking out a live MANPAD threat that had just shot at him shows aggressive initiative even if the method was tactically reckless.",
+      "Post-respawn Mk-82 accuracy improved markedly: second sortie impacts at 29–31 m and 85–88 m show better attack geometry than the first pass (2132 m miss)."
+     ],
+     "improvements": [
+      "Died at 00:46:34 killed by a T-90 — the sequence is damning: dropped Mk-82 2132 m from target, then pressed in under MANPAD fire at 195 kts and 3703 ft, busted the hard deck at 290 ft AGL (500 ft limit), sustained two SA-18 hits, and was then killed by a tank at knife-fight range. The pilot had no business being at that altitude and airspeed over a defended camp; this is a fundamental threat-awareness failure.",
+      "0 direct hits across 6 Mk-82 impacts (combined miss distance 2196 m first pass and 234 m second pass) and 0 kills from ordnance — every kill came from the gun at extreme low level. Must develop a viable standoff employment profile with unguided weapons before returning to the target area."
+     ],
+     "note": "Pressed into knife-fight range, busted the deck to -2 ft AGL, died to a tank, and scored zero kills from ordnance — aggressive instinct needs to be channelled through standoff geometry before it gets someone killed for real."
+    }
+   ],
+   "pilots": 3,
+   "average": 64.7,
+   "air_kills": 0,
+   "ground_kills": 7,
+   "instructor": "Sword",
+   "patches": [],
+   "report": "reports/op-67b5913cfe37.html"
+  },
   {
    "id": "op-240976a622b4",
    "date": "2026-11-18",
