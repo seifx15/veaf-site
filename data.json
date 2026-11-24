@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T00:41:35+00:00",
+ "generated": "2026-11-24T00:47:40+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,12 +7,12 @@
  },
  "totals": {
   "pilots": 87,
-  "missions": 76,
-  "sorties": 252,
+  "missions": 77,
+  "sorties": 253,
   "qualifications": 49,
-  "hours": 198.8,
+  "hours": 199.6,
   "air_kills": 89,
-  "ground_kills": 41
+  "ground_kills": 42
  },
  "pilots": [
   {
@@ -7084,29 +7084,29 @@
     "Su-33"
    ],
    "bio": "",
-   "missions": 11,
-   "score": 618.0,
-   "average": 56.2,
+   "missions": 12,
+   "score": 680.0,
+   "average": 56.7,
    "best": 90.0,
    "air_kills": 0,
-   "ground_kills": 2,
+   "ground_kills": 3,
    "friendly_kills": 0,
    "deaths": 4,
-   "hours": 9.7,
-   "last_flown": "2026-11-17",
+   "hours": 10.5,
+   "last_flown": "2026-11-23",
    "grades": {
-    "C": 6,
+    "C": 7,
     "F": 3,
     "D": 1,
     "A": 1
    },
    "mission_types": {
-    "SEAD": 7,
+    "SEAD": 8,
     "CCIP": 5,
+    "CAS": 4,
     "A-A": 4,
-    "CAS": 3,
+    "STRAFE": 3,
     "FORMATION": 3,
-    "STRAFE": 2,
     "BFM": 1
    },
    "skills": [
@@ -7176,6 +7176,25 @@
     }
    ],
    "history": [
+    {
+     "op": "op-6ff61319e5cd",
+     "date": "2026-11-23",
+     "name": "SinaiMap 2026-11-23 23:21Z [EAF] Maverick flight",
+     "types": [
+      "CAS",
+      "SEAD",
+      "STRAFE"
+     ],
+     "training": true,
+     "score": 62.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 1,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 47,
+     "highlight": "Logged 47 minutes of productive flying across two slots (slot 2: 30.8 min, slot 3: 16.3 min), survived all engagements, and scored the sortie's only confirmed ground kill — a BMP-1 IFV at 01:10:17 via gun."
+    },
     {
      "op": "op-695251a7673d",
      "date": "2026-11-17",
@@ -8962,6 +8981,57 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-6ff61319e5cd",
+   "date": "2026-11-23",
+   "name": "SinaiMap 2026-11-23 23:21Z [EAF] Maverick flight",
+   "kind": "automatic",
+   "types": [
+    "CAS",
+    "SEAD",
+    "STRAFE"
+   ],
+   "training": true,
+   "brief": "",
+   "narrative": "EAF two-ship launched on the Sinai map on 24 November 2026 for a general training sortie that evolved into a live CAS exercise against a built camp with 40 targets including armour, AAA, MANPADS and IFVs. The session opened with a session-reset at 00:12:01, truncating all pre-reset data to zero telemetry samples; Maverick's F-16C never recovered from this — he departed before the second session commenced and recorded exactly 0.0 flight minutes, earning nothing but a participation point. This is Maverick's third consecutive declining sortie (65→42→10) and the squadron leadership must address the pattern directly with the pilot before his next flight. XTC transitioned to a second slot (F18_CAS-2 Hornet) at 00:12:02 and flew productively for 30.8 minutes, then respawned to F18_CAS-3 for a final 16.3-minute block. XTC's airmanship envelope was broadly acceptable — no G-exceedances, clean energy management, and genuine effort across nearly 47 minutes of logged time. However, two extremely low AGL readings (11 ft and 16 ft) flagged across both slots represent hard deck busts and are the most dangerous finding of the sortie. Weapons employment produced six guided releases — two GBU-31s, two AGM-84H SLAM-ERs, and four AGM-154s — all of which missed, with the SLAM-ER misses measuring 221–222 km, strongly indicating the weapon was not properly targeted before release rather than a seeker failure. Three gun passes fired 578 rounds with zero hits on target, until a final gun pass at around 01:10:17 successfully killed a BMP-1 IFV, the sortie's sole confirmed kill. The late AGM-154 shot at 754 kts from 6,363 ft represents a hasty, potentially out-of-envelope employment decision. Despite the single kill, the guided-weapons zero hit rate and the terrain-clearance failures keep XTC at a C for this mission.",
+   "lessons": [
+    "SLAM-ER (AGM-84H) miss distances of 220+ km are a targeting/programming failure, not a missile failure — pilots must verify target coordinates, waypoint entry, and datalink handoff before commit; a 222 km miss means the weapon flew to the wrong grid.",
+    "11 ft and 16 ft AGL readings are fatal terrain strikes in any real-world scenario — gun passes and low-level recovery must maintain a hard floor of at minimum 500 ft AGL; if the pilot is touching 11 ft he is below the trees, below the dunes, and below survivability margins.",
+    "Maverick's pattern of joining and immediately departing — now across three consecutive sorties — must be diagnosed: if it is a technical/connectivity issue it needs to be fixed before he next flies; if it is a commitment issue, the squadron leadership must counsel him, as zero flight time is a zero-contribution sortie regardless of cause."
+   ],
+   "card": {},
+   "teams": [],
+   "results": [
+    {
+     "callsign": "[EAF] Taha",
+     "member": true,
+     "squadron": "",
+     "score": 62.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 1,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 47,
+     "highlights": [
+      "Logged 47 minutes of productive flying across two slots (slot 2: 30.8 min, slot 3: 16.3 min), survived all engagements, and scored the sortie's only confirmed ground kill — a BMP-1 IFV at 01:10:17 via gun.",
+      "G-discipline was clean: maxG 7.86 (slot 2) and 7.79 (slot 3), zero exceedances, zero instant-G flags across nearly 2,800 telemetry samples; energy management likewise clean with zero timeEnergyPoor."
+     ],
+     "improvements": [
+      "Weapons accuracy was poor across all guided munitions: 2× GBU-31 missed by 7,519 m and 4,579 m respectively; 2× AGM-84H missed by 222,354 m and 221,852 m — the SLAM-ER errors are operationally unacceptable and suggest targeting/programming errors, not miss distance; 4× AGM-154 also all missed. Six guided releases, zero hits, zero kills by guided weapon. Gun scored the only kill.",
+      "MinAGL was critically low at 11 ft AGL (telemetrySummary slot 2) and 16 ft AGL (slot 3) — these are deck busts by any standard; 578 gun rounds were fired across 3 passes with zero hits, and one late AGM-154 was fired at 6,363 ft/754 kts suggesting a hasty, out-of-parameters shot."
+     ],
+     "note": "Forty-seven minutes of hustle, one BMP-1 by gun, but six guided weapons went zero-for-six (two of them by 222 km), 578 rounds missed every target, and an 11 ft AGL bust nearly ended the day permanently — talent is there, fundamentals need work."
+    }
+   ],
+   "pilots": 1,
+   "average": 62.0,
+   "air_kills": 0,
+   "ground_kills": 1,
+   "instructor": "Sword",
+   "patches": [],
+   "report": "reports/op-6ff61319e5cd.html"
+  },
   {
    "id": "op-67b5913cfe37",
    "date": "2026-11-23",
