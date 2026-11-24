@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T22:59:30+00:00",
+ "generated": "2026-11-24T23:01:30+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -66,9 +66,9 @@
    "rank_order": 1,
    "photo": "https://veaf-app.veaf-2ff4d6.workers.dev/photo/P_20260708193733_285?v=1794279024",
    "patches": [],
-   "squadron": "201 AW Air Force Academy Belbeis",
-   "squadron_patch": "img/logo-192.png",
-   "element": "28 SQUADRON",
+   "squadron": "",
+   "squadron_patch": "",
+   "element": "",
    "element_patch": "",
    "former_element_patches": [],
    "former_squadron_patches": [
@@ -980,12 +980,18 @@
    "rank_order": 3,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW Jyanklis",
-   "squadron_patch": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+   "squadron": "",
+   "squadron_patch": "",
    "element": "",
    "element_patch": "",
    "former_element_patches": [],
-   "former_squadron_patches": [],
+   "former_squadron_patches": [
+    {
+     "name": "272 TFW Jyanklis",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "until": "2026-11-24"
+    }
+   ],
    "joined": "2026-07-28",
    "aircraft": [
     "F-16C Viper",
@@ -1060,9 +1066,9 @@
    "rank_order": 6,
    "photo": "",
    "patches": [],
-   "squadron": "201 AW Air Force Academy Belbeis",
-   "squadron_patch": "img/logo-192.png",
-   "element": "28 SQUADRON",
+   "squadron": "",
+   "squadron_patch": "",
+   "element": "",
    "element_patch": "",
    "former_element_patches": [],
    "former_squadron_patches": [
@@ -1718,9 +1724,9 @@
    "rank_order": 6,
    "photo": "",
    "patches": [],
-   "squadron": "201 AW Air Force Academy Belbeis",
-   "squadron_patch": "img/logo-192.png",
-   "element": "28 SQUADRON",
+   "squadron": "",
+   "squadron_patch": "",
+   "element": "",
    "element_patch": "",
    "former_element_patches": [],
    "former_squadron_patches": [
@@ -2328,9 +2334,9 @@
    "rank_order": 7,
    "photo": "",
    "patches": [],
-   "squadron": "201 AW Air Force Academy Belbeis",
-   "squadron_patch": "img/logo-192.png",
-   "element": "28 SQUADRON",
+   "squadron": "",
+   "squadron_patch": "",
+   "element": "",
    "element_patch": "",
    "former_element_patches": [],
    "former_squadron_patches": [
@@ -2597,12 +2603,18 @@
    "rank_order": 8,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW Jyanklis",
-   "squadron_patch": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+   "squadron": "",
+   "squadron_patch": "",
    "element": "",
    "element_patch": "",
    "former_element_patches": [],
-   "former_squadron_patches": [],
+   "former_squadron_patches": [
+    {
+     "name": "272 TFW Jyanklis",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "until": "2026-11-24"
+    }
+   ],
    "joined": "2026-07-08",
    "aircraft": [
     "F-16C Viper"
@@ -3016,12 +3028,18 @@
    "rank_order": 8,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW Jyanklis",
-   "squadron_patch": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+   "squadron": "",
+   "squadron_patch": "",
    "element": "",
    "element_patch": "",
    "former_element_patches": [],
-   "former_squadron_patches": [],
+   "former_squadron_patches": [
+    {
+     "name": "272 TFW Jyanklis",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "until": "2026-11-24"
+    }
+   ],
    "joined": "2026-07-08",
    "aircraft": [
     "F-16C Viper"
@@ -3896,12 +3914,18 @@
    "rank_order": 9,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW Jyanklis",
-   "squadron_patch": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+   "squadron": "",
+   "squadron_patch": "",
    "element": "",
    "element_patch": "",
    "former_element_patches": [],
-   "former_squadron_patches": [],
+   "former_squadron_patches": [
+    {
+     "name": "272 TFW Jyanklis",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "until": "2026-11-24"
+    }
+   ],
    "joined": "2026-09-25",
    "aircraft": [
     "F-16C Viper"
@@ -4463,12 +4487,18 @@
    "rank_order": 9,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW Jyanklis",
-   "squadron_patch": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+   "squadron": "",
+   "squadron_patch": "",
    "element": "",
    "element_patch": "",
    "former_element_patches": [],
-   "former_squadron_patches": [],
+   "former_squadron_patches": [
+    {
+     "name": "272 TFW Jyanklis",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "until": "2026-11-24"
+    }
+   ],
    "joined": "2026-07-08",
    "aircraft": [
     "F-16C Viper"
@@ -5267,12 +5297,18 @@
    "rank_order": 10,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW Jyanklis",
-   "squadron_patch": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+   "squadron": "",
+   "squadron_patch": "",
    "element": "",
    "element_patch": "",
    "former_element_patches": [],
-   "former_squadron_patches": [],
+   "former_squadron_patches": [
+    {
+     "name": "272 TFW Jyanklis",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "until": "2026-11-24"
+    }
+   ],
    "joined": "2026-07-08",
    "aircraft": [
     "F-16C Viper"
@@ -6321,12 +6357,18 @@
    "rank_order": 10,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW Jyanklis",
-   "squadron_patch": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+   "squadron": "",
+   "squadron_patch": "",
    "element": "",
    "element_patch": "",
    "former_element_patches": [],
-   "former_squadron_patches": [],
+   "former_squadron_patches": [
+    {
+     "name": "272 TFW Jyanklis",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "until": "2026-11-24"
+    }
+   ],
    "joined": "2026-07-08",
    "aircraft": [],
    "bio": "",
@@ -6501,12 +6543,18 @@
    "rank_order": 10,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW Jyanklis",
-   "squadron_patch": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+   "squadron": "",
+   "squadron_patch": "",
    "element": "",
    "element_patch": "",
    "former_element_patches": [],
-   "former_squadron_patches": [],
+   "former_squadron_patches": [
+    {
+     "name": "272 TFW Jyanklis",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "until": "2026-11-24"
+    }
+   ],
    "joined": "2026-08-06",
    "aircraft": [
     "F-16C Viper"
@@ -7054,12 +7102,18 @@
    "rank_order": 10,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW Jyanklis",
-   "squadron_patch": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+   "squadron": "",
+   "squadron_patch": "",
    "element": "",
    "element_patch": "",
    "former_element_patches": [],
-   "former_squadron_patches": [],
+   "former_squadron_patches": [
+    {
+     "name": "272 TFW Jyanklis",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "until": "2026-11-24"
+    }
+   ],
    "joined": "2026-08-17",
    "aircraft": [
     "F-16C Viper"
@@ -7896,12 +7950,18 @@
    "rank_order": 11,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW Jyanklis",
-   "squadron_patch": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+   "squadron": "",
+   "squadron_patch": "",
    "element": "",
    "element_patch": "",
    "former_element_patches": [],
-   "former_squadron_patches": [],
+   "former_squadron_patches": [
+    {
+     "name": "272 TFW Jyanklis",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "until": "2026-11-24"
+    }
+   ],
    "joined": "2026-10-05",
    "aircraft": [],
    "bio": "",
@@ -8013,12 +8073,18 @@
    "rank_order": 11,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW Jyanklis",
-   "squadron_patch": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+   "squadron": "",
+   "squadron_patch": "",
    "element": "",
    "element_patch": "",
    "former_element_patches": [],
-   "former_squadron_patches": [],
+   "former_squadron_patches": [
+    {
+     "name": "272 TFW Jyanklis",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "until": "2026-11-24"
+    }
+   ],
    "joined": "2026-10-09",
    "aircraft": [
     "F-16C Viper"
@@ -8105,12 +8171,18 @@
    "rank_order": 11,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW Jyanklis",
-   "squadron_patch": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+   "squadron": "",
+   "squadron_patch": "",
    "element": "",
    "element_patch": "",
    "former_element_patches": [],
-   "former_squadron_patches": [],
+   "former_squadron_patches": [
+    {
+     "name": "272 TFW Jyanklis",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "until": "2026-11-24"
+    }
+   ],
    "joined": "2026-10-13",
    "aircraft": [
     "F-16C Viper"
@@ -8820,12 +8892,18 @@
    "rank_order": 11,
    "photo": "",
    "patches": [],
-   "squadron": "272 TFW Jyanklis",
-   "squadron_patch": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+   "squadron": "",
+   "squadron_patch": "",
    "element": "",
    "element_patch": "",
    "former_element_patches": [],
-   "former_squadron_patches": [],
+   "former_squadron_patches": [
+    {
+     "name": "272 TFW Jyanklis",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "until": "2026-11-24"
+    }
+   ],
    "joined": "2026-08-13",
    "aircraft": [],
    "bio": "",
@@ -9677,7 +9755,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 72.0,
      "grade": "B",
      "air_kills": 0,
@@ -9698,7 +9776,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 72.0,
      "grade": "C",
      "air_kills": 0,
@@ -9719,7 +9797,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 50.0,
      "grade": "F",
      "air_kills": 0,
@@ -9773,7 +9851,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -9819,7 +9897,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 72.0,
      "grade": "C",
      "air_kills": 0,
@@ -9933,7 +10011,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 38.0,
      "grade": "D",
      "air_kills": 0,
@@ -10102,7 +10180,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -10119,7 +10197,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 75.0,
      "grade": "C",
      "air_kills": 0,
@@ -10182,7 +10260,7 @@
     {
      "callsign": "Neo",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 38.0,
      "grade": "D",
      "air_kills": 0,
@@ -10203,7 +10281,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": null,
      "grade": "-",
      "air_kills": 0,
@@ -10292,7 +10370,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -10307,7 +10385,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -10322,7 +10400,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -10337,7 +10415,7 @@
     {
      "callsign": "Neo",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -10352,7 +10430,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -10367,7 +10445,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 40.0,
      "grade": "F",
      "air_kills": 0,
@@ -10397,7 +10475,7 @@
     {
      "callsign": "1iFzz",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 0.0,
      "grade": "F",
      "air_kills": 0,
@@ -10442,7 +10520,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 68.0,
      "grade": "C",
      "air_kills": 0,
@@ -10463,7 +10541,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 58.0,
      "grade": "C",
      "air_kills": 0,
@@ -10484,7 +10562,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 44.0,
      "grade": "D",
      "air_kills": 0,
@@ -10524,7 +10602,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 38.0,
      "grade": "D",
      "air_kills": 0,
@@ -10545,7 +10623,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 22.0,
      "grade": "F",
      "air_kills": 0,
@@ -10595,7 +10673,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 72.0,
      "grade": "C",
      "air_kills": 0,
@@ -10616,7 +10694,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 62.0,
      "grade": "C",
      "air_kills": 0,
@@ -10658,7 +10736,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 42.0,
      "grade": "D",
      "air_kills": 0,
@@ -10679,7 +10757,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 40.0,
      "grade": "F",
      "air_kills": 0,
@@ -10794,7 +10872,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 47.0,
      "grade": "D",
      "air_kills": 5,
@@ -10925,7 +11003,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 88.0,
      "grade": "A",
      "air_kills": 0,
@@ -11028,7 +11106,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 42.0,
      "grade": "D",
      "air_kills": 0,
@@ -11084,7 +11162,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -11099,7 +11177,7 @@
     {
      "callsign": "Titan",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -11277,7 +11355,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 76.0,
      "grade": "C",
      "air_kills": 0,
@@ -11298,7 +11376,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 72.0,
      "grade": "C",
      "air_kills": 0,
@@ -11319,7 +11397,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 68.0,
      "grade": "C",
      "air_kills": 0,
@@ -11340,7 +11418,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 65.0,
      "grade": "D",
      "air_kills": 0,
@@ -11361,7 +11439,7 @@
     {
      "callsign": "Titan",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 65.0,
      "grade": "D",
      "air_kills": 0,
@@ -11403,7 +11481,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -11457,7 +11535,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 100.0,
      "grade": "A",
      "air_kills": 0,
@@ -11505,7 +11583,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 100.0,
      "grade": "A",
      "air_kills": 0,
@@ -11560,7 +11638,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 100.0,
      "grade": "A",
      "air_kills": 0,
@@ -11669,7 +11747,7 @@
     {
      "callsign": "Titan",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 78.0,
      "grade": "C",
      "air_kills": 0,
@@ -11690,7 +11768,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 75.0,
      "grade": "C",
      "air_kills": 0,
@@ -11711,7 +11789,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 72.0,
      "grade": "C",
      "air_kills": 0,
@@ -11732,7 +11810,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -11828,7 +11906,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 82.0,
      "grade": "B",
      "air_kills": 0,
@@ -11870,7 +11948,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 58.0,
      "grade": "D",
      "air_kills": 0,
@@ -11891,7 +11969,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 48.0,
      "grade": "D",
      "air_kills": 0,
@@ -11912,7 +11990,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 42.0,
      "grade": "F",
      "air_kills": 0,
@@ -11966,7 +12044,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 85.0,
      "grade": "B",
      "air_kills": 0,
@@ -11981,7 +12059,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -11996,7 +12074,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -12059,7 +12137,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -12074,7 +12152,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -12089,7 +12167,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 65.0,
      "grade": "D",
      "air_kills": 0,
@@ -12104,7 +12182,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -12119,7 +12197,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 0.0,
      "grade": "F",
      "air_kills": 0,
@@ -12167,7 +12245,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -12182,7 +12260,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -12197,7 +12275,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -12212,7 +12290,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -12260,7 +12338,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -12275,7 +12353,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -12290,7 +12368,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -12305,7 +12383,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -12355,7 +12433,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -12370,7 +12448,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -12420,7 +12498,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -12435,7 +12513,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -12504,7 +12582,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 70.0,
      "grade": "C",
      "air_kills": 3,
@@ -12525,7 +12603,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 65.0,
      "grade": "D",
      "air_kills": 0,
@@ -12540,7 +12618,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 58.0,
      "grade": "C",
      "air_kills": 4,
@@ -12561,7 +12639,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 55.0,
      "grade": "D",
      "air_kills": 1,
@@ -12628,7 +12706,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 85.0,
      "grade": "B",
      "air_kills": 0,
@@ -12643,7 +12721,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 82.0,
      "grade": "B",
      "air_kills": 0,
@@ -12685,7 +12763,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 75.0,
      "grade": "C",
      "air_kills": 0,
@@ -12741,7 +12819,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -12756,7 +12834,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -12806,7 +12884,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -12856,7 +12934,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 75.0,
      "grade": "C",
      "air_kills": 0,
@@ -12903,7 +12981,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 47.0,
      "grade": "D",
      "air_kills": 1,
@@ -12924,7 +13002,7 @@
     {
      "callsign": "Titan",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 18.0,
      "grade": "F",
      "air_kills": 0,
@@ -12975,7 +13053,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 52.0,
      "grade": "C",
      "air_kills": 4,
@@ -12996,7 +13074,7 @@
     {
      "callsign": "Titan",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 18.0,
      "grade": "F",
      "air_kills": 0,
@@ -13047,7 +13125,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 32.0,
      "grade": "D",
      "air_kills": 12,
@@ -13098,7 +13176,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 38.0,
      "grade": "D",
      "air_kills": 2,
@@ -13149,7 +13227,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 78.0,
      "grade": "B",
      "air_kills": 8,
@@ -13170,7 +13248,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 38.0,
      "grade": "D",
      "air_kills": 2,
@@ -13256,7 +13334,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -13277,7 +13355,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 75.0,
      "grade": "B",
      "air_kills": 0,
@@ -13298,7 +13376,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 75.0,
      "grade": "C",
      "air_kills": 0,
@@ -13365,7 +13443,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 70.0,
      "grade": "C",
      "air_kills": 1,
@@ -13405,7 +13483,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 59.8,
      "grade": "F",
      "air_kills": 3,
@@ -13426,7 +13504,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 58.6,
      "grade": "F",
      "air_kills": 2,
@@ -13447,7 +13525,7 @@
     {
      "callsign": "Bonkizzle",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 56.0,
      "grade": "F",
      "air_kills": 4,
@@ -13468,7 +13546,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 50.0,
      "grade": "F",
      "air_kills": 2,
@@ -13512,7 +13590,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 34.2,
      "grade": "F",
      "air_kills": 0,
@@ -13569,7 +13647,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -13584,7 +13662,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -13599,7 +13677,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -13639,7 +13717,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 75.0,
      "grade": "C",
      "air_kills": 2,
@@ -13686,7 +13764,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 79.5,
      "grade": "C",
      "air_kills": 0,
@@ -13734,7 +13812,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 66.0,
      "grade": "D",
      "air_kills": 3,
@@ -13781,7 +13859,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 80.5,
      "grade": "B",
      "air_kills": 14,
@@ -13804,7 +13882,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 22.0,
      "grade": "F",
      "air_kills": 1,
@@ -13852,7 +13930,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 70.75,
      "grade": "C",
      "air_kills": 0,
@@ -13907,7 +13985,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -13922,7 +14000,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -13937,7 +14015,7 @@
     {
      "callsign": "1iFzz",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -13952,7 +14030,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 75.0,
      "grade": "C",
      "air_kills": 0,
@@ -13967,7 +14045,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 65.0,
      "grade": "D",
      "air_kills": 0,
@@ -14005,7 +14083,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 66.25,
      "grade": "D",
      "air_kills": 0,
@@ -14086,7 +14164,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -14108,7 +14186,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 79.0,
      "grade": "C",
      "air_kills": 0,
@@ -14130,7 +14208,7 @@
     {
      "callsign": "Moataz",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 63.0,
      "grade": "D",
      "air_kills": 0,
@@ -14153,7 +14231,7 @@
     {
      "callsign": "Ameer",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 62.0,
      "grade": "D",
      "air_kills": 0,
@@ -14175,7 +14253,7 @@
     {
      "callsign": "1iFzz",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -14196,7 +14274,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 52.0,
      "grade": "F",
      "air_kills": 0,
@@ -14266,7 +14344,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -14281,7 +14359,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 85.0,
      "grade": "B",
      "air_kills": 0,
@@ -14296,7 +14374,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 85.0,
      "grade": "B",
      "air_kills": 0,
@@ -14311,7 +14389,7 @@
     {
      "callsign": "1iFzz",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 75.0,
      "grade": "C",
      "air_kills": 0,
@@ -14326,7 +14404,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -14341,7 +14419,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 65.0,
      "grade": "D",
      "air_kills": 0,
@@ -14381,7 +14459,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 85.95,
      "grade": "B",
      "air_kills": 0,
@@ -14436,7 +14514,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 100.0,
      "grade": "A",
      "air_kills": 0,
@@ -14451,7 +14529,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 100.0,
      "grade": "A",
      "air_kills": 0,
@@ -14466,7 +14544,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 65.0,
      "grade": "D",
      "air_kills": 0,
@@ -14481,7 +14559,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -14528,7 +14606,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -14543,7 +14621,7 @@
     {
      "callsign": "Moataz",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -14558,7 +14636,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 75.0,
      "grade": "C",
      "air_kills": 0,
@@ -14605,7 +14683,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -14650,7 +14728,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 100.0,
      "grade": "A",
      "air_kills": 0,
@@ -14665,7 +14743,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -14680,7 +14758,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 50.0,
      "grade": "F",
      "air_kills": 0,
@@ -14725,7 +14803,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -14740,7 +14818,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -14792,7 +14870,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -14807,7 +14885,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -14822,7 +14900,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -14837,7 +14915,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -14902,7 +14980,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -14923,7 +15001,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -14992,7 +15070,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -15022,7 +15100,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 0.0,
      "grade": "F",
      "air_kills": 0,
@@ -15101,7 +15179,7 @@
     {
      "callsign": "Moataz",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -15124,7 +15202,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 65.0,
      "grade": "D",
      "air_kills": 0,
@@ -15147,7 +15225,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 62.0,
      "grade": "D",
      "air_kills": 0,
@@ -15191,7 +15269,7 @@
     {
      "callsign": "1iFzz",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 38.0,
      "grade": "F",
      "air_kills": 0,
@@ -15252,7 +15330,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 100.0,
      "grade": "A",
      "air_kills": 0,
@@ -15282,7 +15360,7 @@
     {
      "callsign": "Moataz",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -15297,7 +15375,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -15312,7 +15390,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -15327,7 +15405,7 @@
     {
      "callsign": "1iFzz",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -15384,7 +15462,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 69.0,
      "grade": "A",
      "air_kills": 0,
@@ -15399,7 +15477,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 20.0,
      "grade": "A",
      "air_kills": 0,
@@ -15414,7 +15492,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 16.0,
      "grade": "C",
      "air_kills": 0,
@@ -15531,7 +15609,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 78.0,
      "grade": "C",
      "air_kills": 0,
@@ -15552,7 +15630,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 76.0,
      "grade": "C",
      "air_kills": 0,
@@ -15594,7 +15672,7 @@
     {
      "callsign": "Neo",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 50.0,
      "grade": "D",
      "air_kills": 0,
@@ -15679,7 +15757,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 88.0,
      "grade": "A",
      "air_kills": 0,
@@ -15721,7 +15799,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 38.0,
      "grade": "C",
      "air_kills": 0,
@@ -15763,7 +15841,7 @@
     {
      "callsign": "Neo",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 24.0,
      "grade": "D",
      "air_kills": 0,
@@ -15848,7 +15926,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 104.0,
      "grade": "A",
      "air_kills": 0,
@@ -15869,7 +15947,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 74.0,
      "grade": "B",
      "air_kills": 0,
@@ -15890,7 +15968,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 56.0,
      "grade": "D",
      "air_kills": 0,
@@ -15911,7 +15989,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 33.0,
      "grade": "C",
      "air_kills": 0,
@@ -15993,7 +16071,7 @@
     {
      "callsign": "Neo",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 112.0,
      "grade": "A",
      "air_kills": 0,
@@ -16014,7 +16092,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 108.0,
      "grade": "A",
      "air_kills": 0,
@@ -16035,7 +16113,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 78.0,
      "grade": "B",
      "air_kills": 0,
@@ -16077,7 +16155,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 73.0,
      "grade": "C",
      "air_kills": 0,
@@ -16119,7 +16197,7 @@
     {
      "callsign": "Titan",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 51.0,
      "grade": "C",
      "air_kills": 0,
@@ -16140,7 +16218,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 43.0,
      "grade": "C",
      "air_kills": 0,
@@ -16208,7 +16286,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 91.0,
      "grade": "A",
      "air_kills": 0,
@@ -16250,7 +16328,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 60.0,
      "grade": "C",
      "air_kills": 0,
@@ -16271,7 +16349,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 34.0,
      "grade": "D",
      "air_kills": 0,
@@ -16348,7 +16426,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 94.0,
      "grade": "A",
      "air_kills": 0,
@@ -16369,7 +16447,7 @@
     {
      "callsign": "Moataz",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 45.0,
      "grade": "C",
      "air_kills": 0,
@@ -16390,7 +16468,7 @@
     {
      "callsign": "Neo",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 26.0,
      "grade": "C",
      "air_kills": 0,
@@ -16411,7 +16489,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 26.0,
      "grade": "C",
      "air_kills": 0,
@@ -16432,7 +16510,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": -14.0,
      "grade": "F",
      "air_kills": 0,
@@ -16453,7 +16531,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": -26.0,
      "grade": "F",
      "air_kills": 0,
@@ -16513,7 +16591,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 44.0,
      "grade": "C",
      "air_kills": 0,
@@ -16534,7 +16612,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 10.0,
      "grade": "D",
      "air_kills": 0,
@@ -16594,7 +16672,7 @@
     {
      "callsign": "Moataz",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 88.0,
      "grade": "A",
      "air_kills": 0,
@@ -16615,7 +16693,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 84.0,
      "grade": "C",
      "air_kills": 0,
@@ -16676,7 +16754,7 @@
     {
      "callsign": "Moataz",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 43.0,
      "grade": "C",
      "air_kills": 0,
@@ -16697,7 +16775,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 40.0,
      "grade": "C",
      "air_kills": 0,
@@ -16767,7 +16845,7 @@
     {
      "callsign": "Moataz",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 65.0,
      "grade": "C",
      "air_kills": 0,
@@ -16788,7 +16866,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 55.0,
      "grade": "D",
      "air_kills": 0,
@@ -16809,7 +16887,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 54.0,
      "grade": "C",
      "air_kills": 0,
@@ -16830,7 +16908,7 @@
     {
      "callsign": "Neo",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 52.0,
      "grade": "D",
      "air_kills": 0,
@@ -16851,7 +16929,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 46.0,
      "grade": "D",
      "air_kills": 0,
@@ -16872,7 +16950,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 35.0,
      "grade": "D",
      "air_kills": 0,
@@ -16893,7 +16971,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 29.0,
      "grade": "F",
      "air_kills": 0,
@@ -16979,7 +17057,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 96.0,
      "grade": "A",
      "air_kills": 0,
@@ -17021,7 +17099,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 60.0,
      "grade": "C",
      "air_kills": 0,
@@ -17042,7 +17120,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 55.0,
      "grade": "D",
      "air_kills": 0,
@@ -17128,7 +17206,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 98.0,
      "grade": "C",
      "air_kills": 0,
@@ -17149,7 +17227,7 @@
     {
      "callsign": "Moataz",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 89.0,
      "grade": "C",
      "air_kills": 0,
@@ -17170,7 +17248,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -17191,7 +17269,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 55.0,
      "grade": "C",
      "air_kills": 0,
@@ -17291,7 +17369,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 95.0,
      "grade": "B",
      "air_kills": 0,
@@ -17312,7 +17390,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 93.0,
      "grade": "A",
      "air_kills": 0,
@@ -17333,7 +17411,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 76.0,
      "grade": "C",
      "air_kills": 0,
@@ -17354,7 +17432,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 76.0,
      "grade": "B",
      "air_kills": 0,
@@ -17375,7 +17453,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 68.0,
      "grade": "D",
      "air_kills": 0,
@@ -17500,7 +17578,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 21.0,
      "grade": "B",
      "air_kills": 0,
@@ -17515,7 +17593,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 16.0,
      "grade": "B",
      "air_kills": 0,
@@ -17530,7 +17608,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 9.0,
      "grade": "D",
      "air_kills": 0,
@@ -17596,7 +17674,7 @@
     {
      "callsign": "[U777] Golden_Pilot",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 14.0,
      "grade": "B",
      "air_kills": 0,
@@ -17611,7 +17689,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "272 TFW Jyanklis",
+     "squadron": "",
      "score": 12.0,
      "grade": "B",
      "air_kills": 0,
@@ -17626,7 +17704,7 @@
     {
      "callsign": "Ibraheem",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 8.0,
      "grade": "D",
      "air_kills": 0,
@@ -17641,7 +17719,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "201 AW Air Force Academy Belbeis",
+     "squadron": "",
      "score": 7.0,
      "grade": "C",
      "air_kills": 0,
@@ -17740,7 +17818,7 @@
  "patches": [],
  "squadrons": [
   {
-   "name": "201 AW Air Force Academy Belbeis",
+   "name": "201 AW AIRFORCE ACADEMY",
    "patch": "img/logo-192.png",
    "patch_own": false,
    "elements": [
@@ -17752,10 +17830,10 @@
      "name": "28 SQUADRON",
      "patch": "img/logo-192.png",
      "patch_own": false,
-     "pilots": 4,
-     "base": "",
-     "aircraft": "",
-     "speciality": "",
+     "pilots": 0,
+     "base": "Bilbeis",
+     "aircraft": "K-8E",
+     "speciality": "Basic jet training",
      "motto": ""
     },
     {
@@ -17763,19 +17841,19 @@
      "patch": "img/logo-192.png",
      "patch_own": false,
      "pilots": 0,
-     "base": "",
-     "aircraft": "",
-     "speciality": "",
+     "base": "El Minya",
+     "aircraft": "K-8E",
+     "speciality": "Aerobatic display team",
      "motto": ""
     }
    ],
    "competitive": false,
-   "pilots": 4,
+   "pilots": 0,
    "full_name": "",
-   "base": "",
-   "division": "",
-   "aircraft": "",
-   "speciality": "",
+   "base": "Bilbeis",
+   "division": "Egyptian Air Academy",
+   "aircraft": "K-8E",
+   "speciality": "Basic jet training",
    "motto": ""
   },
   {
@@ -17792,8 +17870,8 @@
      "patch": "img/logo-192.png",
      "patch_own": false,
      "pilots": 0,
-     "base": "",
-     "aircraft": "",
+     "base": "Mersa Matruh (HEMM)",
+     "aircraft": "F-16C/D Block 40 (ex Block 15)",
      "speciality": "",
      "motto": ""
     },
@@ -17802,8 +17880,8 @@
      "patch": "img/logo-192.png",
      "patch_own": false,
      "pilots": 0,
-     "base": "",
-     "aircraft": "",
+     "base": "Mersa Matruh (HEMM)",
+     "aircraft": "F-16A/B Block 15",
      "speciality": "",
      "motto": ""
     }
@@ -17811,9 +17889,9 @@
    "competitive": false,
    "pilots": 0,
    "full_name": "",
-   "base": "",
-   "division": "",
-   "aircraft": "",
+   "base": "Mersa Matruh (HEMM)",
+   "division": "139 Air Division",
+   "aircraft": "F-16C/D Block 40, F-16A/B Block 15",
    "speciality": "",
    "motto": ""
   },
@@ -17831,8 +17909,8 @@
      "patch": "img/logo-192.png",
      "patch_own": false,
      "pilots": 0,
-     "base": "",
-     "aircraft": "",
+     "base": "Aswan (HESN)",
+     "aircraft": "F-16C/D Block 32",
      "speciality": "",
      "motto": ""
     },
@@ -17841,8 +17919,8 @@
      "patch": "img/logo-192.png",
      "patch_own": false,
      "pilots": 0,
-     "base": "",
-     "aircraft": "",
+     "base": "Beni Suef (HEBS)",
+     "aircraft": "F-16C/D Block 32",
      "speciality": "",
      "motto": ""
     }
@@ -17850,9 +17928,9 @@
    "competitive": false,
    "pilots": 0,
    "full_name": "",
-   "base": "",
-   "division": "",
-   "aircraft": "",
+   "base": "Aswan (HESN) / Beni Suef (HEBS)",
+   "division": "149 Air Division",
+   "aircraft": "F-16C/D Block 32",
    "speciality": "",
    "motto": ""
   },
@@ -17861,7 +17939,8 @@
    "patch": "img/logo-192.png",
    "patch_own": false,
    "elements": [
-    "60 TFS"
+    "60 TFS",
+    "64 TFS \"TIGERS\""
    ],
    "units": [
     {
@@ -17869,8 +17948,18 @@
      "patch": "img/logo-192.png",
      "patch_own": false,
      "pilots": 0,
-     "base": "",
-     "aircraft": "",
+     "base": "Abu Suwayr",
+     "aircraft": "F-16C/D Block 40",
+     "speciality": "",
+     "motto": "Not without authority shall ye be able to pass"
+    },
+    {
+     "name": "64 TFS \"TIGERS\"",
+     "patch": "img/logo-192.png",
+     "patch_own": false,
+     "pilots": 0,
+     "base": "Abu Suwayr",
+     "aircraft": "F-16C/D Block 40",
      "speciality": "",
      "motto": ""
     }
@@ -17878,59 +17967,59 @@
    "competitive": false,
    "pilots": 0,
    "full_name": "",
-   "base": "",
-   "division": "",
-   "aircraft": "",
+   "base": "Abu Suwayr",
+   "division": "149 Air Division",
+   "aircraft": "F-16C/D Block 40",
    "speciality": "",
    "motto": ""
   },
   {
-   "name": "272 TFW Jyanklis",
-   "patch": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
-   "patch_own": true,
+   "name": "272 TFW",
+   "patch": "img/logo-192.png",
+   "patch_own": false,
    "elements": [
-    "75 TFS",
+    "75 TFS \"VIPERS\"",
     "77 TFS \"FIGHTING BATS\"",
     "79 TFS"
    ],
    "units": [
     {
-     "name": "75 TFS",
-     "patch": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "name": "75 TFS \"VIPERS\"",
+     "patch": "img/logo-192.png",
      "patch_own": false,
      "pilots": 0,
-     "base": "",
-     "aircraft": "",
+     "base": "Gianaclis (Jiyanklis)",
+     "aircraft": "F-16C/D Block 40",
      "speciality": "",
      "motto": ""
     },
     {
      "name": "77 TFS \"FIGHTING BATS\"",
-     "patch": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "patch": "img/logo-192.png",
      "patch_own": false,
      "pilots": 0,
-     "base": "",
-     "aircraft": "",
+     "base": "Gianaclis (Jiyanklis)",
+     "aircraft": "F-16C/D Block 40",
      "speciality": "",
      "motto": ""
     },
     {
      "name": "79 TFS",
-     "patch": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "patch": "img/logo-192.png",
      "patch_own": false,
      "pilots": 0,
-     "base": "",
-     "aircraft": "",
-     "speciality": "",
+     "base": "Gianaclis (Jiyanklis)",
+     "aircraft": "F-16C/D Block 40",
+     "speciality": "F-16 conversion training (OCU)",
      "motto": ""
     }
    ],
    "competitive": false,
-   "pilots": 12,
+   "pilots": 0,
    "full_name": "",
-   "base": "",
-   "division": "",
-   "aircraft": "",
+   "base": "Gianaclis (Jiyanklis)",
+   "division": "139 Air Division",
+   "aircraft": "F-16C/D Block 40",
    "speciality": "",
    "motto": ""
   },
@@ -17948,8 +18037,8 @@
      "patch": "img/logo-192.png",
      "patch_own": false,
      "pilots": 0,
-     "base": "",
-     "aircraft": "",
+     "base": "Fayid",
+     "aircraft": "F-16C/D Block 40",
      "speciality": "",
      "motto": ""
     },
@@ -17958,8 +18047,8 @@
      "patch": "img/logo-192.png",
      "patch_own": false,
      "pilots": 0,
-     "base": "",
-     "aircraft": "",
+     "base": "Fayid",
+     "aircraft": "F-16C/D Block 40",
      "speciality": "",
      "motto": ""
     }
@@ -17967,10 +18056,88 @@
    "competitive": false,
    "pilots": 0,
    "full_name": "",
-   "base": "",
-   "division": "",
-   "aircraft": "",
+   "base": "Fayid",
+   "division": "149 Air Division",
+   "aircraft": "F-16C/D Block 40",
    "speciality": "",
+   "motto": ""
+  },
+  {
+   "name": "292 TFW \"EGYPT SNIPER\"",
+   "patch": "img/logo-192.png",
+   "patch_own": false,
+   "elements": [
+    "95 TFS \"AGGRESSORS\"",
+    "97 TFS \"PHARAOHS\"",
+    "BIR JIFJAFA DETACHMENT"
+   ],
+   "units": [
+    {
+     "name": "95 TFS \"AGGRESSORS\"",
+     "patch": "img/logo-192.png",
+     "patch_own": false,
+     "pilots": 0,
+     "base": "Cairo West (HECW)",
+     "aircraft": "F-16C/D Block 52+",
+     "speciality": "",
+     "motto": ""
+    },
+    {
+     "name": "97 TFS \"PHARAOHS\"",
+     "patch": "img/logo-192.png",
+     "patch_own": false,
+     "pilots": 0,
+     "base": "Cairo West (HECW)",
+     "aircraft": "F-16C/D Block 52+",
+     "speciality": "",
+     "motto": ""
+    },
+    {
+     "name": "BIR JIFJAFA DETACHMENT",
+     "patch": "img/logo-192.png",
+     "patch_own": false,
+     "pilots": 0,
+     "base": "Bir Jifjafa / Malez AB",
+     "aircraft": "F-16C/D Block 52+",
+     "speciality": "",
+     "motto": ""
+    }
+   ],
+   "competitive": false,
+   "pilots": 0,
+   "full_name": "",
+   "base": "Cairo West (HECW)",
+   "division": "139 Air Division",
+   "aircraft": "F-16C/D Block 52+",
+   "speciality": "",
+   "motto": ""
+  },
+  {
+   "name": "EFWS \"THE MASTERS\"",
+   "patch": "img/logo-192.png",
+   "patch_own": false,
+   "elements": [
+    "EFWS \"BLACK ACES\""
+   ],
+   "units": [
+    {
+     "name": "EFWS \"BLACK ACES\"",
+     "patch": "img/logo-192.png",
+     "patch_own": false,
+     "pilots": 0,
+     "base": "Cairo West (HECW)",
+     "aircraft": "F-16C/D (on loan from 292 TFW)",
+     "speciality": "Competitive / PvP",
+     "motto": ""
+    }
+   ],
+   "competitive": true,
+   "pilots": 0,
+   "full_name": "Egyptian Fighter Weapons School",
+   "base": "Cairo West (HECW)",
+   "division": "139 Air Division",
+   "aircraft": "F-16C/D (on loan from 292 TFW)",
+   "speciality": "Fighter weapons instruction / Competitive (PvP)",
    "motto": ""
   }
  ],
