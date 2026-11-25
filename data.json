@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T02:24:01+00:00",
+ "generated": "2026-11-25T02:24:17+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -18838,10 +18838,6 @@
  ],
  "app": {
   "api": "https://veaf-app.veaf-2ff4d6.workers.dev"
- },
- "hero": {
-  "video": "video/hero.mp4",
-  "poster": "img/hero-poster.jpg"
  },
  "gallery": {
   "photos": [],
