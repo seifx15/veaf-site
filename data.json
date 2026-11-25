@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T04:10:53+00:00",
+ "generated": "2026-11-25T04:11:52+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -8967,7 +8967,7 @@
     "by_map": {
      "SinaiMap": 1.4
     },
-    "flights": 6,
+    "flights": 7,
     "sorties": 3,
     "landings": 1,
     "landing_grades": {
