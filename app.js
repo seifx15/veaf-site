@@ -41,7 +41,7 @@
       session_lost: "Your sign-in expired. Sign in again.",
       element: "Element", el_patch: "Element patch", el_former: "Former element", all_elements: "All elements", sq_patch: "Squadron patch", sq_former: "Former squadron", worn_h: "Patches", kb_h: "Kneeboard", kb_p: "These pages are on your cockpit kneeboard for this operation. Tap a page to enlarge it.",
       nav_gallery: "Gallery", gal_eyebrow: "Photos and films", gal_h: "Gallery", gal_intro: "The squadron in the air: films and screenshots from our sorties, airshows and operations. Select a photo to see it full size.",
-      gal_films: "Films", gal_photos: "Photos", gal_yt: "Play on YouTube", follow_us: "Follow us", more_on: "More on", hero_pause: "Pause the background video", hero_play: "Play the background video",
+      gal_films: "Films", gal_photos: "Photos", gal_yt: "Play on YouTube", follow_us: "Follow us", more_on: "More on",
       install_app: "Install app", install_ios: "On iPhone or iPad: tap Share, then Add to Home Screen. VEAF then opens like an app.",
       install_done: "VEAF is installed: open it from your home screen or your apps.",
       push_on: "Turn on notifications", push_off: "Notifications on · turn off", push_install: "Get notifications", push_denied: "Notifications blocked",
@@ -131,7 +131,7 @@
       session_lost: "انتهت جلسة الدخول. سجّل الدخول مرة أخرى.",
       element: "العنصر", el_patch: "شارة العنصر", el_former: "عنصر سابق", all_elements: "كل العناصر", sq_patch: "شارة السرب", sq_former: "سرب سابق", worn_h: "الشارات", kb_h: "لوحة الركبة", kb_p: "هذه الصفحات موجودة على لوحة الركبة في قمرة القيادة لهذه العملية. اضغط على أي صفحة لتكبيرها.",
       nav_gallery: "المعرض", gal_eyebrow: "صور وأفلام", gal_h: "المعرض", gal_intro: "السرب في الجو: أفلام ولقطات من طلعاتنا وعروضنا الجوية وعملياتنا. اختر صورة لعرضها بالحجم الكامل.",
-      gal_films: "الأفلام", gal_photos: "الصور", gal_yt: "شغّل على يوتيوب", follow_us: "تابعنا", more_on: "المزيد على", hero_pause: "أوقف فيديو الخلفية", hero_play: "شغّل فيديو الخلفية",
+      gal_films: "الأفلام", gal_photos: "الصور", gal_yt: "شغّل على يوتيوب", follow_us: "تابعنا", more_on: "المزيد على",
       install_app: "ثبّت التطبيق", install_ios: "على الآيفون أو الآيباد: اضغط مشاركة ثم إضافة إلى الشاشة الرئيسية. يفتح VEAF بعدها كتطبيق.",
       install_done: "تم تثبيت VEAF: افتحه من الشاشة الرئيسية أو من تطبيقاتك.",
       push_on: "تفعيل الإشعارات", push_off: "الإشعارات مفعّلة · إيقاف", push_install: "استقبال الإشعارات", push_denied: "الإشعارات محظورة",
@@ -304,15 +304,8 @@
       esc(t("nav_board")) + "</a></div></div></div></section>" + films() + homeOps() + joinBand();
   }
   function heroMedia() {
-    // 8.7.9: a short silent loop behind the headline; a still picture for reduced motion or data saver
-    var still = img("pyramids", "Two VEAF F-16s over the Giza pyramids", true).replace("<img ", '<img class="bg" ');
-    var h = DATA && DATA.hero;
-    if (!h || !h.video) return still;
-    var calm = (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) || (navigator.connection && navigator.connection.saveData);
-    if (calm) return h.poster ? '<img class="bg" src="' + esc(h.poster) + '" alt="">' : still;
-    return '<video class="bg" id="hero-video" autoplay muted loop playsinline preload="auto" aria-hidden="true" tabindex="-1"' +
-      (h.poster ? ' poster="' + esc(h.poster) + '"' : "") + '><source src="' + esc(h.video) + '" type="' + (/\.webm(\?|$)/.test(h.video) ? "video/webm" : "video/mp4") + '"></video>' +
-      '<button type="button" class="hero-pause" id="hero-pause" aria-label="' + esc(t("hero_pause")) + '" title="' + esc(t("hero_pause")) + '">❚❚</button>';
+    // 8.7.10: the still pyramids picture again (the 8.7.9 background video slowed the page down)
+    return img("pyramids", "Two VEAF F-16s over the Giza pyramids", true).replace("<img ", '<img class="bg" ');
   }
   function films() {
     return '<section class="band"><div class="wrap"><span class="eyebrow">' + esc(t("film_eyebrow")) + "</span><h2>" + esc(t("film_h")) + '</h2><p class="intro">' +
@@ -1088,7 +1081,7 @@
 
   /* -------------------------------------------------------------- events */
   document.addEventListener("click", function (e) {
-    var el = e.target.closest ? e.target.closest("[data-ac],[data-sq],[data-el],[data-bsq],[data-otype],[data-sort],[data-yt],#lang,#menu-btn,#install-btn,#hero-pause,img[data-full],.lightbox") : null;
+    var el = e.target.closest ? e.target.closest("[data-ac],[data-sq],[data-el],[data-bsq],[data-otype],[data-sort],[data-yt],#lang,#menu-btn,#install-btn,img[data-full],.lightbox") : null;
     if (!el) return;
     if (el.classList.contains("lightbox")) { el.remove(); return; }
     if (el.hasAttribute("data-yt")) {
@@ -1096,14 +1089,6 @@
       fr.src = "https://www.youtube-nocookie.com/embed/" + encodeURIComponent(el.getAttribute("data-yt")) + "?autoplay=1&rel=0";
       fr.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen"; fr.allowFullscreen = true; fr.title = "YouTube";
       fr.className = "yt-frame"; el.replaceWith(fr); return;
-    }
-    if (el.id === "hero-pause") {
-      var hv = document.getElementById("hero-video");
-      if (hv) {
-        if (hv.paused) { hv.play(); el.textContent = "❚❚"; el.setAttribute("aria-label", t("hero_pause")); el.title = t("hero_pause"); }
-        else { hv.pause(); el.textContent = "▶"; el.setAttribute("aria-label", t("hero_play")); el.title = t("hero_play"); }
-      }
-      return;
     }
     if (el.id === "install-btn") { installApp(); return; }
     if (el.id === "lang") {

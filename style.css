@@ -71,13 +71,26 @@ a { color: inherit; }
 }
 .nav a:hover { color: var(--text); background: var(--panel); }
 .nav a[aria-current="page"] { color: var(--text); box-shadow: inset 0 -2px 0 var(--dayglo); border-radius: 0; }
-.nav .join { background: var(--dayglo); color: var(--dayglo-ink); }
+/* 8.7.10 header: the page links, then one orange button (Join us) and quiet controls beside it */
+.nav .join { background: var(--dayglo); color: var(--dayglo-ink); margin-inline-start: 14px; padding: 9px 14px; }
 .nav .join:hover { background: #ff8f4f; color: var(--dayglo-ink); }
+.user-slot { margin-inline-start: 8px; }
+.user-slot:empty { display: none; }
 .lang {
-  border: 1px solid var(--line); background: none; color: var(--text); border-radius: 4px;
-  padding: 7px 10px; font: 600 0.85rem/1 var(--f-body); cursor: pointer;
+  border: 0; background: none; color: var(--muted); border-radius: 4px; margin-inline-start: 4px;
+  padding: 8px 8px; font: 600 0.88rem/1 var(--f-body); cursor: pointer;
 }
-.lang:hover { border-color: var(--muted); }
+.lang:hover { color: var(--text); background: var(--panel); }
+@media (min-width: 1241px) and (max-width: 1440px) {
+  /* laptops: the same header, a little tighter, so it never runs off the screen */
+  .top .wrap { gap: 14px; }
+  .nav a { padding: 8px 7px; }
+  .nav .join { margin-inline-start: 10px; padding: 9px 12px; }
+  .top .install-btn { margin-inline-start: -6px; }
+}
+@media (min-width: 1241px) and (max-width: 1340px) {
+  .brand small { display: none; }
+}
 .menu-btn { display: none; margin-inline-start: auto; background: none; border: 1px solid var(--line); color: var(--text); border-radius: 4px; padding: 8px 12px; font: 600 0.9rem/1 var(--f-body); }
 @media (max-width: 1240px) {
   .menu-btn { display: block; }
@@ -86,18 +99,14 @@ a { color: inherit; }
   .nav.open { display: flex; }
   .nav a { padding: 12px 8px; }
   .nav a[aria-current="page"] { box-shadow: inset 3px 0 0 var(--dayglo); }
-  .lang { align-self: flex-start; margin-top: 6px; }
+  .lang { align-self: flex-start; margin: 6px 0 0; border: 1px solid var(--line); color: var(--text); padding: 8px 12px; }
+  .nav .join { margin: 6px 0 0; text-align: center; }
+  .user-slot { margin-inline-start: 0; }
 }
 
 /* ------------------------------------------------------------------ hero */
 .hero { position: relative; isolation: isolate; overflow: hidden; border-bottom: 1px solid var(--line); }
-.hero img.bg, .hero video.bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
-.hero-pause {
-  position: absolute; inset-block-end: 14px; inset-inline-end: 14px; z-index: 2; width: 38px; height: 38px; border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.35); background: rgba(10, 14, 18, 0.55); color: #fff; font-size: 0.8rem; cursor: pointer;
-  display: grid; place-items: center; opacity: 0.75; transition: opacity .15s;
-}
-.hero-pause:hover, .hero-pause:focus-visible { opacity: 1; }
+.hero img.bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
 .hero::after {
   content: ""; position: absolute; inset: 0; z-index: -1;
   background: linear-gradient(90deg, rgba(10, 14, 18, 0.92) 0%, rgba(10, 14, 18, 0.65) 45%, rgba(10, 14, 18, 0.1) 100%);
@@ -426,8 +435,8 @@ td.note { white-space: normal; font-size: 0.85rem; color: #cfc9bf; min-width: 22
 
 /* ---- sign-in, sign-ups, photos, patches ------------------------------------ */
 .user-slot { display: inline-flex; align-items: center; }
-.signin { border: 1px solid var(--dayglo); background: none; color: var(--dayglo); border-radius: 4px; padding: 7px 12px; font: 600 0.88rem/1 var(--f-body); cursor: pointer; }
-.signin:hover { background: var(--dayglo); color: var(--dayglo-ink); }
+.signin { border: 1px solid var(--line); background: none; color: var(--text); border-radius: 4px; padding: 8px 12px; font: 600 0.88rem/1 var(--f-body); cursor: pointer; }
+.signin:hover { border-color: var(--muted); background: var(--panel); }
 .user { position: relative; display: inline-flex; align-items: center; }
 .me-btn { display: inline-flex; align-items: center; gap: 8px; background: none; border: 1px solid transparent; border-radius: 999px; padding: 2px; cursor: pointer; color: var(--text); }
 .me-btn:hover, .me-btn[aria-expanded="true"] { border-color: var(--line); }
@@ -523,15 +532,23 @@ section.pushband { background: var(--panel); padding-block: 18px; }
 
 /* 8.7.8 Install app: shown only where the browser can install the site (or on iPhone, with the steps) */
 .install-btn {
-  border: 1px solid var(--dayglo); background: none; color: var(--dayglo); border-radius: 4px;
-  padding: 7px 12px; font: 600 0.85rem/1 var(--f-body); cursor: pointer;
+  border: 1px solid var(--line); background: none; color: var(--text); border-radius: 4px;
+  padding: 8px 12px; font: 600 0.88rem/1 var(--f-body); cursor: pointer;
 }
-.install-btn:hover { background: var(--dayglo); color: var(--dayglo-ink); }
+.install-btn:hover { border-color: var(--muted); background: var(--panel); }
 .install-btn[hidden] { display: none; }
-.top .install-btn { margin-inline-start: 10px; flex: none; }
+.top .install-btn { margin-inline-start: -12px; flex: none; }
 @media (max-width: 1240px) {
   /* phones: next to Menu, outside the folded menu */
   .top .install-btn { order: 1; margin-inline-start: auto; }
   .top .menu-btn { order: 2; margin-inline-start: 8px; }
   .top .nav { order: 3; }
+}
+@media (max-width: 1240px) {
+  .user-slot .signin { width: 100%; padding: 11px 12px; }
+}
+@media (max-width: 560px) {
+  /* phones: logo, Install app and Menu on one row */
+  .top .wrap:has(.install-btn:not([hidden])) .brand small { display: none; }
+  .top .wrap { gap: 12px; }
 }

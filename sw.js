@@ -3,7 +3,7 @@
    data.json is always fetched fresh first (cache only when offline);
    the sign-in service on another origin is never touched. Also shows the
    squadron's push notifications (new operations, sortie reminders). */
-var CACHE = "veaf-v9";
+var CACHE = "veaf-v10";
 var CORE = ["./", "index.html", "style.css", "app.js", "manifest.webmanifest", "img/logo-sm.png", "img/logo-64.png", "img/logo-192.png", "img/logo.webp"];
 
 self.addEventListener("install", function (e) {
