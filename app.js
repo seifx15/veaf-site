@@ -40,6 +40,10 @@
       patches_h: "Mission patches", patches_intro: "Earned by flying the operation, or awarded by the instructors.", no_patches: "No patches yet.", holders: "holders", op_patch: "Mission patch",
       session_lost: "Your sign-in expired. Sign in again.",
       element: "Element", el_patch: "Element patch", el_former: "Former element", all_elements: "All elements", sq_patch: "Squadron patch", sq_former: "Former squadron", worn_h: "Patches", kb_h: "Kneeboard", kb_p: "These pages are on your cockpit kneeboard for this operation. Tap a page to enlarge it.",
+      nav_gallery: "Gallery", gal_eyebrow: "Photos and films", gal_h: "Gallery", gal_intro: "The squadron in the air: films and screenshots from our sorties, airshows and operations. Select a photo to see it full size.",
+      gal_films: "Films", gal_photos: "Photos", gal_yt: "Play on YouTube", follow_us: "Follow us", more_on: "More on", hero_pause: "Pause the background video", hero_play: "Play the background video",
+      install_app: "Install app", install_ios: "On iPhone or iPad: tap Share, then Add to Home Screen. VEAF then opens like an app.",
+      install_done: "VEAF is installed: open it from your home screen or your apps.",
       push_on: "Turn on notifications", push_off: "Notifications on · turn off", push_install: "Get notifications", push_denied: "Notifications blocked",
       push_band: "Get notified about new operations and a reminder 60 and 15 minutes before your sorties.", push_now: "Turn on", push_later: "Not now",
       push_ios: "On iPhone: tap Share, then Add to Home Screen. Open VEAF from your Home Screen and turn notifications on there.",
@@ -76,6 +80,8 @@
       all_aircraft: "All aircraft", search: "Search callsign", no_pilots: "No pilots match.",
       board_h: "Leaderboard", board_intro: "Totals from debriefed missions. Select a column to sort.",
       c_pilot: "Pilot", c_rank: "Rank", c_squadron: "Squadron", all_squadrons: "All squadrons", no_squadron: "Not yet in a squadron", c_missions: "Missions", c_score: "Score", c_avg: "Avg", c_air: "A/A kills", c_ground: "A/G kills",
+      c_active: "Days flown (30 d)", c_active_h: "Hours (30 d)", rank_by: "Rank by", top_score: "Top score", most_active: "Most active (30 days)",
+      active_intro: "Who flew most in the last 30 days: days in the air first, then hours, then sorties. Every recorded flight counts.", no_active: "Nobody has flown in the last 30 days.",
       c_quals: "Quals", c_hours: "Hours", c_date: "Date", c_mission: "Mission", c_type: "Type", c_grade: "Grade",
       back_pilots: "← All pilots", joined: "Joined", flies: "Flies", squadron: "Squadron",
       skills: "Skills", qualified: "QUAL", no_skills: "No skills assessed yet.",
@@ -124,6 +130,10 @@
       patches_h: "شارات المهمات", patches_intro: "تُكتسب بالطيران في العملية أو يمنحها المدربون.", no_patches: "لا توجد شارات بعد.", holders: "حاملين", op_patch: "شارة المهمة",
       session_lost: "انتهت جلسة الدخول. سجّل الدخول مرة أخرى.",
       element: "العنصر", el_patch: "شارة العنصر", el_former: "عنصر سابق", all_elements: "كل العناصر", sq_patch: "شارة السرب", sq_former: "سرب سابق", worn_h: "الشارات", kb_h: "لوحة الركبة", kb_p: "هذه الصفحات موجودة على لوحة الركبة في قمرة القيادة لهذه العملية. اضغط على أي صفحة لتكبيرها.",
+      nav_gallery: "المعرض", gal_eyebrow: "صور وأفلام", gal_h: "المعرض", gal_intro: "السرب في الجو: أفلام ولقطات من طلعاتنا وعروضنا الجوية وعملياتنا. اختر صورة لعرضها بالحجم الكامل.",
+      gal_films: "الأفلام", gal_photos: "الصور", gal_yt: "شغّل على يوتيوب", follow_us: "تابعنا", more_on: "المزيد على", hero_pause: "أوقف فيديو الخلفية", hero_play: "شغّل فيديو الخلفية",
+      install_app: "ثبّت التطبيق", install_ios: "على الآيفون أو الآيباد: اضغط مشاركة ثم إضافة إلى الشاشة الرئيسية. يفتح VEAF بعدها كتطبيق.",
+      install_done: "تم تثبيت VEAF: افتحه من الشاشة الرئيسية أو من تطبيقاتك.",
       push_on: "تفعيل الإشعارات", push_off: "الإشعارات مفعّلة · إيقاف", push_install: "استقبال الإشعارات", push_denied: "الإشعارات محظورة",
       push_band: "استقبل إشعارًا بكل عملية جديدة وتذكيرًا قبل طلعتك بـ 60 و15 دقيقة.", push_now: "تفعيل", push_later: "ليس الآن",
       push_ios: "على الآيفون: اضغط مشاركة ثم إضافة إلى الشاشة الرئيسية. افتح VEAF من الشاشة الرئيسية وفعّل الإشعارات من هناك.",
@@ -160,6 +170,8 @@
       all_aircraft: "كل الطائرات", search: "ابحث بالنداء", no_pilots: "لا يوجد طيار مطابق.",
       board_h: "الترتيب", board_intro: "مجاميع من المهمات المُقيّمة. اختر عمودًا للترتيب.",
       c_pilot: "الطيار", c_rank: "الرتبة", c_squadron: "السرب", all_squadrons: "كل الأسراب", no_squadron: "لم ينضم إلى سرب بعد", c_missions: "المهمات", c_score: "النقاط", c_avg: "المتوسط", c_air: "جو-جو", c_ground: "جو-أرض",
+      c_active: "أيام الطيران (30 يومًا)", c_active_h: "الساعات (30 يومًا)", rank_by: "الترتيب حسب", top_score: "أعلى النقاط", most_active: "الأكثر نشاطًا (30 يومًا)",
+      active_intro: "من طار أكثر في آخر 30 يومًا: أيام الطيران أولًا، ثم الساعات، ثم الطلعات. كل طلعة مسجلة تُحتسب.", no_active: "لم يطر أحد في آخر 30 يومًا.",
       c_quals: "مؤهلات", c_hours: "ساعات", c_date: "التاريخ", c_mission: "المهمة", c_type: "النوع", c_grade: "التقدير",
       back_pilots: "→ كل الطيارين", joined: "انضم", flies: "يطير", squadron: "السرب",
       skills: "المهارات", qualified: "مؤهل", no_skills: "لم تُقيَّم مهارات بعد.",
@@ -223,6 +235,18 @@
     "desert-three", "takeoff-dusk", "tanker", "strike-pass", "close-formation", "night-viper", "coast-three", "ramp", "cockpit-formation",
     "bombs-away", "pair-silver", "viper-9526", "wing-bomb"];
   var FILMS = [["desert-strike", "film_strike"], ["night-ops", "film_night"]];
+  var CAPTIONS = {
+    "strike-viper": ["F-16 armed for a strike", "F-16 مسلحة لمهمة ضرب"], "pyramids": ["Two F-16s over the Giza pyramids", "طائرتا F-16 فوق أهرامات الجيزة"],
+    "strike-cockpit": ["In the cockpit on the strike run", "في قمرة القيادة أثناء الهجوم"], "alexandria-break": ["A pair breaking over Alexandria", "تشكيل ثنائي ينفصل فوق الإسكندرية"],
+    "night-pair": ["A pair at night", "تشكيل ثنائي ليلًا"], "alexandria-port": ["Over the port of Alexandria", "فوق ميناء الإسكندرية"],
+    "strike-impact": ["Bombs on target", "القنابل على الهدف"], "desert-three": ["Three-ship over the desert", "ثلاث طائرات فوق الصحراء"],
+    "takeoff-dusk": ["Takeoff at dusk", "إقلاع عند الغروب"], "tanker": ["On the tanker", "التزود بالوقود جوًا"], "strike-pass": ["Strike pass", "تمريرة الهجوم"],
+    "close-formation": ["Close formation", "تشكيل متقارب"], "night-viper": ["F-16 at night", "F-16 ليلًا"], "coast-three": ["Three-ship along the coast", "ثلاث طائرات على امتداد الساحل"],
+    "ramp": ["F-16s on the ramp", "طائرات F-16 على ساحة الوقوف"], "cockpit-formation": ["Formation from the cockpit", "التشكيل من قمرة القيادة"],
+    "bombs-away": ["Bombs away", "إطلاق القنابل"], "pair-silver": ["A pair in silver", "تشكيل ثنائي فضي"], "viper-9526": ["F-16 9526", "F-16 رقم 9526"],
+    "wing-bomb": ["Bombs under the wing", "قنابل تحت الجناح"]
+  };
+  function caption(g) { var c = CAPTIONS[g]; return c ? c[LANG === "ar" ? 1 : 0] : g.replace(/-/g, " "); }
 
   /* ------------------------------------------------------------- helpers */
   function t(k) { return (T[LANG] && T[LANG][k]) || T.en[k] || k; }
@@ -267,7 +291,7 @@
 
   function pageHome() {
     var sq = (DATA && DATA.squadron) || {};
-    return '<section class="hero">' + img("pyramids", "Two VEAF F-16s over the Giza pyramids", true).replace("<img ", '<img class="bg" ') +
+    return '<section class="hero">' + heroMedia() +
       '<div class="wrap hero-grid"><div class="hero-copy">' + (sq.motto ? '<p class="motto" lang="ar">' + esc(sq.motto) + "</p>" : "") +
       '<span class="eyebrow">' + esc(t("hero_eyebrow")) + "</span><h1>" + t("hero_h1") + '</h1><p class="lede">' + esc(t("hero_lede")) +
       '</p><div class="cta-row">' + discordBtn() + '<a class="btn" href="#training">' + esc(t("see_training")) + '</a></div></div><img class="crest" src="img/logo.webp" width="512" height="512" alt="Virtual Egyptian Air Force crest"></div></section>' + readout() +
@@ -279,12 +303,60 @@
       "</span><h2>" + esc(t("pvp_h")) + "</h2><p>" + esc(t("pvp_intro")) + '</p><div class="cta-row"><a class="btn" href="#pvp">' + esc(t("nav_pvp")) + '</a><a class="btn" href="#leaderboard">' +
       esc(t("nav_board")) + "</a></div></div></div></section>" + films() + homeOps() + joinBand();
   }
+  function heroMedia() {
+    // 8.7.9: a short silent loop behind the headline; a still picture for reduced motion or data saver
+    var still = img("pyramids", "Two VEAF F-16s over the Giza pyramids", true).replace("<img ", '<img class="bg" ');
+    var h = DATA && DATA.hero;
+    if (!h || !h.video) return still;
+    var calm = (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) || (navigator.connection && navigator.connection.saveData);
+    if (calm) return h.poster ? '<img class="bg" src="' + esc(h.poster) + '" alt="">' : still;
+    return '<video class="bg" id="hero-video" autoplay muted loop playsinline preload="auto" aria-hidden="true" tabindex="-1"' +
+      (h.poster ? ' poster="' + esc(h.poster) + '"' : "") + '><source src="' + esc(h.video) + '" type="' + (/\.webm(\?|$)/.test(h.video) ? "video/webm" : "video/mp4") + '"></video>' +
+      '<button type="button" class="hero-pause" id="hero-pause" aria-label="' + esc(t("hero_pause")) + '" title="' + esc(t("hero_pause")) + '">❚❚</button>';
+  }
   function films() {
     return '<section class="band"><div class="wrap"><span class="eyebrow">' + esc(t("film_eyebrow")) + "</span><h2>" + esc(t("film_h")) + '</h2><p class="intro">' +
       esc(t("film_p")) + '</p><div class="films">' + FILMS.map(function (f) {
         return '<figure class="film"><video controls playsinline preload="none" poster="img/video-' + f[0] + '.jpg" width="1280" height="720">' +
           '<source src="video/' + f[0] + '.mp4" type="video/mp4"></video><figcaption>' + esc(t(f[1])) + "</figcaption></figure>";
-      }).join("") + "</div></div></section>";
+      }).join("") + '</div><div class="cta-row"><a class="btn" href="#gallery">' + esc(t("nav_gallery")) + "</a>" + socialLinks("inline") + "</div></div></section>";
+  }
+  function filmFigure(src, poster, cap) {
+    return '<figure class="film"><video controls playsinline preload="' + (poster ? "none" : "metadata") + '"' + (poster ? ' poster="' + esc(poster) + '"' : "") +
+      ' width="1280" height="720"><source src="' + esc(src) + '" type="' + (/\.webm(\?|$)/.test(src) ? "video/webm" : "video/mp4") + '"></video><figcaption>' + esc(cap) + "</figcaption></figure>";
+  }
+  function ytFigure(id) {
+    // click to play: nothing loads from YouTube until the visitor presses play
+    return '<figure class="film"><button type="button" class="yt" data-yt="' + esc(id) + '" aria-label="' + esc(t("gal_yt")) + '"><img src="https://i.ytimg.com/vi/' + esc(id) +
+      '/hqdefault.jpg" alt="" loading="lazy" width="480" height="360"><span class="play" aria-hidden="true"></span></button><figcaption>' + esc(t("gal_yt")) + "</figcaption></figure>";
+  }
+  function pageGallery() {
+    var g = (DATA && DATA.gallery) || {};
+    var vids = (g.videos || []).map(function (v) { return filmFigure(v.src, v.poster, v.caption); })
+      .concat(FILMS.map(function (f) { return filmFigure("video/" + f[0] + ".mp4", "img/video-" + f[0] + ".jpg", t(f[1])); }))
+      .concat((g.youtube || []).map(ytFigure));
+    var own = (g.photos || []).map(function (ph) {
+      return '<figure><img src="' + esc(ph.thumb) + '" data-full="' + esc(ph.src) + '" alt="' + esc(ph.caption) + '" loading="lazy"><figcaption>' + esc(ph.caption) + "</figcaption></figure>";
+    });
+    var built = GALLERY.map(function (n) { return "<figure>" + img(n, caption(n)) + "<figcaption>" + esc(caption(n)) + "</figcaption></figure>"; });
+    var yt = ((DATA && DATA.social) || []).filter(function (x) { return x.key === "youtube"; })[0];
+    return head(t("gal_eyebrow"), t("gal_h"), t("gal_intro")) +
+      '<section class="band"><div class="wrap"><h2>' + esc(t("gal_films")) + '</h2><div class="films">' + vids.join("") + "</div>" +
+      (yt ? '<div class="cta-row"><a class="btn" href="' + esc(yt.url) + '" target="_blank" rel="noopener me">' + (yt.icon ? '<img class="soc-ico" src="' + esc(yt.icon) + '" alt="" width="20" height="20">' : "") +
+        esc(t("more_on")) + " YouTube</a></div>" : "") + "</div></section>" +
+      '<section class="band"><div class="wrap"><h2>' + esc(t("gal_photos")) + '</h2><div class="gallery">' + own.concat(built).join("") + "</div></div></section>";
+  }
+  function socialLinks(kind) {
+    var ss = (DATA && DATA.social) || [];
+    if (!ss.length) return "";
+    return '<span class="social ' + (kind || "") + '">' + (kind === "foot" ? '<span class="lbl">' + esc(t("follow_us")) + "</span>" : "") + ss.map(function (x) {
+      return '<a href="' + esc(x.url) + '" target="_blank" rel="noopener me" aria-label="' + esc(x.name) + '">' +
+        (x.icon ? '<img class="soc-ico" src="' + esc(x.icon) + '" alt="" width="22" height="22">' : "") + "<span>" + esc(x.name) + "</span></a>";
+    }).join("") + "</span>";
+  }
+  function drawSocialFooter() {
+    var slot = document.getElementById("social-slot");
+    if (slot) slot.innerHTML = socialLinks("foot");
   }
   function facts() {
     return '<ul class="facts">' + [["f_lang", "f_lang_v"], ["f_focus", "f_focus_v"], ["f_who", "f_who_v"], ["f_comp", "f_comp_v"]].map(function (f) {
@@ -293,7 +365,7 @@
   }
   function joinBand() {
     return '<section class="band"><div class="wrap split"><div><span class="eyebrow">' + esc(t("join_eyebrow")) + "</span><h2>" + esc(t("join_h")) + "</h2><p>" +
-      esc(t("join_intro")) + '</p><div class="cta-row">' + discordBtn() + '<a class="btn" href="#join">' + esc(t("req_h")) + "</a></div></div>" +
+      esc(t("join_intro")) + '</p><div class="cta-row">' + discordBtn() + '<a class="btn" href="#join">' + esc(t("req_h")) + "</a>" + socialLinks("inline") + "</div></div>" +
       img("takeoff-dusk", "Takeoff at dusk") + "</div></section>";
   }
   function head(eyebrow, h, p) {
@@ -328,7 +400,7 @@
     return head(t("airshow_eyebrow"), t("airshow_h"), t("airshow_intro")) + '<section class="band"><div class="wrap"><div class="feature">' +
       img("airshow-ramp", "The airshow team on the ramp in display livery", true) + img("airshow-smoke", "Airshow pass with smoke", true) +
       "</div><h2>" + esc(t("gallery")) + '</h2><div class="gallery">' + GALLERY.map(function (g) {
-        return "<figure>" + img(g, g.replace(/-/g, " ")) + "</figure>";
+        return "<figure>" + img(g, caption(g)) + "<figcaption>" + esc(caption(g)) + "</figcaption></figure>";
       }).join("") + "</div></div></section>";
   }
 
@@ -414,10 +486,17 @@
   /* ------------------------------------------------------- leaderboard */
   var boardSort = "score", boardSq = "*";
   var BOARD_COLS = [["missions", "c_missions", 0, ""], ["score", "c_score", 1, "sc"], ["average", "c_avg", 1, "opt"], ["air_kills", "c_air", 0, ""],
-    ["ground_kills", "c_ground", 0, "opt2"], ["qualifications", "c_quals", 0, "opt"], ["hours", "c_hours", 1, "opt"]];
+    ["ground_kills", "c_ground", 0, "opt2"], ["qualifications", "c_quals", 0, "opt"], ["hours", "c_hours", 1, "opt"],
+    ["active_days", "c_active", 0, ""], ["active_hours", "c_active_h", 1, "opt"]];
+  // most active (last 30 days): days flown, then hours, then sorties
+  var TIE = { active_days: ["active_hours", "active_sorties"], active_hours: ["active_days", "active_sorties"] };
   function boardList() {
+    var active = boardSort === "active_days" || boardSort === "active_hours";
     return ((DATA && DATA.pilots) || []).slice().sort(function (a, b) {
-      return (b.squadron ? 1 : 0) - (a.squadron ? 1 : 0) || (Number(b[boardSort]) || 0) - (Number(a[boardSort]) || 0) || String(a.callsign).localeCompare(b.callsign);
+      var d = (Number(b[boardSort]) || 0) - (Number(a[boardSort]) || 0);
+      (TIE[boardSort] || []).forEach(function (k) { if (!d) d = (Number(b[k]) || 0) - (Number(a[k]) || 0); });
+      // the score board puts pilots in a squadron first; the activity board ranks everyone by what they flew
+      return (active ? 0 : (b.squadron ? 1 : 0) - (a.squadron ? 1 : 0)) || d || String(a.callsign).localeCompare(b.callsign);
     });
   }
   function squadronStandings() {
@@ -452,13 +531,17 @@
     return head("", t("board_h"), t("board_intro")).replace('class="page-head"', 'class="page-head compact"') +
       '<section class="band tight"><div class="wrap"><div id="podium" class="podium"></div>' +
       (cards ? '<h2 class="h-sm">' + esc(t("sq_standings")) + '</h2><div class="sqcards">' + cards + "</div>" : "") +
-      chips + '<div class="table-wrap board" id="board"></div></div></section>';
+      chips + '<div id="board-modes"></div><div class="table-wrap board" id="board"></div></div></section>';
   }
   function drawBoard() {
     var box = document.getElementById("board");
     if (!box) return;
     var all = boardList();
     var ps = all.filter(function (p) { return boardSq === "*" || (boardSq === "-" ? !p.squadron : p.squadron === boardSq); });
+    var activeView = boardSort === "active_days" || boardSort === "active_hours";
+    if (activeView) ps = ps.filter(function (p) { return (Number(p.active_days) || 0) > 0 || (Number(p.active_hours) || 0) > 0; });
+    var modes = '<div class="filters" role="group" aria-label="' + esc(t("rank_by")) + '"><button class="chip" type="button" data-sort="score" aria-pressed="' + (!activeView) + '">' +
+      esc(t("top_score")) + '</button><button class="chip" type="button" data-sort="active_days" aria-pressed="' + activeView + '">' + esc(t("most_active")) + "</button></div>";
     var max = Math.max.apply(null, ps.map(function (p) { return Number(p[boardSort]) || 0; }).concat([1]));
     var pod = document.getElementById("podium");
     if (pod) {
@@ -474,7 +557,7 @@
     var split = false;
     var rows = ps.map(function (p, i) {
       var head = "";
-      if (!p.squadron && !split) {
+      if (!p.squadron && !split && !activeView) {
         split = true;
         if (i > 0) head = '<tr class="split"><td colspan="' + cols + '">' + esc(t("no_squadron")) + "</td></tr>";
       }
@@ -486,7 +569,9 @@
           return '<td class="n ' + c[3] + (c[0] === boardSort ? " on" : "") + '">' + v + "</td>";
         }).join("") + "</tr>";
     }).join("");
-    box.innerHTML = ps.length ? "<table><thead><tr>" + th + "</tr></thead><tbody>" + rows + "</tbody></table>" : '<p class="empty">' + esc(t("no_pilots")) + "</p>";
+    var mb = document.getElementById("board-modes");
+    if (mb) mb.innerHTML = modes + (activeView ? '<p class="intro">' + esc(t("active_intro")) + "</p>" : "");
+    box.innerHTML = ps.length ? "<table><thead><tr>" + th + "</tr></thead><tbody>" + rows + "</tbody></table>" : '<p class="empty">' + esc(t(activeView ? "no_active" : "no_pilots")) + "</p>";
   }
   function colLabel(k) { for (var i = 0; i < BOARD_COLS.length; i++) if (BOARD_COLS[i][0] === k) return BOARD_COLS[i][1]; return k; }
 
@@ -759,6 +844,32 @@
       '<button type="button" class="out" data-app="signout">' + esc(t("sign_out")) + "</button></span></span>";
   }
 
+  /* ---------------------------------------------- install the app (8.7.8) */
+  // Chrome, Edge and Android offer the install prompt (beforeinstallprompt); iPhone Safari has no prompt,
+  // so the button explains Share > Add to Home Screen. Hidden once VEAF runs as an installed app.
+  var installPrompt = null;
+  function runningInstalled() {
+    return window.navigator.standalone === true || (window.matchMedia && window.matchMedia("(display-mode: standalone)").matches);
+  }
+  function showInstall() {
+    var b = document.getElementById("install-btn");
+    if (!b) return;
+    b.hidden = runningInstalled() || !(installPrompt || iosBrowser());
+  }
+  window.addEventListener("beforeinstallprompt", function (e) { e.preventDefault(); installPrompt = e; showInstall(); });
+  window.addEventListener("appinstalled", function () { installPrompt = null; showInstall(); toast(t("install_done")); });
+  function installApp() {
+    if (installPrompt) {
+      var p = installPrompt;
+      installPrompt = null;               // a prompt is used once; the browser offers it again if dismissed
+      p.prompt();
+      if (p.userChoice) p.userChoice.then(function () { showInstall(); }, function () { showInstall(); });
+      showInstall();
+      return;
+    }
+    if (iosBrowser()) toast(t("install_ios"));
+  }
+
   /* ------------------------------------------------- push notifications */
   var PUSH = "off";
   function iosBrowser() {
@@ -941,7 +1052,7 @@
   })();
 
   /* -------------------------------------------------------------- router */
-  var ROUTES = { home: pageHome, about: pageAbout, training: pageTraining, pvp: pagePvp, airshow: pageAirshow, pilots: pagePilots, leaderboard: pageBoard, operations: pageOps, join: pageJoin };
+  var ROUTES = { home: pageHome, about: pageAbout, training: pageTraining, pvp: pagePvp, airshow: pageAirshow, gallery: pageGallery, pilots: pagePilots, leaderboard: pageBoard, operations: pageOps, join: pageJoin };
   function route() {
     var h = (location.hash || "").replace(/^#/, "") || "home";
     var main = document.getElementById("main");
@@ -964,6 +1075,8 @@
     var root = document.documentElement;
     root.lang = LANG; root.dir = LANG === "ar" ? "rtl" : "ltr";
     Array.prototype.forEach.call(document.querySelectorAll("[data-i]"), function (el) { el.textContent = t(el.getAttribute("data-i")); });
+    showInstall();
+    drawSocialFooter();
     document.getElementById("lang").textContent = t("lang_other");
     stamp();
     if (typeof drawUser === "function") drawUser();
@@ -975,9 +1088,24 @@
 
   /* -------------------------------------------------------------- events */
   document.addEventListener("click", function (e) {
-    var el = e.target.closest ? e.target.closest("[data-ac],[data-sq],[data-el],[data-bsq],[data-otype],[data-sort],#lang,#menu-btn,img[data-full],.lightbox") : null;
+    var el = e.target.closest ? e.target.closest("[data-ac],[data-sq],[data-el],[data-bsq],[data-otype],[data-sort],[data-yt],#lang,#menu-btn,#install-btn,#hero-pause,img[data-full],.lightbox") : null;
     if (!el) return;
     if (el.classList.contains("lightbox")) { el.remove(); return; }
+    if (el.hasAttribute("data-yt")) {
+      var fr = document.createElement("iframe");
+      fr.src = "https://www.youtube-nocookie.com/embed/" + encodeURIComponent(el.getAttribute("data-yt")) + "?autoplay=1&rel=0";
+      fr.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen"; fr.allowFullscreen = true; fr.title = "YouTube";
+      fr.className = "yt-frame"; el.replaceWith(fr); return;
+    }
+    if (el.id === "hero-pause") {
+      var hv = document.getElementById("hero-video");
+      if (hv) {
+        if (hv.paused) { hv.play(); el.textContent = "❚❚"; el.setAttribute("aria-label", t("hero_pause")); el.title = t("hero_pause"); }
+        else { hv.pause(); el.textContent = "▶"; el.setAttribute("aria-label", t("hero_play")); el.title = t("hero_play"); }
+      }
+      return;
+    }
+    if (el.id === "install-btn") { installApp(); return; }
     if (el.id === "lang") {
       LANG = LANG === "ar" ? "en" : "ar";
       try { localStorage.setItem("veaf-lang", LANG); } catch (err) { /* private window */ }
@@ -1038,7 +1166,7 @@
   fetch("data.json?t=" + Date.now(), { cache: "no-store" }).then(function (r) {
     if (!r.ok) throw new Error(r.status);
     return r.json();
-  }).then(function (d) { DATA = d; stamp(); route(); drawUser(); loadMe(); }).catch(function () {
+  }).then(function (d) { DATA = d; stamp(); route(); drawUser(); drawSocialFooter(); loadMe(); }).catch(function () {
     DATA = { pilots: [], scrims: [], totals: {} };
     route();
     var m = document.getElementById("main");

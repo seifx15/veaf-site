@@ -91,7 +91,13 @@ a { color: inherit; }
 
 /* ------------------------------------------------------------------ hero */
 .hero { position: relative; isolation: isolate; overflow: hidden; border-bottom: 1px solid var(--line); }
-.hero img.bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+.hero img.bg, .hero video.bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+.hero-pause {
+  position: absolute; inset-block-end: 14px; inset-inline-end: 14px; z-index: 2; width: 38px; height: 38px; border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.35); background: rgba(10, 14, 18, 0.55); color: #fff; font-size: 0.8rem; cursor: pointer;
+  display: grid; place-items: center; opacity: 0.75; transition: opacity .15s;
+}
+.hero-pause:hover, .hero-pause:focus-visible { opacity: 1; }
 .hero::after {
   content: ""; position: absolute; inset: 0; z-index: -1;
   background: linear-gradient(90deg, rgba(10, 14, 18, 0.92) 0%, rgba(10, 14, 18, 0.65) 45%, rgba(10, 14, 18, 0.1) 100%);
@@ -291,6 +297,27 @@ tr.top3 .pos { color: var(--dayglo); }
 .gallery figure { margin: 0 0 14px; break-inside: avoid; }
 .gallery img { border-radius: 4px; width: 100%; cursor: zoom-in; }
 .gallery figcaption { font: 500 0.78rem/1.4 var(--f-mono); color: var(--muted); padding-top: 6px; }
+.band h2 + .films, .band h2 + .gallery { margin-top: 18px; }
+.films + .cta-row { margin-top: 22px; }
+.yt { position: relative; display: block; width: 100%; padding: 0; border: 0; background: #000; cursor: pointer; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 4px; }
+.yt img { width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0.85; transition: opacity .15s; }
+.yt:hover img, .yt:focus-visible img { opacity: 1; }
+.yt .play {
+  position: absolute; inset: 0; margin: auto; width: 68px; height: 48px; border-radius: 12px; background: rgba(10, 14, 18, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+.yt .play::after { content: ""; position: absolute; inset: 0; margin: auto; width: 0; height: 0; border-style: solid; border-width: 10px 0 10px 17px; border-color: transparent transparent transparent #fff; transform: translateX(2px); }
+.yt-frame { width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 4px; display: block; background: #000; }
+.social { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.social a {
+  display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; border: 1px solid var(--line); border-radius: 999px;
+  color: var(--text); text-decoration: none; font: 600 0.85rem/1 var(--f-body); background: rgba(255, 255, 255, 0.03);
+}
+.social a:hover, .social a:focus-visible { border-color: var(--dayglo); }
+.social .soc-ico { width: 22px; height: 22px; object-fit: contain; flex: none; }
+.social .lbl { font: 500 0.72rem/1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.btn .soc-ico { width: 20px; height: 20px; object-fit: contain; vertical-align: -4px; margin-inline-end: 8px; }
+.social-slot:empty { display: none; }
 .feature { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-bottom: 40px; }
 .feature img { border-radius: 4px; aspect-ratio: 16 / 10; object-fit: cover; width: 100%; cursor: zoom-in; }
 @media (max-width: 700px) { .feature { grid-template-columns: 1fr; } }
@@ -493,3 +520,18 @@ section.pushband { background: var(--panel); padding-block: 18px; }
 .upatch.none { display: inline-block; border: 1px dashed var(--line); border-radius: 50%; }
 .uname { font-weight: 700; }
 .ucount { font: 500 0.75rem/1 var(--f-mono); color: var(--muted); margin-inline-start: 6px; }
+
+/* 8.7.8 Install app: shown only where the browser can install the site (or on iPhone, with the steps) */
+.install-btn {
+  border: 1px solid var(--dayglo); background: none; color: var(--dayglo); border-radius: 4px;
+  padding: 7px 12px; font: 600 0.85rem/1 var(--f-body); cursor: pointer;
+}
+.install-btn:hover { background: var(--dayglo); color: var(--dayglo-ink); }
+.install-btn[hidden] { display: none; }
+.top .install-btn { margin-inline-start: 10px; flex: none; }
+@media (max-width: 1240px) {
+  /* phones: next to Menu, outside the folded menu */
+  .top .install-btn { order: 1; margin-inline-start: auto; }
+  .top .menu-btn { order: 2; margin-inline-start: 8px; }
+  .top .nav { order: 3; }
+}
