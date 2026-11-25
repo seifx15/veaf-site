@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T20:21:56+00:00",
+ "generated": "2026-11-25T20:22:57+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -1117,8 +1117,8 @@
    "joined": "2026-07-08",
    "aircraft": [
     "F-16C Viper",
-    "F-14B Tomcat",
-    "Mi-24P"
+    "F-15E Strike Eagle",
+    "F-14B Tomcat"
    ],
    "bio": "",
    "missions": 29,
@@ -1728,7 +1728,7 @@
      "SinaiMap": 3.7,
      "?": 0.8
     },
-    "flights": 12,
+    "flights": 13,
     "sorties": 7,
     "landings": 0,
     "landing_grades": {},
