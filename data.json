@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T00:23:06+00:00",
+ "generated": "2026-11-25T00:24:07+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -937,9 +937,9 @@
     }
    ],
    "logbook": {
-    "hours": 8.6,
+    "hours": 8.7,
     "by_aircraft": {
-     "F-16C Viper": 8.6
+     "F-16C Viper": 8.7
     },
     "by_map": {
      "SinaiMap": 6.7,
@@ -4819,12 +4819,12 @@
     }
    ],
    "logbook": {
-    "hours": 8.1,
+    "hours": 8.2,
     "by_aircraft": {
-     "F-16C Viper": 8.1
+     "F-16C Viper": 8.2
     },
     "by_map": {
-     "SinaiMap": 6.9,
+     "SinaiMap": 7.0,
      "Caucasus": 1.2
     },
     "flights": 20,
@@ -5252,12 +5252,12 @@
     }
    ],
    "logbook": {
-    "hours": 3.4,
+    "hours": 3.5,
     "by_aircraft": {
-     "F-16C Viper": 3.4
+     "F-16C Viper": 3.5
     },
     "by_map": {
-     "SinaiMap": 2.5,
+     "SinaiMap": 2.6,
      "Caucasus": 1.0
     },
     "flights": 6,
@@ -5660,12 +5660,12 @@
     }
    ],
    "logbook": {
-    "hours": 2.9,
+    "hours": 3.0,
     "by_aircraft": {
-     "F-16C Viper": 2.9
+     "F-16C Viper": 3.0
     },
     "by_map": {
-     "SinaiMap": 2.9
+     "SinaiMap": 3.0
     },
     "flights": 10,
     "sorties": 9,
@@ -5673,7 +5673,7 @@
     "landing_grades": {},
     "landing_avg": null,
     "traps": 0,
-    "aar_fills": 0,
+    "aar_fills": 2,
     "air_kills": 3,
     "ground_kills": 2,
     "deaths": 6,
@@ -7900,7 +7900,7 @@
      "F/A-18C Hornet": 11.3
     },
     "by_map": {
-     "SinaiMap": 6.7,
+     "SinaiMap": 6.8,
      "Caucasus": 3.6,
      "?": 0.9
     },
