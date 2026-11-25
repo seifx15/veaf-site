@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T00:07:01+00:00",
+ "generated": "2026-11-25T00:09:02+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -937,17 +937,17 @@
     }
    ],
    "logbook": {
-    "hours": 8.6,
+    "hours": 8.8,
     "by_aircraft": {
-     "F-16C Viper": 8.6
+     "F-16C Viper": 8.8
     },
     "by_map": {
-     "SinaiMap": 6.7,
+     "SinaiMap": 6.8,
      "?": 1.2,
      "Caucasus": 0.7
     },
-    "flights": 18,
-    "sorties": 15,
+    "flights": 19,
+    "sorties": 16,
     "landings": 0,
     "landing_grades": {},
     "landing_avg": null,
@@ -4819,19 +4819,21 @@
     }
    ],
    "logbook": {
-    "hours": 8.1,
+    "hours": 8.2,
     "by_aircraft": {
-     "F-16C Viper": 8.1
+     "F-16C Viper": 8.2
     },
     "by_map": {
      "SinaiMap": 7.0,
      "Caucasus": 1.2
     },
     "flights": 22,
-    "sorties": 20,
-    "landings": 0,
-    "landing_grades": {},
-    "landing_avg": null,
+    "sorties": 21,
+    "landings": 1,
+    "landing_grades": {
+     "F": 1
+    },
+    "landing_avg": 35,
     "traps": 0,
     "aar_fills": 0,
     "air_kills": 10,
@@ -5252,16 +5254,16 @@
     }
    ],
    "logbook": {
-    "hours": 3.5,
+    "hours": 3.6,
     "by_aircraft": {
-     "F-16C Viper": 3.5
+     "F-16C Viper": 3.6
     },
     "by_map": {
-     "SinaiMap": 2.5,
+     "SinaiMap": 2.6,
      "Caucasus": 1.0
     },
     "flights": 9,
-    "sorties": 5,
+    "sorties": 6,
     "landings": 0,
     "landing_grades": {},
     "landing_avg": null,
@@ -5667,7 +5669,7 @@
     "by_map": {
      "SinaiMap": 2.9
     },
-    "flights": 12,
+    "flights": 11,
     "sorties": 9,
     "landings": 0,
     "landing_grades": {},
@@ -7895,17 +7897,17 @@
     }
    ],
    "logbook": {
-    "hours": 11.3,
+    "hours": 11.4,
     "by_aircraft": {
-     "F/A-18C Hornet": 11.3
+     "F/A-18C Hornet": 11.4
     },
     "by_map": {
-     "SinaiMap": 6.8,
+     "SinaiMap": 6.9,
      "Caucasus": 3.6,
      "?": 0.9
     },
     "flights": 33,
-    "sorties": 22,
+    "sorties": 23,
     "landings": 0,
     "landing_grades": {},
     "landing_avg": null,
