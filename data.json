@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T02:07:43+00:00",
+ "generated": "2026-11-25T02:10:47+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -18848,6 +18848,19 @@
   "videos": [],
   "youtube": []
  },
- "social": [],
+ "social": [
+  {
+   "key": "instagram",
+   "name": "Instagram",
+   "url": "https://www.instagram.com/veaf.egy/",
+   "icon": ""
+  },
+  {
+   "key": "youtube",
+   "name": "YouTube",
+   "url": "https://www.youtube.com/@Sword1-1",
+   "icon": ""
+  }
+ ],
  "join_url": "http://dsc.gg/veaf"
 }
