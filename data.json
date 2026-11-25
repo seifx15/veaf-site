@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T23:34:41+00:00",
+ "generated": "2026-11-25T23:35:41+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,10 +7,10 @@
  },
  "totals": {
   "pilots": 87,
-  "missions": 80,
-  "sorties": 261,
+  "missions": 81,
+  "sorties": 262,
   "qualifications": 49,
-  "hours": 206.9,
+  "hours": 207.4,
   "air_kills": 89,
   "ground_kills": 44
  },
@@ -4590,21 +4590,21 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 15,
-   "score": 715.2,
-   "average": 51.1,
+   "missions": 16,
+   "score": 785.2,
+   "average": 52.3,
    "best": 80.0,
    "air_kills": 14,
    "ground_kills": 1,
    "friendly_kills": 0,
    "deaths": 7,
-   "hours": 15.5,
+   "hours": 16.0,
    "last_flown": "2026-11-25",
    "grades": {
+    "C": 2,
     "B": 2,
     "F": 3,
-    "D": 8,
-    "C": 1
+    "D": 8
    },
    "mission_types": {
     "A-A": 6,
@@ -4612,9 +4612,9 @@
     "BVR": 5,
     "CCIP": 3,
     "STRAFE": 3,
+    "AAR": 2,
     "FORMATION": 2,
-    "CAS": 2,
-    "AAR": 1
+    "CAS": 2
    },
    "skills": [
     {
@@ -4663,6 +4663,23 @@
    "qualifications": 0,
    "courses": [],
    "history": [
+    {
+     "op": "op-e67c973db6a5",
+     "date": "2026-11-25",
+     "name": "Flight · Refuelling · 16:53Z",
+     "types": [
+      "AAR"
+     ],
+     "training": true,
+     "score": 70.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 29,
+     "highlight": "Completed both AAR fills to full (complete=true on both visits, 5,531 kg total fuel taken) — no partial fills, mission task was finished."
+    },
     {
      "op": "op-2c107a0c6515",
      "date": "2026-11-25",
@@ -4932,9 +4949,9 @@
     }
    ],
    "logbook": {
-    "hours": 15.6,
+    "hours": 15.7,
     "by_aircraft": {
-     "F-16C Viper": 15.6
+     "F-16C Viper": 15.7
     },
     "by_map": {
      "SinaiMap": 14.5,
@@ -10253,6 +10270,56 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-e67c973db6a5",
+   "date": "2026-11-25",
+   "name": "Flight · Refuelling · 16:53Z",
+   "kind": "automatic",
+   "types": [
+    "AAR"
+   ],
+   "personal": true,
+   "training": true,
+   "brief": "",
+   "narrative": "Omar launched from Jiyanklis Air Base at 14:56 local after a 249-second taxi-out that generated one overspeed warning (18 s above 30 kt, peak 34.7 kt) — a persistent habits fault that must be corrected before it becomes normalised. He departed with 5,255 kg on board and climbed to rendezvous with tanker Aerial-4-3. The join took 182 seconds from 1 nm to first contact on both visits, indicating he is not arriving at the pre-contact position in a controlled, timely manner. Fill 1 was a painful demonstration of boom/drogue instability: 10 contacts to take 3,408 kg, grading NOOB (30). Every disconnect added risk — in a real-world night or weather AAR, that sortie would have been aborted. Fill 2 showed genuine in-sortie improvement: 6 contacts, 2,123 kg, NEEDS PRACTICE (62). The improvement is noted and is consistent with his upward trend (38→70→this sortie), but the averaged score of 8.0 contacts per fill drags the overall AAR grade to MEH (48). Recovery to Jiyanklis was where the sortie took its most serious hit: the approach was unstable in every measurable parameter — speed deviation 8.7 kt SD, glidepath error 1.8° below, peak sink 1,859 fpm below 500 ft, and he crossed the threshold too fast and too flat (AoA 2.3° vs 13° on-speed target) resulting in a late touchdown at 698 m (zone limit 600 m). The rollout consumed the entire remaining runway and the stop_remaining_m figure is -146 m — he would have departed the paved surface in an operational aircraft. The landing scores 35/100, grade F, and is a mandatory safety debrief item. Taxi-in was clean. The slot-2 session (15:27 reconnect, 0.4 min, no flight) carries no additional scoring content. Omar is building real AAR repetition and the second fill shows he can self-correct within a sortie, but the approach and landing discipline is currently the most dangerous gap in his syllabus and must be prioritised over further AAR work until he can demonstrate a stable, on-speed final.",
+   "lessons": [
+    "AAR throttle discipline: the dominant cause of 14 disconnects is over-correction — small power adjustments (1–2% at a time) with eyes on the tanker's wing reference, not the HUD, will keep the probe in the basket. Practice 'riding the wave' rather than chasing position.",
+    "Stabilised approach is non-negotiable: configure early (gear, flaps, on-speed AoA ~13°) no later than 3 nm final. Speed SD of 8.7 kt and a 1,859 fpm sink exceedance below 500 ft indicate the aircraft was not in a stable energy state — if it isn't stable by 500 ft, go around. Full stop.",
+    "Taxi speed awareness: 18 s over 30 kt on taxi-out is a repeated pattern. Set a mental governor — if the aircraft is accelerating on the centreline, brake early and hold 20–25 kt. Overspeed on the ground risks FOD ingestion, ground collision, and a formal airmanship penalty."
+   ],
+   "card": {},
+   "teams": [],
+   "results": [
+    {
+     "callsign": "Omar",
+     "member": true,
+     "squadron": "",
+     "score": 70.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 29,
+     "highlights": [
+      "Completed both AAR fills to full (complete=true on both visits, 5,531 kg total fuel taken) — no partial fills, mission task was finished.",
+      "Improvement on second fill: contacts dropped from 10 to 6, scoring NEEDS PRACTICE (62) on the second visit versus NOOB (30) on the first — clear in-sortie learning curve."
+     ],
+     "improvements": [
+      "AAR disconnect rate is unacceptable: 14 total disconnects across 2 fills (9 on fill 1, 5 on fill 2), averaging 8.0 contacts per fill — that grades MEH/48 overall. The goal is 2–3 contacts per fill. Throttle micro-management and anticipating the tanker's pitch/bank are the primary fix.",
+      "Landing grade F (score 35/100): touchdown at 698 m past threshold (zone is 150–600 m), AoA 2.3° vs target 13° (drastically fast/flat), sink rate peaked at 1,859 fpm below 500 ft AGL, speed deviation ±8.7 kt on final, crab at touchdown -7.2°, and the aircraft rolled 146 m past the available runway — a runway overrun in real life. This is a safety item requiring immediate pattern and approach work."
+     ],
+     "note": "Showed genuine in-sortie AAR improvement (10→6 contacts) but 8.0 avg contacts overall grades MEH, and an F-grade runway-overrun landing is the number-one safety fix before the next sortie."
+    }
+   ],
+   "pilots": 1,
+   "average": 70.0,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "instructor": "Sword",
+   "patches": [],
+   "report": "reports/op-e67c973db6a5.html"
+  },
   {
    "id": "op-cbd67fa104f3",
    "date": "2026-11-25",
