@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T23:17:41+00:00",
+ "generated": "2026-11-25T23:18:34+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,10 +7,10 @@
  },
  "totals": {
   "pilots": 87,
-  "missions": 80,
-  "sorties": 261,
+  "missions": 81,
+  "sorties": 262,
   "qualifications": 49,
-  "hours": 206.9,
+  "hours": 207.4,
   "air_kills": 89,
   "ground_kills": 44
  },
@@ -4590,7 +4590,7 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 15,
+   "missions": 16,
    "score": 715.2,
    "average": 51.1,
    "best": 80.0,
@@ -4598,7 +4598,7 @@
    "ground_kills": 1,
    "friendly_kills": 0,
    "deaths": 7,
-   "hours": 15.5,
+   "hours": 16.0,
    "last_flown": "2026-11-25",
    "grades": {
     "B": 2,
@@ -4612,9 +4612,9 @@
     "BVR": 5,
     "CCIP": 3,
     "STRAFE": 3,
+    "AAR": 2,
     "FORMATION": 2,
-    "CAS": 2,
-    "AAR": 1
+    "CAS": 2
    },
    "skills": [
     {
@@ -4663,6 +4663,23 @@
    "qualifications": 0,
    "courses": [],
    "history": [
+    {
+     "op": "op-e67c973db6a5",
+     "date": "2026-11-25",
+     "name": "Flight · Refuelling · 16:53Z",
+     "types": [
+      "AAR"
+     ],
+     "training": true,
+     "score": null,
+     "grade": "-",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 29,
+     "highlight": ""
+    },
     {
      "op": "op-2c107a0c6515",
      "date": "2026-11-25",
@@ -10253,6 +10270,46 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-e67c973db6a5",
+   "date": "2026-11-25",
+   "name": "Flight · Refuelling · 16:53Z",
+   "kind": "automatic",
+   "types": [
+    "AAR"
+   ],
+   "personal": true,
+   "training": true,
+   "brief": "",
+   "narrative": "",
+   "lessons": [],
+   "card": {},
+   "teams": [],
+   "results": [
+    {
+     "callsign": "Omar",
+     "member": true,
+     "squadron": "",
+     "score": null,
+     "grade": "-",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 29,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    }
+   ],
+   "pilots": 1,
+   "average": null,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "instructor": "Sword",
+   "patches": [],
+   "report": "reports/op-e67c973db6a5.html"
+  },
   {
    "id": "op-cbd67fa104f3",
    "date": "2026-11-25",
