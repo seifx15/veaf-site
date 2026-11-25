@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T01:09:11+00:00",
+ "generated": "2026-11-25T01:19:12+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -937,12 +937,12 @@
     }
    ],
    "logbook": {
-    "hours": 9.4,
+    "hours": 9.6,
     "by_aircraft": {
-     "F-16C Viper": 9.4
+     "F-16C Viper": 9.6
     },
     "by_map": {
-     "SinaiMap": 7.5,
+     "SinaiMap": 7.7,
      "?": 1.2,
      "Caucasus": 0.7
     },
@@ -4819,12 +4819,12 @@
     }
    ],
    "logbook": {
-    "hours": 9.0,
+    "hours": 9.1,
     "by_aircraft": {
-     "F-16C Viper": 9.0
+     "F-16C Viper": 9.1
     },
     "by_map": {
-     "SinaiMap": 7.8,
+     "SinaiMap": 7.9,
      "Caucasus": 1.2
     },
     "flights": 20,
@@ -5252,12 +5252,12 @@
     }
    ],
    "logbook": {
-    "hours": 4.3,
+    "hours": 4.4,
     "by_aircraft": {
-     "F-16C Viper": 4.3
+     "F-16C Viper": 4.4
     },
     "by_map": {
-     "SinaiMap": 3.3,
+     "SinaiMap": 3.5,
      "Caucasus": 1.0
     },
     "flights": 6,
@@ -5660,12 +5660,12 @@
     }
    ],
    "logbook": {
-    "hours": 3.7,
+    "hours": 3.9,
     "by_aircraft": {
-     "F-16C Viper": 3.7
+     "F-16C Viper": 3.9
     },
     "by_map": {
-     "SinaiMap": 3.7
+     "SinaiMap": 3.9
     },
     "flights": 10,
     "sorties": 9,
@@ -7895,12 +7895,12 @@
     }
    ],
    "logbook": {
-    "hours": 12.1,
+    "hours": 12.3,
     "by_aircraft": {
-     "F/A-18C Hornet": 12.1
+     "F/A-18C Hornet": 12.2
     },
     "by_map": {
-     "SinaiMap": 7.6,
+     "SinaiMap": 7.7,
      "Caucasus": 3.6,
      "?": 0.9
     },
@@ -8532,12 +8532,12 @@
     }
    ],
    "logbook": {
-    "hours": 1.2,
+    "hours": 1.4,
     "by_aircraft": {
-     "F-16C Viper": 1.2
+     "F-16C Viper": 1.4
     },
     "by_map": {
-     "SinaiMap": 1.2
+     "SinaiMap": 1.4
     },
     "flights": 4,
     "sorties": 3,
