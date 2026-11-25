@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T20:28:02+00:00",
+ "generated": "2026-11-25T20:29:02+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -1118,7 +1118,7 @@
    "aircraft": [
     "F-16C Viper",
     "F-15E Strike Eagle",
-    "F-14B Tomcat"
+    "Su-25T"
    ],
    "bio": "",
    "missions": 29,
