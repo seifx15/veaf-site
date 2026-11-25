@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T21:18:17+00:00",
+ "generated": "2026-11-25T21:19:17+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -3084,10 +3084,10 @@
     "insignia": "𓅪☆☆☆"
    },
    "rank_order": 8,
-   "active_days": 8,
-   "active_hours": 8.4,
-   "active_sorties": 19,
-   "active_ops": 9,
+   "active_days": 7,
+   "active_hours": 7.0,
+   "active_sorties": 18,
+   "active_ops": 8,
    "last_active": "2026-11-18",
    "photo": "",
    "patches": [],
