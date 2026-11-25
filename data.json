@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T00:39:08+00:00",
+ "generated": "2026-11-25T00:49:09+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -937,12 +937,12 @@
     }
    ],
    "logbook": {
-    "hours": 8.9,
+    "hours": 9.1,
     "by_aircraft": {
-     "F-16C Viper": 8.9
+     "F-16C Viper": 9.1
     },
     "by_map": {
-     "SinaiMap": 7.0,
+     "SinaiMap": 7.2,
      "?": 1.2,
      "Caucasus": 0.7
     },
@@ -4819,12 +4819,12 @@
     }
    ],
    "logbook": {
-    "hours": 8.5,
+    "hours": 8.6,
     "by_aircraft": {
-     "F-16C Viper": 8.5
+     "F-16C Viper": 8.6
     },
     "by_map": {
-     "SinaiMap": 7.3,
+     "SinaiMap": 7.4,
      "Caucasus": 1.2
     },
     "flights": 20,
@@ -4833,7 +4833,7 @@
     "landing_grades": {},
     "landing_avg": null,
     "traps": 0,
-    "aar_fills": 0,
+    "aar_fills": 3,
     "air_kills": 10,
     "ground_kills": 1,
     "deaths": 9,
@@ -5252,12 +5252,12 @@
     }
    ],
    "logbook": {
-    "hours": 3.8,
+    "hours": 3.9,
     "by_aircraft": {
-     "F-16C Viper": 3.8
+     "F-16C Viper": 3.9
     },
     "by_map": {
-     "SinaiMap": 2.8,
+     "SinaiMap": 3.0,
      "Caucasus": 1.0
     },
     "flights": 6,
@@ -5660,12 +5660,12 @@
     }
    ],
    "logbook": {
-    "hours": 3.2,
+    "hours": 3.4,
     "by_aircraft": {
-     "F-16C Viper": 3.2
+     "F-16C Viper": 3.4
     },
     "by_map": {
-     "SinaiMap": 3.2
+     "SinaiMap": 3.4
     },
     "flights": 10,
     "sorties": 9,
@@ -5673,7 +5673,7 @@
     "landing_grades": {},
     "landing_avg": null,
     "traps": 0,
-    "aar_fills": 2,
+    "aar_fills": 5,
     "air_kills": 3,
     "ground_kills": 2,
     "deaths": 6,
@@ -7895,12 +7895,12 @@
     }
    ],
    "logbook": {
-    "hours": 11.6,
+    "hours": 11.8,
     "by_aircraft": {
-     "F/A-18C Hornet": 11.6
+     "F/A-18C Hornet": 11.7
     },
     "by_map": {
-     "SinaiMap": 7.1,
+     "SinaiMap": 7.2,
      "Caucasus": 3.6,
      "?": 0.9
     },
@@ -8532,12 +8532,12 @@
     }
    ],
    "logbook": {
-    "hours": 0.7,
+    "hours": 0.9,
     "by_aircraft": {
-     "F-16C Viper": 0.7
+     "F-16C Viper": 0.9
     },
     "by_map": {
-     "SinaiMap": 0.7
+     "SinaiMap": 0.9
     },
     "flights": 4,
     "sorties": 3,
