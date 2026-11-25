@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T17:55:31+00:00",
+ "generated": "2026-11-25T17:56:31+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,10 +7,10 @@
  },
  "totals": {
   "pilots": 87,
-  "missions": 79,
-  "sorties": 260,
+  "missions": 80,
+  "sorties": 261,
   "qualifications": 49,
-  "hours": 206.4,
+  "hours": 206.9,
   "air_kills": 89,
   "ground_kills": 44
  },
@@ -8891,21 +8891,23 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 2,
-   "score": 94.0,
-   "average": 47.0,
+   "missions": 3,
+   "score": 126.0,
+   "average": 42.0,
    "best": 50.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
    "deaths": 0,
-   "hours": 1.4,
+   "hours": 1.9,
    "last_flown": "2026-11-25",
    "grades": {
-    "C": 1,
-    "D": 1
+    "D": 2,
+    "C": 1
    },
    "mission_types": {
+    "BFM": 1,
+    "A-A": 1,
     "AAR": 1,
     "FORMATION": 1,
     "CAS": 1,
@@ -8918,11 +8920,64 @@
      "score": 4.4,
      "max": 10,
      "qualified": false
+    },
+    {
+     "name": "1 V 2 ACM",
+     "type": "A-A",
+     "score": 3.2,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Basic Fighter Maneuver (BFM)",
+     "type": "BFM",
+     "score": 3.2,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Missile Kinematics",
+     "type": "A-A",
+     "score": 3.2,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Notching",
+     "type": "A-A",
+     "score": 3.2,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Tactical Turns / Formation",
+     "type": "BFM",
+     "score": 3.2,
+     "max": 10,
+     "qualified": false
     }
    ],
    "qualifications": 0,
    "courses": [],
    "history": [
+    {
+     "op": "op-cbd67fa104f3",
+     "date": "2026-11-25",
+     "name": "gmbekhit · BFM · 04:07Z",
+     "types": [
+      "BFM",
+      "A-A"
+     ],
+     "training": true,
+     "score": 32.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 34,
+     "highlight": "Demonstrated basic BFM awareness post-shots with notch/crank/cold defensive transitions at 2.4–2.8 nm, showing rudimentary situational awareness at close range."
+    },
     {
      "op": "op-2c107a0c6515",
      "date": "2026-11-25",
@@ -10189,6 +10244,55 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-cbd67fa104f3",
+   "date": "2026-11-25",
+   "name": "gmbekhit · BFM · 04:07Z",
+   "kind": "automatic",
+   "types": [
+    "BFM",
+    "A-A"
+   ],
+   "personal": true,
+   "training": true,
+   "brief": "",
+   "narrative": "gmbekhit flew three successive slots on Sinai Map on 25 November 2026, only the third (Silver_Stars-1 slot 2, 31.4 minutes) producing enough data to assess. The first slot (Aerial-6-1, 49 seconds) and second slot (Silver_Stars-1 slot 1, 2.2 minutes) were administratively abandoned — a repeated pattern that wastes range time and suggests difficulty getting the aircraft configuration or systems sorted before takeoff. When the pilot finally committed to the third slot, he showed the ambition to engage a target (Aerial-2-11) with three AIM-120C shots, closing from 14.8 nm to 3.2 nm, but all three missiles missed with CPAs of 354, 276, and 256 metres respectively — a 0% Pk rate. The progressive improvement in CPA across successive shots is a small positive: the pilot is at least reacting and closing, but the first shot at 14.8 nm while only 4 seconds of 'hot' time had been accumulated indicates pre-mature firing before achieving a valid firing solution. The late-mission stance cycle — going cold, hot, crank, notch, then cold again across 37 seconds at inside 3 nm — is reactive and unstructured, suggesting the pilot does not yet have a mental BFM geometry model. The energy-poor flag at 227 kt / 2,567 ft is a safety concern: in a real threat environment that is a dead man's position. The landing at El Arish was graded F (55/100): AoA at touchdown was 2.4° versus the 13° on-speed target, approach speed standard deviation was 14.2 kt (a stable approach requires under 5 kt), and the maximum sink rate below 500 ft reached 2,001 fpm — roughly double a survivable carrier threshold and well above what a wheeled aircraft should sustain on a normal recovery. The centreline deviation of 20.8 m right and 1.5° alignment error compounded an already poor approach. On the positive side, taxi discipline was sound in both completed ground phases (peak 22.7 kt, zero overspeed seconds), no friendly fires occurred, and no structural exceedances were formally flagged. Trend-wise, gmbekhit moved from 44 to 50 last fortnight; this sortie, graded on the primary slot alone, sits in the low-D range — lateral progress has stalled and the landing quality has not improved. The two aborted slot starts are a new and concerning administrative regression.",
+   "lessons": [
+    "Missile employment discipline: establish a valid firing solution (sustained hot time, appropriate aspect, in-WEZ geometry) before pulling the trigger — a 14.8 nm BVR snap-shot with only 4 seconds of hot time against a manoeuvring target is a wasted round; spend the pre-shot time building geometry, not chasing with fingers on the button",
+    "Energy management in the terminal phase: the energy-poor flag at 227 kt / 2,567 ft in the AA arena is unacceptable — if the BFM is driving you below 300 kt and 5,000 ft you must disengage, extend, and reset rather than pressing into a low-energy corner where you become the target",
+    "Landing standards: on-speed AoA in the F-16C is 13°; a 2.4° touchdown AoA means the aircraft is fast and flat, dramatically increasing rollout distance and arresting loads — brief the approach speeds, fly the AoA indexer, and stabilise by 500 ft; if the approach is not stable by 500 ft AGL, go around"
+   ],
+   "card": {},
+   "teams": [],
+   "results": [
+    {
+     "callsign": "Gmbekhit",
+     "member": true,
+     "squadron": "",
+     "score": 32.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 34,
+     "highlights": [
+      "Demonstrated basic BFM awareness post-shots with notch/crank/cold defensive transitions at 2.4–2.8 nm, showing rudimentary situational awareness at close range."
+     ],
+     "improvements": [
+      "Landing at El Arish was graded F (score 55): AoA 2.4° vs target 13°, approach speed SD ±14.2 kt, peak sink 2,001 fpm below 500 ft AGL, 20.8 m off centreline — fix on-speed AOA first, then stabilise the approach; all three AIM-120C shots missed (CPAs 354/276/256 m) with the first fired at an over-long 14.8 nm and all three failing to guide — review radar lock quality and shoot cues before triggering."
+     ],
+     "note": ""
+    }
+   ],
+   "pilots": 1,
+   "average": 32.0,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "instructor": "Sword",
+   "patches": [],
+   "report": "reports/op-cbd67fa104f3.html"
+  },
   {
    "id": "op-2c107a0c6515",
    "date": "2026-11-25",
