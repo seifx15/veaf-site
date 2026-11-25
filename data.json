@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T02:06:42+00:00",
+ "generated": "2026-11-25T02:07:43+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,10 +7,10 @@
  },
  "totals": {
   "pilots": 87,
-  "missions": 78,
-  "sorties": 254,
+  "missions": 79,
+  "sorties": 260,
   "qualifications": 49,
-  "hours": 200.3,
+  "hours": 206.4,
   "air_kills": 89,
   "ground_kills": 44
  },
@@ -93,20 +93,20 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 43,
-   "score": 2993.0,
-   "average": 69.7,
+   "missions": 44,
+   "score": 3073.0,
+   "average": 69.9,
    "best": 100.0,
    "air_kills": 25,
    "ground_kills": 16,
    "friendly_kills": 0,
    "deaths": 2,
-   "hours": 36.6,
-   "last_flown": "2026-11-23",
+   "hours": 37.6,
+   "last_flown": "2026-11-25",
    "grades": {
+    "A": 14,
     "C": 16,
     "D": 2,
-    "A": 13,
     "B": 9,
     "F": 3
    },
@@ -114,13 +114,13 @@
     "SEAD": 15,
     "CCIP": 12,
     "A-A": 8,
+    "FORMATION": 5,
     "CAS": 5,
     "STRAFE": 5,
     "TRAINING": 5,
-    "FORMATION": 4,
     "BVR": 3,
+    "AAR": 2,
     "BSA": 2,
-    "AAR": 1,
     "BFM": 1,
     "STRIKE": 1
    },
@@ -205,6 +205,24 @@
     }
    ],
    "history": [
+    {
+     "op": "op-2c107a0c6515",
+     "date": "2026-11-25",
+     "name": "Flight (4) · Refuelling + Formation · 00:18Z",
+     "types": [
+      "AAR",
+      "FORMATION"
+     ],
+     "training": true,
+     "score": 80.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 60,
+     "highlight": "Taxi-in clean at peak 27.2 kt with zero overspeed — professional ground movement"
+    },
     {
      "op": "op-67b5913cfe37",
      "date": "2026-11-23",
@@ -4563,21 +4581,21 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 14,
-   "score": 645.2,
-   "average": 49.6,
+   "missions": 15,
+   "score": 715.2,
+   "average": 51.1,
    "best": 80.0,
    "air_kills": 14,
    "ground_kills": 1,
    "friendly_kills": 0,
    "deaths": 7,
-   "hours": 14.5,
-   "last_flown": "2026-11-23",
+   "hours": 15.5,
+   "last_flown": "2026-11-25",
    "grades": {
+    "B": 2,
     "F": 3,
     "D": 8,
-    "C": 1,
-    "B": 1
+    "C": 1
    },
    "mission_types": {
     "A-A": 6,
@@ -4585,8 +4603,9 @@
     "BVR": 5,
     "CCIP": 3,
     "STRAFE": 3,
+    "FORMATION": 2,
     "CAS": 2,
-    "FORMATION": 1
+    "AAR": 1
    },
    "skills": [
     {
@@ -4635,6 +4654,24 @@
    "qualifications": 0,
    "courses": [],
    "history": [
+    {
+     "op": "op-2c107a0c6515",
+     "date": "2026-11-25",
+     "name": "Flight (4) · Refuelling + Formation · 00:18Z",
+     "types": [
+      "AAR",
+      "FORMATION"
+     ],
+     "training": true,
+     "score": 70.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 62,
+     "highlight": "AAR elite performer: best fill scored THE KING (1 contact, instant transfer); final overall skill rating THE KING across 12 completed fills totalling 4,560 kg — the most fuel taken on the sortie."
+    },
     {
      "op": "op-67b5913cfe37",
      "date": "2026-11-23",
@@ -5172,7 +5209,7 @@
    "active_sorties": 5,
    "active_ops": 5,
    "last_active": "2026-11-25",
-   "photo": "",
+   "photo": "https://veaf-app.veaf-2ff4d6.workers.dev/photo/P_031fcc77ecae?v=1795571916",
    "patches": [],
    "squadron": "",
    "squadron_patch": "",
@@ -5185,25 +5222,27 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 5,
-   "score": 342.0,
-   "average": 68.4,
+   "missions": 6,
+   "score": 392.0,
+   "average": 65.3,
    "best": 90.0,
    "air_kills": 0,
    "ground_kills": 5,
    "friendly_kills": 0,
    "deaths": 2,
-   "hours": 3.4,
-   "last_flown": "2026-11-23",
+   "hours": 4.4,
+   "last_flown": "2026-11-25",
    "grades": {
+    "F": 1,
     "B": 2,
     "D": 2,
     "A": 1
    },
    "mission_types": {
+    "FORMATION": 3,
     "CAS": 3,
-    "FORMATION": 2,
     "SEAD": 2,
+    "AAR": 1,
     "BFM": 1,
     "CCIP": 1,
     "STRAFE": 1
@@ -5254,6 +5293,24 @@
     }
    ],
    "history": [
+    {
+     "op": "op-2c107a0c6515",
+     "date": "2026-11-25",
+     "name": "Flight (4) · Refuelling + Formation · 00:18Z",
+     "types": [
+      "AAR",
+      "FORMATION"
+     ],
+     "training": true,
+     "score": 50.0,
+     "grade": "F",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 63,
+     "highlight": "Formation score 40/200 with best streak 321 s and 32% inside 500 ft — the most consistent wingman in the flight despite a low absolute score"
+    },
     {
      "op": "op-f5b3daf33e7f",
      "date": "2026-11-23",
@@ -5407,19 +5464,19 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 15,
-   "score": 857.0,
-   "average": 57.1,
+   "missions": 16,
+   "score": 927.0,
+   "average": 57.9,
    "best": 80.0,
    "air_kills": 3,
    "ground_kills": 2,
    "friendly_kills": 0,
    "deaths": 3,
-   "hours": 11.4,
-   "last_flown": "2026-11-05",
+   "hours": 12.5,
+   "last_flown": "2026-11-25",
    "grades": {
+    "B": 5,
     "D": 6,
-    "B": 4,
     "F": 1,
     "C": 4
    },
@@ -5429,6 +5486,8 @@
     "TRAINING": 4,
     "STRAFE": 2,
     "A-A": 2,
+    "AAR": 1,
+    "FORMATION": 1,
     "CAS": 1,
     "BVR": 1,
     "SEAD": 1
@@ -5507,6 +5566,24 @@
     }
    ],
    "history": [
+    {
+     "op": "op-2c107a0c6515",
+     "date": "2026-11-25",
+     "name": "Flight (4) · Refuelling + Formation · 00:18Z",
+     "types": [
+      "AAR",
+      "FORMATION"
+     ],
+     "training": true,
+     "score": 70.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 63,
+     "highlight": "AAR skill rated THE KING across 20 completed fills; best contacts 1 (single-contact fill) demonstrates excellent basket awareness after the initial slow join"
+    },
     {
      "op": "op-4d6c29bac531",
      "date": "2026-11-05",
@@ -7839,17 +7916,18 @@
     "Su-33"
    ],
    "bio": "",
-   "missions": 12,
-   "score": 680.0,
-   "average": 56.7,
+   "missions": 13,
+   "score": 730.0,
+   "average": 56.2,
    "best": 90.0,
    "air_kills": 0,
    "ground_kills": 3,
    "friendly_kills": 0,
    "deaths": 4,
-   "hours": 10.5,
-   "last_flown": "2026-11-23",
+   "hours": 11.6,
+   "last_flown": "2026-11-25",
    "grades": {
+    "B": 1,
     "C": 7,
     "F": 3,
     "D": 1,
@@ -7858,10 +7936,11 @@
    "mission_types": {
     "SEAD": 8,
     "CCIP": 5,
+    "FORMATION": 4,
     "CAS": 4,
     "A-A": 4,
     "STRAFE": 3,
-    "FORMATION": 3,
+    "AAR": 1,
     "BFM": 1
    },
    "skills": [
@@ -7931,6 +8010,24 @@
     }
    ],
    "history": [
+    {
+     "op": "op-2c107a0c6515",
+     "date": "2026-11-25",
+     "name": "Flight (4) · Refuelling + Formation · 00:18Z",
+     "types": [
+      "AAR",
+      "FORMATION"
+     ],
+     "training": true,
+     "score": 50.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 65,
+     "highlight": "Logged 37 AAR contacts across a 44-minute refuelling window, demonstrating persistent effort on the tanker"
+    },
     {
      "op": "op-6ff61319e5cd",
      "date": "2026-11-23",
@@ -8793,20 +8890,23 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 1,
-   "score": 44.0,
-   "average": 44.0,
-   "best": 44.0,
+   "missions": 2,
+   "score": 94.0,
+   "average": 47.0,
+   "best": 50.0,
    "air_kills": 0,
    "ground_kills": 0,
    "friendly_kills": 0,
    "deaths": 0,
-   "hours": 0.5,
-   "last_flown": "2026-11-17",
+   "hours": 1.4,
+   "last_flown": "2026-11-25",
    "grades": {
+    "C": 1,
     "D": 1
    },
    "mission_types": {
+    "AAR": 1,
+    "FORMATION": 1,
     "CAS": 1,
     "SEAD": 1
    },
@@ -8822,6 +8922,24 @@
    "qualifications": 0,
    "courses": [],
    "history": [
+    {
+     "op": "op-2c107a0c6515",
+     "date": "2026-11-25",
+     "name": "Flight (4) · Refuelling + Formation · 00:18Z",
+     "types": [
+      "AAR",
+      "FORMATION"
+     ],
+     "training": true,
+     "score": 50.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 50,
+     "highlight": ""
+    },
     {
      "op": "op-695251a7673d",
      "date": "2026-11-17",
@@ -10064,6 +10182,148 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-2c107a0c6515",
+   "date": "2026-11-25",
+   "name": "Flight (4) · Refuelling + Formation · 00:18Z",
+   "kind": "automatic",
+   "types": [
+    "AAR",
+    "FORMATION"
+   ],
+   "personal": true,
+   "training": true,
+   "brief": "",
+   "narrative": "EAF Training Sortie 25 Nov 2026 — Sinai Map. Six pilots launched on a combined AAR and formation training profile lasting approximately 60–63 minutes. The sortie exposed a sharp capability split: Omar and GoldenPilot demonstrated elite AAR basket awareness (both rated THE KING overall), while Maverick and Sword struggled with repeated disconnects and long fills, and XTC never completed a single fill across 37 contacts and 2,631 s at the tanker. Formation discipline was universally poor — every wingman recorded an F-grade formation score, with Neo spending 93% of scored time outside 500 ft from lead, XTC essentially never flying formation (100% outside, avgSep 5,541 ft), and Maverick and GoldenPilot both hovering around 32–36% inside across their 3,500 s scored windows. The best streak on the flight was Maverick's 321 s inside 500 ft, followed by GoldenPilot's 256 s — far short of the standard expected for a formation-qualified crew. Landing quality was mixed: Omar and GoldenPilot earned B grades, Maverick and Neo graded D, Sword landed off the glidepath with a stop-remaining of -82 m (a runway-end safety event), and XTC planted the Hornet at 816 fpm 1,335 m down the runway — both Sword and XTC landings are logged as safety items. Taxi discipline flagged four pilots: Neo peaked 36 kt for 26 s inbound, XTC peaked 38.5 kt for 16 s on departure, Omar peaked 35 kt for 11 s inbound, and GoldenPilot peaked 35.7 kt for 15 s departing in the second slot. All timing-sensitive data is noted with a 30 s server lag discount. Neo's maxG of 7.51 and GoldenPilot's 7.79 are the highest spikes and warrant a coaching conversation on energy management, though no structural exceedance counters were tripped. The overall impression is a flight that has pockets of real AAR talent — Omar's THE KING performance with 4,560 kg taken is genuinely impressive — but whose formation discipline is not yet at the standard required for tactical employment.",
+   "lessons": [
+    "AAR bracket stability: contacting the basket is only the first step — staying connected and flowing fuel for sustained periods is what determines fill time. All pilots who graded below GREAT PILOT must practise maintained contact for minimum 60 s before disconnecting; spike-and-reconnect cycles waste tanker time and are tactically unacceptable.",
+    "Formation position ownership: every wingman must understand their assigned position bracket (80–200 ft perfect, 500 ft maximum), actively close when outside, and match lead velocity on all three axes. Spending more than 60% of flight time outside 500 ft is a go/no-go training failure — the whole flight fell short of this standard today.",
+    "Stabilised approach discipline: at least two landings (Sword, XTC) are safety-notable events — a 1,731 fpm approach sink rate and a runway overrun risk must trigger a mandatory pre-solo approach-to-land review; all pilots must brief and fly a 3° glidepath with on-speed AoA from 500 ft AGL to threshold before conducting further formation approaches."
+   ],
+   "card": {},
+   "teams": [],
+   "results": [
+    {
+     "callsign": "Sword",
+     "member": true,
+     "squadron": "",
+     "score": 80.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 60,
+     "highlights": [
+      "Taxi-in clean at peak 27.2 kt with zero overspeed — professional ground movement"
+     ],
+     "improvements": [
+      "AAR completed in 10 contacts over 2263 s transfer time, scoring NOOB (30/100); disconnect rate 9 out of 10 contacts means the basket was barely held — priority one is to hold connection for sustained transfer"
+     ],
+     "note": ""
+    },
+    {
+     "callsign": "Omar",
+     "member": true,
+     "squadron": "",
+     "score": 70.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 62,
+     "highlights": [
+      "AAR elite performer: best fill scored THE KING (1 contact, instant transfer); final overall skill rating THE KING across 12 completed fills totalling 4,560 kg — the most fuel taken on the sortie.",
+      "Landing grade B at Jiyanklis (score 80): touchdown 206 m past threshold, centreline error only 4.8 m, no bounces, 697 m runway remaining."
+     ],
+     "improvements": [
+      "First fill took 17 contacts and 738 s transfer time (NOOB score 30) — approach speed control and bracket discipline on initial join must improve; a 513 s join-to-contact is unacceptable when the tanker is already established.",
+      "Taxi-in peak 35 kt for 11 s over the 30 kt limit; 16 disconnects across the AAR session also indicate probe management needs tightening once plugged."
+     ],
+     "note": "THE KING in the basket with 4,560 kg loaded cleanly, B-grade landing — now fix that catastrophic first-fill approach and keep the probe in once you plug."
+    },
+    {
+     "callsign": "[U777] Golden_Pilot",
+     "member": true,
+     "squadron": "",
+     "score": 70.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 63,
+     "highlights": [
+      "AAR skill rated THE KING across 20 completed fills; best contacts 1 (single-contact fill) demonstrates excellent basket awareness after the initial slow join"
+     ],
+     "improvements": [
+      "Taxi-out overspeed 15 s at peak 35.7 kt — the only clean-sheet pilot who generated a ramp safety warning on the second sortie slot; slow down to under 30 kt on the apron"
+     ],
+     "note": ""
+    },
+    {
+     "callsign": "Gmbekhit",
+     "member": true,
+     "squadron": "",
+     "score": 50.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 50,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    },
+    {
+     "callsign": "[EAF] Taha",
+     "member": true,
+     "squadron": "",
+     "score": 50.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 65,
+     "highlights": [
+      "Logged 37 AAR contacts across a 44-minute refuelling window, demonstrating persistent effort on the tanker"
+     ],
+     "improvements": [
+      "Every one of 37 contacts disconnected immediately — net fuel taken was −705 kg (fuel burned exceeded transfer); probe technique must be rebuilt from scratch before the next tanker sortie"
+     ],
+     "note": ""
+    },
+    {
+     "callsign": "[EAF] Maverick",
+     "member": true,
+     "squadron": "",
+     "score": 50.0,
+     "grade": "F",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 63,
+     "highlights": [
+      "Formation score 40/200 with best streak 321 s and 32% inside 500 ft — the most consistent wingman in the flight despite a low absolute score"
+     ],
+     "improvements": [
+      "AAR fill left partial after 20 contacts and 739 kg taken (started at 36% fuel, ended at ~59%); must hold the basket longer on each contact instead of cycling through 20 touch-and-goes"
+     ],
+     "note": ""
+    }
+   ],
+   "pilots": 6,
+   "average": 61.7,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "instructor": "Sword",
+   "patches": [],
+   "report": ""
+  },
   {
    "id": "op-f5b3daf33e7f",
    "date": "2026-11-23",
