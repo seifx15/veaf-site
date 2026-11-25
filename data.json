@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T23:36:41+00:00",
+ "generated": "2026-11-25T23:37:41+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -1095,11 +1095,11 @@
     "insignia": "𓅪☆𖤍"
    },
    "rank_order": 6,
-   "active_days": 5,
-   "active_hours": 4.8,
-   "active_sorties": 8,
-   "active_ops": 6,
-   "last_active": "2026-11-25",
+   "active_days": 4,
+   "active_hours": 4.1,
+   "active_sorties": 6,
+   "active_ops": 5,
+   "last_active": "2026-11-13",
    "photo": "",
    "patches": [],
    "squadron": "",
@@ -1117,8 +1117,7 @@
    "joined": "2026-07-08",
    "aircraft": [
     "F-16C Viper",
-    "F-15E Strike Eagle",
-    "Su-25T"
+    "F/A-18C Hornet"
    ],
    "bio": "",
    "missions": 29,
@@ -1719,42 +1718,34 @@
     }
    ],
    "logbook": {
-    "hours": 4.8,
+    "hours": 4.1,
     "by_aircraft": {
-     "F-16C Viper": 4.4,
-     "F-15E Strike Eagle": 0.2,
-     "AH-64D Apache": 0.1
+     "F-16C Viper": 4.0
     },
     "by_map": {
-     "SinaiMap": 3.9,
+     "SinaiMap": 3.2,
      "?": 0.8
     },
-    "flights": 14,
-    "sorties": 8,
-    "landings": 1,
-    "landing_grades": {
-     "C": 1
-    },
-    "landing_avg": 75,
+    "flights": 6,
+    "sorties": 6,
+    "landings": 0,
+    "landing_grades": {},
+    "landing_avg": null,
     "traps": 0,
     "aar_fills": 0,
     "air_kills": 0,
     "ground_kills": 0,
-    "deaths": 5,
+    "deaths": 2,
     "ejections": 0,
     "kd": 0.0,
     "weapons": {
      "AIM_120C": {
-      "shots": 2,
-      "hits": 3
-     },
-     "AIM_9": {
-      "shots": 2,
-      "hits": 0
+      "shots": 0,
+      "hits": 2
      }
     },
     "first": "2026-11-04",
-    "last": "2026-11-25"
+    "last": "2026-11-13"
    }
   },
   {
