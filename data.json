@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T00:03:56+00:00",
+ "generated": "2026-11-25T00:05:01+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -946,7 +946,7 @@
      "?": 1.2,
      "Caucasus": 0.7
     },
-    "flights": 17,
+    "flights": 18,
     "sorties": 15,
     "landings": 0,
     "landing_grades": {},
@@ -4827,7 +4827,7 @@
      "SinaiMap": 6.9,
      "Caucasus": 1.2
     },
-    "flights": 20,
+    "flights": 21,
     "sorties": 19,
     "landings": 0,
     "landing_grades": {},
@@ -4850,7 +4850,7 @@
      }
     },
     "first": "2026-10-18",
-    "last": "2026-11-24"
+    "last": "2026-11-25"
    }
   },
   {
@@ -5260,7 +5260,7 @@
      "SinaiMap": 2.5,
      "Caucasus": 1.0
     },
-    "flights": 7,
+    "flights": 8,
     "sorties": 5,
     "landings": 0,
     "landing_grades": {},
@@ -5667,7 +5667,7 @@
     "by_map": {
      "SinaiMap": 2.9
     },
-    "flights": 10,
+    "flights": 11,
     "sorties": 9,
     "landings": 0,
     "landing_grades": {},
@@ -7904,7 +7904,7 @@
      "Caucasus": 3.6,
      "?": 0.9
     },
-    "flights": 31,
+    "flights": 32,
     "sorties": 22,
     "landings": 0,
     "landing_grades": {},
