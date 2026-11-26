@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T23:44:47+00:00",
+ "generated": "2026-11-26T23:45:47+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -988,7 +988,7 @@
     "by_map": {
      "SinaiMap": 7.7,
      "?": 1.2,
-     "Caucasus": 1.0
+     "Caucasus": 1.1
     },
     "flights": 22,
     "sorties": 19,
@@ -1121,9 +1121,9 @@
     "aar_fills": 0,
     "air_kills": 6,
     "ground_kills": 0,
-    "deaths": 6,
+    "deaths": 7,
     "ejections": 0,
-    "kd": 1.0,
+    "kd": 0.86,
     "weapons": {
      "AIM_120C": {
       "shots": 28,
@@ -1752,7 +1752,7 @@
     "kd": null,
     "weapons": {
      "AIM_120C": {
-      "shots": 3,
+      "shots": 6,
       "hits": 1
      }
     },
@@ -4926,7 +4926,7 @@
    },
    "rank_order": 9,
    "active_days": 9,
-   "active_hours": 9.7,
+   "active_hours": 9.8,
    "active_sorties": 29,
    "active_ops": 11,
    "last_active": "2026-11-26",
@@ -8899,7 +8899,7 @@
    },
    "rank_order": 11,
    "active_days": 4,
-   "active_hours": 3.6,
+   "active_hours": 3.7,
    "active_sorties": 16,
    "active_ops": 6,
    "last_active": "2026-11-26",
@@ -9018,9 +9018,9 @@
     }
    ],
    "logbook": {
-    "hours": 3.6,
+    "hours": 3.7,
     "by_aircraft": {
-     "F/A-18C Hornet": 3.6
+     "F/A-18C Hornet": 3.7
     },
     "by_map": {
      "SinaiMap": 2.2,
