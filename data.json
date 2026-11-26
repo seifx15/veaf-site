@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T16:35:38+00:00",
+ "generated": "2026-11-26T16:36:38+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -78,10 +78,28 @@
    "patches": [],
    "squadron": "EFWS \"THE MASTERS\"",
    "squadron_patch": "patches/SQ_SQ_50588de3e1ba-0d5d209c.png?v=1795659724",
-   "element": "EFWS \"BLACK ACES\"",
-   "element_patch": "patches/EL_SQ_50588de3e1ba-ca57eb8f.png?v=1795659724",
-   "former_element_patches": [],
+   "element": "",
+   "element_patch": "",
+   "former_element_patches": [
+    {
+     "name": "SILVER STARS AEROBATICS",
+     "squadron": "201 AW AIRFORCE ACADEMY",
+     "image": "patches/EL_SQ_835054b42052-39c66d8a.png?v=1795659724",
+     "until": "2026-11-26"
+    },
+    {
+     "name": "EFWS \"BLACK ACES\"",
+     "squadron": "EFWS \"THE MASTERS\"",
+     "image": "patches/EL_SQ_50588de3e1ba-ca57eb8f.png?v=1795659724",
+     "until": "2026-11-26"
+    }
+   ],
    "former_squadron_patches": [
+    {
+     "name": "201 AW AIRFORCE ACADEMY",
+     "image": "patches/SQ_SQ_835054b42052-4741c4f4.png?v=1795659724",
+     "until": "2026-11-26"
+    },
     {
      "name": "272 TFW Jyanklis",
      "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
@@ -18962,7 +18980,7 @@
      "name": "EFWS \"BLACK ACES\"",
      "patch": "patches/EL_SQ_50588de3e1ba-ca57eb8f.png?v=1795659724",
      "patch_own": true,
-     "pilots": 1,
+     "pilots": 0,
      "base": "Cairo West (HECW)",
      "aircraft": "F-16C/D (on loan from 292 TFW)",
      "speciality": "Competitive / PvP",
