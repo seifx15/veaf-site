@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T17:03:00+00:00",
+ "generated": "2026-11-26T17:04:01+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -5252,11 +5252,11 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
-   "active_days": 5,
+   "active_days": 6,
    "active_hours": 4.5,
-   "active_sorties": 5,
+   "active_sorties": 6,
    "active_ops": 5,
-   "last_active": "2026-11-25",
+   "last_active": "2026-11-26",
    "photo": "https://veaf-app.veaf-2ff4d6.workers.dev/photo/P_031fcc77ecae?v=1795571916",
    "patches": [],
    "squadron": "",
@@ -5460,7 +5460,7 @@
      "Caucasus": 1.0
     },
     "flights": 9,
-    "sorties": 5,
+    "sorties": 6,
     "landings": 1,
     "landing_grades": {
      "D": 1
