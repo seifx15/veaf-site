@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T20:54:14+00:00",
+ "generated": "2026-11-26T20:55:14+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -4316,13 +4316,6 @@
      "qualified": true
     },
     {
-     "name": "Basic Fighter Maneuver (BFM)",
-     "type": "BFM",
-     "score": 9.0,
-     "max": 10,
-     "qualified": false
-    },
-    {
      "name": "Tactical Turns / Formation",
      "type": "BFM",
      "score": 9.0,
@@ -4333,6 +4326,13 @@
      "name": "CCIP Tactical Pattern",
      "type": "CCIP",
      "score": 6.5,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Basic Fighter Maneuver (BFM)",
+     "type": "BFM",
+     "score": 5.0,
      "max": 10,
      "qualified": false
     },
