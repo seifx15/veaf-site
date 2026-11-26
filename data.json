@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T23:53:48+00:00",
+ "generated": "2026-11-26T23:54:48+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -1119,15 +1119,15 @@
     "landing_avg": null,
     "traps": 0,
     "aar_fills": 0,
-    "air_kills": 6,
+    "air_kills": 8,
     "ground_kills": 0,
-    "deaths": 7,
+    "deaths": 8,
     "ejections": 0,
-    "kd": 0.86,
+    "kd": 1.0,
     "weapons": {
      "AIM_120C": {
-      "shots": 28,
-      "hits": 8
+      "shots": 31,
+      "hits": 11
      },
      "AIM_9": {
       "shots": 2,
@@ -7875,7 +7875,7 @@
    "rank_order": 10,
    "active_days": 1,
    "active_hours": 1.2,
-   "active_sorties": 13,
+   "active_sorties": 14,
    "active_ops": 2,
    "last_active": "2026-11-26",
    "photo": "",
@@ -7947,7 +7947,7 @@
      "Caucasus": 1.2
     },
     "flights": 16,
-    "sorties": 13,
+    "sorties": 14,
     "landings": 0,
     "landing_grades": {},
     "landing_avg": null,
