@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T16:36:38+00:00",
+ "generated": "2026-11-26T16:37:39+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -1120,10 +1120,10 @@
    "last_active": "2026-11-13",
    "photo": "",
    "patches": [],
-   "squadron": "",
-   "squadron_patch": "",
-   "element": "",
-   "element_patch": "",
+   "squadron": "262 TFW",
+   "squadron_patch": "patches/SQ_SQ_285ab6b262cb-77172fe3.png?v=1795659724",
+   "element": "64 TFS \"TIGERS\"",
+   "element_patch": "patches/EL_SQ_285ab6b262cb-4dd701ff.png?v=1795659724",
    "former_element_patches": [],
    "former_squadron_patches": [
     {
@@ -3100,10 +3100,10 @@
    "last_active": "2026-11-18",
    "photo": "",
    "patches": [],
-   "squadron": "",
-   "squadron_patch": "",
-   "element": "",
-   "element_patch": "",
+   "squadron": "242 TFW",
+   "squadron_patch": "patches/SQ_SQ_3a3d5fccee50-16097107.png?v=1795659724",
+   "element": "68 TFS \"DRAGONS\"",
+   "element_patch": "patches/EL_SQ_3a3d5fccee50-ba8695e9.png?v=1795659724",
    "former_element_patches": [],
    "former_squadron_patches": [
     {
@@ -10746,7 +10746,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -10792,7 +10792,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 72.0,
      "grade": "C",
      "air_kills": 0,
@@ -11075,7 +11075,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -11092,7 +11092,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 75.0,
      "grade": "C",
      "air_kills": 0,
@@ -11280,7 +11280,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -11295,7 +11295,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -11457,7 +11457,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 44.0,
      "grade": "D",
      "air_kills": 0,
@@ -11518,7 +11518,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 22.0,
      "grade": "F",
      "air_kills": 0,
@@ -11652,7 +11652,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 40.0,
      "grade": "F",
      "air_kills": 0,
@@ -12057,7 +12057,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -12250,7 +12250,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 76.0,
      "grade": "C",
      "air_kills": 0,
@@ -12271,7 +12271,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 72.0,
      "grade": "C",
      "air_kills": 0,
@@ -12430,7 +12430,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 100.0,
      "grade": "A",
      "air_kills": 0,
@@ -12478,7 +12478,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 100.0,
      "grade": "A",
      "air_kills": 0,
@@ -12533,7 +12533,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 100.0,
      "grade": "A",
      "air_kills": 0,
@@ -12663,7 +12663,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 75.0,
      "grade": "C",
      "air_kills": 0,
@@ -12705,7 +12705,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -12864,7 +12864,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 48.0,
      "grade": "D",
      "air_kills": 0,
@@ -12939,7 +12939,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 85.0,
      "grade": "B",
      "air_kills": 0,
@@ -13062,7 +13062,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 65.0,
      "grade": "D",
      "air_kills": 0,
@@ -13077,7 +13077,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -13155,7 +13155,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -13170,7 +13170,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -13233,7 +13233,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -13278,7 +13278,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -13498,7 +13498,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 65.0,
      "grade": "D",
      "air_kills": 0,
@@ -13513,7 +13513,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 58.0,
      "grade": "C",
      "air_kills": 4,
@@ -13658,7 +13658,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 75.0,
      "grade": "C",
      "air_kills": 0,
@@ -13714,7 +13714,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -13779,7 +13779,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -13829,7 +13829,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 75.0,
      "grade": "C",
      "air_kills": 0,
@@ -14020,7 +14020,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 32.0,
      "grade": "D",
      "air_kills": 12,
@@ -14071,7 +14071,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 38.0,
      "grade": "D",
      "air_kills": 2,
@@ -14143,7 +14143,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 38.0,
      "grade": "D",
      "air_kills": 2,
@@ -14250,7 +14250,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 75.0,
      "grade": "B",
      "air_kills": 0,
@@ -14399,7 +14399,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 58.6,
      "grade": "F",
      "air_kills": 2,
@@ -14572,7 +14572,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -15081,7 +15081,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 79.0,
      "grade": "C",
      "air_kills": 0,
@@ -15269,7 +15269,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 85.0,
      "grade": "B",
      "air_kills": 0,
@@ -15299,7 +15299,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -15424,7 +15424,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 100.0,
      "grade": "A",
      "air_kills": 0,
@@ -15531,7 +15531,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 75.0,
      "grade": "C",
      "air_kills": 0,
@@ -15578,7 +15578,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -15638,7 +15638,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -15653,7 +15653,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 50.0,
      "grade": "F",
      "air_kills": 0,
@@ -15713,7 +15713,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -15765,7 +15765,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -15810,7 +15810,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -15965,7 +15965,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -16097,7 +16097,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 65.0,
      "grade": "D",
      "air_kills": 0,
@@ -16270,7 +16270,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -16285,7 +16285,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -16504,7 +16504,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 78.0,
      "grade": "C",
      "air_kills": 0,
@@ -16694,7 +16694,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 38.0,
      "grade": "C",
      "air_kills": 0,
@@ -16821,7 +16821,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 104.0,
      "grade": "A",
      "air_kills": 0,
@@ -16842,7 +16842,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 74.0,
      "grade": "B",
      "air_kills": 0,
@@ -16987,7 +16987,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 108.0,
      "grade": "A",
      "air_kills": 0,
@@ -17113,7 +17113,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 43.0,
      "grade": "C",
      "air_kills": 0,
@@ -17244,7 +17244,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 34.0,
      "grade": "D",
      "air_kills": 0,
@@ -17321,7 +17321,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 94.0,
      "grade": "A",
      "air_kills": 0,
@@ -17405,7 +17405,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": -14.0,
      "grade": "F",
      "air_kills": 0,
@@ -17845,7 +17845,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 35.0,
      "grade": "D",
      "air_kills": 0,
@@ -17866,7 +17866,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 29.0,
      "grade": "F",
      "air_kills": 0,
@@ -17994,7 +17994,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 60.0,
      "grade": "C",
      "air_kills": 0,
@@ -18015,7 +18015,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 55.0,
      "grade": "D",
      "air_kills": 0,
@@ -18164,7 +18164,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 55.0,
      "grade": "C",
      "air_kills": 0,
@@ -18264,7 +18264,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 95.0,
      "grade": "B",
      "air_kills": 0,
@@ -18348,7 +18348,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 68.0,
      "grade": "D",
      "air_kills": 0,
@@ -18584,7 +18584,7 @@
     {
      "callsign": "Megatron",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 12.0,
      "grade": "B",
      "air_kills": 0,
@@ -18614,7 +18614,7 @@
     {
      "callsign": "Blacksky",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 7.0,
      "grade": "C",
      "air_kills": 0,
@@ -18764,7 +18764,7 @@
      "name": "68 TFS \"DRAGONS\"",
      "patch": "patches/EL_SQ_3a3d5fccee50-ba8695e9.png?v=1795659724",
      "patch_own": true,
-     "pilots": 0,
+     "pilots": 1,
      "base": "Aswan (HESN)",
      "aircraft": "F-16C/D Block 32",
      "speciality": "",
@@ -18782,7 +18782,7 @@
     }
    ],
    "competitive": false,
-   "pilots": 0,
+   "pilots": 1,
    "full_name": "",
    "base": "Beni Suef (HEBS)",
    "division": "149 Air Division",
@@ -18813,7 +18813,7 @@
      "name": "64 TFS \"TIGERS\"",
      "patch": "patches/EL_SQ_285ab6b262cb-4dd701ff.png?v=1795659724",
      "patch_own": true,
-     "pilots": 0,
+     "pilots": 1,
      "base": "Abu Suwayr",
      "aircraft": "F-16C/D Block 40",
      "speciality": "",
@@ -18821,7 +18821,7 @@
     }
    ],
    "competitive": false,
-   "pilots": 0,
+   "pilots": 1,
    "full_name": "",
    "base": "Abu Suwayr",
    "division": "149 Air Division",
