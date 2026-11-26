@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T21:42:36+00:00",
+ "generated": "2026-11-26T21:43:34+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -4884,10 +4884,10 @@
    "last_active": "2026-11-25",
    "photo": "",
    "patches": [],
-   "squadron": "",
-   "squadron_patch": "",
-   "element": "",
-   "element_patch": "",
+   "squadron": "292 TFW \"EGYPT SNIPER\"",
+   "squadron_patch": "patches/SQ_SQ_a134c142b01c-6d92dcc5.png?v=1795713383",
+   "element": "97 TFS \"PHARAOHS\"",
+   "element_patch": "patches/EL_SQ_a134c142b01c-7e8fbe20.png?v=1795713382",
    "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [
@@ -10608,7 +10608,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -10727,7 +10727,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 70.0,
      "grade": "B",
      "air_kills": 0,
@@ -10994,7 +10994,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 50.0,
      "grade": "F",
      "air_kills": 0,
@@ -11478,7 +11478,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": null,
      "grade": "-",
      "air_kills": 0,
@@ -11799,7 +11799,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 38.0,
      "grade": "D",
      "air_kills": 0,
@@ -11933,7 +11933,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 42.0,
      "grade": "D",
      "air_kills": 0,
@@ -12069,7 +12069,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 47.0,
      "grade": "D",
      "air_kills": 5,
@@ -12303,7 +12303,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 42.0,
      "grade": "D",
      "air_kills": 0,
@@ -12678,7 +12678,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -14178,7 +14178,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 47.0,
      "grade": "D",
      "air_kills": 1,
@@ -14250,7 +14250,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 52.0,
      "grade": "C",
      "air_kills": 4,
@@ -14787,7 +14787,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 34.2,
      "grade": "F",
      "air_kills": 0,
@@ -14859,7 +14859,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -15009,7 +15009,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 66.0,
      "grade": "D",
      "air_kills": 3,
@@ -15079,7 +15079,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 22.0,
      "grade": "F",
      "air_kills": 1,
@@ -15242,7 +15242,7 @@
     {
      "callsign": "Omar",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 65.0,
      "grade": "D",
      "air_kills": 0,
@@ -19244,7 +19244,7 @@
      "name": "97 TFS \"PHARAOHS\"",
      "patch": "patches/EL_SQ_a134c142b01c-7e8fbe20.png?v=1795713382",
      "patch_own": true,
-     "pilots": 1,
+     "pilots": 2,
      "base": "Cairo West (HECW)",
      "aircraft": "F-16C/D Block 52+",
      "speciality": "Air superiority (BVR / WVR)",
@@ -19262,7 +19262,7 @@
     }
    ],
    "competitive": false,
-   "pilots": 1,
+   "pilots": 2,
    "full_name": "",
    "base": "Cairo West (HECW)",
    "division": "139 Air Division",
