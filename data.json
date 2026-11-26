@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T23:25:39+00:00",
+ "generated": "2026-11-26T23:26:40+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -71,9 +71,9 @@
    },
    "rank_order": 1,
    "active_days": 10,
-   "active_hours": 8.6,
+   "active_hours": 8.7,
    "active_sorties": 14,
-   "active_ops": 10,
+   "active_ops": 11,
    "last_active": "2026-11-26",
    "photo": "https://veaf-app.veaf-2ff4d6.workers.dev/photo/P_20260708193733_285?v=1794279024",
    "patches": [],
@@ -990,7 +990,7 @@
      "?": 1.2,
      "Caucasus": 0.8
     },
-    "flights": 18,
+    "flights": 20,
     "sorties": 16,
     "landings": 1,
     "landing_grades": {
@@ -1110,7 +1110,7 @@
     "by_map": {
      "Caucasus": 0.6
     },
-    "flights": 11,
+    "flights": 12,
     "sorties": 8,
     "landings": 0,
     "landing_grades": {},
@@ -2399,7 +2399,7 @@
      "?": 0.8,
      "Caucasus": 0.4
     },
-    "flights": 22,
+    "flights": 23,
     "sorties": 20,
     "landings": 2,
     "landing_grades": {},
@@ -4294,7 +4294,7 @@
    "rank_order": 9,
    "active_days": 6,
    "active_hours": 6.7,
-   "active_sorties": 14,
+   "active_sorties": 15,
    "active_ops": 9,
    "last_active": "2026-11-26",
    "photo": "https://veaf-app.veaf-2ff4d6.workers.dev/photo/P_031fcc77ecae?v=1795571916",
@@ -4533,7 +4533,7 @@
      "Caucasus": 1.4
     },
     "flights": 19,
-    "sorties": 14,
+    "sorties": 15,
     "landings": 4,
     "landing_grades": {
      "D": 3,
@@ -4919,7 +4919,7 @@
    "rank_order": 9,
    "active_days": 9,
    "active_hours": 9.4,
-   "active_sorties": 25,
+   "active_sorties": 26,
    "active_ops": 11,
    "last_active": "2026-11-26",
    "photo": "",
@@ -5310,7 +5310,7 @@
      "Caucasus": 1.7
     },
     "flights": 34,
-    "sorties": 28,
+    "sorties": 29,
     "landings": 2,
     "landing_grades": {
      "B": 1,
@@ -7868,7 +7868,7 @@
    "active_days": 1,
    "active_hours": 0.6,
    "active_sorties": 8,
-   "active_ops": 1,
+   "active_ops": 2,
    "last_active": "2026-11-26",
    "photo": "",
    "patches": [],
@@ -7938,7 +7938,7 @@
     "by_map": {
      "Caucasus": 0.6
     },
-    "flights": 9,
+    "flights": 12,
     "sorties": 8,
     "landings": 0,
     "landing_grades": {},
@@ -9018,7 +9018,7 @@
      "SinaiMap": 2.2,
      "Caucasus": 1.2
     },
-    "flights": 15,
+    "flights": 16,
     "sorties": 12,
     "landings": 1,
     "landing_grades": {
