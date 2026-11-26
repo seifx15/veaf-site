@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T23:02:11+00:00",
+ "generated": "2026-11-26T23:03:11+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -8887,7 +8887,7 @@
    },
    "rank_order": 11,
    "active_days": 4,
-   "active_hours": 3.1,
+   "active_hours": 3.2,
    "active_sorties": 9,
    "active_ops": 6,
    "last_active": "2026-11-26",
@@ -9006,9 +9006,9 @@
     }
    ],
    "logbook": {
-    "hours": 3.1,
+    "hours": 3.2,
     "by_aircraft": {
-     "F/A-18C Hornet": 3.1
+     "F/A-18C Hornet": 3.2
     },
     "by_map": {
      "SinaiMap": 2.2,
