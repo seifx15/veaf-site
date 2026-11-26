@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T22:46:56+00:00",
+ "generated": "2026-11-26T22:47:57+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -1025,7 +1025,7 @@
    },
    "rank_order": 3,
    "active_days": 1,
-   "active_hours": 0.1,
+   "active_hours": 0.2,
    "active_sorties": 2,
    "active_ops": 1,
    "last_active": "2026-11-26",
@@ -1103,29 +1103,29 @@
     }
    ],
    "logbook": {
-    "hours": 0.1,
+    "hours": 0.2,
     "by_aircraft": {
-     "F/A-18C Hornet": 0.1
+     "F/A-18C Hornet": 0.2
     },
     "by_map": {
-     "Caucasus": 0.1
+     "Caucasus": 0.2
     },
-    "flights": 2,
+    "flights": 3,
     "sorties": 2,
     "landings": 0,
     "landing_grades": {},
     "landing_avg": null,
     "traps": 0,
     "aar_fills": 0,
-    "air_kills": 0,
+    "air_kills": 1,
     "ground_kills": 0,
     "deaths": 0,
     "ejections": 0,
     "kd": null,
     "weapons": {
      "AIM_120C": {
-      "shots": 1,
-      "hits": 0
+      "shots": 5,
+      "hits": 1
      }
     },
     "first": "2026-11-26",
@@ -2386,8 +2386,8 @@
     "hours": 6.1,
     "by_aircraft": {
      "F-16C Viper": 5.8,
-     "AH-64D Apache": 0.1,
      "F-15E Strike Eagle": 0.1,
+     "AH-64D Apache": 0.1,
      "F-14B Tomcat": 0.1
     },
     "by_map": {
@@ -4910,7 +4910,7 @@
    },
    "rank_order": 9,
    "active_days": 9,
-   "active_hours": 9.0,
+   "active_hours": 9.1,
    "active_sorties": 19,
    "active_ops": 11,
    "last_active": "2026-11-26",
@@ -5299,7 +5299,7 @@
     },
     "by_map": {
      "SinaiMap": 8.7,
-     "Caucasus": 1.3
+     "Caucasus": 1.4
     },
     "flights": 26,
     "sorties": 22,
@@ -5313,12 +5313,12 @@
     "aar_fills": 3,
     "air_kills": 11,
     "ground_kills": 1,
-    "deaths": 10,
+    "deaths": 11,
     "ejections": 0,
-    "kd": 1.2,
+    "kd": 1.09,
     "weapons": {
      "AIM_120C": {
-      "shots": 42,
+      "shots": 44,
       "hits": 11
      },
      "AIM_9X": {
@@ -7930,22 +7930,22 @@
     "by_map": {
      "Caucasus": 0.1
     },
-    "flights": 2,
+    "flights": 3,
     "sorties": 2,
     "landings": 0,
     "landing_grades": {},
     "landing_avg": null,
     "traps": 0,
     "aar_fills": 0,
-    "air_kills": 1,
+    "air_kills": 2,
     "ground_kills": 0,
-    "deaths": 1,
+    "deaths": 2,
     "ejections": 0,
     "kd": 1.0,
     "weapons": {
      "AIM_120C": {
-      "shots": 2,
-      "hits": 1
+      "shots": 6,
+      "hits": 3
      }
     },
     "first": "2026-11-26",
@@ -9010,7 +9010,7 @@
      "SinaiMap": 2.2,
      "Caucasus": 0.8
     },
-    "flights": 7,
+    "flights": 8,
     "sorties": 6,
     "landings": 1,
     "landing_grades": {
