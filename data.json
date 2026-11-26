@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T23:35:46+00:00",
+ "generated": "2026-11-26T23:36:47+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -1730,7 +1730,7 @@
     "hours": 6.8,
     "by_aircraft": {
      "F-16C Viper": 4.5,
-     "F/A-18C Hornet": 2.2
+     "F/A-18C Hornet": 2.3
     },
     "by_map": {
      "SinaiMap": 6.7,
