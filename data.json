@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T02:28:21+00:00",
+ "generated": "2026-11-26T02:29:26+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -18804,7 +18804,7 @@
    "base": "Beni Suef (HEBS)",
    "division": "149 Air Division",
    "aircraft": "F-16C/D Block 32",
-   "speciality": "",
+   "speciality": "Close air support (CAS) / Strike / Precision Attack",
    "motto": ""
   },
   {
