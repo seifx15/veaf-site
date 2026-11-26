@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T23:04:11+00:00",
+ "generated": "2026-11-26T23:05:11+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -1110,7 +1110,7 @@
     "by_map": {
      "Caucasus": 0.3
     },
-    "flights": 7,
+    "flights": 8,
     "sorties": 4,
     "landings": 0,
     "landing_grades": {},
@@ -2395,7 +2395,7 @@
      "?": 0.8,
      "Caucasus": 0.2
     },
-    "flights": 18,
+    "flights": 19,
     "sorties": 16,
     "landings": 2,
     "landing_grades": {},
@@ -4528,7 +4528,7 @@
      "SinaiMap": 5.3,
      "Caucasus": 1.2
     },
-    "flights": 14,
+    "flights": 15,
     "sorties": 11,
     "landings": 4,
     "landing_grades": {
@@ -5305,7 +5305,7 @@
      "SinaiMap": 8.7,
      "Caucasus": 1.5
     },
-    "flights": 29,
+    "flights": 30,
     "sorties": 24,
     "landings": 2,
     "landing_grades": {
@@ -7934,7 +7934,7 @@
     "by_map": {
      "Caucasus": 0.3
     },
-    "flights": 5,
+    "flights": 7,
     "sorties": 4,
     "landings": 0,
     "landing_grades": {},
@@ -7943,9 +7943,9 @@
     "aar_fills": 0,
     "air_kills": 5,
     "ground_kills": 0,
-    "deaths": 4,
+    "deaths": 5,
     "ejections": 0,
-    "kd": 1.25,
+    "kd": 1.0,
     "weapons": {
      "AIM_120C": {
       "shots": 11,
@@ -9014,7 +9014,7 @@
      "SinaiMap": 2.2,
      "Caucasus": 1.0
     },
-    "flights": 11,
+    "flights": 12,
     "sorties": 9,
     "landings": 1,
     "landing_grades": {
@@ -9023,19 +9023,19 @@
     "landing_avg": 38,
     "traps": 0,
     "aar_fills": 0,
-    "air_kills": 0,
+    "air_kills": 1,
     "ground_kills": 0,
     "deaths": 1,
     "ejections": 0,
-    "kd": 0.0,
+    "kd": 1.0,
     "weapons": {
      "BDU_45B": {
       "shots": 4,
       "hits": 0
      },
      "AIM_120C": {
-      "shots": 1,
-      "hits": 0
+      "shots": 3,
+      "hits": 2
      }
     },
     "first": "2026-11-05",
