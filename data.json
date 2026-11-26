@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T16:34:38+00:00",
+ "generated": "2026-11-26T16:35:38+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -78,8 +78,8 @@
    "patches": [],
    "squadron": "EFWS \"THE MASTERS\"",
    "squadron_patch": "patches/SQ_SQ_50588de3e1ba-0d5d209c.png?v=1795659724",
-   "element": "",
-   "element_patch": "",
+   "element": "EFWS \"BLACK ACES\"",
+   "element_patch": "patches/EL_SQ_50588de3e1ba-ca57eb8f.png?v=1795659724",
    "former_element_patches": [],
    "former_squadron_patches": [
     {
@@ -18962,7 +18962,7 @@
      "name": "EFWS \"BLACK ACES\"",
      "patch": "patches/EL_SQ_50588de3e1ba-ca57eb8f.png?v=1795659724",
      "patch_own": true,
-     "pilots": 0,
+     "pilots": 1,
      "base": "Cairo West (HECW)",
      "aircraft": "F-16C/D (on loan from 292 TFW)",
      "speciality": "Competitive / PvP",
