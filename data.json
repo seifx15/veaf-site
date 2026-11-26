@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T23:54:48+00:00",
+ "generated": "2026-11-26T23:55:52+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -71,7 +71,7 @@
    },
    "rank_order": 1,
    "active_days": 10,
-   "active_hours": 9.2,
+   "active_hours": 9.0,
    "active_sorties": 18,
    "active_ops": 11,
    "last_active": "2026-11-26",
@@ -981,14 +981,14 @@
     }
    ],
    "logbook": {
-    "hours": 10.1,
+    "hours": 10.0,
     "by_aircraft": {
-     "F-16C Viper": 10.1
+     "F-16C Viper": 10.0
     },
     "by_map": {
      "SinaiMap": 7.7,
-     "Caucasus": 1.3,
-     "?": 1.2
+     "?": 1.2,
+     "Caucasus": 1.2
     },
     "flights": 23,
     "sorties": 20,
@@ -1007,7 +1007,7 @@
     "weapons": {
      "AIM_120C": {
       "shots": 41,
-      "hits": 16
+      "hits": 17
      }
     },
     "first": "2026-10-17",
@@ -1025,7 +1025,7 @@
    },
    "rank_order": 3,
    "active_days": 1,
-   "active_hours": 1.1,
+   "active_hours": 1.0,
    "active_sorties": 13,
    "active_ops": 2,
    "last_active": "2026-11-26",
@@ -1104,13 +1104,13 @@
     }
    ],
    "logbook": {
-    "hours": 1.1,
+    "hours": 1.0,
     "by_aircraft": {
      "F/A-18C Hornet": 0.9,
-     "F-16C Viper": 0.2
+     "F-16C Viper": 0.1
     },
     "by_map": {
-     "Caucasus": 1.1
+     "Caucasus": 1.0
     },
     "flights": 15,
     "sorties": 13,
@@ -1149,8 +1149,8 @@
    },
    "rank_order": 6,
    "active_days": 5,
-   "active_hours": 5.1,
-   "active_sorties": 14,
+   "active_hours": 4.9,
+   "active_sorties": 13,
    "active_ops": 5,
    "last_active": "2026-11-26",
    "photo": "",
@@ -1729,17 +1729,17 @@
     }
    ],
    "logbook": {
-    "hours": 7.1,
+    "hours": 7.0,
     "by_aircraft": {
      "F-16C Viper": 4.6,
-     "F/A-18C Hornet": 2.5
+     "F/A-18C Hornet": 2.3
     },
     "by_map": {
      "SinaiMap": 6.7,
-     "Caucasus": 0.4
+     "Caucasus": 0.3
     },
     "flights": 18,
-    "sorties": 16,
+    "sorties": 15,
     "landings": 0,
     "landing_grades": {},
     "landing_avg": null,
@@ -1753,7 +1753,7 @@
     "weapons": {
      "AIM_120C": {
       "shots": 9,
-      "hits": 2
+      "hits": 3
      }
     },
     "first": "2026-10-17",
@@ -1771,7 +1771,7 @@
    },
    "rank_order": 6,
    "active_days": 5,
-   "active_hours": 6.9,
+   "active_hours": 6.8,
    "active_sorties": 26,
    "active_ops": 8,
    "last_active": "2026-11-26",
@@ -2395,17 +2395,17 @@
     }
    ],
    "logbook": {
-    "hours": 6.9,
+    "hours": 6.8,
     "by_aircraft": {
      "F-16C Viper": 6.3,
-     "F-15E Strike Eagle": 0.3,
+     "F-15E Strike Eagle": 0.2,
      "AH-64D Apache": 0.1,
      "F-14B Tomcat": 0.1
     },
     "by_map": {
      "SinaiMap": 5.1,
-     "Caucasus": 0.9,
-     "?": 0.8
+     "?": 0.8,
+     "Caucasus": 0.8
     },
     "flights": 28,
     "sorties": 26,
@@ -4301,7 +4301,7 @@
    },
    "rank_order": 9,
    "active_days": 6,
-   "active_hours": 7.1,
+   "active_hours": 7.0,
    "active_sorties": 19,
    "active_ops": 9,
    "last_active": "2026-11-26",
@@ -4532,13 +4532,13 @@
     }
    ],
    "logbook": {
-    "hours": 7.1,
+    "hours": 7.0,
     "by_aircraft": {
-     "F-16C Viper": 7.1
+     "F-16C Viper": 7.0
     },
     "by_map": {
      "SinaiMap": 5.3,
-     "Caucasus": 1.8
+     "Caucasus": 1.7
     },
     "flights": 22,
     "sorties": 19,
@@ -4558,7 +4558,7 @@
     "weapons": {
      "AIM_120C": {
       "shots": 27,
-      "hits": 7
+      "hits": 9
      },
      "AGM_88": {
       "shots": 4,
@@ -5309,9 +5309,9 @@
     }
    ],
    "logbook": {
-    "hours": 10.9,
+    "hours": 10.8,
     "by_aircraft": {
-     "F-16C Viper": 10.9
+     "F-16C Viper": 10.8
     },
     "by_map": {
      "SinaiMap": 8.7,
@@ -5327,15 +5327,15 @@
     "landing_avg": 58,
     "traps": 0,
     "aar_fills": 3,
-    "air_kills": 14,
+    "air_kills": 15,
     "ground_kills": 1,
     "deaths": 20,
     "ejections": 0,
-    "kd": 0.75,
+    "kd": 0.8,
     "weapons": {
      "AIM_120C": {
       "shots": 65,
-      "hits": 17
+      "hits": 18
      },
      "AIM_9X": {
       "shots": 0,
@@ -7960,8 +7960,8 @@
     "kd": 1.33,
     "weapons": {
      "AIM_120C": {
-      "shots": 41,
-      "hits": 23
+      "shots": 44,
+      "hits": 24
      }
     },
     "first": "2026-11-26",
@@ -9024,7 +9024,7 @@
     },
     "by_map": {
      "SinaiMap": 2.2,
-     "Caucasus": 1.7
+     "Caucasus": 1.6
     },
     "flights": 19,
     "sorties": 17,
