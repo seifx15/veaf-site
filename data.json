@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T21:14:16+00:00",
+ "generated": "2026-11-26T21:15:16+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -4263,8 +4263,8 @@
    "last_active": "2026-11-26",
    "photo": "https://veaf-app.veaf-2ff4d6.workers.dev/photo/P_031fcc77ecae?v=1795571916",
    "patches": [],
-   "squadron": "",
-   "squadron_patch": "",
+   "squadron": "262 TFW",
+   "squadron_patch": "patches/SQ_SQ_285ab6b262cb-77172fe3.png?v=1795713382",
    "element": "",
    "element_patch": "",
    "also": [],
@@ -10509,7 +10509,7 @@
     {
      "callsign": "[EAF] Maverick",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 52.0,
      "grade": "D",
      "air_kills": 0,
@@ -10796,7 +10796,7 @@
     {
      "callsign": "[EAF] Maverick",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 50.0,
      "grade": "F",
      "air_kills": 0,
@@ -10844,7 +10844,7 @@
     {
      "callsign": "[EAF] Maverick",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -11110,7 +11110,7 @@
     {
      "callsign": "[EAF] Maverick",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 42.0,
      "grade": "D",
      "air_kills": 0,
@@ -12216,7 +12216,7 @@
     {
      "callsign": "[EAF] Maverick",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 65.0,
      "grade": "B",
      "air_kills": 0,
@@ -12384,7 +12384,7 @@
     {
      "callsign": "[EAF] Maverick",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -12652,7 +12652,7 @@
     {
      "callsign": "[EAF] Maverick",
      "member": true,
-     "squadron": "",
+     "squadron": "262 TFW",
      "score": 65.0,
      "grade": "D",
      "air_kills": 0,
@@ -19118,7 +19118,7 @@
     }
    ],
    "competitive": false,
-   "pilots": 1,
+   "pilots": 2,
    "full_name": "",
    "base": "Abu Suwayr",
    "division": "149 Air Division",
