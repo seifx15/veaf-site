@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T22:56:09+00:00",
+ "generated": "2026-11-26T22:57:09+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -2413,7 +2413,7 @@
       "hits": 0
      },
      "AIM_120C": {
-      "shots": 2,
+      "shots": 3,
       "hits": 2
      }
     },
@@ -9021,9 +9021,9 @@
     "aar_fills": 0,
     "air_kills": 0,
     "ground_kills": 0,
-    "deaths": 0,
+    "deaths": 1,
     "ejections": 0,
-    "kd": null,
+    "kd": 0.0,
     "weapons": {
      "BDU_45B": {
       "shots": 4,
