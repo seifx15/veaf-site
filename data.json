@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T20:53:13+00:00",
+ "generated": "2026-11-26T20:54:14+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -9,7 +9,7 @@
   "pilots": 88,
   "missions": 83,
   "sorties": 264,
-  "qualifications": 49,
+  "qualifications": 51,
   "hours": 209.0,
   "air_kills": 89,
   "ground_kills": 47
@@ -4302,6 +4302,20 @@
    },
    "skills": [
     {
+     "name": "Datalink",
+     "type": "GENERAL",
+     "score": 10.0,
+     "max": 10,
+     "qualified": true
+    },
+    {
+     "name": "Communications",
+     "type": "GENERAL",
+     "score": 7.0,
+     "max": 10,
+     "qualified": true
+    },
+    {
      "name": "Basic Fighter Maneuver (BFM)",
      "type": "BFM",
      "score": 9.0,
@@ -4330,7 +4344,7 @@
      "qualified": false
     }
    ],
-   "qualifications": 0,
+   "qualifications": 2,
    "courses": [
     {
      "title": "Basic Fighter Maneuver",
