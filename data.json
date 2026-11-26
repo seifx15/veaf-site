@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T23:08:13+00:00",
+ "generated": "2026-11-26T23:09:14+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -1025,8 +1025,8 @@
    },
    "rank_order": 3,
    "active_days": 1,
-   "active_hours": 0.4,
-   "active_sorties": 5,
+   "active_hours": 0.3,
+   "active_sorties": 4,
    "active_ops": 2,
    "last_active": "2026-11-26",
    "photo": "",
@@ -1103,15 +1103,15 @@
     }
    ],
    "logbook": {
-    "hours": 0.4,
+    "hours": 0.3,
     "by_aircraft": {
-     "F/A-18C Hornet": 0.4
+     "F/A-18C Hornet": 0.3
     },
     "by_map": {
-     "Caucasus": 0.4
+     "Caucasus": 0.3
     },
     "flights": 8,
-    "sorties": 5,
+    "sorties": 4,
     "landings": 0,
     "landing_grades": {},
     "landing_avg": null,
@@ -4290,7 +4290,7 @@
    "rank_order": 9,
    "active_days": 6,
    "active_hours": 6.5,
-   "active_sorties": 12,
+   "active_sorties": 11,
    "active_ops": 9,
    "last_active": "2026-11-26",
    "photo": "https://veaf-app.veaf-2ff4d6.workers.dev/photo/P_031fcc77ecae?v=1795571916",
@@ -4529,7 +4529,7 @@
      "Caucasus": 1.2
     },
     "flights": 15,
-    "sorties": 12,
+    "sorties": 11,
     "landings": 4,
     "landing_grades": {
      "D": 3,
@@ -7863,7 +7863,7 @@
    "rank_order": 10,
    "active_days": 1,
    "active_hours": 0.3,
-   "active_sorties": 5,
+   "active_sorties": 4,
    "active_ops": 1,
    "last_active": "2026-11-26",
    "photo": "",
@@ -7935,21 +7935,21 @@
      "Caucasus": 0.3
     },
     "flights": 7,
-    "sorties": 5,
+    "sorties": 4,
     "landings": 0,
     "landing_grades": {},
     "landing_avg": null,
     "traps": 0,
     "aar_fills": 0,
-    "air_kills": 5,
+    "air_kills": 7,
     "ground_kills": 0,
-    "deaths": 5,
+    "deaths": 6,
     "ejections": 0,
-    "kd": 1.0,
+    "kd": 1.17,
     "weapons": {
      "AIM_120C": {
-      "shots": 11,
-      "hits": 8
+      "shots": 15,
+      "hits": 10
      }
     },
     "first": "2026-11-26",
@@ -8888,7 +8888,7 @@
    "rank_order": 11,
    "active_days": 4,
    "active_hours": 3.2,
-   "active_sorties": 10,
+   "active_sorties": 9,
    "active_ops": 6,
    "last_active": "2026-11-26",
    "photo": "",
@@ -9012,10 +9012,10 @@
     },
     "by_map": {
      "SinaiMap": 2.2,
-     "Caucasus": 1.1
+     "Caucasus": 1.0
     },
     "flights": 12,
-    "sorties": 10,
+    "sorties": 9,
     "landings": 1,
     "landing_grades": {
      "F": 1
