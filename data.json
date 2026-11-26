@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T19:10:43+00:00",
+ "generated": "2026-11-26T19:11:43+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -4247,6 +4247,262 @@
    "logbook": null
   },
   {
+   "id": "P_031fcc77ecae",
+   "callsign": "[EAF] Maverick",
+   "rank": {
+    "full": "ملازم أول | First Lieutenant | 𓅪☆☆",
+    "ar": "ملازم أول",
+    "en": "First Lieutenant",
+    "insignia": "𓅪☆☆"
+   },
+   "rank_order": 9,
+   "active_days": 6,
+   "active_hours": 5.5,
+   "active_sorties": 7,
+   "active_ops": 6,
+   "last_active": "2026-11-26",
+   "photo": "https://veaf-app.veaf-2ff4d6.workers.dev/photo/P_031fcc77ecae?v=1795571916",
+   "patches": [],
+   "squadron": "",
+   "squadron_patch": "",
+   "element": "",
+   "element_patch": "",
+   "also": [],
+   "former_element_patches": [],
+   "former_squadron_patches": [],
+   "joined": "2026-11-05",
+   "aircraft": [
+    "F-16C Viper"
+   ],
+   "bio": "",
+   "missions": 7,
+   "score": 444.0,
+   "average": 63.4,
+   "best": 90.0,
+   "air_kills": 0,
+   "ground_kills": 5,
+   "friendly_kills": 0,
+   "deaths": 2,
+   "hours": 5.4,
+   "last_flown": "2026-11-26",
+   "grades": {
+    "D": 3,
+    "F": 1,
+    "B": 2,
+    "A": 1
+   },
+   "mission_types": {
+    "FORMATION": 3,
+    "CAS": 3,
+    "AAR": 2,
+    "STRAFE": 2,
+    "SEAD": 2,
+    "BFM": 1,
+    "CCIP": 1
+   },
+   "skills": [
+    {
+     "name": "Basic Fighter Maneuver (BFM)",
+     "type": "BFM",
+     "score": 9.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Tactical Turns / Formation",
+     "type": "BFM",
+     "score": 9.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 6.5,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 4.2,
+     "max": 10,
+     "qualified": false
+    }
+   ],
+   "qualifications": 0,
+   "courses": [
+    {
+     "title": "Basic Fighter Maneuver",
+     "code": "BFM-1",
+     "status": "ready",
+     "instructors": []
+    },
+    {
+     "title": "Surface Attack Tactics",
+     "code": "SAT-1",
+     "status": "in_progress",
+     "instructors": []
+    }
+   ],
+   "history": [
+    {
+     "op": "op-ae959eb149e0",
+     "date": "2026-11-26",
+     "name": "Maverick · Free flight · 17:01Z",
+     "types": [
+      "AAR",
+      "STRAFE"
+     ],
+     "training": true,
+     "score": 52.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 57,
+     "highlight": "AAR overall rated EXPERT (score 85/100); 6 completed fills totalling 5,888 kg transferred from Aerial-4-3 with zero partials — two fills scored 100 ('THE KING') with single-contact connects and join-to-contact times of 227 s, demonstrating genuine basket proficiency when properly set up."
+    },
+    {
+     "op": "op-2c107a0c6515",
+     "date": "2026-11-25",
+     "name": "Flight (4) · Refuelling + Formation · 00:18Z",
+     "types": [
+      "AAR",
+      "FORMATION"
+     ],
+     "training": true,
+     "score": 50.0,
+     "grade": "F",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 63,
+     "highlight": "Formation score 40/200 with best streak 321 s and 32% inside 500 ft — the most consistent wingman in the flight despite a low absolute score"
+    },
+    {
+     "op": "op-f5b3daf33e7f",
+     "date": "2026-11-23",
+     "name": "Maverick flight · 23:33Z",
+     "types": [
+      "CAS"
+     ],
+     "training": true,
+     "score": 80.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 2,
+     "friendly_kills": 0,
+     "deaths": 1,
+     "minutes": 40,
+     "highlight": "Scored 2 ground kills (Gepard AAA via GBU-38 at 20m miss, SA-18 Igla-S MANPAD via gun) — both legitimate AD suppressions on a live threat environment."
+    },
+    {
+     "op": "op-71e5cfa72542",
+     "date": "2026-11-18",
+     "name": "MeGaTron flight · 21:43Z",
+     "types": [
+      "CAS",
+      "FORMATION",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 42.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 3,
+     "friendly_kills": 0,
+     "deaths": 1,
+     "minutes": 44,
+     "highlight": "Second life showed genuine improvement: Maverick hit 3 of 6 AGM-65D shots (50% hit rate) in slot-2, destroying 2 AA threats (Vulcan at 01:10:57 CPA 34m, Gepard at 01:15:59 CPA 95m) — markedly better trigger discipline than slot-1's 1/6 (17%)."
+    },
+    {
+     "op": "op-4091a652ca5c",
+     "date": "2026-11-08",
+     "name": "Destruction of Enemy Air Defences",
+     "types": [
+      "SEAD",
+      "FORMATION",
+      "CAS"
+     ],
+     "training": true,
+     "score": 65.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 57,
+     "highlight": "100% SAM defeat rate — both S-300PS rounds defeated (CPAs 8,958 m and 6,094 m) through effective defensive maneuvering; survived the most missile-saturated phase of the attack without being hit."
+    },
+    {
+     "op": "op-241f54c637de",
+     "date": "2026-11-07",
+     "name": "Basic Fighter Maneuver",
+     "types": [
+      "BFM"
+     ],
+     "training": true,
+     "score": 90.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
+    {
+     "op": "op-4d6c29bac531",
+     "date": "2026-11-05",
+     "name": "Basic Surface Attack | Tactical Pattern",
+     "types": [
+      "CCIP",
+      "STRAFE"
+     ],
+     "training": true,
+     "score": 65.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 62,
+     "highlight": "Formation discipline score 71.7 is the highest of the formation-tracked pilots, and avg rejoin 23 s with best 6 s shows Maverick can hold position when attention is on the lead."
+    }
+   ],
+   "logbook": {
+    "hours": 5.5,
+    "by_aircraft": {
+     "F-16C Viper": 5.5
+    },
+    "by_map": {
+     "SinaiMap": 4.5,
+     "Caucasus": 1.0
+    },
+    "flights": 10,
+    "sorties": 7,
+    "landings": 3,
+    "landing_grades": {
+     "D": 2,
+     "F": 1
+    },
+    "landing_avg": 58,
+    "traps": 0,
+    "aar_fills": 6,
+    "air_kills": 0,
+    "ground_kills": 5,
+    "deaths": 2,
+    "ejections": 0,
+    "kd": 2.5,
+    "weapons": {},
+    "first": "2026-11-05",
+    "last": "2026-11-26"
+   }
+  },
+  {
    "id": "P_20260708193733_819",
    "callsign": "CACTUS",
    "rank": {
@@ -5260,262 +5516,6 @@
     "weapons": {},
     "first": "2026-11-08",
     "last": "2026-11-08"
-   }
-  },
-  {
-   "id": "P_031fcc77ecae",
-   "callsign": "[EAF] Maverick",
-   "rank": {
-    "full": "ملازم | Lieutenant | 𓅪☆",
-    "ar": "ملازم",
-    "en": "Lieutenant",
-    "insignia": "𓅪☆"
-   },
-   "rank_order": 10,
-   "active_days": 6,
-   "active_hours": 5.5,
-   "active_sorties": 7,
-   "active_ops": 6,
-   "last_active": "2026-11-26",
-   "photo": "https://veaf-app.veaf-2ff4d6.workers.dev/photo/P_031fcc77ecae?v=1795571916",
-   "patches": [],
-   "squadron": "",
-   "squadron_patch": "",
-   "element": "",
-   "element_patch": "",
-   "also": [],
-   "former_element_patches": [],
-   "former_squadron_patches": [],
-   "joined": "2026-11-05",
-   "aircraft": [
-    "F-16C Viper"
-   ],
-   "bio": "",
-   "missions": 7,
-   "score": 444.0,
-   "average": 63.4,
-   "best": 90.0,
-   "air_kills": 0,
-   "ground_kills": 5,
-   "friendly_kills": 0,
-   "deaths": 2,
-   "hours": 5.4,
-   "last_flown": "2026-11-26",
-   "grades": {
-    "D": 3,
-    "F": 1,
-    "B": 2,
-    "A": 1
-   },
-   "mission_types": {
-    "FORMATION": 3,
-    "CAS": 3,
-    "AAR": 2,
-    "STRAFE": 2,
-    "SEAD": 2,
-    "BFM": 1,
-    "CCIP": 1
-   },
-   "skills": [
-    {
-     "name": "Basic Fighter Maneuver (BFM)",
-     "type": "BFM",
-     "score": 9.0,
-     "max": 10,
-     "qualified": false
-    },
-    {
-     "name": "Tactical Turns / Formation",
-     "type": "BFM",
-     "score": 9.0,
-     "max": 10,
-     "qualified": false
-    },
-    {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
-     "score": 6.5,
-     "max": 10,
-     "qualified": false
-    },
-    {
-     "name": "SEAD",
-     "type": "SEAD",
-     "score": 4.2,
-     "max": 10,
-     "qualified": false
-    }
-   ],
-   "qualifications": 0,
-   "courses": [
-    {
-     "title": "Basic Fighter Maneuver",
-     "code": "BFM-1",
-     "status": "ready",
-     "instructors": []
-    },
-    {
-     "title": "Surface Attack Tactics",
-     "code": "SAT-1",
-     "status": "in_progress",
-     "instructors": []
-    }
-   ],
-   "history": [
-    {
-     "op": "op-ae959eb149e0",
-     "date": "2026-11-26",
-     "name": "Maverick · Free flight · 17:01Z",
-     "types": [
-      "AAR",
-      "STRAFE"
-     ],
-     "training": true,
-     "score": 52.0,
-     "grade": "D",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 57,
-     "highlight": "AAR overall rated EXPERT (score 85/100); 6 completed fills totalling 5,888 kg transferred from Aerial-4-3 with zero partials — two fills scored 100 ('THE KING') with single-contact connects and join-to-contact times of 227 s, demonstrating genuine basket proficiency when properly set up."
-    },
-    {
-     "op": "op-2c107a0c6515",
-     "date": "2026-11-25",
-     "name": "Flight (4) · Refuelling + Formation · 00:18Z",
-     "types": [
-      "AAR",
-      "FORMATION"
-     ],
-     "training": true,
-     "score": 50.0,
-     "grade": "F",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 63,
-     "highlight": "Formation score 40/200 with best streak 321 s and 32% inside 500 ft — the most consistent wingman in the flight despite a low absolute score"
-    },
-    {
-     "op": "op-f5b3daf33e7f",
-     "date": "2026-11-23",
-     "name": "Maverick flight · 23:33Z",
-     "types": [
-      "CAS"
-     ],
-     "training": true,
-     "score": 80.0,
-     "grade": "B",
-     "air_kills": 0,
-     "ground_kills": 2,
-     "friendly_kills": 0,
-     "deaths": 1,
-     "minutes": 40,
-     "highlight": "Scored 2 ground kills (Gepard AAA via GBU-38 at 20m miss, SA-18 Igla-S MANPAD via gun) — both legitimate AD suppressions on a live threat environment."
-    },
-    {
-     "op": "op-71e5cfa72542",
-     "date": "2026-11-18",
-     "name": "MeGaTron flight · 21:43Z",
-     "types": [
-      "CAS",
-      "FORMATION",
-      "SEAD"
-     ],
-     "training": true,
-     "score": 42.0,
-     "grade": "D",
-     "air_kills": 0,
-     "ground_kills": 3,
-     "friendly_kills": 0,
-     "deaths": 1,
-     "minutes": 44,
-     "highlight": "Second life showed genuine improvement: Maverick hit 3 of 6 AGM-65D shots (50% hit rate) in slot-2, destroying 2 AA threats (Vulcan at 01:10:57 CPA 34m, Gepard at 01:15:59 CPA 95m) — markedly better trigger discipline than slot-1's 1/6 (17%)."
-    },
-    {
-     "op": "op-4091a652ca5c",
-     "date": "2026-11-08",
-     "name": "Destruction of Enemy Air Defences",
-     "types": [
-      "SEAD",
-      "FORMATION",
-      "CAS"
-     ],
-     "training": true,
-     "score": 65.0,
-     "grade": "B",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 57,
-     "highlight": "100% SAM defeat rate — both S-300PS rounds defeated (CPAs 8,958 m and 6,094 m) through effective defensive maneuvering; survived the most missile-saturated phase of the attack without being hit."
-    },
-    {
-     "op": "op-241f54c637de",
-     "date": "2026-11-07",
-     "name": "Basic Fighter Maneuver",
-     "types": [
-      "BFM"
-     ],
-     "training": true,
-     "score": 90.0,
-     "grade": "A",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 0,
-     "highlight": ""
-    },
-    {
-     "op": "op-4d6c29bac531",
-     "date": "2026-11-05",
-     "name": "Basic Surface Attack | Tactical Pattern",
-     "types": [
-      "CCIP",
-      "STRAFE"
-     ],
-     "training": true,
-     "score": 65.0,
-     "grade": "D",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 62,
-     "highlight": "Formation discipline score 71.7 is the highest of the formation-tracked pilots, and avg rejoin 23 s with best 6 s shows Maverick can hold position when attention is on the lead."
-    }
-   ],
-   "logbook": {
-    "hours": 5.5,
-    "by_aircraft": {
-     "F-16C Viper": 5.5
-    },
-    "by_map": {
-     "SinaiMap": 4.5,
-     "Caucasus": 1.0
-    },
-    "flights": 10,
-    "sorties": 7,
-    "landings": 3,
-    "landing_grades": {
-     "D": 2,
-     "F": 1
-    },
-    "landing_avg": 58,
-    "traps": 0,
-    "aar_fills": 6,
-    "air_kills": 0,
-    "ground_kills": 5,
-    "deaths": 2,
-    "ejections": 0,
-    "kd": 2.5,
-    "weapons": {},
-    "first": "2026-11-05",
-    "last": "2026-11-26"
    }
   },
   {
