@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T23:49:48+00:00",
+ "generated": "2026-11-26T23:50:48+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -1729,7 +1729,7 @@
     }
    ],
    "logbook": {
-    "hours": 6.9,
+    "hours": 7.0,
     "by_aircraft": {
      "F-16C Viper": 4.6,
      "F/A-18C Hornet": 2.4
@@ -2398,7 +2398,7 @@
     "hours": 6.8,
     "by_aircraft": {
      "F-16C Viper": 6.3,
-     "F-15E Strike Eagle": 0.2,
+     "F-15E Strike Eagle": 0.3,
      "AH-64D Apache": 0.1,
      "F-14B Tomcat": 0.1
     },
@@ -4301,7 +4301,7 @@
    },
    "rank_order": 9,
    "active_days": 6,
-   "active_hours": 7.0,
+   "active_hours": 7.1,
    "active_sorties": 19,
    "active_ops": 9,
    "last_active": "2026-11-26",
@@ -4532,13 +4532,13 @@
     }
    ],
    "logbook": {
-    "hours": 7.0,
+    "hours": 7.1,
     "by_aircraft": {
-     "F-16C Viper": 7.0
+     "F-16C Viper": 7.1
     },
     "by_map": {
      "SinaiMap": 5.3,
-     "Caucasus": 1.7
+     "Caucasus": 1.8
     },
     "flights": 22,
     "sorties": 19,
@@ -5315,7 +5315,7 @@
     },
     "by_map": {
      "SinaiMap": 8.7,
-     "Caucasus": 2.1
+     "Caucasus": 2.2
     },
     "flights": 37,
     "sorties": 33,
@@ -5329,9 +5329,9 @@
     "aar_fills": 3,
     "air_kills": 14,
     "ground_kills": 1,
-    "deaths": 19,
+    "deaths": 20,
     "ejections": 0,
-    "kd": 0.79,
+    "kd": 0.75,
     "weapons": {
      "AIM_120C": {
       "shots": 65,
@@ -7874,7 +7874,7 @@
    },
    "rank_order": 10,
    "active_days": 1,
-   "active_hours": 1.0,
+   "active_hours": 1.1,
    "active_sorties": 13,
    "active_ops": 2,
    "last_active": "2026-11-26",
@@ -7939,12 +7939,12 @@
     }
    ],
    "logbook": {
-    "hours": 1.0,
+    "hours": 1.1,
     "by_aircraft": {
-     "F-16C Viper": 1.0
+     "F-16C Viper": 1.1
     },
     "by_map": {
-     "Caucasus": 1.0
+     "Caucasus": 1.1
     },
     "flights": 15,
     "sorties": 13,
@@ -9024,9 +9024,9 @@
     },
     "by_map": {
      "SinaiMap": 2.2,
-     "Caucasus": 1.5
+     "Caucasus": 1.6
     },
-    "flights": 18,
+    "flights": 19,
     "sorties": 16,
     "landings": 1,
     "landing_grades": {
