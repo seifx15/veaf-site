@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T23:33:48+00:00",
+ "generated": "2026-11-26T23:34:46+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -990,7 +990,7 @@
      "?": 1.2,
      "Caucasus": 0.8
     },
-    "flights": 20,
+    "flights": 21,
     "sorties": 17,
     "landings": 1,
     "landing_grades": {
@@ -1001,9 +1001,9 @@
     "aar_fills": 1,
     "air_kills": 8,
     "ground_kills": 6,
-    "deaths": 2,
+    "deaths": 3,
     "ejections": 0,
-    "kd": 7.0,
+    "kd": 4.67,
     "weapons": {
      "AIM_120C": {
       "shots": 27,
@@ -1110,7 +1110,7 @@
     "by_map": {
      "Caucasus": 0.8
     },
-    "flights": 12,
+    "flights": 13,
     "sorties": 10,
     "landings": 0,
     "landing_grades": {},
@@ -1168,8 +1168,8 @@
    ],
    "joined": "2026-07-08",
    "aircraft": [
-    "F-16C Viper",
-    "F/A-18C Hornet"
+    "F/A-18C Hornet",
+    "F-16C Viper"
    ],
    "bio": "",
    "missions": 27,
@@ -1733,9 +1733,10 @@
      "F/A-18C Hornet": 2.2
     },
     "by_map": {
-     "SinaiMap": 6.7
+     "SinaiMap": 6.7,
+     "Caucasus": 0.1
     },
-    "flights": 14,
+    "flights": 15,
     "sorties": 12,
     "landings": 0,
     "landing_grades": {},
@@ -2404,7 +2405,7 @@
      "?": 0.8,
      "Caucasus": 0.6
     },
-    "flights": 23,
+    "flights": 24,
     "sorties": 22,
     "landings": 2,
     "landing_grades": {},
@@ -4537,7 +4538,7 @@
      "SinaiMap": 5.3,
      "Caucasus": 1.6
     },
-    "flights": 19,
+    "flights": 20,
     "sorties": 16,
     "landings": 4,
     "landing_grades": {
@@ -5312,9 +5313,9 @@
     },
     "by_map": {
      "SinaiMap": 8.7,
-     "Caucasus": 1.8
+     "Caucasus": 1.9
     },
-    "flights": 34,
+    "flights": 35,
     "sorties": 30,
     "landings": 2,
     "landing_grades": {
@@ -7871,7 +7872,7 @@
    },
    "rank_order": 10,
    "active_days": 1,
-   "active_hours": 0.7,
+   "active_hours": 0.8,
    "active_sorties": 10,
    "active_ops": 2,
    "last_active": "2026-11-26",
@@ -7936,14 +7937,14 @@
     }
    ],
    "logbook": {
-    "hours": 0.7,
+    "hours": 0.8,
     "by_aircraft": {
-     "F-16C Viper": 0.7
+     "F-16C Viper": 0.8
     },
     "by_map": {
-     "Caucasus": 0.7
+     "Caucasus": 0.8
     },
-    "flights": 12,
+    "flights": 13,
     "sorties": 10,
     "landings": 0,
     "landing_grades": {},
@@ -7952,9 +7953,9 @@
     "aar_fills": 0,
     "air_kills": 13,
     "ground_kills": 0,
-    "deaths": 8,
+    "deaths": 9,
     "ejections": 0,
-    "kd": 1.62,
+    "kd": 1.44,
     "weapons": {
      "AIM_120C": {
       "shots": 28,
@@ -9021,9 +9022,9 @@
     },
     "by_map": {
      "SinaiMap": 2.2,
-     "Caucasus": 1.3
+     "Caucasus": 1.4
     },
-    "flights": 16,
+    "flights": 17,
     "sorties": 14,
     "landings": 1,
     "landing_grades": {
