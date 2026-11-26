@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T02:21:23+00:00",
+ "generated": "2026-11-26T02:22:20+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -18692,8 +18692,8 @@
  "squadrons": [
   {
    "name": "201 AW AIRFORCE ACADEMY",
-   "patch": "img/logo-192.png",
-   "patch_own": false,
+   "patch": "patches/SQ_SQ_835054b42052-4741c4f4.png?v=1795659724",
+   "patch_own": true,
    "elements": [
     "28 SQUADRON",
     "SILVER STARS AEROBATICS"
@@ -18701,7 +18701,7 @@
    "units": [
     {
      "name": "28 SQUADRON",
-     "patch": "img/logo-192.png",
+     "patch": "patches/SQ_SQ_835054b42052-4741c4f4.png?v=1795659724",
      "patch_own": false,
      "pilots": 0,
      "base": "Bilbeis",
@@ -18711,8 +18711,8 @@
     },
     {
      "name": "SILVER STARS AEROBATICS",
-     "patch": "img/logo-192.png",
-     "patch_own": false,
+     "patch": "patches/EL_SQ_835054b42052-39c66d8a.png?v=1795659724",
+     "patch_own": true,
      "pilots": 0,
      "base": "El Minya",
      "aircraft": "K-8E",
@@ -18731,8 +18731,8 @@
   },
   {
    "name": "232 TFW",
-   "patch": "img/logo-192.png",
-   "patch_own": false,
+   "patch": "patches/SQ_SQ_fbcde7f4ebb6-21e4ebd2.png?v=1795659724",
+   "patch_own": true,
    "elements": [
     "72 TFS",
     "74 TFS"
@@ -18740,8 +18740,8 @@
    "units": [
     {
      "name": "72 TFS",
-     "patch": "img/logo-192.png",
-     "patch_own": false,
+     "patch": "patches/EL_SQ_fbcde7f4ebb6-bfbd2133.png?v=1795659724",
+     "patch_own": true,
      "pilots": 0,
      "base": "Mersa Matruh (HEMM)",
      "aircraft": "F-16C/D Block 40 (ex Block 15)",
@@ -18750,8 +18750,8 @@
     },
     {
      "name": "74 TFS",
-     "patch": "img/logo-192.png",
-     "patch_own": false,
+     "patch": "patches/EL_SQ_fbcde7f4ebb6-fb91cb2d.png?v=1795659724",
+     "patch_own": true,
      "pilots": 0,
      "base": "Mersa Matruh (HEMM)",
      "aircraft": "F-16A/B Block 15",
@@ -18770,8 +18770,8 @@
   },
   {
    "name": "242 TFW",
-   "patch": "img/logo-192.png",
-   "patch_own": false,
+   "patch": "patches/SQ_SQ_3a3d5fccee50-16097107.png?v=1795659724",
+   "patch_own": true,
    "elements": [
     "68 TFS \"DRAGONS\"",
     "70 TFS \"PANTHERS\""
@@ -18779,8 +18779,8 @@
    "units": [
     {
      "name": "68 TFS \"DRAGONS\"",
-     "patch": "img/logo-192.png",
-     "patch_own": false,
+     "patch": "patches/EL_SQ_3a3d5fccee50-ba8695e9.png?v=1795659724",
+     "patch_own": true,
      "pilots": 0,
      "base": "Aswan (HESN)",
      "aircraft": "F-16C/D Block 32",
@@ -18789,8 +18789,8 @@
     },
     {
      "name": "70 TFS \"PANTHERS\"",
-     "patch": "img/logo-192.png",
-     "patch_own": false,
+     "patch": "patches/EL_SQ_3a3d5fccee50-d54c2924.png?v=1795659724",
+     "patch_own": true,
      "pilots": 0,
      "base": "Beni Suef (HEBS)",
      "aircraft": "F-16C/D Block 32",
@@ -18809,8 +18809,8 @@
   },
   {
    "name": "262 TFW",
-   "patch": "img/logo-192.png",
-   "patch_own": false,
+   "patch": "patches/SQ_SQ_285ab6b262cb-77172fe3.png?v=1795659724",
+   "patch_own": true,
    "elements": [
     "60 TFS",
     "64 TFS \"TIGERS\""
@@ -18818,8 +18818,8 @@
    "units": [
     {
      "name": "60 TFS",
-     "patch": "img/logo-192.png",
-     "patch_own": false,
+     "patch": "patches/EL_SQ_285ab6b262cb-d59c9796.png?v=1795659724",
+     "patch_own": true,
      "pilots": 0,
      "base": "Abu Suwayr",
      "aircraft": "F-16C/D Block 40",
@@ -18828,8 +18828,8 @@
     },
     {
      "name": "64 TFS \"TIGERS\"",
-     "patch": "img/logo-192.png",
-     "patch_own": false,
+     "patch": "patches/EL_SQ_285ab6b262cb-4dd701ff.png?v=1795659724",
+     "patch_own": true,
      "pilots": 0,
      "base": "Abu Suwayr",
      "aircraft": "F-16C/D Block 40",
@@ -18848,8 +18848,8 @@
   },
   {
    "name": "272 TFW",
-   "patch": "img/logo-192.png",
-   "patch_own": false,
+   "patch": "patches/SQ_SQ_46124a9f2a37-d96e619e.png?v=1795659724",
+   "patch_own": true,
    "elements": [
     "75 TFS \"VIPERS\"",
     "77 TFS \"FIGHTING BATS\"",
@@ -18858,8 +18858,8 @@
    "units": [
     {
      "name": "75 TFS \"VIPERS\"",
-     "patch": "img/logo-192.png",
-     "patch_own": false,
+     "patch": "patches/EL_SQ_46124a9f2a37-4033ef39.png?v=1795659724",
+     "patch_own": true,
      "pilots": 0,
      "base": "Gianaclis (Jiyanklis)",
      "aircraft": "F-16C/D Block 40",
@@ -18868,8 +18868,8 @@
     },
     {
      "name": "77 TFS \"FIGHTING BATS\"",
-     "patch": "img/logo-192.png",
-     "patch_own": false,
+     "patch": "patches/EL_SQ_46124a9f2a37-c967e483.png?v=1795659724",
+     "patch_own": true,
      "pilots": 0,
      "base": "Gianaclis (Jiyanklis)",
      "aircraft": "F-16C/D Block 40",
@@ -18878,8 +18878,8 @@
     },
     {
      "name": "79 TFS",
-     "patch": "img/logo-192.png",
-     "patch_own": false,
+     "patch": "patches/EL_SQ_46124a9f2a37-07653dee.png?v=1795659724",
+     "patch_own": true,
      "pilots": 0,
      "base": "Gianaclis (Jiyanklis)",
      "aircraft": "F-16C/D Block 40",
@@ -18898,8 +18898,8 @@
   },
   {
    "name": "282 TFW",
-   "patch": "img/logo-192.png",
-   "patch_own": false,
+   "patch": "patches/SQ_SQ_947377e2aeee-7ba3ad50.png?v=1795659724",
+   "patch_own": true,
    "elements": [
     "86 TFS \"ASSASSINS\"",
     "88 TFS \"KNIGHTS\""
@@ -18907,8 +18907,8 @@
    "units": [
     {
      "name": "86 TFS \"ASSASSINS\"",
-     "patch": "img/logo-192.png",
-     "patch_own": false,
+     "patch": "patches/EL_SQ_947377e2aeee-9aeb9807.png?v=1795659724",
+     "patch_own": true,
      "pilots": 0,
      "base": "Fayid",
      "aircraft": "F-16C/D Block 40",
@@ -18917,8 +18917,8 @@
     },
     {
      "name": "88 TFS \"KNIGHTS\"",
-     "patch": "img/logo-192.png",
-     "patch_own": false,
+     "patch": "patches/EL_SQ_947377e2aeee-f9521b48.png?v=1795659724",
+     "patch_own": true,
      "pilots": 0,
      "base": "Fayid",
      "aircraft": "F-16C/D Block 40",
@@ -18937,8 +18937,8 @@
   },
   {
    "name": "292 TFW \"EGYPT SNIPER\"",
-   "patch": "img/logo-192.png",
-   "patch_own": false,
+   "patch": "patches/SQ_SQ_a134c142b01c-6d92dcc5.png?v=1795659724",
+   "patch_own": true,
    "elements": [
     "95 TFS \"AGGRESSORS\"",
     "97 TFS \"PHARAOHS\"",
@@ -18947,8 +18947,8 @@
    "units": [
     {
      "name": "95 TFS \"AGGRESSORS\"",
-     "patch": "img/logo-192.png",
-     "patch_own": false,
+     "patch": "patches/EL_SQ_a134c142b01c-80cde216.png?v=1795659724",
+     "patch_own": true,
      "pilots": 0,
      "base": "Cairo West (HECW)",
      "aircraft": "F-16C/D Block 52+",
@@ -18957,8 +18957,8 @@
     },
     {
      "name": "97 TFS \"PHARAOHS\"",
-     "patch": "img/logo-192.png",
-     "patch_own": false,
+     "patch": "patches/EL_SQ_a134c142b01c-7e8fbe20.png?v=1795659724",
+     "patch_own": true,
      "pilots": 0,
      "base": "Cairo West (HECW)",
      "aircraft": "F-16C/D Block 52+",
@@ -18967,7 +18967,7 @@
     },
     {
      "name": "BIR JIFJAFA DETACHMENT",
-     "patch": "img/logo-192.png",
+     "patch": "patches/SQ_SQ_a134c142b01c-6d92dcc5.png?v=1795659724",
      "patch_own": false,
      "pilots": 0,
      "base": "Bir Jifjafa / Malez AB",
@@ -18987,16 +18987,16 @@
   },
   {
    "name": "EFWS \"THE MASTERS\"",
-   "patch": "img/logo-192.png",
-   "patch_own": false,
+   "patch": "patches/SQ_SQ_50588de3e1ba-0d5d209c.png?v=1795659724",
+   "patch_own": true,
    "elements": [
     "EFWS \"BLACK ACES\""
    ],
    "units": [
     {
      "name": "EFWS \"BLACK ACES\"",
-     "patch": "img/logo-192.png",
-     "patch_own": false,
+     "patch": "patches/EL_SQ_50588de3e1ba-ca57eb8f.png?v=1795659724",
+     "patch_own": true,
      "pilots": 0,
      "base": "Cairo West (HECW)",
      "aircraft": "F-16C/D (on loan from 292 TFW)",
