@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T23:23:37+00:00",
+ "generated": "2026-11-26T23:24:38+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -1117,15 +1117,15 @@
     "landing_avg": null,
     "traps": 0,
     "aar_fills": 0,
-    "air_kills": 5,
+    "air_kills": 6,
     "ground_kills": 0,
     "deaths": 5,
     "ejections": 0,
-    "kd": 1.0,
+    "kd": 1.2,
     "weapons": {
      "AIM_120C": {
-      "shots": 20,
-      "hits": 6
+      "shots": 21,
+      "hits": 7
      },
      "AIM_9": {
       "shots": 2,
@@ -2413,7 +2413,7 @@
     "kd": 0.15,
     "weapons": {
      "AIM_120C": {
-      "shots": 12,
+      "shots": 13,
       "hits": 7
      },
      "MK_82SNAKEYE": {
@@ -5309,7 +5309,7 @@
      "SinaiMap": 8.7,
      "Caucasus": 1.7
     },
-    "flights": 32,
+    "flights": 33,
     "sorties": 28,
     "landings": 2,
     "landing_grades": {
@@ -5321,9 +5321,9 @@
     "aar_fills": 3,
     "air_kills": 13,
     "ground_kills": 1,
-    "deaths": 15,
+    "deaths": 16,
     "ejections": 0,
-    "kd": 0.93,
+    "kd": 0.88,
     "weapons": {
      "AIM_120C": {
       "shots": 53,
