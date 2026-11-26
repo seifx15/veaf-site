@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26T20:51:04+00:00",
+ "generated": "2026-11-26T20:52:09+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
   "server": ""
  },
  "totals": {
-  "pilots": 87,
+  "pilots": 88,
   "missions": 83,
   "sorties": 264,
   "qualifications": 49,
@@ -8012,6 +8012,51 @@
    "logbook": null
   },
   {
+   "id": "P_40a35707ccf8",
+   "callsign": "[EAF] Ghamry",
+   "rank": {
+    "full": "طالب | Student",
+    "ar": "طالب",
+    "en": "Student",
+    "insignia": ""
+   },
+   "rank_order": 11,
+   "active_days": 0,
+   "active_hours": 0.0,
+   "active_sorties": 0,
+   "active_ops": 0,
+   "last_active": "",
+   "photo": "",
+   "patches": [],
+   "squadron": "",
+   "squadron_patch": "",
+   "element": "",
+   "element_patch": "",
+   "also": [],
+   "former_element_patches": [],
+   "former_squadron_patches": [],
+   "joined": "2026-11-26",
+   "aircraft": [],
+   "bio": "",
+   "missions": 0,
+   "score": 0.0,
+   "average": null,
+   "best": null,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "friendly_kills": 0,
+   "deaths": 0,
+   "hours": 0.0,
+   "last_flown": "",
+   "grades": {},
+   "mission_types": {},
+   "skills": [],
+   "qualifications": 0,
+   "courses": [],
+   "history": [],
+   "logbook": null
+  },
+  {
    "id": "P_8783963eb255",
    "callsign": "[EAF] Taha",
    "rank": {
@@ -8763,8 +8808,8 @@
    "rank_order": 11,
    "active_days": 4,
    "active_hours": 2.1,
-   "active_sorties": 5,
-   "active_ops": 3,
+   "active_sorties": 4,
+   "active_ops": 4,
    "last_active": "2026-11-26",
    "photo": "",
    "patches": [],
@@ -8886,11 +8931,11 @@
      "F/A-18C Hornet": 2.1
     },
     "by_map": {
-     "SinaiMap": 1.3,
+     "SinaiMap": 1.4,
      "Caucasus": 0.7
     },
     "flights": 5,
-    "sorties": 5,
+    "sorties": 4,
     "landings": 0,
     "landing_grades": {},
     "landing_avg": null,
