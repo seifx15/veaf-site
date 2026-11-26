@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T23:51:48+00:00",
+ "generated": "2026-11-26T23:52:48+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -999,14 +999,14 @@
     "landing_avg": 45,
     "traps": 0,
     "aar_fills": 1,
-    "air_kills": 14,
+    "air_kills": 15,
     "ground_kills": 6,
     "deaths": 5,
     "ejections": 0,
-    "kd": 4.0,
+    "kd": 4.2,
     "weapons": {
      "AIM_120C": {
-      "shots": 39,
+      "shots": 41,
       "hits": 16
      }
     },
@@ -1107,7 +1107,7 @@
     "hours": 1.0,
     "by_aircraft": {
      "F/A-18C Hornet": 0.9,
-     "F-16C Viper": 0.1
+     "F-16C Viper": 0.2
     },
     "by_map": {
      "Caucasus": 1.0
@@ -1149,7 +1149,7 @@
    },
    "rank_order": 6,
    "active_days": 5,
-   "active_hours": 4.9,
+   "active_hours": 5.0,
    "active_sorties": 13,
    "active_ops": 5,
    "last_active": "2026-11-26",
@@ -2404,8 +2404,8 @@
     },
     "by_map": {
      "SinaiMap": 5.1,
-     "?": 0.8,
-     "Caucasus": 0.8
+     "Caucasus": 0.9,
+     "?": 0.8
     },
     "flights": 28,
     "sorties": 26,
@@ -2416,13 +2416,13 @@
     "aar_fills": 0,
     "air_kills": 5,
     "ground_kills": 0,
-    "deaths": 17,
+    "deaths": 18,
     "ejections": 0,
-    "kd": 0.29,
+    "kd": 0.28,
     "weapons": {
      "AIM_120C": {
-      "shots": 21,
-      "hits": 10
+      "shots": 23,
+      "hits": 11
      },
      "MK_82SNAKEYE": {
       "shots": 4,
