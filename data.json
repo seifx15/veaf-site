@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T02:27:21+00:00",
+ "generated": "2026-11-26T02:28:21+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -18726,7 +18726,7 @@
    "base": "Bilbeis",
    "division": "Egyptian Air Academy",
    "aircraft": "K-8E",
-   "speciality": "Basic jet training",
+   "speciality": "Aerobatic display team",
    "motto": ""
   },
   {
@@ -18801,7 +18801,7 @@
    "competitive": false,
    "pilots": 0,
    "full_name": "",
-   "base": "Aswan (HESN) / Beni Suef (HEBS)",
+   "base": "Beni Suef (HEBS)",
    "division": "149 Air Division",
    "aircraft": "F-16C/D Block 32",
    "speciality": "",
