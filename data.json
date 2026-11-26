@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T02:23:21+00:00",
+ "generated": "2026-11-26T02:24:21+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -18972,7 +18972,7 @@
      "pilots": 0,
      "base": "Bir Jifjafa / Malez AB",
      "aircraft": "F-16C/D Block 52+",
-     "speciality": "",
+     "speciality": "Air defence / QRA",
      "motto": ""
     }
    ],
@@ -18982,7 +18982,7 @@
    "base": "Cairo West (HECW)",
    "division": "139 Air Division",
    "aircraft": "F-16C/D Block 52+",
-   "speciality": "",
+   "speciality": "Air superiority (BVR / WVR)",
    "motto": ""
   },
   {
@@ -19004,7 +19004,7 @@
      "motto": ""
     }
    ],
-   "competitive": true,
+   "competitive": false,
    "pilots": 0,
    "full_name": "Egyptian Fighter Weapons School",
    "base": "Cairo West (HECW)",
