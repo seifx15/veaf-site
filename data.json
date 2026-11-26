@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T19:04:42+00:00",
+ "generated": "2026-11-26T19:05:42+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,10 +7,10 @@
  },
  "totals": {
   "pilots": 87,
-  "missions": 82,
-  "sorties": 263,
+  "missions": 83,
+  "sorties": 264,
   "qualifications": 49,
-  "hours": 208.0,
+  "hours": 209.0,
   "air_kills": 89,
   "ground_kills": 47
  },
@@ -5291,30 +5291,30 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 6,
-   "score": 392.0,
-   "average": 65.3,
+   "missions": 7,
+   "score": 444.0,
+   "average": 63.4,
    "best": 90.0,
    "air_kills": 0,
    "ground_kills": 5,
    "friendly_kills": 0,
    "deaths": 2,
-   "hours": 4.4,
-   "last_flown": "2026-11-25",
+   "hours": 5.4,
+   "last_flown": "2026-11-26",
    "grades": {
+    "D": 3,
     "F": 1,
     "B": 2,
-    "D": 2,
     "A": 1
    },
    "mission_types": {
     "FORMATION": 3,
     "CAS": 3,
+    "AAR": 2,
+    "STRAFE": 2,
     "SEAD": 2,
-    "AAR": 1,
     "BFM": 1,
-    "CCIP": 1,
-    "STRAFE": 1
+    "CCIP": 1
    },
    "skills": [
     {
@@ -5362,6 +5362,24 @@
     }
    ],
    "history": [
+    {
+     "op": "op-ae959eb149e0",
+     "date": "2026-11-26",
+     "name": "Maverick · Free flight · 17:01Z",
+     "types": [
+      "AAR",
+      "STRAFE"
+     ],
+     "training": true,
+     "score": 52.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 57,
+     "highlight": "AAR overall rated EXPERT (score 85/100); 6 completed fills totalling 5,888 kg transferred from Aerial-4-3 with zero partials — two fills scored 100 ('THE KING') with single-contact connects and join-to-contact times of 227 s, demonstrating genuine basket proficiency when properly set up."
+    },
     {
      "op": "op-2c107a0c6515",
      "date": "2026-11-25",
@@ -5480,7 +5498,7 @@
      "SinaiMap": 4.5,
      "Caucasus": 1.0
     },
-    "flights": 9,
+    "flights": 10,
     "sorties": 7,
     "landings": 3,
     "landing_grades": {
@@ -10403,6 +10421,57 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-ae959eb149e0",
+   "date": "2026-11-26",
+   "name": "Maverick · Free flight · 17:01Z",
+   "kind": "automatic",
+   "types": [
+    "AAR",
+    "STRAFE"
+   ],
+   "personal": true,
+   "training": true,
+   "brief": "",
+   "narrative": "Maverick launched from Jiyanklis on a solo AAR and navigation training sortie on the Sinai map, completing two airborne legs totalling 56.8 flight minutes across a 110.9-minute block. The primary training objective — aerial refuelling — was executed with genuine competence: six completed fills, 5,888 kg transferred, overall AAR score 85 (EXPERT), including two perfect 100-point single-contact fills rated 'THE KING.' Join-to-contact time improved dramatically between visits, dropping from 366 seconds on the first rendezvous to 66 seconds by the third, indicating the pilot learned and adapted within the sortie — that is exactly what training is for, and it is acknowledged. The AAR phase is a bright spot in an otherwise troubled debrief. Taxi discipline, however, remains a chronic failure. The first taxi-out peaked at 36.2 kt and accumulated 28 seconds above the 30 kt limit; the final taxi-in at Cairo West peaked at 35.2 kt for a further 11 seconds. Total overspeed time across the sortie was 44 seconds — this is the third consecutive debrief containing a taxi flag and it now constitutes a formal written caution on the pilot's record. The landing picture is the most serious technical deficiency of the sortie. Neither approach was stabilised; both were continued to touchdown, which is the wrong decision. At Jiyanklis, AoA was 5.2° against a target of 13° — the pilot was more than 8° off on-speed — with speed wandering 5.3 kt SD on final, a lateral alignment error of 64 m from centreline at 500 ft, and touchdown 937 m past the threshold, leaving only 32 m of runway. At Cairo West, AoA was 3.0° — 10° below target — the glidepath was low by 1.1°, peak sink rate was 2,700 fpm below 500 ft AGL (a hard safety limit), and the aircraft touched down 804 m past the threshold displaced 16.3 m left of centreline. Both approaches should have been go-arounds called by 500 ft; neither was. The consistent pattern across both landings — fast, flat, long — points to either an absence of AoA bracket cross-check or a deliberate avoidance of the on-speed attitude. This must be corrected before Maverick returns to any syllabus event requiring landing at divert or short-field strips. With AAR improving and trend data suggesting the pilot can achieve focused precision when properly cued, the path forward is clear: AoA-indexed approaches in the pattern before the next cross-country.",
+   "lessons": [
+    "AoA is not advisory — it is the primary speed reference on final for the F-16; 5.2° and 3.0° versus a 13° target means the pilot is flying by feel or airspeed alone and arriving fast every time. Mandate a minimum of four touch-and-go circuits at home plate before the next cross-country, with an IP calling AoA on every pass.",
+    "An unstabilised approach at 500 ft AGL — defined here as AoA more than 2° off target, sink rate above 1,500 fpm, or glidepath deviation greater than 1 dot — requires an immediate go-around; there is no discretion. At Cairo West, 2,700 fpm sink below 500 ft was a go-around mandatory event that was not executed; understand that pressing a bad approach to the ground is statistically the leading cause of non-combat F-16 losses.",
+    "Taxi overspeed is not a minor procedural note — 44 seconds above 30 kt on a ramp with ground crew, armament carts, and other aircraft is a ramp safety violation; the third occurrence in consecutive debriefs means the pilot has been briefed and chooses not to comply, which is a disciplinary matter as much as a skills issue."
+   ],
+   "card": {},
+   "teams": [],
+   "results": [
+    {
+     "callsign": "[EAF] Maverick",
+     "member": true,
+     "squadron": "",
+     "score": 52.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 57,
+     "highlights": [
+      "AAR overall rated EXPERT (score 85/100); 6 completed fills totalling 5,888 kg transferred from Aerial-4-3 with zero partials — two fills scored 100 ('THE KING') with single-contact connects and join-to-contact times of 227 s, demonstrating genuine basket proficiency when properly set up.",
+      "Second taxi-out at Jiyanklis was clean — peak 27.4 kt, zero overspeed warnings — showing the pilot can comply with the 30 kt limit when focused."
+     ],
+     "improvements": [
+      "Landing AoA is critically wrong on both passes: 5.2° at Jiyanklis and 3.0° at Cairo West against a target of 13°; the pilot is arriving fast and flat every time, producing a long/late touchdown at Jiyanklis (937 m past threshold, only 32 m of runway remaining) and a 2,700 fpm peak sink rate below 500 ft AGL at Cairo West — both unstabilised approaches must result in a go-around, not a continuation.",
+      "Taxi overspeed is a persistent safety item: 44 total seconds above 30 kt across the sortie (peak 36.2 kt taxi-out leg 1, peak 35.2 kt taxi-in leg 2); this is the third consecutive debrief flagging taxi discipline and it is now a formal written caution — crew/aircraft/obstacle risk on a congested ramp is not acceptable."
+     ],
+     "note": ""
+    }
+   ],
+   "pilots": 1,
+   "average": 52.0,
+   "air_kills": 0,
+   "ground_kills": 0,
+   "instructor": "Sword",
+   "patches": [],
+   "report": "reports/op-ae959eb149e0.html"
+  },
   {
    "id": "op-55991fe99845",
    "date": "2026-11-26",
