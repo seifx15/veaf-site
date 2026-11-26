@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T16:43:46+00:00",
+ "generated": "2026-11-26T16:44:46+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -1104,8 +1104,623 @@
    "logbook": null
   },
   {
+   "id": "P_20260708193733_663",
+   "callsign": "Ibraheem",
+   "rank": {
+    "full": "مقدم | Commander | 𓅪☆𖤍",
+    "ar": "مقدم",
+    "en": "Commander",
+    "insignia": "𓅪☆𖤍"
+   },
+   "rank_order": 6,
+   "active_days": 4,
+   "active_hours": 4.6,
+   "active_sorties": 9,
+   "active_ops": 4,
+   "last_active": "2026-11-23",
+   "photo": "",
+   "patches": [],
+   "squadron": "",
+   "squadron_patch": "",
+   "element": "",
+   "element_patch": "",
+   "former_element_patches": [],
+   "former_squadron_patches": [
+    {
+     "name": "272 TFW Jyanklis",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "until": "2026-11-24"
+    }
+   ],
+   "joined": "2026-07-08",
+   "aircraft": [
+    "F/A-18C Hornet",
+    "F-16C Viper"
+   ],
+   "bio": "",
+   "missions": 27,
+   "score": 1630.8,
+   "average": 59.6,
+   "best": 98.0,
+   "air_kills": 3,
+   "ground_kills": 8,
+   "friendly_kills": 0,
+   "deaths": 0,
+   "hours": 19.2,
+   "last_flown": "2026-11-23",
+   "grades": {
+    "B": 8,
+    "F": 3,
+    "C": 7,
+    "D": 6,
+    "A": 2
+   },
+   "mission_types": {
+    "SEAD": 9,
+    "CCIP": 8,
+    "STRAFE": 4,
+    "CAS": 3,
+    "BVR": 3,
+    "TRAINING": 3,
+    "FORMATION": 2,
+    "BFM": 2,
+    "A-A": 2,
+    "AAR": 1,
+    "BSA": 1
+   },
+   "skills": [
+    {
+     "name": "Datalink",
+     "type": "GENERAL",
+     "score": 10.0,
+     "max": 10,
+     "qualified": true
+    },
+    {
+     "name": "Communications",
+     "type": "GENERAL",
+     "score": 9.0,
+     "max": 10,
+     "qualified": true
+    },
+    {
+     "name": "Tactical Turns / Formation",
+     "type": "BFM",
+     "score": 6.0,
+     "max": 10,
+     "qualified": true
+    },
+    {
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 4.0,
+     "max": 10,
+     "qualified": true
+    },
+    {
+     "name": "Notching",
+     "type": "A-A",
+     "score": 7.5,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 7.2,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "1 V 2 ACM",
+     "type": "A-A",
+     "score": 7.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Missile Kinematics",
+     "type": "A-A",
+     "score": 7.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Basic Fighter Maneuver (BFM)",
+     "type": "BFM",
+     "score": 6.0,
+     "max": 10,
+     "qualified": false
+    }
+   ],
+   "qualifications": 4,
+   "courses": [
+    {
+     "title": "Surface Attack Tactics",
+     "code": "SAT-1",
+     "status": "in_progress",
+     "instructors": []
+    }
+   ],
+   "history": [
+    {
+     "op": "op-67b5913cfe37",
+     "date": "2026-11-23",
+     "name": "CAS · 23:22Z",
+     "types": [
+      "CAS",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 72.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 4,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 44,
+     "highlight": "Top killer this sortie: 4 CAS kills (2× T-90, 1× BTR-80, 1× T-80UD), all ARMOR, using AGM-65D and Mk-82 Snakeye — 3 of 10 impacts were direct hits (miss_m: 2.1 m, 7.5 m, 8.1 m), demonstrating solid weapon employment when the solution was dialled in."
+    },
+    {
+     "op": "op-37766af98ef2",
+     "date": "2026-11-12",
+     "name": "vFS F-16 Staffeltraining",
+     "types": [
+      "CCIP",
+      "CAS",
+      "FORMATION"
+     ],
+     "training": false,
+     "score": 40.0,
+     "grade": "F",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
+    {
+     "op": "op-e479fd5da400",
+     "date": "2026-11-11",
+     "name": "Strafe · 19:22Z",
+     "types": [
+      "STRAFE",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 58.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 98,
+     "highlight": "AGM-65F SEAD standoff: 3 hits in slot 2 (CPAs 110 m @ 7 nm, 50 m @ 9.8 nm, 23 m @ 11 nm) — the 23 m CPA at 11 nm is the best Maverick accuracy in the session, fired at high altitude (18,752 ft) and high speed (546 kts), showing good platform energy management into the SEAD arena."
+    },
+    {
+     "op": "op-37e02481772a",
+     "date": "2026-11-10",
+     "name": "Strafe · 21:04Z",
+     "types": [
+      "STRAFE",
+      "CCIP",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 62.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 58,
+     "highlight": "4 AGM-65F/E impacts across two sessions (CPAs: 65 m, 72 m, 97 m, 116 m) plus 2 AGM-65E impacts — consistent weapon delivery across multiple slots, demonstrating persistence and target-area SA."
+    },
+    {
+     "op": "op-5bb514953f4d",
+     "date": "2026-10-30",
+     "name": "Surface Attack Tactics | CAS Wheel | Dive Toss",
+     "types": [
+      "CCIP",
+      "CAS",
+      "STRAFE"
+     ],
+     "training": true,
+     "score": 42.0,
+     "grade": "F",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 77,
+     "highlight": "Dominant formation type shifted to fingertip (24% by end of sortie) — showing intent to stay in close formation during the later portion of the flight"
+    },
+    {
+     "op": "op-fb1b6102ac47",
+     "date": "2026-10-30",
+     "name": "Beyond Visual Range | Practice",
+     "types": [
+      "BVR"
+     ],
+     "training": true,
+     "score": 80.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 60,
+     "highlight": ""
+    },
+    {
+     "op": "op-2910c27004b0",
+     "date": "2026-10-26",
+     "name": "Formation Practice",
+     "types": [
+      "FORMATION",
+      "SEAD",
+      "STRAFE"
+     ],
+     "training": true,
+     "score": 82.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 84,
+     "highlight": "Final formation discipline score of 98.55 out of 100 across 5,040 tracked formation ticks — outstanding positional accuracy as wingman with fingertip dominant at 52% of total formation time, supplemented by productive echelon right (28%), route (7%), and trail (6%) coverage across 96 formation type changes."
+    },
+    {
+     "op": "op-2a7aab20934e",
+     "date": "2026-10-26",
+     "name": "Basic Fighter Maneuver",
+     "types": [
+      "BFM"
+     ],
+     "training": true,
+     "score": 60.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
+    {
+     "op": "op-8b4461816abe",
+     "date": "2026-10-17",
+     "name": "Basic Surface Attack | Tactical Pattern",
+     "types": [
+      "CCIP"
+     ],
+     "training": true,
+     "score": 80.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": "No G exceedances recorded in the single telemetry sample (maxG 1.0 G) — no airframe mishandling on connection."
+    },
+    {
+     "op": "auto-pg-80a761d67d76a712d51d",
+     "date": "2026-10-16",
+     "name": "BVR practice",
+     "types": [
+      "BVR"
+     ],
+     "training": false,
+     "score": 70.0,
+     "grade": "C",
+     "air_kills": 1,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 7,
+     "highlight": "One kill event (E10713) confirmed within limited BVR sortie, showing basic employment capability."
+    },
+    {
+     "op": "auto-veaf-1791977809-2-pilot-10348",
+     "date": "2026-10-15",
+     "name": "BVR practice · Ibraheem",
+     "types": [
+      "BVR"
+     ],
+     "training": false,
+     "score": 75.0,
+     "grade": "C",
+     "air_kills": 2,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 10,
+     "highlight": "Defeated all 4 inbound AIM-120Cs with no aircraft loss, demonstrating effective defensive awareness."
+    },
+    {
+     "op": "auto-veaf-1791977809-2-pilot-9270",
+     "date": "2026-10-15",
+     "name": "CCIP practice · Ibraheem",
+     "types": [
+      "CCIP",
+      "AAR"
+     ],
+     "training": false,
+     "score": 79.5,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 50,
+     "highlight": "Pass 4 (bombpass:9767) achieved an estimated miss distance of 4.6 m — a near-shack result and the best of the sortie, demonstrating that [EAF] Hema can produce precise CCIP releases when pattern parameters are well-established (evidence: veaf_1791977809_2:9769, 9775)."
+    },
+    {
+     "op": "op-2c0c7f700204491a86b3924cf5637107",
+     "date": "2026-10-14",
+     "name": "Beyond Visual Range | Team Practice",
+     "types": [
+      "A-A"
+     ],
+     "training": true,
+     "score": 80.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 120,
+     "highlight": ""
+    },
+    {
+     "op": "auto-veaf-1791834878-7-pilot-5304",
+     "date": "2026-10-12",
+     "name": "TRAINING practice · Ibraheem",
+     "types": [],
+     "training": true,
+     "score": 66.25,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 20,
+     "highlight": "Session completed successfully with a clean session_finished outcome and no technical failure (evidence: 5554, 5555)."
+    },
+    {
+     "op": "op-798ef509be80458fa3e3aa1de500ae50",
+     "date": "2026-10-12",
+     "name": "Basic Surface Attack | Tactical Pattern",
+     "types": [
+      "BSA"
+     ],
+     "training": true,
+     "score": 80.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 29,
+     "highlight": "3 of 4 shacks (75%) — highest shack rate in the sortie"
+    },
+    {
+     "op": "op-20260903031718",
+     "date": "2026-09-03",
+     "name": "SEAD Training",
+     "types": [
+      "SEAD"
+     ],
+     "training": true,
+     "score": 69.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
+    {
+     "op": "op-20260822211739",
+     "date": "2026-08-23",
+     "name": "SEAD Training",
+     "types": [
+      "A-A",
+      "SEAD"
+     ],
+     "training": true,
+     "score": 56.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 51,
+     "highlight": "Earliest join of the flight at 01:52 and survived the whole sortie"
+    },
+    {
+     "op": "op-20260820024133",
+     "date": "2026-08-21",
+     "name": "Tactical Turns | Formation | Overhead Break | Countermeasures Programs",
+     "types": [],
+     "training": true,
+     "score": 73.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 55,
+     "highlight": "Fastest rejoin of the flight at bestJoinSec 56s, disciplined maxG 4.0"
+    },
+    {
+     "op": "op-20260817182400",
+     "date": "2026-08-18",
+     "name": "SEAD Training | Patriot + 2x Roland",
+     "types": [],
+     "training": true,
+     "score": 91.0,
+     "grade": "A",
+     "air_kills": 0,
+     "ground_kills": 4,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 30,
+     "highlight": "Best sortie of the flight by far: 4/4 AGM-88 IMPACTS (100%) at ~6.1-6.9nm, killing the Patriot STR, M818, ECS and EPP - effectively gutted the site."
+    },
+    {
+     "op": "op-20260813184853",
+     "date": "2026-08-14",
+     "name": "SEAD TRAINING",
+     "types": [
+      "SEAD"
+     ],
+     "training": true,
+     "score": -26.0,
+     "grade": "F",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 45,
+     "highlight": "Defeated 2 of 3 inbound SAMs (66.7%), including a TorM2 CHAP shot at 17.6 km CPA"
+    },
+    {
+     "op": "op-20260813022202",
+     "date": "2026-08-13",
+     "name": "SEAD Training",
+     "types": [
+      "SEAD"
+     ],
+     "training": true,
+     "score": 10.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 27,
+     "highlight": "Defeated one inbound Pantsir SA57E6 (cpa 1682m) before going down — showed he saw the threat."
+    },
+    {
+     "op": "op-20260808212119",
+     "date": "2026-08-09",
+     "name": "Introduction to SEAD",
+     "types": [
+      "SEAD"
+     ],
+     "training": true,
+     "score": 46.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 77,
+     "highlight": "100% SAM defeat rate — both S-300 launches (SA5B55) defeated, CPA 12.1km & 14.0km"
+    },
+    {
+     "op": "op-20260805231836",
+     "date": "2026-08-07",
+     "name": "Max Range GBU Drop",
+     "types": [
+      "CCIP"
+     ],
+     "training": true,
+     "score": 98.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 71,
+     "highlight": "Continued improving trend (8 → 21 → this sortie): dominant fingertip 25%, best rejoin an impressive 5 s"
+    },
+    {
+     "op": "op-20260725210336",
+     "date": "2026-07-26",
+     "name": "Basic Surface Attack | Tactical Pattern",
+     "types": [
+      "CCIP"
+     ],
+     "training": true,
+     "score": 76.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 78,
+     "highlight": "Best formation discipline in the flight: score 89.9, fingertip 65% dominant — a genuinely tight wingman"
+    },
+    {
+     "op": "op-20260719025618",
+     "date": "2026-07-20",
+     "name": "Basic Surface Attack | Tactical Pattern",
+     "types": [
+      "CCIP"
+     ],
+     "training": true,
+     "score": 21.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
+    {
+     "op": "op-20260716141644",
+     "date": "2026-07-19",
+     "name": "Basic Fighter Maneuver 1",
+     "types": [
+      "BFM"
+     ],
+     "training": true,
+     "score": 8.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    }
+   ],
+   "logbook": {
+    "hours": 6.7,
+    "by_aircraft": {
+     "F-16C Viper": 4.5,
+     "F/A-18C Hornet": 2.2
+    },
+    "by_map": {
+     "SinaiMap": 6.7
+    },
+    "flights": 13,
+    "sorties": 11,
+    "landings": 0,
+    "landing_grades": {},
+    "landing_avg": null,
+    "traps": 0,
+    "aar_fills": 0,
+    "air_kills": 0,
+    "ground_kills": 4,
+    "deaths": 0,
+    "ejections": 0,
+    "kd": null,
+    "weapons": {},
+    "first": "2026-10-17",
+    "last": "2026-11-23"
+   }
+  },
+  {
    "id": "P_20260708193733_503",
-   "callsign": "Blacksky",
+   "callsign": "Pushmaster",
    "rank": {
     "full": "مقدم | Commander | 𓅪☆𖤍",
     "ar": "مقدم",
@@ -1764,621 +2379,6 @@
     },
     "first": "2026-11-04",
     "last": "2026-11-13"
-   }
-  },
-  {
-   "id": "P_20260708193733_663",
-   "callsign": "Ibraheem",
-   "rank": {
-    "full": "مقدم | Commander | 𓅪☆𖤍",
-    "ar": "مقدم",
-    "en": "Commander",
-    "insignia": "𓅪☆𖤍"
-   },
-   "rank_order": 6,
-   "active_days": 4,
-   "active_hours": 4.6,
-   "active_sorties": 9,
-   "active_ops": 4,
-   "last_active": "2026-11-23",
-   "photo": "",
-   "patches": [],
-   "squadron": "",
-   "squadron_patch": "",
-   "element": "",
-   "element_patch": "",
-   "former_element_patches": [],
-   "former_squadron_patches": [
-    {
-     "name": "272 TFW Jyanklis",
-     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
-     "until": "2026-11-24"
-    }
-   ],
-   "joined": "2026-07-08",
-   "aircraft": [
-    "F/A-18C Hornet",
-    "F-16C Viper"
-   ],
-   "bio": "",
-   "missions": 27,
-   "score": 1630.8,
-   "average": 59.6,
-   "best": 98.0,
-   "air_kills": 3,
-   "ground_kills": 8,
-   "friendly_kills": 0,
-   "deaths": 0,
-   "hours": 19.2,
-   "last_flown": "2026-11-23",
-   "grades": {
-    "B": 8,
-    "F": 3,
-    "C": 7,
-    "D": 6,
-    "A": 2
-   },
-   "mission_types": {
-    "SEAD": 9,
-    "CCIP": 8,
-    "STRAFE": 4,
-    "CAS": 3,
-    "BVR": 3,
-    "TRAINING": 3,
-    "FORMATION": 2,
-    "BFM": 2,
-    "A-A": 2,
-    "AAR": 1,
-    "BSA": 1
-   },
-   "skills": [
-    {
-     "name": "Datalink",
-     "type": "GENERAL",
-     "score": 10.0,
-     "max": 10,
-     "qualified": true
-    },
-    {
-     "name": "Communications",
-     "type": "GENERAL",
-     "score": 9.0,
-     "max": 10,
-     "qualified": true
-    },
-    {
-     "name": "Tactical Turns / Formation",
-     "type": "BFM",
-     "score": 6.0,
-     "max": 10,
-     "qualified": true
-    },
-    {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
-     "score": 4.0,
-     "max": 10,
-     "qualified": true
-    },
-    {
-     "name": "Notching",
-     "type": "A-A",
-     "score": 7.5,
-     "max": 10,
-     "qualified": false
-    },
-    {
-     "name": "SEAD",
-     "type": "SEAD",
-     "score": 7.2,
-     "max": 10,
-     "qualified": false
-    },
-    {
-     "name": "1 V 2 ACM",
-     "type": "A-A",
-     "score": 7.0,
-     "max": 10,
-     "qualified": false
-    },
-    {
-     "name": "Missile Kinematics",
-     "type": "A-A",
-     "score": 7.0,
-     "max": 10,
-     "qualified": false
-    },
-    {
-     "name": "Basic Fighter Maneuver (BFM)",
-     "type": "BFM",
-     "score": 6.0,
-     "max": 10,
-     "qualified": false
-    }
-   ],
-   "qualifications": 4,
-   "courses": [
-    {
-     "title": "Surface Attack Tactics",
-     "code": "SAT-1",
-     "status": "in_progress",
-     "instructors": []
-    }
-   ],
-   "history": [
-    {
-     "op": "op-67b5913cfe37",
-     "date": "2026-11-23",
-     "name": "CAS · 23:22Z",
-     "types": [
-      "CAS",
-      "SEAD"
-     ],
-     "training": true,
-     "score": 72.0,
-     "grade": "B",
-     "air_kills": 0,
-     "ground_kills": 4,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 44,
-     "highlight": "Top killer this sortie: 4 CAS kills (2× T-90, 1× BTR-80, 1× T-80UD), all ARMOR, using AGM-65D and Mk-82 Snakeye — 3 of 10 impacts were direct hits (miss_m: 2.1 m, 7.5 m, 8.1 m), demonstrating solid weapon employment when the solution was dialled in."
-    },
-    {
-     "op": "op-37766af98ef2",
-     "date": "2026-11-12",
-     "name": "vFS F-16 Staffeltraining",
-     "types": [
-      "CCIP",
-      "CAS",
-      "FORMATION"
-     ],
-     "training": false,
-     "score": 40.0,
-     "grade": "F",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 0,
-     "highlight": ""
-    },
-    {
-     "op": "op-e479fd5da400",
-     "date": "2026-11-11",
-     "name": "Strafe · 19:22Z",
-     "types": [
-      "STRAFE",
-      "SEAD"
-     ],
-     "training": true,
-     "score": 58.0,
-     "grade": "C",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 98,
-     "highlight": "AGM-65F SEAD standoff: 3 hits in slot 2 (CPAs 110 m @ 7 nm, 50 m @ 9.8 nm, 23 m @ 11 nm) — the 23 m CPA at 11 nm is the best Maverick accuracy in the session, fired at high altitude (18,752 ft) and high speed (546 kts), showing good platform energy management into the SEAD arena."
-    },
-    {
-     "op": "op-37e02481772a",
-     "date": "2026-11-10",
-     "name": "Strafe · 21:04Z",
-     "types": [
-      "STRAFE",
-      "CCIP",
-      "SEAD"
-     ],
-     "training": true,
-     "score": 62.0,
-     "grade": "C",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 58,
-     "highlight": "4 AGM-65F/E impacts across two sessions (CPAs: 65 m, 72 m, 97 m, 116 m) plus 2 AGM-65E impacts — consistent weapon delivery across multiple slots, demonstrating persistence and target-area SA."
-    },
-    {
-     "op": "op-5bb514953f4d",
-     "date": "2026-10-30",
-     "name": "Surface Attack Tactics | CAS Wheel | Dive Toss",
-     "types": [
-      "CCIP",
-      "CAS",
-      "STRAFE"
-     ],
-     "training": true,
-     "score": 42.0,
-     "grade": "F",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 77,
-     "highlight": "Dominant formation type shifted to fingertip (24% by end of sortie) — showing intent to stay in close formation during the later portion of the flight"
-    },
-    {
-     "op": "op-fb1b6102ac47",
-     "date": "2026-10-30",
-     "name": "Beyond Visual Range | Practice",
-     "types": [
-      "BVR"
-     ],
-     "training": true,
-     "score": 80.0,
-     "grade": "B",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 60,
-     "highlight": ""
-    },
-    {
-     "op": "op-2910c27004b0",
-     "date": "2026-10-26",
-     "name": "Formation Practice",
-     "types": [
-      "FORMATION",
-      "SEAD",
-      "STRAFE"
-     ],
-     "training": true,
-     "score": 82.0,
-     "grade": "B",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 84,
-     "highlight": "Final formation discipline score of 98.55 out of 100 across 5,040 tracked formation ticks — outstanding positional accuracy as wingman with fingertip dominant at 52% of total formation time, supplemented by productive echelon right (28%), route (7%), and trail (6%) coverage across 96 formation type changes."
-    },
-    {
-     "op": "op-2a7aab20934e",
-     "date": "2026-10-26",
-     "name": "Basic Fighter Maneuver",
-     "types": [
-      "BFM"
-     ],
-     "training": true,
-     "score": 60.0,
-     "grade": "D",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 0,
-     "highlight": ""
-    },
-    {
-     "op": "op-8b4461816abe",
-     "date": "2026-10-17",
-     "name": "Basic Surface Attack | Tactical Pattern",
-     "types": [
-      "CCIP"
-     ],
-     "training": true,
-     "score": 80.0,
-     "grade": "B",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 0,
-     "highlight": "No G exceedances recorded in the single telemetry sample (maxG 1.0 G) — no airframe mishandling on connection."
-    },
-    {
-     "op": "auto-pg-80a761d67d76a712d51d",
-     "date": "2026-10-16",
-     "name": "BVR practice",
-     "types": [
-      "BVR"
-     ],
-     "training": false,
-     "score": 70.0,
-     "grade": "C",
-     "air_kills": 1,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 7,
-     "highlight": "One kill event (E10713) confirmed within limited BVR sortie, showing basic employment capability."
-    },
-    {
-     "op": "auto-veaf-1791977809-2-pilot-10348",
-     "date": "2026-10-15",
-     "name": "BVR practice · Ibraheem",
-     "types": [
-      "BVR"
-     ],
-     "training": false,
-     "score": 75.0,
-     "grade": "C",
-     "air_kills": 2,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 10,
-     "highlight": "Defeated all 4 inbound AIM-120Cs with no aircraft loss, demonstrating effective defensive awareness."
-    },
-    {
-     "op": "auto-veaf-1791977809-2-pilot-9270",
-     "date": "2026-10-15",
-     "name": "CCIP practice · Ibraheem",
-     "types": [
-      "CCIP",
-      "AAR"
-     ],
-     "training": false,
-     "score": 79.5,
-     "grade": "C",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 50,
-     "highlight": "Pass 4 (bombpass:9767) achieved an estimated miss distance of 4.6 m — a near-shack result and the best of the sortie, demonstrating that [EAF] Hema can produce precise CCIP releases when pattern parameters are well-established (evidence: veaf_1791977809_2:9769, 9775)."
-    },
-    {
-     "op": "op-2c0c7f700204491a86b3924cf5637107",
-     "date": "2026-10-14",
-     "name": "Beyond Visual Range | Team Practice",
-     "types": [
-      "A-A"
-     ],
-     "training": true,
-     "score": 80.0,
-     "grade": "B",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 120,
-     "highlight": ""
-    },
-    {
-     "op": "auto-veaf-1791834878-7-pilot-5304",
-     "date": "2026-10-12",
-     "name": "TRAINING practice · Ibraheem",
-     "types": [],
-     "training": true,
-     "score": 66.25,
-     "grade": "D",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 20,
-     "highlight": "Session completed successfully with a clean session_finished outcome and no technical failure (evidence: 5554, 5555)."
-    },
-    {
-     "op": "op-798ef509be80458fa3e3aa1de500ae50",
-     "date": "2026-10-12",
-     "name": "Basic Surface Attack | Tactical Pattern",
-     "types": [
-      "BSA"
-     ],
-     "training": true,
-     "score": 80.0,
-     "grade": "B",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 29,
-     "highlight": "3 of 4 shacks (75%) — highest shack rate in the sortie"
-    },
-    {
-     "op": "op-20260903031718",
-     "date": "2026-09-03",
-     "name": "SEAD Training",
-     "types": [
-      "SEAD"
-     ],
-     "training": true,
-     "score": 69.0,
-     "grade": "A",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 0,
-     "highlight": ""
-    },
-    {
-     "op": "op-20260822211739",
-     "date": "2026-08-23",
-     "name": "SEAD Training",
-     "types": [
-      "A-A",
-      "SEAD"
-     ],
-     "training": true,
-     "score": 56.0,
-     "grade": "D",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 51,
-     "highlight": "Earliest join of the flight at 01:52 and survived the whole sortie"
-    },
-    {
-     "op": "op-20260820024133",
-     "date": "2026-08-21",
-     "name": "Tactical Turns | Formation | Overhead Break | Countermeasures Programs",
-     "types": [],
-     "training": true,
-     "score": 73.0,
-     "grade": "C",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 55,
-     "highlight": "Fastest rejoin of the flight at bestJoinSec 56s, disciplined maxG 4.0"
-    },
-    {
-     "op": "op-20260817182400",
-     "date": "2026-08-18",
-     "name": "SEAD Training | Patriot + 2x Roland",
-     "types": [],
-     "training": true,
-     "score": 91.0,
-     "grade": "A",
-     "air_kills": 0,
-     "ground_kills": 4,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 30,
-     "highlight": "Best sortie of the flight by far: 4/4 AGM-88 IMPACTS (100%) at ~6.1-6.9nm, killing the Patriot STR, M818, ECS and EPP - effectively gutted the site."
-    },
-    {
-     "op": "op-20260813184853",
-     "date": "2026-08-14",
-     "name": "SEAD TRAINING",
-     "types": [
-      "SEAD"
-     ],
-     "training": true,
-     "score": -26.0,
-     "grade": "F",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 45,
-     "highlight": "Defeated 2 of 3 inbound SAMs (66.7%), including a TorM2 CHAP shot at 17.6 km CPA"
-    },
-    {
-     "op": "op-20260813022202",
-     "date": "2026-08-13",
-     "name": "SEAD Training",
-     "types": [
-      "SEAD"
-     ],
-     "training": true,
-     "score": 10.0,
-     "grade": "D",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 27,
-     "highlight": "Defeated one inbound Pantsir SA57E6 (cpa 1682m) before going down — showed he saw the threat."
-    },
-    {
-     "op": "op-20260808212119",
-     "date": "2026-08-09",
-     "name": "Introduction to SEAD",
-     "types": [
-      "SEAD"
-     ],
-     "training": true,
-     "score": 46.0,
-     "grade": "D",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 77,
-     "highlight": "100% SAM defeat rate — both S-300 launches (SA5B55) defeated, CPA 12.1km & 14.0km"
-    },
-    {
-     "op": "op-20260805231836",
-     "date": "2026-08-07",
-     "name": "Max Range GBU Drop",
-     "types": [
-      "CCIP"
-     ],
-     "training": true,
-     "score": 98.0,
-     "grade": "C",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 71,
-     "highlight": "Continued improving trend (8 → 21 → this sortie): dominant fingertip 25%, best rejoin an impressive 5 s"
-    },
-    {
-     "op": "op-20260725210336",
-     "date": "2026-07-26",
-     "name": "Basic Surface Attack | Tactical Pattern",
-     "types": [
-      "CCIP"
-     ],
-     "training": true,
-     "score": 76.0,
-     "grade": "B",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 78,
-     "highlight": "Best formation discipline in the flight: score 89.9, fingertip 65% dominant — a genuinely tight wingman"
-    },
-    {
-     "op": "op-20260719025618",
-     "date": "2026-07-20",
-     "name": "Basic Surface Attack | Tactical Pattern",
-     "types": [
-      "CCIP"
-     ],
-     "training": true,
-     "score": 21.0,
-     "grade": "B",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 0,
-     "highlight": ""
-    },
-    {
-     "op": "op-20260716141644",
-     "date": "2026-07-19",
-     "name": "Basic Fighter Maneuver 1",
-     "types": [
-      "BFM"
-     ],
-     "training": true,
-     "score": 8.0,
-     "grade": "D",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 0,
-     "highlight": ""
-    }
-   ],
-   "logbook": {
-    "hours": 6.7,
-    "by_aircraft": {
-     "F-16C Viper": 4.5,
-     "F/A-18C Hornet": 2.2
-    },
-    "by_map": {
-     "SinaiMap": 6.7
-    },
-    "flights": 13,
-    "sorties": 11,
-    "landings": 0,
-    "landing_grades": {},
-    "landing_avg": null,
-    "traps": 0,
-    "aar_fills": 0,
-    "air_kills": 0,
-    "ground_kills": 4,
-    "deaths": 0,
-    "ejections": 0,
-    "kd": null,
-    "weapons": {},
-    "first": "2026-10-17",
-    "last": "2026-11-23"
    }
   },
   {
@@ -11102,7 +11102,7 @@
      "note": ""
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 75.0,
@@ -11290,7 +11290,7 @@
      "note": ""
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 90.0,
@@ -11528,7 +11528,7 @@
      "note": "Demonstrated Maverick precision in the attack role but killed a friendly in the SEAD arena and pulled 15.5 g — the talent is real and the discipline must match it."
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 22.0,
@@ -12281,7 +12281,7 @@
      "note": "Best avg CEP at 15.8 m with 2 shacks and clear within-sortie improvement; telemetry G spike (93.4 G) must be investigated but does not diminish an excellent bombing performance."
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 72.0,
@@ -12440,7 +12440,7 @@
    ],
    "results": [
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 100.0,
@@ -12488,7 +12488,7 @@
    ],
    "results": [
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 100.0,
@@ -12543,7 +12543,7 @@
    ],
    "results": [
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 100.0,
@@ -12715,7 +12715,7 @@
      "note": "Cleanest G-discipline of the day across 71.5 minutes, but no weapons employment and a 7 ft deck graze demand immediate answers."
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 60.0,
@@ -13072,7 +13072,7 @@
      "note": ""
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 65.0,
@@ -13180,7 +13180,7 @@
      "note": ""
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 70.0,
@@ -13288,7 +13288,7 @@
      "note": ""
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 60.0,
@@ -13508,7 +13508,7 @@
      "note": "The session's top BVR scorer whose patient, close-in shot discipline is the standard to emulate — formation discipline and BFM energy management are the gaps that keep him from being elite."
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 65.0,
@@ -14409,7 +14409,7 @@
      "note": ""
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 58.6,
@@ -14582,7 +14582,7 @@
      "note": ""
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 80.0,
@@ -15279,7 +15279,7 @@
      "note": ""
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 85.0,
@@ -15541,7 +15541,7 @@
      "note": ""
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 75.0,
@@ -15648,7 +15648,7 @@
      "note": ""
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 90.0,
@@ -15723,7 +15723,7 @@
      "note": ""
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 70.0,
@@ -15820,7 +15820,7 @@
      "note": ""
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 60.0,
@@ -16280,7 +16280,7 @@
      "note": ""
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 80.0,
@@ -16852,7 +16852,7 @@
      "note": ""
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 74.0,
@@ -16997,7 +16997,7 @@
      "note": ""
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 108.0,
@@ -17254,7 +17254,7 @@
      "note": ""
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 34.0,
@@ -17331,7 +17331,7 @@
    "teams": [],
    "results": [
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 94.0,
@@ -17855,7 +17855,7 @@
      "note": ""
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 35.0,
@@ -18004,7 +18004,7 @@
      "note": "Two shacks but two frag-floor busts and a recurring short-right bias; fix timing and altitude."
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 60.0,
@@ -18174,7 +18174,7 @@
      "note": ""
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 55.0,
@@ -18274,7 +18274,7 @@
    "teams": [],
    "results": [
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 95.0,
@@ -18624,7 +18624,7 @@
      "note": ""
     },
     {
-     "callsign": "Blacksky",
+     "callsign": "Pushmaster",
      "member": true,
      "squadron": "262 TFW",
      "score": 7.0,
