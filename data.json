@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T22:40:54+00:00",
+ "generated": "2026-11-26T22:41:54+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -1045,7 +1045,9 @@
     }
    ],
    "joined": "2026-07-28",
-   "aircraft": [],
+   "aircraft": [
+    "F/A-18C Hornet"
+   ],
    "bio": "",
    "missions": 1,
    "score": 56.0,
@@ -1100,7 +1102,26 @@
      "highlight": "Three BVR survival outcomes in competitive rounds shows solid defensive execution in those engagements."
     }
    ],
-   "logbook": null
+   "logbook": {
+    "hours": 0.0,
+    "by_aircraft": {},
+    "by_map": {},
+    "flights": 1,
+    "sorties": 0,
+    "landings": 0,
+    "landing_grades": {},
+    "landing_avg": null,
+    "traps": 0,
+    "aar_fills": 0,
+    "air_kills": 0,
+    "ground_kills": 0,
+    "deaths": 0,
+    "ejections": 0,
+    "kd": null,
+    "weapons": {},
+    "first": "2026-11-26",
+    "last": "2026-11-26"
+   }
   },
   {
    "id": "P_20260708193733_663",
@@ -7825,11 +7846,11 @@
     "insignia": "𓅪☆"
    },
    "rank_order": 10,
-   "active_days": 0,
+   "active_days": 1,
    "active_hours": 0.0,
-   "active_sorties": 0,
+   "active_sorties": 1,
    "active_ops": 0,
-   "last_active": "",
+   "last_active": "2026-11-26",
    "photo": "",
    "patches": [],
    "squadron": "",
@@ -7895,7 +7916,7 @@
     "by_aircraft": {},
     "by_map": {},
     "flights": 1,
-    "sorties": 0,
+    "sorties": 1,
     "landings": 0,
     "landing_grades": {},
     "landing_avg": null,
