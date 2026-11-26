@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T02:29:26+00:00",
+ "generated": "2026-11-26T02:30:26+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -18730,45 +18730,6 @@
    "motto": ""
   },
   {
-   "name": "232 TFW",
-   "patch": "patches/SQ_SQ_fbcde7f4ebb6-21e4ebd2.png?v=1795659724",
-   "patch_own": true,
-   "elements": [
-    "72 TFS",
-    "74 TFS"
-   ],
-   "units": [
-    {
-     "name": "72 TFS",
-     "patch": "patches/EL_SQ_fbcde7f4ebb6-bfbd2133.png?v=1795659724",
-     "patch_own": true,
-     "pilots": 0,
-     "base": "Mersa Matruh (HEMM)",
-     "aircraft": "F-16C/D Block 40 (ex Block 15)",
-     "speciality": "",
-     "motto": ""
-    },
-    {
-     "name": "74 TFS",
-     "patch": "patches/EL_SQ_fbcde7f4ebb6-fb91cb2d.png?v=1795659724",
-     "patch_own": true,
-     "pilots": 0,
-     "base": "Mersa Matruh (HEMM)",
-     "aircraft": "F-16A/B Block 15",
-     "speciality": "",
-     "motto": ""
-    }
-   ],
-   "competitive": false,
-   "pilots": 0,
-   "full_name": "",
-   "base": "Mersa Matruh (HEMM)",
-   "division": "139 Air Division",
-   "aircraft": "F-16C/D Block 40, F-16A/B Block 15",
-   "speciality": "",
-   "motto": ""
-  },
-  {
    "name": "242 TFW",
    "patch": "patches/SQ_SQ_3a3d5fccee50-16097107.png?v=1795659724",
    "patch_own": true,
@@ -18843,7 +18804,7 @@
    "base": "Abu Suwayr",
    "division": "149 Air Division",
    "aircraft": "F-16C/D Block 40",
-   "speciality": "",
+   "speciality": "SEAD / DEAD",
    "motto": ""
   },
   {
@@ -18932,7 +18893,7 @@
    "base": "Fayid",
    "division": "149 Air Division",
    "aircraft": "F-16C/D Block 40",
-   "speciality": "",
+   "speciality": "Reconnaissance / Multirole / Anti-Ship",
    "motto": ""
   },
   {
