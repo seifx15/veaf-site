@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T02:22:20+00:00",
+ "generated": "2026-11-26T02:23:21+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -18952,7 +18952,7 @@
      "pilots": 0,
      "base": "Cairo West (HECW)",
      "aircraft": "F-16C/D Block 52+",
-     "speciality": "",
+     "speciality": "Air superiority (BVR / WVR)",
      "motto": ""
     },
     {
@@ -18962,7 +18962,7 @@
      "pilots": 0,
      "base": "Cairo West (HECW)",
      "aircraft": "F-16C/D Block 52+",
-     "speciality": "",
+     "speciality": "Air superiority (BVR / WVR)",
      "motto": ""
     },
     {
