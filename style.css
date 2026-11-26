@@ -255,7 +255,7 @@ tr.top3 .pos { color: var(--dayglo); }
 [lang="ar"] .group-label { letter-spacing: 0; font-family: var(--f-body); font-size: 0.9rem; }
 
 /* --------------------------------------------------------- pilot profile */
-.profile-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 24px; align-items: end; }
+.profile-head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 480px); gap: 24px; align-items: end; }
 @media (max-width: 700px) { .profile-head { grid-template-columns: 1fr; } }
 .nameplate {
   display: inline-flex; flex-direction: column; gap: 6px; border: 1px solid var(--line); background: var(--panel);
@@ -467,11 +467,11 @@ section.nmband { background: var(--panel); }
 .su-box { margin-top: 24px; background: var(--panel); border: 1px solid var(--line); border-inline-start: 3px solid var(--dayglo); border-radius: 4px; padding: 16px 18px; }
 .su-box .h-sm { margin-top: 0; }
 .su-box p { margin: 6px 0 10px; }
-.patches { display: grid; grid-template-columns: repeat(auto-fill, minmax(124px, 1fr)); gap: 12px; margin-top: 8px; }
+.patches { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; margin-top: 8px; }
 .patch { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; padding: 12px 8px; background: var(--panel); border: 1px solid var(--line);
   border-radius: 4px; color: var(--text); text-decoration: none; }
 a.patch:hover { border-color: var(--sand); }
-.patch img { width: 96px; height: 96px; object-fit: contain; }
+.patch img { width: 120px; height: 120px; object-fit: contain; }
 .patch .nm { font: 600 0.86rem/1.25 var(--f-body); }
 .patch .sub { font-size: 0.75rem; color: var(--muted); }
 .toast { position: fixed; inset-inline: 16px; bottom: 16px; margin-inline: auto; max-width: 520px; background: var(--panel-2); border: 1px solid var(--sand); color: var(--text);
@@ -500,13 +500,20 @@ section.pushband { background: var(--panel); padding-block: 18px; }
 .lightbox img { background: #fff; }
 
 /* ---- squadron patches ---------------------------------------------------------- */
-.unit-patch { width: 104px; height: 104px; object-fit: contain; filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.45)); }
-.sqmini { display: inline-block; width: 18px; height: 18px; object-fit: contain; vertical-align: -4px; margin-inline-end: 6px; }
+/* 8.7.11: patches now fill their square (they used to sit small inside it), and the boxes are bigger */
+.unit-patches { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; flex: 1 1 100%; }
+.unit-patch { width: 140px; height: 140px; object-fit: contain; filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.45)); }
+.unit-patch.other { width: 112px; height: 112px; }
+.sqmini { display: inline-block; width: 22px; height: 22px; object-fit: contain; vertical-align: -6px; margin-inline-end: 6px; }
 .sqcard.has-patch { grid-template-columns: auto auto minmax(0, 1fr); }
 .sqcard.has-patch .sqname, .sqcard.has-patch .sqline { grid-column: 3; }
-.sqcard .sqp { grid-row: span 2; width: 44px; height: 44px; object-fit: contain; align-self: center; }
+.sqcard .sqp { grid-row: span 2; width: 60px; height: 60px; object-fit: contain; align-self: center; }
 .plate .sqn .el { color: var(--sand); font-weight: 600; white-space: nowrap; }
-.unit-patch.el-patch { width: 84px; height: 84px; }
+.unit-patch.el-patch { width: 104px; height: 104px; }
+@media (max-width: 560px) {
+  .unit-patch { width: 104px; height: 104px; }
+  .unit-patch.other, .unit-patch.el-patch { width: 88px; height: 88px; }
+}
 .chip .sqmini { vertical-align: -4px; }
 
 /* 8.7.2 order of battle: a wing per card, its squadrons listed with patch, base and speciality */
@@ -515,7 +522,7 @@ section.pushband { background: var(--panel); padding-block: 18px; }
 .wing.comp { border-color: var(--sand); }
 .wing header { display: flex; gap: 12px; align-items: center; margin-bottom: 8px; }
 .wing h3 { margin: 0; font: 800 1.35rem/1.1 var(--f-display); letter-spacing: 0.02em; }
-.wpatch { width: 64px; height: 64px; object-fit: contain; flex: none; filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.4)); }
+.wpatch { width: 96px; height: 96px; object-fit: contain; flex: none; filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.4)); }
 .wfull, .wdiv { font-size: 0.8rem; color: var(--muted); }
 .wcomp { font-size: 0.8rem; color: var(--sand); font-weight: 700; }
 .ofacts { display: flex; flex-wrap: wrap; gap: 2px 14px; font-size: 0.82rem; color: var(--muted); }
@@ -523,9 +530,9 @@ section.pushband { background: var(--panel); padding-block: 18px; }
 .ofacts .spec b { color: var(--sand); }
 .wing .motto { margin: 6px 0 0; font-size: 0.82rem; font-style: italic; color: var(--muted); }
 .units { list-style: none; margin: 10px 0 0; padding: 0; border-top: 1px solid var(--line); }
-.units li { display: flex; gap: 10px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.units li { display: flex; gap: 12px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--line); }
 .units li:last-child { border-bottom: 0; }
-.upatch { width: 40px; height: 40px; object-fit: contain; flex: none; }
+.upatch { width: 64px; height: 64px; object-fit: contain; flex: none; }
 .upatch.none { display: inline-block; border: 1px dashed var(--line); border-radius: 50%; }
 .uname { font-weight: 700; }
 .ucount { font: 500 0.75rem/1 var(--f-mono); color: var(--muted); margin-inline-start: 6px; }

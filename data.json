@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T17:15:12+00:00",
+ "generated": "2026-11-26T17:16:25+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -36,6 +36,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-08",
@@ -77,32 +78,33 @@
    "photo": "https://veaf-app.veaf-2ff4d6.workers.dev/photo/P_20260708193733_285?v=1794279024",
    "patches": [],
    "squadron": "EFWS \"THE MASTERS\"",
-   "squadron_patch": "patches/SQ_SQ_50588de3e1ba-0d5d209c.png?v=1795659724",
+   "squadron_patch": "patches/SQ_SQ_50588de3e1ba-0d5d209c.png?v=1795713382",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [
     {
      "name": "SILVER STARS AEROBATICS",
      "squadron": "201 AW AIRFORCE ACADEMY",
-     "image": "patches/EL_SQ_835054b42052-39c66d8a.png?v=1795659724",
+     "image": "patches/EL_SQ_835054b42052-39c66d8a.png?v=1795713381",
      "until": "2026-11-26"
     },
     {
      "name": "EFWS \"BLACK ACES\"",
      "squadron": "EFWS \"THE MASTERS\"",
-     "image": "patches/EL_SQ_50588de3e1ba-ca57eb8f.png?v=1795659724",
+     "image": "patches/EL_SQ_50588de3e1ba-ca57eb8f.png?v=1795713381",
      "until": "2026-11-26"
     }
    ],
    "former_squadron_patches": [
     {
      "name": "201 AW AIRFORCE ACADEMY",
-     "image": "patches/SQ_SQ_835054b42052-4741c4f4.png?v=1795659724",
+     "image": "patches/SQ_SQ_835054b42052-4741c4f4.png?v=1795713383",
      "until": "2026-11-26"
     },
     {
      "name": "272 TFW Jyanklis",
-     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1795713382",
      "until": "2026-11-24"
     }
    ],
@@ -1037,11 +1039,12 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [
     {
      "name": "272 TFW Jyanklis",
-     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1795713382",
      "until": "2026-11-24"
     }
    ],
@@ -1124,11 +1127,12 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [
     {
      "name": "272 TFW Jyanklis",
-     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1795713382",
      "until": "2026-11-24"
     }
    ],
@@ -1729,21 +1733,22 @@
    },
    "rank_order": 6,
    "active_days": 5,
-   "active_hours": 4.1,
-   "active_sorties": 6,
+   "active_hours": 4.2,
+   "active_sorties": 7,
    "active_ops": 6,
    "last_active": "2026-11-26",
    "photo": "",
    "patches": [],
    "squadron": "262 TFW",
-   "squadron_patch": "patches/SQ_SQ_285ab6b262cb-77172fe3.png?v=1795659724",
+   "squadron_patch": "patches/SQ_SQ_285ab6b262cb-77172fe3.png?v=1795713382",
    "element": "64 TFS \"TIGERS\"",
-   "element_patch": "patches/EL_SQ_285ab6b262cb-4dd701ff.png?v=1795659724",
+   "element_patch": "patches/EL_SQ_285ab6b262cb-4dd701ff.png?v=1795713380",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [
     {
      "name": "272 TFW Jyanklis",
-     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1795713382",
      "until": "2026-11-24"
     }
    ],
@@ -2352,7 +2357,7 @@
     }
    ],
    "logbook": {
-    "hours": 4.1,
+    "hours": 4.2,
     "by_aircraft": {
      "F-16C Viper": 4.0,
      "AH-64D Apache": 0.1
@@ -2361,8 +2366,8 @@
      "SinaiMap": 3.3,
      "?": 0.8
     },
-    "flights": 8,
-    "sorties": 6,
+    "flights": 9,
+    "sorties": 7,
     "landings": 0,
     "landing_grades": {},
     "landing_avg": null,
@@ -2370,7 +2375,7 @@
     "aar_fills": 0,
     "air_kills": 0,
     "ground_kills": 0,
-    "deaths": 3,
+    "deaths": 4,
     "ejections": 0,
     "kd": 0.0,
     "weapons": {
@@ -2404,11 +2409,12 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [
     {
      "name": "272 TFW Jyanklis",
-     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1795713382",
      "until": "2026-11-24"
     }
    ],
@@ -2673,14 +2679,15 @@
    "photo": "",
    "patches": [],
    "squadron": "292 TFW \"EGYPT SNIPER\"",
-   "squadron_patch": "patches/SQ_SQ_a134c142b01c-6d92dcc5.png?v=1795659724",
+   "squadron_patch": "patches/SQ_SQ_a134c142b01c-6d92dcc5.png?v=1795713383",
    "element": "97 TFS \"PHARAOHS\"",
-   "element_patch": "patches/EL_SQ_a134c142b01c-7e8fbe20.png?v=1795659724",
+   "element_patch": "patches/EL_SQ_a134c142b01c-7e8fbe20.png?v=1795713382",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [
     {
      "name": "272 TFW Jyanklis",
-     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1795713382",
      "until": "2026-11-24"
     }
    ],
@@ -3103,26 +3110,27 @@
    "photo": "",
    "patches": [],
    "squadron": "272 TFW",
-   "squadron_patch": "patches/SQ_SQ_46124a9f2a37-d96e619e.png?v=1795659724",
+   "squadron_patch": "patches/SQ_SQ_46124a9f2a37-d96e619e.png?v=1795713382",
    "element": "75 TFS \"VIPERS\"",
-   "element_patch": "patches/EL_SQ_46124a9f2a37-4033ef39.png?v=1795659724",
+   "element_patch": "patches/EL_SQ_46124a9f2a37-4033ef39.png?v=1795713381",
+   "also": [],
    "former_element_patches": [
     {
      "name": "68 TFS \"DRAGONS\"",
      "squadron": "242 TFW",
-     "image": "patches/EL_SQ_3a3d5fccee50-ba8695e9.png?v=1795659724",
+     "image": "patches/EL_SQ_3a3d5fccee50-ba8695e9.png?v=1795713381",
      "until": "2026-11-26"
     }
    ],
    "former_squadron_patches": [
     {
      "name": "242 TFW",
-     "image": "patches/SQ_SQ_3a3d5fccee50-16097107.png?v=1795659724",
+     "image": "patches/SQ_SQ_3a3d5fccee50-16097107.png?v=1795713382",
      "until": "2026-11-26"
     },
     {
      "name": "272 TFW Jyanklis",
-     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1795713382",
      "until": "2026-11-24"
     }
    ],
@@ -4009,11 +4017,12 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [
     {
      "name": "272 TFW Jyanklis",
-     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1795713382",
      "until": "2026-11-24"
     }
    ],
@@ -4212,6 +4221,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-10-28",
@@ -4256,6 +4266,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-08",
@@ -4297,9 +4308,10 @@
    "photo": "",
    "patches": [],
    "squadron": "242 TFW",
-   "squadron_patch": "patches/SQ_SQ_3a3d5fccee50-16097107.png?v=1795659724",
+   "squadron_patch": "patches/SQ_SQ_3a3d5fccee50-16097107.png?v=1795713382",
    "element": "68 TFS \"DRAGONS\"",
-   "element_patch": "patches/EL_SQ_3a3d5fccee50-ba8695e9.png?v=1795659724",
+   "element_patch": "patches/EL_SQ_3a3d5fccee50-ba8695e9.png?v=1795713381",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-08",
@@ -4600,11 +4612,12 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [
     {
      "name": "272 TFW Jyanklis",
-     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1795713382",
      "until": "2026-11-24"
     }
    ],
@@ -5030,6 +5043,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-08",
@@ -5074,6 +5088,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-27",
@@ -5118,6 +5133,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-09-25",
@@ -5162,6 +5178,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-09-25",
@@ -5265,6 +5282,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-11-05",
@@ -5501,11 +5519,12 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [
     {
      "name": "272 TFW Jyanklis",
-     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1795713382",
      "until": "2026-11-24"
     }
    ],
@@ -5944,6 +5963,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-09-22",
@@ -5988,6 +6008,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-08",
@@ -6032,6 +6053,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-09-05",
@@ -6076,6 +6098,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-08",
@@ -6150,6 +6173,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-08",
@@ -6214,6 +6238,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-09-04",
@@ -6278,6 +6303,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-08",
@@ -6322,6 +6348,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-08",
@@ -6366,6 +6393,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-12",
@@ -6516,6 +6544,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-08",
@@ -6560,6 +6589,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-09-25",
@@ -6604,6 +6634,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-08",
@@ -6648,11 +6679,12 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [
     {
      "name": "272 TFW Jyanklis",
-     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1795713382",
      "until": "2026-11-24"
     }
    ],
@@ -6698,6 +6730,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-08-02",
@@ -6742,6 +6775,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-08-30",
@@ -6810,6 +6844,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-08",
@@ -6854,11 +6889,12 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [
     {
      "name": "272 TFW Jyanklis",
-     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1795713382",
      "until": "2026-11-24"
     }
    ],
@@ -7121,6 +7157,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-27",
@@ -7165,6 +7202,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-08",
@@ -7209,6 +7247,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-08-02",
@@ -7253,6 +7292,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-08",
@@ -7297,6 +7337,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-08",
@@ -7341,6 +7382,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-08-29",
@@ -7409,6 +7451,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-08",
@@ -7453,11 +7496,12 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [
     {
      "name": "272 TFW Jyanklis",
-     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1795713382",
      "until": "2026-11-24"
     }
    ],
@@ -7708,6 +7752,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-26",
@@ -7752,6 +7797,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-08",
@@ -7826,6 +7872,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-08",
@@ -7870,6 +7917,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-11-04",
@@ -7914,6 +7962,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-09-25",
@@ -7958,6 +8007,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-11-04",
@@ -8358,11 +8408,12 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [
     {
      "name": "272 TFW Jyanklis",
-     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1795713382",
      "until": "2026-11-24"
     }
    ],
@@ -8408,6 +8459,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-10-17",
@@ -8452,6 +8504,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-16",
@@ -8496,11 +8549,12 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [
     {
      "name": "272 TFW Jyanklis",
-     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1795713382",
      "until": "2026-11-24"
     }
    ],
@@ -8597,11 +8651,12 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [
     {
      "name": "272 TFW Jyanklis",
-     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1795713382",
      "until": "2026-11-24"
     }
    ],
@@ -8647,6 +8702,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-10-16",
@@ -8691,6 +8747,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-11-03",
@@ -8845,6 +8902,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-09-25",
@@ -8889,6 +8947,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-11-08",
@@ -8933,6 +8992,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-11-17",
@@ -9139,6 +9199,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-11-05",
@@ -9183,6 +9244,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-09-27",
@@ -9227,6 +9289,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-08-06",
@@ -9271,6 +9334,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-09-03",
@@ -9315,6 +9379,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-11-08",
@@ -9359,6 +9424,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-11-04",
@@ -9403,6 +9469,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-11-05",
@@ -9447,6 +9514,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-10-09",
@@ -9491,11 +9559,12 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [
     {
      "name": "272 TFW Jyanklis",
-     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1794279129",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1795713382",
      "until": "2026-11-24"
     }
    ],
@@ -9541,6 +9610,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-08",
@@ -9585,6 +9655,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-10-17",
@@ -9629,6 +9700,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-11-08",
@@ -9673,6 +9745,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-11-05",
@@ -9717,6 +9790,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-10-05",
@@ -9761,6 +9835,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-09-25",
@@ -9805,6 +9880,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-10-26",
@@ -9849,6 +9925,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-11-05",
@@ -9893,6 +9970,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-09-25",
@@ -9937,6 +10015,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-11-05",
@@ -9981,6 +10060,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-11-05",
@@ -10025,6 +10105,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-08-07",
@@ -10069,6 +10150,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-08-08",
@@ -10113,6 +10195,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-11-05",
@@ -10157,6 +10240,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-10-14",
@@ -10201,6 +10285,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-08",
@@ -10245,6 +10330,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-10-06",
@@ -10289,6 +10375,7 @@
    "squadron_patch": "",
    "element": "",
    "element_patch": "",
+   "also": [],
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-10-06",
@@ -18789,7 +18876,7 @@
  "squadrons": [
   {
    "name": "201 AW AIRFORCE ACADEMY",
-   "patch": "patches/SQ_SQ_835054b42052-4741c4f4.png?v=1795659724",
+   "patch": "patches/SQ_SQ_835054b42052-4741c4f4.png?v=1795713383",
    "patch_own": true,
    "elements": [
     "28 SQUADRON",
@@ -18798,7 +18885,7 @@
    "units": [
     {
      "name": "28 SQUADRON",
-     "patch": "patches/SQ_SQ_835054b42052-4741c4f4.png?v=1795659724",
+     "patch": "patches/SQ_SQ_835054b42052-4741c4f4.png?v=1795713383",
      "patch_own": false,
      "pilots": 0,
      "base": "Bilbeis",
@@ -18808,7 +18895,7 @@
     },
     {
      "name": "SILVER STARS AEROBATICS",
-     "patch": "patches/EL_SQ_835054b42052-39c66d8a.png?v=1795659724",
+     "patch": "patches/EL_SQ_835054b42052-39c66d8a.png?v=1795713381",
      "patch_own": true,
      "pilots": 0,
      "base": "El Minya",
@@ -18828,7 +18915,7 @@
   },
   {
    "name": "242 TFW",
-   "patch": "patches/SQ_SQ_3a3d5fccee50-16097107.png?v=1795659724",
+   "patch": "patches/SQ_SQ_3a3d5fccee50-16097107.png?v=1795713382",
    "patch_own": true,
    "elements": [
     "68 TFS \"DRAGONS\"",
@@ -18837,7 +18924,7 @@
    "units": [
     {
      "name": "68 TFS \"DRAGONS\"",
-     "patch": "patches/EL_SQ_3a3d5fccee50-ba8695e9.png?v=1795659724",
+     "patch": "patches/EL_SQ_3a3d5fccee50-ba8695e9.png?v=1795713381",
      "patch_own": true,
      "pilots": 1,
      "base": "Aswan (HESN)",
@@ -18847,7 +18934,7 @@
     },
     {
      "name": "70 TFS \"PANTHERS\"",
-     "patch": "patches/EL_SQ_3a3d5fccee50-d54c2924.png?v=1795659724",
+     "patch": "patches/EL_SQ_3a3d5fccee50-d54c2924.png?v=1795713381",
      "patch_own": true,
      "pilots": 0,
      "base": "Beni Suef (HEBS)",
@@ -18867,7 +18954,7 @@
   },
   {
    "name": "262 TFW",
-   "patch": "patches/SQ_SQ_285ab6b262cb-77172fe3.png?v=1795659724",
+   "patch": "patches/SQ_SQ_285ab6b262cb-77172fe3.png?v=1795713382",
    "patch_own": true,
    "elements": [
     "60 TFS",
@@ -18876,7 +18963,7 @@
    "units": [
     {
      "name": "60 TFS",
-     "patch": "patches/EL_SQ_285ab6b262cb-d59c9796.png?v=1795659724",
+     "patch": "patches/EL_SQ_285ab6b262cb-d59c9796.png?v=1795713381",
      "patch_own": true,
      "pilots": 0,
      "base": "Abu Suwayr",
@@ -18886,7 +18973,7 @@
     },
     {
      "name": "64 TFS \"TIGERS\"",
-     "patch": "patches/EL_SQ_285ab6b262cb-4dd701ff.png?v=1795659724",
+     "patch": "patches/EL_SQ_285ab6b262cb-4dd701ff.png?v=1795713380",
      "patch_own": true,
      "pilots": 1,
      "base": "Abu Suwayr",
@@ -18906,7 +18993,7 @@
   },
   {
    "name": "272 TFW",
-   "patch": "patches/SQ_SQ_46124a9f2a37-d96e619e.png?v=1795659724",
+   "patch": "patches/SQ_SQ_46124a9f2a37-d96e619e.png?v=1795713382",
    "patch_own": true,
    "elements": [
     "75 TFS \"VIPERS\"",
@@ -18916,7 +19003,7 @@
    "units": [
     {
      "name": "75 TFS \"VIPERS\"",
-     "patch": "patches/EL_SQ_46124a9f2a37-4033ef39.png?v=1795659724",
+     "patch": "patches/EL_SQ_46124a9f2a37-4033ef39.png?v=1795713381",
      "patch_own": true,
      "pilots": 1,
      "base": "Gianaclis (Jiyanklis)",
@@ -18926,7 +19013,7 @@
     },
     {
      "name": "77 TFS \"FIGHTING BATS\"",
-     "patch": "patches/EL_SQ_46124a9f2a37-c967e483.png?v=1795659724",
+     "patch": "patches/EL_SQ_46124a9f2a37-c967e483.png?v=1795713381",
      "patch_own": true,
      "pilots": 0,
      "base": "Gianaclis (Jiyanklis)",
@@ -18936,7 +19023,7 @@
     },
     {
      "name": "79 TFS",
-     "patch": "patches/EL_SQ_46124a9f2a37-07653dee.png?v=1795659724",
+     "patch": "patches/EL_SQ_46124a9f2a37-07653dee.png?v=1795713381",
      "patch_own": true,
      "pilots": 0,
      "base": "Gianaclis (Jiyanklis)",
@@ -18956,7 +19043,7 @@
   },
   {
    "name": "282 TFW",
-   "patch": "patches/SQ_SQ_947377e2aeee-7ba3ad50.png?v=1795659724",
+   "patch": "patches/SQ_SQ_947377e2aeee-7ba3ad50.png?v=1795713383",
    "patch_own": true,
    "elements": [
     "86 TFS \"ASSASSINS\"",
@@ -18965,7 +19052,7 @@
    "units": [
     {
      "name": "86 TFS \"ASSASSINS\"",
-     "patch": "patches/EL_SQ_947377e2aeee-9aeb9807.png?v=1795659724",
+     "patch": "patches/EL_SQ_947377e2aeee-9aeb9807.png?v=1795713381",
      "patch_own": true,
      "pilots": 0,
      "base": "Fayid",
@@ -18975,7 +19062,7 @@
     },
     {
      "name": "88 TFS \"KNIGHTS\"",
-     "patch": "patches/EL_SQ_947377e2aeee-f9521b48.png?v=1795659724",
+     "patch": "patches/EL_SQ_947377e2aeee-f9521b48.png?v=1795713382",
      "patch_own": true,
      "pilots": 0,
      "base": "Fayid",
@@ -18995,7 +19082,7 @@
   },
   {
    "name": "292 TFW \"EGYPT SNIPER\"",
-   "patch": "patches/SQ_SQ_a134c142b01c-6d92dcc5.png?v=1795659724",
+   "patch": "patches/SQ_SQ_a134c142b01c-6d92dcc5.png?v=1795713383",
    "patch_own": true,
    "elements": [
     "95 TFS \"AGGRESSORS\"",
@@ -19005,7 +19092,7 @@
    "units": [
     {
      "name": "95 TFS \"AGGRESSORS\"",
-     "patch": "patches/EL_SQ_a134c142b01c-80cde216.png?v=1795659724",
+     "patch": "patches/EL_SQ_a134c142b01c-80cde216.png?v=1795713382",
      "patch_own": true,
      "pilots": 0,
      "base": "Cairo West (HECW)",
@@ -19015,7 +19102,7 @@
     },
     {
      "name": "97 TFS \"PHARAOHS\"",
-     "patch": "patches/EL_SQ_a134c142b01c-7e8fbe20.png?v=1795659724",
+     "patch": "patches/EL_SQ_a134c142b01c-7e8fbe20.png?v=1795713382",
      "patch_own": true,
      "pilots": 1,
      "base": "Cairo West (HECW)",
@@ -19025,7 +19112,7 @@
     },
     {
      "name": "BIR JIFJAFA DETACHMENT",
-     "patch": "patches/SQ_SQ_a134c142b01c-6d92dcc5.png?v=1795659724",
+     "patch": "patches/SQ_SQ_a134c142b01c-6d92dcc5.png?v=1795713383",
      "patch_own": false,
      "pilots": 0,
      "base": "Bir Jifjafa / Malez AB",
@@ -19045,7 +19132,7 @@
   },
   {
    "name": "EFWS \"THE MASTERS\"",
-   "patch": "patches/SQ_SQ_50588de3e1ba-0d5d209c.png?v=1795659724",
+   "patch": "patches/SQ_SQ_50588de3e1ba-0d5d209c.png?v=1795713382",
    "patch_own": true,
    "elements": [
     "EFWS \"BLACK ACES\""
@@ -19053,7 +19140,7 @@
    "units": [
     {
      "name": "EFWS \"BLACK ACES\"",
-     "patch": "patches/EL_SQ_50588de3e1ba-ca57eb8f.png?v=1795659724",
+     "patch": "patches/EL_SQ_50588de3e1ba-ca57eb8f.png?v=1795713381",
      "patch_own": true,
      "pilots": 0,
      "base": "Cairo West (HECW)",

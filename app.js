@@ -398,10 +398,18 @@
   }
 
   var rosterFilter = { ac: "", sq: "", el: "", q: "" };
+  // 8.7.11: a pilot's home squadron first, then the other squadrons they fly with
+  function sqList(p) {
+    return (p.squadron ? [{ squadron: p.squadron, element: p.element, squadron_patch: p.squadron_patch, element_patch: p.element_patch }] : []).concat(p.also || []);
+  }
+  function inSq(p, sq) { return !sq || sqList(p).some(function (x) { return x.squadron === sq; }); }
+  function hasEl(p, sq, el) { return sqList(p).some(function (x) { return (!sq || x.squadron === sq) && x.element === el; }); }
   function elementChips() {
     var seen = [], ps = (DATA && DATA.pilots) || [];
     ps.forEach(function (p) {
-      if (p.element && (!rosterFilter.sq || p.squadron === rosterFilter.sq) && seen.indexOf(p.element) < 0) seen.push(p.element);
+      sqList(p).forEach(function (x) {
+        if (x.element && (!rosterFilter.sq || x.squadron === rosterFilter.sq) && seen.indexOf(x.element) < 0) seen.push(x.element);
+      });
     });
     // squadron order of elements when known
     var order = [];
@@ -412,7 +420,7 @@
     return '<div class="filters" role="group" aria-label="' + esc(t("element")) + '"><button class="chip" type="button" data-el="" aria-pressed="' + (!rosterFilter.el) + '">' +
       esc(t("all_elements")) + "</button>" + seen.map(function (e) {
         var ep = "";
-        ps.forEach(function (p) { if (!ep && p.element === e && p.element_patch) ep = p.element_patch; });
+        ps.forEach(function (p) { sqList(p).forEach(function (x) { if (!ep && x.element === e && x.element_patch) ep = x.element_patch; }); });
         return '<button class="chip" type="button" data-el="' + esc(e) + '" aria-pressed="' + (rosterFilter.el === e) + '">' +
           (ep ? '<img class="sqmini" src="' + esc(ep) + '" alt="" width="18" height="18">' : "") + esc(e) + "</button>";
       }).join("") + "</div>";
@@ -429,12 +437,12 @@
     }
     return '<section class="band"><div class="wrap"><h2>' + esc(t("orbat_h")) + '</h2><p class="intro">' + esc(t("orbat_intro")) + '</p><div class="orbat">' +
       qs.map(function (q) {
-        return '<article class="wing' + (q.competitive ? " comp" : "") + '"><header>' + (q.patch ? '<img class="wpatch" src="' + esc(q.patch) + '" alt="" width="64" height="64" loading="lazy">' : "") +
+        return '<article class="wing' + (q.competitive ? " comp" : "") + '"><header>' + (q.patch ? '<img class="wpatch" src="' + esc(q.patch) + '" alt="" width="96" height="96" loading="lazy">' : "") +
           '<div><h3>' + esc(q.name) + "</h3>" + (q.full_name ? '<div class="wfull">' + esc(q.full_name) + "</div>" : "") +
           (q.competitive ? '<div class="wcomp">★ ' + esc(t("o_comp")) + "</div>" : "") + (q.division ? '<div class="wdiv">' + esc(q.division) + "</div>" : "") + "</div></header>" +
           facts(q) + (q.motto ? '<p class="motto">“' + esc(q.motto) + "”</p>" : "") +
           ((q.units || []).length ? '<ul class="units">' + q.units.map(function (u) {
-            return "<li>" + (u.patch ? '<img class="upatch" src="' + esc(u.patch) + '" alt="" width="40" height="40" loading="lazy">' : '<span class="upatch none"></span>') +
+            return "<li>" + (u.patch ? '<img class="upatch" src="' + esc(u.patch) + '" alt="" width="64" height="64" loading="lazy">' : '<span class="upatch none"></span>') +
               '<div><div class="uname">' + esc(u.name) + (u.pilots ? ' <span class="ucount">' + fmt(u.pilots) + " " + esc(t("o_pilots")) + "</span>" : "") + "</div>" +
               facts(u) + (u.motto ? '<p class="motto">“' + esc(u.motto) + "”</p>" : "") + "</div></li>";
           }).join("") + "</ul>" : "") + "</article>";
@@ -449,7 +457,7 @@
         return '<button class="chip" type="button" data-ac="' + esc(a) + '" aria-pressed="' + (rosterFilter.ac === a) + '">' + esc(a) + "</button>";
       }).join("");
     var sqs = {};
-    ps.forEach(function (p) { if (p.squadron) sqs[p.squadron] = 1; });
+    ps.forEach(function (p) { sqList(p).forEach(function (x) { if (x.squadron) sqs[x.squadron] = 1; }); });
     var sqChips = Object.keys(sqs).length > 1 ? '<div class="filters" role="group" aria-label="' + esc(t("c_squadron")) + '"><button class="chip" type="button" data-sq="" aria-pressed="' + (!rosterFilter.sq) + '">' +
       esc(t("all_squadrons")) + "</button>" + Object.keys(sqs).sort().map(function (q) {
         return '<button class="chip" type="button" data-sq="' + esc(q) + '" aria-pressed="' + (rosterFilter.sq === q) + '">' + esc(q) + "</button>";
@@ -463,7 +471,7 @@
     if (!box) return;
     var q = rosterFilter.q.trim().toLowerCase();
     var ps = ((DATA && DATA.pilots) || []).filter(function (p) {
-      return (!rosterFilter.sq || p.squadron === rosterFilter.sq) && (!rosterFilter.el || p.element === rosterFilter.el) && (!rosterFilter.ac || (p.aircraft || []).indexOf(rosterFilter.ac) >= 0) && (!q || String(p.callsign).toLowerCase().indexOf(q) >= 0);
+      return inSq(p, rosterFilter.sq) && (!rosterFilter.el || hasEl(p, rosterFilter.sq, rosterFilter.el)) && (!rosterFilter.ac || (p.aircraft || []).indexOf(rosterFilter.ac) >= 0) && (!q || String(p.callsign).toLowerCase().indexOf(q) >= 0);
     });
     if (!ps.length) { box.innerHTML = '<p class="empty">' + esc(t("no_pilots")) + "</p>"; return; }
     var html = "", last = null;
@@ -471,7 +479,7 @@
       var g = rankName(p.rank);
       if (g !== last) { if (last !== null) html += "</div>"; html += '<div class="group-label">' + esc(g) + (p.rank && p.rank.insignia ? ' · <span class="ins">' + esc(p.rank.insignia) + "</span>" : "") + '</div><div class="roster">'; last = g; }
       html += '<a class="plate" href="#pilot-' + slug(p.callsign) + '">' + avatar(p) + '<span class="who"><div class="cs">' + esc(p.callsign) +
-        '</div><div class="rk">' + esc(rankName(p.rank)) + '</div>' + (p.squadron ? '<div class="sqn">' + (p.squadron_patch ? '<img class="sqmini" src="' + esc(p.squadron_patch) + '" alt="" width="18" height="18" loading="lazy">' : "") + esc(p.squadron) + (p.element ? ' · <span class="el">' + (p.element_patch ? '<img class="sqmini" src="' + esc(p.element_patch) + '" alt="" width="18" height="18" loading="lazy">' : "") + esc(p.element) + "</span>" : "") + "</div>" : "") + '<div class="ac">' + esc((p.aircraft || []).join(" · ") || "–") + "</div></span></a>";
+        '</div><div class="rk">' + esc(rankName(p.rank)) + '</div>' + sqList(p).map(function (x) { return '<div class="sqn">' + (x.squadron_patch ? '<img class="sqmini" src="' + esc(x.squadron_patch) + '" alt="" width="22" height="22" loading="lazy">' : "") + esc(x.squadron) + (x.element ? ' · <span class="el">' + (x.element_patch ? '<img class="sqmini" src="' + esc(x.element_patch) + '" alt="" width="22" height="22" loading="lazy">' : "") + esc(x.element) + "</span>" : "") + "</div>"; }).join("") + '<div class="ac">' + esc((p.aircraft || []).join(" · ") || "–") + "</div></span></a>";
     });
     box.innerHTML = html + "</div>";
   }
@@ -512,7 +520,7 @@
     var cards = st.filter(function (s) { return s.name; }).map(function (s, i) {
       var sp = sqPatch(s.name);
       return '<button type="button" class="sqcard' + (sp ? " has-patch" : "") + (boardSq === s.name ? " on" : "") + '" data-bsq="' + esc(s.name) + '"><span class="sqpos">' + (i + 1) + "</span>" +
-        (sp ? '<img class="sqp" src="' + esc(sp) + '" alt="" width="44" height="44" loading="lazy">' : "") + '<span class="sqname">' + esc(s.name) +
+        (sp ? '<img class="sqp" src="' + esc(sp) + '" alt="" width="60" height="60" loading="lazy">' : "") + '<span class="sqname">' + esc(s.name) +
         '</span><span class="sqline"><b>' + fmt(s.score, 0) + "</b> " + esc(t("c_score")) + " · " + fmt(s.pilots) + " " + esc(t("pilots_word")) + " · " + fmt(s.missions) + " " + esc(t("sorties_word")) +
         " · " + fmt(s.hours, 0) + " h</span></button>";
     }).join("");
@@ -530,7 +538,7 @@
     var box = document.getElementById("board");
     if (!box) return;
     var all = boardList();
-    var ps = all.filter(function (p) { return boardSq === "*" || (boardSq === "-" ? !p.squadron : p.squadron === boardSq); });
+    var ps = all.filter(function (p) { return boardSq === "*" || (boardSq === "-" ? !p.squadron : inSq(p, boardSq)); });
     var activeView = boardSort === "active_days" || boardSort === "active_hours";
     if (activeView) ps = ps.filter(function (p) { return (Number(p.active_days) || 0) > 0 || (Number(p.active_hours) || 0) > 0; });
     var modes = '<div class="filters" role="group" aria-label="' + esc(t("rank_by")) + '"><button class="chip" type="button" data-sort="score" aria-pressed="' + (!activeView) + '">' +
@@ -701,7 +709,15 @@
     var place = boardList().indexOf(p) + 1;
     var plate = '<div class="nameplate"><span class="cs">' + esc(p.callsign) + '</span><span class="rankline">' + (r.ar ? '<span class="ar" lang="ar">' + esc(r.ar) + "</span>" : "") +
       (r.en && r.en !== r.ar ? "<span>" + esc(r.en) + "</span>" : "") + (r.insignia ? '<span class="ins">' + esc(r.insignia) + "</span>" : "") + "</span></div>";
-    var meta = '<ul class="facts">' + [["c_squadron", p.squadron], ["element", p.element], ["flies", (p.aircraft || []).join(" · ")], ["joined", p.joined], ["last_flown", p.last_flown],
+    var memb = sqList(p);
+    // each wing and each element once, home first (a pilot can be in two squadrons of one wing)
+    var wings = [], els = [];
+    memb.forEach(function (x) {
+      if (x.squadron && !wings.some(function (w) { return w.name === x.squadron; })) wings.push({ name: x.squadron, image: x.squadron_patch });
+      if (x.element && !els.some(function (e) { return e.name === x.element; })) els.push({ name: x.element, image: x.element_patch });
+    });
+    var meta = '<ul class="facts">' + [["c_squadron", wings.map(function (w) { return w.name; }).join(" · ")],
+      ["element", els.map(function (e) { return e.name; }).join(" · ")], ["flies", (p.aircraft || []).join(" · ")], ["joined", p.joined], ["last_flown", p.last_flown],
       ["board_place", place ? "#" + place + " / " + ((DATA && DATA.pilots) || []).length : ""]].filter(function (x) { return x[1]; }).map(function (x) {
         return "<li><span>" + esc(t(x[0])) + "</span><span>" + esc(x[1]) + "</span></li>";
       }).join("") + "</ul>";
@@ -733,8 +749,8 @@
           '</td><td class="opt">' + typeTags(h) + '</td><td><span class="grade ' + esc(g) + '">' + esc(h.grade || "–") + '</span></td><td class="n">' + fmt(h.score, 1) + '</td><td class="n">' + fmt(h.air_kills) +
           '</td><td class="n">' + fmt(h.ground_kills) + '</td><td class="n opt">' + fmt(h.minutes) + "</td></tr>";
       }).join("") + "</tbody></table></div>" : '<p class="empty">' + esc(t("no_history")) + "</p>";
-    var worn = (p.squadron_patch ? [{ name: p.squadron, image: p.squadron_patch, date: t("sq_patch") }] : [])
-      .concat(p.element_patch ? [{ name: p.element, image: p.element_patch, date: t("el_patch") }] : [])
+    var worn = wings.filter(function (w) { return w.image; }).map(function (w) { return { name: w.name, image: w.image, date: t("sq_patch") }; })
+      .concat(els.filter(function (e) { return e.image; }).map(function (e) { return { name: e.name, image: e.image, date: t("el_patch") }; }))
       .concat((p.former_squadron_patches || []).map(function (f) { return { name: f.name, image: f.image, date: t("sq_former") + (f.until ? " · " + f.until : "") }; }))
       .concat((p.former_element_patches || []).map(function (f) { return { name: f.name, image: f.image, date: t("el_former") + (f.until ? " · " + f.until : "") }; }))
       .concat(p.patches || []);
@@ -755,8 +771,11 @@
         '<div class="two"><div><h2 class="h-sm">' + esc(t("lb_aircraft")) + "</h2>" + tags(lb.by_aircraft, " h") + '</div><div><h2 class="h-sm">' + esc(t("lb_maps")) + "</h2>" + tags(lb.by_map, " h") + "</div></div>" +
         (wHtml ? '<h2 class="h-sm">' + esc(t("lb_weapons")) + "</h2>" + wHtml : "");
     }
-    var unit = (p.squadron_patch ? '<img class="unit-patch" src="' + esc(p.squadron_patch) + '" alt="' + esc(p.squadron + " · " + t("sq_patch")) + '" title="' + esc(p.squadron) + '" width="104" height="104">' : "") +
-      (p.element_patch ? '<img class="unit-patch el-patch" src="' + esc(p.element_patch) + '" alt="' + esc(p.element + " · " + t("el_patch")) + '" title="' + esc(p.element) + '" width="84" height="84">' : "");
+    var unit = '<div class="unit-patches">' + wings.filter(function (w) { return w.image; }).map(function (w, i) {
+      return '<img class="unit-patch' + (i ? " other" : "") + '" src="' + esc(w.image) + '" alt="' + esc(w.name + " · " + t("sq_patch")) + '" title="' + esc(w.name) + '" width="140" height="140">';
+    }).concat(els.filter(function (e) { return e.image; }).map(function (e) {
+      return '<img class="unit-patch el-patch" src="' + esc(e.image) + '" alt="' + esc(e.name + " · " + t("el_patch")) + '" title="' + esc(e.name) + '" width="112" height="112">';
+    })).join("") + "</div>";
     return '<section class="band tight"><div class="wrap">' + back + '<div class="profile-head"><div class="ph-row">' + photoBlock(p) + plate + unit + "</div>" + meta + "</div>" + stats + lbHtml + pp +
       '<div class="two"><div><h2 class="h-sm">' + esc(t("grades_h")) + "</h2>" + grades + '<h2 class="h-sm">' + esc(t("flown_h")) + "</h2>" + (kindHtml || '<p class="muted">–</p>') +
       '<h2 class="h-sm">' + esc(t("quals_h")) + "</h2>" + qualHtml + (courses ? '<h2 class="h-sm">' + esc(t("courses_h")) + "</h2>" + courses : "") +
@@ -1000,7 +1019,7 @@
   function patchGrid(list, withOp) {
     if (!(list || []).length) return '<p class="muted">' + esc(t("no_patches")) + "</p>";
     return '<div class="patches">' + list.map(function (x) {
-      var inner = '<img src="' + esc(x.image) + '" alt="" loading="lazy" width="96" height="96"><span class="nm">' + esc(x.name) + "</span>" +
+      var inner = '<img src="' + esc(x.image) + '" alt="" loading="lazy" width="120" height="120"><span class="nm">' + esc(x.name) + "</span>" +
         (x.holders ? '<span class="sub">' + fmt(x.holders.length) + " " + esc(t("holders")) + "</span>" : x.date ? '<span class="sub mono">' + esc(x.date) + "</span>" : "");
       return withOp && x.op ? '<a class="patch" href="#op-' + esc(x.op) + '" title="' + esc(x.description || x.name) + '">' + inner + "</a>" :
         '<div class="patch" title="' + esc(x.description || x.name) + '">' + inner + "</div>";
