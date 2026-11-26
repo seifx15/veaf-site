@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T21:08:15+00:00",
+ "generated": "2026-11-26T21:09:15+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -8945,7 +8945,7 @@
      "F/A-18C Hornet": 2.4
     },
     "by_map": {
-     "SinaiMap": 1.6,
+     "SinaiMap": 1.7,
      "Caucasus": 0.7
     },
     "flights": 5,
