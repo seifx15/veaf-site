@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T16:42:46+00:00",
+ "generated": "2026-11-26T16:43:46+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -2670,10 +2670,10 @@
    "last_active": "2026-10-28",
    "photo": "",
    "patches": [],
-   "squadron": "",
-   "squadron_patch": "",
-   "element": "",
-   "element_patch": "",
+   "squadron": "292 TFW \"EGYPT SNIPER\"",
+   "squadron_patch": "patches/SQ_SQ_a134c142b01c-6d92dcc5.png?v=1795659724",
+   "element": "97 TFS \"PHARAOHS\"",
+   "element_patch": "patches/EL_SQ_a134c142b01c-7e8fbe20.png?v=1795659724",
    "former_element_patches": [],
    "former_squadron_patches": [
     {
@@ -11337,7 +11337,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -12981,7 +12981,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -13059,7 +13059,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -13152,7 +13152,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -13275,7 +13275,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -13355,7 +13355,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -13420,7 +13420,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -13546,7 +13546,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 55.0,
      "grade": "D",
      "air_kills": 1,
@@ -14453,7 +14453,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 50.0,
      "grade": "F",
      "air_kills": 2,
@@ -14937,7 +14937,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 75.0,
      "grade": "C",
      "air_kills": 0,
@@ -15266,7 +15266,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 85.0,
      "grade": "B",
      "air_kills": 0,
@@ -15466,7 +15466,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -15710,7 +15710,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -15807,7 +15807,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -15908,7 +15908,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -16399,7 +16399,7 @@
     {
      "callsign": "Mazen Sameh",
      "member": true,
-     "squadron": "",
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
      "score": 16.0,
      "grade": "C",
      "air_kills": 0,
@@ -18954,7 +18954,7 @@
      "name": "97 TFS \"PHARAOHS\"",
      "patch": "patches/EL_SQ_a134c142b01c-7e8fbe20.png?v=1795659724",
      "patch_own": true,
-     "pilots": 0,
+     "pilots": 1,
      "base": "Cairo West (HECW)",
      "aircraft": "F-16C/D Block 52+",
      "speciality": "Air superiority (BVR / WVR)",
@@ -18972,7 +18972,7 @@
     }
    ],
    "competitive": false,
-   "pilots": 0,
+   "pilots": 1,
    "full_name": "",
    "base": "Cairo West (HECW)",
    "division": "139 Air Division",
