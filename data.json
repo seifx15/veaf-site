@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T16:39:39+00:00",
+ "generated": "2026-11-26T16:40:25+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -4294,10 +4294,10 @@
    "last_active": "2026-11-17",
    "photo": "",
    "patches": [],
-   "squadron": "",
-   "squadron_patch": "",
-   "element": "",
-   "element_patch": "",
+   "squadron": "242 TFW",
+   "squadron_patch": "patches/SQ_SQ_3a3d5fccee50-16097107.png?v=1795659724",
+   "element": "68 TFS \"DRAGONS\"",
+   "element_patch": "patches/EL_SQ_3a3d5fccee50-ba8695e9.png?v=1795659724",
    "former_element_patches": [],
    "former_squadron_patches": [],
    "joined": "2026-07-08",
@@ -10939,7 +10939,7 @@
     {
      "callsign": "Kafafy",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": null,
      "grade": "-",
      "air_kills": 0,
@@ -10984,7 +10984,7 @@
     {
      "callsign": "Kafafy",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 60.0,
      "grade": "D",
      "air_kills": 0,
@@ -11684,7 +11684,7 @@
     {
      "callsign": "Kafafy",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 40.0,
      "grade": "D",
      "air_kills": 0,
@@ -12834,7 +12834,7 @@
     {
      "callsign": "Kafafy",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 78.0,
      "grade": "B",
      "air_kills": 0,
@@ -13649,7 +13649,7 @@
     {
      "callsign": "Kafafy",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 82.0,
      "grade": "B",
      "air_kills": 0,
@@ -16252,7 +16252,7 @@
     {
      "callsign": "Kafafy",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 100.0,
      "grade": "A",
      "air_kills": 0,
@@ -16727,7 +16727,7 @@
     {
      "callsign": "Kafafy",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 32.0,
      "grade": "C",
      "air_kills": 0,
@@ -17214,7 +17214,7 @@
     {
      "callsign": "Kafafy",
      "member": true,
-     "squadron": "",
+     "squadron": "242 TFW",
      "score": 74.0,
      "grade": "C",
      "air_kills": 0,
@@ -18776,7 +18776,7 @@
      "name": "68 TFS \"DRAGONS\"",
      "patch": "patches/EL_SQ_3a3d5fccee50-ba8695e9.png?v=1795659724",
      "patch_own": true,
-     "pilots": 0,
+     "pilots": 1,
      "base": "Aswan (HESN)",
      "aircraft": "F-16C/D Block 32",
      "speciality": "",
@@ -18794,7 +18794,7 @@
     }
    ],
    "competitive": false,
-   "pilots": 0,
+   "pilots": 1,
    "full_name": "",
    "base": "Beni Suef (HEBS)",
    "division": "149 Air Division",
