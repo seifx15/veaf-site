@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T02:54:38+00:00",
+ "generated": "2026-11-26T02:55:38+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -8892,7 +8892,7 @@
    "rank_order": 11,
    "active_days": 3,
    "active_hours": 2.0,
-   "active_sorties": 5,
+   "active_sorties": 6,
    "active_ops": 4,
    "last_active": "2026-11-26",
    "photo": "",
@@ -9041,7 +9041,7 @@
      "SinaiMap": 2.0
     },
     "flights": 10,
-    "sorties": 5,
+    "sorties": 6,
     "landings": 2,
     "landing_grades": {
      "D": 1,
