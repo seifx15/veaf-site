@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T17:17:27+00:00",
+ "generated": "2026-11-26T17:18:30+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -79,29 +79,25 @@
    "patches": [],
    "squadron": "EFWS \"THE MASTERS\"",
    "squadron_patch": "patches/SQ_SQ_50588de3e1ba-0d5d209c.png?v=1795713382",
-   "element": "",
-   "element_patch": "",
-   "also": [],
+   "element": "EFWS \"BLACK ACES\"",
+   "element_patch": "patches/EL_SQ_50588de3e1ba-ca57eb8f.png?v=1795713381",
+   "also": [
+    {
+     "squadron": "201 AW AIRFORCE ACADEMY",
+     "squadron_patch": "patches/SQ_SQ_835054b42052-4741c4f4.png?v=1795713383",
+     "element": "28 SQUADRON",
+     "element_patch": ""
+    }
+   ],
    "former_element_patches": [
     {
      "name": "SILVER STARS AEROBATICS",
      "squadron": "201 AW AIRFORCE ACADEMY",
      "image": "patches/EL_SQ_835054b42052-39c66d8a.png?v=1795713381",
      "until": "2026-11-26"
-    },
-    {
-     "name": "EFWS \"BLACK ACES\"",
-     "squadron": "EFWS \"THE MASTERS\"",
-     "image": "patches/EL_SQ_50588de3e1ba-ca57eb8f.png?v=1795713381",
-     "until": "2026-11-26"
     }
    ],
    "former_squadron_patches": [
-    {
-     "name": "201 AW AIRFORCE ACADEMY",
-     "image": "patches/SQ_SQ_835054b42052-4741c4f4.png?v=1795713383",
-     "until": "2026-11-26"
-    },
     {
      "name": "272 TFW Jyanklis",
      "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1795713382",
@@ -2366,7 +2362,7 @@
      "SinaiMap": 3.3,
      "?": 0.8
     },
-    "flights": 9,
+    "flights": 10,
     "sorties": 8,
     "landings": 1,
     "landing_grades": {},
@@ -18887,7 +18883,7 @@
      "name": "28 SQUADRON",
      "patch": "patches/SQ_SQ_835054b42052-4741c4f4.png?v=1795713383",
      "patch_own": false,
-     "pilots": 0,
+     "pilots": 1,
      "base": "Bilbeis",
      "aircraft": "K-8E",
      "speciality": "Basic jet training",
@@ -18905,7 +18901,7 @@
     }
    ],
    "competitive": false,
-   "pilots": 0,
+   "pilots": 1,
    "full_name": "",
    "base": "Bilbeis",
    "division": "Egyptian Air Academy",
@@ -19142,7 +19138,7 @@
      "name": "EFWS \"BLACK ACES\"",
      "patch": "patches/EL_SQ_50588de3e1ba-ca57eb8f.png?v=1795713381",
      "patch_own": true,
-     "pilots": 0,
+     "pilots": 1,
      "base": "Cairo West (HECW)",
      "aircraft": "F-16C/D (on loan from 292 TFW)",
      "speciality": "Competitive / PvP",
