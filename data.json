@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T16:33:38+00:00",
+ "generated": "2026-11-26T16:34:38+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -76,8 +76,8 @@
    "last_active": "2026-11-26",
    "photo": "https://veaf-app.veaf-2ff4d6.workers.dev/photo/P_20260708193733_285?v=1794279024",
    "patches": [],
-   "squadron": "",
-   "squadron_patch": "",
+   "squadron": "EFWS \"THE MASTERS\"",
+   "squadron_patch": "patches/SQ_SQ_50588de3e1ba-0d5d209c.png?v=1795659724",
    "element": "",
    "element_patch": "",
    "former_element_patches": [],
@@ -10388,7 +10388,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 80.0,
      "grade": "A",
      "air_kills": 0,
@@ -10653,7 +10653,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 72.0,
      "grade": "C",
      "air_kills": 0,
@@ -10888,7 +10888,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 38.0,
      "grade": "D",
      "air_kills": 0,
@@ -11247,7 +11247,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -11397,7 +11397,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 68.0,
      "grade": "C",
      "air_kills": 0,
@@ -11550,7 +11550,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 72.0,
      "grade": "C",
      "air_kills": 0,
@@ -11880,7 +11880,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 88.0,
      "grade": "A",
      "air_kills": 0,
@@ -12274,7 +12274,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 68.0,
      "grade": "C",
      "air_kills": 0,
@@ -12666,7 +12666,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 72.0,
      "grade": "C",
      "air_kills": 0,
@@ -12783,7 +12783,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 82.0,
      "grade": "B",
      "air_kills": 0,
@@ -13014,7 +13014,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -13583,7 +13583,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 85.0,
      "grade": "B",
      "air_kills": 0,
@@ -14104,7 +14104,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 78.0,
      "grade": "B",
      "air_kills": 8,
@@ -14253,7 +14253,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 75.0,
      "grade": "C",
      "air_kills": 0,
@@ -14360,7 +14360,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 59.8,
      "grade": "F",
      "air_kills": 3,
@@ -14524,7 +14524,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 80.0,
      "grade": "B",
      "air_kills": 0,
@@ -14736,7 +14736,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 80.5,
      "grade": "B",
      "air_kills": 14,
@@ -14807,7 +14807,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 70.75,
      "grade": "C",
      "air_kills": 0,
@@ -14862,7 +14862,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -15151,7 +15151,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 52.0,
      "grade": "F",
      "air_kills": 0,
@@ -15221,7 +15221,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -15336,7 +15336,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 85.95,
      "grade": "B",
      "air_kills": 0,
@@ -15391,7 +15391,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 100.0,
      "grade": "A",
      "air_kills": 0,
@@ -15483,7 +15483,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -15605,7 +15605,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 100.0,
      "grade": "A",
      "air_kills": 0,
@@ -15857,7 +15857,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 90.0,
      "grade": "A",
      "air_kills": 0,
@@ -15977,7 +15977,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 0.0,
      "grade": "F",
      "air_kills": 0,
@@ -16102,7 +16102,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 62.0,
      "grade": "D",
      "air_kills": 0,
@@ -16207,7 +16207,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 100.0,
      "grade": "A",
      "air_kills": 0,
@@ -16354,7 +16354,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 20.0,
      "grade": "A",
      "air_kills": 0,
@@ -16507,7 +16507,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 76.0,
      "grade": "C",
      "air_kills": 0,
@@ -16634,7 +16634,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 88.0,
      "grade": "A",
      "air_kills": 0,
@@ -16866,7 +16866,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 33.0,
      "grade": "C",
      "air_kills": 0,
@@ -16990,7 +16990,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 78.0,
      "grade": "B",
      "air_kills": 0,
@@ -17205,7 +17205,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 60.0,
      "grade": "C",
      "air_kills": 0,
@@ -17366,7 +17366,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 26.0,
      "grade": "C",
      "air_kills": 0,
@@ -17468,7 +17468,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 44.0,
      "grade": "C",
      "air_kills": 0,
@@ -17570,7 +17570,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 84.0,
      "grade": "C",
      "air_kills": 0,
@@ -17652,7 +17652,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 40.0,
      "grade": "C",
      "air_kills": 0,
@@ -17764,7 +17764,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 54.0,
      "grade": "C",
      "air_kills": 0,
@@ -17934,7 +17934,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 96.0,
      "grade": "A",
      "air_kills": 0,
@@ -18125,7 +18125,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 70.0,
      "grade": "C",
      "air_kills": 0,
@@ -18267,7 +18267,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 93.0,
      "grade": "A",
      "air_kills": 0,
@@ -18470,7 +18470,7 @@
     {
      "callsign": "Sword",
      "member": true,
-     "squadron": "",
+     "squadron": "EFWS \"THE MASTERS\"",
      "score": 16.0,
      "grade": "B",
      "air_kills": 0,
@@ -18970,7 +18970,7 @@
     }
    ],
    "competitive": false,
-   "pilots": 0,
+   "pilots": 1,
    "full_name": "Egyptian Fighter Weapons School",
    "base": "Cairo West (HECW)",
    "division": "139 Air Division",
