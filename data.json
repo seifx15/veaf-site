@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T17:09:06+00:00",
+ "generated": "2026-11-26T17:10:06+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,12 +7,12 @@
  },
  "totals": {
   "pilots": 87,
-  "missions": 81,
-  "sorties": 262,
+  "missions": 82,
+  "sorties": 263,
   "qualifications": 49,
-  "hours": 207.4,
+  "hours": 208.0,
   "air_kills": 89,
-  "ground_kills": 44
+  "ground_kills": 47
  },
  "pilots": [
   {
@@ -69,11 +69,11 @@
     "insignia": "⚔︎☆☆𖤍"
    },
    "rank_order": 1,
-   "active_days": 10,
-   "active_hours": 9.4,
+   "active_days": 9,
+   "active_hours": 8.6,
    "active_sorties": 13,
-   "active_ops": 10,
-   "last_active": "2026-11-26",
+   "active_ops": 9,
+   "last_active": "2026-11-25",
    "photo": "https://veaf-app.veaf-2ff4d6.workers.dev/photo/P_20260708193733_285?v=1794279024",
    "patches": [],
    "squadron": "EFWS \"THE MASTERS\"",
@@ -983,16 +983,16 @@
     }
    ],
    "logbook": {
-    "hours": 10.3,
+    "hours": 9.6,
     "by_aircraft": {
-     "F-16C Viper": 10.3
+     "F-16C Viper": 9.6
     },
     "by_map": {
-     "SinaiMap": 8.4,
+     "SinaiMap": 7.7,
      "?": 1.2,
      "Caucasus": 0.7
     },
-    "flights": 19,
+    "flights": 17,
     "sorties": 15,
     "landings": 1,
     "landing_grades": {
@@ -1013,7 +1013,7 @@
      }
     },
     "first": "2026-10-17",
-    "last": "2026-11-26"
+    "last": "2026-11-25"
    }
   },
   {
@@ -8938,33 +8938,33 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 3,
-   "score": 126.0,
-   "average": 42.0,
-   "best": 50.0,
+   "missions": 4,
+   "score": 196.0,
+   "average": 49.0,
+   "best": 70.0,
    "air_kills": 0,
-   "ground_kills": 0,
+   "ground_kills": 3,
    "friendly_kills": 0,
    "deaths": 0,
-   "hours": 1.9,
-   "last_flown": "2026-11-25",
+   "hours": 2.5,
+   "last_flown": "2026-11-26",
    "grades": {
-    "D": 2,
-    "C": 1
+    "C": 2,
+    "D": 2
    },
    "mission_types": {
+    "SEAD": 2,
     "BFM": 1,
     "A-A": 1,
     "AAR": 1,
     "FORMATION": 1,
-    "CAS": 1,
-    "SEAD": 1
+    "CAS": 1
    },
    "skills": [
     {
      "name": "SEAD",
      "type": "SEAD",
-     "score": 4.4,
+     "score": 7.0,
      "max": 10,
      "qualified": false
     },
@@ -9007,6 +9007,23 @@
    "qualifications": 0,
    "courses": [],
    "history": [
+    {
+     "op": "op-55991fe99845",
+     "date": "2026-11-26",
+     "name": "gmbekhit · Free flight · 02:51Z",
+     "types": [
+      "SEAD"
+     ],
+     "training": true,
+     "score": 70.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 3,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 37,
+     "highlight": ""
+    },
     {
      "op": "op-cbd67fa104f3",
      "date": "2026-11-25",
@@ -10295,6 +10312,50 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-55991fe99845",
+   "date": "2026-11-26",
+   "name": "gmbekhit · Free flight · 02:51Z",
+   "kind": "automatic",
+   "types": [
+    "SEAD"
+   ],
+   "personal": true,
+   "training": true,
+   "brief": "",
+   "narrative": "George (gmbekhit) flew three F-16C sorties on the Sinai SEAD range on 26 November 2026, consuming the better part of three hours of range time. Slot 1 lasted under two minutes and was flagged 'dead' by the tracker — almost certainly a disconnect or aircraft failure — producing nothing of training value. Slot 2 was a full 18-minute SEAD attempt that ended in complete weapons failure: all four AGM-88Cs were released from 43–44 nm at only 400–418 kt, giving the SA-2 radar 143–191 seconds to shut down; all four missed by 3–5 km. The pilot did demonstrate competent threat-reaction on Slot 2, defeating two SA-2 missiles with energy and maneuvering, but left the range without recovering to the field. Slot 3 showed clear tactical learning: George closed to 23.7–26.1 nm, accelerated to 825–857 kt GS at 28,000–28,500 ft before releasing, and punched all four HARMs inside their lethal footprint — 4/4 impacts, 3/4 direct hits, mean miss 7.7 m, best 0 m. The SNR-75V of SA-2 site 5 and two units of SA-3 site 6 were destroyed, earning 3 ground kills. Both SA-2 missiles on Slot 3 were also defeated with a healthy 17–22 km CPA. These are genuinely competent SEAD mechanics. However, two safety flags mar the slot: a 9.2 G exceedance during the post-release egress — 0.2 G over the structural limit — and a taxi overspeed of 32 kt sustained for 15 seconds. The Slot 3 landing scored D (65/100): approach speed varied ±16.4 kt, average sink on final was 2,002 fpm against an 800 fpm gate, peak sink 3,143 fpm, and AoA at touchdown was 0.6° versus the 13° on-speed target. The jet was essentially driven onto the runway at high speed in a flat attitude — a technique that would destroy tires and risk a gear collapse in a heavier landing scenario. Landing discipline has been consistently poor across all three recent sorties and must be prioritised in the next training block. The over-G write-up is mandatory. The aggregate picture is a pilot who has absorbed the SEAD weapons lesson from his failed Slot 2 and demonstrated genuine improvement in employment parameters on Slot 3, but who still lacks basic airmanship closure on the approach and ground phases.",
+   "lessons": [
+    "HARM employment range is critical: at 43+ nm and 400 kt the SA-2 radar has 2.5+ minutes to shut down before impact — always plan to release inside 30 nm at or above 500 kt GS for a viable lethal solution against an excellent-preset SA-2.",
+    "Post-release egress must be pre-planned: a 5–6 g climbing turn away from the threat is sufficient; a panic pull to 9.2 G is a structural risk and indicates loss of SA during the high-workload release phase — brief the escape manoeuvre before every SEAD attack.",
+    "Landing AoA discipline is a persistent gap: on-speed for the F-16C is 13° AoA; a 0.6° touchdown with 162 kt GS means the jet is not aerodynamically ready to land — drill pattern work with an emphasis on holding on-speed from the 180° position to touchdown must be scheduled before the next weapons sortie."
+   ],
+   "card": {},
+   "teams": [],
+   "results": [
+    {
+     "callsign": "Gmbekhit",
+     "member": true,
+     "squadron": "",
+     "score": 70.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 3,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 37,
+     "highlights": [],
+     "improvements": [],
+     "note": ""
+    }
+   ],
+   "pilots": 1,
+   "average": 70.0,
+   "air_kills": 0,
+   "ground_kills": 3,
+   "instructor": "Sword",
+   "patches": [],
+   "report": "reports/op-55991fe99845.html"
+  },
   {
    "id": "op-e67c973db6a5",
    "date": "2026-11-25",
