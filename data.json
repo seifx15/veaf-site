@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T00:28:19+00:00",
+ "generated": "2026-11-27T00:29:19+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -1771,9 +1771,9 @@
    },
    "rank_order": 6,
    "active_days": 5,
-   "active_hours": 5.5,
-   "active_sorties": 26,
-   "active_ops": 7,
+   "active_hours": 4.9,
+   "active_sorties": 20,
+   "active_ops": 6,
    "last_active": "2026-11-26",
    "photo": "",
    "patches": [],
@@ -1794,7 +1794,7 @@
    "aircraft": [
     "F-16C Viper",
     "F-15E Strike Eagle",
-    "AH-64D Apache"
+    "F/A-18C Hornet"
    ],
    "bio": "",
    "missions": 29,
@@ -2395,38 +2395,32 @@
     }
    ],
    "logbook": {
-    "hours": 5.5,
+    "hours": 4.9,
     "by_aircraft": {
-     "F-16C Viper": 5.0,
-     "F-15E Strike Eagle": 0.2,
-     "AH-64D Apache": 0.1,
-     "F-14B Tomcat": 0.1
+     "F-16C Viper": 4.6,
+     "F-15E Strike Eagle": 0.2
     },
     "by_map": {
-     "SinaiMap": 3.8,
+     "SinaiMap": 3.2,
      "?": 0.8,
      "Caucasus": 0.8
     },
-    "flights": 27,
-    "sorties": 26,
-    "landings": 2,
+    "flights": 21,
+    "sorties": 20,
+    "landings": 0,
     "landing_grades": {},
     "landing_avg": null,
     "traps": 0,
     "aar_fills": 0,
     "air_kills": 5,
     "ground_kills": 0,
-    "deaths": 17,
+    "deaths": 14,
     "ejections": 0,
-    "kd": 0.29,
+    "kd": 0.36,
     "weapons": {
      "AIM_120C": {
       "shots": 23,
       "hits": 11
-     },
-     "MK_82SNAKEYE": {
-      "shots": 4,
-      "hits": 0
      }
     },
     "first": "2026-11-04",
@@ -4301,9 +4295,9 @@
    },
    "rank_order": 9,
    "active_days": 6,
-   "active_hours": 6.5,
-   "active_sorties": 18,
-   "active_ops": 8,
+   "active_hours": 6.1,
+   "active_sorties": 17,
+   "active_ops": 7,
    "last_active": "2026-11-26",
    "photo": "https://veaf-app.veaf-2ff4d6.workers.dev/photo/P_031fcc77ecae?v=1795571916",
    "patches": [],
@@ -4532,16 +4526,16 @@
     }
    ],
    "logbook": {
-    "hours": 6.5,
+    "hours": 6.1,
     "by_aircraft": {
-     "F-16C Viper": 6.5
+     "F-16C Viper": 6.1
     },
     "by_map": {
-     "SinaiMap": 4.7,
+     "SinaiMap": 4.5,
      "Caucasus": 1.7
     },
-    "flights": 21,
-    "sorties": 18,
+    "flights": 19,
+    "sorties": 17,
     "landings": 3,
     "landing_grades": {
      "D": 2,
@@ -4552,13 +4546,13 @@
     "aar_fills": 6,
     "air_kills": 2,
     "ground_kills": 5,
-    "deaths": 7,
+    "deaths": 6,
     "ejections": 0,
-    "kd": 1.0,
+    "kd": 1.17,
     "weapons": {
      "AIM_120C": {
-      "shots": 27,
-      "hits": 9
+      "shots": 22,
+      "hits": 8
      }
     },
     "first": "2026-11-05",
