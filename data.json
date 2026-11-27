@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T01:57:20+00:00",
+ "generated": "2026-11-27T22:57:17+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -3092,10 +3092,10 @@
     "insignia": "𓅪☆☆☆"
    },
    "rank_order": 8,
-   "active_days": 1,
-   "active_hours": 0.5,
-   "active_sorties": 5,
-   "active_ops": 1,
+   "active_days": 0,
+   "active_hours": 0.0,
+   "active_sorties": 0,
+   "active_ops": 0,
    "last_active": "2026-10-28",
    "photo": "",
    "patches": [],
@@ -3523,10 +3523,10 @@
     "insignia": "𓅪☆☆☆"
    },
    "rank_order": 8,
-   "active_days": 7,
-   "active_hours": 7.0,
-   "active_sorties": 18,
-   "active_ops": 8,
+   "active_days": 6,
+   "active_hours": 6.4,
+   "active_sorties": 9,
+   "active_ops": 7,
    "last_active": "2026-11-18",
    "photo": "",
    "patches": [],
@@ -4992,10 +4992,10 @@
     "insignia": "𓅪☆☆"
    },
    "rank_order": 9,
-   "active_days": 4,
-   "active_hours": 4.0,
-   "active_sorties": 9,
-   "active_ops": 4,
+   "active_days": 3,
+   "active_hours": 3.4,
+   "active_sorties": 2,
+   "active_ops": 3,
    "last_active": "2026-11-25",
    "photo": "",
    "patches": [],
@@ -5481,11 +5481,11 @@
     "insignia": "𓅪☆☆"
    },
    "rank_order": 9,
-   "active_days": 9,
+   "active_days": 10,
    "active_hours": 9.7,
-   "active_sorties": 30,
-   "active_ops": 10,
-   "last_active": "2026-11-26",
+   "active_sorties": 31,
+   "active_ops": 11,
+   "last_active": "2026-11-27",
    "photo": "",
    "patches": [],
    "squadron": "292 TFW \"EGYPT SNIPER\"",
@@ -5883,16 +5883,16 @@
     }
    ],
    "logbook": {
-    "hours": 10.6,
+    "hours": 10.7,
     "by_aircraft": {
-     "F-16C Viper": 10.6
+     "F-16C Viper": 10.7
     },
     "by_map": {
      "SinaiMap": 8.5,
      "Caucasus": 2.2
     },
-    "flights": 36,
-    "sorties": 33,
+    "flights": 37,
+    "sorties": 34,
     "landings": 2,
     "landing_grades": {
      "B": 1,
@@ -5917,7 +5917,7 @@
      }
     },
     "first": "2026-10-18",
-    "last": "2026-11-26"
+    "last": "2026-11-27"
    }
   },
   {
@@ -19409,7 +19409,7 @@
   {
    "id": "op-90f4dd48e2cd",
    "op_id": "OP_90f4dd48e2cd",
-   "open": true,
+   "open": false,
    "kneeboard": [],
    "date": "2026-11-27",
    "name": "Communication and Formation Practice",
