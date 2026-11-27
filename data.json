@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T23:48:12+00:00",
+ "generated": "2026-11-27T23:49:14+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -70,11 +70,11 @@
     "insignia": "⚔︎☆☆𖤍"
    },
    "rank_order": 1,
-   "active_days": 10,
-   "active_hours": 9.0,
+   "active_days": 11,
+   "active_hours": 9.1,
    "active_sorties": 17,
-   "active_ops": 10,
-   "last_active": "2026-11-26",
+   "active_ops": 11,
+   "last_active": "2026-11-27",
    "photo": "https://veaf-app.veaf-2ff4d6.workers.dev/photo/P_20260708193733_285?v=1794279024",
    "patches": [],
    "squadron": "EFWS \"THE MASTERS\"",
@@ -999,9 +999,9 @@
     }
    ],
    "logbook": {
-    "hours": 10.0,
+    "hours": 10.1,
     "by_aircraft": {
-     "F-16C Viper": 10.0
+     "F-16C Viper": 10.1
     },
     "by_map": {
      "SinaiMap": 7.7,
@@ -1019,9 +1019,9 @@
     "aar_fills": 1,
     "air_kills": 15,
     "ground_kills": 6,
-    "deaths": 5,
+    "deaths": 6,
     "ejections": 0,
-    "kd": 4.2,
+    "kd": 3.5,
     "weapons": {
      "AIM_120C": {
       "shots": 41,
@@ -3524,7 +3524,7 @@
    },
    "rank_order": 8,
    "active_days": 7,
-   "active_hours": 6.8,
+   "active_hours": 6.9,
    "active_sorties": 9,
    "active_ops": 8,
    "last_active": "2026-11-27",
@@ -4383,12 +4383,12 @@
     }
    ],
    "logbook": {
-    "hours": 11.5,
+    "hours": 11.6,
     "by_aircraft": {
-     "F-16C Viper": 11.5
+     "F-16C Viper": 11.6
     },
     "by_map": {
-     "SinaiMap": 10.7,
+     "SinaiMap": 10.8,
      "?": 0.8
     },
     "flights": 38,
@@ -4398,11 +4398,11 @@
     "landing_avg": null,
     "traps": 0,
     "aar_fills": 0,
-    "air_kills": 26,
+    "air_kills": 27,
     "ground_kills": 2,
-    "deaths": 20,
+    "deaths": 21,
     "ejections": 0,
-    "kd": 1.4,
+    "kd": 1.38,
     "weapons": {
      "AIM_9": {
       "shots": 78,
@@ -5888,7 +5888,7 @@
      "F-16C Viper": 11.5
     },
     "by_map": {
-     "SinaiMap": 9.3,
+     "SinaiMap": 9.4,
      "Caucasus": 2.2
     },
     "flights": 46,
