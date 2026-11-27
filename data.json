@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T00:55:45+00:00",
+ "generated": "2026-11-27T00:56:45+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -19426,7 +19426,9 @@
      "task": "TRAINING",
      "size": 4,
      "pilots": [
-      "Omar"
+      "Omar",
+      "Pushmaster",
+      "[EAF] Maverick"
      ]
     },
     {
@@ -19437,7 +19439,9 @@
     }
    ],
    "signed": [
-    "Omar"
+    "Omar",
+    "Pushmaster",
+    "[EAF] Maverick"
    ],
    "reserves": []
   },
@@ -19483,8 +19487,7 @@
      "pilots": [
       "Megatron",
       "[EAF] Taha",
-      "Omar",
-      "[EAF] Maverick"
+      "Omar"
      ]
     }
    ],
@@ -19495,8 +19498,7 @@
     "Megatron",
     "Ibraheem",
     "[EAF] Taha",
-    "Omar",
-    "[EAF] Maverick"
+    "Omar"
    ],
    "reserves": []
   }
