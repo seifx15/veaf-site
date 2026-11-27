@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T23:53:23+00:00",
+ "generated": "2026-11-27T23:54:25+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -4383,9 +4383,9 @@
     }
    ],
    "logbook": {
-    "hours": 11.6,
+    "hours": 11.7,
     "by_aircraft": {
-     "F-16C Viper": 11.6
+     "F-16C Viper": 11.7
     },
     "by_map": {
      "SinaiMap": 10.8,
@@ -4398,11 +4398,11 @@
     "landing_avg": null,
     "traps": 0,
     "aar_fills": 0,
-    "air_kills": 27,
+    "air_kills": 28,
     "ground_kills": 2,
-    "deaths": 21,
+    "deaths": 22,
     "ejections": 0,
-    "kd": 1.38,
+    "kd": 1.36,
     "weapons": {
      "AIM_9": {
       "shots": 78,
@@ -5482,7 +5482,7 @@
    },
    "rank_order": 9,
    "active_days": 10,
-   "active_hours": 10.6,
+   "active_hours": 10.7,
    "active_sorties": 32,
    "active_ops": 11,
    "last_active": "2026-11-27",
@@ -5883,9 +5883,9 @@
     }
    ],
    "logbook": {
-    "hours": 11.5,
+    "hours": 11.6,
     "by_aircraft": {
-     "F-16C Viper": 11.5
+     "F-16C Viper": 11.6
     },
     "by_map": {
      "SinaiMap": 9.4,
@@ -5903,16 +5903,16 @@
     "aar_fills": 3,
     "air_kills": 15,
     "ground_kills": 1,
-    "deaths": 29,
+    "deaths": 30,
     "ejections": 0,
-    "kd": 0.55,
+    "kd": 0.53,
     "weapons": {
      "AIM_120C": {
       "shots": 65,
       "hits": 18
      },
      "AIM_9": {
-      "shots": 14,
+      "shots": 16,
       "hits": 0
      },
      "AIM_9X": {
