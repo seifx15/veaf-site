@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T00:27:18+00:00",
+ "generated": "2026-11-27T00:28:19+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -72,8 +72,8 @@
    "rank_order": 1,
    "active_days": 10,
    "active_hours": 9.0,
-   "active_sorties": 18,
-   "active_ops": 11,
+   "active_sorties": 17,
+   "active_ops": 10,
    "last_active": "2026-11-26",
    "photo": "https://veaf-app.veaf-2ff4d6.workers.dev/photo/P_20260708193733_285?v=1794279024",
    "patches": [],
@@ -988,10 +988,10 @@
     "by_map": {
      "SinaiMap": 7.7,
      "?": 1.2,
-     "Caucasus": 1.2
+     "Caucasus": 1.1
     },
-    "flights": 23,
-    "sorties": 20,
+    "flights": 22,
+    "sorties": 19,
     "landings": 1,
     "landing_grades": {
      "F": 1
@@ -1027,7 +1027,7 @@
    "active_days": 1,
    "active_hours": 1.0,
    "active_sorties": 13,
-   "active_ops": 2,
+   "active_ops": 1,
    "last_active": "2026-11-26",
    "photo": "",
    "patches": [],
@@ -1112,7 +1112,7 @@
     "by_map": {
      "Caucasus": 1.0
     },
-    "flights": 15,
+    "flights": 14,
     "sorties": 13,
     "landings": 0,
     "landing_grades": {},
@@ -1771,9 +1771,9 @@
    },
    "rank_order": 6,
    "active_days": 5,
-   "active_hours": 6.8,
+   "active_hours": 5.5,
    "active_sorties": 26,
-   "active_ops": 8,
+   "active_ops": 7,
    "last_active": "2026-11-26",
    "photo": "",
    "patches": [],
@@ -2395,19 +2395,19 @@
     }
    ],
    "logbook": {
-    "hours": 6.8,
+    "hours": 5.5,
     "by_aircraft": {
-     "F-16C Viper": 6.3,
+     "F-16C Viper": 5.0,
      "F-15E Strike Eagle": 0.2,
      "AH-64D Apache": 0.1,
      "F-14B Tomcat": 0.1
     },
     "by_map": {
-     "SinaiMap": 5.1,
+     "SinaiMap": 3.8,
      "?": 0.8,
      "Caucasus": 0.8
     },
-    "flights": 28,
+    "flights": 27,
     "sorties": 26,
     "landings": 2,
     "landing_grades": {},
@@ -2416,9 +2416,9 @@
     "aar_fills": 0,
     "air_kills": 5,
     "ground_kills": 0,
-    "deaths": 18,
+    "deaths": 17,
     "ejections": 0,
-    "kd": 0.28,
+    "kd": 0.29,
     "weapons": {
      "AIM_120C": {
       "shots": 23,
@@ -4301,9 +4301,9 @@
    },
    "rank_order": 9,
    "active_days": 6,
-   "active_hours": 7.0,
-   "active_sorties": 19,
-   "active_ops": 9,
+   "active_hours": 6.5,
+   "active_sorties": 18,
+   "active_ops": 8,
    "last_active": "2026-11-26",
    "photo": "https://veaf-app.veaf-2ff4d6.workers.dev/photo/P_031fcc77ecae?v=1795571916",
    "patches": [],
@@ -4532,22 +4532,22 @@
     }
    ],
    "logbook": {
-    "hours": 7.0,
+    "hours": 6.5,
     "by_aircraft": {
-     "F-16C Viper": 7.0
+     "F-16C Viper": 6.5
     },
     "by_map": {
-     "SinaiMap": 5.3,
+     "SinaiMap": 4.7,
      "Caucasus": 1.7
     },
-    "flights": 22,
-    "sorties": 19,
-    "landings": 4,
+    "flights": 21,
+    "sorties": 18,
+    "landings": 3,
     "landing_grades": {
-     "D": 3,
+     "D": 2,
      "F": 1
     },
-    "landing_avg": 60,
+    "landing_avg": 58,
     "traps": 0,
     "aar_fills": 6,
     "air_kills": 2,
@@ -4559,10 +4559,6 @@
      "AIM_120C": {
       "shots": 27,
       "hits": 9
-     },
-     "AGM_88": {
-      "shots": 4,
-      "hits": 0
      }
     },
     "first": "2026-11-05",
@@ -4926,9 +4922,9 @@
    },
    "rank_order": 9,
    "active_days": 9,
-   "active_hours": 9.9,
+   "active_hours": 9.7,
    "active_sorties": 30,
-   "active_ops": 11,
+   "active_ops": 10,
    "last_active": "2026-11-26",
    "photo": "",
    "patches": [],
@@ -5309,15 +5305,15 @@
     }
    ],
    "logbook": {
-    "hours": 10.8,
+    "hours": 10.6,
     "by_aircraft": {
-     "F-16C Viper": 10.8
+     "F-16C Viper": 10.6
     },
     "by_map": {
-     "SinaiMap": 8.7,
+     "SinaiMap": 8.5,
      "Caucasus": 2.2
     },
-    "flights": 37,
+    "flights": 36,
     "sorties": 33,
     "landings": 2,
     "landing_grades": {
@@ -7876,7 +7872,7 @@
    "active_days": 1,
    "active_hours": 1.2,
    "active_sorties": 14,
-   "active_ops": 2,
+   "active_ops": 1,
    "last_active": "2026-11-26",
    "photo": "",
    "patches": [],
@@ -7946,7 +7942,7 @@
     "by_map": {
      "Caucasus": 1.2
     },
-    "flights": 16,
+    "flights": 15,
     "sorties": 14,
     "landings": 0,
     "landing_grades": {},
@@ -8899,9 +8895,9 @@
    },
    "rank_order": 11,
    "active_days": 4,
-   "active_hours": 3.8,
-   "active_sorties": 17,
-   "active_ops": 6,
+   "active_hours": 2.9,
+   "active_sorties": 16,
+   "active_ops": 4,
    "last_active": "2026-11-26",
    "photo": "",
    "patches": [],
@@ -9018,21 +9014,19 @@
     }
    ],
    "logbook": {
-    "hours": 3.8,
+    "hours": 2.9,
     "by_aircraft": {
-     "F/A-18C Hornet": 3.8
+     "F/A-18C Hornet": 2.9
     },
     "by_map": {
-     "SinaiMap": 2.2,
-     "Caucasus": 1.6
+     "Caucasus": 1.6,
+     "SinaiMap": 1.3
     },
-    "flights": 19,
-    "sorties": 17,
-    "landings": 1,
-    "landing_grades": {
-     "F": 1
-    },
-    "landing_avg": 38,
+    "flights": 17,
+    "sorties": 16,
+    "landings": 0,
+    "landing_grades": {},
+    "landing_avg": null,
     "traps": 0,
     "aar_fills": 0,
     "air_kills": 2,
@@ -9044,10 +9038,6 @@
      "AIM_120C": {
       "shots": 20,
       "hits": 4
-     },
-     "BDU_45B": {
-      "shots": 4,
-      "hits": 0
      }
     },
     "first": "2026-11-05",
