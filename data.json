@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T00:31:19+00:00",
+ "generated": "2026-11-27T00:32:20+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,11 +7,11 @@
  },
  "totals": {
   "pilots": 88,
-  "missions": 83,
-  "sorties": 264,
+  "missions": 84,
+  "sorties": 272,
   "qualifications": 51,
-  "hours": 209.0,
-  "air_kills": 89,
+  "hours": 215.2,
+  "air_kills": 136,
   "ground_kills": 47
  },
  "pilots": [
@@ -109,32 +109,32 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 44,
-   "score": 3073.0,
-   "average": 69.9,
+   "missions": 45,
+   "score": 3155.0,
+   "average": 70.2,
    "best": 100.0,
-   "air_kills": 25,
+   "air_kills": 32,
    "ground_kills": 16,
    "friendly_kills": 0,
-   "deaths": 2,
-   "hours": 37.6,
-   "last_flown": "2026-11-25",
+   "deaths": 4,
+   "hours": 38.0,
+   "last_flown": "2026-11-26",
    "grades": {
+    "B": 10,
     "A": 14,
     "C": 16,
     "D": 2,
-    "B": 9,
     "F": 3
    },
    "mission_types": {
     "SEAD": 15,
     "CCIP": 12,
-    "A-A": 8,
+    "A-A": 9,
     "FORMATION": 5,
     "CAS": 5,
     "STRAFE": 5,
     "TRAINING": 5,
-    "BVR": 3,
+    "BVR": 4,
     "AAR": 2,
     "BSA": 2,
     "BFM": 1,
@@ -163,30 +163,30 @@
      "qualified": true
     },
     {
-     "name": "Basic Fighter Maneuver (BFM)",
-     "type": "BFM",
-     "score": 8.0,
-     "max": 10,
-     "qualified": true
-    },
-    {
      "name": "1 V 2 ACM",
      "type": "A-A",
-     "score": 7.8,
+     "score": 8.2,
      "max": 10,
      "qualified": true
     },
     {
      "name": "Missile Kinematics",
      "type": "A-A",
-     "score": 7.8,
+     "score": 8.2,
      "max": 10,
      "qualified": true
     },
     {
      "name": "Notching",
      "type": "A-A",
-     "score": 7.8,
+     "score": 8.2,
+     "max": 10,
+     "qualified": true
+    },
+    {
+     "name": "Basic Fighter Maneuver (BFM)",
+     "type": "BFM",
+     "score": 8.0,
      "max": 10,
      "qualified": true
     },
@@ -221,6 +221,24 @@
     }
    ],
    "history": [
+    {
+     "op": "op-8ab1b43cc787",
+     "date": "2026-11-26",
+     "name": "BVR practice 4v5 · 22:39Z",
+     "types": [
+      "A-A",
+      "BVR"
+     ],
+     "training": true,
+     "score": 82.0,
+     "grade": "B",
+     "air_kills": 7,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 2,
+     "minutes": 24,
+     "highlight": "Best kill efficiency in the sortie: 6 tracker-confirmed kills from 19 total shots fired across all slots (Rounds 12–15) — a Pk well above squadron average, highlighted by a 3-kill Round 14 clean sweep (Hema at 49.2 nm, PushMaster at 17.6 nm, PushMaster again via proximity) without dying."
+    },
     {
      "op": "op-2c107a0c6515",
      "date": "2026-11-25",
@@ -1050,34 +1068,43 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 1,
-   "score": 56.0,
-   "average": 56.0,
-   "best": 56.0,
-   "air_kills": 4,
+   "missions": 2,
+   "score": 121.0,
+   "average": 60.5,
+   "best": 65.0,
+   "air_kills": 12,
    "ground_kills": 0,
    "friendly_kills": 0,
-   "deaths": 0,
-   "hours": 0.5,
-   "last_flown": "2026-10-16",
+   "deaths": 7,
+   "hours": 1.5,
+   "last_flown": "2026-11-26",
    "grades": {
+    "C": 1,
     "F": 1
    },
    "mission_types": {
-    "BVR": 1
+    "BVR": 2,
+    "A-A": 1
    },
    "skills": [
     {
+     "name": "1 V 2 ACM",
+     "type": "A-A",
+     "score": 6.5,
+     "max": 10,
+     "qualified": false
+    },
+    {
      "name": "Missile Kinematics",
      "type": "A-A",
-     "score": 5.75,
+     "score": 6.5,
      "max": 10,
      "qualified": false
     },
     {
      "name": "Notching",
      "type": "A-A",
-     "score": 5.0,
+     "score": 6.5,
      "max": 10,
      "qualified": false
     }
@@ -1085,6 +1112,24 @@
    "qualifications": 0,
    "courses": [],
    "history": [
+    {
+     "op": "op-8ab1b43cc787",
+     "date": "2026-11-26",
+     "name": "BVR practice 4v5 · 22:39Z",
+     "types": [
+      "A-A",
+      "BVR"
+     ],
+     "training": true,
+     "score": 65.0,
+     "grade": "C",
+     "air_kills": 8,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 7,
+     "minutes": 61,
+     "highlight": "Round 7 slot 7: mixed-weapon kill chain — AIM-120 splash at 4.5 nm followed by AIM-9 at 2.4 nm (CPA 1 m) on Wade demonstrates close-in situational awareness and willingness to press into WVR when BVR didn't finish the job."
+    },
     {
      "op": "auto-pg-80a761d67d76a712d51d",
      "date": "2026-10-16",
@@ -1174,18 +1219,18 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 27,
-   "score": 1630.8,
-   "average": 59.6,
+   "missions": 28,
+   "score": 1692.8,
+   "average": 59.7,
    "best": 98.0,
-   "air_kills": 3,
+   "air_kills": 5,
    "ground_kills": 8,
    "friendly_kills": 0,
-   "deaths": 0,
-   "hours": 19.2,
-   "last_flown": "2026-11-23",
+   "deaths": 3,
+   "hours": 19.5,
+   "last_flown": "2026-11-26",
    "grades": {
-    "B": 8,
+    "B": 9,
     "F": 3,
     "C": 7,
     "D": 6,
@@ -1194,13 +1239,13 @@
    "mission_types": {
     "SEAD": 9,
     "CCIP": 8,
+    "BVR": 4,
     "STRAFE": 4,
+    "A-A": 3,
     "CAS": 3,
-    "BVR": 3,
     "TRAINING": 3,
     "FORMATION": 2,
     "BFM": 2,
-    "A-A": 2,
     "AAR": 1,
     "BSA": 1
    },
@@ -1234,13 +1279,6 @@
      "qualified": true
     },
     {
-     "name": "Notching",
-     "type": "A-A",
-     "score": 7.5,
-     "max": 10,
-     "qualified": false
-    },
-    {
      "name": "SEAD",
      "type": "SEAD",
      "score": 7.2,
@@ -1250,14 +1288,21 @@
     {
      "name": "1 V 2 ACM",
      "type": "A-A",
-     "score": 7.0,
+     "score": 6.2,
      "max": 10,
      "qualified": false
     },
     {
      "name": "Missile Kinematics",
      "type": "A-A",
-     "score": 7.0,
+     "score": 6.2,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Notching",
+     "type": "A-A",
+     "score": 6.2,
      "max": 10,
      "qualified": false
     },
@@ -1279,6 +1324,24 @@
     }
    ],
    "history": [
+    {
+     "op": "op-8ab1b43cc787",
+     "date": "2026-11-26",
+     "name": "BVR practice 4v5 · 22:39Z",
+     "types": [
+      "A-A",
+      "BVR"
+     ],
+     "training": true,
+     "score": 62.0,
+     "grade": "B",
+     "air_kills": 2,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 3,
+     "minutes": 17,
+     "highlight": "Round 12 slot 1: killed Maverick with 1 shot from 40.9 nm (CPA 211 m) followed immediately by a TARGET_DOWN_MIDFLIGHT at 15.3 nm — first kill of the session was economical and aggressive."
+    },
     {
      "op": "op-67b5913cfe37",
      "date": "2026-11-23",
@@ -1797,18 +1860,18 @@
     "F/A-18C Hornet"
    ],
    "bio": "",
-   "missions": 29,
-   "score": 2045.6,
-   "average": 70.3,
+   "missions": 30,
+   "score": 2100.6,
+   "average": 69.8,
    "best": 108.0,
-   "air_kills": 2,
+   "air_kills": 7,
    "ground_kills": 1,
    "friendly_kills": 0,
-   "deaths": 1,
-   "hours": 23.9,
-   "last_flown": "2026-11-13",
+   "deaths": 13,
+   "hours": 24.7,
+   "last_flown": "2026-11-26",
    "grades": {
-    "C": 8,
+    "C": 9,
     "A": 7,
     "F": 2,
     "D": 7,
@@ -1816,13 +1879,13 @@
    },
    "mission_types": {
     "TRAINING": 9,
+    "A-A": 8,
     "CCIP": 8,
-    "A-A": 7,
     "SEAD": 5,
+    "BVR": 3,
     "BFM": 3,
     "FORMATION": 2,
     "STRAFE": 2,
-    "BVR": 2,
     "CAS": 1,
     "STRIKE": 1
    },
@@ -1842,22 +1905,8 @@
      "qualified": true
     },
     {
-     "name": "1 V 2 ACM",
-     "type": "A-A",
-     "score": 7.5,
-     "max": 10,
-     "qualified": true
-    },
-    {
      "name": "CCIP Tactical Pattern",
      "type": "CCIP",
-     "score": 7.5,
-     "max": 10,
-     "qualified": true
-    },
-    {
-     "name": "Missile Kinematics",
-     "type": "A-A",
      "score": 7.5,
      "max": 10,
      "qualified": true
@@ -1877,16 +1926,30 @@
      "qualified": true
     },
     {
-     "name": "Notching",
+     "name": "1 V 2 ACM",
      "type": "A-A",
-     "score": 7.5,
+     "score": 5.5,
      "max": 10,
-     "qualified": false
+     "qualified": true
+    },
+    {
+     "name": "Missile Kinematics",
+     "type": "A-A",
+     "score": 5.5,
+     "max": 10,
+     "qualified": true
     },
     {
      "name": "Basic Fighter Maneuver (BFM)",
      "type": "BFM",
      "score": 6.5,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Notching",
+     "type": "A-A",
+     "score": 5.5,
      "max": 10,
      "qualified": false
     }
@@ -1907,6 +1970,24 @@
     }
    ],
    "history": [
+    {
+     "op": "op-8ab1b43cc787",
+     "date": "2026-11-26",
+     "name": "BVR practice 4v5 · 22:39Z",
+     "types": [
+      "A-A",
+      "BVR"
+     ],
+     "training": true,
+     "score": 55.0,
+     "grade": "C",
+     "air_kills": 5,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 12,
+     "minutes": 49,
+     "highlight": "Round 4 slot 3: 100% Pk — 1 shot (34.7 nm AIM-120C), 1 splash on Maverick (CPA 147 m, TOF 48 s) — showed PushMaster can generate a quality shot when patient."
+    },
     {
      "op": "op-5f55d4eb893f",
      "date": "2026-11-13",
@@ -4313,18 +4394,18 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 7,
-   "score": 444.0,
-   "average": 63.4,
+   "missions": 8,
+   "score": 498.0,
+   "average": 62.2,
    "best": 90.0,
-   "air_kills": 0,
+   "air_kills": 2,
    "ground_kills": 5,
    "friendly_kills": 0,
-   "deaths": 2,
-   "hours": 5.4,
+   "deaths": 8,
+   "hours": 6.1,
    "last_flown": "2026-11-26",
    "grades": {
-    "D": 3,
+    "D": 4,
     "F": 1,
     "B": 2,
     "A": 1
@@ -4335,6 +4416,8 @@
     "AAR": 2,
     "STRAFE": 2,
     "SEAD": 2,
+    "A-A": 1,
+    "BVR": 1,
     "BFM": 1,
     "CCIP": 1
    },
@@ -4364,6 +4447,27 @@
      "name": "CCIP Tactical Pattern",
      "type": "CCIP",
      "score": 6.5,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "1 V 2 ACM",
+     "type": "A-A",
+     "score": 5.4,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Missile Kinematics",
+     "type": "A-A",
+     "score": 5.4,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Notching",
+     "type": "A-A",
+     "score": 5.4,
      "max": 10,
      "qualified": false
     },
@@ -4398,6 +4502,24 @@
     }
    ],
    "history": [
+    {
+     "op": "op-8ab1b43cc787",
+     "date": "2026-11-26",
+     "name": "BVR practice 4v5 · 22:39Z",
+     "types": [
+      "A-A",
+      "BVR"
+     ],
+     "training": true,
+     "score": 54.0,
+     "grade": "D",
+     "air_kills": 2,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 6,
+     "minutes": 44,
+     "highlight": "Round 6 slot 1: shot-for-shot efficiency — 1 round fired, 1 splash, 100% Pk on PushMaster at 27 nm (CPA 313 m) showing Maverick can generate a quality shot under pressure."
+    },
     {
      "op": "op-ae959eb149e0",
      "date": "2026-11-26",
@@ -4940,26 +5062,26 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 16,
-   "score": 785.2,
-   "average": 52.3,
+   "missions": 17,
+   "score": 844.2,
+   "average": 52.8,
    "best": 80.0,
-   "air_kills": 14,
+   "air_kills": 19,
    "ground_kills": 1,
    "friendly_kills": 0,
-   "deaths": 7,
-   "hours": 16.0,
-   "last_flown": "2026-11-25",
+   "deaths": 17,
+   "hours": 17.0,
+   "last_flown": "2026-11-26",
    "grades": {
-    "C": 2,
+    "C": 3,
     "B": 2,
     "F": 3,
     "D": 8
    },
    "mission_types": {
-    "A-A": 6,
+    "A-A": 7,
+    "BVR": 6,
     "SEAD": 5,
-    "BVR": 5,
     "CCIP": 3,
     "STRAFE": 3,
     "AAR": 2,
@@ -4968,30 +5090,30 @@
    },
    "skills": [
     {
-     "name": "SEAD",
-     "type": "SEAD",
-     "score": 5.0,
-     "max": 10,
-     "qualified": false
-    },
-    {
      "name": "1 V 2 ACM",
      "type": "A-A",
-     "score": 4.7,
+     "score": 5.9,
      "max": 10,
      "qualified": false
     },
     {
      "name": "Missile Kinematics",
      "type": "A-A",
-     "score": 4.7,
+     "score": 5.9,
      "max": 10,
      "qualified": false
     },
     {
      "name": "Notching",
      "type": "A-A",
-     "score": 4.7,
+     "score": 5.9,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "SEAD",
+     "type": "SEAD",
+     "score": 5.0,
      "max": 10,
      "qualified": false
     },
@@ -5013,6 +5135,24 @@
    "qualifications": 0,
    "courses": [],
    "history": [
+    {
+     "op": "op-8ab1b43cc787",
+     "date": "2026-11-26",
+     "name": "BVR practice 4v5 · 22:39Z",
+     "types": [
+      "A-A",
+      "BVR"
+     ],
+     "training": true,
+     "score": 59.0,
+     "grade": "C",
+     "air_kills": 5,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 10,
+     "minutes": 60,
+     "highlight": "Round 2 slot 1: perfect first-shot kill at 11.4 nm on Wade (CPA 180 m), demonstrated correct shot timing — patience rewarded with a clean splash from inside the 15 nm band."
+    },
     {
      "op": "op-e67c973db6a5",
      "date": "2026-11-25",
@@ -7882,34 +8022,75 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 1,
-   "score": 69.0,
-   "average": 69.0,
-   "best": 69.0,
-   "air_kills": 14,
+   "missions": 2,
+   "score": 141.0,
+   "average": 70.5,
+   "best": 72.0,
+   "air_kills": 30,
    "ground_kills": 1,
    "friendly_kills": 0,
-   "deaths": 0,
-   "hours": 0.8,
-   "last_flown": "2026-10-16",
+   "deaths": 6,
+   "hours": 1.9,
+   "last_flown": "2026-11-26",
    "grades": {
+    "B": 1,
     "D": 1
    },
    "mission_types": {
-    "BVR": 1
+    "BVR": 2,
+    "A-A": 1
    },
    "skills": [
     {
+     "name": "1 V 2 ACM",
+     "type": "A-A",
+     "score": 7.2,
+     "max": 10,
+     "qualified": false
+    },
+    {
      "name": "Missile Kinematics",
      "type": "A-A",
-     "score": 6.9,
+     "score": 7.2,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Notching",
+     "type": "A-A",
+     "score": 7.2,
      "max": 10,
      "qualified": false
     }
    ],
    "qualifications": 0,
-   "courses": [],
+   "courses": [
+    {
+     "title": "Beyond Visual Range",
+     "code": "BVR-1",
+     "status": "ready",
+     "instructors": []
+    }
+   ],
    "history": [
+    {
+     "op": "op-8ab1b43cc787",
+     "date": "2026-11-26",
+     "name": "BVR practice 4v5 · 22:39Z",
+     "types": [
+      "A-A",
+      "BVR"
+     ],
+     "training": true,
+     "score": 72.0,
+     "grade": "B",
+     "air_kills": 16,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 6,
+     "minutes": 69,
+     "highlight": "Tracker-confirmed 15 air kills across 15 rounds — highest raw kill count in the session, including multiple 2-kill frames (Rounds 6, 8, 10, 11, 14) and a clean 100% Pk double in Round 10 (shots at 34.3 nm and 32.6 nm both splashed, CPA 2 m and 107 m)."
+    },
     {
      "op": "auto-pg-80a761d67d76a712d51d",
      "date": "2026-10-16",
@@ -8907,23 +9088,25 @@
     "F/A-18C Hornet"
    ],
    "bio": "",
-   "missions": 2,
-   "score": 151.0,
-   "average": 75.5,
+   "missions": 3,
+   "score": 199.0,
+   "average": 66.3,
    "best": 80.0,
-   "air_kills": 0,
+   "air_kills": 2,
    "ground_kills": 0,
    "friendly_kills": 0,
-   "deaths": 0,
-   "hours": 1.3,
-   "last_flown": "2026-11-06",
+   "deaths": 7,
+   "hours": 2.2,
+   "last_flown": "2026-11-26",
    "grades": {
+    "F": 1,
     "B": 1,
     "C": 1
    },
    "mission_types": {
+    "A-A": 2,
     "CCIP": 2,
-    "A-A": 1
+    "BVR": 1
    },
    "skills": [
     {
@@ -8936,21 +9119,21 @@
     {
      "name": "1 V 2 ACM",
      "type": "A-A",
-     "score": 7.1,
+     "score": 4.8,
      "max": 10,
      "qualified": false
     },
     {
      "name": "Missile Kinematics",
      "type": "A-A",
-     "score": 7.1,
+     "score": 4.8,
      "max": 10,
      "qualified": false
     },
     {
      "name": "Notching",
      "type": "A-A",
-     "score": 7.1,
+     "score": 4.8,
      "max": 10,
      "qualified": false
     }
@@ -8971,6 +9154,24 @@
     }
    ],
    "history": [
+    {
+     "op": "op-8ab1b43cc787",
+     "date": "2026-11-26",
+     "name": "BVR practice 4v5 · 22:39Z",
+     "types": [
+      "A-A",
+      "BVR"
+     ],
+     "training": true,
+     "score": 48.0,
+     "grade": "F",
+     "air_kills": 2,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 7,
+     "minutes": 51,
+     "highlight": "Round 6 slot 5: 100% Pk — 2 shots, 2 splashes (PushMaster at 41.1 nm and Borhms at 8.1 nm, CPA 216 m) — the Borhms kill at close range showed good timing and willingness to hold the merge."
+    },
     {
      "op": "op-4f3087dddc70",
      "date": "2026-11-06",
@@ -10558,6 +10759,204 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-8ab1b43cc787",
+   "date": "2026-11-26",
+   "name": "BVR practice 4v5 · 22:39Z",
+   "kind": "automatic",
+   "types": [
+    "A-A",
+    "BVR"
+   ],
+   "personal": true,
+   "training": true,
+   "brief": "",
+   "narrative": "EAF Caucasus Training sortie 48905 ran 15 discrete BVR/A-A rounds over approximately 75 minutes, generating one of the highest-volume PVP datasets in recent squadron history. Blue won 9 of 15 rounds and red 4, with 2 withdrawals, giving blue a marginal overall edge but no dominant performance. Wade led all pilots with 15 tracker-confirmed kills, though his over-G pattern — 8 sustained exceedances in one slot alone and 40+ across the sortie — represents a structural airmanship failure that must be addressed before he is cleared for high-stress BVR tasking. [EAF] 9g | Sword debuted in a full BVR role in Rounds 12–15 and produced the most efficient kill-to-shot ratio in the session, though catastrophic formation-join times (worst 357 s) mean his tactical geometry was consistently degraded when he arrived. Maverick continues a declining trend with peak G-loads of 11.6–11.9 g on multiple occasions — the highest recorded — and long-range shot indiscipline burning missiles at 36–43 nm for zero kills. Omar showed the most tactical consistency of the red-side pilots, with an intelligent first-shot kill at 11.4 nm in Round 1 and a credible double-kill in Round 13, but his death rate remains too high to generate the net positive contribution his kill count suggests. PushMaster's 7 kills were offset by double-digit deaths and persistent long-range shot selection; his brief F-15E integration in Rounds 13–15 produced negligible effect until slot 14. Borhms was the most tactically versatile red-side pilot — mixing AIM-120 and AIM-9 in Round 7, achieving the highest crank time (97 s) in the session, and defeating 3 of 3 inbound missiles in Round 8 — but was hampered by a 284-second join time in Round 15 and a wasted slot in the red F-16 role. Cyclone accumulated the most flight time but generated only 2 kills from 68 minutes airborne, spraying missiles at 32–62 nm with CPAs up to 40 km — the shots fired simply do not match any viable parameters. Hema's late entry in Round 12 showed genuine promise with an efficient first-shot kill and a Round 15 double-kill, but Round 13's three consecutive extreme-range misses (22–35 km CPAs) indicate inconsistency. Server lag of up to 30 s was recorded in multiple slots and has been discounted for timing-sensitive assessments; kill/death attributions are based solely on tracker killDetails, not the DCS event dump.",
+   "lessons": [
+    "Shot discipline defines the BVR fight: the majority of wasted missiles in this sortie were fired at 30–43 nm — beyond the 25 nm zero-credit band — where Pk approaches zero against a defending opponent. Pilots must internalize the shot band: full Pk inside 15 nm, half credit 15–25 nm, zero beyond. If you cannot sort a target inside 25 nm, do not shoot.",
+    "Over-G is a safety issue, not a performance metric: multiple pilots (Maverick 11.9 g, Hema 11.9 g, Borhms 11.5 g, Wade 10.3 g) exceeded the F-16/F-18 9-g structural limit on multiple occasions. In a real aircraft these would trigger mandatory inspections or fleet-wide groundings. G awareness drills and corner speed management must be incorporated into the next sortie's pre-brief.",
+    "Formation join time matters for BVR geometry: Sword's 357-second worst join and Borhms's 284-second join in Round 15 mean both pilots were out of their azimuth spread positions for most of those rounds, handing the merge entirely to solo opponents. Target: rejoin to within 30 seconds; if that cannot be achieved, a tactical reform must be called on frequency."
+   ],
+   "card": {},
+   "teams": [],
+   "results": [
+    {
+     "callsign": "Sword",
+     "member": true,
+     "squadron": "EFWS \"THE MASTERS\"",
+     "score": 82.0,
+     "grade": "B",
+     "air_kills": 7,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 2,
+     "minutes": 24,
+     "highlights": [
+      "Best kill efficiency in the sortie: 6 tracker-confirmed kills from 19 total shots fired across all slots (Rounds 12–15) — a Pk well above squadron average, highlighted by a 3-kill Round 14 clean sweep (Hema at 49.2 nm, PushMaster at 17.6 nm, PushMaster again via proximity) without dying.",
+      "Defensive awareness strong in Round 12: 5 inbound missiles defeated out of 7 tracked (avgDefeatCPA 3,979 m), including defeating shots from Omar and Borhms simultaneously."
+     ],
+     "improvements": [
+      "Formation discipline was the worst in the formation-tracked slots: avgJoinSec 210 s and worstJoinSec 357 s in Round 12 slot 2 — over 5 minutes to rejoin — and a formationDisciplineScore of 0 in multiple slots; Sword must close to position within 30 s.",
+      "5 sustained over-G exceedances in Round 12 slot 2 (maxG 10.7 g) — G management must improve to avoid structural limits."
+     ],
+     "note": "Best kill efficiency in the room and genuine BVR instinct, entirely undermined by formation-join times that would leave any two-ship partner fighting alone for five minutes."
+    },
+    {
+     "callsign": "Wade",
+     "member": true,
+     "squadron": "",
+     "score": 72.0,
+     "grade": "B",
+     "air_kills": 16,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 6,
+     "minutes": 69,
+     "highlights": [
+      "Tracker-confirmed 15 air kills across 15 rounds — highest raw kill count in the session, including multiple 2-kill frames (Rounds 6, 8, 10, 11, 14) and a clean 100% Pk double in Round 10 (shots at 34.3 nm and 32.6 nm both splashed, CPA 2 m and 107 m).",
+      "Round 8 was textbook: two kills from 35.7 nm and 34.5 nm without a single inbound missile — zero shots received, 100% survive."
+     ],
+     "improvements": [
+      "Over-G is a career-threatening pattern: 8 sustained exceedances flagged in a single 4.6-minute slot (Round 11 slot 9), and totals across all slots run to 40+ individual flagged exceedances — this is structural, not incidental; airframe stress management must be addressed immediately.",
+      "Long-range shot discipline is poor — multiple shots at 38–40 nm (beyond the 25 nm zero-credit band) including a 39.9 nm shot in Round 1 and a 40 nm shot in Round 2 that wasted missiles; average launch range in some slots exceeded 24 nm with low Pk."
+     ],
+     "note": "15 kills and the best combat record in the session, but 40+ over-G exceedances across the sortie make him an airframe-wrecker who cannot be cleared for ops until G discipline is enforced."
+    },
+    {
+     "callsign": "Bonkizzle",
+     "member": true,
+     "squadron": "",
+     "score": 65.0,
+     "grade": "C",
+     "air_kills": 8,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 7,
+     "minutes": 61,
+     "highlights": [
+      "Round 7 slot 7: mixed-weapon kill chain — AIM-120 splash at 4.5 nm followed by AIM-9 at 2.4 nm (CPA 1 m) on Wade demonstrates close-in situational awareness and willingness to press into WVR when BVR didn't finish the job.",
+      "Round 8 slot 9: 23-stance-change round with 97 s cranking and 30 s notching — Borhms demonstrated active post-shot management, defeating 3 of 3 inbound missiles (avgCPA 2,629 m)."
+     ],
+     "improvements": [
+      "Borhms shifted to an F-16 red-side slot in Round 15 (PVP_F16_BVR_R-1-3) where he fired 0 shots and was killed without contributing — when assigned an unfamiliar platform/role, Borhms needs to adapt more quickly.",
+      "Formation join in Round 15 slot 14: worstJoinSec 284 s (nearly 5 minutes) — this is unacceptable for a wingman position; must rejoin within 30 s of departing formation."
+     ],
+     "note": "The most tactically creative pilot in the session — mixed AIM-120/AIM-9, aggressive stance changes, best defensive episode — let down only by a near-five-minute join time in Round 15."
+    },
+    {
+     "callsign": "Ibraheem",
+     "member": true,
+     "squadron": "",
+     "score": 62.0,
+     "grade": "B",
+     "air_kills": 2,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 3,
+     "minutes": 17,
+     "highlights": [
+      "Round 12 slot 1: killed Maverick with 1 shot from 40.9 nm (CPA 211 m) followed immediately by a TARGET_DOWN_MIDFLIGHT at 15.3 nm — first kill of the session was economical and aggressive.",
+      "Round 15: highest-kill round for Hema — killed Maverick (28.8 nm, CPA 125 m) and Cyclone (14.3 nm, TARGET_DOWN_MIDFLIGHT) in a single engagement, showing willingness to press and use the merge effectively."
+     ],
+     "improvements": [
+      "Round 13 slot 2: 3 shots fired at 32.8 nm, 38.3 nm, and 33.6 nm — all missed with CPAs of 22,265 m, 32,013 m, and 35,038 m respectively; shots at extreme range with enormous miss distances suggest no terminal employment guidance was applied.",
+      "Hema fired 0 shots in Round 12 slot 2 (3.8 minutes airborne, died to PushMaster) — situational awareness of the threat picture needs improvement so weapons are employed before the threat closes to kill range."
+     ],
+     "note": "Late-entry debut with genuine promise in Rounds 12 and 15, but Round 13's three consecutive extreme-range misses and an 11.9 g event show consistency is not yet there."
+    },
+    {
+     "callsign": "Omar",
+     "member": true,
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
+     "score": 59.0,
+     "grade": "C",
+     "air_kills": 5,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 10,
+     "minutes": 60,
+     "highlights": [
+      "Round 2 slot 1: perfect first-shot kill at 11.4 nm on Wade (CPA 180 m), demonstrated correct shot timing — patience rewarded with a clean splash from inside the 15 nm band.",
+      "Round 13 slot 11: 2 kills from 3 shots — splashes on Cyclone (11.1 nm, CPA 172 m) and again via proximity (35 nm TARGET_DOWN_MIDFLIGHT), plus a 3rd splash on Sword at 7.3 nm (CPA 10 m) — Omar's best round of the session."
+     ],
+     "improvements": [
+      "6 sustained over-G exceedances in slots 10 and 11 (maxG 9.47 g in slot 11, 9.23 g in slot 10) — Omar consistently pulls sustained high-G without deliberate technique; needs to manage G onset and check G meter during turns.",
+      "Death rate is high relative to kills — multiple rounds where Omar was killed having fired 0 shots (Round 6 slot: 0 shots, 1 death; Round 15 slot 13: same pattern), suggesting poor energy and positional awareness when the merge goes adverse."
+     ],
+     "note": "Flashes of real BVR quality (11.4 nm first-shot kill, Round 13 double) buried under a 1:1 kill-death ratio and repeat over-G events that he has not yet corrected."
+    },
+    {
+     "callsign": "Pushmaster",
+     "member": true,
+     "squadron": "262 TFW",
+     "score": 55.0,
+     "grade": "C",
+     "air_kills": 5,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 12,
+     "minutes": 49,
+     "highlights": [
+      "Round 4 slot 3: 100% Pk — 1 shot (34.7 nm AIM-120C), 1 splash on Maverick (CPA 147 m, TOF 48 s) — showed PushMaster can generate a quality shot when patient.",
+      "Round 8 slot 8: best defensive performance — 5 of 6 inbound missiles defeated (avgDefeatCPA 14,534 m), survived the round without being killed while generating 2 splashes."
+     ],
+     "improvements": [
+      "Long-range shot indiscipline dominated: multiple shots at 30–37 nm (outside the full-credit band), including 34.7 nm in Round 4, 30.1 nm in Round 5, 37.5 nm in Round 7 — PushMaster must learn to hold fire until inside 25 nm.",
+      "Death rate remains high — killed in 10+ individual slots; several of these followed shots that failed to find target, leaving PushMaster defensive and out of energy."
+     ],
+     "note": "Seven kills prove he can fight, but every long-range shot beyond 30 nm is a wasted missile and a free energy gift to the opponent — patience inside the shot band is the single most impactful change he can make."
+    },
+    {
+     "callsign": "[EAF] Maverick",
+     "member": true,
+     "squadron": "262 TFW",
+     "score": 54.0,
+     "grade": "D",
+     "air_kills": 2,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 6,
+     "minutes": 44,
+     "highlights": [
+      "Round 6 slot 1: shot-for-shot efficiency — 1 round fired, 1 splash, 100% Pk on PushMaster at 27 nm (CPA 313 m) showing Maverick can generate a quality shot under pressure.",
+      "Formation join in Round 13 slot 9 improved markedly: avgJoinSec 10 s, worstJoinSec 10 s — fastest join time recorded for Maverick in the session."
+     ],
+     "improvements": [
+      "Over-G is the defining liability: 6 sustained exceedances in a single 5.2-minute slot (Round 11), maxG 11.6 g in Round 7 slot 2, and 11.9 g in Round 7 slot 3 — these are well above the F-16 9-g limit and represent a safety violation that must be corrected; Maverick had the highest peak-G readings in the entire session.",
+      "Long-range shot indiscipline: 4 of 6 missiles in Round 11 launched beyond 36 nm (40 nm, 43 nm, 36 nm, 36 nm) with zero kills and three TARGET_DOWN_MIDFLIGHT — wasted shots that handed red team energy while blue traded 1-for-1 or worse."
+     ],
+     "note": "Peak-G readings of 11.6–11.9 g are the worst in the squadron and the declining trend continues — airframe management and shot selection must both be corrected before the next graded sortie."
+    },
+    {
+     "callsign": "black Mamba",
+     "member": true,
+     "squadron": "",
+     "score": 48.0,
+     "grade": "F",
+     "air_kills": 2,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 7,
+     "minutes": 51,
+     "highlights": [
+      "Round 6 slot 5: 100% Pk — 2 shots, 2 splashes (PushMaster at 41.1 nm and Borhms at 8.1 nm, CPA 216 m) — the Borhms kill at close range showed good timing and willingness to hold the merge.",
+      "Round 15 slot 13: killed PushMaster in F-15E via close-range shot (Cyclone's kill at 01:13:07) — only kill in that round, demonstrating persistence."
+     ],
+     "improvements": [
+      "Shot efficiency is the worst in the session for a pilot with significant flight time: Round 7 slot 6 saw 3 shots fired with 0 kills and CPAs of 2,955 m, 17,067 m, and 40,656 m — Cyclone is shooting well outside parameters and not hitting; must wait for valid shots inside 20 nm.",
+      "Death rate significantly exceeds kill rate — Cyclone was killed in 9 of 13 active slots; in several rounds he contributed 0 kills and 1 death, which is a negative net contribution to the team."
+     ],
+     "note": "Sixty-eight minutes airborne, two kills, and a habit of shooting at 40+ nm with 20–35 km miss distances — quantity of employment time is not substituting for quality of shot selection."
+    }
+   ],
+   "pilots": 8,
+   "average": 62.1,
+   "air_kills": 47,
+   "ground_kills": 0,
+   "instructor": "Sword",
+   "patches": [],
+   "report": "reports/op-8ab1b43cc787.html"
+  },
   {
    "id": "op-ae959eb149e0",
    "date": "2026-11-26",
