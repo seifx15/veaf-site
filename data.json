@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T01:20:50+00:00",
+ "generated": "2026-11-27T01:21:53+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -4682,6 +4682,450 @@
    }
   },
   {
+   "id": "P_20260708193733_296",
+   "callsign": "[U777] Golden_Pilot",
+   "rank": {
+    "full": "ملازم أول | First Lieutenant | 𓅪☆☆",
+    "ar": "ملازم أول",
+    "en": "First Lieutenant",
+    "insignia": "𓅪☆☆"
+   },
+   "rank_order": 9,
+   "active_days": 4,
+   "active_hours": 4.0,
+   "active_sorties": 9,
+   "active_ops": 4,
+   "last_active": "2026-11-25",
+   "photo": "",
+   "patches": [],
+   "squadron": "",
+   "squadron_patch": "",
+   "element": "",
+   "element_patch": "",
+   "also": [],
+   "former_element_patches": [],
+   "former_squadron_patches": [
+    {
+     "name": "272 TFW Jyanklis",
+     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1795713382",
+     "until": "2026-11-24"
+    }
+   ],
+   "joined": "2026-07-08",
+   "aircraft": [
+    "F-16C Viper"
+   ],
+   "bio": "",
+   "missions": 16,
+   "score": 927.0,
+   "average": 57.9,
+   "best": 80.0,
+   "air_kills": 3,
+   "ground_kills": 2,
+   "friendly_kills": 0,
+   "deaths": 3,
+   "hours": 12.5,
+   "last_flown": "2026-11-25",
+   "grades": {
+    "B": 5,
+    "D": 6,
+    "F": 1,
+    "C": 4
+   },
+   "mission_types": {
+    "BFM": 5,
+    "CCIP": 4,
+    "TRAINING": 4,
+    "STRAFE": 2,
+    "A-A": 2,
+    "AAR": 1,
+    "FORMATION": 1,
+    "CAS": 1,
+    "BVR": 1,
+    "SEAD": 1
+   },
+   "skills": [
+    {
+     "name": "Datalink",
+     "type": "GENERAL",
+     "score": 10.0,
+     "max": 10,
+     "qualified": true
+    },
+    {
+     "name": "Tactical Turns / Formation",
+     "type": "BFM",
+     "score": 8.0,
+     "max": 10,
+     "qualified": true
+    },
+    {
+     "name": "Basic Fighter Maneuver (BFM)",
+     "type": "BFM",
+     "score": 8.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "1 V 2 ACM",
+     "type": "A-A",
+     "score": 7.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Missile Kinematics",
+     "type": "A-A",
+     "score": 7.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Notching",
+     "type": "A-A",
+     "score": 7.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "CCIP Tactical Pattern",
+     "type": "CCIP",
+     "score": 6.5,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Communications",
+     "type": "GENERAL",
+     "score": 6.0,
+     "max": 10,
+     "qualified": false
+    }
+   ],
+   "qualifications": 2,
+   "courses": [
+    {
+     "title": "Beyond Visual Range",
+     "code": "BVR-1",
+     "status": "ready",
+     "instructors": []
+    },
+    {
+     "title": "Basic Fighter Maneuver",
+     "code": "BFM-1",
+     "status": "ready",
+     "instructors": []
+    }
+   ],
+   "history": [
+    {
+     "op": "op-2c107a0c6515",
+     "date": "2026-11-25",
+     "name": "Flight (4) · Refuelling + Formation · 00:18Z",
+     "types": [
+      "AAR",
+      "FORMATION"
+     ],
+     "training": true,
+     "score": 70.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 63,
+     "highlight": "AAR skill rated THE KING across 20 completed fills; best contacts 1 (single-contact fill) demonstrates excellent basket awareness after the initial slow join"
+    },
+    {
+     "op": "op-4d6c29bac531",
+     "date": "2026-11-05",
+     "name": "Basic Surface Attack | Tactical Pattern",
+     "types": [
+      "CCIP",
+      "STRAFE"
+     ],
+     "training": true,
+     "score": 65.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 62,
+     "highlight": "1 shack on pass 5 (CEP 12.9 m at 1,683 ft / 13° / 492 kts) — demonstrates that when the sight picture clicks, the hands are good enough to deliver."
+    },
+    {
+     "op": "op-5bb514953f4d",
+     "date": "2026-10-30",
+     "name": "Surface Attack Tactics | CAS Wheel | Dive Toss",
+     "types": [
+      "CCIP",
+      "CAS",
+      "STRAFE"
+     ],
+     "training": true,
+     "score": 58.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 2,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 77,
+     "highlight": "2 gun kills on soft targets (M978 HEMTT Tankers at 01:05:40 and 01:06:20) — showed aggression and accuracy with the gun when he finally committed"
+    },
+    {
+     "op": "op-0cab205f8c87",
+     "date": "2026-10-30",
+     "name": "Basic Fighter Maneuver",
+     "types": [],
+     "training": true,
+     "score": 80.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
+    {
+     "op": "op-2099cdd89279",
+     "date": "2026-10-30",
+     "name": "Surface Attack Tactics | CAS Wheel",
+     "types": [],
+     "training": true,
+     "score": 0.0,
+     "grade": "F",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 70,
+     "highlight": ""
+    },
+    {
+     "op": "op-9ebb4985389e",
+     "date": "2026-10-30",
+     "name": "Beyond Visual Range",
+     "types": [],
+     "training": true,
+     "score": 70.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 60,
+     "highlight": ""
+    },
+    {
+     "op": "op-c1d496266b86",
+     "date": "2026-10-30",
+     "name": "Basic Fighter Maneuver | Practice",
+     "types": [],
+     "training": true,
+     "score": 80.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 70,
+     "highlight": ""
+    },
+    {
+     "op": "op-19612348ae8f",
+     "date": "2026-10-30",
+     "name": "Basic Fighter Maneuver | Practice",
+     "types": [
+      "BFM"
+     ],
+     "training": true,
+     "score": 80.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 30,
+     "highlight": ""
+    },
+    {
+     "op": "op-bea6b45cf883",
+     "date": "2026-10-28",
+     "name": "BFM and BVR Practice",
+     "types": [
+      "BFM",
+      "BVR",
+      "A-A"
+     ],
+     "training": true,
+     "score": 70.0,
+     "grade": "C",
+     "air_kills": 3,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 3,
+     "minutes": 35,
+     "highlight": "BVR top scorer this session: 5 confirmed kills across Rounds 6, 7, 8, 9, and 10 — including a tight 9.8 nm splash on MeGaTron in Round 6 (CPA 16 m) and a close-in 2.1 nm splash on ToRnAdO in Round 8 (CPA 188 m), demonstrating willingness to hold fire until parameters are valid."
+    },
+    {
+     "op": "op-3c4b685462884bdea94d555abacbd827",
+     "date": "2026-10-08",
+     "name": "Beyond Visual Range | Notching",
+     "types": [
+      "A-A"
+     ],
+     "training": true,
+     "score": 65.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 70,
+     "highlight": ""
+    },
+    {
+     "op": "op-b1364eef060340b09717b759d0797389",
+     "date": "2026-10-05",
+     "name": "Basic Fighter Maneuver | Practice",
+     "types": [
+      "BFM"
+     ],
+     "training": true,
+     "score": 65.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 60,
+     "highlight": ""
+    },
+    {
+     "op": "op-e85b9e29c99a4a46b2195a684a1fc863",
+     "date": "2026-09-30",
+     "name": "Basic Fighter Maneuver 1",
+     "types": [
+      "BFM"
+     ],
+     "training": true,
+     "score": 70.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
+    {
+     "op": "op-20260808212119",
+     "date": "2026-08-09",
+     "name": "Introduction to SEAD",
+     "types": [
+      "SEAD"
+     ],
+     "training": true,
+     "score": 55.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 78,
+     "highlight": "Best HARM volume: 4 shots all launched 33.7-40.6nm — true standoff"
+    },
+    {
+     "op": "op-20260725210336",
+     "date": "2026-07-26",
+     "name": "Basic Surface Attack | Tactical Pattern",
+     "types": [
+      "CCIP"
+     ],
+     "training": true,
+     "score": 76.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 75,
+     "highlight": "Strong improving trend: 40.7 → 17.6 → 11.4 m shack — best learning curve of the mission"
+    },
+    {
+     "op": "op-20260719025618",
+     "date": "2026-07-20",
+     "name": "Basic Surface Attack | Tactical Pattern",
+     "types": [
+      "CCIP"
+     ],
+     "training": true,
+     "score": 9.0,
+     "grade": "D",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    },
+    {
+     "op": "op-20260716141644",
+     "date": "2026-07-19",
+     "name": "Basic Fighter Maneuver 1",
+     "types": [
+      "BFM"
+     ],
+     "training": true,
+     "score": 14.0,
+     "grade": "B",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 0,
+     "minutes": 0,
+     "highlight": ""
+    }
+   ],
+   "logbook": {
+    "hours": 4.0,
+    "by_aircraft": {
+     "F-16C Viper": 4.0
+    },
+    "by_map": {
+     "SinaiMap": 4.0
+    },
+    "flights": 12,
+    "sorties": 9,
+    "landings": 1,
+    "landing_grades": {
+     "B": 1
+    },
+    "landing_avg": 80,
+    "traps": 0,
+    "aar_fills": 1,
+    "air_kills": 3,
+    "ground_kills": 2,
+    "deaths": 6,
+    "ejections": 0,
+    "kd": 0.83,
+    "weapons": {
+     "AIM_120C": {
+      "shots": 19,
+      "hits": 2
+     },
+     "AIM_9": {
+      "shots": 4,
+      "hits": 0
+     }
+    },
+    "first": "2026-10-28",
+    "last": "2026-11-25"
+   }
+  },
+  {
    "id": "P_20260708193733_819",
    "callsign": "CACTUS",
    "rank": {
@@ -5713,450 +6157,6 @@
     "weapons": {},
     "first": "2026-11-08",
     "last": "2026-11-08"
-   }
-  },
-  {
-   "id": "P_20260708193733_296",
-   "callsign": "[U777] Golden_Pilot",
-   "rank": {
-    "full": "ملازم | Lieutenant | 𓅪☆",
-    "ar": "ملازم",
-    "en": "Lieutenant",
-    "insignia": "𓅪☆"
-   },
-   "rank_order": 10,
-   "active_days": 4,
-   "active_hours": 4.0,
-   "active_sorties": 9,
-   "active_ops": 4,
-   "last_active": "2026-11-25",
-   "photo": "",
-   "patches": [],
-   "squadron": "",
-   "squadron_patch": "",
-   "element": "",
-   "element_patch": "",
-   "also": [],
-   "former_element_patches": [],
-   "former_squadron_patches": [
-    {
-     "name": "272 TFW Jyanklis",
-     "image": "patches/SQ_SQ_20260616173911_72-4075ee9f.png?v=1795713382",
-     "until": "2026-11-24"
-    }
-   ],
-   "joined": "2026-07-08",
-   "aircraft": [
-    "F-16C Viper"
-   ],
-   "bio": "",
-   "missions": 16,
-   "score": 927.0,
-   "average": 57.9,
-   "best": 80.0,
-   "air_kills": 3,
-   "ground_kills": 2,
-   "friendly_kills": 0,
-   "deaths": 3,
-   "hours": 12.5,
-   "last_flown": "2026-11-25",
-   "grades": {
-    "B": 5,
-    "D": 6,
-    "F": 1,
-    "C": 4
-   },
-   "mission_types": {
-    "BFM": 5,
-    "CCIP": 4,
-    "TRAINING": 4,
-    "STRAFE": 2,
-    "A-A": 2,
-    "AAR": 1,
-    "FORMATION": 1,
-    "CAS": 1,
-    "BVR": 1,
-    "SEAD": 1
-   },
-   "skills": [
-    {
-     "name": "Datalink",
-     "type": "GENERAL",
-     "score": 10.0,
-     "max": 10,
-     "qualified": true
-    },
-    {
-     "name": "Tactical Turns / Formation",
-     "type": "BFM",
-     "score": 8.0,
-     "max": 10,
-     "qualified": true
-    },
-    {
-     "name": "Basic Fighter Maneuver (BFM)",
-     "type": "BFM",
-     "score": 8.0,
-     "max": 10,
-     "qualified": false
-    },
-    {
-     "name": "1 V 2 ACM",
-     "type": "A-A",
-     "score": 7.0,
-     "max": 10,
-     "qualified": false
-    },
-    {
-     "name": "Missile Kinematics",
-     "type": "A-A",
-     "score": 7.0,
-     "max": 10,
-     "qualified": false
-    },
-    {
-     "name": "Notching",
-     "type": "A-A",
-     "score": 7.0,
-     "max": 10,
-     "qualified": false
-    },
-    {
-     "name": "CCIP Tactical Pattern",
-     "type": "CCIP",
-     "score": 6.5,
-     "max": 10,
-     "qualified": false
-    },
-    {
-     "name": "Communications",
-     "type": "GENERAL",
-     "score": 6.0,
-     "max": 10,
-     "qualified": false
-    }
-   ],
-   "qualifications": 2,
-   "courses": [
-    {
-     "title": "Beyond Visual Range",
-     "code": "BVR-1",
-     "status": "ready",
-     "instructors": []
-    },
-    {
-     "title": "Basic Fighter Maneuver",
-     "code": "BFM-1",
-     "status": "ready",
-     "instructors": []
-    }
-   ],
-   "history": [
-    {
-     "op": "op-2c107a0c6515",
-     "date": "2026-11-25",
-     "name": "Flight (4) · Refuelling + Formation · 00:18Z",
-     "types": [
-      "AAR",
-      "FORMATION"
-     ],
-     "training": true,
-     "score": 70.0,
-     "grade": "B",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 63,
-     "highlight": "AAR skill rated THE KING across 20 completed fills; best contacts 1 (single-contact fill) demonstrates excellent basket awareness after the initial slow join"
-    },
-    {
-     "op": "op-4d6c29bac531",
-     "date": "2026-11-05",
-     "name": "Basic Surface Attack | Tactical Pattern",
-     "types": [
-      "CCIP",
-      "STRAFE"
-     ],
-     "training": true,
-     "score": 65.0,
-     "grade": "D",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 62,
-     "highlight": "1 shack on pass 5 (CEP 12.9 m at 1,683 ft / 13° / 492 kts) — demonstrates that when the sight picture clicks, the hands are good enough to deliver."
-    },
-    {
-     "op": "op-5bb514953f4d",
-     "date": "2026-10-30",
-     "name": "Surface Attack Tactics | CAS Wheel | Dive Toss",
-     "types": [
-      "CCIP",
-      "CAS",
-      "STRAFE"
-     ],
-     "training": true,
-     "score": 58.0,
-     "grade": "D",
-     "air_kills": 0,
-     "ground_kills": 2,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 77,
-     "highlight": "2 gun kills on soft targets (M978 HEMTT Tankers at 01:05:40 and 01:06:20) — showed aggression and accuracy with the gun when he finally committed"
-    },
-    {
-     "op": "op-0cab205f8c87",
-     "date": "2026-10-30",
-     "name": "Basic Fighter Maneuver",
-     "types": [],
-     "training": true,
-     "score": 80.0,
-     "grade": "B",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 0,
-     "highlight": ""
-    },
-    {
-     "op": "op-2099cdd89279",
-     "date": "2026-10-30",
-     "name": "Surface Attack Tactics | CAS Wheel",
-     "types": [],
-     "training": true,
-     "score": 0.0,
-     "grade": "F",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 70,
-     "highlight": ""
-    },
-    {
-     "op": "op-9ebb4985389e",
-     "date": "2026-10-30",
-     "name": "Beyond Visual Range",
-     "types": [],
-     "training": true,
-     "score": 70.0,
-     "grade": "C",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 60,
-     "highlight": ""
-    },
-    {
-     "op": "op-c1d496266b86",
-     "date": "2026-10-30",
-     "name": "Basic Fighter Maneuver | Practice",
-     "types": [],
-     "training": true,
-     "score": 80.0,
-     "grade": "B",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 70,
-     "highlight": ""
-    },
-    {
-     "op": "op-19612348ae8f",
-     "date": "2026-10-30",
-     "name": "Basic Fighter Maneuver | Practice",
-     "types": [
-      "BFM"
-     ],
-     "training": true,
-     "score": 80.0,
-     "grade": "B",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 30,
-     "highlight": ""
-    },
-    {
-     "op": "op-bea6b45cf883",
-     "date": "2026-10-28",
-     "name": "BFM and BVR Practice",
-     "types": [
-      "BFM",
-      "BVR",
-      "A-A"
-     ],
-     "training": true,
-     "score": 70.0,
-     "grade": "C",
-     "air_kills": 3,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 3,
-     "minutes": 35,
-     "highlight": "BVR top scorer this session: 5 confirmed kills across Rounds 6, 7, 8, 9, and 10 — including a tight 9.8 nm splash on MeGaTron in Round 6 (CPA 16 m) and a close-in 2.1 nm splash on ToRnAdO in Round 8 (CPA 188 m), demonstrating willingness to hold fire until parameters are valid."
-    },
-    {
-     "op": "op-3c4b685462884bdea94d555abacbd827",
-     "date": "2026-10-08",
-     "name": "Beyond Visual Range | Notching",
-     "types": [
-      "A-A"
-     ],
-     "training": true,
-     "score": 65.0,
-     "grade": "D",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 70,
-     "highlight": ""
-    },
-    {
-     "op": "op-b1364eef060340b09717b759d0797389",
-     "date": "2026-10-05",
-     "name": "Basic Fighter Maneuver | Practice",
-     "types": [
-      "BFM"
-     ],
-     "training": true,
-     "score": 65.0,
-     "grade": "D",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 60,
-     "highlight": ""
-    },
-    {
-     "op": "op-e85b9e29c99a4a46b2195a684a1fc863",
-     "date": "2026-09-30",
-     "name": "Basic Fighter Maneuver 1",
-     "types": [
-      "BFM"
-     ],
-     "training": true,
-     "score": 70.0,
-     "grade": "C",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 0,
-     "highlight": ""
-    },
-    {
-     "op": "op-20260808212119",
-     "date": "2026-08-09",
-     "name": "Introduction to SEAD",
-     "types": [
-      "SEAD"
-     ],
-     "training": true,
-     "score": 55.0,
-     "grade": "D",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 78,
-     "highlight": "Best HARM volume: 4 shots all launched 33.7-40.6nm — true standoff"
-    },
-    {
-     "op": "op-20260725210336",
-     "date": "2026-07-26",
-     "name": "Basic Surface Attack | Tactical Pattern",
-     "types": [
-      "CCIP"
-     ],
-     "training": true,
-     "score": 76.0,
-     "grade": "C",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 75,
-     "highlight": "Strong improving trend: 40.7 → 17.6 → 11.4 m shack — best learning curve of the mission"
-    },
-    {
-     "op": "op-20260719025618",
-     "date": "2026-07-20",
-     "name": "Basic Surface Attack | Tactical Pattern",
-     "types": [
-      "CCIP"
-     ],
-     "training": true,
-     "score": 9.0,
-     "grade": "D",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 0,
-     "highlight": ""
-    },
-    {
-     "op": "op-20260716141644",
-     "date": "2026-07-19",
-     "name": "Basic Fighter Maneuver 1",
-     "types": [
-      "BFM"
-     ],
-     "training": true,
-     "score": 14.0,
-     "grade": "B",
-     "air_kills": 0,
-     "ground_kills": 0,
-     "friendly_kills": 0,
-     "deaths": 0,
-     "minutes": 0,
-     "highlight": ""
-    }
-   ],
-   "logbook": {
-    "hours": 4.0,
-    "by_aircraft": {
-     "F-16C Viper": 4.0
-    },
-    "by_map": {
-     "SinaiMap": 4.0
-    },
-    "flights": 12,
-    "sorties": 9,
-    "landings": 1,
-    "landing_grades": {
-     "B": 1
-    },
-    "landing_avg": 80,
-    "traps": 0,
-    "aar_fills": 1,
-    "air_kills": 3,
-    "ground_kills": 2,
-    "deaths": 6,
-    "ejections": 0,
-    "kd": 0.83,
-    "weapons": {
-     "AIM_120C": {
-      "shots": 19,
-      "hits": 2
-     },
-     "AIM_9": {
-      "shots": 4,
-      "hits": 0
-     }
-    },
-    "first": "2026-10-28",
-    "last": "2026-11-25"
    }
   },
   {
