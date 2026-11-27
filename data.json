@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T23:18:04+00:00",
+ "generated": "2026-11-27T23:19:07+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -3525,8 +3525,8 @@
    "rank_order": 8,
    "active_days": 7,
    "active_hours": 6.4,
-   "active_sorties": 10,
-   "active_ops": 7,
+   "active_sorties": 9,
+   "active_ops": 8,
    "last_active": "2026-11-27",
    "photo": "",
    "patches": [],
@@ -4392,7 +4392,7 @@
      "?": 0.8
     },
     "flights": 29,
-    "sorties": 25,
+    "sorties": 24,
     "landings": 0,
     "landing_grades": {},
     "landing_avg": null,
@@ -4405,7 +4405,7 @@
     "kd": 2.0,
     "weapons": {
      "AIM_9": {
-      "shots": 68,
+      "shots": 70,
       "hits": 0
      },
      "AIM_120C": {
@@ -5482,7 +5482,7 @@
    },
    "rank_order": 9,
    "active_days": 10,
-   "active_hours": 10.1,
+   "active_hours": 10.2,
    "active_sorties": 32,
    "active_ops": 11,
    "last_active": "2026-11-27",
@@ -5883,22 +5883,22 @@
     }
    ],
    "logbook": {
-    "hours": 11.1,
+    "hours": 11.2,
     "by_aircraft": {
-     "F-16C Viper": 11.1
+     "F-16C Viper": 11.2
     },
     "by_map": {
-     "SinaiMap": 8.9,
+     "SinaiMap": 9.0,
      "Caucasus": 2.2
     },
     "flights": 38,
     "sorties": 35,
-    "landings": 2,
+    "landings": 3,
     "landing_grades": {
      "B": 1,
-     "F": 1
+     "F": 2
     },
-    "landing_avg": 58,
+    "landing_avg": 53,
     "traps": 0,
     "aar_fills": 3,
     "air_kills": 15,
@@ -8330,7 +8330,7 @@
    },
    "rank_order": 11,
    "active_days": 14,
-   "active_hours": 12.4,
+   "active_hours": 12.5,
    "active_sorties": 22,
    "active_ops": 12,
    "last_active": "2026-11-27",
@@ -8683,12 +8683,12 @@
     }
    ],
    "logbook": {
-    "hours": 12.4,
+    "hours": 12.5,
     "by_aircraft": {
-     "F/A-18C Hornet": 12.4
+     "F/A-18C Hornet": 12.5
     },
     "by_map": {
-     "SinaiMap": 7.9,
+     "SinaiMap": 8.0,
      "Caucasus": 3.6,
      "?": 0.9
     },
@@ -8712,7 +8712,7 @@
       "hits": 3
      },
      "AIM_9": {
-      "shots": 1,
+      "shots": 2,
       "hits": 0
      }
     },
