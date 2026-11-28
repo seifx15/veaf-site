@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T00:02:50+00:00",
+ "generated": "2026-11-28T00:03:52+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -70,11 +70,11 @@
     "insignia": "⚔︎☆☆𖤍"
    },
    "rank_order": 1,
-   "active_days": 11,
+   "active_days": 12,
    "active_hours": 9.1,
-   "active_sorties": 17,
+   "active_sorties": 18,
    "active_ops": 11,
-   "last_active": "2026-11-27",
+   "last_active": "2026-11-28",
    "photo": "https://veaf-app.veaf-2ff4d6.workers.dev/photo/P_20260708193733_285?v=1794279024",
    "patches": [],
    "squadron": "EFWS \"THE MASTERS\"",
@@ -1004,12 +1004,12 @@
      "F-16C Viper": 10.1
     },
     "by_map": {
-     "SinaiMap": 7.7,
+     "SinaiMap": 7.8,
      "?": 1.2,
      "Caucasus": 1.1
     },
-    "flights": 23,
-    "sorties": 19,
+    "flights": 24,
+    "sorties": 20,
     "landings": 1,
     "landing_grades": {
      "F": 1
@@ -1029,7 +1029,7 @@
      }
     },
     "first": "2026-10-17",
-    "last": "2026-11-27"
+    "last": "2026-11-28"
    }
   },
   {
@@ -3523,11 +3523,11 @@
     "insignia": "𓅪☆☆☆"
    },
    "rank_order": 8,
-   "active_days": 7,
+   "active_days": 8,
    "active_hours": 7.0,
-   "active_sorties": 9,
+   "active_sorties": 10,
    "active_ops": 8,
-   "last_active": "2026-11-27",
+   "last_active": "2026-11-28",
    "photo": "",
    "patches": [],
    "squadron": "272 TFW",
@@ -4383,16 +4383,16 @@
     }
    ],
    "logbook": {
-    "hours": 11.7,
+    "hours": 11.8,
     "by_aircraft": {
-     "F-16C Viper": 11.7
+     "F-16C Viper": 11.8
     },
     "by_map": {
      "SinaiMap": 10.9,
      "?": 0.8
     },
-    "flights": 42,
-    "sorties": 24,
+    "flights": 43,
+    "sorties": 25,
     "landings": 0,
     "landing_grades": {},
     "landing_avg": null,
@@ -4414,7 +4414,7 @@
      }
     },
     "first": "2026-10-17",
-    "last": "2026-11-27"
+    "last": "2026-11-28"
    }
   },
   {
