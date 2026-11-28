@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T00:49:43+00:00",
+ "generated": "2026-11-28T00:50:43+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -72,7 +72,7 @@
    "rank_order": 1,
    "active_days": 12,
    "active_hours": 9.5,
-   "active_sorties": 17,
+   "active_sorties": 18,
    "active_ops": 11,
    "last_active": "2026-11-28",
    "photo": "https://veaf-app.veaf-2ff4d6.workers.dev/photo/P_20260708193733_285?v=1794279024",
@@ -1004,12 +1004,12 @@
      "F-16C Viper": 10.5
     },
     "by_map": {
-     "SinaiMap": 8.1,
+     "SinaiMap": 8.2,
      "?": 1.2,
      "Caucasus": 1.1
     },
     "flights": 34,
-    "sorties": 19,
+    "sorties": 20,
     "landings": 1,
     "landing_grades": {
      "F": 1
@@ -1048,7 +1048,7 @@
    "rank_order": 3,
    "active_days": 2,
    "active_hours": 1.4,
-   "active_sorties": 13,
+   "active_sorties": 14,
    "active_ops": 2,
    "last_active": "2026-11-28",
    "photo": "",
@@ -1156,14 +1156,14 @@
     "hours": 1.4,
     "by_aircraft": {
      "F/A-18C Hornet": 0.9,
-     "F-16C Viper": 0.5
+     "F-16C Viper": 0.6
     },
     "by_map": {
      "Caucasus": 1.0,
      "SinaiMap": 0.4
     },
     "flights": 25,
-    "sorties": 13,
+    "sorties": 14,
     "landings": 0,
     "landing_grades": {},
     "landing_avg": null,
