@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T00:25:40+00:00",
+ "generated": "2026-11-28T00:26:40+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -1046,11 +1046,11 @@
     "insignia": "⚔︎𖤍"
    },
    "rank_order": 3,
-   "active_days": 1,
+   "active_days": 2,
    "active_hours": 1.0,
-   "active_sorties": 13,
+   "active_sorties": 14,
    "active_ops": 1,
-   "last_active": "2026-11-26",
+   "last_active": "2026-11-28",
    "photo": "",
    "patches": [],
    "squadron": "",
@@ -1156,13 +1156,13 @@
     "hours": 1.0,
     "by_aircraft": {
      "F/A-18C Hornet": 0.9,
-     "F-16C Viper": 0.1
+     "F-16C Viper": 0.2
     },
     "by_map": {
      "Caucasus": 1.0
     },
     "flights": 15,
-    "sorties": 13,
+    "sorties": 14,
     "landings": 0,
     "landing_grades": {},
     "landing_avg": null,
@@ -5486,8 +5486,8 @@
    },
    "rank_order": 9,
    "active_days": 11,
-   "active_hours": 10.9,
-   "active_sorties": 32,
+   "active_hours": 11.0,
+   "active_sorties": 33,
    "active_ops": 11,
    "last_active": "2026-11-28",
    "photo": "",
@@ -5896,7 +5896,7 @@
      "Caucasus": 2.2
     },
     "flights": 53,
-    "sorties": 35,
+    "sorties": 36,
     "landings": 3,
     "landing_grades": {
      "B": 1,
