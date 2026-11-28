@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T00:11:10+00:00",
+ "generated": "2026-11-28T00:12:12+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -3524,8 +3524,8 @@
    },
    "rank_order": 8,
    "active_days": 8,
-   "active_hours": 7.2,
-   "active_sorties": 10,
+   "active_hours": 7.1,
+   "active_sorties": 9,
    "active_ops": 8,
    "last_active": "2026-11-28",
    "photo": "",
@@ -4388,11 +4388,11 @@
      "F-16C Viper": 11.9
     },
     "by_map": {
-     "SinaiMap": 11.1,
+     "SinaiMap": 11.0,
      "?": 0.8
     },
     "flights": 44,
-    "sorties": 25,
+    "sorties": 24,
     "landings": 0,
     "landing_grades": {},
     "landing_avg": null,
@@ -5481,11 +5481,11 @@
     "insignia": "𓅪☆☆"
    },
    "rank_order": 9,
-   "active_days": 11,
+   "active_days": 10,
    "active_hours": 10.8,
-   "active_sorties": 33,
+   "active_sorties": 32,
    "active_ops": 11,
-   "last_active": "2026-11-28",
+   "last_active": "2026-11-27",
    "photo": "",
    "patches": [],
    "squadron": "292 TFW \"EGYPT SNIPER\"",
@@ -5883,16 +5883,16 @@
     }
    ],
    "logbook": {
-    "hours": 11.8,
+    "hours": 11.7,
     "by_aircraft": {
-     "F-16C Viper": 11.8
+     "F-16C Viper": 11.7
     },
     "by_map": {
      "SinaiMap": 9.6,
      "Caucasus": 2.2
     },
     "flights": 51,
-    "sorties": 36,
+    "sorties": 35,
     "landings": 3,
     "landing_grades": {
      "B": 1,
