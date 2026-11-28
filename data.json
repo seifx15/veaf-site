@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T01:01:49+00:00",
+ "generated": "2026-11-28T01:02:49+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -7,11 +7,11 @@
  },
  "totals": {
   "pilots": 88,
-  "missions": 84,
-  "sorties": 272,
+  "missions": 85,
+  "sorties": 276,
   "qualifications": 51,
-  "hours": 215.2,
-  "air_kills": 136,
+  "hours": 218.9,
+  "air_kills": 157,
   "ground_kills": 47
  },
  "pilots": [
@@ -109,18 +109,18 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 45,
-   "score": 3155.0,
-   "average": 70.2,
+   "missions": 46,
+   "score": 3233.0,
+   "average": 70.4,
    "best": 100.0,
-   "air_kills": 32,
+   "air_kills": 37,
    "ground_kills": 16,
    "friendly_kills": 0,
-   "deaths": 4,
-   "hours": 38.0,
-   "last_flown": "2026-11-26",
+   "deaths": 12,
+   "hours": 38.6,
+   "last_flown": "2026-11-27",
    "grades": {
-    "B": 10,
+    "B": 11,
     "A": 14,
     "C": 16,
     "D": 2,
@@ -129,15 +129,15 @@
    "mission_types": {
     "SEAD": 15,
     "CCIP": 12,
-    "A-A": 9,
+    "A-A": 10,
+    "BVR": 5,
     "FORMATION": 5,
     "CAS": 5,
     "STRAFE": 5,
     "TRAINING": 5,
-    "BVR": 4,
+    "BFM": 2,
     "AAR": 2,
     "BSA": 2,
-    "BFM": 1,
     "STRIKE": 1
    },
    "skills": [
@@ -165,28 +165,35 @@
     {
      "name": "1 V 2 ACM",
      "type": "A-A",
-     "score": 8.2,
-     "max": 10,
-     "qualified": true
-    },
-    {
-     "name": "Missile Kinematics",
-     "type": "A-A",
-     "score": 8.2,
-     "max": 10,
-     "qualified": true
-    },
-    {
-     "name": "Notching",
-     "type": "A-A",
-     "score": 8.2,
+     "score": 7.8,
      "max": 10,
      "qualified": true
     },
     {
      "name": "Basic Fighter Maneuver (BFM)",
      "type": "BFM",
-     "score": 8.0,
+     "score": 7.8,
+     "max": 10,
+     "qualified": true
+    },
+    {
+     "name": "Missile Kinematics",
+     "type": "A-A",
+     "score": 7.8,
+     "max": 10,
+     "qualified": true
+    },
+    {
+     "name": "Notching",
+     "type": "A-A",
+     "score": 7.8,
+     "max": 10,
+     "qualified": true
+    },
+    {
+     "name": "Tactical Turns / Formation",
+     "type": "BFM",
+     "score": 7.8,
      "max": 10,
      "qualified": true
     },
@@ -194,13 +201,6 @@
      "name": "SEAD",
      "type": "SEAD",
      "score": 7.2,
-     "max": 10,
-     "qualified": true
-    },
-    {
-     "name": "Tactical Turns / Formation",
-     "type": "BFM",
-     "score": 4.0,
      "max": 10,
      "qualified": true
     }
@@ -218,9 +218,34 @@
      "code": "SAT-1",
      "status": "in_progress",
      "instructors": []
+    },
+    {
+     "title": "Basic Fighter Maneuver",
+     "code": "BFM-1",
+     "status": "ready",
+     "instructors": []
     }
    ],
    "history": [
+    {
+     "op": "op-58f8dd349766",
+     "date": "2026-11-27",
+     "name": "BFM practice 2v2 · 22:38Z",
+     "types": [
+      "BFM",
+      "A-A",
+      "BVR"
+     ],
+     "training": true,
+     "score": 78.0,
+     "grade": "B",
+     "air_kills": 5,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 8,
+     "minutes": 36,
+     "highlight": "Beat MeGaTron in Round 10 (259 s, AIM-9 splash at 0.9 nm for a PK=100% kill) after 248 s of patience — excellent range discipline on the shot, waited until inside 1 nm before triggering."
+    },
     {
      "op": "op-8ab1b43cc787",
      "date": "2026-11-26",
@@ -1072,50 +1097,97 @@
     "F/A-18C Hornet"
    ],
    "bio": "",
-   "missions": 2,
-   "score": 121.0,
-   "average": 60.5,
-   "best": 65.0,
-   "air_kills": 12,
+   "missions": 3,
+   "score": 191.0,
+   "average": 63.7,
+   "best": 70.0,
+   "air_kills": 18,
    "ground_kills": 0,
    "friendly_kills": 0,
-   "deaths": 7,
-   "hours": 1.5,
-   "last_flown": "2026-11-26",
+   "deaths": 10,
+   "hours": 2.0,
+   "last_flown": "2026-11-27",
    "grades": {
-    "C": 1,
+    "C": 2,
     "F": 1
    },
    "mission_types": {
-    "BVR": 2,
-    "A-A": 1
+    "BVR": 3,
+    "A-A": 2,
+    "BFM": 1
    },
    "skills": [
     {
      "name": "1 V 2 ACM",
      "type": "A-A",
-     "score": 6.5,
+     "score": 7.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Basic Fighter Maneuver (BFM)",
+     "type": "BFM",
+     "score": 7.0,
      "max": 10,
      "qualified": false
     },
     {
      "name": "Missile Kinematics",
      "type": "A-A",
-     "score": 6.5,
+     "score": 7.0,
      "max": 10,
      "qualified": false
     },
     {
      "name": "Notching",
      "type": "A-A",
-     "score": 6.5,
+     "score": 7.0,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Tactical Turns / Formation",
+     "type": "BFM",
+     "score": 7.0,
      "max": 10,
      "qualified": false
     }
    ],
    "qualifications": 0,
-   "courses": [],
+   "courses": [
+    {
+     "title": "Basic Fighter Maneuver",
+     "code": "BFM-1",
+     "status": "ready",
+     "instructors": []
+    },
+    {
+     "title": "Beyond Visual Range",
+     "code": "BVR-1",
+     "status": "ready",
+     "instructors": []
+    }
+   ],
    "history": [
+    {
+     "op": "op-58f8dd349766",
+     "date": "2026-11-27",
+     "name": "BFM practice 2v2 · 22:38Z",
+     "types": [
+      "BFM",
+      "A-A",
+      "BVR"
+     ],
+     "training": true,
+     "score": 70.0,
+     "grade": "C",
+     "air_kills": 6,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 3,
+     "minutes": 31,
+     "highlight": "Rounds 19–25 vs Sword: won 4 of 7 engagements using an aggressive offensive game — 68% offensive in round 20 (round 20 BFM data: 151 s offensive out of 231 s total) showing the ability to seize and hold the saddle once inside."
+    },
     {
      "op": "op-8ab1b43cc787",
      "date": "2026-11-26",
@@ -3565,33 +3637,33 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 41,
-   "score": 2592.0,
-   "average": 63.1,
+   "missions": 42,
+   "score": 2674.0,
+   "average": 63.6,
    "best": 104.0,
-   "air_kills": 20,
+   "air_kills": 30,
    "ground_kills": 3,
    "friendly_kills": 0,
-   "deaths": 28,
-   "hours": 27.9,
-   "last_flown": "2026-11-18",
+   "deaths": 30,
+   "hours": 29.0,
+   "last_flown": "2026-11-27",
    "grades": {
-    "B": 7,
+    "B": 8,
     "C": 17,
     "D": 9,
     "F": 4,
     "A": 4
    },
    "mission_types": {
+    "BFM": 11,
+    "A-A": 10,
     "SEAD": 10,
     "CCIP": 10,
-    "BFM": 10,
-    "A-A": 9,
     "TRAINING": 8,
     "STRAFE": 5,
     "FORMATION": 4,
+    "BVR": 3,
     "CAS": 3,
-    "BVR": 2,
     "BSA": 2,
     "STRIKE": 1
    },
@@ -3611,9 +3683,16 @@
      "qualified": true
     },
     {
+     "name": "Missile Kinematics",
+     "type": "A-A",
+     "score": 8.2,
+     "max": 10,
+     "qualified": true
+    },
+    {
      "name": "Tactical Turns / Formation",
      "type": "BFM",
-     "score": 9.0,
+     "score": 8.2,
      "max": 10,
      "qualified": true
     },
@@ -3625,23 +3704,23 @@
      "qualified": true
     },
     {
-     "name": "Missile Kinematics",
-     "type": "A-A",
-     "score": 8.0,
-     "max": 10,
-     "qualified": true
-    },
-    {
      "name": "1 V 2 ACM",
      "type": "A-A",
-     "score": 8.0,
+     "score": 8.2,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Basic Fighter Maneuver (BFM)",
+     "type": "BFM",
+     "score": 8.2,
      "max": 10,
      "qualified": false
     },
     {
      "name": "Notching",
      "type": "A-A",
-     "score": 8.0,
+     "score": 8.2,
      "max": 10,
      "qualified": false
     },
@@ -3651,17 +3730,16 @@
      "score": 7.2,
      "max": 10,
      "qualified": false
-    },
-    {
-     "name": "Basic Fighter Maneuver (BFM)",
-     "type": "BFM",
-     "score": 6.0,
-     "max": 10,
-     "qualified": false
     }
    ],
    "qualifications": 5,
    "courses": [
+    {
+     "title": "Surface Attack Tactics",
+     "code": "SAT-1",
+     "status": "in_progress",
+     "instructors": []
+    },
     {
      "title": "Basic Fighter Maneuver",
      "code": "BFM-1",
@@ -3673,15 +3751,28 @@
      "code": "BVR-1",
      "status": "ready",
      "instructors": []
-    },
-    {
-     "title": "Surface Attack Tactics",
-     "code": "SAT-1",
-     "status": "in_progress",
-     "instructors": []
     }
    ],
    "history": [
+    {
+     "op": "op-58f8dd349766",
+     "date": "2026-11-27",
+     "name": "BFM practice 2v2 · 22:38Z",
+     "types": [
+      "BFM",
+      "A-A",
+      "BVR"
+     ],
+     "training": true,
+     "score": 82.0,
+     "grade": "B",
+     "air_kills": 10,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 2,
+     "minutes": 68,
+     "highlight": "Dominant BFM record vs Omar across 12 solo rounds (9W–1L–2D in rounds 1-12/14-15): maintained offensive pressure and converted gun saddles consistently, averaging ~40 s offensive time per engagement."
+    },
     {
      "op": "op-240976a622b4",
      "date": "2026-11-18",
@@ -5511,51 +5602,66 @@
     "F-16C Viper"
    ],
    "bio": "",
-   "missions": 17,
-   "score": 844.2,
-   "average": 52.8,
+   "missions": 18,
+   "score": 909.2,
+   "average": 53.5,
    "best": 80.0,
    "air_kills": 19,
    "ground_kills": 1,
    "friendly_kills": 0,
-   "deaths": 17,
-   "hours": 17.0,
-   "last_flown": "2026-11-26",
+   "deaths": 28,
+   "hours": 18.5,
+   "last_flown": "2026-11-27",
    "grades": {
-    "C": 3,
+    "C": 4,
     "B": 2,
     "F": 3,
     "D": 8
    },
    "mission_types": {
-    "A-A": 7,
-    "BVR": 6,
+    "A-A": 8,
+    "BVR": 7,
     "SEAD": 5,
     "CCIP": 3,
     "STRAFE": 3,
     "AAR": 2,
     "FORMATION": 2,
-    "CAS": 2
+    "CAS": 2,
+    "BFM": 1
    },
    "skills": [
     {
      "name": "1 V 2 ACM",
      "type": "A-A",
-     "score": 5.9,
+     "score": 6.5,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Basic Fighter Maneuver (BFM)",
+     "type": "BFM",
+     "score": 6.5,
      "max": 10,
      "qualified": false
     },
     {
      "name": "Missile Kinematics",
      "type": "A-A",
-     "score": 5.9,
+     "score": 6.5,
      "max": 10,
      "qualified": false
     },
     {
      "name": "Notching",
      "type": "A-A",
-     "score": 5.9,
+     "score": 6.5,
+     "max": 10,
+     "qualified": false
+    },
+    {
+     "name": "Tactical Turns / Formation",
+     "type": "BFM",
+     "score": 6.5,
      "max": 10,
      "qualified": false
     },
@@ -5572,18 +5678,30 @@
      "score": 4.2,
      "max": 10,
      "qualified": false
-    },
-    {
-     "name": "Basic Fighter Maneuver (BFM)",
-     "type": "BFM",
-     "score": 2.5,
-     "max": 10,
-     "qualified": false
     }
    ],
    "qualifications": 0,
    "courses": [],
    "history": [
+    {
+     "op": "op-58f8dd349766",
+     "date": "2026-11-27",
+     "name": "BFM practice 2v2 · 22:38Z",
+     "types": [
+      "BFM",
+      "A-A",
+      "BVR"
+     ],
+     "training": true,
+     "score": 65.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 11,
+     "minutes": 88,
+     "highlight": "Showed up for every round — 15 BFM engagements against MeGaTron plus rounds 13/16 in multi-ship: total BFM flight time across all slots exceeds 60 min of actual airtime, demonstrating outstanding persistence and commitment to learning."
+    },
     {
      "op": "op-8ab1b43cc787",
      "date": "2026-11-26",
@@ -10768,6 +10886,121 @@
   }
  ],
  "operations": [
+  {
+   "id": "op-58f8dd349766",
+   "date": "2026-11-27",
+   "name": "BFM practice 2v2 · 22:38Z",
+   "kind": "automatic",
+   "types": [
+    "BFM",
+    "A-A",
+    "BVR"
+   ],
+   "personal": true,
+   "training": true,
+   "brief": "",
+   "narrative": "This was an extended BFM and 1v1/2v1 PVP training session on the Sinai map, running 27 rounds over approximately two hours of continuous BFM action. MeGaTron dominated the first half of the session against Omar, winning 9 of 12 solo rounds with consistent offensive conversions — his ability to get to the bandit's six and stay there is clearly improving from prior sorties. The standout tactical moment was Round 5, where MeGaTron held a 47-second gun saddle and fired 77 rounds; the problem is none connected, which is the defining weakness of his BFM game this session. Omar, by contrast, spent nearly every engagement entirely defensive or cold, achieving 0% offensive time in nine of fifteen solo rounds — he is not yet converting the merge into an offensive opportunity. However, Omar's persistence across fifteen contested engagements against a pilot who consistently outpoints him demonstrates exactly the attitude that builds proficiency over time, and the instructor has directed that persistence be credited accordingly. When Sword entered at Round 10, he immediately showed his more experienced pedigree — a patient 259-second engagement ending with a close-range AIM-9 kill after 248 seconds of positioning, which is the correct use of a short-range IR missile inside 1 nm. The subsequent 2v1 (Round 13, 645 s) saw Sword and Omar combine to press MeGaTron, ultimately with Sword delivering the kill — the longest and most tactically complex round of the session. The Borhms-vs-Sword series from Rounds 19–27 was competitive and revealing: Borhms' aggressive offensive game won four of the first six bouts, but Sword reversed the trend in Rounds 26 and 27 with better energy management. Gun accuracy remains zero across all pilots this session — a systemic issue that must be addressed before the next BFM block. No friendly kills, no deck or landing penalties applied per instructor directive.",
+   "lessons": [
+    "Gun discipline: every pilot fired hundreds of rounds and scored zero hits. The common failure is pulling the trigger from the saddle before achieving proper lead picture — mandatory dry-fire trigger discipline drill (wait for the pipper to stabilise on the target silhouette for ≥0.5 s before firing) must precede the next live BFM block.",
+    "Merge energy management: multiple pilots (MeGaTron in Round 10, Sword in Rounds 19–22, Borhms in the Sword series) arrived at the merge with below-corner airspeed and immediately ceded the offensive — brief the entry airspeed and altitude band before each round (530–580 kt at 8,000–10,000 ft for the F-16 BFM arena) and enforce it.",
+    "Offensive initiation for defensive pilots (Omar): spending 80–100% of time cold or neutral is not 'surviving' — it is losing slowly. Omar must be given a specific task each round: 'your job is to achieve at least 15 seconds offensive time before the round ends.' Measure and brief this metric each debrief."
+   ],
+   "card": {},
+   "teams": [],
+   "results": [
+    {
+     "callsign": "Megatron",
+     "member": true,
+     "squadron": "272 TFW",
+     "score": 82.0,
+     "grade": "B",
+     "air_kills": 10,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 2,
+     "minutes": 68,
+     "highlights": [
+      "Dominant BFM record vs Omar across 12 solo rounds (9W–1L–2D in rounds 1-12/14-15): maintained offensive pressure and converted gun saddles consistently, averaging ~40 s offensive time per engagement.",
+      "Round 5 gunfight: achieved 47 s saddle time and fired 77 rounds at merge alt ~9,000 ft — textbook conversion from corner speed to sustained gun track."
+     ],
+     "improvements": [
+      "Gun accuracy was 0% across all rounds despite hundreds of rounds fired; saddle time is not translating to hits — trigger discipline and lead computation need dedicated dry-fire review.",
+      "Round 10 loss to Sword (259 s, 54 s defensive, only 2 s offensive): failed to handle the 1v1 role reversal — energy got down to 169 kt min recorded, spent 18 s energy-poor. Must maintain airspeed discipline when switching opponents."
+     ],
+     "note": "Dominant BFM record (9W-1L-2D vs Omar) with strong saddle conversion, but zero gun hits from 300+ rounds fired — when you can hold the saddle this long, hitting the target must be the next milestone."
+    },
+    {
+     "callsign": "Sword",
+     "member": true,
+     "squadron": "EFWS \"THE MASTERS\"",
+     "score": 78.0,
+     "grade": "B",
+     "air_kills": 5,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 8,
+     "minutes": 36,
+     "highlights": [
+      "Beat MeGaTron in Round 10 (259 s, AIM-9 splash at 0.9 nm for a PK=100% kill) after 248 s of patience — excellent range discipline on the shot, waited until inside 1 nm before triggering.",
+      "Beat Borhms in Round 27 (273 s, 48 s offensive, 14 s saddle, gun kill) demonstrating that when energy is managed correctly Sword can dominate the prolonged turning fight."
+     ],
+     "improvements": [
+      "Rounds 19–25 vs Borhms: went 0–4 before reversing — Sword was consistently losing the first 90 s of each fight, spending 68% of time defensive. Entry to the merge needs work: Sword arrived low-energy (min 80 kt in round 22 slot) and immediately ceded the offensive.",
+      "Max G hit 12.9 g in round 27 — far above the F-16 9 g structural limit. Even waived for scoring, repeated over-limit pulls risk in-game system failures and train bad habits; must learn to cap pull at corner speed."
+     ],
+     "note": "Classy AIM-9 kill at 0.9 nm and a gun kill on Borhms in Round 27 prove the talent is there, but four straight losses to Borhms before reversing shows energy management at the merge still needs work."
+    },
+    {
+     "callsign": "Bonkizzle",
+     "member": true,
+     "squadron": "",
+     "score": 70.0,
+     "grade": "C",
+     "air_kills": 6,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 3,
+     "minutes": 31,
+     "highlights": [
+      "Rounds 19–25 vs Sword: won 4 of 7 engagements using an aggressive offensive game — 68% offensive in round 20 (round 20 BFM data: 151 s offensive out of 231 s total) showing the ability to seize and hold the saddle once inside.",
+      "Round 26 (215 s): demonstrated patience trading offensive/defensive evenly (79 s each), absorbed gun hits, and won — indicates improving fight awareness even under pressure."
+     ],
+     "improvements": [
+      "Round 17 lasted only 10 s — Borhms apparently died almost immediately after spawn, indicating a situational awareness failure at the merge entry. Must scan and sort the threat before committing to the merge.",
+      "Formation discipline when flying with MeGaTron (rounds 16/13): formation score 0–0.78 (effectively zero); Borhms was 81–95% 'none' type — always out of position relative to lead. Must practise rejoining: best join recorded 6 s, worst 34 s — the 34 s gaps in a 2v2 scenario leave lead unsupported."
+     ],
+     "note": "New pilot who surprised by winning four consecutive rounds against a more experienced opponent through sheer offensive aggression — now needs to add energy awareness and formation discipline to make that aggression sustainable."
+    },
+    {
+     "callsign": "Omar",
+     "member": true,
+     "squadron": "292 TFW \"EGYPT SNIPER\"",
+     "score": 65.0,
+     "grade": "C",
+     "air_kills": 0,
+     "ground_kills": 0,
+     "friendly_kills": 0,
+     "deaths": 11,
+     "minutes": 88,
+     "highlights": [
+      "Showed up for every round — 15 BFM engagements against MeGaTron plus rounds 13/16 in multi-ship: total BFM flight time across all slots exceeds 60 min of actual airtime, demonstrating outstanding persistence and commitment to learning.",
+      "Round 15 (400 s, merge at 9,117 ft/625 kt): went 16% offensive with 70 s offensive time and fired gun on the merge — showed the most aggressive posture of the session with 3 g of deck busts, indicating willingness to press low; round survived without a death, an improvement."
+     ],
+     "improvements": [
+      "Offensive percentage was 0% in 9 of 15 solo rounds — Omar is spending almost all time in neutral or cold, never finding a firing solution. Must practise the initial turn fight: get to the bandit's 6 o'clock within the first 60 s.",
+      "AIM-9 employment: 0 hits from roughly 20 missiles fired (all rounds combined). Shots are going off-boresight ('Unknown' target on most) indicating no tone before trigger pull — wait for growl and sight picture before firing."
+     ],
+     "note": "Zero kills and 0% offensive in most rounds, but showed up for every single one — the persistence credit is earned, and the work ethic is the foundation everything else will be built on."
+    }
+   ],
+   "pilots": 4,
+   "average": 73.8,
+   "air_kills": 21,
+   "ground_kills": 0,
+   "instructor": "Sword",
+   "patches": [],
+   "report": "reports/op-58f8dd349766.html"
+  },
   {
    "id": "op-8ab1b43cc787",
    "date": "2026-11-26",
