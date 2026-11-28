@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T00:34:41+00:00",
+ "generated": "2026-11-28T00:35:41+00:00",
  "squadron": {
   "name": "Virtual Egyptian Air Force",
   "motto": "الشرف - الواجب - الوطن",
@@ -999,9 +999,9 @@
     }
    ],
    "logbook": {
-    "hours": 10.2,
+    "hours": 10.3,
     "by_aircraft": {
-     "F-16C Viper": 10.2
+     "F-16C Viper": 10.3
     },
     "by_map": {
      "SinaiMap": 7.9,
@@ -1047,7 +1047,7 @@
    },
    "rank_order": 3,
    "active_days": 2,
-   "active_hours": 1.1,
+   "active_hours": 1.2,
    "active_sorties": 14,
    "active_ops": 2,
    "last_active": "2026-11-28",
@@ -1153,7 +1153,7 @@
     }
    ],
    "logbook": {
-    "hours": 1.1,
+    "hours": 1.2,
     "by_aircraft": {
      "F/A-18C Hornet": 0.9,
      "F-16C Viper": 0.3
